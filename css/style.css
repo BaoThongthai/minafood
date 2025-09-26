@@ -1,4 +1,21 @@
+/* điểu chỉnh lại màu */
+:root{
+  --bs-primary:  #1f3353;   /* xanh thương hiệu bạn vừa lấy từ hình */
+  --bs-secondary:#EA9A3B;   /* cam thương hiệu nếu dùng */
+}
 
+/* đảm bảo một số thành phần lấy đúng màu */
+.text-primary    { color: var(--bs-primary) !important; }
+.bg-primary      { background: var(--bs-primary) !important; }
+.border-primary  { border-color: var(--bs-primary) !important; }
+
+/* nút back-to-top đang chưa set màu → thêm cho đồng bộ */
+.back-to-top{
+  background: var(--bs-primary);
+  color:#fff;
+  border-radius:50%;
+}
+.back-to-top:hover{ filter: brightness(.95); }
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
@@ -394,7 +411,18 @@
     background: var(--bs-secondary);
 }
 /*** Banner Section End ***/
+.about-mina .btn-warning {
+  background:#EA9A3B;
+  border-color:#EA9A3B;
+  color:#fff;
+  transition: all 0.25s ease;
+}
 
+.about-mina .btn-warning:hover {
+  background:#fff;                /* nền trắng */
+  color:#1f354b;                  /* xanh thương hiệu */
+  border-color:#1f354b;           /* viền xanh thương hiệu */
+}
 
 /*** Facts Start ***/
 .counter {
