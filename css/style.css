@@ -544,3 +544,36 @@
   .service-title{ color:#114070; }             /* màu tiêu đề (tùy chỉnh) */
   .service-cta{ color:#f59f00; font-weight:600; text-decoration:none; }
   .service-cta:hover{ color:#d98b00; }
+  /* coede thêm */
+  .hero-section {
+    position: relative;
+    background: url('https://minafood.cz/wp-content/uploads/2024/03/kitchen-with-large-window.png') center center/cover no-repeat;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55); /* lớp tối mờ */
+  }
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    
+  }
+  .btn-orange {
+    background-color: #f57c00; /* cam */
+    color: #fff ; 
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 6px;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  .btn-orange:hover {
+    background-color: #fff;
+    color: #114070; /* xanh thương hiệu */
+  }
