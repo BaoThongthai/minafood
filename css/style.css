@@ -577,3 +577,47 @@
     background-color: #fff;
     color: #114070; /* xanh thương hiệu */
   }
+
+  /* đoạn code các khách hàng */
+  /* === Partners === */
+.partners-section{
+  /* nền ảnh + lớp phủ xanh đậm */
+  background:
+    linear-gradient(rgba(31,51,83,.92), rgba(31,51,83,.92)),
+    url("img/partners/bg-kitchen.jpg") center/cover no-repeat;
+  border-top: 1px solid rgba(255,255,255,.08);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.partner-card{
+  background:#ffffff;
+  border-radius:12px;
+  padding:22px 24px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:92px;                 /* chiều cao tối thiểu như mockup */
+  box-shadow: 0 2px 10px rgba(0,0,0,.10);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+  border:1px solid rgba(0,0,0,.06);
+    overflow:hidden;  
+}
+.partner-card:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 10px 26px rgba(0,0,0,.18);
+  border-color: rgba(31,51,83,.18); /* nhấn theo màu thương hiệu */
+}
+
+.partner-logo{
+  max-height:38px;                 /* CHÌA KHOÁ: tất cả logo cùng chiều cao */
+  max-width: 100%;                 /* không vượt bề ngang card */
+  width:auto;                      /* tránh kéo dãn ngang */
+  height:auto;                     /* giữ tỉ lệ */
+  object-fit:contain;              /* đảm bảo không bị crop */
+  display:block;                   /* loại bỏ khoảng trắng baseline */                 /* nếu muốn xám → dùng filter:grayscale(100%); */
+}
+
+/* khoảng cách tổng thể trên mobile nhỏ hơn một chút */
+@media (max-width: 575.98px){
+  .partners-section{ padding-top: 2.5rem; padding-bottom: 2.5rem; }
+}
