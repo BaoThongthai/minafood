@@ -323,10 +323,22 @@
 }
 
 .fruite .fruite-item .fruite-img {
+    aspect-ratio: 1 / 1;          /* ép khung thành vuông */
     overflow: hidden;
     transition: 0.5s;
     border-radius: 10px 10px 0 0;
+    display: flex;                /* căn giữa ảnh nếu cần */
+    align-items: center;
+    justify-content: center;
 }
+
+.fruite .fruite-item .fruite-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;            /* ảnh crop vừa khung, không méo */
+    transition: 0.5s;
+}
+
 
 .fruite .fruite-item .fruite-img img {
     transition: 0.5s;
