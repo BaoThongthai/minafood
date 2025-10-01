@@ -621,3 +621,13 @@
 @media (max-width: 575.98px){
   .partners-section{ padding-top: 2.5rem; padding-bottom: 2.5rem; }
 }
+
+
+  /* Ẩn sản phẩm dư, chỉ hiện 4 cái đầu */
+  .product-item {
+    display: none;
+  }
+  .product-item.show {
+    display: block;
+  }
+
