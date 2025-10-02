@@ -47,8 +47,41 @@
       "about.text2": "Provádíme precizní montáže vzduchotechniky a plynových sporáků, abyste mohli vařit s maximální efektivitou a bezpečností.",
       "about.text3": "Nabízíme také prodej špičkového profesionálního nádobí a vybavení pro restaurace a bistra, abyste měli k dispozici to nejlepší pro svůj podnik. Pokud uvažujete o prodeji své restaurace, jsme tu pro vás s naším službou výkupu podniků. Spolehlivě a s důrazem na vaše potřeby.",
       "about.text4": "Jsme vaše komplexní řešení pro gastronomii!",
-      "about.cta": "Kontakt"
+      "about.cta": "Kontakt",
+      "inox.title": "Výroba nerezového nábytku na míru",
+      "inox.text": "Pro restaurace a gastro podniky také dodáváme a vyrábíme nerezový nábytek přímo na míru vašich požadavků a specifikací. Spojte se s námi pro nezávaznou konzultaci s našimi specialisty",
+      "portfolio.title": "Naše práce a reference",
+      "portfolio.text": "Podívejte se na jedny z našich posledních prací a zakázek, které jsme kompletně realizovali od A-Z pro naše zákazníky",
+      "sections.categoriesTitle": "Kategorie produktů",
+
+      "tabs.gasStoves": "Plynový sporáky",
+  "tabs.fryers": "Fritézy",
+  "tabs.gastroContainers": "Gastro nádoby",
+  "tabs.grillPlates": "Grilovací desky",
+  "tabs.cooling": "Chlazení",
+  "tabs.pastaCookers": "Vařiče těstovin",
+  "tabs.steelPots": "Nerezové hrnce",
+  "tabs.meatProcessing": "Zpracování masa",
+  "tabs.barTech": "Barová technika",
+  "tabs.washingTech": "Mycí technika",
+  "tabs.furniture": "Nábytek",
+  "tabs.steelFurniture": "Nerezový nábytek",
+  "tabs.pastry": "Pro cukráře",
+  "tabs.glassPorcelain": "Sklo a porcelán",
+  "tabs.kebabGrill1": "Gril na kebab",
+  "tabs.kebabGrill2": "Gril na kebab",
+  "tabs.inductionCookers": "Indukční vařiče",
+  "tabs.hoods": "Digestoře",
+  "tabs.kitchenEquip": "Kuchyňské vybavení",
+
+
+
+
+
+
+
     },
+
     en: {
       "nav.home": "Home",
       "nav.shop": "E-Shop",
@@ -92,7 +125,35 @@
       "about.text2": "We provide precise installation of ventilation systems and gas stoves so you can cook with maximum efficiency and safety.",
       "about.text3": "We also offer the sale of top professional cookware and equipment for restaurants and bistros, so you have the best for your business. If you are considering selling your restaurant, we are here for you with our business buyout service. Reliable and tailored to your needs.",
       "about.text4": "We are your comprehensive solution for gastronomy!",
-      "about.cta": "Contact"
+      "about.cta": "Contact",
+      "inox.title": "Custom stainless steel furniture production",
+      "inox.text": "For restaurants and gastro businesses, we also supply and manufacture stainless steel furniture tailored to your requirements and specifications. Contact us for a free consultation with our specialists.",
+      "portfolio.title": "Our work and references",
+      "portfolio.text": "Take a look at some of our recent projects and contracts that we have fully completed from A to Z for our customers",
+      "sections.categoriesTitle": "Product Categories"
+,
+ "tabs.gasStoves": "Gas stoves",
+  "tabs.fryers": "Fryers",
+  "tabs.gastroContainers": "Gastro containers",
+  "tabs.grillPlates": "Grill plates",
+  "tabs.cooling": "Cooling",
+  "tabs.pastaCookers": "Pasta cookers",
+  "tabs.steelPots": "Stainless steel pots",
+  "tabs.meatProcessing": "Meat processing",
+  "tabs.barTech": "Bar technology",
+  "tabs.washingTech": "Washing technology",
+  "tabs.furniture": "Furniture",
+  "tabs.steelFurniture": "Stainless steel furniture",
+  "tabs.pastry": "For confectioners",
+  "tabs.glassPorcelain": "Glass and porcelain",
+  "tabs.kebabGrill1": "Kebab grill",
+  "tabs.kebabGrill2": "Kebab grill",
+  "tabs.inductionCookers": "Induction cookers",
+  "tabs.hoods": "Extractor hoods",
+  "tabs.kitchenEquip": "Kitchen equipment",
+
+
+
     }
   };
 
