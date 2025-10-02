@@ -177,9 +177,16 @@
                         <form action="" class="">
                             <input type="text" class="w-100 form-control border-0 py-3 mb-4"
                                 placeholder="Jméno & Příjmení">
-                            <input type="email" class="w-100 form-control border-0 py-3 mb-4"
-                                placeholder="Enter Your Email">
-                            <input type="email" class="w-100 form-control border-0 py-3 mb-4" placeholder="Telefon">
+                            <!-- Hàng chứa email + điện thoại -->
+                            <div class="row g-3 mb-4">
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control border-0 py-3 h-100"
+                                        placeholder="Enter Your Email">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control border-0 py-3 h-100" placeholder="Telefon">
+                                </div>
+                            </div>
                             <textarea class="w-100 form-control border-0 mb-4" rows="5" cols="10"
                                 placeholder="Zpráva"></textarea>
                             <button class="w-100 btn form-control border-secondary py-3 bg-white text-primary "
