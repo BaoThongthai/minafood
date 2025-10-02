@@ -588,194 +588,304 @@
 
 
 
+
+
                 <div class="tab-content">
                     <!-- Plynový start -->
                     <div id="tab-1" class="tab-pane fade show p-0 active">
                         <div class="row g-4">
                             <div class="col-lg-12">
                                 <div class="row g-4">
+                                    <!-- sp1 -->
                                     <div class="col-md-6 col-lg-4 col-xl-3">
                                         <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img ">
+                                            <div class="fruite-img">
                                                 <img src="img/Plynovy/bep1.png"
                                                     class="img-fluid w-100 rounded-top border border-secondary" alt="">
                                             </div>
+
+                                            <!-- Badge danh mục -->
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
-                                                style="top: 10px; left: 10px;">Plynový sporáky</div>
+                                                style="top: 10px; left: 10px;" data-i18n="prod.gasStoves.badge">
+                                                Plynový sporáky
+                                            </div>
+
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Plynový sporáky</h4>
-                                                <p>Sporák plynový 1 hořák</p>
+                                                <!-- Tiêu đề sp -->
+                                                <h4 data-i18n="prod.gasStoves.title">Plynový sporáky</h4>
+
+                                                <!-- Mô tả sp -->
+                                                <p data-i18n="prod.gasStoves.desc">Sporák plynový 1 hořák</p>
+
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0"> 70000,00 Kč bez DPH </p>
+                                                    <!-- Giá: giữ nguyên, nếu muốn dịch “bez DPH” thì tách span riêng -->
+                                                    <p class="text-dark fs-5 fw-bold mb-0">
+                                                        70000 <span data-i18n="prod.vatExcl"> Kč bez DPH</span>
+                                                    </p>
+
+                                                    <!-- Nút: giữ icon, text nằm trong span có data-i18n -->
                                                     <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                        class="btn border border-secondary rounded-pill px-3 text-primary">
+                                                        <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                                                        <span data-i18n="buttons.addToCart">Add to Cart</span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
+                                    <!-- sp2 -->
                                     <div class="col-md-6 col-lg-4 col-xl-3">
                                         <div class="rounded position-relative fruite-item">
                                             <div class="fruite-img">
                                                 <img src="img/Plynovy/bep2.png"
                                                     class="img-fluid w-100 rounded-top border border-secondary" alt="">
                                             </div>
+
+                                            <!-- Reuse: badge -->
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
-                                                style="top: 10px; left: 10px;">Plynový sporáky</div>
+                                                style="top: 10px; left: 10px;" data-i18n="prod.gasStoves.badge">
+                                                Plynový sporáky
+                                            </div>
+
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Plynový sporáky</h4>
-                                                <p>Sporák plynový 2 hořáky
-                                                </p>
+                                                <!-- Reuse: title -->
+                                                <h4 data-i18n="prod.gasStoves.title">Plynový sporáky</h4>
+
+                                                <!-- New desc key for 2 hořáky -->
+                                                <p data-i18n="prod.gasStoves.desc_2">Sporák plynový 2 hořáky</p>
+
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">95000,00 Kč bez DPH</p>
+                                                    <p class="text-dark fs-5 fw-bold mb-0">
+                                                        95000 <span data-i18n="prod.vatExcl">Kč bez DPH</span>
+                                                    </p>
+
                                                     <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                        class="btn border border-secondary rounded-pill px-3 text-primary">
+                                                        <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                                                        <span data-i18n="buttons.addToCart">Add to Cart</span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
+                                    <!-- sp3 -->
                                     <div class="col-md-6 col-lg-4 col-xl-3">
                                         <div class="rounded position-relative fruite-item">
                                             <div class="fruite-img">
                                                 <img src="img/Plynovy/bep3.png"
                                                     class="img-fluid w-100 rounded-top border border-secondary" alt="">
                                             </div>
+
+                                            <!-- Badge tái dùng -->
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
-                                                style="top: 10px; left: 10px;">Plynový sporáky</div>
+                                                style="top: 10px; left: 10px;" data-i18n="prod.gasStoves.badge">
+                                                Plynový sporáky
+                                            </div>
+
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Plynový sporáky</h4>
-                                                <p>Sporák plynový 3 hořáky
-                                                </p>
+                                                <!-- Tiêu đề tái dùng -->
+                                                <h4 data-i18n="prod.gasStoves.title">Plynový sporáky</h4>
+
+                                                <!-- Mô tả mới -->
+                                                <p data-i18n="prod.gasStoves.desc_3">Sporák plynový 3 hořáky</p>
+
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">120000,00 Kč bez DPH</p>
+                                                    <p class="text-dark fs-5 fw-bold mb-0">
+                                                        120000 <span data-i18n="prod.vatExcl">Kč bez DPH</span>
+                                                    </p>
+
                                                     <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                        class="btn border border-secondary rounded-pill px-3 text-primary">
+                                                        <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                                                        <span data-i18n="buttons.addToCart">Add to Cart</span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
+                                    <!-- sp4 -->
                                     <div class="col-md-6 col-lg-4 col-xl-3">
                                         <div class="rounded position-relative fruite-item">
                                             <div class="fruite-img">
                                                 <img src="img/Plynovy/b4.png"
                                                     class="img-fluid w-100 rounded-top border border-secondary" alt="">
                                             </div>
+
+                                            <!-- Badge tái dùng -->
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
-                                                style="top: 10px; left: 10px;">Plynový sporáky</div>
+                                                style="top: 10px; left: 10px;" data-i18n="prod.gasStoves.badge">
+                                                Plynový sporáky
+                                            </div>
+
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Plynový sporáky</h4>
-                                                <p>Sporák plynový 4 hořáky
-                                                </p>
+                                                <!-- Tiêu đề tái dùng -->
+                                                <h4 data-i18n="prod.gasStoves.title">Plynový sporáky</h4>
+
+                                                <!-- Mô tả riêng cho 4 hořáky -->
+                                                <p data-i18n="prod.gasStoves.desc_4">Sporák plynový 4 hořáky</p>
+
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">150000,00 Kč bez DPH</p>
+                                                    <p class="text-dark fs-5 fw-bold mb-0">
+                                                        150000 <span data-i18n="prod.vatExcl">Kč bez DPH</span>
+                                                    </p>
+
                                                     <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                        class="btn border border-secondary rounded-pill px-3 text-primary">
+                                                        <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                                                        <span data-i18n="buttons.addToCart">Add to Cart</span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
 
+                                    <!-- sp5 -->
                                     <div class="col-md-6 col-lg-4 col-xl-3">
                                         <div class="rounded position-relative fruite-item">
                                             <div class="fruite-img">
                                                 <img src="img/Plynovy/bep5.png"
                                                     class="img-fluid w-100 rounded-top border border-secondary" alt="">
                                             </div>
+
+                                            <!-- Badge tái dùng -->
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
-                                                style="top: 10px; left: 10px;">Plynový sporáky</div>
+                                                style="top: 10px; left: 10px;" data-i18n="prod.gasStoves.badge">
+                                                Plynový sporáky
+                                            </div>
+
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Plynový sporáky</h4>
-                                                <p>Sporák wok 1 hořák LS CC/01
-                                                </p>
+                                                <!-- Title tái dùng -->
+                                                <h4 data-i18n="prod.gasStoves.title">Plynový sporáky</h4>
+
+                                                <!-- Mô tả riêng sp5 -->
+                                                <p data-i18n="prod.gasStoves.desc_5">Sporák wok 1 hořák LS CC/01</p>
+
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">45000,00 Kč bez DPH</p>
+                                                    <p class="text-dark fs-5 fw-bold mb-0">
+                                                        45000 <span data-i18n="prod.vatExcl">Kč bez DPH</span>
+                                                    </p>
+
                                                     <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                        class="btn border border-secondary rounded-pill px-3 text-primary">
+                                                        <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                                                        <span data-i18n="buttons.addToCart">Add to Cart</span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
 
+                                    <!-- sp6 -->
                                     <div class="col-md-6 col-lg-4 col-xl-3">
                                         <div class="rounded position-relative fruite-item">
                                             <div class="fruite-img">
                                                 <img src="img/Plynovy/bep6.png"
                                                     class="img-fluid w-100 rounded-top border border-secondary" alt="">
                                             </div>
+
+                                            <!-- Badge tái dùng -->
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
-                                                style="top: 10px; left: 10px;">Plynový sporáky</div>
+                                                style="top: 10px; left: 10px;" data-i18n="prod.gasStoves.badge">
+                                                Plynový sporáky
+                                            </div>
+
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Plynový sporáky</h4>
-                                                <p>Sporák wok 2 hořáky LS CC/02
-                                                </p>
+                                                <!-- Tiêu đề tái dùng -->
+                                                <h4 data-i18n="prod.gasStoves.title">Plynový sporáky</h4>
+
+                                                <!-- Mô tả riêng cho wok -->
+                                                <p data-i18n="prod.gasStoves.desc_6">Sporák wok 2 hořáky LS CC/02</p>
+
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">
-                                                        75000,00 Kč bez DPH</p>
+                                                        75000 <span data-i18n="prod.vatExcl">Kč bez DPH</span>
+                                                    </p>
+
                                                     <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                        class="btn border border-secondary rounded-pill px-3 text-primary">
+                                                        <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                                                        <span data-i18n="buttons.addToCart">Add to Cart</span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
+                                    <!-- sp7 -->
                                     <div class="col-md-6 col-lg-4 col-xl-3">
                                         <div class="rounded position-relative fruite-item">
                                             <div class="fruite-img">
                                                 <img src="img/Plynovy/bep7.png"
                                                     class="img-fluid w-100 rounded-top border border-secondary" alt="">
                                             </div>
+
+                                            <!-- Badge tái dùng -->
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
-                                                style="top: 10px; left: 10px;">Plynový sporáky</div>
+                                                style="top: 10px; left: 10px;" data-i18n="prod.gasStoves.badge">
+                                                Plynový sporáky
+                                            </div>
+
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Plynový sporáky</h4>
-                                                <p>Sporák wok 3 hořáky LS CC/03
-                                                </p>
+                                                <!-- Title tái dùng -->
+                                                <h4 data-i18n="prod.gasStoves.title">Plynový sporáky</h4>
+
+                                                <!-- Mô tả riêng cho wok 3 hořáky -->
+                                                <p data-i18n="prod.gasStoves.desc_7">Sporák wok 3 hořáky LS CC/03</p>
+
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">90000,00 Kč bez DPH</p>
+                                                    <p class="text-dark fs-5 fw-bold mb-0">
+                                                        90000 <span data-i18n="prod.vatExcl">Kč bez DPH</span>
+                                                    </p>
+
                                                     <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                        class="btn border border-secondary rounded-pill px-3 text-primary">
+                                                        <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                                                        <span data-i18n="buttons.addToCart">Add to Cart</span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
+                                    <!-- sp8 -->
                                     <div class="col-md-6 col-lg-4 col-xl-3">
                                         <div class="rounded position-relative fruite-item">
                                             <div class="fruite-img">
                                                 <img src="img/Plynovy/bep8.png"
                                                     class="img-fluid w-100 rounded-top border border-secondary" alt="">
                                             </div>
+
+                                            <!-- Badge tái dùng -->
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
-                                                style="top: 10px; left: 10px;">Plynový sporáky</div>
+                                                style="top: 10px; left: 10px;" data-i18n="prod.gasStoves.badge">
+                                                Plynový sporáky
+                                            </div>
+
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Plynový sporáky</h4>
-                                                <p>Sporák wok 4 hořáky LS CC/04
-                                                </p>
+                                                <!-- Title tái dùng -->
+                                                <h4 data-i18n="prod.gasStoves.title">Plynový sporáky</h4>
+
+                                                <!-- Mô tả riêng cho wok 4 hořáky -->
+                                                <p data-i18n="prod.gasStoves.desc_8">Sporák wok 4 hořáky LS CC/04</p>
+
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">115000,00 Kč bez DPH</p>
+                                                    <p class="text-dark fs-5 fw-bold mb-0">
+                                                        115000 <span data-i18n="prod.vatExcl"> Kčbez DPH</span>
+                                                    </p>
+
                                                     <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                        class="btn border border-secondary rounded-pill px-3 text-primary">
+                                                        <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                                                        <span data-i18n="buttons.addToCart">Add to Cart</span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
 
                                 </div>
                             </div>
@@ -785,16 +895,21 @@
 
 
                     <div id="tab-2" class="tab-pane fade show p-0">
-                        <p style="color: red;">* V současné době neexistuje žádný odpovídající produkt</p>
+                        <p style="color: red;" data-i18n="messages.noProduct">
+                            * V současné době neexistuje žádný odpovídající produkt
+                        </p>
                     </div>
 
-
                     <div id="tab-3" class="tab-pane fade show p-0">
-                        <p style="color: red;">* V současné době neexistuje žádný odpovídající produkt</p>
+                        <p style="color: red;" data-i18n="messages.noProduct">
+                            * V současné době neexistuje žádný odpovídající produkt
+                        </p>
                     </div>
 
                     <div id="tab-4" class="tab-pane fade show p-0">
-                        <p style="color: red;"> * V současné době neexistuje žádný odpovídající produkt</p>
+                        <p style="color: red;" data-i18n="messages.noProduct">
+                            * V současné době neexistuje žádný odpovídající produkt
+                        </p>
                     </div>
 
 
@@ -1521,10 +1636,11 @@
     <section class="hero-section">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1 class="fw-bold display-6 mb-4" style="color: white;">
-                PODÍVEJTE SE NA<br>CELÝ NÁŠ KATALOG PRODUKTŮ
+            <h1 class="fw-bold display-6 mb-4" style="color: white;" data-i18n="hero.title1">
+                PODÍVEJTE SE NA<br>
+                CELÝ NÁŠ KATALOG PRODUKTŮ
             </h1>
-            <a href="#" class="btn-orange">Zobrazit produkty</a>
+            <a href="#" class="btn-orange" data-i18n="hero.button">Zobrazit produkty</a>
         </div>
     </section>
 
@@ -1535,116 +1651,146 @@
     <!-- Vesitable Shop Start-->
     <div class="container-fluid vesitable py-5">
         <div class="container py-5">
-            <h1 class="mb-0">Nejprodávanější produkty</h1>
+            <h1 class="mb-0" data-i18n="bestsellers.title">Nejprodávanější produkty</h1>
+
             <div class="owl-carousel vegetable-carousel justify-content-center">
+                <!-- Item 1 -->
                 <div class="border border-primary rounded position-relative vesitable-item">
                     <div class="vesitable-img">
                         <img src="img/sanphambanchay/sp1.png" class="img-fluid w-100 rounded-top" alt="">
                     </div>
                     <div class="text-white bg-primary px-3 py-1 rounded position-absolute"
-                        style="top: 10px; right: 10px;">Chlazení</div>
+                        style="top: 10px; right: 10px;" data-i18n="cat.refrigeration">Chlazení</div>
                     <div class="p-4 rounded-bottom">
-                        <h4>Prosklena lednice 3 dverova</h4>
+                        <h4 data-i18n="products.sp1.title">Prosklena lednice 3 dverova</h4>
                         <div class="d-flex justify-content-between flex-lg-wrap">
-                            <p class="text-dark fs-5 fw-bold mb-0">119000,00 Kč bez DPH</p>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            <p class="text-dark fs-5 fw-bold mb-0">119000 Kč bez DPH</p>
+                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary">
+                                <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                                <span data-i18n="buttons.addToCart">Add to cart</span>
+                            </a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Item 2 -->
                 <div class="border border-primary rounded position-relative vesitable-item">
                     <div class="vesitable-img">
                         <img src="img/sanphambanchay/sp2.png" class="img-fluid w-100 rounded-top" alt="">
                     </div>
                     <div class="text-white bg-primary px-3 py-1 rounded position-absolute"
-                        style="top: 10px; right: 10px;">Chlazení</div>
+                        style="top: 10px; right: 10px;" data-i18n="cat.refrigeration">Chlazení</div>
                     <div class="p-4 rounded-bottom">
-                        <h4>Tủ đá nằm 650l/Pultovy mrazak</h4>
+                        <h4 data-i18n="products.sp2.title">Tủ đá nằm 650l/Pultovy mrazak</h4>
                         <div class="d-flex justify-content-between flex-lg-wrap">
-                            <p class="text-dark fs-5 fw-bold mb-0">21000,00 Kč bez DPH</p>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            <p class="text-dark fs-5 fw-bold mb-0">21000 Kč bez DPH</p>
+                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary">
+                                <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                                <span data-i18n="buttons.addToCart">Add to cart</span>
+                            </a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Item 3 -->
                 <div class="border border-primary rounded position-relative vesitable-item">
                     <div class="vesitable-img">
                         <img src="img/sanphambanchay/sp3.png" class="img-fluid w-100 rounded-top bg-light" alt="">
                     </div>
                     <div class="text-white bg-primary px-3 py-1 rounded position-absolute"
-                        style="top: 10px; right: 10px;">Chlazení</div>
+                        style="top: 10px; right: 10px;" data-i18n="cat.refrigeration">Chlazení</div>
                     <div class="p-4 rounded-bottom">
-                        <h4>Tủ mát 4 cửa / Prosklena lednice</h4>
+                        <h4 data-i18n="products.sp3.title">Tủ mát 4 cửa / Prosklena lednice</h4>
                         <div class="d-flex justify-content-between flex-lg-wrap">
-                            <p class="text-dark fs-5 fw-bold mb-0">139000,00 Kč bez DPH</p>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            <p class="text-dark fs-5 fw-bold mb-0">139000 Kč bez DPH</p>
+                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary">
+                                <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                                <span data-i18n="buttons.addToCart">Add to cart</span>
+                            </a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Item 4 -->
                 <div class="border border-primary rounded position-relative vesitable-item">
                     <div class="vesitable-img">
                         <img src="img/sanphambanchay/sp5.png" class="img-fluid w-100 rounded-top" alt="">
                     </div>
                     <div class="text-white bg-primary px-3 py-1 rounded position-absolute"
-                        style="top: 10px; right: 10px;">Sklo a porcelán</div>
+                        style="top: 10px; right: 10px;" data-i18n="cat.glass">Sklo a porcelán</div>
                     <div class="p-4 rounded-bottom">
-                        <h4>Bát phở Ramen 750ml / Ramen bowl 750ml</h4>
+                        <h4 data-i18n="products.sp5.title">Bát phở Ramen 750ml / Ramen bowl 750ml</h4>
                         <div class="d-flex justify-content-between flex-lg-wrap">
-                            <p class="text-dark fs-5 fw-bold mb-0">350,00 Kč bez DPH</p>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            <p class="text-dark fs-5 fw-bold mb-0">350 Kč bez DPH</p>
+                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary">
+                                <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                                <span data-i18n="buttons.addToCart">Add to cart</span>
+                            </a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Item 5 -->
                 <div class="border border-primary rounded position-relative vesitable-item">
                     <div class="vesitable-img">
                         <img src="img/sanphambanchay/sp6.png" class="img-fluid w-100 rounded-top" alt="">
                     </div>
                     <div class="text-white bg-primary px-3 py-1 rounded position-absolute"
-                        style="top: 10px; right: 10px;">Plynový sporáky</div>
+                        style="top: 10px; right: 10px;" data-i18n="cat.gas">Plynový sporáky</div>
                     <div class="p-4 rounded-bottom">
-                        <h4>Sporák plynový 3 hořáky</h4>
+                        <h4 data-i18n="products.sp6.title">Sporák plynový 3 hořáky</h4>
                         <div class="d-flex justify-content-between flex-lg-wrap">
-                            <p class="text-dark fs-5 fw-bold mb-0">120000,00 Kč bez DPH</p>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            <p class="text-dark fs-5 fw-bold mb-0">120000 Kč bez DPH</p>
+                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary">
+                                <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                                <span data-i18n="buttons.addToCart">Add to cart</span>
+                            </a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Item 6 -->
                 <div class="border border-primary rounded position-relative vesitable-item">
                     <div class="vesitable-img">
                         <img src="img/sanphambanchay/sp7.png" class="img-fluid w-100 rounded-top" alt="">
                     </div>
                     <div class="text-white bg-primary px-3 py-1 rounded position-absolute"
-                        style="top: 10px; right: 10px;">Digestoře</div>
+                        style="top: 10px; right: 10px;" data-i18n="cat.hoods">Digestoře</div>
                     <div class="p-4 rounded-bottom">
-                        <h4>Gastro Digestoř Nástěnná (více velikostí)</h4>
+                        <h4 data-i18n="products.sp7.title">Gastro Digestoř Nástěnná (více velikostí)</h4>
                         <div class="d-flex justify-content-between flex-lg-wrap">
-                            <p class="text-dark fs-5 fw-bold mb-0">42000,00 Kč bez DPH</p>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            <p class="text-dark fs-5 fw-bold mb-0">42000 Kč bez DPH</p>
+                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary">
+                                <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                                <span data-i18n="buttons.addToCart">Add to cart</span>
+                            </a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Item 7 -->
                 <div class="border border-primary rounded position-relative vesitable-item">
                     <div class="vesitable-img">
                         <img src="img/sanphambanchay/sp8.png" class="img-fluid w-100 rounded-top" alt="">
                     </div>
                     <div class="text-white bg-primary px-3 py-1 rounded position-absolute"
-                        style="top: 10px; right: 10px;">Zpracování masa</div>
+                        style="top: 10px; right: 10px;" data-i18n="cat.meat">Zpracování masa</div>
                     <div class="p-4 rounded-bottom">
-                        <h4>Máy thái thịt Qx 260/Kráječ masa Qx 260</h4>
+                        <h4 data-i18n="products.sp8.title">Máy thái thịt Qx 260/Kráječ masa Qx 260</h4>
                         <div class="d-flex justify-content-between flex-lg-wrap">
-                            <p class="text-dark fs-5 fw-bold mb-0">22000,00 Kč bez DPH</p>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            <p class="text-dark fs-5 fw-bold mb-0">22000 Kč bez DPH</p>
+                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary">
+                                <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                                <span data-i18n="buttons.addToCart">Add to cart</span>
+                            </a>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
+
     <!-- Vesitable Shop End -->
 
     <!-- Partners Start -->
