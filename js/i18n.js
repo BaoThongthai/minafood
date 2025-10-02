@@ -29,19 +29,25 @@
 
       "hero.subtitle": "Řešení pro kuchyně a mrazničky",
       "hero.title": "KOMPLEXNÍ ŘEŠENÍ PRO GASTRONOMII",
-        "services.installVentilationTitle": "Montáž vzduchotechniky",
-  "services.installVentilationText": "Profesionální montáž vzduchotechniky do vašich prostor. Spolehlivě a efektivně zajistíme ideální podmínky ve vašich interiérech.",
+      "services.installVentilationTitle": " Montáž plynových sporáků",
+      "services.installVentilationText": "Odborná montáž plynových sporáků pro bezpečné vaření a účinné využití energie. Zajistíme optimální funkčnost vašeho sporáku.",
 
-  "services.installGasStovesTitle": "Montáž plynových sporáků",
-  "services.installGasStovesText": "Odborná montáž plynových sporáků pro bezpečné vaření a účinné využití energie. Zajistíme optimální funkčnost vašeho sporáku.",
+      "services.installGasStovesTitle": "Montáž vzduchotechniky",
+      "services.installGasStovesText": "Profesionální montáž vzduchotechniky do vašich prostor. Spolehlivě a efektivně zajistíme ideální podmínky ve vašich interiérech.",
 
-  "services.restaurantBuyoutTitle": "Výkup restaurací",
-  "services.restaurantBuyoutText": "Specializujeme se na férový a rychlý výkup restaurací. Zvažujete prodej? Kontaktujte nás pro konzultaci.",
+      "services.restaurantBuyoutTitle": "Výkup restaurací",
+      "services.restaurantBuyoutText": "Specializujeme se na profesionální výkup restaurací. Nabízíme férové zhodnocení a rychlý proces převzetí podniku. Zvažujete prodej? Kontaktujte nás pro konzultaci.",
 
-  "services.equipmentSaleTitle": "Prodej gastro vybavení",
-  "services.equipmentSaleText": "Profesionální vybavení pro vaši restauraci snadno a rychle. Široký výběr za atraktivní ceny. které podpoří váš gastronomický podnik.",
+      "services.equipmentSaleTitle": "Prodej gastro vybavení",
+      "services.equipmentSaleText": "Profesionální vybavení pro vaši restauraci snadno a rychle. Široký výběr za atraktivní ceny. které podpoří váš gastronomický podnik.",
 
-  "services.cta": "Mám zájem"
+      "services.cta": "Mám zájem",
+      "about.title": "Vše pro gastro na jednom místě",
+      "about.text1": "Naše firma se specializuje na komplexní řešení pro gastronomické podniky.",
+      "about.text2": "Provádíme precizní montáže vzduchotechniky a plynových sporáků, abyste mohli vařit s maximální efektivitou a bezpečností.",
+      "about.text3": "Nabízíme také prodej špičkového profesionálního nádobí a vybavení pro restaurace a bistra, abyste měli k dispozici to nejlepší pro svůj podnik. Pokud uvažujete o prodeji své restaurace, jsme tu pro vás s naším službou výkupu podniků. Spolehlivě a s důrazem na vaše potřeby.",
+      "about.text4": "Jsme vaše komplexní řešení pro gastronomii!",
+      "about.cta": "Kontakt"
     },
     en: {
       "nav.home": "Home",
@@ -67,20 +73,26 @@
       "features.customText": "Open the gates to gastronomic success. Our comprehensive solutions.",
       "hero.subtitle": "Solutions for kitchens and freezers",
       "hero.title": "COMPREHENSIVE SOLUTIONS FOR GASTRONOMY",
-      "services.installVentilationTitle": "Ventilation system installation",
-  "services.installVentilationText": "Professional installation of ventilation systems for your premises. We reliably and efficiently ensure ideal indoor conditions.",
+      "services.installVentilationTitle": "Gas stove installation",
+      "services.installVentilationText": "Professional installation of gas stoves for safe cooking and efficient use of energy. We will reliably ensure the connection and optimal functionality of your stove.",
 
-  "services.installGasStovesTitle": "Gas stove installation",
-  "services.installGasStovesText": "Expert installation of gas stoves for safe cooking and efficient energy use. We ensure optimal functionality of your stove.",
+      "services.installGasStovesTitle": " Ventilation system setup",
+      "services.installGasStovesText": "Professional installation of ventilation systems for your premises. We reliably and efficiently ensure ideal indoor conditions.",
 
-  "services.restaurantBuyoutTitle": "Restaurant buyout",
-  "services.restaurantBuyoutText": "We specialize in fair and fast restaurant buyouts. Considering selling? Contact us for a consultation.",
+      "services.restaurantBuyoutTitle": "Restaurant buyout",
+      "services.restaurantBuyoutText": "We specialize in professional restaurant buyouts. We offer fair valuations and a fast takeover process. Are you considering selling? Contact us for a consultation.",
 
-  "services.equipmentSaleTitle": "Gastro equipment sales",
-  "services.equipmentSaleText": "Professional equipment for your restaurant quickly and easily. A wide selection at attractive prices. which will support your gastronomic business.",
+      "services.equipmentSaleTitle": "Gastro equipment sales",
+      "services.equipmentSaleText": "Professional equipment for your restaurant quickly and easily. A wide selection at attractive prices. which will support your gastronomic business.",
 
-  "services.cta": "learn more"
-
+      "services.cta": "learn more"
+      ,
+      "about.title": "Everything for gastronomy in one place",
+      "about.text1": "Our company specializes in comprehensive solutions for gastronomic businesses.",
+      "about.text2": "We provide precise installation of ventilation systems and gas stoves so you can cook with maximum efficiency and safety.",
+      "about.text3": "We also offer the sale of top professional cookware and equipment for restaurants and bistros, so you have the best for your business. If you are considering selling your restaurant, we are here for you with our business buyout service. Reliable and tailored to your needs.",
+      "about.text4": "We are your comprehensive solution for gastronomy!",
+      "about.cta": "Contact"
     }
   };
 
