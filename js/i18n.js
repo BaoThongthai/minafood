@@ -91,19 +91,19 @@
             "bestsellers.title": "Nejprodávanější produkty",
 
 
-  "cat.refrigeration": "Chlazení",
-  "cat.glass": "Sklo a porcelán",
-  "cat.gas": "Plynový sporáky",
-  "cat.hoods": "Digestoře",
-  "cat.meat": "Zpracování masa",
+            "cat.refrigeration": "Chlazení",
+            "cat.glass": "Sklo a porcelán",
+            "cat.gas": "Plynový sporáky",
+            "cat.hoods": "Digestoře",
+            "cat.meat": "Zpracování masa",
 
-  "products.sp1.title": "Prosklena lednice 3 dverova",
-  "products.sp2.title": "Tủ đá nằm 650l/Pultovy mrazak",
-  "products.sp3.title": "Tủ mát 4 cửa / Prosklena lednice",
-  "products.sp5.title": "Bát phở Ramen 750ml / Ramen bowl 750ml",
-  "products.sp6.title": "Sporák plynový 3 hořáky",
-  "products.sp7.title": "Gastro Digestoř Nástěnná (více velikostí)",
-  "products.sp8.title": "Máy thái thịt Qx 260/Kráječ masa Qx 260"
+            "products.sp1.title": "Prosklena lednice 3 dverova",
+            "products.sp2.title": "Tủ đá nằm 650l/Pultovy mrazak",
+            "products.sp3.title": "Tủ mát 4 cửa / Prosklena lednice",
+            "products.sp5.title": "Bát phở Ramen 750ml / Ramen bowl 750ml",
+            "products.sp6.title": "Sporák plynový 3 hořáky",
+            "products.sp7.title": "Gastro Digestoř Nástěnná (více velikostí)",
+            "products.sp8.title": "Máy thái thịt Qx 260/Kráječ masa Qx 260"
 
 
 
@@ -111,7 +111,7 @@
         },
 
         en: {
-           "hero.title1": "CHECK OUT OUR FULL PRODUCT CATALOG",
+            "hero.title1": "CHECK OUT OUR FULL PRODUCT CATALOG",
             "hero.button": "View products",
             "prod.gasStoves.desc_5": "Wok stove, 1 burner LS CC/01",
 
@@ -196,21 +196,21 @@
             "prod.gasStoves.desc_8": "Wok stove, 4 burners LS CC/04",
             "messages.noProduct": "* There are currently no matching products",
             "bestsellers.title": "Best-selling products",
-  "buttons.addToCart": "Add to cart",
+            "buttons.addToCart": "Add to cart",
 
-  "cat.refrigeration": "Refrigeration",
-  "cat.glass": "Glass & Porcelain",
-  "cat.gas": "Gas Stoves",
-  "cat.hoods": "Hoods",
-  "cat.meat": "Meat Processing",
+            "cat.refrigeration": "Refrigeration",
+            "cat.glass": "Glass & Porcelain",
+            "cat.gas": "Gas Stoves",
+            "cat.hoods": "Hoods",
+            "cat.meat": "Meat Processing",
 
-  "products.sp1.title": "3-door refrigerator",
-  "products.sp2.title": "650L chest freezer",
-  "products.sp3.title": "4-door display fridge",
-  "products.sp5.title": "Ramen bowl 750ml",
-  "products.sp6.title": "Gas stove 3 burners",
-  "products.sp7.title": "Wall-mounted hood",
-  "products.sp8.title": "Meat slicer Qx 260"
+            "products.sp1.title": "3-door refrigerator",
+            "products.sp2.title": "650L chest freezer",
+            "products.sp3.title": "4-door display fridge",
+            "products.sp5.title": "Ramen bowl 750ml",
+            "products.sp6.title": "Gas stove 3 burners",
+            "products.sp7.title": "Wall-mounted hood",
+            "products.sp8.title": "Meat slicer Qx 260"
 
 
 
