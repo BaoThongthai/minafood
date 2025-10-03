@@ -114,13 +114,14 @@
             "form.submit": "Odeslat",
             "contact.addressTitle": "Adresa",
             "contact.mailTitle": "Mail Us",
-            "contact.phoneTitle": "Telefon:"
+            "contact.phoneTitle": "Telefon:","footer.slogan": "Řešení pro kuchyně a mrazničky",
 
 
 
         },
 
         en: {
+            "footer.slogan": "Solutions for kitchens and freezers",
             "contact.addressTitle": "Address",
             "contact.mailTitle": "Email",
             "contact.phoneTitle": "Phone:",
