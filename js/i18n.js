@@ -103,14 +103,33 @@
             "products.sp5.title": "Bát phở Ramen 750ml / Ramen bowl 750ml",
             "products.sp6.title": "Sporák plynový 3 hořáky",
             "products.sp7.title": "Gastro Digestoř Nástěnná (více velikostí)",
-            "products.sp8.title": "Máy thái thịt Qx 260/Kráječ masa Qx 260"
-
+            "products.sp8.title": "Máy thái thịt Qx 260/Kráječ masa Qx 260",
+            "sections.partners": "Naši partneři",
+            "contact.title": "Kontaktujte Nás",
+            "contact.desc": "Otevřete brány gastronomického úspěchu. Naše komplexní řešení pro gastronomii poskytují pevný základ pro váš úspěch v gastronomickém světě. Od montáže a vybavení pro výkup podniků."
+            , "form.fullname": "Jméno & Příjmení",
+            "form.email": "Zadejte email",
+            "form.phone": "Telefon",
+            "form.message": "Zpráva",
+            "form.submit": "Odeslat",
+            "contact.addressTitle": "Adresa",
+            "contact.mailTitle": "Mail Us",
+            "contact.phoneTitle": "Telefon:"
 
 
 
         },
 
         en: {
+            "contact.addressTitle": "Address",
+            "contact.mailTitle": "Email",
+            "contact.phoneTitle": "Phone:",
+            "form.fullname": "Full name",
+            "form.email": "Enter your email",
+            "form.phone": "Phone",
+            "form.message": "Message",
+            "form.submit": "Submit",
+            "sections.partners": "Our Partners",
             "hero.title1": "CHECK OUT OUR FULL PRODUCT CATALOG",
             "hero.button": "View products",
             "prod.gasStoves.desc_5": "Wok stove, 1 burner LS CC/01",
@@ -210,7 +229,9 @@
             "products.sp5.title": "Ramen bowl 750ml",
             "products.sp6.title": "Gas stove 3 burners",
             "products.sp7.title": "Wall-mounted hood",
-            "products.sp8.title": "Meat slicer Qx 260"
+            "products.sp8.title": "Meat slicer Qx 260",
+            "contact.title": "Contact Us",
+            "contact.desc": "Open the gates to gastronomic success. Our comprehensive solutions for gastronomy provide a solid foundation for your success in the culinary world — from installation to full equipment supply."
 
 
 
