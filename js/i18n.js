@@ -3,6 +3,8 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+              "cat.refrigeration": "Chlazení",
+  "products.saladeta.title": "65792 Chladící saladeta dvoudveřová se sklem",
             "nav.home": "Home",
             "nav.shop": "E-shop",
             "nav.categories": "Kategorie",
@@ -115,12 +117,21 @@
             "contact.addressTitle": "Adresa",
             "contact.mailTitle": "Mail Us",
             "contact.phoneTitle": "Telefon:","footer.slogan": "Řešení pro kuchyně a mrazničky",
+              "cat.glass": "Sklo a porcelán",
+  "products.ramen.title": "Bát phở Ramen / Ramen bowl 750ml",
+    "cat.bar": "Barová technika",
+  "products.iceMaker50.title": "65803 Vyrobnik ledu 50kg/den/Máy làm đá 50kg/ngày",
+    "cat.used": "Bép qua sử dụng",
+  "products.usedGasStove.title": "Použité průmyslové plynové sporáky"
 
 
 
         },
 
         en: {
+
+             "cat.refrigeration": "Refrigeration",
+  "products.saladeta.title": "65792 Refrigerated saladette double-door with glass",
             "footer.slogan": "Solutions for kitchens and freezers",
             "contact.addressTitle": "Address",
             "contact.mailTitle": "Email",
@@ -233,9 +244,13 @@
             "products.sp8.title": "Meat slicer Qx 260",
             "contact.title": "Contact Us",
             "contact.desc": "Open the gates to gastronomic success. Our comprehensive solutions for gastronomy provide a solid foundation for your success in the culinary world — from installation to full equipment supply."
+             , "cat.glass": "Glass & Porcelain",
+  "products.ramen.title": "Ramen bowl 750ml",
 
-
-
+ "cat.bar": "Bar Equipment",
+  "products.iceMaker50.title": "65803 Ice maker 50kg/day; Máy làm đá 50kg/ngày",
+    "cat.used": "Used Kitchen Equipment",
+  "products.usedGasStove.title": "Used industrial gas stoves"
         }
     };
 
