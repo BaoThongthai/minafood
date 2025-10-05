@@ -55,7 +55,7 @@
         <!-- Spinner End -->
 
 
-     <!-- Navbar start -->
+    <!-- Navbar start -->
     <div class="container-fluid fixed-top">
         <div class="container topbar bg-primary d-none d-lg-block">
             <div class="d-flex justify-content-between">
@@ -65,10 +65,13 @@
                     <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#"
                             class="text-white">info@minafood.cz</a></small>
                 </div>
+
                 <div class="top-link pe-2">
                     <small class="me-3"><i class="fas fa-phone-alt me-2 text-secondary"></i><a href="#"
                             class="text-white">+420 608 188 896</a></small>
+
                 </div>
+
             </div>
         </div>
         <div class="container px-0">
@@ -82,26 +85,15 @@
                 </button>
                 <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
                     <div class="navbar-nav mx-auto">
-                        <a href="index.html" class="nav-item nav-link ">Home</a>
-                        <a href="shop.html" class="nav-item nav-link">E-Shop</a>
-                        <a href="index.html#Kategorie" class="nav-item nav-link">Kategorie</a>
-                        <a href="index.html#Onas" class="nav-item nav-link">O nás</a>
-                        <!-- <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                <a href="cart.html" class="dropdown-item">Cart</a>
-                                <a href="chackout.html" class="dropdown-item">Chackout</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="404.html" class="dropdown-item">404 Page</a>
-                            </div>
-                        </div> -->
-                        <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                        <a href="index.html" class="nav-item nav-link " data-i18n="nav.home">Home</a>
+                        <a href="shop.html" class="nav-item nav-link" data-i18n="nav.shop">E-shop</a>
+                        <a href="index.html#Kategorie" class="nav-item nav-link" data-i18n="nav.categories">Kategorie</a>
+                        <a href="index.html#Onas" class="nav-item nav-link" data-i18n="nav.about">O nás</a>
+                        <a href="contact.html" class=" active nav-item nav-link" data-i18n="nav.contact">Kontakt</a>
                     </div>
+                    <!-- Language Toggle -->
+                    <button id="langToggle" class="btn btn-outline-secondary btn-sm px-3">EN</button>
                     <div class="d-flex m-3 me-0">
-                        <button
-                            class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4"
-                            data-bs-toggle="modal" data-bs-target="#searchModal"><i
-                                class="fas fa-search text-primary"></i></button>
                         <a href="#" class="position-relative me-4 my-auto">
                             <i class="fa fa-shopping-bag fa-2x" style="color: #114070;"></i>
                             <span
@@ -118,25 +110,6 @@
     </div>
     <!-- Navbar End -->
 
-
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal Search End -->
 
 
         <!-- Single Page Header start -->
@@ -158,12 +131,15 @@
                 <div class="row g-4">
                     <div class="col-12">
                         <div class="text-center mx-auto" style="max-width: 700px;">
-                            <h1 class="text-primary">Kontaktujte Nás</h1>
-                            <p class="mb-4">Otevřete brány gastronomického úspěchu. Naše komplexní řešení pro
-                                gastronomii poskytují pevný základ pro váš úspěch v gastronomickém světě. Od montáže a
-                                vybavení pro výkup podniků.</p>
+                            <h1 class="text-primary" data-i18n="contact.title">Kontaktujte Nás</h1>
+                            <p class="mb-4" data-i18n="contact.desc">
+                                Otevřete brány gastronomického úspěchu. Naše komplexní řešení pro
+                                gastronomii poskytují pevný základ pro váš úspěch v gastronomickém světě.
+                                Od montáže a vybavení pro výkup podniků.
+                            </p>
                         </div>
                     </div>
+
                     <div class="col-lg-12">
                         <div class="h-100 rounded">
                             <iframe class="rounded w-100" style="height: 400px;"
@@ -176,46 +152,59 @@
                     <div class="col-lg-7">
                         <form action="" class="">
                             <input type="text" class="w-100 form-control border-0 py-3 mb-4"
-                                placeholder="Jméno & Příjmení">
+                                data-i18n-placeholder="form.fullname" placeholder="Jméno & Příjmení">
+
                             <!-- Hàng chứa email + điện thoại -->
                             <div class="row g-3 mb-4">
                                 <div class="col-md-6">
                                     <input type="email" class="form-control border-0 py-3 h-100"
-                                        placeholder="Enter Your Email">
+                                        data-i18n-placeholder="form.email" placeholder="Enter Your Email">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control border-0 py-3 h-100" placeholder="Telefon">
+                                    <input type="text" class="form-control border-0 py-3 h-100"
+                                        data-i18n-placeholder="form.phone" placeholder="Telefon">
                                 </div>
                             </div>
+
                             <textarea class="w-100 form-control border-0 mb-4" rows="5" cols="10"
-                                placeholder="Zpráva"></textarea>
-                            <button class="w-100 btn form-control border-secondary py-3 bg-white text-primary "
-                                type="submit">Submit</button>
+                                data-i18n-placeholder="form.message" placeholder="Zpráva"></textarea>
+
+                            <button class="w-100 btn form-control border-secondary py-3 bg-white text-primary"
+                                type="submit" data-i18n="form.submit">
+                                Submit
+                            </button>
                         </form>
                     </div>
+
+
                     <div class="col-lg-5">
                         <div class="d-flex p-4 rounded mb-4 bg-white">
                             <i class="fas fa-map-marker-alt fa-2x text-primary me-4"></i>
                             <div>
-                                <h4>Adresa</h4>
+                                <h4 data-i18n="contact.addressTitle">Adresa</h4>
                                 <p class="mb-2">Libušská 3/163, Praha - 142 00</p>
                             </div>
                         </div>
+
                         <div class="d-flex p-4 rounded mb-4 bg-white">
                             <i class="fas fa-envelope fa-2x text-primary me-4"></i>
                             <div>
-                                <h4>Mail Us</h4>
+                                <h4 data-i18n="contact.mailTitle">Mail Us</h4>
                                 <p class="mb-2">info@minafood.cz</p>
                             </div>
                         </div>
+
                         <div class="d-flex p-4 rounded bg-white">
                             <i class="fa fa-phone-alt fa-2x text-primary me-4"></i>
                             <div>
-                                <h4>Telefon:</h4>
+                                <h4 data-i18n="contact.phoneTitle">Telefon:</h4>
                                 <p class="mb-2">+420 608 561 691 / +420 608 188 896</p>
                             </div>
                         </div>
                     </div>
+
+
+
                 </div>
             </div>
         </div>
@@ -231,7 +220,9 @@
                     <div class="col-lg-3">
                         <a href="#">
                             <h1 class="text-primary mb-0">M!NAFOOD</h1>
-                            <p class="text-secondary mb-0">Řešení pro kuchyně a mrazničky</p>
+                            <p class="text-secondary mb-0" data-i18n="footer.slogan">
+                                Řešení pro kuchyně a mrazničky
+                            </p>
                         </a>
                     </div>
                     <div class="col-lg-6">
@@ -261,8 +252,8 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-item">
                         <h4 class="text-light mb-3">Why People Like us!</h4>
-                        <p class="mb-4">typesetting, remaining essentially unchanged. It was
-                            popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+                        <p class="mb-4">tAt MinaFood, we bring reliable kitchen and freezer solutions trusted by restaurants and hotels across Europe.
+Our products combine high durability, energy efficiency, and smart design — helping every chef work faster, safer, and more efficiently.</p>
                         <a href="" class="btn border-secondary py-2 px-4 rounded-pill text-primary">Read More</a>
                     </div>
                 </div>
@@ -303,6 +294,7 @@
     </div>
     <!-- Footer End -->
 
+
     <!-- Copyright Start -->
     <div class="container-fluid copyright bg-dark py-4">
         <div class="container">
@@ -339,6 +331,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/i18n.js"></script>
     </body>
 
 </html>
