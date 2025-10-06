@@ -963,7 +963,7 @@
                         </div>
                         <!-- Nút Xem thêm -->
                         <div class="text-center mt-4">
-                            <button id="loadMore" class="btn btn-warning fw-bold px-4 py-2 rounded-3">
+                            <button id="move_testovin" class="btn btn-warning fw-bold px-4 py-2 rounded-3">
                                 zobrazit více
                             </button>
                         </div>
@@ -1036,6 +1036,12 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Nút Xem thêm -->
+                        <div class="text-center mt-4">
+                            <button id="move_zpacovani" class="btn btn-warning fw-bold px-4 py-2 rounded-3">
+                                zobrazit více
+                            </button>
+                        </div>
                     </div>
                     <!-- Zpracování masa end -->
 
@@ -1061,9 +1067,14 @@
                                                     <div class="d-flex justify-content-between flex-lg-wrap">
                                                         <p class="text-dark fs-5 fw-bold mb-0"> 25000,00 Kč bez DPH</p>
                                                         <a href="#"
-                                                            class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                                class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                            cart</a>
+                                                            class="btn border border-secondary rounded-pill px-3 text-primary add-to-cart"
+                                                            data-id="barova-1" data-name="65803 Vyrobnik ledu 50kg/den"
+                                                            data-price="25000" data-currency="Kč"
+                                                            data-image="https://minafood.cz/wp-content/uploads/2024/03/ZB-50-1_756ab664-a14a-4a65-a2b2-7071a4af49413ZwmE33oDNu9b-300x300.jpg">
+                                                            <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                                                            <span>Add to Cart</span>
+                                                        </a>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -1076,7 +1087,7 @@
                     <!-- Barová technika end ( tab-9) -->
 
 
-                    <!-- Barová technika start ( tab-10) -->
+                    <!-- Mycí technika start ( tab-10) -->
                     <div id="tab-10" class="tab-pane fade show p-0">
                         <div class="row g-4" id="product-list">
                             <div class="row g-4">
@@ -1235,7 +1246,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Barová technika end ( tab-10) -->
+                    <!-- Mycí technika end ( tab-10) -->
 
                     <!-- tab 11 -->
                     <div id="tab-11" class="tab-pane fade show p-0">

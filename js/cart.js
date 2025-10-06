@@ -35,6 +35,29 @@
         });
     }
 
+
+    (function(){
+  // Tạo container toast
+  const toast = document.createElement('div');
+  toast.className = 'toast-cart';
+  document.body.appendChild(toast);
+
+  // Lắng nghe sự kiện click Add to Cart
+  document.addEventListener('click', function(e){
+    const btn = e.target.closest('.add-to-cart');
+    if (!btn) return;
+
+    const name = btn.dataset.name || 'Sản phẩm';
+    showToast(`🛒 ${name} đã được thêm vào giỏ hàng!`);
+  });
+
+  function showToast(msg){
+    toast.textContent = msg;
+    toast.classList.add('show');
+    setTimeout(()=>toast.classList.remove('show'), 2200);
+  }
+})();
+
     // Lắng nghe click Add to cart
     document.addEventListener(
         'click',

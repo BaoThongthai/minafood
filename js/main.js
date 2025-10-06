@@ -20,6 +20,16 @@
         window.location.href = 'Chlazeni.html';
     });
 
+        //  move_testovin 
+ document.getElementById('move_testovin').addEventListener('click', function() {
+        window.location.href = 'testovin.html';
+    });
+
+            //  move_testovin 
+ document.getElementById('move_zpacovani').addEventListener('click', function() {
+        window.location.href = 'zpacovani.html';
+    });
+
     // Fixed Navbar
     $(window).scroll(function () {
         if ($(window).width() < 992) {
