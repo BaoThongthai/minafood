@@ -3,6 +3,7 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+
               "cat.refrigeration": "Chlazení",
   "products.saladeta.title": "65792 Chladící saladeta dvoudveřová se sklem",
             "nav.home": "Home",
@@ -10,7 +11,6 @@
             "nav.categories": "Kategorie",
             "nav.about": "O nás",
             "nav.contact": "Kontakt",
-
             // thêm nếu cần
             "buttons.showMore": "Zobrazit produkty",
             "buttons.showLess": "Skrýt",
@@ -129,7 +129,7 @@
         },
 
         en: {
-
+"buttons.showMore": "Show more",
              "cat.refrigeration": "Refrigeration",
   "products.saladeta.title": "65792 Refrigerated saladette double-door with glass",
             "footer.slogan": "Solutions for kitchens and freezers",

@@ -10,7 +10,10 @@
         }, 1);
     };
     spinner(0);
-
+//  move_Plynovy 
+ document.getElementById('move_Plynovy').addEventListener('click', function() {
+        window.location.href = 'Plynovy.html';
+    });
 
     // Fixed Navbar
     $(window).scroll(function () {
