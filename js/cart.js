@@ -1,0 +1,64 @@
+// js/cart.js
+(function () {
+    const CART_KEY = 'mina_cart';
+
+    function loadCart() {
+        try {
+            return JSON.parse(localStorage.getItem(CART_KEY)) || [];
+        } catch (e) {
+            return [];
+        }
+    }
+
+    function saveCart(cart) {
+        localStorage.setItem(CART_KEY, JSON.stringify(cart));
+    }
+
+    function addToCart(item) {
+        const cart = loadCart();
+        const idx = cart.findIndex((p) => p.id === item.id);
+        if (idx > -1) {
+            cart[idx].qty += item.qty || 1;
+        } else {
+            cart.push({ ...item, qty: item.qty || 1 });
+        }
+        saveCart(cart);
+        updateBadge();
+    }
+
+    function updateBadge() {
+        const cart = loadCart();
+        const count = cart.reduce((s, p) => s + p.qty, 0);
+        document.querySelectorAll('.fa-shopping-bag').forEach((icon) => {
+            const badge = icon.closest('a')?.querySelector('.position-absolute');
+            if (badge) badge.textContent = count;
+        });
+    }
+
+    // Lắng nghe click Add to cart
+    document.addEventListener(
+        'click',
+        function (e) {
+            const btn = e.target.closest('.add-to-cart');
+            if (!btn) return;
+
+            const item = {
+                id: btn.dataset.id,
+                name: btn.dataset.name,
+                price: parseFloat(btn.dataset.price),
+                currency: btn.dataset.currency || 'Kč',
+                image: btn.dataset.image,
+            };
+
+            addToCart(item);
+
+            // Chuyển sang trang cart nếu có href
+            const href = btn.getAttribute('href') || '#';
+            if (href === '#') e.preventDefault();
+        },
+        false
+    );
+
+    // Cập nhật badge khi load trang
+    document.addEventListener('DOMContentLoaded', updateBadge);
+})();
