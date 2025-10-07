@@ -114,3 +114,14 @@
 
   document.addEventListener('DOMContentLoaded', render);
 })();
+
+// Điều hướng sang checkout
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('proceedCheckout');
+  if (btn) {
+    btn.addEventListener('click', () => {
+      // Cart đã được lưu mỗi khi thay đổi (saveCart); chỉ cần đi tiếp
+      window.location.href = 'checkout.html'; // nhớ sửa link menu từ chackout.html -> checkout.html
+    });
+  }
+});
