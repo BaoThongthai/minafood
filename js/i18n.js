@@ -160,8 +160,28 @@
             "summary.vat": "DPH (21 %):",
             "summary.total": "Celková cena:",
             "inoxsys.title": "Výroba a montáž nerezových kuchyní na míru",
-  "inoxsys.text": "Specializujeme se na návrh, výrobu a instalaci profesionálních kuchyní z nerezové oceli – včetně digestoří, vzduchotechniky, ventilátorů, pracovních stolů, dřezů, skříní a regálů – dle individuálních požadavků a technických specifikací každého gastro projektu. Kontaktujte nás pro nezávaznou konzultaci s našimi odborníky."
-
+            "inoxsys.text": "Specializujeme se na návrh, výrobu a instalaci profesionálních kuchyní z nerezové oceli – včetně digestoří, vzduchotechniky, ventilátorů, pracovních stolů, dřezů, skříní a regálů – dle individuálních požadavků a technických specifikací každého gastro projektu. Kontaktujte nás pro nezávaznou konzultaci s našimi odborníky."
+            ,
+            "thank.title": "Checkout",
+            "thank.desc": "Děkujeme. Vaše objednávka byla přijata.",
+            "thank.orderNo": "Číslo objednávky:",
+            "thank.date": "Datum:",
+            "thank.total": "Celkem:",
+            "thank.paymentMethod": "Platební metoda:",
+            "thank.paymentInfo": "Údaje pro platbu",
+            "thank.bank": "Banka:",
+            "thank.bankCode": "Kód banky:",
+            "thank.accountNo": "Číslo účtu:",
+            "thank.iban": "IBAN:",
+            "thank.bic": "BIC/SWIFT:",
+            "thank.note": "Při platbě prosím uveďte variabilní symbol = číslo objednávky. Objednávka bude zpracována po připsání částky na náš účet.",
+            "thank.detail": "Detail objednávky",
+            "thank.product": "Produkt",
+            "thank.amount": "Celkem",
+            "thank.subtotal": "Mezisoučet:",
+            "thank.shipping": "Doprava:",
+            "thank.vat": "DPH:",
+            "thank.continue": "Pokračovat v nákupu"
 
 
         },
@@ -324,8 +344,29 @@
             "summary.shipping": "Shipping:",
             "summary.vat": "VAT (21%):",
             "summary.total": "Total:",
-"inoxsys.title": "Custom stainless steel kitchen manufacturing and installation",
-  "inoxsys.text": "We specialize in the design, manufacturing, and installation of professional stainless steel kitchens – including hoods, ventilation systems, fans, work tables, sinks, cabinets, and racks – tailored to the individual requirements and technical specifications of each gastronomy project. Contact us for a free consultation with our specialists."
+            "inoxsys.title": "Custom stainless steel kitchen manufacturing and installation",
+            "inoxsys.text": "We specialize in the design, manufacturing, and installation of professional stainless steel kitchens – including hoods, ventilation systems, fans, work tables, sinks, cabinets, and racks – tailored to the individual requirements and technical specifications of each gastronomy project. Contact us for a free consultation with our specialists."
+            ,
+            "thank.title": "Checkout",
+            "thank.desc": "Thank you. Your order has been received.",
+            "thank.orderNo": "Order number:",
+            "thank.date": "Date:",
+            "thank.total": "Total:",
+            "thank.paymentMethod": "Payment method:",
+            "thank.paymentInfo": "Payment details",
+            "thank.bank": "Bank:",
+            "thank.bankCode": "Bank code:",
+            "thank.accountNo": "Account number:",
+            "thank.iban": "IBAN:",
+            "thank.bic": "BIC/SWIFT:",
+            "thank.note": "When making payment, please use your order number as the reference. The order will be processed once the amount is received.",
+            "thank.detail": "Order details",
+            "thank.product": "Product",
+            "thank.amount": "Total",
+            "thank.subtotal": "Subtotal:",
+            "thank.shipping": "Shipping:",
+            "thank.vat": "VAT:",
+            "thank.continue": "Continue shopping"
         }
     };
 
