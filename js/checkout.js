@@ -66,15 +66,48 @@
     );
 
     // toggle note
-    $('#noteToggle').addEventListener('change', (e) => {
-      $('#orderNote').classList.toggle('d-none', !e.target.checked);
-    });
+    const noteToggle = $('#noteToggle');
+    if (noteToggle) {
+      noteToggle.addEventListener('change', (e) => {
+        $('#orderNote').classList.toggle('d-none', !e.target.checked);
+      });
+    }
 
     // place order
-    $('#btnPlaceOrder').addEventListener('click', () => {
-      alert('Đơn hàng đã được tạo thành công!');
-      localStorage.removeItem(CART_KEY);
-      window.location.href = 'thank-you.html';
-    });
+    const btn = $('#btnPlaceOrder');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        const cartNow = JSON.parse(localStorage.getItem(CART_KEY) || '[]');
+        if (!cartNow.length) { window.location.href = 'cart.html'; return; }
+
+        const shipCost = Number(document.querySelector('input[name="shipping"]:checked')?.value || 0);
+        const paymentMethod = document.querySelector('input[name="payment"]:checked')?.id === 'bank'
+          ? 'Bankovním převodem' : 'Neurčeno';
+
+        const subtotal = cartNow.reduce((s, p) => s + p.price * p.qty, 0);
+        const vat = subtotal * VAT_RATE;
+        const total = subtotal + vat + shipCost;
+
+        const lastOrder = {
+          orderNumber: Math.floor(Math.random() * 900000) + 100,
+          createdAt: Date.now(),
+          items: cartNow,
+          subtotal, vat, shipping: shipCost, total,
+          paymentMethod,
+          bankInfo: {
+            company: 'MINA FOOD s.r.o.',
+            bankName: 'Banka',
+            bankCode: '888',
+            accountNumber: '888888888',
+            iban: '',
+            bic: ''
+          }
+        };
+
+        localStorage.setItem('mina_last_order', JSON.stringify(lastOrder));
+        localStorage.removeItem(CART_KEY);
+        window.location.href = 'order-success.html';
+      });
+    }
   });
 })();
