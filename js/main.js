@@ -15,6 +15,11 @@
         window.location.href = 'Plynovy.html';
     });
 
+    //  move_decoration 
+ document.getElementById('move_decoration').addEventListener('click', function() {
+        window.location.href = 'decoration.html';
+    });
+
     //  move_Chlazeni 
  document.getElementById('move_Chlazeni').addEventListener('click', function() {
         window.location.href = 'Chlazeni.html';

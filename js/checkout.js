@@ -18,7 +18,7 @@
     box.innerHTML = '';
 
     if (!cart.length) {
-      box.innerHTML = '<p class="text-center text-muted">Giỏ hàng trống.</p>';
+      box.innerHTML = '<p class="text-center text-muted">Cart is empty</p>';
       return;
     }
 
