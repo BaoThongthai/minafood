@@ -47,8 +47,8 @@
     const btn = e.target.closest('.add-to-cart');
     if (!btn) return;
 
-    const name = btn.dataset.name || 'Sản phẩm';
-    showToast(`🛒 ${name} đã được thêm vào giỏ hàng!`);
+    const name = btn.dataset.name || 'Product';
+    showToast(`🛒 ${name} has been added to cart!!`);
   });
 
   function showToast(msg){
