@@ -652,3 +652,25 @@
   transform: translateY(0);
 }
 
+/* Nút trên casual */
+.btn-warning {
+  background-color: #e5923a !important;
+  transition: all 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #c97d2f !important;
+  transform: scale(1.05);
+}
+
+.btn-light {
+  background-color: #fff !important;
+  transition: all 0.3s ease;
+}
+
+.btn-light:hover {
+  background-color: #f1f1f1 !important;
+  transform: scale(1.05);
+}
+
+

@@ -181,13 +181,15 @@
             "thank.subtotal": "Mezisoučet:",
             "thank.shipping": "Doprava:",
             "thank.vat": "DPH:",
-            "thank.continue": "Pokračovat v nákupu"
+            "thank.continue": "Pokračovat v nákupu",
+            "hero.cta.services": "Naše služby",
 
 
         },
 
         en: {
             "products.decor.title": "Products for interior decoration",
+            "hero.cta.services": "Our Services",
             "tabs.decorace": "Decoration",
             "buttons.showMore": "Show more",
             "cat.refrigeration": "Refrigeration",

@@ -117,11 +117,11 @@
                         message: msg
                     });
 
-                    showAlert('success', 'Đã gửi yêu cầu tư vấn. Chúng tôi sẽ liên hệ sớm nhất!');
+                    showAlert('success', 'Your consultation request has been sent. We will contact you soon!');
                     form.reset();
                 } catch (err) {
                     console.error(err);
-                    showAlert('error', 'Gửi thất bại. Vui lòng thử lại sau.');
+                    showAlert('error', 'Send failed. Please try again later.');
                 } finally {
                     if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = oldText || 'Submit'; }
                 }
