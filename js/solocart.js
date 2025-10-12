@@ -31,7 +31,7 @@
     tbody.innerHTML = '';
 
     if (cart.length === 0) {
-      tbody.innerHTML = `<tr><td colspan="6" class="text-center py-5">Giỏ hàng trống</td></tr>`;
+      tbody.innerHTML = `<tr><td colspan="6" class="text-center py-5">Cart Empty</td></tr>`;
       $('#subtotal').textContent = money(0);
       $('#shipping').textContent = `Flat rate: ${money(SHIPPING_FLAT)}`;
       $('#total').textContent = money(SHIPPING_FLAT);

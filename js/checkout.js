@@ -23,7 +23,7 @@ const EMAILJS_TEMPLATE_ID = "template_0pna7cl";  // <-- giữ nguyên theo ảnh
     box.innerHTML = '';
 
     if (!cart.length) {
-      box.innerHTML = '<p class="text-center text-muted">Giỏ hàng trống</p>';
+      box.innerHTML = '<p class="text-center text-muted">Cart Empty</p>';
       return;
     }
 
@@ -148,18 +148,18 @@ const EMAILJS_TEMPLATE_ID = "template_0pna7cl";  // <-- giữ nguyên theo ảnh
 
         // Lưu đơn để trang success dùng
         const lastOrder = {
-          orderNumber: orderId,
+          orderNumber: 'MinaFood-'+ orderId,
           createdAt: Date.now(),
           items: cartNow,
           subtotal, vat, shipping: shipCost, total,
           paymentMethod,
           bankInfo: {
-            company: 'MINA FOOD s.r.o.',
-            bankName: 'Banka',
-            bankCode: '888',
-            accountNumber: '888888888',
-            iban: '',
-            bic: ''
+            company: 'Mina Food s.r.o.',
+            bankName: 'Česká spořitelna, a.s.',
+            bankCode: '0800',
+            bankAcc: '6029825329/0800',
+            iban: 'CZ14 0800 0000 0060 2982 5329',
+            bic: 'GIBACZPX'
           }
         };
         localStorage.setItem('mina_last_order', JSON.stringify(lastOrder));
@@ -175,7 +175,7 @@ const EMAILJS_TEMPLATE_ID = "template_0pna7cl";  // <-- giữ nguyên theo ảnh
 
         // ---- templateParams ----
         const templateParams = {
-          
+
           order_number: orderId,                       // đã có prefix Minafood- trong CODE
           customer_name: `${firstName} ${lastName}`.trim(),
           customer_email: email,
