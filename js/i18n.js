@@ -197,12 +197,18 @@
   "cat.traysealers": "SVÁŘEČKY PODNOSŮ",
   "cat.convectionovens": "KONVEKTOMATY A HORKOVZDUŠNÉ TROUBY",
   "page.gastro.title": "Gastro-a-kuchyně",
+   "section.coolingtubs": "Nerezové chladicí vany",
+   "coolingtubs.text1": "V naší nabídce naleznete různé chladící vany pro uchování a chlazení nápojů v plechovkách nebo PET lahvích - párty chladící válce,",
+  "coolingtubs.text2": "chladničky volně stojící, dále zde naleznete i nerezové chladící vany na gastronádoby."
   
 
         },
 
         en: {
              "page.gastro.title": "Gastro and Kitchen",
+               "coolingtubs.text1": "In our offer you will find various cooling tubs for storing and cooling beverages in cans or PET bottles – party cooling cylinders,",
+  "coolingtubs.text2": "free-standing refrigerators, and also stainless steel cooling tubs for gastronorm containers.",
+             "section.coolingtubs": "Stainless Cooling Baths",
             "products.decor.title": "Products for interior decoration",
             "hero.cta.services": "Our Services",
             "tabs.decorace": "Decoration",

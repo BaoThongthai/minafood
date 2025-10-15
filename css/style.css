@@ -294,47 +294,40 @@
 
 
 /*** Fruits Start ***/
-.fruite .tab-class .nav-item a.active {
-    background: var(--bs-secondary) !important;
+/* Card đồng chiều cao & xếp dọc nội dung */
+.fruite .fruite-item{
+  display:flex; 
+  flex-direction:column; 
+  height:100%;
 }
 
-.fruite .tab-class .nav-item a.active span {
-    color: var(--bs-white) !important; 
+/* Cố định khung ảnh theo tỉ lệ, ảnh fill vừa khung */
+.fruite .fruite-item .fruite-img{
+  aspect-ratio: 4 / 3;   /* đổi 1/1 hoặc 16/9 nếu muốn */
+  overflow:hidden;
+  border-radius:10px 10px 0 0;
+}
+@media (max-width: 576px){
+  .fruite .fruite-item .fruite-img{ aspect-ratio: 1 / 1; }
 }
 
-.fruite .fruite-categorie .fruite-name {
-    line-height: 40px;
+.fruite .fruite-item .fruite-img img{
+  width:100%;
+  height:100%;
+  object-fit:cover;      /* quan trọng: cắt ảnh để giữ tỉ lệ khung */
+  transition:transform .5s;
+}
+.fruite .fruite-item .fruite-img img:hover{
+  transform:scale(1.12);
 }
 
-.fruite .fruite-categorie .fruite-name a {
-    transition: 0.5s;
+/* Phần nội dung đẩy về dưới để các card cao bằng nhau */
+.fruite .fruite-item .p-4{
+  border-top:0;
+  border-radius:0 0 10px 10px;
+  margin-top:auto;            /* đẩy block nội dung xuống đáy */
 }
 
-.fruite .fruite-categorie .fruite-name a:hover {
-    color: var(--bs-secondary);
-}
-
-.fruite .fruite-item {
-    height: 100%;
-    transition: 0.5s;
-}
-.fruite .fruite-item:hover {
-    box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
-}
-
-.fruite .fruite-item .fruite-img {
-    overflow: hidden;
-    transition: 0.5s;
-    border-radius: 10px 10px 0 0;
-}
-
-.fruite .fruite-item .fruite-img img {
-    transition: 0.5s;
-}
-
-.fruite .fruite-item .fruite-img img:hover {
-    transform: scale(1.3);
-}
 /*** Fruits End ***/
 
 
