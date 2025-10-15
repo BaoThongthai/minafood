@@ -183,11 +183,26 @@
             "thank.vat": "DPH:",
             "thank.continue": "Pokračovat v nákupu",
             "hero.cta.services": "Naše služby",
-
+"cat.shockfreezers": "ŠOKOVÉ ZCHLAZOVAČE A ZMRAZOVAČE",
+  "cat.coolingtubs": "NEREZOVÉ CHLADICÍ VANY",
+  "cat.coolingtables": "NEREZOVÉ CHLADICÍ A MRAZICÍ STOLY",
+  "cat.accessories": "PŘÍSLUŠENSTVÍ KE STOLŮM",
+  "cat.saladbars": "SALADATEY",
+  "cat.toppings": "CHLADICÍ NÁSTAVBY",
+  "cat.undercounters": "CHLADICÍ PODESTAVBY",
+  "cat.coolingcabinets": "NEREZOVÉ CHLADICÍ SKŘÍNĚ",
+  "cat.freezercabinets": "NEREZOVÉ MRAZICÍ SKŘÍNĚ",
+  "cat.gline": "SÉRIE G-LINE",
+  "cat.wastecoolers": "NEREZOVÉ CHLADICÍ KOMORY NA ODPAD",
+  "cat.traysealers": "SVÁŘEČKY PODNOSŮ",
+  "cat.convectionovens": "KONVEKTOMATY A HORKOVZDUŠNÉ TROUBY",
+  "page.gastro.title": "Gastro-a-kuchyně",
+  
 
         },
 
         en: {
+             "page.gastro.title": "Gastro and Kitchen",
             "products.decor.title": "Products for interior decoration",
             "hero.cta.services": "Our Services",
             "tabs.decorace": "Decoration",
@@ -213,7 +228,19 @@
             "nav.categories": "Categories",
             "nav.about": "About us",
             "nav.contact": "Contact",
-
+"cat.shockfreezers": "Blast Chillers and Freezers",
+  "cat.coolingtubs": "Stainless Cooling Baths",
+  "cat.coolingtables": "Stainless Cooling and Freezer Tables",
+  "cat.accessories": "Table Accessories",
+  "cat.saladbars": "Salad Bars",
+  "cat.toppings": "Refrigerated Topping Units",
+  "cat.undercounters": "Under Counter Coolers",
+  "cat.coolingcabinets": "Stainless Cooling Cabinets",
+  "cat.freezercabinets": "Stainless Freezer Cabinets",
+  "cat.gline": "G-Line Series",
+  "cat.wastecoolers": "Stainless Waste Cooling Chambers",
+  "cat.traysealers": "Tray Sealers",
+  "cat.convectionovens": "Convection and Combi Ovens",
             "buttons.showMore": "Show more",
             "buttons.showLess": "Show less",
 
