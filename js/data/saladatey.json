@@ -1,0 +1,190 @@
+[
+    {
+    "id": "sa-1365_16487",
+    "name": "SA 1365",
+    "label": "Chladicí saladeta",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMDJiZTI0OTAtMjEyOC00YjExLWIwMzYtMjY5YTFmMDk0NGFjLnBuZw==.webp",
+    "item_number": "16487",
+    "capacity": { "gross": 400, "net": 368 },
+    "dimensions": { "w": 1365, "d": 700, "h": 877 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": "50+",
+      "status": "Znovu skladem od: 23-10-25",
+      "delivery": ""
+    },
+    "price": 29020,
+    "currency": "Kč"
+  },
+  {
+    "id": "sa-1365-ss_16488",
+    "name": "SA 1365 S/S",
+    "label": "Chladicí saladeta s pracovní deskou",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMDJiZTI0OTAtMjEyOC00YjExLWIwMzYtMjY5YTFmMDk0NGFjLnBuZw==.webp",
+    "item_number": "16488",
+    "capacity": { "gross": 400, "net": 368 },
+    "dimensions": { "w": 1365, "d": 700, "h": 877 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": "11-20",
+      "status": "Znovu skladem od: 20-10-25",
+      "delivery": ""
+    },
+    "price": 29290,
+    "currency": "Kč"
+  },
+  {
+    "id": "sa-910-bt_16490",
+    "name": "SA 910 BT",
+    "label": "Mrazicí saladeta",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZDMxYWMzNzctNGRhOC00MzQzLTgxZGYtZTQ3YjFiZWJlMjVhLnBuZw==.webp",
+    "item_number": "16490",
+    "capacity": { "gross": 260, "net": 230 },
+    "dimensions": { "w": 943, "d": 700, "h": 877 },
+    "availability": {
+      "ostrava": 2,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 26880,
+    "currency": "Kč"
+  },
+  {
+    "id": "sa-910_16492",
+    "name": "SA 910",
+    "label": "Chladicí saladeta s pracovní deskou",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZDMxYWMzNzctNGRhOC00MzQzLTgxZGYtZTQ3YjFiZWJlMjVhLnBuZw==.webp",
+    "item_number": "16492",
+    "capacity": { "gross": 260, "net": 230 },
+    "dimensions": { "w": 900, "d": 700, "h": 877 },
+    "availability": {
+      "ostrava": 2,
+      "dansko": "21-50",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 20270,
+    "currency": "Kč"
+  },
+  {
+    "id": "sa-912_16494",
+    "name": "SA 912",
+    "label": "Chladicí saladeta s pracovní deskou a zásuvkami",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vY2QyZGUyNzQtZDUzYy00ODkyLTlmZjYtNTljYjJkZmQ4MjMyLnBuZw==.webp",
+    "item_number": "16494",
+    "capacity": { "gross": 260, "net": 230 },
+    "dimensions": { "w": 900, "d": 700, "h": 877 },
+    "availability": {
+      "ostrava": 3,
+      "dansko": "21-50",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 26030,
+    "currency": "Kč"
+  },
+  {
+    "id": "sa-914_16495",
+    "name": "SA 914",
+    "label": "Chladicí saladeta s pracovní deskou a zásuvkami",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vY2M5ZGU3YmEtYjYxMy00ZTY1LWIxMDMtNjQyMDUyNTRkYjYzLnBuZw==.webp",
+    "item_number": "16495",
+    "capacity": { "gross": 260, "net": 230 },
+    "dimensions": { "w": 900, "d": 700, "h": 877 },
+    "availability": {
+      "ostrava": "21-50",
+      "dansko": "11-20",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 26500,
+    "currency": "Kč",
+    "note": "Sleva -16% z původní ceny 31.470 Kč"
+  },
+  {
+    "id": "sa-920_16496",
+    "name": "SA 920",
+    "label": "Chladicí saladeta",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vOWRmOTNlNTEtNWIzMi00MmE2LWIxYWItMmI2NmY0MWM0YTZkLnBuZw==.webp",
+    "item_number": "16496",
+    "capacity": { "gross": 260, "net": 230 },
+    "dimensions": { "w": 900, "d": 700, "h": 877 },
+    "availability": {
+      "ostrava": 2,
+      "dansko": "21-50",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 19910,
+    "currency": "Kč"
+  },
+  {
+    "id": "gs91_16480",
+    "name": "GS91",
+    "label": "Saladeta 2 dveře nerez",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vM2M0N2NkOGQtMmFkZS00ZGM2LWI2MjYtNjJmYmExMmE0ODE5LnBuZw==.webp",
+    "item_number": "16480",
+    "capacity": { "gross": 260, "net": 225 },
+    "dimensions": { "w": 900, "d": 700, "h": 877 },
+    "availability": {
+      "ostrava": 4,
+      "dansko": "11-20",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 18210,
+    "currency": "Kč"
+  },
+  {
+    "id": "gs92_16482",
+    "name": "GS92",
+    "label": "Saladeta 2 dveře",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZjRlYWM3N2UtMWZiNi00Yjk1LTk0ZmEtMmM4NDVhYzdmZTliLnBuZw==.webp",
+    "item_number": "16482",
+    "capacity": { "gross": 260, "net": 225 },
+    "dimensions": { "w": 900, "d": 700, "h": 877 },
+    "availability": {
+      "ostrava": 2,
+      "dansko": "21-50",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 17470,
+    "currency": "Kč"
+  },
+  {
+    "id": "gs365st-6-drawers_32368",
+    "name": "GS365ST/6 Drawers",
+    "label": "Saladeta 6 zásuvek nerez",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vM2VhMmNhN2EtZDgyZS00MjVmLThlNWItMzk5MzhmYzU0YzllLnBuZw==.webp",
+    "item_number": "32368",
+    "capacity": { "gross": 368, "net": null },
+    "dimensions": { "w": 1365, "d": 700, "h": 870 },
+    "availability": {
+      "ostrava": 10,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 42970,
+    "currency": "Kč"
+  },
+  {
+    "id": "sa-1045_16485",
+    "name": "SA 1045",
+    "label": "Chladicí saladeta",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMDM3ZjgzMDMtODdiNi00ZmRmLTkzY2ItNjk1ZTU3OGExNGU1LnBuZw==.webp",
+    "item_number": "16485",
+    "capacity": { "gross": 270, "net": 240 },
+    "dimensions": { "w": 1045, "d": 700, "h": 877 },
+    "availability": {
+      "ostrava": 4,
+      "dansko": 10,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 22280,
+    "currency": "Kč"
+  }
+]

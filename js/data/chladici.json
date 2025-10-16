@@ -1,0 +1,274 @@
+[
+  {
+    "id": "vk33-150_16503",
+    "name": "VK33-150",
+    "label": "Stolní chladicí nástavba",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vYjVlZDFlNWEtN2I1Mi00NGJlLWFiNGItY2ZiNjAzOWNkYjA5LnBuZw==.webp",
+    "item_number": "16503",
+    "capacity": { "gross": 44, "net": 44 },
+    "dimensions": { "w": 1500, "d": 335, "h": 434 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": 0,
+      "status": "Není skladem",
+      "delivery": ""
+    },
+    "price": 12140,
+    "currency": "Kč"
+  },
+  {
+    "id": "vk33-180_16508",
+    "name": "VK33-180",
+    "label": "Stolní chladicí nástavba",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vYjVlZDFlNWEtN2I1Mi00NGJlLWFiNGItY2ZiNjAzOWNkYjA5LnBuZw==.webp",
+    "item_number": "16508",
+    "capacity": { "gross": 55, "net": 55 },
+    "dimensions": { "w": 1800, "d": 335, "h": 434 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": "21-50",
+      "status": "Není skladem",
+      "delivery": "Předpokládaná doba doručení 14 dní"
+    },
+    "price": 12870,
+    "currency": "Kč"
+  },
+  {
+    "id": "vk33-180-ss-lid_16509",
+    "name": "VK33-180 S/S LID",
+    "label": "Stolní chladicí nástavba",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNzQwYTc1NWYtYzhjYi00ZThhLTg0ODUtOWQ2NjU4NTMzMTM2LnBuZw==.webp",
+    "item_number": "16509",
+    "capacity": { "gross": 55, "net": 55 },
+    "dimensions": { "w": 1800, "d": 335, "h": 260 },
+    "availability": {
+      "ostrava": 4,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 12870,
+    "currency": "Kč"
+  },
+  {
+    "id": "vk38-120_16514",
+    "name": "VK38-120",
+    "label": "Stolní chladicí nástavba",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vOWZhNDI4MjAtMjkyYy00MzZmLThmZjMtNDA0YzgyOWRjODE5LnBuZw==.webp",
+    "item_number": "16514",
+    "capacity": { "gross": 40, "net": 40 },
+    "dimensions": { "w": 1200, "d": 395, "h": 425 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": "21-50",
+      "status": "Není skladem",
+      "delivery": "Předpokládaná doba doručení 14 dní"
+    },
+    "price": 12280,
+    "currency": "Kč"
+  },
+  {
+    "id": "vk38-160_16521",
+    "name": "VK38-160",
+    "label": "Stolní chladicí nástavba",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vYzBkYmZjODMtZjdlOC00NDJiLWIwMjYtMTBmY2Y0NjdjZGI2LnBuZw==.webp",
+    "item_number": "16521",
+    "capacity": { "gross": 59, "net": 59 },
+    "dimensions": { "w": 1600, "d": 395, "h": 425 },
+    "availability": {
+      "ostrava": "11-20",
+      "dansko": "11-20",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 13600,
+    "currency": "Kč"
+  },
+  {
+    "id": "vk38-180_16524",
+    "name": "VK38-180",
+    "label": "Stolní chladicí nástavba",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vYzBkYmZjODMtZjdlOC00NDJiLWIwMjYtMTBmY2Y0NjdjZGI2LnBuZw==.webp",
+    "item_number": "16524",
+    "capacity": { "gross": 69, "net": 69 },
+    "dimensions": { "w": 1800, "d": 395, "h": 425 },
+    "availability": {
+      "ostrava": 2,
+      "dansko": "50+",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 14140,
+    "currency": "Kč"
+  },
+  {
+    "id": "vk38-180-ss-lid_16525",
+    "name": "VK38-180 S/S LID",
+    "label": "Stolní chladicí nástavba",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNWQyMTJhOGQtMTdkOS00YjQ1LTk5MGEtM2JlZjBiYTA2YzkzLnBuZw==.webp",
+    "item_number": "16525",
+    "capacity": { "gross": 69, "net": 69 },
+    "dimensions": { "w": 1800, "d": 395, "h": 260 },
+    "availability": {
+      "ostrava": 3,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 14140,
+    "currency": "Kč"
+  },
+  {
+    "id": "gvc33-140-ss_30847",
+    "name": "GVC33-140 S/S",
+    "label": "Stolní chladicí nástavba",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNWQyMTJhOGQtMTdkOS00YjQ1LTk5MGEtM2JlZjBiYTA2YzkzLnBuZw==.webp",
+    "item_number": "30847",
+    "capacity": { "gross": 38.5, "net": 31 },
+    "dimensions": { "w": 1400, "d": 335, "h": 288.5 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": 0,
+      "status": "Není skladem",
+      "delivery": ""
+    },
+    "price": 10420,
+    "currency": "Kč"
+  },
+   {
+    "id": "gvc33-180_32371",
+    "name": "GVC33-180",
+    "label": "Stolní chladicí nástavba",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZWE1YjlhNDktNzdiMS00MTlhLTg5MDUtMGVlZTBlYmY5YWMzLnBuZw==.webp",
+    "item_number": "32371",
+    "capacity": { "gross": 53.2, "net": 41.6 },
+    "dimensions": { "w": 1800, "d": 335, "h": 448 },
+    "availability": {
+      "ostrava": 2,
+      "dansko": 2,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 11140,
+    "currency": "Kč"
+  },
+  {
+    "id": "gvc33-150_32372",
+    "name": "GVC33-150",
+    "label": "Stolní chladicí nástavba",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMDFhNzNmNmEtZDA5ZC00Y2M1LWExYmQtMDQ4NDFjODM0OTg2LnBuZw==.webp",
+    "item_number": "32372",
+    "capacity": { "gross": 42.2, "net": 36.4 },
+    "dimensions": { "w": 1500, "d": 335, "h": 448 },
+    "availability": {
+      "ostrava": 4,
+      "dansko": 2,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 10560,
+    "currency": "Kč"
+  },
+  {
+    "id": "gvc33-120_32373",
+    "name": "GVC33-120",
+    "label": "Stolní chladicí nástavba",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZWEzZDU4ZWItMzAwZi00MzMyLWE0ZDQtNDU3YTllZDdjNmM3LnBuZw==.webp",
+    "item_number": "32373",
+    "capacity": { "gross": 31, "net": 26 },
+    "dimensions": { "w": 1200, "d": 335, "h": 448 },
+    "availability": {
+      "ostrava": 4,
+      "dansko": "21-50",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 9880,
+    "currency": "Kč"
+  },
+  {
+    "id": "gvc33-120-ss_33586",
+    "name": "GVC33-120 S/S",
+    "label": "Stolní chladicí nástavba",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vOGQ3N2Y4MWMtZDgwNC00OWY5LWIyNDktNzY3YzZjYThkNDI2LnBuZw==.webp",
+    "item_number": "33586",
+    "capacity": { "gross": 31, "net": 26 },
+    "dimensions": { "w": 1200, "d": 335, "h": 288.5 },
+    "availability": {
+      "ostrava": 4,
+      "dansko": "11-20",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 10080,
+    "currency": "Kč"
+  },
+  {
+    "id": "gvc33-140_33587",
+    "name": "GVC33-140",
+    "label": "Stolní chladicí nástavba",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vOWNlOWU0NzQtYTBlNy00NTcwLWI1ODQtOWZjYzk0NjU1NWY2LnBuZw==.webp",
+    "item_number": "33587",
+    "capacity": { "gross": 38.5, "net": 31 },
+    "dimensions": { "w": 1400, "d": 335, "h": 448 },
+    "availability": {
+      "ostrava": 2,
+      "dansko": "21-50",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 10420,
+    "currency": "Kč"
+  },
+  {
+    "id": "gvc33-150-ss_33589",
+    "name": "GVC33-150 S/S",
+    "label": "Stolní chladicí nástavba",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMjRjMzE2NTEtYTkxZC00YWVkLWEyNWMtNjVlMWRiNzg5NjdjLnBuZw==.webp",
+    "item_number": "33589",
+    "capacity": { "gross": 42.2, "net": 36.4 },
+    "dimensions": { "w": 1500, "d": 335, "h": 288.5 },
+    "availability": {
+      "ostrava": 2,
+      "dansko": 4,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 10810,
+    "currency": "Kč"
+  },
+  {
+    "id": "gvc33-160_33590",
+    "name": "GVC33-160",
+    "label": "Stolní chladicí nástavba",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNTBkMTBkMmEtZjk4Zi00ZWNlLTg0NmEtZjVlMGI4MmE0YzE2LnBuZw==.webp",
+    "item_number": "33590",
+    "capacity": { "gross": 45.9, "net": 36.4 },
+    "dimensions": { "w": 1600, "d": 335, "h": 448 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": "11-20",
+      "status": "Není skladem",
+      "delivery": "Předpokládaná doba doručení 14 dní"
+    },
+    "price": 11150,
+    "currency": "Kč"
+  },
+  {
+    "id": "gvc33-160-ss_33591",
+    "name": "GVC33-160 S/S",
+    "label": "Stolní chladicí nástavba",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZjg5YTA3ZTQtZmViZi00NTlmLWI3OGYtOTZlNzkxZDBhYTI4LnBuZw==.webp",
+    "item_number": "33591",
+    "capacity": { "gross": 45.9, "net": 36.4 },
+    "dimensions": { "w": 1600, "d": 335, "h": 288.5 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": 0,
+      "status": "Na objednávku",
+      "delivery": ""
+    },
+    "price": 11150,
+    "currency": "Kč"
+  }
+]

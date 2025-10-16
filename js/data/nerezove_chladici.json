@@ -1,0 +1,279 @@
+[
+  {
+    "id": "guc-140_16554",
+    "name": "GUC 140",
+    "label": "Chladicí skříň plné dveře",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZGMwYmI4NzctOWY5OC00NjkwLTljYWEtZGUxNGIzYzIyOWYwLnBuZw==.webp",
+    "item_number": "16554",
+    "capacity": { "gross": 1166, "net": 1056 },
+    "dimensions": { "w": 1340, "d": 845, "h": 2000 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": 0,
+      "status": "Znovu skladem od: 27-10-25",
+      "delivery": ""
+    },
+    "price": 44560,
+    "currency": "Kč"
+  },
+  {
+    "id": "rks-600_17578",
+    "name": "RKS 600",
+    "label": "Chladicí skříň plné dveře na ryby",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZDE0YmRhZjAtOGYzNS00MDg0LThjZTQtMWE5ZDYwYTRmYWVkLnBuZw==.webp",
+    "item_number": "17578",
+    "capacity": { "gross": 560, "net": 507 },
+    "dimensions": { "w": 680, "d": 810, "h": 2010 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": "11-20",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 39820,
+    "currency": "Kč"
+  },
+  {
+    "id": "rk-710-g_17588",
+    "name": "RK 710 G",
+    "label": "Chladicí skříň prosklené dveře GN2/1",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMDY1ZWUwM2QtN2M2Ny00ZWY1LWJkMWUtMDgxMWVjYjU2MDYzLnBuZw==.webp",
+    "item_number": "17588",
+    "capacity": { "gross": 520, "net": 484 },
+    "dimensions": { "w": 740, "d": 850, "h": 2010 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": "21-50",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 37950,
+    "currency": "Kč"
+  },
+  {
+    "id": "rk-1420-g_17597",
+    "name": "RK 1420 G",
+    "label": "Chladicí skříň prosklené dveře GN2/1",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vYTM2ZjEyMTEtODAwMy00NGI1LTk0MGMtYzk2NDg2NzY5NjBmLnBuZw==.webp",
+    "item_number": "17597",
+    "capacity": { "gross": 1410, "net": 1325 },
+    "dimensions": { "w": 1480, "d": 850, "h": 2010 },
+    "availability": {
+      "ostrava": 3,
+      "dansko": 6,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 62700,
+    "currency": "Kč"
+  },
+  {
+    "id": "guc-70_16556",
+    "name": "GUC 70",
+    "label": "Chladicí skříň plné dveře",
+    "badge": "TOP PRODUKT",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNTYwMjZjYzUtOWU5NC00Y2EyLTliZmItZWI4ZGFmNmFmZDY0LnBuZw==.webp",
+    "item_number": "16556",
+    "capacity": { "gross": 565, "net": 528 },
+    "dimensions": { "w": 680, "d": 845, "h": 2000 },
+    "availability": {
+      "ostrava": 10,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 28650,
+    "currency": "Kč"
+  },
+  {
+    "id": "rk-1420_17595",
+    "name": "RK 1420",
+    "label": "Chladicí skříň plné dveře, nerez",
+    "badge": "NOVINKA",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vYWJiMGMxYzctZmZmMS00N2E2LTk3MjctMGI5NjVhMWVlNTZmLnBuZw==.webp",
+    "item_number": "17595",
+    "capacity": { "gross": 1410, "net": 1004 },
+    "dimensions": { "w": 1480, "d": 850, "h": 2010 },
+    "availability": {
+      "ostrava": 9,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 49000,
+    "old_price": 62170,
+    "currency": "Kč"
+  },
+  {
+    "id": "bk-850_17666",
+    "name": "BK 850",
+    "label": "Chladicí skříň plné dveře",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMDQyNmEyYTktYjU5Mi00ZmVmLTg5YTYtNGE3NmFhOGQ5OTFhLnBuZw==.webp",
+    "item_number": "17666",
+    "capacity": { "gross": 850, "net": 737 },
+    "dimensions": { "w": 740, "d": 990, "h": 2010 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": 0,
+      "status": "Znovu skladem od: 31-10-25",
+      "delivery": ""
+    },
+    "price": 44670,
+    "currency": "Kč"
+  },
+  {
+    "id": "ric-880x1_55336",
+    "name": "RIC 880X1",
+    "label": "Chladicí skříň plné dveře",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZDdjNGIxZjAtMWU5My00M2M2LWJiZjgtODBmNzUzOGFjZTQyLnBuZw==.webp",
+    "item_number": "55336",
+    "capacity": { "gross": 1005, "net": 416 },
+    "dimensions": { "w": 880, "d": 994, "h": 2201.5 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": "11-20",
+      "status": "Na objednávku",
+      "delivery": ""
+    },
+    "price": 57620,
+    "currency": "Kč"
+  },
+  {
+    "id": "rk-710_31545",
+    "name": "RK 710",
+    "label": "Chladicí skříň plné dveře",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vOTgyNWNjODgtOGNhZC00YzE0LWFjYmUtZDRkOGQ0YTk2ZTRkLnBuZw==.webp",
+    "item_number": "31545",
+    "capacity": { "gross": 520, "net": 386 },
+    "dimensions": { "w": 740, "d": 830, "h": 2010 },
+    "availability": {
+      "ostrava": 3,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 36970,
+    "currency": "Kč"
+  },
+  {
+    "id": "ric-1760x1_55337",
+    "name": "RIC 1760X1",
+    "label": "Chladicí skříň plné dveře",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNGZhMjI0NDUtMmM5Zi00MDI5LWJmODctYzYwYTY4ZjQ0ZDdjLnBuZw==.webp",
+    "item_number": "55337",
+    "capacity": { "gross": 1918, "net": 832 },
+    "dimensions": { "w": 1760, "d": 994, "h": 2201.5 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": 0,
+      "status": "Na objednávku",
+      "delivery": ""
+    },
+    "price": 80210,
+    "currency": "Kč"
+  },
+  {
+    "id": "ur-550-s_34069",
+    "name": "UR 550 S",
+    "label": "Chladicí skříň plné dveře, nerez opláštění",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZGNlZTBiMjctMjUyNi00Njk1LTk2YjgtYTYzMzU2ODFiZDJhLnBuZw==.webp",
+    "item_number": "34069",
+    "capacity": { "gross": 461, "net": 420 },
+    "dimensions": { "w": 777, "d": 715, "h": 1720 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": "11-20",
+      "status": "Není skladem",
+      "delivery": "Předpokládaná doba doručení 14 dní"
+    },
+    "price": 26540,
+    "currency": "Kč"
+  },
+  {
+    "id": "rtc-880x1_55338",
+    "name": "RTC 880X1",
+    "label": "Chladicí skříň plné dveře",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vY2U3ZmU2ZGItOWMwYi00YzQ0LWFmOTItMmY4OWEzMmYzMWM0LnBuZw==.webp",
+    "item_number": "55338",
+    "capacity": { "gross": 1089, "net": 416 },
+    "dimensions": { "w": 880, "d": 1082, "h": 2201.5 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": 3,
+      "status": "Na objednávku",
+      "delivery": ""
+    },
+    "price": 69100,
+    "currency": "Kč"
+  },
+  {
+    "id": "rk-1420x1_54303",
+    "name": "RK 1420X1",
+    "label": "Chladicí skříň plné dveře, nerez",
+    "badge": "NOVINKA",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZjQ3MjBhMjAtYjMwYS00YTUyLWJjNWEtZDY1MGJjY2FkMjVlLnBuZw==.webp",
+    "item_number": "54303",
+    "capacity": { "gross": 1300, "net": 954 },
+    "dimensions": { "w": 1420, "d": 875, "h": 2090 },
+    "availability": {
+      "ostrava": "11-20",
+      "dansko": "50+",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 65500,
+    "currency": "Kč"
+  },
+  {
+    "id": "rtc-1760x1_55339",
+    "name": "RTC 1760X1",
+    "label": "Chladicí skříň plné dveře",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMTE0NGFjY2MtYTZmNy00MWYxLWFmNDctZjk1YmM5YmQ4ZjA0LnBuZw==.webp",
+    "item_number": "55339",
+    "capacity": { "gross": 2070, "net": 832 },
+    "dimensions": { "w": 1760, "d": 1082, "h": 2201.5 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": 4,
+      "status": "Na objednávku",
+      "delivery": ""
+    },
+    "price": 94870,
+    "currency": "Kč"
+  },
+  {
+    "id": "rk-710x1_54305",
+    "name": "RK 710X1",
+    "label": "Chladicí skříň plné dveře",
+    "badge": "NOVINKA",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMTA3YmJiMDctMGY1ZS00ZDM5LTk3M2MtYjJlYjY4ODZlOGRiLnBuZw==.webp",
+    "item_number": "54305",
+    "capacity": { "gross": 559, "net": 408 },
+    "dimensions": { "w": 740, "d": 875, "h": 2090 },
+    "availability": {
+      "ostrava": "21-50",
+      "dansko": "50+",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 39270,
+    "currency": "Kč"
+  },
+  {
+    "id": "ur-200x1_54855",
+    "name": "UR 200 X1",
+    "label": "Chladicí skříň plné dveře, nerez",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vODg3NGQ1ODktM2ZkZS00MTdiLWJlNTEtYzI4Mzg4Y2Y3NmQ3LnBuZw==.webp",
+    "item_number": "54855",
+    "capacity": { "gross": 129, "net": 119 },
+    "dimensions": { "w": 600, "d": 615, "h": 855 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": 0,
+      "status": "Znovu skladem od: 20-10-25",
+      "delivery": ""
+    },
+    "price": 13060,
+    "currency": "Kč"
+  }
+]

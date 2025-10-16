@@ -1,0 +1,70 @@
+[
+  {
+    "id": "uc-5360_16537",
+    "name": "UC 5360",
+    "label": "Chladicí podestavba se zásuvkami",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZTdiZDE2NmQtOWFlZS00OTRlLWJlODAtMjBkMmExNGM4ZjAyLnBuZw==.webp",
+    "item_number": "16537",
+    "capacity": { "gross": 277, "net": 262 },
+    "dimensions": { "w": 1795, "d": 700, "h": 670 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": 6,
+      "status": "Znovu skladem od: 20-10-25",
+      "delivery": ""
+    },
+    "price": 53180,
+    "currency": "Kč"
+  },
+  {
+    "id": "uc-5480_16540",
+    "name": "UC 5480",
+    "label": "Chladicí podestavba se zásuvkami",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vOWIwMTQ4OWItZDZmOC00OTc1LThlNWYtNjQ3MTdhOTdlODBjLnBuZw==.webp",
+    "item_number": "16540",
+    "capacity": { "gross": 370, "net": 350 },
+    "dimensions": { "w": 2230, "d": 700, "h": 670 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": 5,
+      "status": "Není skladem",
+      "delivery": "Předpokládaná doba doručení 14 dní"
+    },
+    "price": 63510,
+    "currency": "Kč"
+  },
+  {
+    "id": "uc-5210_16533",
+    "name": "UC 5210",
+    "label": "Chladicí podestavba s dvířky",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZDYyMmJhNWItM2Y0Mi00MjMwLThjMTUtNGI3YTYwY2ZlZjNjLnBuZw==.webp",
+    "item_number": "16533",
+    "capacity": { "gross": 180, "net": 170 },
+    "dimensions": { "w": 1360, "d": 700, "h": 670 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": 7,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 30730,
+    "currency": "Kč"
+  },
+  {
+    "id": "uc-5310_16536",
+    "name": "UC 5310",
+    "label": "Chladicí podestavba se zásuvkami",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vYmQ4NzQxNzItZjFiMy00MDMzLTg2YWMtNmYyZjU2MDEzODQ4LnBuZw==.webp",
+    "item_number": "16536",
+    "capacity": { "gross": 277, "net": 262 },
+    "dimensions": { "w": 1795, "d": 700, "h": 670 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": 10,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 37070,
+    "currency": "Kč"
+  }
+]

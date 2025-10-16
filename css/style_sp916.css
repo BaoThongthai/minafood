@@ -303,7 +303,7 @@
 
 /* Cố định khung ảnh theo tỉ lệ, ảnh fill vừa khung */
 .fruite .fruite-item .fruite-img{
-  aspect-ratio: 4 / 3;   /* đổi 1/1 hoặc 16/9 nếu muốn */
+  aspect-ratio: 9 / 14;   /* đổi 1/1 hoặc 16/9 nếu muốn */
   overflow:hidden;
   border-radius:10px 10px 0 0;
 }
