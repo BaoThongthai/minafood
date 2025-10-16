@@ -1,0 +1,207 @@
+[
+ {
+    "id": "set-zasuvek-gn11",
+    "name": "Set zásuvek GN1/1 (2 x 1/2)",
+    "label": "GC-DRAWERS/SK COUNTER",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/624/ce/L3BlcmZpb24vZGNjMGFjNDQtYjcxYy00Yjk1LTllMzctNzY4ZGIzOTM3M2E4LmpwZw==.webp",
+    "item_number": "12546",
+    "capacity": { "gross": null, "net": null },
+    "dimensions": { "w": null, "d": null, "h": null },
+    "availability": {
+      "ostrava": "11-20",
+      "dansko": "21-50",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 9950,
+    "currency": "Kč"
+  },
+  {
+    "id": "pracovni-deska-lem",
+    "name": "Pracovní deska se zadním lemem",
+    "label": "GC/GF 72",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vZTViMjhmMmEtZWU4NC00N2FkLTk4YWMtZmNkYzJlMTA4MTBlLnBuZw==.webp",
+    "item_number": "37584",
+    "capacity": { "gross": null, "net": null },
+    "dimensions": { "w": null, "d": null, "h": null },
+    "availability": {
+      "ostrava": 8,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 7820,
+    "currency": "Kč"
+  },
+  {
+    "id": "pracovni-deska-bez-lemu",
+    "name": "Pracovní deska bez zadního lemu",
+    "label": "GC/GF 72",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vYmU0NzdiMjAtNTY1OC00MTJiLTgwZjctNjE2NjcxYTI3ODJhLnBuZw==.webp",
+    "item_number": "37585",
+    "capacity": { "gross": null, "net": null },
+    "dimensions": { "w": null, "d": null, "h": null },
+    "availability": {
+      "ostrava": 4,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 7820,
+    "currency": "Kč"
+  },
+  {
+    "id": "pracovni-deska-drez-lem",
+    "name": "Pracovní deska s dřezem a zadním lemem",
+    "label": "GC72",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vYjMzMmIzMmQtYzA0MC00MGY0LWE5ZTYtNDc0MzcwNmIwZTQ1LnBuZw==.webp",
+    "item_number": "37586",
+    "capacity": { "gross": null, "net": null },
+    "dimensions": { "w": null, "d": null, "h": null },
+    "availability": {
+      "ostrava": 0,
+      "dansko": 0,
+      "status": "Není skladem",
+      "delivery": ""
+    },
+    "price": 13850,
+    "currency": "Kč"
+  }
+  ,
+  {
+    "id": "pracovni-deska-s-drezem-vpravo-a-bez-lemu_37597",
+    "name": "Pracovní deska s dřezem vpravo a bez lemu",
+    "label": "GC72",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/857/ce/L3BlcmZpb24vYzAyNDQ3YjItMzJmNy00M2MzLWFmNGUtZWRiOWMyMDRjMWNlLnBuZw==.webp",
+    "item_number": "37597",
+    "capacity": { "gross": null, "net": null },
+    "dimensions": { "w": null, "d": null, "h": null },
+    "availability": {
+      "ostrava": 1,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 13850,
+    "currency": "Kč"
+  },
+  {
+    "id": "pracovni-deska-s-drezem-vlevo-a-zadnim-lemem_41402",
+    "name": "Pracovní deska s dřezem vlevo a zadním lemem",
+    "label": "GC72",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vZmMyMjk5MTYtY2VmYi00YzVhLWIwNzMtMDY2ZWQzY2VhYzhiLnBuZw==.webp",
+    "item_number": "41402",
+    "capacity": { "gross": null, "net": null },
+    "dimensions": { "w": null, "d": null, "h": null },
+    "availability": {
+      "ostrava": 1,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 13850,
+    "currency": "Kč"
+  },
+  {
+    "id": "pracovni-deska-se-zadnim-lemem_37587",
+    "name": "Pracovní deska se zadním lemem",
+    "label": "GC/GF 73",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vZTViMjhmMmEtZWU4NC00N2FkLTk4YWMtZmNkYzJlMTA4MTBlLnBuZw==.webp",
+    "item_number": "37587",
+    "capacity": { "gross": null, "net": null },
+    "dimensions": { "w": null, "d": null, "h": null },
+    "availability": {
+      "ostrava": 6,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 8620,
+    "currency": "Kč"
+  },
+  {
+    "id": "pracovni-deska-bez-zadniho-lemu_37588",
+    "name": "Pracovní deska bez zadního lemu",
+    "label": "GC/GF 73",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vYmU0NzdiMjAtNTY1OC00MTJiLTgwZjctNjE2NjcxYTI3ODJhLnBuZw==.webp",
+    "item_number": "37588",
+    "capacity": { "gross": null, "net": null },
+    "dimensions": { "w": null, "d": null, "h": null },
+    "availability": {
+      "ostrava": 3,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 8620,
+    "currency": "Kč"
+  },
+   {
+    "id": "pracovni-deska-s-drezem-a-zadnim-lemem_37589",
+    "name": "Pracovní deska s dřezem a zadním lemem",
+    "label": "GC73",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vYjMzMmIzMmQtYzA0MC00MGY0LWE5ZTYtNDc0MzcwNmIwZTQ1LnBuZw==.webp",
+    "item_number": "37589",
+    "capacity": { "gross": null, "net": null },
+    "dimensions": { "w": null, "d": null, "h": null },
+    "availability": {
+      "ostrava": 3,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 13960,
+    "currency": "Kč"
+  },
+  {
+    "id": "pracovni-deska-s-drezem-bez-zadniho-lemu_37590",
+    "name": "Pracovní deska s dřezem bez zadního lemu",
+    "label": "GC73",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/857/ce/L3BlcmZpb24vYzAyNDQ3YjItMzJmNy00M2MzLWFmNGUtZWRiOWMyMDRjMWNlLnBuZw==.webp",
+    "item_number": "37590",
+    "capacity": { "gross": null, "net": null },
+    "dimensions": { "w": null, "d": null, "h": null },
+    "availability": {
+      "ostrava": 1,
+      "dansko": 0,
+      "status": "Na objednávku",
+      "delivery": ""
+    },
+    "price": 13960,
+    "currency": "Kč"
+  },
+  {
+    "id": "pracovni-deska-se-zadnim-lemem_37591",
+    "name": "Pracovní deska se zadním lemem",
+    "label": "GC/GF 74",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vZTViMjhmMmEtZWU4NC00N2FkLTk4YWMtZmNkYzJlMTA4MTBlLnBuZw==.webp",
+    "item_number": "37591",
+    "capacity": { "gross": null, "net": null },
+    "dimensions": { "w": null, "d": null, "h": null },
+    "availability": {
+      "ostrava": 1,
+      "dansko": 0,
+      "status": "Na objednávku",
+      "delivery": ""
+    },
+    "price": 9450,
+    "currency": "Kč"
+  },
+  {
+    "id": "pracovni-deska-bez-zadniho-lemu_37592",
+    "name": "Pracovní deska bez zadního lemu",
+    "label": "GC/GF 74",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vYmU0NzdiMjAtNTY1OC00MTJiLTgwZjctNjE2NjcxYTI3ODJhLnBuZw==.webp",
+    "item_number": "37592",
+    "capacity": { "gross": null, "net": null },
+    "dimensions": { "w": null, "d": null, "h": null },
+    "availability": {
+      "ostrava": 2,
+      "dansko": 0,
+      "status": "Na objednávku",
+      "delivery": ""
+    },
+    "price": 9450,
+    "currency": "Kč"
+  }
+]

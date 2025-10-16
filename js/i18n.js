@@ -203,11 +203,12 @@
   ,"section.coolingtables": "Nerezové chladicí a mrazicí stoly",
   "shockfreezers.text1": "V naší nabídce najdete Šokové zchlazovače a zmrazovače, které výborně slouží pro zefektivnění výrobního procesu stravovacích provozů, kdy vyrobená jídla lze šokově zchladit nebo zmrazit a uchovat je tak pro pozdější výdej.",
   "shockfreezers.text2": "Šokové zchlazování až zmrazování probíhá podle předem stanovené zchlazovací křivky, aby při procesu byl maximálně potlačen výskyt a množení mikroorganismů."
-
+,"section.accessories": "Příslušenství ke stolům"
         },
 
         en: {
              "page.gastro.title": "Gastro and Kitchen",
+             "section.accessories": "Table Accessories",
                "shockfreezers.text1": "In our offer you will find blast chillers and freezers that efficiently improve the production process of catering facilities, allowing prepared meals to be rapidly cooled or frozen and preserved for later serving.",
   "shockfreezers.text2": "Blast chilling and freezing take place according to a predefined cooling curve to minimize the occurrence and growth of microorganisms during the process.",
              "section.coolingtables": "Stainless Cooling and Freezer Tables",
