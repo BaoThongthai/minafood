@@ -113,6 +113,15 @@ const EMAILJS_TEMPLATE_ID = "template_0pna7cl";  // <-- giữ nguyên theo ảnh
     const btn = $('#btnPlaceOrder');
     if (btn) {
       btn.addEventListener('click', async () => {
+        const formEl = document.getElementById('checkoutForm');
+    if (!formEl) return;
+
+    // Hiện lỗi + CHẶN xử lý nếu form chưa hợp lệ
+    if (!formEl.reportValidity()) {
+      // để form-submit handler của bạn tự preventDefault; 
+      // ở đây chỉ dừng luồng gửi email/redirect
+      return;
+    }
         const cartNow = JSON.parse(localStorage.getItem(CART_KEY) || '[]');
         if (!cartNow.length) { window.location.href = 'cart.html'; return; }
 
