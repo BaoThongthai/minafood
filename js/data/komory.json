@@ -1,0 +1,36 @@
+[
+  {
+    "id": "jk79-017_35793",
+    "name": "JK 79-017",
+    "label": "Chladicí komora na odpad nerez",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZTEyZGRhOWQtNDdkZS00OGFhLWEwMjItMTNmZThlNTljYmE3LnRpZg==.webp",
+    "item_number": "35793",
+    "capacity": { "gross": 450, "net": 240 },
+    "dimensions": { "w": 990, "d": 850, "h": 1115 },
+    "availability": {
+      "ostrava": 5,
+      "dansko": "",
+      "status": "Na objednávku",
+      "delivery": ""
+    },
+    "price": 53460,
+    "currency": "Kč"
+  },
+  {
+    "id": "jk79-027_35792",
+    "name": "JK 79-027",
+    "label": "Chladicí komora na odpad nerez",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/1823/ce/L3BlcmZpb24vNDBhODE4YzEtNTgzOC00YzllLThlNWYtMjQ1NDBhYTYzMmIwLnRpZg==.webp",
+    "item_number": "35792",
+    "capacity": { "gross": 950, "net": 480 },
+    "dimensions": { "w": 1660, "d": 850, "h": 1115 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": "",
+      "status": "Na objednávku",
+      "delivery": ""
+    },
+    "price": 59360,
+    "currency": "Kč"
+  }
+]

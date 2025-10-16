@@ -1,0 +1,208 @@
+[
+  {
+    "id": "guf-70_16560",
+    "name": "GUF 70",
+    "label": "Mrazicí skříň plné dveře",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNTQwMWE3NjMtMzQzNS00YjMyLThjYzAtMmU3ZDZlNmFmMWExLnBuZw==.webp",
+    "item_number": "16560",
+    "capacity": { "gross": 565, "net": 528 },
+    "dimensions": { "w": 680, "d": 845, "h": 2000 },
+    "availability": {
+      "ostrava": "21-50",
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 32500,
+    "currency": "Kč"
+  },
+  {
+    "id": "bf-850i_67796",
+    "name": "BF850I",
+    "label": "Mrazicí skříň plné dveře",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMWNjMDdhMTQtZmNkZS00YzcyLTllZjEtOGU2N2QzNTM0NzdlLnBuZw==.webp",
+    "item_number": "67796",
+    "capacity": { "gross": 850, "net": 737 },
+    "dimensions": { "w": 740, "d": 990, "h": 2010 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": "21-50",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 52210,
+    "currency": "Kč"
+  },
+  {
+    "id": "guf-140_16558",
+    "name": "GUF 140",
+    "label": "Mrazicí skříň plné dveře",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vODQ0ZTE5NzAtNzQxYy00MWMxLTllNmItMDIxMTc0NTE3ZmRmLnBuZw==.webp",
+    "item_number": "16558",
+    "capacity": { "gross": 1166, "net": 1056 },
+    "dimensions": { "w": 1340, "d": 845, "h": 2000 },
+    "availability": {
+      "ostrava": 7,
+      "dansko": "11-20",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 48840,
+    "currency": "Kč"
+  },
+  {
+    "id": "bf-850_17664",
+    "name": "BF 850",
+    "label": "Mrazicí skříň plné dveře",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/4909/ce/L3BlcmZpb24vMmRmMzM2ZjQtOTkyYS00ODZiLWFhOTgtZGJlZjdhN2I5OGE1LnRpZg==.webp",
+    "item_number": "17664",
+    "capacity": { "gross": 850, "net": 737 },
+    "dimensions": { "w": 740, "d": 990, "h": 2010 },
+    "availability": {
+      "ostrava": "11-20",
+      "dansko": 9,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 39900,
+    "old_price": 48400,
+    "currency": "Kč"
+  },
+  {
+    "id": "uf-600s_33641",
+    "name": "UF600S",
+    "label": "Mrazicí skříň plné dveře, nerez",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNTdhZGFjMDItODU2NS00MGQzLTlmNjktMzA5NTBmMDU2NzA2LnBuZw==.webp",
+    "item_number": "33641",
+    "capacity": { "gross": 605, "net": 555 },
+    "dimensions": { "w": 777, "d": 695, "h": 1895 },
+    "availability": {
+      "ostrava": "21-50",
+      "dansko": "50+",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 29030,
+    "currency": "Kč"
+  },
+  {
+    "id": "uf-400-s_33855",
+    "name": "UF 400 S",
+    "label": "Mrazicí skříň plné dveře, nerez",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNTdhZGFjMDItODU2NS00MGQzLTlmNjktMzA5NTBmMDU2NzA2LnBuZw==.webp",
+    "item_number": "33855",
+    "capacity": { "gross": 400, "net": 340 },
+    "dimensions": { "w": 600, "d": 585, "h": 1855 },
+    "availability": {
+      "ostrava": 9,
+      "dansko": "21-50",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 22770,
+    "currency": "Kč"
+  },
+  {
+    "id": "uf-400-vs_33866",
+    "name": "UF 400 VS",
+    "label": "Mrazicí skříň plné dveře, nerez",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNTdhZGFjMDItODU2NS00MGQzLTlmNjktMzA5NTBmMDU2NzA2LnBuZw==.webp",
+    "item_number": "33866",
+    "capacity": { "gross": 400, "net": 340 },
+    "dimensions": { "w": 600, "d": 585, "h": 1855 },
+    "availability": {
+      "ostrava": 5,
+      "dansko": "50+",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 26830,
+    "currency": "Kč"
+  },
+  {
+    "id": "uf-550-s_34071",
+    "name": "UF 550 S",
+    "label": "Mrazicí skříň plné dveře, nerez",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNjA2NWZhM2YtNTkwMC00NmI5LWIxZTMtMjAxY2YxZjlkNTdlLnBuZw==.webp",
+    "item_number": "34071",
+    "capacity": { "gross": 461, "net": 420 },
+    "dimensions": { "w": 777, "d": 715, "h": 1720 },
+    "availability": {
+      "ostrava": 2,
+      "dansko": "11-20",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 29030,
+    "currency": "Kč"
+  },
+  {
+    "id": "uf-700-vs_34073",
+    "name": "UF 700 VS",
+    "label": "Mrazicí skříň plné dveře, nerez",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2232/ce/L3BlcmZpb24vOTZiYzc4MWEtNjMyZi00YTAyLTgyNDctNjI3ODUzZjIzOGQwLnBuZw==.webp",
+    "item_number": "34073",
+    "capacity": { "gross": 641, "net": 440 },
+    "dimensions": { "w": 777, "d": 730, "h": 1970 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": "21-50",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 37360,
+    "currency": "Kč"
+  },
+  {
+    "id": "uf-600-ss_53540",
+    "name": "UF 600 SS",
+    "label": "Mrazicí skříň s plnými dveřmi, nerez",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZjZmODYwNjgtOWMxMS00NTk3LTkxMjAtNGIwZmU2MGE2MWYwLnBuZw==.webp",
+    "item_number": "53540",
+    "capacity": { "gross": 620, "net": 518 },
+    "dimensions": { "w": 777, "d": 745, "h": 1895 },
+    "availability": {
+      "ostrava": "21-50",
+      "dansko": 8,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 28300,
+    "old_price": 33360,
+    "currency": "Kč"
+  },
+  {
+    "id": "rf-1420x1_54299",
+    "name": "RF 1420X1",
+    "label": "Mrazicí skříň plné dveře GN 2/1",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZjc0MmFlNWMtZWM2Ny00M2Q3LTk4MmItNTA4ZjJhMGE0OWU1LnBuZw==.webp",
+    "item_number": "54299",
+    "capacity": { "gross": 1300, "net": 954 },
+    "dimensions": { "w": 1420, "d": 875, "h": 2090 },
+    "availability": {
+      "ostrava": "11-20",
+      "dansko": "50+",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 67350,
+    "currency": "Kč"
+  },
+  {
+    "id": "rf-710x1_54301",
+    "name": "RF 710X1",
+    "label": "Mrazicí skříň plné dveře GN 2/1",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vYmY3NmFlNzgtNmMyMC00MGMxLTg5YzAtYTBmNGYzZWRmMzIzLnBuZw==.webp",
+    "item_number": "54301",
+    "capacity": { "gross": 559, "net": 408 },
+    "dimensions": { "w": 740, "d": 875, "h": 2090 },
+    "availability": {
+      "ostrava": "11-20",
+      "dansko": "50+",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 43130,
+    "currency": "Kč"
+  }
+]

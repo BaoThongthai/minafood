@@ -298,12 +298,12 @@
 .fruite .fruite-item{
   display:flex; 
   flex-direction:column; 
-  height:87%;
+  height:100%;
 }
 
 /* Cố định khung ảnh theo tỉ lệ, ảnh fill vừa khung */
 .fruite .fruite-item .fruite-img{
-  aspect-ratio: 9 / 16;   /* đổi 1/1 hoặc 16/9 nếu muốn */
+  aspect-ratio: 1 / 1;   /* đổi 1/1 hoặc 16/9 nếu muốn */
   overflow:hidden;
   border-radius:10px 10px 0 0;
 }
