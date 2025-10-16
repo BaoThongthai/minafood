@@ -85,7 +85,7 @@
     "label": "MID",
     "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vM2UxOGQxMGYtOTk3Ny00YWMxLWI2OTItYjYzZTM3NDI3NGUwLnBuZw==.webp",
     "item_number": "41419",
-    "dimensions": null,
+     "dimensions": { "w": 0, "h": 0, "d": 0 },
     "availability": {
       "ostrava": 3,
       "dansko": "",
@@ -101,7 +101,7 @@
     "label": "FEM04NEGNV",
     "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vM2UxOGQxMGYtOTk3Ny00YWMxLWI2OTItYjYzZTM3NDI3NGUwLnBuZw==.webp",
     "item_number": "37894",
-    "dimensions": null,
+    "dimensions": {"w": 0, "h": 0, "d": 0},
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -117,7 +117,7 @@
     "label": "FEM03NEPSV",
     "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vM2UxOGQxMGYtOTk3Ny00YWMxLWI2OTItYjYzZTM3NDI3NGUwLnBuZw==.webp",
     "item_number": "37895",
-    "dimensions": null,
+    "dimensions": {"w": 0, "h": 0, "d": 0},
     "availability": {
       "ostrava": "",
       "dansko": "",

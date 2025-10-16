@@ -220,7 +220,7 @@
 
         en: {
             "section.svareky":"Tray welders",
-            "section.Konvektomaty":"section.Konvektomaty",
+            "section.Konvektomaty":"Convection ovens and hot air ovens",
             "page.gastro.title": "Gastro and Kitchen",
               "traysealers.text1": "In our offer you will find stainless steel tray sealers designed for intensive use.",
   "traysealers.text2": "They are also ideal for demanding gastronomic operations, characterized by ease of use and space efficiency.",
