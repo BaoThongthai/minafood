@@ -1,0 +1,344 @@
+[
+  {
+    "id": "uc5240",
+    "name": "UC 5240",
+    "label": "Chladicí podestavba se zásuvkami",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vYzVjN2Q5YTEtNzdhZC00YTExLWE3NzktMGE5ODljOTZiMDZmLnBuZw==.webp",
+    "item_number": "16534",
+    "capacity": { "gross": 180, "net": 170 },
+    "dimensions": { "w": 1360, "d": 700, "h": 670 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": 3,
+      "status": "Není skladem",
+      "delivery": "Předpokládaná doba doručení 14 dní"
+    },
+    "price": 41510,
+    "currency": "Kč"
+  },
+  {
+    "id": "bk310",
+    "name": "BK310",
+    "label": "Chladicí stůl",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMjZhYWViYjMtMWNiOS00MDNhLWIwZDUtYjRmZjc3OTY2ZTQ0LnBuZw==.webp",
+    "item_number": "17846",
+    "capacity": { "gross": 580, "net": 565 },
+    "dimensions": { "w": 2020, "d": 800, "h": 880 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": "21-50",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 42520,
+    "currency": "Kč"
+  },
+  {
+    "id": "gf72",
+    "name": "GF72",
+    "label": "Mrazicí stůl",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vN2QxNTZkYWMtMjQyZS00MGZiLTg4Y2MtYTA3MWU1YjA1MjUwLnBuZw==.webp",
+    "item_number": "30833",
+    "capacity": { "gross": 282, "net": 272 },
+    "dimensions": { "w": 1360, "d": 700, "h": 980 },
+    "availability": {
+      "ostrava": 2,
+      "dansko": 10,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 31830,
+    "currency": "Kč"
+  },
+  {
+    "id": "bk210",
+    "name": "BK210",
+    "label": "Chladicí stůl",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZTA4NTcxOGUtM2NjOC00NTA0LTk3YjEtMWNjMzdlNjY4MWUzLnBuZw==.webp",
+    "item_number": "17843",
+    "capacity": { "gross": 390, "net": 380 },
+    "dimensions": { "w": 1510, "d": 800, "h": 880 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": 1,
+      "status": "Není skladem",
+      "delivery": "Předpokládaná doba doručení 14 dní"
+    },
+    "price": 37240,
+    "currency": "Kč"
+  },
+  {
+    "id": "ck7210x1sp",
+    "name": "CK 7210X1SP",
+    "label": "Chladicí stůl GN1/1",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vYWEyZWQzMTMtMWQzOS00OTZjLWE2ZTMtYjE0OGNlYWRiZjFkLnBuZw==.webp",
+    "item_number": "54290",
+    "capacity": { "gross": 238, "net": 190 },
+    "dimensions": { "w": 1360, "d": 700, "h": 960 },
+    "availability": {
+      "ostrava": 4,
+      "dansko": "11-20",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 34360,
+    "currency": "Kč"
+  },
+  {
+    "id": "gc72",
+    "name": "GC72",
+    "label": "Chladicí stůl bez desky",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNjIwY2JhNjYtNTk3Ni00ZGM2LWFjNWEtMzlhNjAyZTgwY2QwLnBuZw==.webp",
+    "item_number": "30078",
+    "capacity": { "gross": 282, "net": 272 },
+    "dimensions": { "w": 1360, "d": 700, "h": 840 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 23540,
+    "currency": "Kč"
+  },
+  {
+    "id": "ck7310x1sp",
+    "name": "CK 7310X1SP",
+    "label": "Chladicí stůl GN1/1",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vOGU5Njk0ZmEtZjRkNy00OTFhLTljMTEtNWI4ODZhMjMwZTE3LnBuZw==.webp",
+    "item_number": "54293",
+    "capacity": { "gross": 368, "net": 291 },
+    "dimensions": { "w": 1795, "d": 700, "h": 960 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": "11-20",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 39720,
+    "currency": "Kč"
+  },
+  {
+    "id": "gc72-left",
+    "name": "GC72 LEFT",
+    "label": "Chladicí stůl bez desky",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNjAxMGVmYWEtYjAzNy00YmJiLThiZmItMjA1YzdlNzE5YWQyLnBuZw==.webp",
+    "item_number": "32360",
+    "capacity": { "gross": 282, "net": 272 },
+    "dimensions": { "w": 1360, "d": 700, "h": 840 },
+    "availability": {
+      "ostrava": 10,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 23540,
+    "currency": "Kč"
+  },
+  {
+    "id": "ck7410x1sp",
+    "name": "CK 7410X1SP",
+    "label": "Chladicí stůl GN1/1",
+    "badge": "NOVINKA",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vYmEwYTcwZTctYjM5ZC00M2Q4LWI0NTktOWE4MGI1N2NkZmYzLnBuZw==.webp",
+    "item_number": "54296",
+    "capacity": { "gross": 616, "net": 393 },
+    "dimensions": { "w": 2230, "d": 700, "h": 960 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": 5,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 45990,
+    "currency": "Kč"
+  },
+  {
+    "id": "gc73",
+    "name": "GC73",
+    "label": "Chladicí stůl bez desky",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMDAxYmQxNWQtZGRiYi00YzYzLWIzODEtNWI0MTk5YjM1OTFhLnBuZw==.webp",
+    "item_number": "30079",
+    "capacity": { "gross": 417, "net": 402 },
+    "dimensions": { "w": 1795, "d": 700, "h": 840 },
+    "availability": {
+      "ostrava": 3,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 27830,
+    "currency": "Kč"
+  },
+  {
+    "id": "ck7210x1",
+    "name": "CK 7210X1",
+    "label": "Chladicí stůl GN1/1 bez zadního lemu",
+    "badge": "NOVINKA",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vODczZjM3NTQtZDhkMi00OWYwLTliYWMtZjQyZmY3N2NhNTlmLnBuZw==.webp",
+    "item_number": "54291",
+    "capacity": { "gross": 238, "net": 190 },
+    "dimensions": { "w": 1360, "d": 700, "h": 860 },
+    "availability": {
+      "ostrava": 3,
+      "dansko": "11-20",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 34360,
+    "currency": "Kč"
+  },
+  {
+    "id": "gc73-left",
+    "name": "GC73 LEFT",
+    "label": "Chladicí stůl bez desky",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vYzQxZmI5ZDItMWExNy00MGQ5LTgxYmItZGI1YTdlOTMyMjc3LnBuZw==.webp",
+    "item_number": "32361",
+    "capacity": { "gross": 417, "net": 402 },
+    "dimensions": { "w": 1795, "d": 700, "h": 840 },
+    "availability": {
+      "ostrava": 9,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 27830,
+    "currency": "Kč"
+  },
+   {
+    "id": "ck7310x1",
+    "name": "CK 7310X1",
+    "label": "Chladicí stůl GN1/1 bez zadního lemu",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZmViYzU2OGMtYTg3NS00MTFhLTliOTEtN2RjZDkxNzE0MmMyLnBuZw==.webp",
+    "item_number": "54294",
+    "capacity": { "gross": 368, "net": 291 },
+    "dimensions": { "w": 1795, "d": 700, "h": 860 },
+    "availability": {
+      "ostrava": 4,
+      "dansko": "21-50",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 39720,
+    "currency": "Kč"
+  },
+  {
+    "id": "gc74",
+    "name": "GC74",
+    "label": "Chladicí stůl bez desky",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZjRlZjFiM2UtNGIyYi00YTE4LWE5MWYtZDdiOTA3MDBmNTU4LnBuZw==.webp",
+    "item_number": "32364",
+    "capacity": { "gross": 553, "net": 476 },
+    "dimensions": { "w": 2230, "d": 700, "h": 840 },
+    "availability": {
+      "ostrava": 0,
+      "dansko": 0,
+      "status": "Znovu skladem od: 20-10-25",
+      "delivery": ""
+    },
+    "price": 32570,
+    "currency": "Kč"
+  },
+  {
+    "id": "ck7410x1",
+    "name": "CK 7410X1",
+    "label": "Chladicí stůl GN1/1",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vOTI4ZmRkZmItMTJhYS00MTRjLThlMmYtZmQyZDcxNzY4NTQyLnBuZw==.webp",
+    "item_number": "54297",
+    "capacity": { "gross": 616, "net": 393 },
+    "dimensions": { "w": 2230, "d": 700, "h": 860 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": "21-50",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 45990,
+    "currency": "Kč"
+  },
+  {
+    "id": "gc74-left",
+    "name": "GC74 LEFT",
+    "label": "Chladicí stůl bez desky",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vY2MwNjkzYTQtODkwYi00MWFhLTk5YjYtM2I0NTQ3OWIzZmE3LnBuZw==.webp",
+    "item_number": "32365",
+    "capacity": { "gross": 553, "net": 476 },
+    "dimensions": { "w": 2230, "d": 700, "h": 840 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 32570,
+    "currency": "Kč"
+  },
+  {
+    "id": "ud1-2",
+    "name": "UD1-2",
+    "label": "Kombinovaný chladicí / mrazicí stůl 1 zásuvka",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMWU1NDRkYmMtMzEzNS00MWNmLTliNWItOWI1M2FmOTBhOTNjLnBuZw==.webp",
+    "item_number": "16542",
+    "capacity": { "gross": 78, "net": 51 },
+    "dimensions": { "w": 905, "d": 700, "h": 600 },
+    "availability": {
+      "ostrava": 7,
+      "dansko": 2,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 29810,
+    "currency": "Kč"
+  },
+  {
+    "id": "ud1-3",
+    "name": "UD1-3",
+    "label": "Kombinovaný chladicí / mrazicí stůl 1 zásuvka",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMjVjZmFiNzUtMzY3Zi00MTQ3LTgzYzEtOGJiMWMxZTFjZDdiLnBuZw==.webp",
+    "item_number": "16544",
+    "capacity": { "gross": 116, "net": 77 },
+    "dimensions": { "w": 1230, "d": 700, "h": 600 },
+    "availability": {
+      "ostrava": 2,
+      "dansko": 6,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 37970,
+    "currency": "Kč"
+  },
+  {
+    "id": "ud2-2",
+    "name": "UD2-2",
+    "label": "Kombinovaný chladicí / mrazicí stůl 2 zásuvky",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNDYwZGE2NTItMmVjMC00OTdhLWI1NmYtNzhlODQ4MTVlMGIxLnBuZw==.webp",
+    "item_number": "16546",
+    "capacity": { "gross": 179, "net": 102 },
+    "dimensions": { "w": 905, "d": 700, "h": 865 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": 0,
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 43400,
+    "currency": "Kč"
+  },
+  {
+    "id": "ud2-3",
+    "name": "UD2-3",
+    "label": "Kombinovaný chladicí / mrazicí stůl 2 zásuvky",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vYjQ2ZmNhMmEtZjJiNC00YzFiLWIyYWYtZWViZGJlYjhjNWFkLnBuZw==.webp",
+    "item_number": "16548",
+    "capacity": { "gross": 265, "net": 154 },
+    "dimensions": { "w": 1230, "d": 700, "h": 865 },
+    "availability": {
+      "ostrava": "11-20",
+      "dansko": "50+",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 54380,
+    "currency": "Kč"
+  }
+]
