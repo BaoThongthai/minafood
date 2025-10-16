@@ -209,13 +209,21 @@
             "section.nerezove_chladici": "Nerezové chladicí skříně",
             "section.nerezove_mrazici": "Nerezové mrazicí skříně",
             "section.komory": "Nerezové chladicí komory na odpad",
+            "section.Konvektomaty":"Konvektomaty a horkovzdušné trouby",
+            "section.svareky":"Svářečky podnosů",
+             "traysealers.text1": "V naší nabídce naleznete nerezové svářečky podnosů, které jsou určeny k intenzivnímu používání.",
+  "traysealers.text2": "Výborně se hodí i do náročnějších gastro provozů. Vyznačují se jednoduchým používáním a nenáročností na prostor.",
             "wastecoolers.text1": "Nerezové levné chladicí komory na odpad jsou praktickým pomocníkem v každé restauraci a všude tam, kde se potýkáte s biologickým odpadem, jehož skladování s sebou přináší různá úskalí.",
             "wastecoolers.text2": "V naší nabídce najdete celonerezové antibakteriální chladicí komory na odpad renomované značky JUKA.",
             "coolingtables.text1": "V naší nabídce najdete různé typy chladicích stolů a saladet v nerezovém provedení. Všechny typy vynikají svou vysokou účinností chlazení i při vysokých okolních teplotách."
         },
 
         en: {
+            "section.svareky":"Tray welders",
+            "section.Konvektomaty":"section.Konvektomaty",
             "page.gastro.title": "Gastro and Kitchen",
+              "traysealers.text1": "In our offer you will find stainless steel tray sealers designed for intensive use.",
+  "traysealers.text2": "They are also ideal for demanding gastronomic operations, characterized by ease of use and space efficiency.",
             "wastecoolers.text1": "Affordable stainless steel waste cooling chambers are a practical helper in every restaurant and wherever you deal with biological waste, the storage of which brings various challenges.",
             "wastecoolers.text2": "In our offer you will find fully stainless, antibacterial waste cooling chambers from the renowned brand JUKA."
             , "section.komory": "Stainless steel cooling chambers for waste",

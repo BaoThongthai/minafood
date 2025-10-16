@@ -1,0 +1,130 @@
+[
+  {
+    "id": "nerone-mid-04-gn11-h2o_38055",
+    "name": "Nerone MID 04 GN 1/1 H2O",
+    "label": "Digitální konvekční trouba s přivlhčováním",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZGE5YjQzMDgtMTU5Mi00MDBjLWIxMjQtNGJkYTg0ZDZhNDAxLnRpZg==.webp",
+    "item_number": "38055",
+    "dimensions": { "w": 840, "h": 910, "d": 670 },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "Není skladem",
+      "delivery": ""
+    },
+    "price": 65590,
+    "currency": "Kč"
+  },
+  {
+    "id": "nerone-mid-05-gn11-h2o_38038",
+    "name": "Nerone MID 05 GN 1/1 H2O",
+    "label": "Digitální konvekční trouba s přivlhčováním",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMmRmNzJiMGItNjQ3My00YTllLWFkMmMtMzY0ZDhkZTI1MTYxLnRpZg==.webp",
+    "item_number": "38038",
+    "dimensions": { "w": 840, "h": 910, "d": 750 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": "",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 68910,
+    "currency": "Kč"
+  },
+  {
+    "id": "nerone-mid-06-gn11-h2o_37985",
+    "name": "Nerone MID 06 GN 1/1 H2O",
+    "label": "Digitální konvekční trouba s přivlhčováním",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNjljYjExNmMtYzY3Ni00ZjJlLWExMWQtMTg5OTY3MjhmZDkwLnRpZg==.webp",
+    "item_number": "37985",
+    "dimensions": { "w": 840, "h": 910, "d": 830 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": "",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 71350,
+    "currency": "Kč"
+  },
+  {
+    "id": "nerone-mid-07-gn11-h2o_35859",
+    "name": "Nerone MID 07 GN 1/1 H2O",
+    "label": "Digitální konvekční trouba s přivlhčováním",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZjA3MmU2MWUtZmVhNC00ZGJkLWI0YjQtZWZiZmZjN2M2ZTJlLnRpZg==.webp",
+    "item_number": "35859",
+    "dimensions": { "w": 840, "h": 910, "d": 930 },
+    "availability": {
+      "ostrava": 1,
+      "dansko": "",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 82900,
+    "currency": "Kč"
+  },
+  {
+    "id": "nerone-mid-10-gn11-h2o_38588",
+    "name": "Nerone MID 10 GN 1/1 H2O",
+    "label": "Digitální konvekční trouba s přivlhčováním",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vOTViMTYyODItMGRjMi00NjIwLTkyOWUtN2U4ZTIzZTczYWNkLnRpZg==.webp",
+    "item_number": "38588",
+    "dimensions": { "w": 840, "h": 910, "d": 1150 },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "Není skladem",
+      "delivery": ""
+    },
+    "price": 90220,
+    "currency": "Kč"
+  },
+  {
+    "id": "nefom-podstavec-nerone_41419",
+    "name": "NEFOM podstavec pod troubu Nerone",
+    "label": "MID",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vM2UxOGQxMGYtOTk3Ny00YWMxLWI2OTItYjYzZTM3NDI3NGUwLnBuZw==.webp",
+    "item_number": "41419",
+    "dimensions": null,
+    "availability": {
+      "ostrava": 3,
+      "dansko": "",
+      "status": "Na objednávku",
+      "delivery": ""
+    },
+    "price": 13680,
+    "currency": "Kč"
+  },
+  {
+    "id": "nefon-podstavec-nerone_37894",
+    "name": "NEFON podstavec pod troubu Nerone",
+    "label": "FEM04NEGNV",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vM2UxOGQxMGYtOTk3Ny00YWMxLWI2OTItYjYzZTM3NDI3NGUwLnBuZw==.webp",
+    "item_number": "37894",
+    "dimensions": null,
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "Není skladem",
+      "delivery": ""
+    },
+    "price": 11530,
+    "currency": "Kč"
+  },
+  {
+    "id": "nefop-podstavec-nerone_37895",
+    "name": "NEFOP podstavec pod troubu Nerone",
+    "label": "FEM03NEPSV",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vM2UxOGQxMGYtOTk3Ny00YWMxLWI2OTItYjYzZTM3NDI3NGUwLnBuZw==.webp",
+    "item_number": "37895",
+    "dimensions": null,
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "Není skladem",
+      "delivery": ""
+    },
+    "price": 11920,
+    "currency": "Kč"
+  }
+]
