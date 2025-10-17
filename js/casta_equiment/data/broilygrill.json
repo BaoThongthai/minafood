@@ -1,15 +1,60 @@
 [
   {
-    "id": "broiler_810",
-    "name": "Elektrický broiler grill 810",
+    "id": "BRE7001",
+    "name": "BroilyGrill elettrico – BRE7001",
     "label": "NOVINKA",
     "image": "https://casta.com/wp-content/uploads/2023/07/BRE7001-347x300.png",
-    "price": 0,
     "currency": "Kč",
     "dimensions": {
       "w": 810,
       "h": 745,
       "d": 630
-    }
+    },
+    "weight": 68,
+    "power": "KW 5.0 3NAC400V / KW 5.0 1NAC230V",
+    "frequency": "50/60 Hz 16A – 50/60 Hz 32A",
+    "info": "Utile di cottura / useful cooking area / dim. utiles cuisson / área de cocción 470×380 mm"
+  },
+  {
+    "id": "BRL8001",
+    "name": "BroilyGrill gas – BRL8001",
+    "label": "NOVINKA",
+    "image": "https://casta.com/wp-content/uploads/2022/02/brl8001ok-400x278.png",
+    "dimensions": {
+      "w": 980,
+      "h": 745,
+      "d": 630
+    },
+    "weight": 87,
+    "power_gas": "12.8 kW",
+    "info": "Utile di cottura / useful cooking area / dim. utiles cuisson / área de cocción 700×380 mm"
+  },
+  {
+    "id": "BRE8001",
+    "name": "BroilyGrill elettrico – BRE8001",
+    "label": "NOVINKA",
+    "image": "https://casta.com/wp-content/uploads/2023/02/brl8001-400x286.png",
+    "dimensions": {
+      "w": 1050,
+      "h": 745,
+      "d": 630
+    },
+    "weight": 93,
+    "power": "10.0 kW 3NAC400V",
+    "frequency": "50 Hz 32A",
+    "info": "Utile di cottura / useful cooking area / dim. utiles cuisson / área de cocción 700×380 mm"
+  },
+    {
+    "id": "BRL7001",
+    "name": "BroilyGrill gas – BRL7001",
+    "label": "BROILYGRILL",
+    "image": "https://casta.com/wp-content/uploads/2023/07/brl7-354x300.png",
+    "dimensions": {
+      "w": 740,
+      "h": 745,
+      "d": 630
+    },
+    "weight": 65,
+    "info": "Utile di cottura / useful cooking area / dim. utiles cuisson / área de cocción 470×380 mm"
   }
 ]
