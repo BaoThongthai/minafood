@@ -197,6 +197,7 @@
             "cat.traysealers": "SVÁŘEČKY PODNOSŮ",
             "cat.convectionovens": "KONVEKTOMATY A HORKOVZDUŠNÉ TROUBY",
             "page.gastro.title": "Gastro-a-kuchyně",
+            "page.gastro.Fritezy_katagory": "Fritézy_katagory",
             "section.coolingtubs": "Nerezové chladicí vany",
             "coolingtubs.text1": "V naší nabídce naleznete různé chladící vany pro uchování a chlazení nápojů v plechovkách nebo PET lahvích - párty chladící válce,",
             "coolingtubs.text2": "chladničky volně stojící, dále zde naleznete i nerezové chladící vany na gastronádoby."
@@ -220,6 +221,7 @@
 
         en: {
             "section.svareky":"Tray welders",
+            "page.gastro.Fritezy_katagory": "Fryers Category",
             "section.Konvektomaty":"Convection ovens and hot air ovens",
             "page.gastro.title": "Gastro and Kitchen",
               "traysealers.text1": "In our offer you will find stainless steel tray sealers designed for intensive use.",

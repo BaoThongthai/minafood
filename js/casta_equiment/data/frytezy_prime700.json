@@ -1,0 +1,86 @@
+[
+  {
+    "id": "FRY2X7L",
+    "name": "Friggitrice elettrica 2 vasche – 2×7 L",
+    "label": "NOVINKA",
+    "image": "https://casta.com/wp-content/uploads/2021/10/P7-FRE2V8-317x300.jpg",
+    "dimensions": { "w": 800, "h": 305, "d": 700 },
+    "weight": 0,
+    "volume_m3": 0.2,
+    "power": "13,0 kW 400V 3N~",
+    "frequency": "50/60 Hz",
+    "num_tanks": 2,
+    "tank_capacity": "2 × 7 L",
+    "info": "không có"
+  },
+  {
+    "id": "P7FRE1V8",
+    "name": "Friggitrice elettrica ad una vasca – P7/FRE1V8",
+    "label": "PRIME 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2022/03/P7-FRE1V8-317x300.jpg",
+    "dimensions": {
+      "w": 400,
+      "h": 305,
+      "d": 700
+    },
+    "weight": 0,
+    "volume_m3": 0.1,
+    "power": "6,5 kW 400V 3N~",
+    "frequency": "50/60 Hz",
+    "num_tanks": 1,
+    "tank_capacity": "1 × 7 L",
+    "info": "không có"
+  },
+  {
+    "id": "P7KTE1BBL",
+    "name": "Fry top elettrico – P7/KTE1BBL",
+    "label": "PRIME 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2022/03/P7-KTE1BBL-317x300.jpg",
+    "dimensions": {
+      "w": 400,
+      "h": 305,
+      "d": 700
+    },
+    "weight": 53,
+    "volume_m3": 0.1,
+    "power": "5,4 kW 400V 3N~",
+    "frequency": "50/60 Hz",
+    "zone_cottura": "1 × 5,4 400V 3N~",
+    "info": "không có"
+  },
+  {
+    "id": "P7FRG1V8",
+    "name": "Friggitrice a gas ad una vasca – P7/FRG1V8",
+    "label": "PRIME 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2022/04/P7-FRG1V8-317x300.jpg",
+    "dimensions": {
+      "w": 400,
+      "h": 305,
+      "d": 700
+    },
+    "weight": 46,
+    "volume_m3": 0.1,
+    "power_gas": "6,6 kW",
+    "frequency": "không có",
+    "num_tanks": 1,
+    "tank_capacity": "1 × 7 L",
+    "info": "không có"
+  },
+  {
+    "id": "P7CUET4BB",
+    "name": "Cucina elettrica con quattro zone cottura – P7/CUET4BB",
+    "label": "PRIME 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2024/03/P7-CUET4BB-317x300.jpg",
+    "dimensions": {
+      "w": 800,
+      "h": 305,
+      "d": 700
+    },
+    "weight": 0,
+    "volume_m3": 0,
+    "power": "10,4 kW 400V 3N~",
+    "frequency": "50/60 Hz",
+    "zone_cottura": "4 × 2,6 kW 400V 3N~",
+    "info": "không có"
+  }
+]
