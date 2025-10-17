@@ -1,0 +1,193 @@
+[
+  {
+    "id": "E7KTE2BBMK",
+    "name": "Fry top elettrico – E7/KTE2BBMK",
+    "label": "EASY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTE2BBM-800X700X270H-DX-376x300.jpg",
+    "dimensions": {
+      "w": 800,
+      "h": 270,
+      "d": 700
+    },
+    "weight": 90,
+    "volume_m3": 0.1,
+    "power": "10,8 kW 400V 3N~",
+    "frequency": "50/60 Hz",
+    "zone_cottura": "2 × 5,4 kW 400V 3N~",
+    "info": "không có"
+  },
+  
+  {
+    "id": "E7KTE1BBLK",
+    "name": "Fry top elettrico – E7/KTE1BBLK",
+    "label": "EASY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BBL-400X700X270H-DX-376x300.jpg",
+    "dimensions": {
+      "w": 400,
+      "h": 270,
+      "d": 700
+    },
+    "weight": 53,
+    "volume_m3": 0.1,
+    "power": "5,4 kW 400V 3N~",
+    "frequency": "không có",
+    "zone_cottura": "không có",
+    "info": "không có"
+  }
+,
+{
+    "id": "E7FTG2BBLK",
+    "name": "Fry top a gas – E7/FTG2BBLK",
+    "label": "EASY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BBL-800X700X270H-DX-376x300.jpg",
+    "dimensions": {
+      "w": 700,
+      "h": 270,
+      "d": 700
+    },
+    "weight": 84,
+    "volume_m3": 0.2,
+    "power_gas": "12,0 kW",
+    "frequency": "không có",
+    "zone_cottura": "không có",
+    "info": "không có"
+  },
+{
+  "id": "E7KTG1BBLK",
+  "name": "Fry top a gas – E7/KTG1BBLK",
+  "label": "EASY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BBL-400X700X270H-DX-376x300.jpg",
+  "dimensions": {
+    "w": 400,
+    "h": 270,
+    "d": 700
+  },
+  "weight": 53,
+  "volume_m3": 0.15,
+  "power_gas": "6,0 kW",
+  "frequency": "không có",
+  "zone_cottura": "1 zona cottura",
+  "info": "Piano superiore arrotondato in acciaio inox AISI 304, camino scarico fumi incorporato. Piastra di cottura in acciaio AISI 430 spessore 15 mm liscia. Alzata paraspruzzi in acciaio inox AISI 304. Canalina frontale con foro di scarico e cassetto raccolta olio e grassi. Bruciatori a due tubi fiamma ad alto rendimento per 1 zona cottura."
+},
+{
+  "id": "E7KTG2BBMK",
+  "name": "Fry top a gas – E7/KTG2BBMK",
+  "label": "EASY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBM-800X700X270H-DX-376x300.jpg",
+  "dimensions": {
+    "w": 800,
+    "h": 275,
+    "d": 700
+  },
+  "weight": 84,
+  "volume_m3": 0.2,
+  "power_gas": "12,0 kW",
+  "frequency": "không có",
+  "zone_cottura": "2 zone cottura (1/2 liscia, 1/2 rigata)",
+  "info": "Piano superiore arrotondato in acciaio inox AISI 304, camino scarico fumi incorporato. Piastra di cottura in acciaio AISI 430 spessore 15 mm, metà liscia e metà rigata. Alzata paraspruzzi in acciaio inox AISI 304. Canalina frontale con foro di scarico e cassetto raccolta olio e grassi. Bruciatori a due tubi fiamma ad alto rendimento per 2 zone indipendenti."
+},
+
+{
+  
+  "id": "E7FTG2BBMK",
+  "name": "Fry top a gas – E7/FTG2BBMK",
+  "label": "EASY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBM-800X700X270H-DX-376x300.jpg",
+  "dimensions": {
+    "w": 700,
+    "h": 275,
+    "d": 700
+  },
+  "weight": 80,
+  "volume_m3": 0.2,
+  "power_gas": "12,0 kW",
+  "frequency": "không có",
+  "zone_cottura": "2 zone cottura (1/2 liscia, 1/2 rigata)",
+  "info": "Piano superiore arrotondato in acciaio inox AISI 304, camino scarico fumi incorporato. Piastra di cottura in acciaio AISI 430, spessore 15,0 mm, 1/2 liscia e 1/2 rigata. Alzate paraspruzzi in acciaio inox AISI 304. Canalina frontale con foro di scarico e cassetto raccolta olio e grassi. Bruciatori gas a due tubi fiamma ad alto rendimento per 2 zone indipendenti."
+},
+{
+  "sp": "7",
+  "id": "E7KTG2BBLK",
+  "name": "Fry top a gas – E7/KTG2BBLK",
+  "label": "EASY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BBL-800X700X270H-DX-376x300.jpg",
+  "dimensions": { 
+    "w": 800, 
+    "h": 275, 
+    "d": 700 
+  },
+  "weight": 84
+},
+{
+  "sp": "8",
+  "id": "E7CUPG2BB2M",
+  "name": "Cucina a gas a due fuochi – E7/CUPG2BB.2M",
+  "label": "EASY 700 / CUCINA",
+  "image": "https://casta.com/wp-content/uploads/2013/10/E7-KUPG2BB.1M1G-800X700X270H-DX-1-e1568097871136.jpg",
+  "dimensions": { 
+    "w": 350, 
+    "h": 270, 
+    "d": 700 
+  },
+  "weight": 35
+},{
+  "sp": "9",
+  "id": "E7CUPG2BB1M1G",
+  "name": "Cucina a gas a due fuochi – E7/CUPG2BB.1M1G",
+  "label": "EASY 700 / CUCINA",
+  "image": "https://casta.com/wp-content/uploads/2013/10/E7-KUPG2BB.1M1G-800X700X270H-DX-1-e1568097871136.jpg",
+  "dimensions": { 
+    "w": 350, 
+    "h": 270, 
+    "d": 700 
+  },
+  "weight": 35
+},
+{
+  "sp": "10",
+  "id": "E7KUPG2BB2M",
+  "name": "Cucina a gas a due fuochi – E7/KUPG2BB.2M",
+  "label": "EASY 700 / CUCINA",
+  "image": "https://casta.com/wp-content/uploads/2013/10/E7-KUPG2BB.1M1G-800X700X270H-DX-1-e1568097871136.jpg",
+  "dimensions": { 
+    "w": 400, 
+    "h": 270, 
+    "d": 700 
+  },
+  "weight": 40
+},
+{
+  "sp": "11",
+  "id": "E7KUPG2BB1M1G",
+  "name": "Cucina a gas a due fuochi – E7/KUPG2BB.1M1G",
+  "label": "EASY 700 / CUCINA",
+  "image": "https://casta.com/wp-content/uploads/2013/10/E7-KUPG2BB.1M1G-800X700X270H-DX-1-e1568097871136.jpg",
+  "dimensions": { 
+    "w": 400, 
+    "h": 270, 
+    "d": 700 
+  },
+  "weight": 40
+},
+{
+  "sp": "12",
+  "id": "E7CUPG4BB4M",
+  "name": "Cucina a gas a quattro fuochi – E7/CUPG4BB.4M",
+  "label": "EASY 700 / CUCINA",
+  "image": "https://casta.com/wp-content/uploads/2013/10/E7-KUPG4BB.2M2G-800X700X270H-DX-1-376x300.jpg",
+  "dimensions": { 
+    "w": 700, 
+    "h": 270, 
+    "d": 700 
+  },
+  "weight": 50
+}
+
+
+
+
+
+
+
+
+]
