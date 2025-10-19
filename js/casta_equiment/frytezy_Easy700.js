@@ -4,6 +4,16 @@
   const GRID_SELECTOR = '#product-grid';
   const DATA_URL = 'js/casta_equiment/data/frytezy_Easy700.json'; // Đường dẫn JSON
 
+  const LABELS = {
+    showMore: 'Hiển thị thêm',
+    loadingAria: 'loading',
+    error: 'Không tải được danh sách sản phẩm. Vui lòng thử lại sau.'
+  };
+
+  const PAGE_SIZE = 4;           // 👉 Mỗi lần hiện 4 sp
+  let visible = PAGE_SIZE;       // 👉 Số lượng đang hiển thị
+  let allProducts = [];          // 👉 Lưu toàn bộ dữ liệu để bấm "hiển thị thêm"
+
   const grid = document.querySelector(GRID_SELECTOR);
   if (!grid) return;
 
@@ -13,7 +23,7 @@
   // Template hiển thị sản phẩm
   const cardHTML = (p) => `
     <div class="col-md-6 col-lg-4 col-xl-3">
-      <div class="rounded position-relative fruite-item">
+      <div class="rounded position-relative fruite-item h-100">
         <div class="fruite-img">
           <img src="${p.image}"
                class="img-fluid w-100 rounded-top border border-secondary"
@@ -22,11 +32,11 @@
         ${p.label ? `
         <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
              style="top: 10px; left: 10px;">${p.label}</div>` : ''}
-        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-          <h4>${p.name}</h4>
-          <p>${fmtDims(p.dimensions)}</p>
-          <p>Peso: ${p.weight} kg</p>
-          <div class="d-flex justify-content-end">
+        <div class="p-4 border border-secondary border-top-0 rounded-bottom d-flex flex-column">
+          <h4 class="mb-2">${p.name}</h4>
+          <p class="mb-1">${fmtDims(p.dimensions)}</p>
+          <p class="mb-3">Peso: ${p.weight} kg</p>
+          <div class="mt-auto d-flex justify-content-end">
             <a href="contact.html"
                class="btn border border-secondary rounded-pill px-3 text-primary"
                aria-label="Na poptávku">
@@ -39,15 +49,43 @@
     </div>
   `;
 
-  // Render danh sách
-  const renderProducts = (list) => {
-    grid.innerHTML = list.map(cardHTML).join('');
+  // Render danh sách (theo số lượng 'visible')
+  const renderProducts = () => {
+    const slice = allProducts.slice(0, visible);
+    grid.innerHTML = slice.map(cardHTML).join('');
+    renderShowMore();
+  };
+
+  // Chèn/ẩn nút "Hiển thị thêm"
+  const renderShowMore = () => {
+    // Nếu còn sp chưa hiển thị thì thêm 1 col full width chứa nút
+    const hasMore = visible < allProducts.length;
+    // Xóa nút cũ (nếu có)
+    const oldMore = grid.querySelector('.js-show-more-row');
+    if (oldMore) oldMore.remove();
+
+    if (hasMore) {
+      const moreRow = document.createElement('div');
+      moreRow.className = 'col-12 text-center js-show-more-row';
+      moreRow.innerHTML = `
+        <button type="button" class="btn btn-outline-secondary px-4 rounded-pill js-show-more-btn">
+          ${LABELS.showMore}
+        </button>
+      `;
+      grid.appendChild(moreRow);
+
+      const btn = moreRow.querySelector('.js-show-more-btn');
+      btn.addEventListener('click', () => {
+        visible += PAGE_SIZE;          // 👉 Mỗi lần bấm tăng thêm 4
+        renderProducts();              // 👉 Vẽ lại
+      }, { once: false });
+    }
   };
 
   // Loading spinner
   grid.innerHTML = `
     <div class="col-12 text-center py-5">
-      <div class="spinner-border" role="status" aria-label="loading"></div>
+      <div class="spinner-border" role="status" aria-label="${LABELS.loadingAria}"></div>
     </div>
   `;
 
@@ -57,17 +95,19 @@
     const products = await res.json();
 
     // Lọc hợp lệ (bắt buộc có name, image, dimensions)
-    const safe = Array.isArray(products)
+    allProducts = Array.isArray(products)
       ? products.filter(p => p && p.name && p.image && p.dimensions)
       : [];
 
-    renderProducts(safe);
+    // Reset số lượng hiển thị khi load xong
+    visible = Math.min(PAGE_SIZE, allProducts.length);
+    renderProducts();
   } catch (err) {
     console.error('Load products failed:', err);
     grid.innerHTML = `
       <div class="col-12">
         <div class="alert alert-danger" role="alert">
-          Không tải được danh sách sản phẩm. Vui lòng thử lại sau.
+          ${LABELS.error}
         </div>
       </div>
     `;

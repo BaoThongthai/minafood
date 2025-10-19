@@ -1,0 +1,184 @@
+[
+  {
+    "sp": "67",
+    "id": "E7FRE1V13",
+    "name": "Friggitrice elettrica ad una vasca – E7/FRE1V13",
+    "label": "EASY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FRE1V17-400X700X850H-DX-400x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 56
+  },
+  {
+    "sp": "68",
+    "id": "E7FRE1V17",
+    "name": "Friggitrice elettrica ad una vasca – E7/FRE1V17",
+    "label": "EASY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FRE1V17-400X700X850H-DX-400x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 56
+  },
+  {
+    "sp": "69",
+    "id": "E7FRE2V8",
+    "name": "Friggitrice elettrica a due vasche – E7/FRE2V8",
+    "label": "EASY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FRE2V8-400X700X850H-DX-400x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 56
+  },
+  {
+    "sp": "70",
+    "id": "E7FRE2V13",
+    "name": "Friggitrice elettrica a due vasche – E7/FRE2V13",
+    "label": "EASY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FRE2V13-800X700X850H-DX-376x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 72
+  },
+  {
+    "sp": "71",
+    "id": "E7FRE2V17",
+    "name": "Friggitrice elettrica a due vasche – E7/FRE2V17",
+    "label": "EASY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FRE2V17-800X700X850H-DX-376x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 72
+  },
+   {
+    "sp": "72",
+    "id": "E7KPE1V40",
+    "name": "Cuocipasta elettrico con una vasca – E7/KPE1V40",
+    "label": "EASY 700 / CUOCIPASTA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KPE1V40-400X700X850H-DX-400x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 50
+  },
+  {
+    "sp": "73",
+    "id": "E7KPE2V80",
+    "name": "Cuocipasta elettrico a due vasche – E7/KPE2V80",
+    "label": "EASY 700 / CUOCIPASTA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KPE2V80-800X700X850H-DX-376x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 100
+  },
+  {
+    "sp": "74",
+    "id": "E7KME1BA",
+    "name": "Bagnomaria elettrico – E7/KME1BA",
+    "label": "EASY 700 / BAGNOMARIA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KME1BA-400X700X850H-DX-376x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 30
+  },
+  {
+    "sp": "75",
+    "id": "E7KME2BA",
+    "name": "Bagnomaria elettrico – E7/KME2BA",
+    "label": "EASY 700 / BAGNOMARIA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KME2BA-800X700X850H-DX-376x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 52
+  },
+  {
+    "sp": "76",
+    "id": "E7FTG1BBL",
+    "name": "Fry top a gas – E7/FTG1BBL",
+    "label": "EASY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BBL-400X700X270H-DX-376x300.jpg",
+    "dimensions": { "w": 350, "h": 270, "d": 700 },
+    "weight": 38
+  },
+  
+  {
+    "sp": "77",
+    "id": "E7KTG1BBL",
+    "name": "Fry top a gas – E7/KTG1BBL",
+    "label": "EASY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BBL-400X700X270H-DX-376x300.jpg",
+    "dimensions": { "w": 400, "h": 270, "d": 700 },
+    "weight": 53
+  },
+  {
+    "sp": "78",
+    "id": "E7FTG1BBR",
+    "name": "Fry top a gas – E7/FTG1BBR",
+    "label": "EASY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG1BBR-400X700X270H-DX-376x300.jpg",
+    "dimensions": { "w": 350, "h": 270, "d": 700 },
+    "weight": 38
+  },
+  {
+    "sp": "79",
+    "id": "E7KTG1BBR",
+    "name": "Fry top a gas – E7/KTG1BBR",
+    "label": "EASY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG1BBR-400X700X270H-DX-376x300.jpg",
+    "dimensions": { "w": 400, "h": 270, "d": 700 },
+    "weight": 53
+  },
+  {
+    "sp": "80",
+    "id": "E7FTG2BBL",
+    "name": "Fry top a gas – E7/FTG2BBL",
+    "label": "EASY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BBL-800X700X270H-DX-376x300.jpg",
+    "dimensions": { "w": 700, "h": 270, "d": 700 },
+    "weight": 84
+  },
+  {
+    "sp": "81",
+    "id": "E7KTG2BBL",
+    "name": "Fry top a gas – E7/KTG2BBL",
+    "label": "EASY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BBL-800X700X270H-DX-376x300.jpg",
+    "dimensions": { "w": 800, "h": 270, "d": 700 },
+    "weight": 95
+  }
+,{
+    "sp": "82",
+    "id": "E7FTG2BBM",
+    "name": "Fry top a gas – E7/FTG2BBM",
+    "label": "EASY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBM-800X700X270H-DX-376x300.jpg",
+    "dimensions": { "w": 700, "h": 270, "d": 700 },
+    "weight": 84
+  },
+  {
+    "sp": "83",
+    "id": "E7KTG2BBM",
+    "name": "Fry top a gas – E7/KTG2BBM",
+    "label": "EASY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBM-800X700X270H-DX-376x300.jpg",
+    "dimensions": { "w": 800, "h": 270, "d": 700 },
+    "weight": 95
+  },
+  {
+    "sp": "84",
+    "id": "E7FTG1BAL",
+    "name": "Fry top a gas – E7/FTG1BAL",
+    "label": "EASY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BAL-400X700X850H-DX-376x300.jpg",
+    "dimensions": { "w": 350, "h": 850, "d": 700 },
+    "weight": 54
+  },
+  {
+    "sp": "85",
+    "id": "E7KTG1BAL",
+    "name": "Fry top a gas – E7/KTG1BAL",
+    "label": "EASY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BAL-400X700X850H-DX-376x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 60
+  },
+  {
+    "sp": "86",
+    "id": "E7FTG1BAR",
+    "name": "Fry top a gas – E7/FTG1BAR",
+    "label": "EASY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BAR-400X700X850H-DX-376x300.jpg",
+    "dimensions": { "w": 350, "h": 850, "d": 700 },
+    "weight": 54
+  }
+
+]

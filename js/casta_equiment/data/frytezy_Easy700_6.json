@@ -90,6 +90,51 @@
     "dimensions": { "w": 400, "h": 850, "d": 700 },
     "weight": 50
   }
-]
+],
+{
+    "sp": "87",
+    "id": "E7FLG1V13",
+    "name": "Friggitrice a gas ad una vasca – E7/FLG1V13",
+    "label": "EASY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FLG1V13-400X700X850H-DX-400x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 45
+  },
+  {
+    "sp": "88",
+    "id": "E7FLG1V17",
+    "name": "Friggitrice a gas ad una vasca – E7/FLG1V17",
+    "label": "EASY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FLG1V17-400X700X850H-DX-400x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 56
+  },
+  {
+    "sp": "89",
+    "id": "E7FLG2V8",
+    "name": "Friggitrice a gas a due vasche – E7/FLG2V8",
+    "label": "EASY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FLG2V8-400X700X850H-DX-400x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 56
+  },
+  {
+    "sp": "90",
+    "id": "E7FLG2V13",
+    "name": "Friggitrice a gas a due vasche – E7/FLG2V13",
+    "label": "EASY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FLG2V13-800X700X850H-DX-376x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 70
+  },
+  {
+    "sp": "91",
+    "id": "E7FLG2V17",
+    "name": "Friggitrice a gas a due vasche – E7/FLG2V17",
+    "label": "EASY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FLG2V17-800X700X850H-DX-376x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 112
+  }
 
 ]
