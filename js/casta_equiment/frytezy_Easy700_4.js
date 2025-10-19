@@ -2,7 +2,7 @@
 
 (async function () {
   const GRID_SELECTOR = '#product-grid';
-  const DATA_URL = 'js/casta_equiment/data/frytezy_Easy700.json'; // Đường dẫn JSON
+  const DATA_URL = 'js/casta_equiment/data/frytezy_Easy700_4.json'; // Đường dẫn JSON
 
   const grid = document.querySelector(GRID_SELECTOR);
   if (!grid) return;
