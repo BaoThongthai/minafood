@@ -60,7 +60,7 @@
             "sections.categoriesTitle": "Kategorie produktů",
 
             "tabs.gasStoves": "Plynový sporáky",
-            "tabs.fryers": "Fritézy",
+            "tabs.fryers": "Fritézy & kuchyně",
             "tabs.gastroContainers": "Gastro nádoby",
             "tabs.grillPlates": "Grilovací desky",
             "tabs.cooling": "Chlazení",
@@ -323,7 +323,7 @@
             "sections.categoriesTitle": "Product Categories"
             ,
             "tabs.gasStoves": "Gas stoves",
-            "tabs.fryers": "Fryers",
+            "tabs.fryers": "Fryers & stove",
             "tabs.gastroContainers": "Gastro containers",
             "tabs.grillPlates": "Grill plates",
             "tabs.cooling": "Cooling",
