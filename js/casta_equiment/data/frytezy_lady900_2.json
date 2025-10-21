@@ -98,6 +98,96 @@
     "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG6BB6M-2-317x300.jpg",
     "dimensions": { "w": 1200, "h": 270, "d": 700 },
     "weight": 88
+  },
+  {
+    "sp": "33",
+    "id": "L7CUPG6BB3M3G",
+    "name": "Cucina a gas a sei fuochi – L7/CUPG6BB.3M3G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG6BB3M3G-376x300.jpg",
+    "dimensions": { "w": 1050, "h": 270, "d": 700 },
+    "weight": 90
+  },
+  {
+    "sp": "34",
+    "id": "L7KUPG6BB3M3G",
+    "name": "Cucina a gas a sei fuochi – L7/KUPG6BB.3M3G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG6BB3M3G-376x300.jpg",
+    "dimensions": { "w": 1200, "h": 270, "d": 700 },
+    "weight": 88
+  },
+  {
+    "sp": "35",
+    "id": "L7CUPG6BB6G",
+    "name": "Cucina a gas a sei fuochi – L7/CUPG6BB.6G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG6BB3M3G-376x300.jpg",
+    "dimensions": { "w": 1050, "h": 270, "d": 700 },
+    "weight": 90
+  },
+  {
+    "sp": "36",
+    "id": "L7KUPG6BB6G",
+    "name": "Cucina a gas a sei fuochi – L7/KUPG6BB.6G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG6BB3M3G-376x300.jpg",
+    "dimensions": { "w": 1200, "h": 270, "d": 700 },
+    "weight": 88
+  },
+  {
+    "sp": "37",
+    "id": "L7CUPG2BA2M",
+    "name": "Cucina a gas a due fuochi – L7/CUPG2BA.2M",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG2BA2M-334x300.jpg",
+    "dimensions": { "w": 350, "h": 850, "d": 700 },
+    "weight": 40
+  },
+   {
+    "sp": "38",
+    "id": "L7KUPG2BA1M1G",
+    "name": "Cucina a gas a due fuochi – L7/KUPG2BA.1M1G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG2BA1M1G-334x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 46
+  },
+  {
+    "sp": "39",
+    "id": "L7CUPG2BA2G",
+    "name": "Cucina a gas a due fuochi – L7/CUPG2BA.2G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG2BA1M1G-334x300.jpg",
+    "dimensions": { "w": 350, "h": 850, "d": 700 },
+    "weight": 40
+  },
+  {
+    "sp": "40",
+    "id": "L7KUPG2BA2G",
+    "name": "Cucina a gas a due fuochi – L7/KUPG2BA.2G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG2BA1M1G-334x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 46
+  },
+  {
+    "sp": "41",
+    "id": "L7CUPG4BA4M",
+    "name": "Cucina a gas a quattro fuochi – L7/CUPG4BA.4M",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG4BA4M-334x300.jpg",
+    "dimensions": { "w": 700, "h": 850, "d": 700 },
+    "weight": 63
+  },
+  {
+    "sp": "42",
+    "id": "L7KUPG4BA4M",
+    "name": "Cucina a gas a quattro fuochi – L7/KUPG4BA.4M",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG4BA4M-334x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 74
   }
 
 

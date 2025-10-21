@@ -1,0 +1,191 @@
+[
+  {
+    "sp": "43",
+    "id": "LQCVE4BA",
+    "name": "Cucina elettrica vetroceramica – LQ/CVE4BA",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/10/LQ-CVE4BA-800X900X850H_SX-317x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 85
+  },
+  {
+    "sp": "44",
+    "id": "LQBS2BA",
+    "name": "Griglia a pietra lavica – LQ/BS2BA",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2021/03/LQ-BS2BA-800X900X850H_DX-317x300.png",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 100
+  },
+  {
+    "sp": "45",
+    "id": "LQDSE800BA",
+    "name": "Vaporiera dim sum elettrica – LQ/DSE800BA",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE800BA-800X900X850H_DX-317x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 98
+  },
+  {
+    "sp": "46",
+    "id": "LQFLG2V17",
+    "name": "Friggitrice a gas a due vasche – LQ/FLG2V17",
+    "label": "LADY 900 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2014/03/L9-FLG2V17-800X900X850H_DX-351x300.png",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 98
+  },
+  {
+    "sp": "47",
+    "id": "LQCUI4HBA",
+    "name": "Cucina a induzione – LQ/CUI4HBA",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/03/LQ-CUI4LBA_800X900X850H_DX-351x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 85
+  },
+  {
+    "sp": "48",
+    "id": "LQFRE2V21",
+    "name": "Friggitrice elettrica a due vasche – LQ/FRE2V21",
+    "label": "LADY 900 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V17-800X900X850H_DX-351x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 110
+  },
+  {
+    "sp": "49",
+    "id": "LQCUG4BB1P1M2G",
+    "name": "Cucina a gas a quattro fuochi – LQ/CUG4BB.1P1M2G",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG4BB-800X900X270H-351x300.jpg",
+    "dimensions": { "w": 800, "h": 270, "d": 900 },
+    "weight": 70
+  },
+  {
+    "sp": "50",
+    "id": "LQENN2BA",
+    "name": "Elemento neutro – LQ/ENN2BA",
+    "label": "LADY 900 / ELEMENTO",
+    "image": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN2BA-400X900X850H_DX-351x300.png",
+    "dimensions": { "w": 400, "h": 850, "d": 900 },
+    "weight": 50
+  },
+  {
+    "sp": "51",
+    "id": "LQFLG2V22",
+    "name": "Friggitrice a gas a due vasche – LQ/FLG2V22",
+    "label": "LADY 900 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2014/03/L9-FLG2V17-800X900X850H_DX-351x300.png",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 124
+  },
+  {
+    "sp": "52",
+    "id": "LQCQE6BA",
+    "name": "Cucina elettrica – LQ/CQE6BA",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CQE6BA-317x300.png",
+    "dimensions": { "w": 1200, "h": 850, "d": 900 },
+    "weight": 130
+  },
+    {
+    "sp": "53",
+    "id": "L7CUPG4BC4M",
+    "name": "Cucina a gas a quattro fuochi – L7/CUPG4BC.4M",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG4BC4M-334x300.jpg",
+    "dimensions": { "w": 700, "h": 850, "d": 700 },
+    "weight": 74
+  },
+  {
+    "sp": "54",
+    "id": "L7CUPG4BC2M2G",
+    "name": "Cucina a gas a quattro fuochi – L7/CUPG4BC.2M2G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG4BC2M2G-334x300.jpg",
+    "dimensions": { "w": 700, "h": 850, "d": 700 },
+    "weight": 74
+  },
+  {
+    "sp": "55",
+    "id": "L7KUPG4BC2M2G",
+    "name": "Cucina a gas a quattro fuochi – L7/KUPG4BC.2M2G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG4BC2M2G-334x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 77
+  },
+  {
+    "sp": "56",
+    "id": "L7CUPG6BC6M",
+    "name": "Cucina a gas a sei fuochi – L7/CUPG6BC.6M",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG6BC6M-334x300.jpg",
+    "dimensions": { "w": 1050, "h": 850, "d": 700 },
+    "weight": 105
+  },
+  {
+    "sp": "57",
+    "id": "L7CUPG6BC3M3G",
+    "name": "Cucina a gas a sei fuochi – L7/CUPG6BC.3M3G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG6BC3M3G-334x300.jpg",
+    "dimensions": { "w": 1050, "h": 850, "d": 700 },
+    "weight": 105
+  },
+  {
+    "sp": "58",
+    "id": "L7KUPG4LO4G",
+    "name": "Cucina a gas a quattro fuochi con forno a gas – L7/KUPG4LO.4G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7-KUPG4LO.4G-317x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 120
+  },
+  {
+    "sp": "59",
+    "id": "L7KUPG4LO2M2G",
+    "name": "Cucina a gas a quattro fuochi con forno a gas – L7/KUPG4LO.2M2G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG4FO2M2G-334x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 120
+  },
+  {
+    "sp": "60",
+    "id": "L7CUPG4FO2M2G",
+    "name": "Cucina a gas quattro fuochi – L7/CUPG4FO.2M2G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG4FO2M2G-334x300.jpg",
+    "dimensions": { "w": 700, "h": 850, "d": 700 },
+    "weight": 118
+  },
+  {
+    "sp": "61",
+    "id": "L7KUPG4LO4M",
+    "name": "Cucina a gas a quattro fuochi con forno a gas – L7/KUPG4LO.4M",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG4FO4M-1-334x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 120
+  },
+  {
+    "sp": "62",
+    "id": "L7CUPG4FO4M",
+    "name": "Cucina a gas a quattro fuochi con forno a gas – L7/CUPG4FO.4M",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG4FO4M-1-334x300.jpg",
+    "dimensions": { "w": 700, "h": 850, "d": 700 },
+    "weight": 118
+  },
+  {
+    "sp": "63",
+    "id": "L7CUPG6BC3M3G",
+    "name": "Cucina a gas a sei fuochi – L7/CUPG6BC.3M3G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG6BC3M3G-334x300.jpg",
+    "dimensions": { "w": 1050, "h": 850, "d": 700 },
+    "weight": 105
+  }
+]
