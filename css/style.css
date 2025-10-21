@@ -306,6 +306,98 @@
     height: 120px;
 }
 
+/* Phân trang */
+/* Buộc pagination luôn xếp hàng ngang & căn giữa */
+nav[aria-label="Pagination"] .pagination{
+  display:flex !important;
+  flex-direction:row !important;
+  flex-wrap:nowrap !important;
+  justify-content:center !important;
+  align-items:center !important;
+  gap:8px;
+  max-width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  overflow-x:auto;              /* vuốt ngang khi nhiều trang */
+  white-space:nowrap;
+  -webkit-overflow-scrolling:touch;
+}
+
+/* Mỗi item là 1 flex-item ngang, không giãn full width */
+nav[aria-label="Pagination"] .page-item{
+  display:inline-flex !important;
+  flex:0 0 auto !important;
+}
+
+/* Style nút theo màu bạn đang dùng */
+nav[aria-label="Pagination"] .page-link{
+  border:1px solid #e5923a;
+  color:#e5923a;
+  background:transparent;
+  min-width:38px;
+  text-align:center;
+  padding:6px 10px;
+  font-weight:500;
+  border-radius:10px !important;
+  transition:all .2s ease;
+}
+nav[aria-label="Pagination"] .page-link:hover{
+  background:#e5923a; color:#fff;
+}
+nav[aria-label="Pagination"] .page-item.active .page-link{
+  background:#1d3557; color:#fff; border-color:#1d3557;
+}
+nav[aria-label="Pagination"] .page-item.disabled .page-link{
+  color:#999; border-color:#ccc; cursor:default; background:#f8f9fa;
+}
+
+/* --- Pagination fix cho mobile --- */
+@media (max-width: 576px) {
+  .pagination {
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    justify-content: center;
+    gap: 2px;
+    padding: 5px 0;
+    margin: 0 auto;
+    max-width: 95%;
+  }
+
+  .pagination::-webkit-scrollbar {
+    display: none; /* ẩn thanh cuộn iOS/Android */
+  }
+
+  .page-item .page-link {
+    min-width: 18px;     /* nhỏ hơn cho mobile */
+    height: 32px;
+    padding: 3px 6px;
+    font-size: 13px;
+    line-height: 1;
+    border-radius: 8px !important;
+  }
+
+  .page-item.active .page-link {
+    font-size: 13px;
+    padding: 4px 6px;
+  }
+
+  /* Nút "Hiển thị thêm" căn giữa và thu gọn */
+  .btn {
+    font-size: 14px !important;
+    padding: 6px 14px !important;
+    border-radius: 20px;
+  }
+}
+
+
+
+
+
+
+/* phân trang end */
+
+
 .featurs .featurs-item .featurs-icon::after {
     content: "";
     width: 35px;
