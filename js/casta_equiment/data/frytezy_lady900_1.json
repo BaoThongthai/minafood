@@ -1,0 +1,198 @@
+[
+    {
+  "sp": "2",
+  "id": "E7KTE2BBMK",
+  "name": "Fry top elettrico – E7/KTE2BBMK",
+  "label": "EASY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2022/02/L7-KTE1BCL-334x300.jpg",
+  "dimensions": { 
+    "w": 800, 
+    "h": 270, 
+    "d": 700 
+  },
+  "weight": 90
+},
+{
+    "sp": "2",
+    "id": "L7DSE800BC",
+    "name": "Vaporiera Dim Sum elettrica – L7/DSE800BC",
+    "label": "LADY 700 / VAPORIERA",
+    "image": "https://casta.com/wp-content/uploads/2014/09/L7-DSE800BC-400x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 69
+  },
+  {
+    "sp": "3",
+    "id": "L7DSE800BA",
+    "name": "Vaporiera Dim Sum elettrica – L7/DSE800BA",
+    "label": "LADY 700 / VAPORIERA",
+    "image": "https://casta.com/wp-content/uploads/2022/04/L7-DSE800BA_DX-317x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 69
+  },
+  {
+    "sp": "4",
+    "id": "L7KTG2BCLC",
+    "name": "Fry top a gas – L7/KTG2BCLC",
+    "label": "LADY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2022/05/L7-KTG2BCLC-334x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 87
+  },
+  {
+    "sp": "5",
+    "id": "L7KNN2BC",
+    "name": "Elemento neutro – L7/KNN2BC",
+    "label": "LADY 700 / ELEMENTO NEUTRO",
+    "image": "https://casta.com/wp-content/uploads/2021/10/L7-KNN2BC-317x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 65
+  },
+  {
+    "sp": "6",
+    "id": "L7KTE2BCR",
+    "name": "Fry top elettrico – L7/KTE2BCR",
+    "label": "LADY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2022/05/L7-KTE2BCR-334x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 87
+  },
+  
+  {
+    "sp": "7",
+    "id": "L7BS3BA",
+    "name": "Griglia a pietra lavica – L7/BS3BA",
+    "label": "LADY 700 / GRIGLIA",
+    "image": "https://casta.com/wp-content/uploads/2022/06/L7-BS3BA-1200X700X850H_SX-317x300.jpg",
+    "dimensions": { "w": 1200, "h": 850, "d": 700 },
+    "weight": 135
+  },
+  {
+    "sp": "8",
+    "id": "L7CUET4BC",
+    "name": "Cucina elettrica con quattro zone cottura – L7/CUET4BC",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/02/L7-CUET4BC-317x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 75
+  },
+  {
+    "sp": "9",
+    "id": "L7DSE400BA",
+    "name": "Vaporiera Dim Sum elettrica – L7/DSE400BA",
+    "label": "LADY 700 / VAPORIERA",
+    "image": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-317x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 35
+  },
+  {
+    "sp": "10",
+    "id": "L7CUI4BCL",
+    "name": "Cucina elettrica a induzione a quattro zone cottura – L7/CUI4BC.L",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/02/L7-CUI4BC.L-317x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 75
+  },
+  {
+    "sp": "11",
+    "id": "L7KNN1CC",
+    "name": "Elemento neutro con cassetto – L7/KNN1CC",
+    "label": "LADY 700 / ELEMENTO NEUTRO",
+    "image": "https://casta.com/wp-content/uploads/2022/07/L7-KNN1CC-400X700X850H-SX-317x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 32
+  },
+   {
+    "sp": "12",
+    "id": "L7KME2BC",
+    "name": "Bagnomaria elettrico – L7/KME2BC",
+    "label": "LADY 700 / BAGNOMARIA",
+    "image": "https://casta.com/wp-content/uploads/2022/02/L7-KME2BC-317x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 32
+  },
+  {
+    "sp": "13",
+    "id": "L7TPG4LO",
+    "name": "Cucina tuttapiastra – L7/TPG4LO",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2014/02/L9-TPG4LO-800X900X850H-351x300.png",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 132
+  },
+  {
+    "sp": "14",
+    "id": "L7CC01BC",
+    "name": "Cucina Wok ad un fuoco – L7/CC/01.BC",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/02/L7-CC-01.BC_.DX_-334x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 46
+  },
+  {
+    "sp": "15",
+    "id": "L7CUET2BC",
+    "name": "Cucina elettrica con due zone cottura – L7/CUET2BC",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/02/L7-CUET2BC-400X700X850H_DX-317x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 55
+  },
+  {
+    "sp": "16",
+    "id": "L7CUI2BCL",
+    "name": "Cucina elettrica a induzione a due zone cottura – L7/CUI2BC.L",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/02/L7-CUI2BC.L-334x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 55
+  },
+  {
+    "sp": "17",
+    "id": "L7ENN1BC",
+    "name": "Elemento neutro – L7/ENN1BC",
+    "label": "LADY 700 / ELEMENTO NEUTRO",
+    "image": "https://casta.com/wp-content/uploads/2022/02/L7-KNN1BC-400X700X850H-SX-317x300.jpg",
+    "dimensions": { "w": 350, "h": 850, "d": 700 },
+    "weight": 70
+  },
+  {
+    "sp": "18",
+    "id": "L7KTE1BCL",
+    "name": "Fry top elettrico – L7/KTE1BCL",
+    "label": "LADY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2022/02/L7-KTE1BCL-334x300.jpg",
+    "dimensions": { "w": 350, "h": 850, "d": 700 },
+    "weight": 60
+  },
+  {
+    "sp": "19",
+    "id": "L7DSE800BC",
+    "name": "Vaporiera Dim Sum elettrica – L7/DSE800BC",
+    "label": "LADY 700 / VAPORIERA",
+    "image": "https://casta.com/wp-content/uploads/2014/09/L7-DSE800BC-400x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 69
+  },
+  {
+    "sp": "20",
+    "id": "L7DSE800BA",
+    "name": "Vaporiera Dim Sum elettrica – L7/DSE800BA",
+    "label": "LADY 700 / VAPORIERA",
+    "image": "https://casta.com/wp-content/uploads/2022/04/L7-DSE800BA_DX-317x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 69
+  },
+  {
+    "sp": "21",
+    "id": "L7KTG2BCLC",
+    "name": "Fry top a gas – L7/KTG2BCLC",
+    "label": "LADY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2022/05/L7-KTG2BCLC-334x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 87
+  }
+
+
+]
