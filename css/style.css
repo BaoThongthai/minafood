@@ -1,7 +1,13 @@
 /* điểu chỉnh lại màu */
 :root{
   --bs-primary:  #1f3353;   /* xanh thương hiệu bạn vừa lấy từ hình */
-  --bs-secondary:#EA9A3B;   /* cam thương hiệu nếu dùng */
+  --bs-secondary:#EA9A3B;
+   /* ... các biến màu của bạn giữ nguyên ... */
+  --card-img-h: 160px;       /* 🔧 chiều cao khung ảnh card (đổi số này để nhỏ/lớn) */
+  --card-pad: 14px;          /* 🔧 padding trong card */
+  --card-title: 1rem;        /* 🔧 cỡ chữ tiêu đề */
+  --card-text: 0.9rem;       /* 🔧 cỡ chữ dòng mô tả/thuộc tính */
+  --card-hover-scale: 1.02;  /* 🔧 độ phóng khi hover */   /* cam thương hiệu nếu dùng */
 }
 
 /* đảm bảo một số thành phần lấy đúng màu */
@@ -429,39 +435,100 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link{
 /*** Fruits Start ***/
 /* Card đồng chiều cao & xếp dọc nội dung */
 .fruite .fruite-item{
-  display:flex; 
-  flex-direction:column; 
+  display:flex;
+  flex-direction:column;
   height:100%;
+  transition: transform .2s ease;
+  cursor: pointer;
+}
+.fruite .fruite-item:hover{
+  transform: scale(var(--card-hover-scale));
 }
 
-/* Cố định khung ảnh theo tỉ lệ, ảnh fill vừa khung */
+/* KHUNG ẢNH: dùng chiều cao cố định để card thấp gọn */
 .fruite .fruite-item .fruite-img{
-  aspect-ratio: 4 / 3;   /* đổi 1/1 hoặc 16/9 nếu muốn */
+  height: var(--card-img-h);    /* 🔧 chỉnh ở biến */
   overflow:hidden;
   border-radius:10px 10px 0 0;
 }
-@media (max-width: 576px){
-  .fruite .fruite-item .fruite-img{ aspect-ratio: 1 / 1; }
-}
 
+/* ẢNH BÊN TRONG KHUNG: “contain” để thấy trọn máy */
 .fruite .fruite-item .fruite-img img{
   width:100%;
   height:100%;
-  object-fit:space;      /* quan trọng: cắt ảnh để giữ tỉ lệ khung */
-  transition:transform .5s;
+  object-fit: contain;          /* ⚠️ bạn đang để object-fit: space (không hợp lệ) */
+  transition: transform .5s;
 }
 .fruite .fruite-item .fruite-img img:hover{
-  transform:scale(1.12);
+  transform:scale(1.06);
 }
 
-/* Phần nội dung đẩy về dưới để các card cao bằng nhau */
+/* Nội dung card nhỏ gọn */
 .fruite .fruite-item .p-4{
   border-top:0;
   border-radius:0 0 10px 10px;
-  margin-top:auto;            /* đẩy block nội dung xuống đáy */
+  margin-top:auto;
+  padding: var(--card-pad) !important;     /* 🔧 giảm padding */
+}
+.fruite .fruite-item h4{
+  font-size: var(--card-title);
+  margin-bottom: .25rem;
+}
+.fruite .fruite-item p{
+  font-size: var(--card-text);
+  margin-bottom: .35rem;
 }
 
+/* Mobile có thể cho ảnh vuông cho chắc bố cục */
+@media (max-width: 576px){
+  .fruite .fruite-item .fruite-img{ height: 180px; }
+}
 /*** Fruits End ***/
+
+/* xử lý phần popup chi tiết sản phẩm */
+/* === Popup xem nhanh sản phẩm (Lightbox) === */
+.product-popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 9999;
+}
+.product-popup.hidden{ display: none; }
+
+.product-popup-content{
+  background: #fff;
+  border-radius: 12px;
+  max-width: 760px;   /* khung tối đa khi xem to */
+  width: 92%;
+  padding: 18px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0,0,0,.35);
+}
+.product-popup-content img{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+.product-popup-close{
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  color: #333;
+}
+.product-popup h4{ margin: 0 0 6px; font-size: 1.05rem; }
+.product-popup p{ margin: 0 0 4px; font-size: .95rem; color:#444; }
+
+
+
+/* xử lý popup chi tiết sản phẩm end */
 
 
 /*** vesitable Start ***/

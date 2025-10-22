@@ -1,0 +1,136 @@
+[
+  {
+    "sp": "64",
+    "id": "L7CUPG4FE4G",
+    "name": "Cucina a gas a quattro fuochi con forno elettrico – L7/CUPG4FE.4G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG4FE2M2G-334x300.jpg",
+    "dimensions": { "w": 700, "h": 850, "d": 700 },
+    "weight": 118
+  },
+  {
+    "sp": "65",
+    "id": "L7KUPG4LE2M2G",
+    "name": "Cucina a gas a quattro fuochi con forno elettrico – L7/KUPG4LE.2M2G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG4FE2M2G-334x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 123
+  },
+  {
+    "sp": "66",
+    "id": "L7CUPG4FE2M2G",
+    "name": "Cucina a gas a quattro fuochi con forno elettrico – L7/CUPG4FE.2M2G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG4FE2M2G-334x300.jpg",
+    "dimensions": { "w": 700, "h": 850, "d": 700 },
+    "weight": 118
+  },
+  {
+    "sp": "67",
+    "id": "L7KUPG4LE4M",
+    "name": "Cucina a gas a quattro fuochi con forno elettrico – L7/KUPG4LE.4M",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG4FE2M2G-334x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 123
+  },
+  {
+    "sp": "68",
+    "id": "L7CUPG4FE4M",
+    "name": "Cucina a gas a quattro fuochi con forno elettrico – L7/CUPG4FE.4M",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7CUPG4FE2M2G-334x300.jpg",
+    "dimensions": { "w": 700, "h": 850, "d": 700 },
+    "weight": 118
+  },{
+    "sp": "69",
+    "id": "L7KUPG6LN6G",
+    "name": "Cucina a gas a sei fuochi con forno a gas – L7/KUPG6LN.6G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2014/10/L7CUPG6FN6M-317x300.jpg",
+    "dimensions": { "w": 1200, "h": 850, "d": 700 },
+    "weight": 169
+  },
+  {
+    "sp": "70",
+    "id": "L7CUPG6FN6G",
+    "name": "Cucina a gas a sei fuochi con forno a gas – L7/CUPG6FN.6G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2014/10/L7CUPG6FN6M-317x300.jpg",
+    "dimensions": { "w": 1050, "h": 850, "d": 700 },
+    "weight": 169
+  },
+  {
+    "sp": "71",
+    "id": "L7KUPG6LN3M3G",
+    "name": "Cucina a gas a sei fuochi con forno a gas – L7/KUPG6LN.3M3G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2014/10/L7CUPG6FN6M-317x300.jpg",
+    "dimensions": { "w": 1200, "h": 850, "d": 700 },
+    "weight": 169
+  },
+  {
+    "sp": "72",
+    "id": "L7CUPG6FN3M3G",
+    "name": "Cucina a gas a sei fuochi con forno a gas – L7/CUPG6FN.3M3G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2014/10/L7CUPG6FN6G-334x300.jpg",
+    "dimensions": { "w": 1050, "h": 850, "d": 700 },
+    "weight": 169
+  },
+  {
+    "sp": "73",
+    "id": "L7KUPG6LN6M",
+    "name": "Cucina a gas a sei fuochi con forno a gas – L7/KUPG6LN.6M",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2014/10/L7CUPG6FN6G-334x300.jpg",
+    "dimensions": { "w": 1200, "h": 850, "d": 700 },
+    "weight": 163
+  },
+  {
+    "sp": "74",
+    "id": "L7CUPG6FE6G",
+    "name": "Cucina a gas a sei fuochi con forno elettrico – L7/CUPG6FE.6G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2014/10/L7CUPG6FE6G-334x300.jpg",
+    "dimensions": { "w": 1050, "h": 850, "d": 700 },
+    "weight": 169
+  },
+  {
+    "sp": "75",
+    "id": "L7KUPG6LE3M3G",
+    "name": "Cucina a gas a sei fuochi con forno elettrico – L7/KUPG6LE.3M3G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2014/10/L7CUPG6FE6G-334x300.jpg",
+    "dimensions": { "w": 1200, "h": 850, "d": 700 },
+    "weight": 173
+  },
+  {
+    "sp": "76",
+    "id": "L7CUPG6FE3M3G",
+    "name": "Cucina a gas a sei fuochi con forno elettrico – L7/CUPG6FE.3M3G",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2014/10/L7CUPG6FE6G-334x300.jpg",
+    "dimensions": { "w": 1050, "h": 850, "d": 700 },
+    "weight": 169
+  },
+  {
+    "sp": "77",
+    "id": "L7KUPG6LE6M",
+    "name": "Cucina a gas a sei fuochi con forno elettrico – L7/KUPG6LE.6M",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2014/10/L7CUPG6FE6G-334x300.jpg",
+    "dimensions": { "w": 1200, "h": 850, "d": 700 },
+    "weight": 173
+  },
+  {
+    "sp": "78",
+    "id": "L7CUPG6FE6M",
+    "name": "Cucina a gas a sei fuochi con forno elettrico – L7/CUPG6FE.6M",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2014/10/L7CUPG6FE6G-334x300.jpg",
+    "dimensions": { "w": 1050, "h": 850, "d": 700 },
+    "weight": 169
+  }
+]
