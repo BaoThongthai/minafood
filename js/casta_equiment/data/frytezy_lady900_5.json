@@ -1,0 +1,273 @@
+[
+  {
+    "sp": "79",
+    "id": "L7CUET2BB",
+    "name": "Cucina elettrica con due zone cottura – L7/CUET2BB",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7CUET2BB-376x300.jpg",
+    "dimensions": { "w": 400, "h": 270, "d": 700 },
+    "weight": 30
+  },
+  {
+    "sp": "80",
+    "id": "L7CUET4BB",
+    "name": "Cucina elettrica con quattro zone cottura – L7/CUET4BB",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7CUET4BB-376x300.jpg",
+    "dimensions": { "w": 800, "h": 270, "d": 700 },
+    "weight": 50
+  },
+  {
+    "sp": "81",
+    "id": "L7CUET6BB",
+    "name": "Cucina elettrica con sei zone cottura – L7/CUET6BB",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7CUET6BB-376x300.jpg",
+    "dimensions": { "w": 1200, "h": 270, "d": 700 },
+    "weight": 73
+  },
+  {
+    "sp": "82",
+    "id": "L7CUET2BA",
+    "name": "Cucina elettrica con due zone cottura – L7/CUET2BA",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7CUET2BA-400x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 55
+  },
+  {
+    "sp": "83",
+    "id": "L7CUET4BA",
+    "name": "Cucina elettrica con quattro zone cottura – L7/CUET4BA",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7CUET4BA-376x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 75
+  },
+  
+  {
+    "sp": "84",
+    "id": "L7CUET6LE",
+    "name": "Cucina elettrica con sei zone cottura – L7/CUET6LE",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7-CVE4LE-317x300.jpg",
+    "dimensions": { "w": 1200, "h": 850, "d": 700 },
+    "weight": 170
+  },
+  {
+    "sp": "85",
+    "id": "L7CVE2BB",
+    "name": "Cucina elettrica in vetroceramica a due zone cottura – L7/CVE2BB",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7CUI2BBL-317x300.jpg",
+    "dimensions": { "w": 400, "h": 270, "d": 700 },
+    "weight": 25
+  },
+  {
+    "sp": "86",
+    "id": "L7CVE4BB",
+    "name": "Cucina elettrica in vetroceramica a quattro zone cottura – L7/CVE4BB",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7CUI4BBL-334x300.jpg",
+    "dimensions": { "w": 800, "h": 270, "d": 700 },
+    "weight": 50
+  },
+  {
+    "sp": "87",
+    "id": "L7CVE2BA",
+    "name": "Cucina elettrica in vetroceramica a due zone cottura – L7/CVE2BA",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7CUI2BAL-334x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 53
+  },
+  {
+    "sp": "88",
+    "id": "L7CVE4BA",
+    "name": "Cucina elettrica in vetroceramica a quattro zone cottura – L7/CVE4BA",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7CUI4BAL-334x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 70
+  },
+  {
+    "sp": "96",
+    "id": "L7CC01BB",
+    "name": "Cucina Wok ad un fuoco – L7/CC/01.BB",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7CC01BB-1-334x300.jpg",
+    "dimensions": { "w": 400, "h": 270, "d": 700 },
+    "weight": 38
+  },
+  {
+    "sp": "97",
+    "id": "L7CC01BA",
+    "name": "Cucina Wok ad un fuoco – L7/CC/01.BA",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/12/L7CC01BA-1-334x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 46
+  },
+  {
+    "sp": "98",
+    "id": "L7SPE40BB",
+    "name": "Scaldapatate elettrico – L7/SPE40BB",
+    "label": "LADY 700 / SCALDAPATATE",
+    "image": "https://casta.com/wp-content/uploads/2021/04/L7SPE40BB-317x300.jpg",
+    "dimensions": { "w": 400, "h": 270, "d": 700 },
+    "weight": 30
+  },
+  {
+    "sp": "99",
+    "id": "L7SPE40BA",
+    "name": "Scaldapatate elettrico – L7/SPE40BA",
+    "label": "LADY 700 / SCALDAPATATE",
+    "image": "https://casta.com/wp-content/uploads/2021/04/L7SPE40BA-376x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 35
+  },
+  {
+    "sp": "100",
+    "id": "L7SPE40BC",
+    "name": "Scaldapatate elettrico – L7/SPE40BC",
+    "label": "LADY 700 / SCALDAPATATE",
+    "image": "https://casta.com/wp-content/uploads/2021/04/L7SPE40BC-376x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 36
+  },
+ {
+    "sp": "96",
+    "id": "L7CC01BB",
+    "name": "Cucina Wok ad un fuoco – L7/CC/01.BB",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7CC01BB-1-334x300.jpg",
+    "dimensions": { "w": 400, "h": 270, "d": 700 },
+    "weight": 38
+  },
+  {
+    "sp": "97",
+    "id": "L7CC01BA",
+    "name": "Cucina Wok ad un fuoco – L7/CC/01.BA",
+    "label": "LADY 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2013/12/L7CC01BA-1-334x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 46
+  },
+  {
+    "sp": "98",
+    "id": "L7SPE40BB",
+    "name": "Scaldapatate elettrico – L7/SPE40BB",
+    "label": "LADY 700 / SCALDAPATATE",
+    "image": "https://casta.com/wp-content/uploads/2021/04/L7SPE40BB-317x300.jpg",
+    "dimensions": { "w": 400, "h": 270, "d": 700 },
+    "weight": 25
+  },
+  {
+    "sp": "99",
+    "id": "L7SPE40BA",
+    "name": "Scaldapatate elettrico – L7/SPE40BA",
+    "label": "LADY 700 / SCALDAPATATE",
+    "image": "https://casta.com/wp-content/uploads/2021/04/L7SPE40BA-376x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 30
+  },
+  {
+    "sp": "100",
+    "id": "L7SPE40BC",
+    "name": "Scaldapatate elettrico – L7/SPE40BC",
+    "label": "LADY 700 / SCALDAPATATE",
+    "image": "https://casta.com/wp-content/uploads/2021/04/L7SPE40BC-376x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 32
+  },
+  {
+    "sp": "101",
+    "id": "L7FLG2V8",
+    "name": "Friggitrice a gas a due vasche – L7/FLG2V8",
+    "label": "LADY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7FLG2V8-400x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 45
+  },
+  {
+    "sp": "102",
+    "id": "L7FLG2V13",
+    "name": "Friggitrice a gas a due vasche – L7/FLG2V13",
+    "label": "LADY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7FLG2V17-1-376x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 65
+  },
+  {
+    "sp": "103",
+    "id": "L7FLG2V17",
+    "name": "Friggitrice a gas a due vasche – L7/FLG2V17",
+    "label": "LADY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7FLG2V17-376x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 65
+  },
+  {
+    "sp": "104",
+    "id": "L7FRG1V13",
+    "name": "Friggitrice a gas ad una vasca – L7/FRG1V13",
+    "label": "LADY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7FRG1V13-400x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 56
+  },
+  {
+    "sp": "105",
+    "id": "L7FRG1V17",
+    "name": "Friggitrice a gas ad una vasca – L7/FRG1V17",
+    "label": "LADY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7FRG1V17-400x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 56
+  },
+  {
+    "sp": "106",
+    "id": "L7FRE1V13",
+    "name": "Friggitrice elettrica ad una vasca – L7/FRE1V13",
+    "label": "LADY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7FRE1V13-400x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 50
+  },
+  {
+    "sp": "107",
+    "id": "L7FRE1V17",
+    "name": "Friggitrice elettrica ad una vasca – L7/FRE1V17",
+    "label": "LADY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7FRE1V17-400x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 50
+  },
+  {
+    "sp": "108",
+    "id": "L7FRE2V8",
+    "name": "Friggitrice elettrica a due vasche – L7/FRE2V8",
+    "label": "LADY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7FRE2V8-400x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 50
+  },
+  {
+    "sp": "109",
+    "id": "L7FRE2V13",
+    "name": "Friggitrice elettrica a due vasche – L7/FRE2V13",
+    "label": "LADY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7FRE2V13-376x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 78
+  },
+  {
+    "sp": "110",
+    "id": "L7FRE2V17",
+    "name": "Friggitrice elettrica a due vasche – L7/FRE2V17",
+    "label": "LADY 700 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2013/10/L7-FRE2V17-317x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 78
+  }
+]

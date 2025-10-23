@@ -3,10 +3,10 @@
   --bs-primary:  #1f3353;   /* xanh thương hiệu bạn vừa lấy từ hình */
   --bs-secondary:#EA9A3B;
    /* ... các biến màu của bạn giữ nguyên ... */
-  --card-img-h: 160px;       /* 🔧 chiều cao khung ảnh card (đổi số này để nhỏ/lớn) */
-  --card-pad: 14px;          /* 🔧 padding trong card */
-  --card-title: 1rem;        /* 🔧 cỡ chữ tiêu đề */
-  --card-text: 0.9rem;       /* 🔧 cỡ chữ dòng mô tả/thuộc tính */
+  --card-img-h: 200px;       /* 🔧 chiều cao khung ảnh card (đổi số này để nhỏ/lớn) */
+  --card-pad: 10px;          /* 🔧 padding trong card */
+  --card-title: 0.9rem;        /* 🔧 cỡ chữ tiêu đề */
+  --card-text: 0.8rem;       /* 🔧 cỡ chữ dòng mô tả/thuộc tính */
   --card-hover-scale: 1.02;  /* 🔧 độ phóng khi hover */   /* cam thương hiệu nếu dùng */
 }
 
@@ -440,6 +440,8 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link{
   height:100%;
   transition: transform .2s ease;
   cursor: pointer;
+  max-width: 290px;
+
 }
 .fruite .fruite-item:hover{
   transform: scale(var(--card-hover-scale));
@@ -728,7 +730,7 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link{
   .service-card:hover{ box-shadow:0 8px 24px rgba(0,0,0,.08); transform:translateY(-2px); }
   .service-img{
     width:260px;              /* chiều rộng khu ảnh */
-    height:170px;             /* chiều cao khu ảnh */
+    height:260px;             /* chiều cao khu ảnh */
     object-fit:cover;         /* crop ảnh đẹp */
   }
   @media (max-width: 575.98px){
@@ -741,7 +743,7 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link{
   .hero-section {
     position: relative;
     background: url('https://minafood.cz/wp-content/uploads/2024/03/kitchen-with-large-window.png') center center/cover no-repeat;
-    min-height: 400px;
+    min-height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
