@@ -1,0 +1,56 @@
+[
+  {
+    "sp": "259",
+    "id": "FPE035E05",
+    "name": "Friggitrice elettrica da banco – FPE/035E05",
+    "label": "PASTRY FRYERS",
+    "image": "https://casta.com/wp-content/uploads/2025/10/FPE035E05-317x300.jpg",
+    "dimensions": { "w": 350, "h": 290, "d": 650 },
+    "weight": 0
+  },
+  {
+    "sp": "260",
+    "id": "FPE070E10",
+    "name": "Friggitrice elettrica da banco – FPE/070E10",
+    "label": "PASTRY FRYERS",
+    "image": "https://casta.com/wp-content/uploads/2025/10/FPE070E10-317x300.jpg",
+    "dimensions": { "w": 750, "h": 290, "d": 650 },
+    "weight": 0
+  },
+  {
+    "sp": "261",
+    "id": "FPE105E15",
+    "name": "Friggitrice elettrica da banco – FPE/105E15",
+    "label": "PASTRY FRYERS",
+    "image": "https://casta.com/wp-content/uploads/2025/10/FPE105E15-317x300.jpg",
+    "dimensions": { "w": 1050, "h": 290, "d": 650 },
+    "weight": 0
+  },
+  {
+    "sp": "262",
+    "id": "FPI070E21",
+    "name": "Friggitrice elettrica da banco – FPI/070E21",
+    "label": "PASTRY FRYERS",
+    "image": "https://casta.com/wp-content/uploads/2025/10/FPI070E21-317x300.jpg",
+    "dimensions": { "w": 700, "h": 290, "d": 650 },
+    "weight": 0
+  },
+  {
+    "sp": "263",
+    "id": "FPI105E32",
+    "name": "Friggitrice elettrica da banco – FPI/105E32",
+    "label": "PASTRY FRYERS",
+    "image": "https://casta.com/wp-content/uploads/2025/10/FPI105E32-317x300.jpg",
+    "dimensions": { "w": 1050, "h": 290, "d": 650 },
+    "weight": 0
+  },
+  {
+    "sp": "264",
+    "id": "FPI070G21",
+    "name": "Friggitrice a gas da banco – FPI/070G21",
+    "label": "PASTRY FRYERS",
+    "image": "https://casta.com/wp-content/uploads/2025/10/FPI070G21-317x300.jpg",
+    "dimensions": { "w": 700, "h": 290, "d": 650 },
+    "weight": 0
+  }
+]
