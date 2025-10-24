@@ -1,0 +1,56 @@
+[
+  {
+    "sp": "248",
+    "id": "F7KUG4LE",
+    "name": "Cucina a gas a quattro fuochi – F7/KUG4LE",
+    "label": "FIRE 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/05/F7KUG4LE-317x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 92
+  },
+  {
+    "sp": "249",
+    "id": "F7KUG4BA",
+    "name": "Cucina a gas a quattro fuochi – F7/KUG4BA",
+    "label": "FIRE 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2016/01/F7_KUG4BA-319x300.jpeg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 92
+  },
+  {
+    "sp": "250",
+    "id": "F7KUG6BA",
+    "name": "Cucina a gas a sei fuochi – F7/KUG6BA",
+    "label": "FIRE 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2016/01/F7_KUG6BA-400x266.jpeg",
+    "dimensions": { "w": 1200, "h": 850, "d": 700 },
+    "weight": 117
+  },
+  {
+    "sp": "251",
+    "id": "F7KUG4LO",
+    "name": "Cucina a gas a quattro fuochi – F7/KUG4LO",
+    "label": "FIRE 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2016/01/F7_KUG4LO-1-285x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 92
+  },
+  {
+    "sp": "252",
+    "id": "F7KUG6LN",
+    "name": "Cucina a gas a sei fuochi – F7/KUG6LN",
+    "label": "FIRE 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2016/01/F7_KUG6LN-aperta-368x300.jpeg",
+    "dimensions": { "w": 1200, "h": 850, "d": 700 },
+    "weight": 117
+  },
+  {
+    "sp": "253",
+    "id": "F7KUG6LE",
+    "name": "Cucina a gas a sei fuochi – F7/KUG6LE",
+    "label": "FIRE 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2018/01/F7KUG6LE-376x300.jpg",
+    "dimensions": { "w": 1200, "h": 850, "d": 700 },
+    "weight": 117
+  }
+]

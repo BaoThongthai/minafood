@@ -1,0 +1,216 @@
+[
+  {
+    "sp": "213",
+    "id": "LQENN2CA",
+    "name": "Elemento neutro con cassetto – LQ/ENN2CA",
+    "label": "LADY 900 / NEUTRO",
+    "image": "https://casta.com/wp-content/uploads/2022/01/LQ-ENN2CA-400X900X850H_DX-351x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 900 },
+    "weight": 48
+  },
+  {
+    "sp": "214",
+    "id": "LQFRG1V17",
+    "name": "Friggitrice a gas ad una vasca – LQ/FRG1V17",
+    "label": "LADY 900 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG1V17-400X900X850H_DX-351x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 900 },
+    "weight": 62
+  },
+  {
+    "sp": "215",
+    "id": "LQCQE4LE",
+    "name": "Cucina elettrica – LQ/CQE4LE",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/02/LQ-CQE4LE-800X900X850H-334x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 155
+  },
+  {
+    "sp": "216",
+    "id": "LQENN4BA",
+    "name": "Elemento neutro – LQ/ENN4BA",
+    "label": "LADY 900 / NEUTRO",
+    "image": "https://casta.com/wp-content/uploads/2022/03/LQ-ENN4BA-800X900X850H_DX-351x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 112
+  }
+  ,
+  
+  {
+    "sp": "217",
+    "id": "LQCUG2BA1M1G",
+    "name": "Cucina a gas a due fuochi – LQ/CUG2BA.1M1G",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CUG2BA-400X900X850H-351x300.png",
+    "dimensions": { "w": 400, "h": 850, "d": 900 },
+    "weight": 60
+  },
+  {
+    "sp": "218",
+    "id": "LQCUG8BB2P2M4G",
+    "name": "Cucina a gas a otto fuochi – LQ/CUG8BB.2P2M4G",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8BB-1600X900X270H-351x300.jpg",
+    "dimensions": { "w": 1600, "h": 270, "d": 900 },
+    "weight": 140
+  },
+  {
+    "sp": "219",
+    "id": "LQFRG2V17",
+    "name": "Friggitrice a gas a due vasche – LQ/FRG2V17",
+    "label": "LADY 900 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG2V17-800X900X850H_DX-1-351x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 124
+  },
+  {
+    "sp": "220",
+    "id": "LQENN4CA",
+    "name": "Elemento neutro – LQ/ENN4CA",
+    "label": "LADY 900 / NEUTRO",
+    "image": "https://casta.com/wp-content/uploads/2021/04/LQ-ENN4CA-800X900X850H_DX-351x300.png",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 90
+  },
+  {
+    "sp": "221",
+    "id": "LQFRG2V21",
+    "name": "Friggitrice a gas a due vasche – LQ/FRG2V21",
+    "label": "LADY 900 / FRIGGITRICE",
+    "image": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG2V13-800X900X850H_DX-351x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 124
+  },
+  {
+    "sp": "222",
+    "id": "LQCUG6BB1P2M3G",
+    "name": "Cucina a gas a sei fuochi – LQ/CUG6BB.1P2M3G",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/03/LQ-CUG6BB-1200X900X270H-351x300.jpg",
+    "dimensions": { "w": 1200, "h": 270, "d": 900 },
+    "weight": 124
+  },
+  {
+    "sp": "223",
+    "id": "LQCQE6NE",
+    "name": "Cucina elettrica – LQ/CQE6NE",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2024/04/LQ-CQE6NE-317x300.jpg",
+    "dimensions": { "w": 1200, "h": 850, "d": 900 },
+    "weight": 155
+  },
+  {
+    "sp": "224",
+    "id": "LQCUG4BA1P1M2G",
+    "name": "Cucina a gas a quattro fuochi – LQ/CUG4BA.1P1M2G",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/01/LQ-CUG4BA-800X900X850H-351x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 85
+  },
+  {
+    "sp": "225",
+    "id": "LQCUG4BA4G",
+    "name": "Cucina a gas a quattro fuochi – LQ/CUG4BA.4G",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2014/02/LQ-CUG4BA-800X900X850H-1-351x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 85
+  },
+  {
+    "sp": "226",
+    "id": "LQCUG4NG4G",
+    "name": "Cucina a gas a quattro fuochi – LQ/CUG4NG.4G",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG4NG-800X900X850H-351x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 144
+  },
+  {
+    "sp": "227",
+    "id": "LQCUG4NG1P1M2G",
+    "name": "Cucina a gas a quattro fuochi – LQ/CUG4NG.1P1M2G",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CUG4LO-800X900X850H-351x300.png",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 143
+  },
+  {
+    "sp": "228",
+    "id": "LQCUG8BA2P2M4G",
+    "name": "Cucina a gas a otto fuochi – LQ/CUG8BA.2P2M4G",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8BA-1600X900X850H-351x300.jpg",
+    "dimensions": { "w": 1600, "h": 850, "d": 900 },
+    "weight": 170
+  },
+  {
+    "sp": "229",
+    "id": "LQCUG6BA6G",
+    "name": "Cucina a gas a sei fuochi – LQ/CUG6BA.6G",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG6BA-1200X900X850H-351x300.jpg",
+    "dimensions": { "w": 1200, "h": 850, "d": 900 },
+    "weight": 120
+  },
+  {
+    "sp": "230",
+    "id": "LQCUG6BA1P2M3G",
+    "name": "Cucina a gas a sei fuochi – LQ/CUG6BA.1P2M3G",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CUG6BA-1200X900X850H-351x300.png",
+    "dimensions": { "w": 1200, "h": 850, "d": 900 },
+    "weight": 148
+  },
+  
+  {
+    "sp": "231",
+    "id": "LQCUG4NE1P1M2G",
+    "name": "Cucina a gas a quattro fuochi – LQ/CUG4NE.1P1M2G",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CUG4LE-800X900X850H-351x300.png",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 143
+  },
+  {
+    "sp": "232",
+    "id": "LQCUG4NE4G",
+    "name": "Cucina a gas a quattro fuochi – LQ/CUG4NE.4G",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2014/02/LQ-CUG4NE-800X900X850H-351x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 900 },
+    "weight": 152
+  },
+  {
+    "sp": "233",
+    "id": "LQCUG6NG1P2M3G",
+    "name": "Cucina a gas a sei fuochi – LQ/CUG6NG.1P2M3G",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/05/LQ-CUG6NG-1200X900X850H-1-351x300.jpg",
+    "dimensions": { "w": 1200, "h": 850, "d": 900 },
+    "weight": 200
+  },
+  {
+    "sp": "234",
+    "id": "LQCUG6NG6G",
+    "name": "Cucina a gas a sei fuochi – LQ/CUG6NG.6G",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG6NG-1200X900X850H-351x300.jpg",
+    "dimensions": { "w": 1200, "h": 850, "d": 900 },
+    "weight": 200
+  },
+  {
+    "sp": "235",
+    "id": "LQCUG6NE1P2M3G",
+    "name": "Cucina a gas a sei fuochi – LQ/CUG6NE.1P2M3G",
+    "label": "LADY 900 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CUG6LE-1200X900X850H-351x300.png",
+    "dimensions": { "w": 1200, "h": 850, "d": 900 },
+    "weight": 198
+  }
+
+
+
+
+]
