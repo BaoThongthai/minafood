@@ -1,0 +1,214 @@
+[
+    {
+  "sp": "136",
+  "id": "L7FTE2BAMC",
+  "name": "Fry top elettrico – L7/FTE2BAMC",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BAMC-1-334x300.jpg",
+  "dimensions": { "w": 700, "h": 850, "d": 700 },
+  "weight": 80
+},
+{
+  "sp": "137",
+  "id": "L7KTE2BAMC",
+  "name": "Fry top elettrico – L7/KTE2BAMC",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BAMC-1-334x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 700 },
+  "weight": 85
+},
+{
+  "sp": "138",
+  "id": "L7BS1BB",
+  "name": "Griglia a pietra lavica – L7/BS1BB",
+  "label": "LADY 700 / LAVA STONE GRILL",
+  "image": "https://casta.com/wp-content/uploads/2013/12/L7BS1BB-1-400x300.jpg",
+  "dimensions": { "w": 400, "h": 270, "d": 700 },
+  "weight": 48
+},
+{
+  "sp": "139",
+  "id": "L7BS2BB",
+  "name": "Griglia a pietra lavica – L7/BS2BB",
+  "label": "LADY 700 / LAVA STONE GRILL",
+  "image": "https://casta.com/wp-content/uploads/2013/12/L7BS2BB-1-317x300.jpg",
+  "dimensions": { "w": 800, "h": 270, "d": 700 },
+  "weight": 80
+},
+{
+  "sp": "140",
+  "id": "L7BS1BA",
+  "name": "Griglia a pietra lavica – L7/BS1BA",
+  "label": "LADY 700 / LAVA STONE GRILL",
+  "image": "https://casta.com/wp-content/uploads/2013/12/L7BS1BA-1-317x300.jpg",
+  "dimensions": { "w": 400, "h": 850, "d": 700 },
+  "weight": 60
+},
+{
+  "sp": "141",
+  "id": "L7BS1BC",
+  "name": "Griglia a pietra lavica – L7/BS1BC",
+  "label": "LADY 700 / LAVA STONE GRILL",
+  "image": "https://casta.com/wp-content/uploads/2015/07/L7BS1BC-1-317x300.jpg",
+  "dimensions": { "w": 400, "h": 850, "d": 700 },
+  "weight": 60
+},
+{
+  "sp": "142",
+  "id": "L7BS2BA",
+  "name": "Griglia a pietra lavica – L7/BS2BA",
+  "label": "LADY 700 / LAVA STONE GRILL",
+  "image": "https://casta.com/wp-content/uploads/2013/12/L7BS2BA-1-317x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 700 },
+  "weight": 90
+},
+{
+  "sp": "143",
+  "id": "L7BS2BC",
+  "name": "Griglia a pietra lavica – L7/BS2BC",
+  "label": "LADY 700 / LAVA STONE GRILL",
+  "image": "https://casta.com/wp-content/uploads/2016/11/L7BS2BC-1-317x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 700 },
+  "weight": 97
+},
+{
+  "sp": "144",
+  "id": "L7BS3BC",
+  "name": "Griglia a pietra lavica – L7/BS3BC",
+  "label": "LADY 700 / LAVA STONE GRILL",
+  "image": "https://casta.com/wp-content/uploads/2019/11/L7-BISTECCHIERA-1200X700-376x300.jpg",
+  "dimensions": { "w": 1200, "h": 850, "d": 700 },
+  "weight": 120
+},
+{
+  "sp": "145",
+  "id": "L7KNN1BB",
+  "name": "Elemento neutro – L7/KNN1BB",
+  "label": "LADY 700 / NEUTRAL ELEMENT",
+  "image": "https://casta.com/wp-content/uploads/2013/12/L7KNN1BB-376x300.jpg",
+  "dimensions": { "w": 400, "h": 270, "d": 700 },
+  "weight": 16
+},
+{
+  "sp": "146",
+  "id": "L7KNN2BA",
+  "name": "Elemento neutro – L7/KNN2BA",
+  "label": "LADY 700 / NEUTRAL ELEMENT",
+  "image": "https://casta.com/wp-content/uploads/2013/11/L7KNN2BA-1-317x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 700 },
+  "weight": 64
+},
+{
+  "sp": "147",
+  "id": "L7KNN1BC",
+  "name": "Elemento neutro – L7/KNN1BC",
+  "label": "LADY 700 / NEUTRAL ELEMENT",
+  "image": "https://casta.com/wp-content/uploads/2016/11/L7KNN1BC-1-376x300.jpg",
+  "dimensions": { "w": 400, "h": 850, "d": 700 },
+  "weight": 70
+},
+{
+  "sp": "148",
+  "id": "L7BRGI50M",
+  "name": "Brasiera a gas – L7/BRGI50M",
+  "label": "LADY 700 / BRASIERA",
+  "image": "https://casta.com/wp-content/uploads/2013/12/L7BRGI50M-334x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 700 },
+  "weight": 160
+},
+{
+  "sp": "149",
+  "id": "L7BRGI50A",
+  "name": "Brasiera a gas – L7/BRGI50A",
+  "label": "LADY 700 / BRASIERA",
+  "image": "https://casta.com/wp-content/uploads/2013/11/L7BRGI50A-334x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 700 },
+  "weight": 160
+},
+{
+  "sp": "150",
+  "id": "L7BREI50M",
+  "name": "Brasiera elettrica – L7/BREI50M",
+  "label": "LADY 700 / BRASIERA",
+  "image": "https://casta.com/wp-content/uploads/2013/12/L7BREI50M-334x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 700 },
+  "weight": 145
+}
+,
+{
+  "sp": "151",
+  "id": "L7BREI50A",
+  "name": "Brasiera elettrica – L7/BREI50A",
+  "label": "LADY 700 / BRASIERA",
+  "image": "https://casta.com/wp-content/uploads/2013/12/L7BREI50A-334x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 700 },
+  "weight": 145
+},
+{
+  "sp": "152",
+  "id": "L7PIG501",
+  "name": "Pentola a gas – L7/PIG501",
+  "label": "LADY 700 / PENTOLA",
+  "image": "https://casta.com/wp-content/uploads/2013/12/L7PIG501-334x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 700 },
+  "weight": 160
+},
+{
+  "sp": "153",
+  "id": "L7PIE501",
+  "name": "Pentola elettrica – L7/PIE501",
+  "label": "LADY 700 / PENTOLA",
+  "image": "https://casta.com/wp-content/uploads/2013/12/L7PIE501-317x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 700 },
+  "weight": 145
+},
+{
+  "sp": "154",
+  "id": "L7DKE400BA",
+  "name": "Vaporiera Dim Sum elettrica – L7/DKE400BA",
+  "label": "LADY 700 / VAPORIERA",
+  "image": "https://casta.com/wp-content/uploads/2013/12/L7DKE400BA-334x300.jpg",
+  "dimensions": { "w": 400, "h": 850, "d": 700 },
+  "weight": 33
+},
+{
+  "sp": "155",
+  "id": "L7DKE800BA",
+  "name": "Vaporiera Dim Sum elettrica – L7/DKE800BA",
+  "label": "LADY 700 / VAPORIERA",
+  "image": "https://casta.com/wp-content/uploads/2013/12/L7DKE800BA-334x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 700 },
+  "weight": 72
+}
+,
+{
+  "sp": "156",
+  "id": "L7DKE400BC",
+  "name": "Vaporiera Dim Sum elettrica – L7/DKE400BC",
+  "label": "LADY 700 / VAPORIERA",
+  "image": "https://casta.com/wp-content/uploads/2014/09/L7DKE400BC-334x300.jpg",
+  "dimensions": { "w": 400, "h": 850, "d": 700 },
+  "weight": 39
+},
+{
+  "sp": "157",
+  "id": "L7DKE800BC",
+  "name": "Vaporiera Dim Sum elettrica – L7/DKE800BC",
+  "label": "LADY 700 / VAPORIERA",
+  "image": "https://casta.com/wp-content/uploads/2014/09/L7DKE800BC-334x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 700 },
+  "weight": 69
+}
+,{
+  "sp": "158",
+  "id": "L7COUS800",
+  "name": "Couscoussiera a gas – L7/COUS800",
+  "label": "LADY 700 / COUSCOUSSIÈRE",
+  "image": "https://casta.com/wp-content/uploads/2017/12/Couscoussi%C3%A8re.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 700 },
+  "weight": 70
+}
+
+
+
+]
