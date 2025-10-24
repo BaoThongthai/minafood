@@ -1,0 +1,233 @@
+[
+  {
+    "sp": "111",
+    "id": "L7KPG1V40",
+    "name": "Cuocipasta a gas ad una vasca – L7/KPG1V40",
+    "label": "LADY 700 / CUOCIPASTA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7KPG1V40-400x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 50
+  },
+  {
+    "sp": "112",
+    "id": "L7KPG2V80",
+    "name": "Cuocipasta a gas a due vasche – L7/KPG2V80",
+    "label": "LADY 700 / CUOCIPASTA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7KPG2V80-1-376x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 75
+  },
+  {
+    "sp": "113",
+    "id": "L7KPE1V40",
+    "name": "Cuocipasta elettrico ad una vasca – L7/KPE1V40",
+    "label": "LADY 700 / CUOCIPASTA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7KPE1V40-1-400x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 50
+  },
+  {
+    "sp": "114",
+    "id": "L7KPE2V80",
+    "name": "Cuocipasta elettrico a due vasche – L7/KPE2V80",
+    "label": "LADY 700 / CUOCIPASTA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7-CPE2V80-317x300.jpg",
+    "dimensions": { "w": 800, "h": 850, "d": 700 },
+    "weight": 70
+  },
+  {
+    "sp": "115",
+    "id": "L7KME1BA",
+    "name": "Bagnomaria elettrico – L7/KME1BA",
+    "label": "LADY 700 / BAGNOMARIA",
+    "image": "https://casta.com/wp-content/uploads/2013/11/L7KME1BA-376x300.jpg",
+    "dimensions": { "w": 400, "h": 850, "d": 700 },
+    "weight": 32
+  },
+  
+  {
+    "sp": "116",
+    "id": "L7KTG1BBL",
+    "name": "Fry top a gas – L7/KTG1BBL",
+    "label": "LADY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBR-1-334x300.jpg",
+    "dimensions": { "w": 400, "h": 270, "d": 700 },
+    "weight": 45
+  },
+  {
+    "sp": "117",
+    "id": "L7FTG1BBLC",
+    "name": "Fry top a gas – L7/FTG1BBLC",
+    "label": "LADY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBR-1-334x300.jpg",
+    "dimensions": { "w": 350, "h": 270, "d": 700 },
+    "weight": 41
+  },
+  {
+    "sp": "118",
+    "id": "L7KTG1BBLC",
+    "name": "Fry top a gas – L7/KTG1BBLC",
+    "label": "LADY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBR-1-334x300.jpg",
+    "dimensions": { "w": 400, "h": 270, "d": 700 },
+    "weight": 45
+  },
+  {
+    "sp": "119",
+    "id": "L7FTG1BBR",
+    "name": "Fry top a gas – L7/FTG1BBR",
+    "label": "LADY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBR-1-334x300.jpg",
+    "dimensions": { "w": 350, "h": 270, "d": 700 },
+    "weight": 41
+  },
+  {
+    "sp": "120",
+    "id": "L7KTG1BBR",
+    "name": "Fry top a gas – L7/KTG1BBR",
+    "label": "LADY 700 / FRY-TOP",
+    "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBR-1-334x300.jpg",
+    "dimensions": { "w": 400, "h": 270, "d": 700 },
+    "weight": 53
+  }
+,
+{
+  "sp": "121",
+  "id": "L7FTG1BBRC",
+  "name": "Fry top a gas – L7/FTG1BBRC",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBRC-334x300.jpg",
+  "dimensions": { "w": 350, "h": 270, "d": 700 },
+  "weight": 41
+},
+{
+  "sp": "122",
+  "id": "L7KTG1BBRC",
+  "name": "Fry top a gas – L7/KTG1BBRC",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBRC-334x300.jpg",
+  "dimensions": { "w": 400, "h": 270, "d": 700 },
+  "weight": 45
+},
+{
+  "sp": "123",
+  "id": "L7FTG2BBL",
+  "name": "Fry top a gas – L7/FTG2BBL",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBRC-334x300.jpg",
+  "dimensions": { "w": 700, "h": 270, "d": 700 },
+  "weight": 75
+},
+{
+  "sp": "124",
+  "id": "L7KTG2BBL",
+  "name": "Fry top a gas – L7/KTG2BBL",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBLC-1-334x300.jpg",
+  "dimensions": { "w": 800, "h": 270, "d": 700 },
+  "weight": 79
+},
+{
+  "sp": "125",
+  "id": "L7FTG2BBLC",
+  "name": "Fry top a gas – L7/FTG2BBLC",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBLC-1-334x300.jpg",
+  "dimensions": { "w": 700, "h": 270, "d": 700 },
+  "weight": 75
+},
+{
+  "sp": "126",
+  "id": "L7FTG2BBMC",
+  "name": "Fry top a gas – L7/FTG2BBMC",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBMC-334x300.jpg",
+  "dimensions": { "w": 700, "h": 270, "d": 700 },
+  "weight": 75
+},
+{
+  "sp": "127",
+  "id": "L7KTG2BBMC",
+  "name": "Fry top a gas – L7/KTG2BBMC",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBMC-334x300.jpg",
+  "dimensions": { "w": 800, "h": 270, "d": 700 },
+  "weight": 79
+},
+{
+  "sp": "128",
+  "id": "L7FTG1BAL",
+  "name": "Fry top a gas – L7/FTG1BAL",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BAL-1-334x300.jpg",
+  "dimensions": { "w": 350, "h": 850, "d": 700 },
+  "weight": 55
+},
+{
+  "sp": "129",
+  "id": "L7KTG1BAL",
+  "name": "Fry top a gas – L7/KTG1BAL",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BAL-1-334x300.jpg",
+  "dimensions": { "w": 400, "h": 850, "d": 700 },
+  "weight": 60
+},
+{
+  "sp": "130",
+  "id": "L7FTG1BALC",
+  "name": "Fry top a gas – L7/FTG1BALC",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BALC-334x300.jpg",
+  "dimensions": { "w": 350, "h": 850, "d": 700 },
+  "weight": 55
+}
+,
+{
+  "sp": "131",
+  "id": "L7KTG1BAR",
+  "name": "Fry top a gas – L7/KTG1BAR",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BAR-334x300.jpg",
+  "dimensions": { "w": 400, "h": 850, "d": 700 },
+  "weight": 60
+},
+{
+  "sp": "132",
+  "id": "L7FTG1BARC",
+  "name": "Fry top a gas – L7/FTG1BARC",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BAR-334x300.jpg",
+  "dimensions": { "w": 350, "h": 850, "d": 700 },
+  "weight": 55
+},
+{
+  "sp": "133",
+  "id": "L7KTG1BARC",
+  "name": "Fry top a gas – L7/KTG1BARC",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BAR-334x300.jpg",
+  "dimensions": { "w": 400, "h": 850, "d": 700 },
+  "weight": 60
+},
+{
+  "sp": "134",
+  "id": "L7FTG2BAL",
+  "name": "Fry top a gas – L7/FTG2BAL",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAL-1-334x300.jpg",
+  "dimensions": { "w": 700, "h": 850, "d": 700 },
+  "weight": 80
+},
+{
+  "sp": "135",
+  "id": "L7KTG2BAL",
+  "name": "Fry top a gas – L7/KTG2BAL",
+  "label": "LADY 700 / FRY-TOP",
+  "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAL-1-334x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 700 },
+  "weight": 87
+}
+
+
+
+]
