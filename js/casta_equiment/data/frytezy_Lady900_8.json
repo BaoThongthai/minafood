@@ -43,6 +43,245 @@
   "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BARC-800X900X850H_DX-317x300.jpg",
   "dimensions": { "w": 800, "h": 850, "d": 900 },
   "weight": 138
+},
+{
+  "sp": "164",
+  "id": "LQCQE2BA",
+  "name": "Cucina elettrica con due zone cottura – LQ/CQE2BA",
+  "label": "LADY 900 / CUCINA",
+  "image": "https://casta.com/wp-content/uploads/2022/02/LQ-CQE2BA-400X900X850H-351x300.jpg",
+  "dimensions": { "w": 400, "h": 850, "d": 900 },
+  "weight": 75
+},
+{
+  "sp": "165",
+  "id": "LQCUG2BB1M1G",
+  "name": "Cucina a gas a due fuochi – LQ/CUG2BB.1M1G",
+  "label": "LADY 900 / CUCINA",
+  "image": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG2BB-400X900X270H-351x300.jpg",
+  "dimensions": { "w": 400, "h": 270, "d": 900 },
+  "weight": 35
+},
+{
+  "sp": "166",
+  "id": "LQSPE40BB",
+  "name": "Scaldapatate elettrico – LQ/SPE40BB",
+  "label": "LADY 900 / SCALDAPATATE",
+  "image": "https://casta.com/wp-content/uploads/2021/04/LQ-SPE40BB_400X900X270H_DX-351x300.png",
+  "dimensions": { "w": 400, "h": 275, "d": 900 },
+  "weight": 45
+},
+{
+  "sp": "167",
+  "id": "LQBME1BA",
+  "name": "Bagno maria elettrico – LQ/BME1BA",
+  "label": "LADY 900 / BAGNO MARIA",
+  "image": "https://casta.com/wp-content/uploads/2021/03/LQ-BME1BA-317x300.png",
+  "dimensions": { "w": 400, "h": 850, "d": 900 },
+  "weight": 53
+},
+{
+  "sp": "168",
+  "id": "LQCPE2V1",
+  "name": "Cuocipasta elettrico – LQ/CPE2V1",
+  "label": "LADY 900 / CUOCIPASTA",
+  "image": "https://casta.com/wp-content/uploads/2022/01/LQ-CPE2V1-400X900X850H_DX-351x300.jpg",
+  "dimensions": { "w": 400, "h": 850, "d": 900 },
+  "weight": 60
+},
+{
+  "sp": "169",
+  "id": "LQENN2BB",
+  "name": "Elemento neutro – LQ/ENN2BB",
+  "label": "LADY 900 / ELEMENTO NEUTRO",
+  "image": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN2BB-400X900X230H_DX-351x300.png",
+  "dimensions": { "w": 400, "h": 270, "d": 900 },
+  "weight": 25
+},
+{
+  "sp": "170",
+  "id": "LQDKE400BA",
+  "name": "Vaporiera dim sum elettrica – LQ/DKE400BA",
+  "label": "LADY 900 / VAPORIERA",
+  "image": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-317x300.jpg",
+  "dimensions": { "w": 400, "h": 850, "d": 900 },
+  "weight": null
+},
+{
+  "sp": "171",
+  "id": "LQFLG1V17",
+  "name": "Friggitrice a gas ad una vasca – LQ/FLG1V17",
+  "label": "LADY 900 / FRIGGITRICE",
+  "image": "https://casta.com/wp-content/uploads/2014/03/L9-FLG1V17-400X900X850H_DX-351x300.png",
+  "dimensions": { "w": 400, "h": 850, "d": 900 },
+  "weight": 68
+},
+{
+  "sp": "172",
+  "id": "LQBREI80M",
+  "name": "Brasiera elettrica – LQ/BREI80M",
+  "label": "LADY 900 / BRASIERA",
+  "image": "https://casta.com/wp-content/uploads/2022/02/LQ-BREI80M-317x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 900 },
+  "weight": 152
+},
+{
+  "sp": "173",
+  "id": "LQPDG410",
+  "name": "Pentola a gas – LQ/PDG410",
+  "label": "LADY 900 / PENTOLA",
+  "image": "https://casta.com/wp-content/uploads/2021/09/LQ-PDG410-317x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 900 },
+  "weight": 160
+},
+{
+  "sp": "174",
+  "id": "LQCUG2BB1P1M",
+  "name": "Cucina gas a due fuochi – LQ/CUG2BB.1P1M",
+  "label": "LADY 900 / CUCINA",
+  "image": "https://casta.com/wp-content/uploads/2013/10/2.-LQ-KUG2BB-450X900X270H-351x300.jpg",
+  "dimensions": { "w": 400, "h": 275, "d": 900 },
+  "weight": 35
+},
+{
+  "sp": "175",
+  "id": "LQPIE410",
+  "name": "Pentola elettrica – LQ/PIE410",
+  "label": "LADY 900 / PENTOLA",
+  "image": "https://casta.com/wp-content/uploads/2022/02/LQ-PIE415-317x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 900 },
+  "weight": 164
+},
+{
+  "sp": "176",
+  "id": "LQCUI2HBB",
+  "name": "Cucina elettrica a induzione – LQ/CUI2HBB",
+  "label": "LADY 900 / CUCINA",
+  "image": "https://casta.com/wp-content/uploads/2022/03/LQ-CUI2LBB_400X900X850H_DX-351x300.jpg",
+  "dimensions": { "w": 400, "h": 275, "d": 900 },
+  "weight": null
+},
+{
+  "sp": "177",
+  "id": "LQSPE40BB",
+  "name": "Scaldapatate elettrico – LQ/SPE40BB",
+  "label": "LADY 900 / SCALDANTE",
+  "image": "https://casta.com/wp-content/uploads/2021/04/LQ-SPE40BB_400X900X270H_DX-351x300.png",
+  "dimensions": { "w": 400, "h": 275, "d": 900 },
+  "weight": 45
+},
+{
+  "sp": "178",
+  "id": "LQBME1BA",
+  "name": "Bagno maria elettrico – LQ/BME1BA",
+  "label": "LADY 900 / BAGNO MARIA",
+  "image": "https://casta.com/wp-content/uploads/2021/03/LQ-BME1BA-317x300.png",
+  "dimensions": { "w": 400, "h": 850, "d": 900 },
+  "weight": 53
 }
+,
+{
+  "sp": "179",
+  "id": "LQCPE2V1",
+  "name": "Cuocipasta elettrico – LQ/CPE2V1",
+  "label": "LADY 900 / CUOCIPASTA",
+  "image": "https://casta.com/wp-content/uploads/2022/01/LQ-CPE2V1-400X900X850H_DX-351x300.jpg",
+  "dimensions": { "w": 400, "h": 850, "d": 900 },
+  "weight": 60
+},
+{
+  "sp": "180",
+  "id": "LQCPG2V80",
+  "name": "Cuocipasta gas – LQ/CPG2V80",
+  "label": "LADY 900 / CUOCIPASTA",
+  "image": "https://casta.com/wp-content/uploads/2022/04/L9-CPG2V80-800X900X850H_DX-351x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 900 },
+  "weight": 125
+},
+{
+  "sp": "181",
+  "id": "LQBME2BA",
+  "name": "Bagno maria elettrico – LQ/BME2BA",
+  "label": "LADY 900 / BAGNO MARIA",
+  "image": "https://casta.com/wp-content/uploads/2021/03/LQ-BME2BA-800X900X850H_DX-351x300.png",
+  "dimensions": { "w": 800, "h": 850, "d": 900 },
+  "weight": 90
+},
+{
+  "sp": "182",
+  "id": "LQFRE1V17",
+  "name": "Friggitrice elettrica ad una vasca – LQ/FRE1V17",
+  "label": "LADY 900 / FRIGGITRICE",
+  "image": "https://casta.com/wp-content/uploads/2021/03/LQ-FRE1V17-400X900X850H_DX-351x300.png",
+  "dimensions": { "w": 400, "h": 850, "d": 900 },
+  "weight": 60
+},
+{
+  "sp": "183",
+  "id": "LQBRGI80A",
+  "name": "Brasiera gas – LQ/BRGI80A",
+  "label": "LADY 900 / BRASIERA",
+  "image": "https://casta.com/wp-content/uploads/2013/11/L7BRGI50A-334x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 900 },
+  "weight": 156
+},
+{
+  "sp": "184",
+  "id": "LQBS2BB",
+  "name": "Griglia a pietra lavica – LQ/BS2BB",
+  "label": "LADY 900 / GRIGLIA",
+  "image": "https://casta.com/wp-content/uploads/2021/03/LQ-BS2BB-800X900X270H_DX-317x300.png",
+  "dimensions": { "w": 800, "h": 270, "d": 900 },
+  "weight": 70
+}
+,
+{
+  "sp": "185",
+  "id": "LQCPE4V2",
+  "name": "Cuocipasta elettrico – LQ/CPE4V2",
+  "label": "LADY 900 / CUOCIPASTA",
+  "image": "https://casta.com/wp-content/uploads/2024/04/LQ-CPE4V2-317x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 900 },
+  "weight": null
+},
+{
+  "sp": "186",
+  "id": "LQCUI4HBB",
+  "name": "Cucina a induzione – LQ/CUI4HBB",
+  "label": "LADY 900 / CUCINA",
+  "image": "https://casta.com/wp-content/uploads/2022/03/LQ-CUI4LBB_800X900X850H_DX-351x300.jpg",
+  "dimensions": { "w": 800, "h": 275, "d": 900 },
+  "weight": null
+},
+{
+  "sp": "187",
+  "id": "LQDSE400BA",
+  "name": "Vaporiera dim sum elettrica – LQ/DSE400BA",
+  "label": "LADY 900 / VAPORIERA",
+  "image": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-317x300.jpg",
+  "dimensions": { "w": 400, "h": 850, "d": 900 },
+  "weight": 49
+},
+{
+  "sp": "188",
+  "id": "LQCVE4BB",
+  "name": "Cucina elettrica vetroceramica – LQ/CVE4BB",
+  "label": "LADY 900 / CUCINA",
+  "image": "https://casta.com/wp-content/uploads/2022/10/LQ-CVE4BB-800X900X270H_SX-317x300.jpg",
+  "dimensions": { "w": 800, "h": 270, "d": 900 },
+  "weight": 70
+},
+{
+  "sp": "189",
+  "id": "LQBREI80A",
+  "name": "Brasiera elettrica – LQ/BREI80A",
+  "label": "LADY 900 / BRASIERA",
+  "image": "https://casta.com/wp-content/uploads/2013/12/L7BREI50A-334x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 900 },
+  "weight": 152
+}
+
+
+
 
 ]
