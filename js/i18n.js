@@ -212,6 +212,7 @@
             "section.komory": "Nerezové chladicí komory na odpad",
             "section.Konvektomaty":"Konvektomaty a horkovzdušné trouby",
             "section.svareky":"Svářečky podnosů",
+            "Porcelain.text1": "V naší nabídce naleznete široký výběr skla a porcelánu vhodného pro gastronomické provozy, včetně restaurací, kaváren a cateringových služeb. Naše produkty kombinují kvalitu, design a funkčnost, aby splňovaly náročné požadavky profesionální gastronomie.",
              "traysealers.text1": "V naší nabídce naleznete nerezové svářečky podnosů, které jsou určeny k intenzivnímu používání.",
   "traysealers.text2": "Výborně se hodí i do náročnějších gastro provozů. Vyznačují se jednoduchým používáním a nenáročností na prostor.",
             "wastecoolers.text1": "Nerezové levné chladicí komory na odpad jsou praktickým pomocníkem v každé restauraci a všude tam, kde se potýkáte s biologickým odpadem, jehož skladování s sebou přináší různá úskalí.",
@@ -220,7 +221,10 @@
         },
 
         en: {
+           
+
             "section.svareky":"Tray welders",
+            "Porcelain.text1": "This handcrafted ceramic bowl features an elegant blue geometric pattern inspired by traditional Japanese art. Perfect for serving rice, soup, or desserts with a touch of timeless charm.",
             "page.gastro.Fritezy_katagory": "Fryers Category",
             "section.Konvektomaty":"Convection ovens and hot air ovens",
             "page.gastro.title": "Gastro and Kitchen",

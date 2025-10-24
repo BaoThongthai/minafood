@@ -1,0 +1,48 @@
+[
+    {
+  "sp": "159",
+  "id": "LQCQE2BB",
+  "name": "Cucina elettrica con due zone cottura – LQ/CQE2BB",
+  "label": "LADY 900 / CUCINA",
+  "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CQE2BB-400X900X270H-351x300.jpg",
+  "dimensions": { "w": 400, "h": 275, "d": 900 },
+  "weight": 65
+},
+{
+  "sp": "160",
+  "id": "LQCQE4BB",
+  "name": "Cucina elettrica con quattro zone cottura – LQ/CQE4BB",
+  "label": "LADY 900 / CUCINA",
+  "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CQE4BB-800X900X270H-351x300.jpg",
+  "dimensions": { "w": 800, "h": 275, "d": 900 },
+  "weight": 130
+},
+{
+  "sp": "161",
+  "id": "LQCQE6BB",
+  "name": "Cucina elettrica con sei zone cottura – LQ/CQE6BB",
+  "label": "LADY 900 / CUCINA",
+  "image": "https://casta.com/wp-content/uploads/2022/09/LQ-CQE6BB-317x300.jpg",
+  "dimensions": { "w": 1200, "h": 275, "d": 900 },
+  "weight": 195
+},
+{
+  "sp": "162",
+  "id": "LQCQE4BA",
+  "name": "Cucina elettrica – LQ/CQE4BA",
+  "label": "LADY 900 / CUCINA",
+  "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CQE4BA-317x300.png",
+  "dimensions": { "w": 800, "h": 850, "d": 900 },
+  "weight": null
+},
+{
+  "sp": "163",
+  "id": "LQFTG4BARC",
+  "name": "Fry top gas – LQ/FTG4BARC",
+  "label": "LADY 900 / FRY TOP",
+  "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BARC-800X900X850H_DX-317x300.jpg",
+  "dimensions": { "w": 800, "h": 850, "d": 900 },
+  "weight": 138
+}
+
+]
