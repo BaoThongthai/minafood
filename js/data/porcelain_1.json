@@ -161,11 +161,11 @@
   },
     {
     "id": "sklo-porcelan-11 ",
-    "name": "Blue Patterned Ceramic  /Rice Bowl 200ml",
+    "name": "Blue Patterned Ceramic  /Rice Bowl 200ml  ( w : 10.5 , h 9.3 ) cm",
     "label": "Sklo a porcelán",
     "image": "img/Porcelain/Porcelain_1.jpg",
     "item_number": "",
-    "dimensions": { "w": "10.5", "h": "9.3", "m": "365g" },
+    "dimensions": { "w": "10.5", "h": "9.3", "d": "" },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -177,11 +177,11 @@
   },
       {
     "id": "sklo-porcelan-12",
-    "name": "Brown Patterned Ceramic /Rice Bowl 200ml",
+    "name": "Brown Patterned Ceramic /Rice Bowl 200ml  ( w : 10.5 , h 9.3 ) cm",
     "label": "Sklo a porcelán",
     "image": "img/Porcelain/Porcelain_2.jpg",
     "item_number": "",
-    "dimensions": { "w": "10.5", "h": "9.3", "m": "365g" },
+    "dimensions": { "w": "10.5", "h": "9.3", "d": "" },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -193,11 +193,11 @@
   },
         {
     "id": "sklo-porcelan-13",
-    "name": "Brown-Black Gradient Ceramic /Rice Bowl 200ml",
+    "name": "Brown-Black Gradient Ceramic /Rice Bowl 200ml ( w : 10.5 , h 9.3 ) cm",
     "label": "Sklo a porcelán",
     "image": "img/Porcelain/Porcelain_4.jpg",
     "item_number": "",
-    "dimensions": { "w": "10.5", "h": "9.3", "m": "365g" },
+    "dimensions": { "w": "10.5", "h": "9.3", "d": "" },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -213,7 +213,7 @@
     "label": "Sklo a porcelán",
     "image": "img/Porcelain/Porcelain_5.jpg",
     "item_number": "",
-    "dimensions": { "w": "", "h": "", "m": "" },
+    "dimensions": { "w": "", "h": "", "d": "" },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -229,7 +229,7 @@
     "label": "Sklo a porcelán",
     "image": "img/Porcelain/Porcelain_3.jpg",
     "item_number": "",
-    "dimensions": { "w": "", "h": "", "m": "" },
+    "dimensions": { "w": "", "h": "", "d": "" },
     "availability": {
       "ostrava": "",
       "dansko": "",
