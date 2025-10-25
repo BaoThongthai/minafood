@@ -1,0 +1,314 @@
+[
+  {
+    "id": "IM-45WPE-F",
+    "name": "IM-45WPE-F",
+    "label": "Výrobník ľadu",
+    "price": 4140,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/498/hoshizaki_im-45wpe-f_m111-d102_hero-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-65PE-U",
+    "name": "IM-65PE-U",
+    "label": "Výrobník ľadu",
+    "price": 4320,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/524/hoshizaki_im-65pe-u_m113-d200_hero-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-65WPE",
+    "name": "IM-65WPE",
+    "label": "Výrobník ľadu",
+    "price": 4340,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/529/hoshizaki_im-65wpe_m113-d013_hero-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-45WPE-E",
+    "name": "IM-45WPE-E",
+    "label": "Výrobník ľadu",
+    "price": 4400,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/500/hoshizaki_im-45wpe-e_m111-d302_hero-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-65PE-F",
+    "name": "IM-65PE-F",
+    "label": "Výrobník ľadu",
+    "price": 4475,
+    "currency": "€",
+    "status": "Na sklade",
+    "image": "https://icemakers.sk/files/cache/product/425/d6a1a6d435d733e6de6dd85316257bf5d777b0b6_m113_im65pe_transp-2-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-65WPE-U",
+    "name": "IM-65WPE-U",
+    "label": "Výrobník ľadu",
+    "price": 4600,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/531/hoshizaki_im-65wpe-u_m113-d213_hero-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  
+  {
+    "id": "IM-65PE-E",
+    "name": "IM-65PE-E",
+    "label": "Výrobník ľadu",
+    "price": 4740,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/527/hoshizaki_im-65pe-e_m113-d300_hero-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-65WPE-F",
+    "name": "IM-65WPE-F",
+    "label": "Výrobník ľadu",
+    "price": 4760,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/534/hoshizaki_im-65wpe-f_m113-d113_hero-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-65WPE-E",
+    "name": "IM-65WPE-E",
+    "label": "Výrobník ľadu",
+    "price": 5020,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/535/hoshizaki_im-65wpe-e_m113-d313_hero-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-100CNE-HC",
+    "name": "IM-100CNE-HC",
+    "label": "Výrobník ľadu",
+    "price": 5475,
+    "currency": "€",
+    "status": "Na sklade",
+    "image": "https://icemakers.sk/files/cache/product/25/81b7d9f22e32870d8cdfef7b28d00af23412d7f1_im_100cne-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-100NE-HC",
+    "name": "IM-100NE-HC",
+    "label": "Výrobník ľadu",
+    "price": 5730,
+    "currency": "€",
+    "status": "Na sklade",
+    "image": "https://icemakers.sk/files/cache/product/28/86cba0e5c8b0fd010bb62c1a9addc3a125e711ff_im_100ne-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-130NE-HC",
+    "name": "IM-130NE-HC",
+    "label": "Výrobník ľadu",
+    "price": 5860,
+    "currency": "€",
+    "status": "Predaj ukončený",
+    "image": "https://icemakers.sk/files/cache/product/36/70ca590c16eb480179b245fb0cc71490196ae110_im_100ne-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  
+  {
+    "id": "IM-130ANE-HC",
+    "name": "IM-130ANE-HC",
+    "label": "Výrobník ľadu",
+    "price": 5975,
+    "currency": "€",
+    "status": "Na sklade",
+    "image": "https://icemakers.sk/files/cache/product/41/d63637b4bbaab6af7613c6d474512eb47866d997_im_130ane_hc_b_501sa-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-100WNE-HC",
+    "name": "IM-100WNE-HC",
+    "label": "Výrobník ľadu",
+    "price": 6000,
+    "currency": "€",
+    "status": "Na sklade",
+    "image": "https://icemakers.sk/files/cache/product/32/228301203f2e0477227c68751480fb0af83e1399_im_100ne__1h4991_asm.igs_rev04-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-100PE",
+    "name": "IM-100PE",
+    "label": "Výrobník ľadu",
+    "price": 6020,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/537/hoshizaki_im-100pe_m114_hero-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-130CPE",
+    "name": "IM-130CPE",
+    "label": "Výrobník ľadu",
+    "price": 6040,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/539/hoshizaki_im-130cpe_m116_hero-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-130CPE-U",
+    "name": "IM-130CPE-U",
+    "label": "Výrobník ľadu",
+    "price": 6040,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/540/hoshizaki_im-130cpe-u_m116-d200_hero-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-130PE",
+    "name": "IM-130PE",
+    "label": "Výrobník ľadu",
+    "price": 6155,
+    "currency": "€",
+    "status": "Na sklade",
+    "image": "https://icemakers.sk/files/cache/product/444/m115_im130pe_transp-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  
+  {
+    "id": "IM-130ANE-HC",
+    "name": "IM-130ANE-HC",
+    "label": "Výrobník ľadu",
+    "price": 5975,
+    "currency": "€",
+    "status": "Na sklade",
+    "image": "https://icemakers.sk/files/cache/product/39/im-100ne130ne-1-300x300.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-100WNE-HC",
+    "name": "IM-100WNE-HC",
+    "label": "Výrobník ľadu",
+    "price": 6000,
+    "currency": "€",
+    "status": "Na sklade",
+    "image": "https://icemakers.sk/files/cache/product/32/228301203f2e0477227c68751480fb0af83e1399_im_100ne__1h4991_asm.igs_rev04-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-100PE",
+    "name": "IM-100PE",
+    "label": "Výrobník ľadu",
+    "price": 6020,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/537/hoshizaki_im-100pe_m114_hero-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-130CPE",
+    "name": "IM-130CPE",
+    "label": "Výrobník ľadu",
+    "price": 6040,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/539/hoshizaki_im-130cpe_m116_hero-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-130CPE-U",
+    "name": "IM-130CPE-U",
+    "label": "Výrobník ľadu",
+    "price": 6040,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/540/hoshizaki_im-130cpe-u_m116-d200_hero-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-130PE",
+    "name": "IM-130PE",
+    "label": "Výrobník ľadu",
+    "price": 6155,
+    "currency": "€",
+    "status": "Na sklade",
+    "image": "https://icemakers.sk/files/cache/product/444/m115_im130pe_transp-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  
+  {
+    "id": "IM-130WNE-HC",
+    "name": "IM-130WNE-HC",
+    "label": "Výrobník ľadu",
+    "price": 6205,
+    "currency": "€",
+    "status": "Na sklade",
+    "image": "https://icemakers.sk/files/cache/product/39/im-100ne130ne-1-300x300.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-130APE",
+    "name": "IM-130APE",
+    "label": "Výrobník ľadu",
+    "price": 6275,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/582/hoshizaki_im-130ape_1-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-130PE-U",
+    "name": "IM-130PE-U",
+    "label": "Výrobník ľadu",
+    "price": 6420,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/546/hoshizaki_im-130pe-u_m115-d200_hero-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-130WPE",
+    "name": "IM-130WPE",
+    "label": "Výrobník ľadu",
+    "price": 6520,
+    "currency": "€",
+    "status": "Na sklade",
+    "image": "https://icemakers.sk/files/cache/product/454/picture_im_130wpe-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-130APE-U",
+    "name": "IM-130APE-U",
+    "label": "Výrobník ľadu",
+    "price": 6540,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/583/hoshizaki_im-130ape-u_1-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-130PE-F",
+    "name": "IM-130PE-F",
+    "label": "Výrobník ľadu",
+    "price": 6575,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/575/hoshizaki_im-130pe-f_m115-d100_hero-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  }
+
+
+
+
+
+
+
+
+]
