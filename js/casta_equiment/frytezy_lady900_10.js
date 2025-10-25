@@ -10,7 +10,7 @@
     error: 'Không tải được danh sách sản phẩm. Vui lòng thử lại sau.'
   };
 
-  const PAGE_SIZE = 4;
+  const PAGE_SIZE = 5
   let visible = PAGE_SIZE;
   let allProducts = [];
 

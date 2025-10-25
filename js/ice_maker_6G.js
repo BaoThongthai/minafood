@@ -42,6 +42,7 @@
              style="top: 10px; left: 10px;">${p.label || ''}</div>
         <div class="p-4 border border-secondary border-top-0 rounded-bottom">
           <h4>${p.name}</h4>
+          <p>${fmtDims(p.dimensions)}</p>
           <div class="d-flex justify-content-between flex-lg-wrap">
             <p class="text-dark fs-7 fw-bold mb-0">${fmtPrice(p.price)}</p>
             <a href="#"

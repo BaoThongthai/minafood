@@ -3,7 +3,7 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
-"page.iceequiment.title":"zařízení a příslušenství pro výrobu ledu",
+"page.iceequiment.title":"Výrobníky ledu",
             "products.decor.title": "Výrobky pro výzdobu interiérů"
             ,
             "tabs.decorace": "vyzdobit",

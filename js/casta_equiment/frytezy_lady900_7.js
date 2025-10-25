@@ -10,7 +10,7 @@
     error: 'Không tải được danh sách sản phẩm. Vui lòng thử lại sau.'
   };
 
-  const PAGE_SIZE = 4;
+  const PAGE_SIZE = 5
   let visible = PAGE_SIZE;
   let allProducts = [];
 
@@ -96,8 +96,7 @@
 
     if (hasMore) {
       const moreRow = document.createElement('div');
-      moreRow.className = 'js-show-more-row d-flex justify-content-center w-100 mt-4';
-
+      moreRow.className = 'col-12 text-center js-show-more-row';
       moreRow.innerHTML = `
         <button type="button" class="btn btn-outline-secondary px-4 rounded-pill js-show-more-btn">
           ${LABELS.showMore}

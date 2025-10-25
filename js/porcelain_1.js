@@ -44,7 +44,7 @@
           <h4>${p.name}</h4>
           <p>${fmtDims(p.dimensions)}</p>
           <div class="d-flex justify-content-between flex-lg-wrap">
-            <p class="text-dark fs-5 fw-bold mb-0">${fmtPrice(p.price)}</p>
+            <p class="text-dark fs-7 fw-bold mb-0">${fmtPrice(p.price)}</p>
             <a href="#"
                class="btn border border-secondary rounded-pill px-3 text-primary add-to-cart"
                data-id="${p.id}"

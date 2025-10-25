@@ -66,8 +66,7 @@
 
     if (hasMore) {
       const moreRow = document.createElement('div');
-      moreRow.className = 'js-show-more-row d-flex justify-content-center w-100 mt-4';
-
+      moreRow.className = 'col-12 text-center js-show-more-row';
       moreRow.innerHTML = `
         <button type="button" class="btn btn-outline-secondary px-4 rounded-pill js-show-more-btn">
           ${LABELS.showMore}

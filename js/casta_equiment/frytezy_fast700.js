@@ -10,7 +10,7 @@
     error: 'Unable to load product list. Please try again later.'
   };
 
-  const PAGE_SIZE = 4;
+  const PAGE_SIZE = 5
   let visible = PAGE_SIZE;
   let allProducts = [];
 

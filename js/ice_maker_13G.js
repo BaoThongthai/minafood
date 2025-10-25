@@ -2,7 +2,7 @@
 
 (async function () {
   const GRID_SELECTOR = '#product-grid';
-  const DATA_URL = 'js/data/decoration_1.json'; // Đổi đường dẫn nếu cần
+  const DATA_URL = 'js/data/ice_machine/icemaker_13g.json'; // Đổi đường dẫn nếu cần
 
   const grid = document.querySelector(GRID_SELECTOR);
   if (!grid) return;

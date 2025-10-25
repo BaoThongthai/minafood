@@ -1,62 +1,102 @@
 [
   {
-    "id": "IM-21CNE-HC",
-    "name": "IM-21CNE-HC",
+    "id": "IM-100NE-HC-21",
+    "name": "IM-100NE-HC-21",
     "label": "Výrobník ľadu",
-    "price": 2460,
+    "price": 5930,
     "currency": "€",
     "status": "Na sklade",
-    "image": "https://icemakers.sk/files/cache/product/7/d64df81156ea12376bf210e184f03c20aef7310d_im_21cne_4-300x300.png",
+    "image": "https://icemakers.sk/files/cache/product/31/b68908215b363c56c22ef9d8642b269b2450000a_im_100ne-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
   },
   {
-    "id": "IM-30CNE-HC",
-    "name": "IM-30CNE-HC",
+    "id": "IM-100CNE-HC-21",
+    "name": "IM-100CNE-HC-21",
     "label": "Výrobník ľadu",
-    "price": 2530,
+    "price": 5950,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/27/133b6476d46d48b2caaf5df56041d9b9693e841c_im_100cne-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-100WNE-HC-21",
+    "name": "IM-100WNE-HC-21",
+    "label": "Výrobník ľadu",
+    "price": 6200,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/34/228301203f2e0477227c68751480fb0af83e1399_im_100ne__1h4991_asm.igs_rev04-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-240XNE-HC-21",
+    "name": "IM-240XNE-HC-21",
+    "label": "Výrobník ľadu",
+    "price": 7230,
     "currency": "€",
     "status": "Predaj ukončený",
-    "image": "https://icemakers.sk/files/cache/product/8/55551325150c9f6efaf6afd96c0fa54a9c1a1cc5_im_30cne_hc-300x300.png",
+    "image": "https://icemakers.sk/files/cache/product/59/b8e823cfa2a2da5fa647cd0f92b7b2a08163e986_im_240xne_rev01-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
   },
   {
-    "id": "IM-21CPE",
-    "name": "IM-21CPE",
+    "id": "IM-240DNE-HC-21",
+    "name": "IM-240DNE-HC-21",
     "label": "Výrobník ľadu",
-    "price": 2535,
-    "currency": "€",
-    "status": "Na sklade",
-    "image": "https://icemakers.sk/files/cache/product/455/bcb1d268ea2d595b0272dad4529859cc04ab8b0d_im21_transp_crop-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
-  },
-  {
-    "id": "IM-30CPE",
-    "name": "IM-30CPE",
-    "label": "Výrobník ľadu",
-    "price": 2610,
-    "currency": "€",
-    "status": "Na sklade",
-    "image": "https://icemakers.sk/files/cache/product/453/picture_im-30cpe-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
-  },
-  {
-    "id": "IM-30CNE-HC-25",
-    "name": "IM-30CNE-HC-25",
-    "label": "Výrobník ľadu",
-    "price": 2700,
+    "price": 7230,
     "currency": "€",
     "status": "Predaj ukončený",
-    "image": "https://icemakers.sk/files/cache/product/9/61198ec117a8c032de32e28e1603e9e35f9a4fa2_im_30cne_hc-300x300.png",
+    "image": "https://icemakers.sk/files/cache/product/61/im-240dne-1-300x300.jpg",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
   },
   {
-    "id": "IM-30CPE-25",
-    "name": "IM-30CPE-25",
+    "id": "IM-240XWNE-HC-21",
+    "name": "IM-240XWNE-HC-21",
     "label": "Výrobník ľadu",
-    "price": 2785,
+    "price": 7575,
     "currency": "€",
-    "status": "Na sklade",
-    "image": "https://icemakers.sk/files/cache/product/426/m110_im30cpe_transp-300x300.png",
+    "status": "Predaj ukončený",
+    "image": "https://icemakers.sk/files/cache/product/50/72503adc398cc1b8529e78e7bfe5363814769882_im_240xne_rev00-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+   {
+    "id": "IM-240DWNE-HC-21",
+    "name": "IM-240DWNE-HC-21",
+    "label": "Výrobník ľadu",
+    "price": 7575,
+    "currency": "€",
+    "status": "Predaj ukončený",
+    "image": "https://icemakers.sk/files/cache/product/55/aad781994b82b229e865fd56923e1be655922377_im_240dne_b_801s-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-240ANE-HC-21",
+    "name": "IM-240ANE-HC-21",
+    "label": "Výrobník ľadu",
+    "price": 7610,
+    "currency": "€",
+    "status": "Predaj ukončený",
+    "image": "https://icemakers.sk/files/cache/product/18/dc73b42ba0e5795813f66997d52f69282a9d8430_im_240ane_b_301sa_rev02-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-240AWNE-HC-21",
+    "name": "IM-240AWNE-HC-21",
+    "label": "Výrobník ľadu",
+    "price": 7955,
+    "currency": "€",
+    "status": "Predaj ukončený",
+    "image": "https://icemakers.sk/files/cache/product/45/c79188bdebb0585b4485350c9ccad6769a7955e0_im_240ane_b_301sa_rev02-300x300.png",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-240E-HC-21",
+    "name": "IM-240E-HC-21",
+    "label": "Výrobník ľadu",
+    "price": 9060,
+    "currency": "€",
+    "status": "Predaj ukončený",
+    "image": "https://icemakers.sk/files/cache/product/69/cf8f1342c962bff087879dc921eccdb088baab50_im_240ne_hc-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
   }
 ]
