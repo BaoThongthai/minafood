@@ -52,7 +52,7 @@
         </div>
         ${p.label ? `
         <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
-             style="top: 10px; left: 10px;">${p.label}</div>` : ''}
+             style="top: 10px; left: 10px;font-size:12px">${p.label}</div>` : ''}
         <div class="p-4 border border-secondary border-top-0 rounded-bottom">
           <h4>${p.name}</h4>
           <p>${fmtDims(p.dimensions)}</p>

@@ -15,6 +15,8 @@
             "nav.categories": "Kategorie",
             "nav.about": "O nás",
             "nav.contact": "Kontakt",
+            "icemakers.ice_bucket_1":"VLOČKY 70% ĽAD",
+            "icemakers.ice_bucket_2":"NUGETY 88% ĽAD",
             // thêm nếu cần
             "buttons.showMore": "Zobrazit produkty",
             "buttons.showLess": "Skrýt",
@@ -227,6 +229,8 @@
         en: {
 
             "icepage.ice_bucket.name": "ice buckets",
+             "icemakers.ice_bucket_1":"FLAKES 70% ICE",
+            "icemakers.ice_bucket_2":"NUGGETS 88% ICE",
             "icemakers.ice_bucket": "NUGET'S ICE MAKERS",
             "page.iceequiment.title": "ice making equipment and accessories",
             "section.svareky": "Tray welders",

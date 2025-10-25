@@ -2,7 +2,7 @@
 
 (async function () {
   const GRID_SELECTOR = '#product-grid';
-  const DATA_URL = 'js/data/ice_machine/icemaker_31g.json'; // Đổi đường dẫn nếu cần
+  const DATA_URL = 'js/data/ice_machine/icebuckets_2.json'; // Đổi đường dẫn nếu cần
 
   const PAGE_SIZE = 5; // 👉 Mỗi lần mở thêm 5 sp
   let visible = PAGE_SIZE;
