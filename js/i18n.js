@@ -3,7 +3,7 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
-
+"page.iceequiment.title":"zařízení a příslušenství pro výrobu ledu",
             "products.decor.title": "Výrobky pro výzdobu interiérů"
             ,
             "tabs.decorace": "vyzdobit",
@@ -225,6 +225,7 @@
         en: {
            
             "icepage.ice_bucket.name":"ice buckets",
+            "page.iceequiment.title":"ice making equipment and accessories",
             "section.svareky":"Tray welders",
             "Porcelain.text1": "This handcrafted ceramic bowl features an elegant blue geometric pattern inspired by traditional Japanese art. Perfect for serving rice, soup, or desserts with a touch of timeless charm.",
             "page.gastro.Fritezy_katagory": "Fryers Category",

@@ -985,5 +985,49 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link{
   }
 }
 
+
+/* 5 sản phẩm mỗi hàng */
+/* Desktop mặc định: 5 sp / hàng */
+#product-grid > div{
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+/* Tablet: 3 sp / hàng */
+@media (max-width: 991.98px){
+  #product-grid > div{
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+/* Mobile: 2 sp / hàng */
+@media (max-width: 767.98px){
+  #product-grid > div{
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* Màn rất nhỏ: 1 sp / hàng (tuỳ chọn) */
+@media (max-width: 399.98px){
+  #product-grid > div{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* 5 sản phẩm mỗi hàng */
+
+/* Căn nút Show more giữa toàn dãy sản phẩm */
+#product-grid .js-show-more-row {
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
     
 
