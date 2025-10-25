@@ -4,8 +4,23 @@
   const GRID_SELECTOR = '#product-grid';
   const DATA_URL = 'js/data/decoration_1.json'; // Đổi đường dẫn nếu cần
 
+  const PAGE_SIZE = 5; // 👉 Mỗi lần mở thêm 5 sp
+  let visible = PAGE_SIZE;
+  let allProducts = [];
+
   const grid = document.querySelector(GRID_SELECTOR);
   if (!grid) return;
+
+  // ====== NEW: tạo vùng nút Show More (chèn bằng JS, không sửa HTML) ======
+  const wrap = document.createElement('div');
+  wrap.className = 'w-100 d-flex justify-content-center my-3';
+  const showMoreBtn = document.createElement('button');
+  showMoreBtn.type = 'button';
+  showMoreBtn.id = 'show-more-btn';
+  showMoreBtn.className = 'btn btn-outline-primary rounded-pill px-4';
+  showMoreBtn.textContent = 'Show more';
+  wrap.appendChild(showMoreBtn);
+  grid.insertAdjacentElement('afterend', wrap);
 
   // ====== NEW: tham chiếu popup (cần có trong HTML) ======
   const popup = document.getElementById('product-popup');
@@ -27,9 +42,6 @@
   // GIỮ NGUYÊN thứ tự như đoạn 1: { w, d, h } => Š, H, V
   const fmtDims = ({ w, d, h }) => `Š: ${w}\u00A0 H: ${d}\u00A0 V: ${h}`;
 
-  // ====== state để tìm lại sản phẩm khi click ======
-  let allProducts = [];
-
   const cardHTML = (p) => `
     <div class="col-md-6 col-lg-4 col-xl-3">
       <div class="rounded position-relative fruite-item" data-id="${p.id}">
@@ -38,8 +50,9 @@
                class="img-fluid w-100 rounded-top border border-secondary" 
                alt="${p.name}">
         </div>
+        ${p.label ? `
         <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
-             style="top: 10px; left: 10px;">${p.label || ''}</div>
+             style="top: 10px; left: 10px;">${p.label}</div>` : ''}
         <div class="p-4 border border-secondary border-top-0 rounded-bottom">
           <h4>${p.name}</h4>
           <p>${fmtDims(p.dimensions)}</p>
@@ -61,10 +74,12 @@
     </div>
   `;
 
-  // Render helpers
-  const renderProducts = (list) => {
-    grid.innerHTML = list.map(cardHTML).join('');
-    attachClickHandlers(); // NEW: gắn click phóng to sau khi render
+  // ====== RENDER: chỉ render đến 'visible' sản phẩm ======
+  const renderProducts = () => {
+    const slice = allProducts.slice(0, visible);
+    grid.innerHTML = slice.map(cardHTML).join('');
+    attachClickHandlers(); // gắn click phóng to sau khi render
+    updateShowMore();      // cập nhật trạng thái nút
   };
 
   // ====== NEW: hàm mở/đóng popup ======
@@ -84,19 +99,31 @@
     popup.addEventListener('click', (e) => { if (e.target === popup) closePopup(); });
   }
 
-  // ====== NEW: gắn click vào card (trừ nút Add to Cart) ======
+  // ====== gắn click vào card (trừ nút Add to Cart) ======
   function attachClickHandlers() {
     grid.querySelectorAll('.fruite-item').forEach(item => {
       item.addEventListener('click', (e) => {
-        // Nếu bấm vào nút Add to Cart thì không mở popup
-        if (e.target.closest('a.add-to-cart')) return;
-
+        if (e.target.closest('a.add-to-cart')) return; // không mở popup khi bấm Add to Cart
         const id = item.dataset.id;
         const p = allProducts.find(x => String(x.id) === String(id));
         if (p) openPopup(p);
       });
     });
   }
+
+  // ====== NEW: điều khiển nút Show More ======
+  function updateShowMore() {
+    if (!showMoreBtn) return;
+    const hasMore = visible < allProducts.length;
+    showMoreBtn.style.display = hasMore ? '' : 'none';
+  }
+
+  showMoreBtn.addEventListener('click', () => {
+    visible = Math.min(visible + PAGE_SIZE, allProducts.length);
+    renderProducts();
+    // (tuỳ chọn) scroll nhẹ đến cuối grid cho mượt
+    // wrap.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
 
   // Simple loading UI
   grid.innerHTML = `
@@ -110,15 +137,16 @@
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const products = await res.json();
 
-    // Validate nhẹ (GIỮ nguyên logic cũ)
+    // Validate nhẹ
     const safe = Array.isArray(products) ? products.filter(p =>
       p && p.id && p.name && p.image && p.dimensions && typeof p.price === 'number'
     ) : [];
 
-    allProducts = safe;                 // NEW: lưu toàn bộ để popup tra cứu
-    renderProducts(safe);
+    allProducts = safe;
+    visible = Math.min(PAGE_SIZE, allProducts.length);
+    renderProducts();
 
-    // Gắn click handler Add to Cart (GIỮ NGUYÊN)
+    // Add to Cart (giữ nguyên, lắng nghe trên grid để không mất khi re-render)
     grid.addEventListener('click', (e) => {
       const a = e.target.closest('a.add-to-cart');
       if (!a) return;
@@ -133,11 +161,8 @@
         qty: 1
       };
 
-      // TODO: nối vào giỏ hàng thật của bạn.
-      // Ở đây demo: phát sự kiện để nơi khác lắng nghe
       document.dispatchEvent(new CustomEvent('cart:add', { detail: item }));
 
-      // Feedback nhẹ
       a.classList.add('disabled');
       a.querySelector('span').textContent = 'Added!';
       setTimeout(() => {
@@ -154,6 +179,7 @@
         </div>
       </div>
     `;
+    if (showMoreBtn) showMoreBtn.style.display = 'none';
     console.error('Load products failed:', err);
   }
 })();
