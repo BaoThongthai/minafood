@@ -5,7 +5,7 @@
   const DATA_URL = 'js/casta_equiment/data/frytezy_Easy700_9.json'; // Đường dẫn JSON
 
   const LABELS = {
-    showMore: 'Hiển thị thêm',
+    showMore: 'Show More',
     loadingAria: 'loading',
     error: 'Không tải được danh sách sản phẩm. Vui lòng thử lại sau.'
   };

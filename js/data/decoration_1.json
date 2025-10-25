@@ -1,0 +1,92 @@
+[
+  { "id": "Decorace-1",  "name": "Výrobky pro výzdobu interiérů", "label": "Decorace", "price": 1999, "currency": "Kč", "image": "img/decorace/1999.jpg",  "dimensions": { "w": "—", "d": "—", "h": "—" } },
+  { "id": "Decorace-2",  "name": "Výrobky pro výzdobu interiérů", "label": "Decorace", "price": 1799, "currency": "Kč", "image": "img/decorace/1799.jpg",  "dimensions": { "w": "—", "d": "—", "h": "—" } },
+  { "id": "Decorace-3",  "name": "Výrobky pro výzdobu interiérů", "label": "Decorace", "price": 999,  "currency": "Kč", "image": "img/decorace/999-2.jpg","dimensions": { "w": "—", "d": "—", "h": "—" } },
+  { "id": "Decorace-4",  "name": "Výrobky pro výzdobu interiérů", "label": "Decorace", "price": 999,  "currency": "Kč", "image": "img/decorace/999.jpg",  "dimensions": { "w": "—", "d": "—", "h": "—" } },
+  { "id": "Decorace-5",  "name": "Výrobky pro výzdobu interiérů", "label": "Decorace", "price": 899,  "currency": "Kč", "image": "img/decorace/899-4.jpg","dimensions": { "w": "—", "d": "—", "h": "—" } },
+  { "id": "Decorace-6",  "name": "Výrobky pro výzdobu interiérů", "label": "Decorace", "price": 899,  "currency": "Kč", "image": "img/decorace/899.jpg",  "dimensions": { "w": "—", "d": "—", "h": "—" } },
+  { "id": "Decorace-7",  "name": "Výrobky pro výzdobu interiérů", "label": "Decorace", "price": 799,  "currency": "Kč", "image": "img/decorace/799-3.jpg","dimensions": { "w": "—", "d": "—", "h": "—" } },
+  { "id": "Decorace-8",  "name": "Výrobky pro výzdobu interiérů", "label": "Decorace", "price": 799,  "currency": "Kč", "image": "img/decorace/799-2.jpg","dimensions": { "w": "—", "d": "—", "h": "—" } },
+  { "id": "Decorace-9",  "name": "Výrobky pro výzdobu interiérů", "label": "Decorace", "price": 799,  "currency": "Kč", "image": "img/decorace/799.jpg",  "dimensions": { "w": "—", "d": "—", "h": "—" } },
+  { "id": "Decorace-10", "name": "Výrobky pro výzdobu interiérů", "label": "Decorace", "price": 489,  "currency": "Kč", "image": "img/decorace/489.jpg",  "dimensions": { "w": "—", "d": "—", "h": "—" } },
+  { "id": "Decorace-11", "name": "Výrobky pro výzdobu interiérů", "label": "Decorace", "price": 399,  "currency": "Kč", "image": "img/decorace/399-2.jpg","dimensions": { "w": "—", "d": "—", "h": "—" } },
+  { "id": "Decorace-12", "name": "Výrobky pro výzdobu interiérů", "label": "Decorace", "price": 399,  "currency": "Kč", "image": "img/decorace/399.jpg",  "dimensions": { "w": "—", "d": "—", "h": "—" } },
+  { "id": "Decorace-13", "name": "Výrobky pro výzdobu interiérů", "label": "Decorace", "price": 299,  "currency": "Kč", "image": "img/decorace/299-2.jpg","dimensions": { "w": "—", "d": "—", "h": "—" } },
+  { "id": "Decorace-14", "name": "Výrobky pro výzdobu interiérů", "label": "Decorace", "price": 299,  "currency": "Kč", "image": "img/decorace/299-1.jpg","dimensions": { "w": "—", "d": "—", "h": "—" } },
+  { "id": "Decorace-15", "name": "Výrobky pro výzdobu interiérů", "label": "Decorace", "price": 299,  "currency": "Kč", "image": "img/decorace/299.jpg",  "dimensions": { "w": "—", "d": "—", "h": "—" } },
+  
+  {
+    "id": "Decor-1",
+    "name": "Japonská panenka č.1",
+    "label": "Decor",
+    "price": 2900,
+    "currency": "Kč",
+    "image": "img/decorace/decor-1.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "Decor-2",
+    "name": "Japonská panenka č.2",
+    "label": "Decor",
+    "price": 600,
+    "currency": "Kč",
+    "image": "img/decorace/decor-2-600.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "Decor-3",
+    "name": "Japonská panenka č.3",
+    "label": "Decor",
+    "price": 2900,
+    "currency": "Kč",
+    "image": "img/decorace/decor-3.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "Decor-4",
+    "name": "Japonská panenka č.4",
+    "label": "Decor",
+    "price": 2900,
+    "currency": "Kč",
+    "image": "img/decorace/decor-4.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "Decor-5",
+    "name": "Japonská panenka č.5",
+    "label": "Decor",
+    "price": 2900,
+    "currency": "Kč",
+    "image": "img/decorace/decor-5.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "Decor-6",
+    "name": "Japonská panenka č.6",
+    "label": "Decor",
+    "price": 2900,
+    "currency": "Kč",
+    "image": "img/decorace/decor-6.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "Decor-7",
+    "name": "Japonská panenka č.7",
+    "label": "Decor",
+    "price": 600,
+    "currency": "Kč",
+    "image": "img/decorace/decor-7-600.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "Decor-8",
+    "name": "Japonská panenka č.8",
+    "label": "Decor",
+    "price": 2900,
+    "currency": "Kč",
+    "image": "img/decorace/decor-8.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  }
+
+
+]

@@ -5,9 +5,9 @@
   const DATA_URL = 'js/casta_equiment/data/frytezy_Easy700_8.json'; // Đường dẫn JSON
 
   const LABELS = {
-    showMore: 'Hiển thị thêm',
+    showMore: 'Show more',
     loadingAria: 'loading',
-    error: 'Không tải được danh sách sản phẩm. Vui lòng thử lại sau.'
+    error: 'Unable to load product list. Please try again later.'
   };
 
   const PAGE_SIZE = 4;           // 👉 Mỗi lần hiện 4 sp

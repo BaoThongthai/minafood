@@ -5,7 +5,11 @@
     "label": "Sklo a porcelán",
     "image": "https://minafood.cz/wp-content/uploads/2025/06/de9672ff-027e-4dbf-b9ba-b8879995c466-300x300.jpeg",
     "item_number": "",
-    "dimensions": { "w": "", "h": "", "d": "" },
+    "dimensions": {
+      "w": "",
+      "h": "",
+      "d": ""
+    },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -21,7 +25,11 @@
     "label": "Sklo a porcelán",
     "image": "https://minafood.cz/wp-content/uploads/2025/06/ra-300x300.jpeg",
     "item_number": "",
-    "dimensions": { "w": "", "h": "", "d": "" },
+    "dimensions": {
+      "w": "",
+      "h": "",
+      "d": ""
+    },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -37,7 +45,11 @@
     "label": "Sklo a porcelán",
     "image": "https://minafood.cz/wp-content/uploads/2025/06/bat-ramen-300x300.jpeg",
     "item_number": "",
-    "dimensions": { "w": "", "h": "", "d": "" },
+    "dimensions": {
+      "w": "",
+      "h": "",
+      "d": ""
+    },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -53,7 +65,11 @@
     "label": "Sklo a porcelán",
     "image": "https://minafood.cz/wp-content/uploads/2025/06/2081fe81-b1dc-462e-a999-2b1c81e3861f-300x300.jpeg",
     "item_number": "",
-    "dimensions": { "w": "", "h": "", "d": "" },
+    "dimensions": {
+      "w": "",
+      "h": "",
+      "d": ""
+    },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -69,7 +85,11 @@
     "label": "Sklo a porcelán",
     "image": "https://minafood.cz/wp-content/uploads/2025/06/21b8e4da-dfab-4ebb-9d54-a9a59a6ebd93-300x300.jpeg",
     "item_number": "",
-    "dimensions": { "w": "", "h": "", "d": "" },
+    "dimensions": {
+      "w": "",
+      "h": "",
+      "d": ""
+    },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -85,7 +105,11 @@
     "label": "Sklo a porcelán",
     "image": "https://minafood.cz/wp-content/uploads/2025/06/9b6adb9b-d8cd-457f-8538-7563da73288c-300x300.jpeg",
     "item_number": "",
-    "dimensions": { "w": "", "h": "", "d": "" },
+    "dimensions": {
+      "w": "",
+      "h": "",
+      "d": ""
+    },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -101,7 +125,11 @@
     "label": "Sklo a porcelán",
     "image": "https://minafood.cz/wp-content/uploads/2025/06/621ae960-bed0-4f24-9e34-590cec5e75bf-300x300.jpeg",
     "item_number": "",
-    "dimensions": { "w": "", "h": "", "d": "" },
+    "dimensions": {
+      "w": "",
+      "h": "",
+      "d": ""
+    },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -117,7 +145,11 @@
     "label": "Sklo a porcelán",
     "image": "https://minafood.cz/wp-content/uploads/2025/06/e120397a-f57b-4fd5-842d-8a0256e2b18f-300x300.jpeg",
     "item_number": "",
-    "dimensions": { "w": "", "h": "", "d": "" },
+    "dimensions": {
+      "w": "",
+      "h": "",
+      "d": ""
+    },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -133,7 +165,11 @@
     "label": "Sklo a porcelán",
     "image": "https://minafood.cz/wp-content/uploads/2025/06/ramen-bowl-300x300.jpeg",
     "item_number": "",
-    "dimensions": { "w": "", "h": "", "d": "" },
+    "dimensions": {
+      "w": "",
+      "h": "",
+      "d": ""
+    },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -149,7 +185,11 @@
     "label": "Sklo a porcelán",
     "image": "https://minafood.cz/wp-content/uploads/2025/06/696c7620-f3d1-4c75-908e-9debfbecc408-300x300.jpeg",
     "item_number": "",
-    "dimensions": { "w": "", "h": "", "d": "" },
+    "dimensions": {
+      "w": "",
+      "h": "",
+      "d": ""
+    },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -159,13 +199,17 @@
     "price": 350,
     "currency": "Kč"
   },
-    {
+  {
     "id": "sklo-porcelan-11 ",
     "name": "Blue Patterned Ceramic  /Rice Bowl 200ml  ( w : 10.5 , h 9.3 ) cm",
     "label": "Sklo a porcelán",
     "image": "img/Porcelain/Porcelain_1.jpg",
     "item_number": "",
-    "dimensions": { "w": "10.5", "h": "9.3", "d": "" },
+    "dimensions": {
+      "w": "10.5",
+      "h": "9.3",
+      "d": ""
+    },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -175,13 +219,17 @@
     "price": 289,
     "currency": "Kč"
   },
-      {
+  {
     "id": "sklo-porcelan-12",
     "name": "Brown Patterned Ceramic /Rice Bowl 200ml  ( w : 10.5 , h 9.3 ) cm",
     "label": "Sklo a porcelán",
     "image": "img/Porcelain/Porcelain_2.jpg",
     "item_number": "",
-    "dimensions": { "w": "10.5", "h": "9.3", "d": "" },
+    "dimensions": {
+      "w": "10.5",
+      "h": "9.3",
+      "d": ""
+    },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -191,13 +239,17 @@
     "price": 289,
     "currency": "Kč"
   },
-        {
+  {
     "id": "sklo-porcelan-13",
     "name": "Brown-Black Gradient Ceramic /Rice Bowl 200ml ( w : 10.5 , h 9.3 ) cm",
     "label": "Sklo a porcelán",
     "image": "img/Porcelain/Porcelain_4.jpg",
     "item_number": "",
-    "dimensions": { "w": "10.5", "h": "9.3", "d": "" },
+    "dimensions": {
+      "w": "10.5",
+      "h": "9.3",
+      "d": ""
+    },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -207,13 +259,17 @@
     "price": 289,
     "currency": "Kč"
   },
-          {
+  {
     "id": "sklo-porcelan-14",
     "name": "Japanese Cast Iron Teapot 600ml",
     "label": "Sklo a porcelán",
     "image": "img/Porcelain/Porcelain_5.jpg",
     "item_number": "",
-    "dimensions": { "w": "", "h": "", "d": "" },
+    "dimensions": {
+      "w": "",
+      "h": "",
+      "d": ""
+    },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -223,13 +279,17 @@
     "price": 799,
     "currency": "Kč"
   },
-           {
+  {
     "id": "sklo-porcelan-15",
     "name": "Chef’s Knife",
     "label": "Sklo a porcelán",
     "image": "img/Porcelain/Porcelain_3.jpg",
     "item_number": "",
-    "dimensions": { "w": "", "h": "", "d": "" },
+    "dimensions": {
+      "w": "",
+      "h": "",
+      "d": ""
+    },
     "availability": {
       "ostrava": "",
       "dansko": "",
@@ -238,6 +298,45 @@
     },
     "price": 699,
     "currency": "Kč"
+  },
+    {
+    "id": "sklo-porcelan-16",
+    "name": "Plate",
+    "label": "Sklo a porcelán",
+    "image": "img/Porcelain/Porcelain_6.jpg",
+    "item_number": "",
+    "dimensions": {
+      "w": "",
+      "h": "",
+      "d": ""
+    },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 2500,
+    "currency": "Kč"
+  },
+      {
+    "id": "sklo-porcelan-17",
+    "name": "Plate",
+    "label": "Sklo a porcelán",
+    "image": "img/Porcelain/Porcelain_7.jpg",
+    "item_number": "",
+    "dimensions": {
+      "w": "",
+      "h": "",
+      "d": ""
+    },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "Skladem",
+      "delivery": ""
+    },
+    "price": 2500,
+    "currency": "Kč"
   }
-
 ]
