@@ -3,9 +3,10 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
-"page.iceequiment.title":"Výrobníky ledu",
+            "page.iceequiment.title": "Výrobníky ledu",
             "products.decor.title": "Výrobky pro výzdobu interiérů"
             ,
+            "page.ice_bucket.title": "zásobníky na led",
             "tabs.decorace": "vyzdobit",
             "cat.refrigeration": "Chlazení",
             "products.saladeta.title": "65792 Chladící saladeta dvoudveřová se sklem",
@@ -210,30 +211,33 @@
             "section.nerezove_chladici": "Nerezové chladicí skříně",
             "section.nerezove_mrazici": "Nerezové mrazicí skříně",
             "section.komory": "Nerezové chladicí komory na odpad",
-            "section.Konvektomaty":"Konvektomaty a horkovzdušné trouby",
-            "section.svareky":"Svářečky podnosů",
+            "section.Konvektomaty": "Konvektomaty a horkovzdušné trouby",
+            "icemakers.ice_bucket": "NUGETOVE VÝROBNÍKY ĽADU",
+            "section.svareky": "Svářečky podnosů",
             "page.ice_maker.title": "výrobník ledu",
-            "icepage.ice_bucket.name":"zásobníky na led",
+            "icepage.ice_bucket.name": "zásobníky na led",
             "Porcelain.text1": "V naší nabídce naleznete široký výběr skla a porcelánu vhodného pro gastronomické provozy, včetně restaurací, kaváren a cateringových služeb. Naše produkty kombinují kvalitu, design a funkčnost, aby splňovaly náročné požadavky profesionální gastronomie.",
-             "traysealers.text1": "V naší nabídce naleznete nerezové svářečky podnosů, které jsou určeny k intenzivnímu používání.",
-  "traysealers.text2": "Výborně se hodí i do náročnějších gastro provozů. Vyznačují se jednoduchým používáním a nenáročností na prostor.",
+            "traysealers.text1": "V naší nabídce naleznete nerezové svářečky podnosů, které jsou určeny k intenzivnímu používání.",
+            "traysealers.text2": "Výborně se hodí i do náročnějších gastro provozů. Vyznačují se jednoduchým používáním a nenáročností na prostor.",
             "wastecoolers.text1": "Nerezové levné chladicí komory na odpad jsou praktickým pomocníkem v každé restauraci a všude tam, kde se potýkáte s biologickým odpadem, jehož skladování s sebou přináší různá úskalí.",
             "wastecoolers.text2": "V naší nabídce najdete celonerezové antibakteriální chladicí komory na odpad renomované značky JUKA.",
             "coolingtables.text1": "V naší nabídce najdete různé typy chladicích stolů a saladet v nerezovém provedení. Všechny typy vynikají svou vysokou účinností chlazení i při vysokých okolních teplotách."
         },
 
         en: {
-           
-            "icepage.ice_bucket.name":"ice buckets",
-            "page.iceequiment.title":"ice making equipment and accessories",
-            "section.svareky":"Tray welders",
+
+            "icepage.ice_bucket.name": "ice buckets",
+            "icemakers.ice_bucket": "NUGET'S ICE MAKERS",
+            "page.iceequiment.title": "ice making equipment and accessories",
+            "section.svareky": "Tray welders",
+            "icepage.ice_bucket.name": "ice buckets",
             "Porcelain.text1": "This handcrafted ceramic bowl features an elegant blue geometric pattern inspired by traditional Japanese art. Perfect for serving rice, soup, or desserts with a touch of timeless charm.",
             "page.gastro.Fritezy_katagory": "Fryers Category",
             "page.ice_maker.title": "Ice Maker",
-            "section.Konvektomaty":"Convection ovens and hot air ovens",
+            "section.Konvektomaty": "Convection ovens and hot air ovens",
             "page.gastro.title": "Gastro and Kitchen",
-              "traysealers.text1": "In our offer you will find stainless steel tray sealers designed for intensive use.",
-  "traysealers.text2": "They are also ideal for demanding gastronomic operations, characterized by ease of use and space efficiency.",
+            "traysealers.text1": "In our offer you will find stainless steel tray sealers designed for intensive use.",
+            "traysealers.text2": "They are also ideal for demanding gastronomic operations, characterized by ease of use and space efficiency.",
             "wastecoolers.text1": "Affordable stainless steel waste cooling chambers are a practical helper in every restaurant and wherever you deal with biological waste, the storage of which brings various challenges.",
             "wastecoolers.text2": "In our offer you will find fully stainless, antibacterial waste cooling chambers from the renowned brand JUKA."
             , "section.komory": "Stainless steel cooling chambers for waste",
