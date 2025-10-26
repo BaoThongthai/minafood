@@ -217,8 +217,10 @@
             "icemakers.ice_bucket": "NUGETOVE VÝROBNÍKY ĽADU",
             "section.svareky": "Svářečky podnosů",
             "page.ice_maker.title": "výrobník ledu",
+            "icemakers_Polmesiacovy_lad": "POLMESIACOVÝ ĽAD",
             "icemakers_spec": "Špeciálne výrobníky ľadu",
             "icepage.ice_bucket.name": "zásobníky na led",
+            "icemakers_davkovace_ladu": "Dávkovače ľadu",
             "Porcelain.text1": "V naší nabídce naleznete široký výběr skla a porcelánu vhodného pro gastronomické provozy, včetně restaurací, kaváren a cateringových služeb. Naše produkty kombinují kvalitu, design a funkčnost, aby splňovaly náročné požadavky profesionální gastronomie.",
             "traysealers.text1": "V naší nabídce naleznete nerezové svářečky podnosů, které jsou určeny k intenzivnímu používání.",
             "traysealers.text2": "Výborně se hodí i do náročnějších gastro provozů. Vyznačují se jednoduchým používáním a nenáročností na prostor.",
@@ -228,7 +230,10 @@
         },
 
         en: {
+
 "icemakers_spec": "Special ice makers",
+"icemakers_davkovace_ladu": "Ice dispensers",
+"icemakers_Polmesiacovy_lad": "CRESCENT ICE",
             "icepage.ice_bucket.name": "ice buckets",
              "icemakers.ice_bucket_1":"FLAKES 70% ICE",
             "icemakers.ice_bucket_2":"NUGGETS 88% ICE",
