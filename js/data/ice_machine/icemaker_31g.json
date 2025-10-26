@@ -4,7 +4,7 @@
     "name": "IM-100NE-HC-32",
     "label": "Výrobník ľadu",
     "price": 6075,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na sklade",
     "image": "https://icemakers.sk/files/cache/product/30/b68908215b363c56c22ef9d8642b269b2450000a_im_100ne-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -14,7 +14,7 @@
     "name": "IM-100CNE-HC-32",
     "label": "Výrobník ľadu",
     "price": 6095,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Predaj ukončený",
     "image": "https://icemakers.sk/files/cache/product/24/9f0a528d4573dad3a99d77a44847265f4f099c14_im_100cne-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -24,7 +24,7 @@
     "name": "IM-130NE-HC-32",
     "label": "Výrobník ľadu",
     "price": 6205,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na sklade",
     "image": "https://icemakers.sk/files/cache/product/35/6e0a5b0f3b378ef9f97d92bddc5c2184027252ac_im_100ne-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -34,7 +34,7 @@
     "name": "IM-130CPE-32",
     "label": "Výrobník ľadu",
     "price": 6400,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na sklade",
     "image": "https://icemakers.sk/files/cache/product/443/m116_im130cpe_transp-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -44,7 +44,7 @@
     "name": "IM-130PE-32",
     "label": "Výrobník ľadu",
     "price": 6520,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/544/hoshizaki_im-130pe-32_m115-d003_hero-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -54,7 +54,7 @@
     "name": "IM-130CPE-U-32",
     "label": "Výrobník ľadu",
     "price": 6665,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/542/hoshizaki_im-130cpe-u-32_m116-d202_hero-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -64,7 +64,7 @@
     "name": "IM-130PE-U-32",
     "label": "Výrobník ľadu",
     "price": 6780,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/547/hoshizaki_im-130pe-u-32_m115-d203_hero-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -74,7 +74,7 @@
     "name": "IM-130PE-F-32",
     "label": "Výrobník ľadu",
     "price": 6940,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/576/hoshizaki_im-130pe-f-32-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -84,7 +84,7 @@
     "name": "IM-130PE-E-32",
     "label": "Výrobník ľadu",
     "price": 7200,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/581/hoshizaki_im-130pe-e-32-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -94,7 +94,7 @@
     "name": "IM-240XNE-HC-32",
     "label": "Výrobník ľadu",
     "price": 7375,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na sklade",
     "image": "https://icemakers.sk/files/cache/product/66/b8e823cfa2a2da5fa647cd0f92b7b2a08163e986_im_240xne_rev01-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -104,7 +104,7 @@
     "name": "IM-240DNE-HC-32",
     "label": "Výrobník ľadu",
     "price": 7375,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Predaj ukončený",
     "image": "https://icemakers.sk/files/cache/product/67/aad781994b82b229e865fd56923e1be655922377_im_240dne_b_801s-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -114,7 +114,7 @@
     "name": "IM-240XWNE-HC-32",
     "label": "Výrobník ľadu",
     "price": 7720,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na sklade",
     "image": "https://icemakers.sk/files/cache/product/53/7fc19c8ae7969e085aea88bde2ae9a57f3a31cb2_im_240xne_rev00-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -124,7 +124,7 @@
     "name": "IM-240DWNE-HC-32",
     "label": "Výrobník ľadu",
     "price": 7720,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na sklade",
     "image": "https://icemakers.sk/files/cache/product/58/aad781994b82b229e865fd56923e1be655922377_im_240dne_b_801s-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -134,7 +134,7 @@
     "name": "IM-240DPE-32",
     "label": "Výrobník ľadu",
     "price": 7745,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na sklade",
     "image": "https://icemakers.sk/files/cache/product/473/hoshizaki_im-240dpe-32_m120-d003_var1-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -144,7 +144,7 @@
     "name": "IM-240XPE-32",
     "label": "Výrobník ľadu",
     "price": 7745,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/614/hoshizaki_im-240xpe-32_1-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -154,7 +154,7 @@
     "name": "IM-240ANE-HC-32",
     "label": "Výrobník ľadu",
     "price": 7755,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na sklade",
     "image": "https://icemakers.sk/files/cache/product/47/b47fff71c355372e3e1274cd1f08f099d3f4ad5e_im_240ane_b_301sa_rev02-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -164,7 +164,7 @@
     "name": "IM-240DPE-U-32",
     "label": "Výrobník ľadu",
     "price": 8010,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/611/hoshizaki_im-240dpe-u-32_2-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -174,7 +174,7 @@
     "name": "IM-240XPE-U-32",
     "label": "Výrobník ľadu",
     "price": 8010,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/616/hoshizaki_im-240xpe-u-32_2-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }

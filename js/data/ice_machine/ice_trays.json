@@ -1,0 +1,68 @@
+[
+  {
+    "id": "TK-8D",
+    "name": "TOP KIT TK-8D",
+    "label": "Vrchný kryt pre výrobník ľadu",
+    "price": 7641.5,
+    "currency": "Kč",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "image": "https://icemakers.cz/files/cache/product/103/tk1-300x300.jpg"
+  },
+  {
+    "id": "TK-18D",
+    "name": "TOP KIT TK-18D",
+    "label": "Vrchný kryt pre výrobník ľadu",
+    "price": 7641.5,
+    "currency": "Kč",
+    "status": "Na sklade",
+     "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "availability": "In stock",
+    "image": "https://icemakers.cz/files/cache/product/104/tk18d-300x300.jpg"
+  },
+  {
+    "id": "TK-4DM",
+    "name": "TOP KIT TK-4DM",
+    "label": "Vrchný kryt pre výrobník ľadu",
+    "price": 7641.5,
+    "currency": "Kč",
+    "status": "Na sklade",
+     "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "availability": "In stock",
+    "image": "https://icemakers.cz/files/cache/product/105/whatsapp_image_2023-01-26_at_14.13.15-300x300.jpeg"
+  },
+  {
+    "id": "TK-4DR",
+    "name": "TOP KIT TK-4DR",
+     "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "label": "Vrchný kryt pre výrobník ľadu",
+    "price": 7641.5,
+    "currency": "Kč",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "image": "https://icemakers.cz/files/cache/product/106/img_2268-300x300.jpg"
+  },
+  {
+    "id": "TK-IMD2",
+    "name": "TOP KIT TK-IMD2",
+     "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "label": "Vrchný kryt pre výrobník ľadu",
+    "price": 7641.5,
+    "currency": "Kč",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "image": "https://icemakers.cz/files/cache/product/107/whatsapp_image_2023-01-26_at_14.12.23-300x300.jpeg"
+  },
+  {
+    "id": "B340SA-DIV",
+    "name": "DĚLÍCÍ STĚNA PRO B340SA",
+    "label": "Dělící stěna pro B340SA",
+    "price": 19979.85,
+    "currency": "Kč",
+     "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "status": "Na sklade",
+    "availability": "In stock",
+    "image": "https://icemakers.cz/files/cache/product/153/deliaca-stena-300x300.png"
+  }
+]

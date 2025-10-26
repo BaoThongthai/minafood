@@ -4,7 +4,7 @@
     "name": "IM-240NE-HC",
     "label": "Výrobník ľadu",
     "price": 8860,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Predaj ukončený",
     "image": "https://icemakers.sk/files/cache/product/68/cf8f1342c962bff087879dc921eccdb088baab50_im_240ne_hc-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -14,7 +14,7 @@
     "name": "IM-240WNE-HC",
     "label": "Výrobník ľadu",
     "price": 9205,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na sklade",
     "image": "https://icemakers.sk/files/cache/product/60/cf8f1342c962bff087879dc921eccdb088baab50_im_240ne_hc-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -24,7 +24,7 @@
     "name": "IM-240PE",
     "label": "Výrobník ľadu",
     "price": 9305,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na sklade",
     "image": "https://icemakers.sk/files/cache/product/438/m118_im240pe_transp-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -34,7 +34,7 @@
     "name": "IM-240PE-U",
     "label": "Výrobník ľadu",
     "price": 9570,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/601/hoshizaki_im-240pe-u_1-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -44,7 +44,7 @@
     "name": "IM-240WPE",
     "label": "Výrobník ľadu",
     "price": 9670,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/620/hoshizaki_im-240wpe_1-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -54,7 +54,7 @@
     "name": "IM-240PE-F",
     "label": "Výrobník ľadu",
     "price": 9725,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/603/hoshizaki_im-240pe-f_1-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -66,7 +66,7 @@
     "name": "IM-240WPE-U",
     "label": "Výrobník ľadu",
     "price": 9930,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/622/hoshizaki_im-240wpe-u_1-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -76,7 +76,7 @@
     "name": "IM-240PE-E",
     "label": "Výrobník ľadu",
     "price": 9989.43,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/605/hoshizaki_im-240pe-e_1-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -86,7 +86,7 @@
     "name": "IM-240WPE-F",
     "label": "Výrobník ľadu",
     "price": 10090,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/625/hoshizaki_im-240wpe-f_1-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }
@@ -96,7 +96,7 @@
     "name": "IM-240WPE-E",
     "label": "Výrobník ľadu",
     "price": 10350,
-    "currency": "€",
+    "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/626/hoshizaki_im-240wpe-e_1-300x300.png",
     "dimensions": { "w": "—", "d": "—", "h": "—" }

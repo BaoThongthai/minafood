@@ -221,6 +221,7 @@
             "icemakers_spec": "Špeciálne výrobníky ľadu",
             "icepage.ice_bucket.name": "zásobníky na led",
             "icemakers_davkovace_ladu": "Dávkovače ľadu",
+            "icemaker_zasobniky": "Zásobníky na ľad",
             "Porcelain.text1": "V naší nabídce naleznete široký výběr skla a porcelánu vhodného pro gastronomické provozy, včetně restaurací, kaváren a cateringových služeb. Naše produkty kombinují kvalitu, design a funkčnost, aby splňovaly náročné požadavky profesionální gastronomie.",
             "traysealers.text1": "V naší nabídce naleznete nerezové svářečky podnosů, které jsou určeny k intenzivnímu používání.",
             "traysealers.text2": "Výborně se hodí i do náročnějších gastro provozů. Vyznačují se jednoduchým používáním a nenáročností na prostor.",
@@ -233,6 +234,7 @@
 
 "icemakers_spec": "Special ice makers",
 "icemakers_davkovace_ladu": "Ice dispensers",
+"icemaker_zasobniky": "Ice trays",
 "icemakers_Polmesiacovy_lad": "CRESCENT ICE",
             "icepage.ice_bucket.name": "ice buckets",
              "icemakers.ice_bucket_1":"FLAKES 70% ICE",
