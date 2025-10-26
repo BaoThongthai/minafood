@@ -1,0 +1,68 @@
+[
+  {
+    "id": "IM-65NE-HC-Q",
+    "name": "IM-65NE-HC-Q",
+    "label": "VYPREDANÉ",
+    "price": 10770,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/10/srdcia-300x300.png",
+    "type": "gule",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "IM-65WNE-HC-Q",
+    "name": "IM-65WNE-HC-Q",
+    "label": "NA OBJEDNÁVKU",
+    "price": 11040,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/70/srdcia-300x300.png",
+    "type": "gule",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+    {
+    "id": "IM-65NE-HC-LM",
+    "name": "IM-65NE-HC-LM",
+    "label": "VYPREDANÉ",
+    "price": 7500,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/80/srdcia-300x300.png",
+    "type": "xxl",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+     {
+    "id": "IM-65NE-HC-LM103",
+    "name": "IM-65NE-HC-LM103",
+    "label": "VYPREDANÉ",
+    "price": 7500,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/80/srdcia-300x300.png",
+    "type": "xxxl",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+       {
+    "id": "IM-65NE-HC-S",
+    "name": "IM-65NE-HC-S",
+    "label": "VYPREDANÉ",
+    "price": 7160,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/80/srdcia-300x300.png",
+    "type": "hviezda",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+         {
+    "id": "IM-65NE-HC-H",
+    "name": "IM-65NE-HC-H",
+    "label": "VYPREDANÉ",
+    "price": 7160,
+    "currency": "€",
+    "status": "Na objednávku",
+    "image": "https://icemakers.sk/files/cache/product/80/srdcia-300x300.png",
+    "type": "srdce",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  }
+]
