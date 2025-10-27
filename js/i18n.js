@@ -225,6 +225,7 @@
             "icepage.ice_bucket.name": "zásobníky na led",
             "icemakers_davkovace_ladu": "Dávkovače ľadu",
             "decorace.title": "Výrobky pro výzdobu interiérů",
+            "icemaker_nahradne": "Náhradní díly pro výrobníky ledu",
             "icemaker_zasobniky": "Zásobníky na ľad",
             "decorace.text2": "Naše dekorace jsou navrženy tak, aby doplnily a zvýraznily atmosféru vašeho gastronomického prostoru. Nabízíme širokou škálu stylů a motivů, které lze přizpůsobit vašim specifickým potřebám a vkusu.",
             "decorace.text1": "Nabízíme široký sortiment dekorativních předmětů pro interiéry restaurací, kaváren a dalších gastronomických provozů. Naše dekorace kombinují estetiku a funkčnost, aby vytvořily příjemnou atmosféru pro vaše hosty.",
@@ -238,6 +239,7 @@
 
         en: {
             "icemaker_vycapny":"Tapping devices",
+            "icemaker_nahradne": "Spare parts for ice makers",
             "decorace.text1": "We offer a wide range of decorative items for the interiors of restaurants, cafes, and other gastronomic establishments. Our decorations combine aesthetics and functionality to create a pleasant atmosphere for your guests.",
             "icemakers_spec": "Special ice makers",
             "icemaker_Chladnicky&Mrazničky":"Refrigerators & Freezers",
