@@ -1,0 +1,185 @@
+[
+  {
+    "id": "decoration-1",
+    "name": "Mini bonsai bowl",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-1.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-2",
+    "name": "Mini bonsai 2",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-2.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-3",
+    "name": "Mini bonsai 3",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-3.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-4",
+    "name": "Mini bonsai 4",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-4.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-5",
+    "name": "Food set 1",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-5.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-6",
+    "name": "Food set 2",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-6.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-7",
+    "name": "Dragon sculpture",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-7.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-8",
+    "name": "Mini bonsai 5",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-8.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-9",
+    "name": "Mini bonsai 6",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-9.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-10",
+    "name": "Mini bonsai 7",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-10.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  
+  {
+    "id": "decoration-11",
+    "name": "Blue vase set",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-11.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-12",
+    "name": "Hanging tree decor",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-12.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-13",
+    "name": "Mini bonsai 8",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-13.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-14",
+    "name": "Mini bonsai 9",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-14.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-15",
+    "name": "Mini bonsai pink",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-15.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-16",
+    "name": "Mini bonsai green",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-16.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-17",
+    "name": "Cherry blossom bonsai",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-17.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-18",
+    "name": "Sushi decor plate 1",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-18.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-19",
+    "name": "Sushi decor plate 2",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-19.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-20",
+    "name": "Glass art plate",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-20.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  }
+
+
+]

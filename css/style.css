@@ -1033,5 +1033,31 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link{
 }
 
 
+
+/* style for decoration section */
+ .section-title {
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #1f3353;
+  margin-bottom: 1.8rem;
+  text-align: center;
+}
+
+.product-video {
+  width: 100%;
+  max-width: 380px;
+  max-height: 340px; /* 👉 Giảm chiều cao video */
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.product-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+}
+/* style for decoration section */
+
     
 

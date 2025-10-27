@@ -1,0 +1,314 @@
+[
+  {
+    "id": "decoration-21",
+    "name": "Ceramic dish beige",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-21.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-22",
+    "name": "Stone hotpot decor",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-22.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-23",
+    "name": "Wood fish sculpture",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-23.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-24",
+    "name": "Mini bonsai set 1",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-24.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-25",
+    "name": "Mini bonsai set 2",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-25.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-26",
+    "name": "Fish wall decor",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-26.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-27",
+    "name": "Ceramic bowl green",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-27.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-28",
+    "name": "Sushi decor plate 3",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-28.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-29",
+    "name": "Floral bonsai decor",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-29.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-30",
+    "name": "Food decor tray",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-30.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  
+  {
+    "id": "decoration-31",
+    "name": "Ceramic bowl gray",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-31.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-32",
+    "name": "Red bonsai decor",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-32.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-33",
+    "name": "Wood fish mobile 1",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-33.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-34",
+    "name": "Wood fish decor 2",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-34.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-35",
+    "name": "Ceramic teapot decor",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-35.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-36",
+    "name": "Wood lobster sculpture",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-36.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-37",
+    "name": "Floral bonsai pink",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-37.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-38",
+    "name": "Mini bonsai duo",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-38.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-39",
+    "name": "Wood fish set 3",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-39.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-40",
+    "name": "Hanging flower decor",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-40.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  
+  {
+    "id": "decoration-41",
+    "name": "Mini sushi set decor",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-41.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-42",
+    "name": "Small bonsai green",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-42.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-43",
+    "name": "Sushi plate blue bowl",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-43.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-44",
+    "name": "Sushi platter white bowl",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-44.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-45",
+    "name": "Wood fish pair",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-45.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-46",
+    "name": "Pink bonsai decor",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-46.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-47",
+    "name": "Floral bonsai red",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-47.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-48",
+    "name": "Ceramic vase green",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-48.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-49",
+    "name": "Floral glass decor",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-49.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-50",
+    "name": "Dragon wood carving",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-50.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-51",
+    "name": "Golden fish pair",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-51.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-52",
+    "name": "Red bonsai blue base",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-52.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-53",
+    "name": "Red bonsai vase",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-53.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-54",
+    "name": "Green bonsai vase",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-54.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  }
+
+
+
+
+]
