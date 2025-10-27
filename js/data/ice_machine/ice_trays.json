@@ -41,6 +41,7 @@
     "currency": "Kč",
     "status": "Na sklade",
     "availability": "In stock",
+    
     "image": "https://icemakers.cz/files/cache/product/106/img_2268-300x300.jpg"
   },
   {
@@ -64,5 +65,76 @@
     "status": "Na sklade",
     "availability": "In stock",
     "image": "https://icemakers.cz/files/cache/product/153/deliaca-stena-300x300.png"
+  },
+  
+  {
+    "id": "B-140SA",
+    "name": "B-140SA",
+    "label": "Zásobník na ľad",
+    "price": 2070,
+    "currency": "€",
+    "status": "Predaj ukončený",
+    "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "availability": "Discontinued",
+    "image": "https://icemakers.sk/files/cache/product/74/140sa-300x300.png"
+  },
+  {
+    "id": "B-140SB",
+    "name": "B-140SB",
+    "label": "Zásobník na ľad",
+    "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "price": 2070,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "image": "https://icemakers.sk/files/cache/product/548/hoshizaki_b-140sb_m190_hero-300x300.png"
+  },
+  {
+    "id": "B-210SA",
+    "name": "B-210SA",
+    "label": "Zásobník na ľad",
+    "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "price": 2665,
+    "currency": "€",
+    "status": "Vypredané",
+    "availability": "Sold out",
+    "image": "https://icemakers.sk/files/cache/product/75/210sa-300x300.png"
+  },
+  {
+    "id": "B-340SA",
+    "name": "B-340SA",
+    "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "label": "Zásobník na ľad",
+    "price": 3280,
+    "currency": "€",
+    "status": "Vypredané",
+    "availability": "Sold out",
+    "image": "https://icemakers.sk/files/cache/product/76/310sa-300x300.png"
+  },
+  {
+    "id": "FOLLETT-F-650-44S",
+    "name": "FOLLETT F-650-44S",
+    "label": "Zásobník na ľad Follett",
+    "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "price": 3750,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "image": "https://icemakers.sk/files/cache/product/228/80717033_1-768x768-300x300.jpg"
+  },
+  {
+    "id": "FOLLETT-F-1025-52S",
+    "name": "FOLLETT F-1025-52S",
+    "label": "Zásobník na ľad Follett",
+    "price": 4560,
+    "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "currency": "€",
+    "status": "Na objednávku",
+    "availability": "To order",
+    "image": "https://icemakers.sk/files/cache/product/171/f1025-52s-300x300.jpg"
   }
+
+
+
+
 ]

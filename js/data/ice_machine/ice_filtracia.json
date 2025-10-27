@@ -1,0 +1,35 @@
+[
+  {
+    "id": "4HC-NP",
+    "name": "4HC NÁHRADNÝ PATRÓN",
+    "label": "Náhradná filtračná vložka pre Hoshizaki 4HC",
+    "price": 125,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+     "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "image": "https://icemakers.sk/files/cache/product/108/patron-300x300.jpg"
+  },
+  {
+    "id": "4HC-SINGLE",
+    "name": "4HC SINGLE FILTER",
+    "label": "Vodný filter Hoshizaki – jednoduchá jednotka",
+    "price": 373,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+     "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "image": "https://icemakers.sk/files/cache/product/109/filter-768x768-300x300.jpg"
+  },
+  {
+    "id": "4HC-TWIN",
+    "name": "4HC TWIN FILTER",
+    "label": "Vodný filter Hoshizaki – dvojitá jednotka",
+    "price": 722,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+     "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "image": "https://icemakers.sk/files/cache/product/110/h9320-52-scaled-300x300.jpg"
+  }
+]
