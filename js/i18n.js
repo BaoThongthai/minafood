@@ -6,6 +6,8 @@
             "page.iceequiment.title": "Výrobníky ledu",
             "products.decor.title": "Výrobky pro výzdobu interiérů"
             ,
+            "icemaker_vycapny":"Výčapne zariadenies",
+            "icemaker_Chladnicky&Mrazničky":"Chladnicky & Mrazničky",
             "section.decoration": "Výrobky pro výzdobu interiérů",
             "page.ice_bucket.title": "zásobníky na led",
             "tabs.decorace": "vyzdobit",
@@ -235,8 +237,10 @@
         },
 
         en: {
+            "icemaker_vycapny":"Tapping devices",
             "decorace.text1": "We offer a wide range of decorative items for the interiors of restaurants, cafes, and other gastronomic establishments. Our decorations combine aesthetics and functionality to create a pleasant atmosphere for your guests.",
             "icemakers_spec": "Special ice makers",
+            "icemaker_Chladnicky&Mrazničky":"Refrigerators & Freezers",
             "decorace.title": "Products for interior decoration",
             "decorace.text2": "Our decorations are designed to complement and enhance the atmosphere of your gastronomic space. We offer a wide range of styles and themes that can be tailored to your specific needs and tastes.",
             "icemakers_davkovace_ladu": "Ice dispensers",
