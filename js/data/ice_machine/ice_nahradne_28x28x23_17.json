@@ -1,0 +1,362 @@
+[
+  {
+    "id": "tesnenie-240x",
+    "name": "Tesnenie 240X",
+    "label": "",
+    "price": 4.37,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/116/tesnenie-300x300.jpg"
+  },
+  {
+    "id": "131-kapacitor-riadiaca-jednotka-im-rada",
+    "name": "KAPACITOR Riadiaca jednotka IM rada",
+    "label": "",
+    "price": 7.06,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/131/kapacitor-300x300.jpg"
+  },
+  {
+    "id": "skrutka-na-odpadovu-dosku-240x",
+    "name": "Skrutka na odpadovú dosku 240x",
+    "label": "",
+    "price": 7.79,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/117/img_2280-300x300.jpg"
+  },
+  {
+    "id": "imbusova-skrutka-m8",
+    "name": "Imbusová skrutka M8",
+    "label": "",
+    "price": 8,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/137/skrutka_m8-300x300.jpg"
+  },
+  {
+    "id": "srobik-do-nastrekovej-dosky-im240",
+    "name": "Šróbik do nastrekovej dosky IM240",
+    "label": "",
+    "price": 8.4,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/291/srobik-300x300.jpg"
+  },
+  {
+    "id": "kapacitor-riadiaca-jednotka-im-rada",
+    "name": "KAPACITOR  Riadiaca jednotka IM rada",
+    "label": "",
+    "price": 10.89,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/132/kapacitor-300x300.jpg"
+  },
+  {
+    "id": "nozicka",
+    "name": "Nožička pre CNE/NE",
+    "label": "",
+    "price": 12,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/145/whatsapp_image_2023-01-30_at_09.33.40-300x300.jpeg"
+  },
+  {
+    "id": "izolacny-vrchny-panel-biely-uhdf-im-240",
+    "name": "IZOLAČNÝ VRCHNÝ PANEL BIELY UHDF IM-240",
+    "label": "",
+    "price": 13.44,
+    "currency": "€",
+    "status": "Vypredané",
+    "availability": "",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/194/panel-300x300.jpg"
+  },
+  {
+    "id": "napajaci-kabel-uk-velky",
+    "name": "Napájací kábel UK Veľký",
+    "label": "",
+    "price": 15,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/178/uk_velka-300x300.jpg"
+  },
+  {
+    "id": "napajaci-kabel-uk-maly-im-21-130-fm-80-300",
+    "name": "Napájací kábel UK Malý IM 21-130 & FM 80-300",
+    "label": "",
+    "price": 15,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/179/uk_mala-300x300.jpg"
+  },
+  {
+    "id": "napajaci-kabel-pre-im240",
+    "name": "Napájací  kábel pre IM240",
+    "label": "",
+    "price": 15,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/182/16a2-300x300.jpg"
+  },
+  {
+    "id": "napajaci-kabel-pre-radu-im-21-130-a-fm",
+    "name": "NAPÁJACÍ KÁBEL PRE RADU IM 21-130 A FM",
+    "label": "",
+    "price": 15,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/183/10a-300x300.jpg"
+  },
+  {
+    "id": "kryt-na-servo",
+    "name": "Kryt na servo IM",
+    "label": "",
+    "price": 20,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/202/img_20451-300x300.jpg"
+  },
+  {
+    "id": "plech-na-kabelaz-xne-dne-model",
+    "name": "Plech na kabeláž XNE/DNE model",
+    "label": "",
+    "price": 22.8,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/287/plech-300x300.jpg"
+  },
+  {
+    "id": "termosenzor-nastrekovej-dosky-pre-im",
+    "name": "Termosenzor nástrekovej dosky pre IM",
+    "label": "",
+    "price": 36.39,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/150/img_2137-300x300.jpg"
+  },
+  {
+    "id": "strunka-na-servo",
+    "name": "Strunka na servo IM240",
+    "label": "",
+    "price": 42.71,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/141/4h3473-300x300.jpg"
+  },
+  {
+    "id": "cidlo-zasobnika",
+    "name": "Čidlo zásobníka IM",
+    "label": "",
+    "price": 44.04,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/133/img_2163-300x300.jpg"
+  },
+  {
+    "id": "solenoid-na-ventil-horuceho-plynu-im",
+    "name": "Solenoid na ventil horúceho plynu IM",
+    "label": "",
+    "price": 46,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/184/img_2164-300x300.jpg"
+  },
+  {
+    "id": "trubka-na-privod-vody-pre-im100-130",
+    "name": "Trubka na prívod vody pre IM100/130",
+    "label": "",
+    "price": 65.84,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/121/img_2182-300x300.jpg"
+  },
+  {
+    "id": "solenoid-im240",
+    "name": "Solenoid IM240",
+    "label": "",
+    "price": 70.84,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/156/a11_2-300x300.jpg"
+  },
+  {
+    "id": "rele",
+    "name": "Rele pre IM240 - kompresor",
+    "label": "",
+    "price": 72.54,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/231/image_from_ios-300x300.jpg"
+  },
+  {
+    "id": "trubka-na-privod-vody-pre-im240",
+    "name": "Trubka na prívod vody pre IM240",
+    "label": "",
+    "price": 82.5,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/122/img_2233-300x300.jpg"
+  },
+  {
+    "id": "vypustacia-nadoba-im240dne-xne",
+    "name": "VYPÚŠŤACIA NÁDOBA IM240DNE/XNE",
+    "label": "",
+    "price": 98,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/305/bez_nazvu-1-300x300.jpg"
+  },
+  {
+    "id": "spustacia-sada-pre-im-radu-vzduchom-chladene-modely",
+    "name": "Spúšťacia sada pre IM radu vzduchom chladené modely",
+    "label": "",
+    "price": 99,
+    "currency": "€",
+    "status": "Vypredané",
+    "availability": "",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/188/image_from_ios-300x300.jpg"
+  }
+]
