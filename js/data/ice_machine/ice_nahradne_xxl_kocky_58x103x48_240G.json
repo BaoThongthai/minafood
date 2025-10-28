@@ -1,0 +1,227 @@
+[
+  {
+    "id": "131-kapacitor-riadiaca-jednotka-im-rada",
+    "name": "KAPACITOR Riadiaca jednotka IM rada",
+    "label": "",
+    "price": 7.06,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/131/kapacitor-300x300.jpg"
+  },
+  {
+    "id": "imbusova-skrutka-m8",
+    "name": "Imbusová skrutka M8",
+    "label": "",
+    "price": 8,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/137/skrutka_m8-300x300.jpg"
+  },
+  {
+    "id": "kapacitor-riadiaca-jednotka-im-rada",
+    "name": "KAPACITOR  Riadiaca jednotka IM rada",
+    "label": "",
+    "price": 10.89,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/132/kapacitor-300x300.jpg"
+  },
+  {
+    "id": "napajaci-kabel-uk-velky",
+    "name": "Napájací kábel UK Veľký",
+    "label": "",
+    "price": 15,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/178/uk_velka-300x300.jpg"
+  },
+  {
+    "id": "napajaci-kabel-pre-radu-im-21-130-a-fm",
+    "name": "NAPÁJACÍ KÁBEL PRE RADU IM 21-130 A FM",
+    "label": "",
+    "price": 15,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/183/10a-300x300.jpg"
+  },
+  {
+    "id": "termosenzor-nastrekovej-dosky-pre-im",
+    "name": "Termosenzor nástrekovej dosky pre IM",
+    "label": "",
+    "price": 36.39,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/150/img_2137-300x300.jpg"
+  },
+  {
+    "id": "cidlo-zasobnika",
+    "name": "Čidlo zásobníka IM",
+    "label": "",
+    "price": 44.04,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/133/img_2163-300x300.jpg"
+  },
+  {
+    "id": "solenoid-na-ventil-horuceho-plynu-im",
+    "name": "Solenoid na ventil horúceho plynu IM",
+    "label": "",
+    "price": 46,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/184/img_2164-300x300.jpg"
+  },
+  {
+    "id": "mriezka-na-filter-pre-im65",
+    "name": "Mriežka na filter pre IM65",
+    "label": "",
+    "price": 82.5,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/358/img_2129-300x300.jpg"
+  },
+  {
+    "id": "motor-na-ventilator",
+    "name": "Motor na ventilátor IM-21-100",
+    "label": "",
+    "price": 170,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/139/img_2144-300x300.jpg"
+  },
+  {
+    "id": "trubka-na-privod-vody-pre-im65-lm-lm3",
+    "name": "TRUBKA NA PRÍVOD VODY PRE IM65-LM,-LM3",
+    "label": "",
+    "price": 193.8,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/215/img_2241-300x300.jpg"
+  },
+  {
+    "id": "senzor-plynu",
+    "name": "Senzor plynu",
+    "label": "",
+    "price": 324.7,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/124/senzor-300x300.jpg"
+  },
+  {
+    "id": "servo-pre-im-radu",
+    "name": "Servo pre IM radu",
+    "label": "",
+    "price": 325,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/118/img_2143-300x300.jpg"
+  },
+  {
+    "id": "riadiaca-jednotka-im",
+    "name": "Riadiaca jednotka IM",
+    "label": "",
+    "price": 365,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/147/jednotka-300x300.jpg"
+  },
+  {
+    "id": "riadiaca-jednotka-im-repas",
+    "name": "Riadiaca jednotka IM - Repas",
+    "label": "",
+    "price": 400,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/456/jednotka-300x300.jpg"
+    }
+]

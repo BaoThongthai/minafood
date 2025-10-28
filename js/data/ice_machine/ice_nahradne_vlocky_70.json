@@ -1,0 +1,362 @@
+[
+  {
+    "id": "srob-na-vyparnik-fm",
+    "name": "Šrób na výparník FM",
+    "label": "",
+    "price": 4,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/221/srob_vyparnik-300x300.jpg"
+  },
+  {
+    "id": "srob-na-vyparnik-fm-150",
+    "name": "Šrób na výparník FM 150",
+    "label": "",
+    "price": 4,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/402/img_2414-300x300.jpg"
+  },
+  {
+    "id": "napajaci-kabel-uk-velky",
+    "name": "Napájací kábel UK Veľký",
+    "label": "",
+    "price": 15,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/178/uk_velka-300x300.jpg"
+  },
+  {
+    "id": "napajaci-kabel-uk-maly-im-21-130-fm-80-300",
+    "name": "Napájací kábel UK Malý IM 21-130 & FM 80-300",
+    "label": "",
+    "price": 15,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/179/uk_mala-300x300.jpg"
+  },
+  {
+    "id": "napajaci-kabel-pre-radu-im-21-130-a-fm",
+    "name": "NAPÁJACÍ KÁBEL PRE RADU IM 21-130 A FM",
+    "label": "",
+    "price": 15,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/183/10a-300x300.jpg"
+  },
+  {
+    "id": "tesnenie-fm750",
+    "name": "Tesnenie FM750",
+    "label": "",
+    "price": 20.21,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/119/tesnenie_velke-300x300.jpg"
+  },
+  {
+    "id": "trubka-na-odpad-pre-fm",
+    "name": "Trubka na odpad pre FM",
+    "label": "",
+    "price": 33.33,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/157/img_2012-300x300.jpg"
+  },
+  {
+    "id": "o-ring-tesnenie-pre-fm",
+    "name": "O RING tesnenie pre FM",
+    "label": "",
+    "price": 34.67,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/135/img_2159-300x300.jpg"
+  },
+  {
+    "id": "solenoid-pre-fm-24v",
+    "name": "Solenoid pre FM (24V)",
+    "label": "",
+    "price": 40.11,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/294/solenoid-300x300.jpg"
+  },
+  {
+    "id": "sietka-pre-fm120ke-50",
+    "name": "Sieťka pre FM120KE-50",
+    "label": "",
+    "price": 48,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/192/img_2170-300x300.jpg"
+  },
+  {
+    "id": "spiatocny-elektro-ventil-pre-fm",
+    "name": "Spiatočný elektro-ventil pre FM",
+    "label": "",
+    "price": 94.43,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/128/img_2235-300x300.jpg"
+  },
+  {
+    "id": "vrchny-kryt-pre-fm120ee",
+    "name": "Vrchný kryt pre FM120EE",
+    "label": "",
+    "price": 100.84,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/354/kryt-300x300.jpg"
+  },
+  {
+    "id": "plavak-pre-fm",
+    "name": "Plavák pre FM",
+    "label": "",
+    "price": 104.33,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/129/img_2030-300x300.jpg"
+  },
+  {
+    "id": "vnutorny-plast-zasobnika-fm80-120-150",
+    "name": "Vnútorný plast zásobníka FM80/120/150",
+    "label": "",
+    "price": 115.65,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/210/image_from_ios_(1)-300x300.jpg"
+  },
+  {
+    "id": "priruba-70-fm600",
+    "name": "PRÍRUBA-70 FM600",
+    "label": "",
+    "price": 120,
+    "currency": "€",
+    "status": "Na objednávku",
+    "availability": "On order",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/222/priruba-300x300.jpg"
+  },
+  {
+    "id": "spodny-doraz-pre-noze-fm",
+    "name": "Spodný doraz pre nože FM",
+    "label": "",
+    "price": 179.68,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/136/img_2245-300x300.jpg"
+  },
+  {
+    "id": "tesnenie-dvierok-pre-fm-120ke-50",
+    "name": "Tesnenie dvierok pre FM-120KE-50",
+    "label": "",
+    "price": 180,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/189/img_2240-300x300.jpg"
+  },
+  {
+    "id": "ovladacia-doska-pre-fm",
+    "name": "Ovládacia doska pre FM",
+    "label": "",
+    "price": 195,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/180/img_2243-300x300.jpg"
+  },
+  {
+    "id": "noz-vlocky-fm80-fm150",
+    "name": "Nôž vločky FM80 - FM150",
+    "label": "",
+    "price": 280,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/195/image_from_ios-300x300.jpg"
+  },
+  {
+    "id": "noz-vlocky-fm300-fm1800",
+    "name": "Nôž vločky FM300 - FM1800",
+    "label": "",
+    "price": 280,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/199/_com.apple.pasteboard.ixwafc-300x300.png"
+  },
+  {
+    "id": "rezacia-hlava-vlocky-fm80-fm150",
+    "name": "Rezacia hlava vločky FM80-FM150",
+    "label": "",
+    "price": 350,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/196/hlava-300x300.jpg"
+  },
+  {
+    "id": "rezacia-hlava-vlocky-fm300-fm1800",
+    "name": "Rezacia hlava vločky FM300-FM1800",
+    "label": "",
+    "price": 450,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/200/img_2254-300x300.jpg"
+  },
+  {
+    "id": "riadiaca-doska",
+    "name": "Riadiaca doska FM",
+    "label": "",
+    "price": 497.61,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/181/riadiaca_jednotka-300x300.jpg"
+  },
+  {
+    "id": "vyparnik-fm600",
+    "name": "Výparník FM600",
+    "label": "",
+    "price": 963.71,
+    "currency": "€",
+    "status": "Na objednávku",
+    "availability": "On order",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/220/vyparnik_fm600-300x300.jpg"
+  }
+]
