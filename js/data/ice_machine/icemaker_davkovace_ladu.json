@@ -3,33 +3,45 @@
     "id": "DCM-60KE-HC",
     "name": "DCM-60KE-HC",
     "label": "Výrobník ľadových kociek a vody",
-    "price": 6380,
+    "price": 153120,
     "currency": "Kč",
     "status": "Na sklade",
     "availability": "In stock",
     "image": "https://icemakers.sk/files/cache/product/244/901e015d8fba20249883366dab0dc9d8b28254e7_dcm_60ke_(1)-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "DIM-30DE-2",
     "name": "DIM-30DE-2",
     "label": "Výrobník ľadových kociek a vody",
-    "price": 6900,
+    "price": 165600,
     "currency": "Kč",
     "status": "Vypredané",
     "availability": "Sold out",
     "image": "https://icemakers.sk/files/cache/product/114/2df86d266f3f33debb79d73a98e777fa2ecc475d_dim_40de_hc_2-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "DCM-120KE-HC",
     "name": "DCM-120KE-HC",
     "label": "Výrobník ľadových kociek a vody",
-    "price": 7110,
+    "price": 170640,
     "currency": "Kč",
     "status": "Na objednávku",
     "availability": "To order",
     "image": "https://icemakers.sk/files/cache/product/277/4f6c359cd83c16dbaada4fdfa884a1a4fd9c6d6b_dcm_120ke_hc-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   }
 ]

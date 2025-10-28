@@ -1,22 +1,32 @@
-[  {
+[
+  {
     "id": "Štartovacia sada Beermatic",
     "name": "Štartovacia sada Beermatic",
     "label": "",
-    "price": 540,
+    "price": 12960,
     "currency": "€",
     "status": "Na sklade",
     "availability": "In stock",
-   "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    },
     "image": "https://icemakers.sk/files/cache/product/211/img_2756-300x300.jpg"
   },
   {
     "id": "mraznicka-gram-suf-65dg-c-l",
     "name": "Beermatic DBF-AS65WE-EU-HC",
     "label": "",
-    "price": 8920.00,
+    "price": 214080.0,
     "currency": "€",
     "status": "Vypredané",
     "availability": "Out of stock",
-   "dimensions": { "w": "—", "d": "—", "h": "—" },
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    },
     "image": "https://icemakers.sk/files/cache/product/115/beermatic_foto-300x300.jpg"
-  }]
+  }
+]

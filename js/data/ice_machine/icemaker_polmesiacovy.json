@@ -3,33 +3,45 @@
     "id": "KM-40C-HC",
     "name": "KM-40C-HC",
     "label": "Výrobník kockového ľadu",
-    "price": 2995,
+    "price": 71880,
     "currency": "Kč",
     "status": "Na sklade",
     "availability": "In stock",
     "image": "https://icemakers.sk/files/cache/product/163/123-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "KM-80C-HC",
     "name": "KM-80C-HC",
     "label": "Výrobník kockového ľadu",
-    "price": 4000,
+    "price": 96000,
     "currency": "Kč",
     "status": "Na objednávku",
     "availability": "To order",
     "image": "https://icemakers.sk/files/cache/product/164/3ccf4def880d813cab9198b395a0c003ee74651b_km_80c-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "KM-140C-HC",
     "name": "KM-140C-HC",
     "label": "Výrobník kockového ľadu",
-    "price": 5435,
+    "price": 130440,
     "currency": "Kč",
     "status": "Na objednávku",
     "availability": "To order",
     "image": "https://icemakers.sk/files/cache/product/165/3ccf4def880d813cab9198b395a0c003ee74651b_km_80c-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   }
 ]

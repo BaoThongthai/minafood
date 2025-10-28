@@ -3,147 +3,196 @@
     "id": "FM-60KE-HC",
     "name": "FM-60KE-HC",
     "label": "Výrobník šupinového ľadu",
-    "price": 5365,
+    "price": 128760,
     "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/111/c63a8cb1af0f8426d21cdc325ebd46394879e344_fm_60ke_hc-300x300.jpg",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-80KE-HC",
     "name": "FM-80KE-HC",
     "label": "Výrobník šupinového ľadu",
-    "price": 5650,
+    "price": 135600,
     "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/77/fm-80ke-hcn-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-150AKE-HC-SB",
     "name": "FM-150AKE-HC-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 5770,
+    "price": 138480,
     "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/84/fm-150ake-hc-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-120KE-HC",
     "name": "FM-120KE-HC",
     "label": "Výrobník šupinového ľadu",
-    "price": 5945,
+    "price": 142680,
     "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/79/fm-120ke-hcn_(1)-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-120KE-50-HC",
     "name": "FM-120KE-50-HC",
     "label": "Výrobník šupinového ľadu",
-    "price": 6536,
+    "price": 156864,
     "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/82/fm-120ke-50-hcn-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-300AKE-HC-SB",
     "name": "FM-300AKE-HC-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 7355,
+    "price": 176520,
     "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/86/fm-300ake-hc-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
-  }
-  ,
-  
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
+  },
   {
     "id": "FM-480AWKE-R452-SB",
     "name": "FM-480AWKE-R452-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 9540,
+    "price": 228960,
     "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/90/fm-480awke-r452-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-480AKE-HC-SB",
     "name": "FM-480AKE-HC-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 9705,
+    "price": 232920,
     "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/90/fm-480awke-r452-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-600AKE-R452-SB",
     "name": "FM-600AKE-R452-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 9990,
+    "price": 239760,
     "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/90/fm-480awke-r452-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-600AWKE-R452-SB",
     "name": "FM-600AWKE-R452-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 10695,
+    "price": 256680,
     "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/90/fm-480awke-r452-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-750AKE-R452-SB",
     "name": "FM-750AKE-R452-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 14445,
+    "price": 346680,
     "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/95/fm-750ake-r452-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-1000AKE-R452-SB",
     "name": "FM-1000AKE-R452-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 16820,
+    "price": 403680,
     "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/95/fm-750ake-r452-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
-  
   {
     "id": "FM-1200ALKE-R452-SB",
     "name": "FM-1200ALKE-R452-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 17775,
+    "price": 426600,
     "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/99/fm-1200alke-r452-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-1800AKE-R452-SB",
     "name": "FM-1800AKE-R452-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 22275,
+    "price": 534600,
     "currency": "Kč",
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/99/fm-1200alke-r452-sb-300x300.png",
-    "dimensions": { "w": "1080", "d": "700", "h": "780" }
+    "dimensions": {
+      "w": "1080",
+      "d": "700",
+      "h": "780"
+    }
   }
-
-
-
-
 ]

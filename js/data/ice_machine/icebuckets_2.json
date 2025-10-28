@@ -3,160 +3,210 @@
     "id": "FM-60KE-HC",
     "name": "FM-60KE-HC",
     "label": "Výrobník šupinového ľadu",
-    "price": 5365,
+    "price": 128760,
     "currency": "Kč",
     "status": "Na objednávku",
     "availability": "To order",
     "image": "https://icemakers.sk/files/cache/product/112/c63a8cb1af0f8426d21cdc325ebd46394879e344_fm_60ke_hc-300x300.jpg",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "CM-50KE-HC",
     "name": "CM-50KE-HC",
     "label": "Výrobník šupinového ľadu",
-    "price": 5365,
+    "price": 128760,
     "currency": "Kč",
     "status": "Na sklade",
     "availability": "In stock",
     "image": "https://icemakers.sk/files/cache/product/78/fm-80ke-hcn-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-80KE-HC",
     "name": "FM-80KE-HC",
     "label": "Výrobník šupinového ľadu",
-    "price": 5650,
+    "price": 135600,
     "currency": "Kč",
     "status": "Na objednávku",
     "availability": "To order",
     "image": "https://icemakers.sk/files/cache/product/85/fm-150ake-hc-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-80KE-HCN",
     "name": "FM-80KE-HCN",
     "label": "Výrobník šupinového ľadu",
-    "price": 5650,
+    "price": 135600,
     "currency": "Kč",
     "status": "Predaj ukončený",
     "availability": "Sold out",
     "image": "https://icemakers.sk/files/cache/product/81/fm-120ke-hcn_(1)-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-150AKE-HC-SB",
     "name": "FM-150AKE-HC-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 5770,
+    "price": 138480,
     "currency": "Kč",
     "status": "Na objednávku",
     "availability": "To order",
     "image": "https://icemakers.sk/files/cache/product/83/fm-120ke-50-hcn-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-150AKE-HCN-SB",
     "name": "FM-150AKE-HCN-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 5770,
+    "price": 138480,
     "currency": "Kč",
     "status": "Na sklade",
     "availability": "In stock",
     "image": "https://icemakers.sk/files/cache/product/87/fm-300ake-hc-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
-  
   {
     "id": "FM-480AWKE-R452-N-SB",
     "name": "FM-480AWKE-R452-N-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 9540,
+    "price": 228960,
     "currency": "Kč",
     "status": "Na objednávku",
     "availability": "To order",
     "image": "https://icemakers.sk/files/cache/product/91/fm-480awke-r452-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-480AKE-HCN-SB",
     "name": "FM-480AKE-HCN-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 9705,
+    "price": 232920,
     "currency": "Kč",
     "status": "Na objednávku",
     "availability": "To order",
     "image": "https://icemakers.sk/files/cache/product/91/fm-480awke-r452-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-600AKE-R452-N-SB",
     "name": "FM-600AKE-R452-N-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 10490,
+    "price": 251760,
     "currency": "Kč",
     "status": "Na objednávku",
     "availability": "To order",
     "image": "https://icemakers.sk/files/cache/product/91/fm-480awke-r452-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-600AWKE-R452-N-SB",
     "name": "FM-600AWKE-R452-N-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 10695,
+    "price": 256680,
     "currency": "Kč",
     "status": "Na objednávku",
     "availability": "To order",
     "image": "https://icemakers.sk/files/cache/product/91/fm-480awke-r452-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-750AKE-R452-N-SB",
     "name": "FM-750AKE-R452-N-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 14445,
+    "price": 346680,
     "currency": "Kč",
     "status": "Na objednávku",
     "availability": "To order",
     "image": "https://icemakers.sk/files/cache/product/96/fm-750ake-r452-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-1000AKE-R452-N-SB",
     "name": "FM-1000AKE-R452-N-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 16820,
+    "price": 403680,
     "currency": "Kč",
     "status": "Na objednávku",
     "availability": "To order",
     "image": "https://icemakers.sk/files/cache/product/96/fm-750ake-r452-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
-  
   {
     "id": "FM-1200ALKE-R452-N-SB",
     "name": "FM-1200ALKE-R452-N-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 17775,
+    "price": 426600,
     "currency": "Kč",
     "status": "Na objednávku",
     "availability": "To order",
     "image": "https://icemakers.sk/files/cache/product/100/fm-1200alke-r452-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   },
   {
     "id": "FM-1800AKE-R452-N-SB",
     "name": "FM-1800AKE-R452-N-SB",
     "label": "Výrobník šupinového ľadu",
-    "price": 22275,
+    "price": 534600,
     "currency": "Kč",
     "status": "Na objednávku",
     "availability": "To order",
     "image": "https://icemakers.sk/files/cache/product/100/fm-1200alke-r452-sb-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "dimensions": {
+      "w": "—",
+      "d": "—",
+      "h": "—"
+    }
   }
-
-
-
-
 ]
