@@ -1,102 +1,362 @@
 [
   {
-    "id": "IM-100NE-HC-21",
-    "name": "IM-100NE-HC-21",
-    "label": "Výrobník ľadu",
-    "price": 5930,
-    "currency": "Kč",
+    "id": "im-21cne-hc",
+    "name": "IM-21CNE-HC",
+    "label": "",
+    "price": 59040,
+    "currency": "€",
     "status": "Na sklade",
-    "image": "https://icemakers.sk/files/cache/product/31/b68908215b363c56c22ef9d8642b269b2450000a_im_100ne-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/7/d64df81156ea12376bf210e184f03c20aef7310d_im_21cne_4-300x300.png"
   },
   {
-    "id": "IM-100CNE-HC-21",
-    "name": "IM-100CNE-HC-21",
-    "label": "Výrobník ľadu",
-    "price": 5950,
-    "currency": "Kč",
+    "id": "im-30cne-hc",
+    "name": "IM-30CNE-HC",
+    "label": "",
+    "price": 60720,
+    "currency": "€",
+    "status": "Predaj ukončený",
+    "availability": "",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/8/55551325150c9f6efaf6afd96c0fa54a9c1a1cc5_im_30cne_hc-300x300.png"
+  },
+  {
+    "id": "im-21cpe",
+    "name": "IM-21CPE",
+    "label": "",
+    "price": 60840,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/455/bcb1d268ea2d595b0272dad4529859cc04ab8b0d_im21_transp_crop-300x300.png"
+  },
+  {
+    "id": "im-30cpe",
+    "name": "IM-30CPE",
+    "label": "",
+    "price": 62640,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/453/picture_im-30cpe-300x300.png"
+  },
+  {
+    "id": "im-30cne-hc-25",
+    "name": "IM-30CNE-HC-25",
+    "label": "",
+    "price": 64800,
+    "currency": "€",
+    "status": "Predaj ukončený",
+    "availability": "",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/9/61198ec117a8c032de32e28e1603e9e35f9a4fa2_im_30cne_hc-300x300.png"
+  },
+  {
+    "id": "im-30cpe-25",
+    "name": "IM-30CPE-25",
+    "label": "",
+    "price": 66840,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/426/m110_im30cpe_transp-300x300.png"
+  },
+  {
+    "id": "im-30cwne-hc",
+    "name": "IM-30CWNE-HC",
+    "label": "",
+    "price": 67200,
+    "currency": "€",
+    "status": "Predaj ukončený",
+    "availability": "",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/11/0491ecf4cab6e8eede8a4403057615d364667efc_im_30cne_hc-300x300.png"
+  },
+  {
+    "id": "im-30cpe-u",
+    "name": "IM-30CPE-U",
+    "label": "",
+    "price": 68880,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/422/m110_im30cpe_transp-300x300.png"
+  },
+  {
+    "id": "im-30cwpe",
+    "name": "IM-30CWPE",
+    "label": "",
+    "price": 69240,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/441/hoshizaki_im-30cwpe_m110-d002_hero-2-300x300.png"
+  },
+  {
+    "id": "im-30cwne-hc-25",
+    "name": "IM-30CWNE-HC-25",
+    "label": "",
+    "price": 71280,
+    "currency": "€",
+    "status": "Predaj ukončený",
+    "availability": "",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/12/0491ecf4cab6e8eede8a4403057615d364667efc_im_30cne_hc-300x300.png"
+  },
+  {
+    "id": "im-30cpe-u-25",
+    "name": "IM-30CPE-U-25",
+    "label": "",
+    "price": 73080,
+    "currency": "€",
     "status": "Na objednávku",
-    "image": "https://icemakers.sk/files/cache/product/27/133b6476d46d48b2caaf5df56041d9b9693e841c_im_100cne-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "availability": "On order",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/563/hoshizaki_im-30cpe-u-25_m110-d201_hero-300x300.png"
   },
   {
-    "id": "IM-100WNE-HC-21",
-    "name": "IM-100WNE-HC-21",
-    "label": "Výrobník ľadu",
-    "price": 6200,
-    "currency": "Kč",
+    "id": "487-im-30cwpe-25",
+    "name": "IM-30CWPE-25",
+    "label": "",
+    "price": 73440,
+    "currency": "€",
     "status": "Na objednávku",
-    "image": "https://icemakers.sk/files/cache/product/34/228301203f2e0477227c68751480fb0af83e1399_im_100ne__1h4991_asm.igs_rev04-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "availability": "On order",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/487/hoshizaki_im-30cwpe-25_m110-d003_hero-300x300.png"
   },
   {
-    "id": "IM-240XNE-HC-21",
-    "name": "IM-240XNE-HC-21",
-    "label": "Výrobník ľadu",
-    "price": 7230,
-    "currency": "Kč",
-    "status": "Predaj ukončený",
-    "image": "https://icemakers.sk/files/cache/product/59/b8e823cfa2a2da5fa647cd0f92b7b2a08163e986_im_240xne_rev01-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "id": "im-30cwpe-u",
+    "name": "IM-30CWPE-U",
+    "label": "",
+    "price": 75600,
+    "currency": "€",
+    "status": "Na objednávku",
+    "availability": "On order",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/485/hoshizaki_im-30cwpe-u_m110-d202_hero-300x300.png"
   },
   {
-    "id": "IM-240DNE-HC-21",
-    "name": "IM-240DNE-HC-21",
-    "label": "Výrobník ľadu",
-    "price": 7230,
-    "currency": "Kč",
-    "status": "Predaj ukončený",
-    "image": "https://icemakers.sk/files/cache/product/61/im-240dne-1-300x300.jpg",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "id": "im-45cne-hc",
+    "name": "IM-45CNE-HC",
+    "label": "",
+    "price": 78480,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/6/c6cb693d820475ad557a5f8f7ba2defafdf8ff6d_im_45cne-300x300.png"
   },
   {
-    "id": "IM-240XWNE-HC-21",
-    "name": "IM-240XWNE-HC-21",
-    "label": "Výrobník ľadu",
-    "price": 7575,
-    "currency": "Kč",
+    "id": "im-45ne-hc",
+    "name": "IM-45NE-HC",
+    "label": "",
+    "price": 78480,
+    "currency": "€",
     "status": "Predaj ukončený",
-    "image": "https://icemakers.sk/files/cache/product/50/72503adc398cc1b8529e78e7bfe5363814769882_im_240xne_rev00-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
-  },
-   {
-    "id": "IM-240DWNE-HC-21",
-    "name": "IM-240DWNE-HC-21",
-    "label": "Výrobník ľadu",
-    "price": 7575,
-    "currency": "Kč",
-    "status": "Predaj ukončený",
-    "image": "https://icemakers.sk/files/cache/product/55/aad781994b82b229e865fd56923e1be655922377_im_240dne_b_801s-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "availability": "",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/15/6ecd238f622b549472aba3d66817eb9738ab3458_im_45ne_-300x300.png"
   },
   {
-    "id": "IM-240ANE-HC-21",
-    "name": "IM-240ANE-HC-21",
-    "label": "Výrobník ľadu",
-    "price": 7610,
-    "currency": "Kč",
-    "status": "Predaj ukončený",
-    "image": "https://icemakers.sk/files/cache/product/18/dc73b42ba0e5795813f66997d52f69282a9d8430_im_240ane_b_301sa_rev02-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "id": "im-30cwpe-u-25",
+    "name": "IM-30CWPE-U-25",
+    "label": "",
+    "price": 79800,
+    "currency": "€",
+    "status": "Na objednávku",
+    "availability": "On order",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/488/hoshizaki_im-30cwpe-u-25_m110-d203_hero-300x300.png"
   },
   {
-    "id": "IM-240AWNE-HC-21",
-    "name": "IM-240AWNE-HC-21",
-    "label": "Výrobník ľadu",
-    "price": 7955,
-    "currency": "Kč",
-    "status": "Predaj ukončený",
-    "image": "https://icemakers.sk/files/cache/product/45/c79188bdebb0585b4485350c9ccad6769a7955e0_im_240ane_b_301sa_rev02-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "id": "im-45pe",
+    "name": "IM-45PE",
+    "label": "",
+    "price": 82440,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/440/im45pe_transp-300x300.png"
   },
   {
-    "id": "IM-240E-HC-21",
-    "name": "IM-240E-HC-21",
-    "label": "Výrobník ľadu",
-    "price": 9060,
-    "currency": "Kč",
+    "id": "im-45cpe",
+    "name": "IM-45CPE",
+    "label": "",
+    "price": 82440,
+    "currency": "€",
+    "status": "Na objednávku",
+    "availability": "On order",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/478/hoshizaki_im-45cpe_m112_hero-300x300.png"
+  },
+  {
+    "id": "im-45cne-hc-25",
+    "name": "IM-45CNE-HC-25",
+    "label": "",
+    "price": 82560,
+    "currency": "€",
     "status": "Predaj ukončený",
-    "image": "https://icemakers.sk/files/cache/product/69/cf8f1342c962bff087879dc921eccdb088baab50_im_240ne_hc-300x300.png",
-    "dimensions": { "w": "—", "d": "—", "h": "—" }
+    "availability": "",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/14/3d9ec6299d4513af771ef3d51fc7c6df42f7ce05_im_45cne-300x300.png"
+  },
+  {
+    "id": "im-45ne-hc-25",
+    "name": "IM-45NE-HC-25",
+    "label": "",
+    "price": 82560,
+    "currency": "€",
+    "status": "Predaj ukončený",
+    "availability": "",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/16/67238bfff9789c12e70d94e678e3c8e2fdb3540d_im_45ne_-300x300.png"
+  },
+  {
+    "id": "im-45wne-hc",
+    "name": "IM-45WNE-HC",
+    "label": "",
+    "price": 84960,
+    "currency": "€",
+    "status": "Predaj ukončený",
+    "availability": "",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/17/3de5e8bedd6db9a0513609a0f77e5ef32b4a22fb_im_45ne_-300x300.png"
+  },
+  {
+    "id": "im-45pe-25",
+    "name": "IM-45PE-25",
+    "label": "",
+    "price": 86760,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/435/im45pe_transp-300x300.png"
+  },
+  {
+    "id": "im-45cpe-25",
+    "name": "IM-45CPE-25",
+    "label": "",
+    "price": 86760,
+    "currency": "€",
+    "status": "Na sklade",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/460/82f5890d56dccd37601061393710a5d0e0aa0abb_m112_im45cpe_transp-300x300.png"
+  },
+  {
+    "id": "im-45cpe-u",
+    "name": "IM-45CPE-U",
+    "label": "",
+    "price": 88800,
+    "currency": "€",
+    "status": "Na objednávku",
+    "availability": "On order",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/480/hoshizaki_im-45cpe-u_m112-d200_hero-300x300.png"
   }
 ]
