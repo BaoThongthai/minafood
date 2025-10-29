@@ -8,9 +8,9 @@
     "status": "Predaj ukončený",
     "image": "https://icemakers.sk/files/cache/product/68/cf8f1342c962bff087879dc921eccdb088baab50_im_240ne_hc-300x300.png",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+      "w": "704",
+      "d": "665",
+      "h": "1510"
     }
   },
   {
@@ -22,9 +22,9 @@
     "status": "Na sklade",
     "image": "https://icemakers.sk/files/cache/product/60/cf8f1342c962bff087879dc921eccdb088baab50_im_240ne_hc-300x300.png",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+      "w": "704",
+      "d": "665",
+      "h": "1510"
     }
   },
   {
@@ -36,9 +36,9 @@
     "status": "Na sklade",
     "image": "https://icemakers.sk/files/cache/product/438/m118_im240pe_transp-300x300.png",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+        "w": "704",
+      "d": "665",
+      "h": "1510"
     }
   },
   {
@@ -50,9 +50,9 @@
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/601/hoshizaki_im-240pe-u_1-300x300.png",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+      "w": "704",
+      "d": "665",
+      "h": "1510"
     }
   },
   {
@@ -64,9 +64,9 @@
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/620/hoshizaki_im-240wpe_1-300x300.png",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+        "w": "704",
+      "d": "665",
+      "h": "1510"
     }
   },
   {
@@ -78,9 +78,9 @@
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/603/hoshizaki_im-240pe-f_1-300x300.png",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+       "w": "704",
+      "d": "665",
+      "h": "1510"
     }
   },
   {
@@ -92,9 +92,9 @@
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/622/hoshizaki_im-240wpe-u_1-300x300.png",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+     "w": "704",
+      "d": "665",
+      "h": "1510"
     }
   },
   {
@@ -106,9 +106,9 @@
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/605/hoshizaki_im-240pe-e_1-300x300.png",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+      "w": "704",
+      "d": "665",
+      "h": "1510"
     }
   },
   {
@@ -120,9 +120,9 @@
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/625/hoshizaki_im-240wpe-f_1-300x300.png",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+      "w": "704",
+      "d": "665",
+      "h": "1510"
     }
   },
   {
@@ -134,9 +134,9 @@
     "status": "Na objednávku",
     "image": "https://icemakers.sk/files/cache/product/626/hoshizaki_im-240wpe-e_1-300x300.png",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+      "w": "704",
+      "d": "665",
+      "h": "1510"
     }
   }
 ]
