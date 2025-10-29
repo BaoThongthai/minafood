@@ -62,6 +62,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/cssneon.css" rel="stylesheet">
 </head>
 
 <body>
@@ -580,12 +581,12 @@
                                 <a class="d-flex m-2 py-2 bg-light rounded-pill active" data-bs-toggle="pill"
                                     href="#tab-1">
                                     <span class="text-dark" style="width: 130px;" data-i18n="tabs.gasStoves">Plynový
-                                        sporáky</span>
+                                        sporáky - MinaFood</span>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="d-flex py-2 m-2 bg-light rounded-pill" href="Fritezy_katagory.html">
-                                    <span class="text-dark" style="width: 130px;" data-i18n="tabs.fryers">Fritézy & kuchyně</span>
+                                    <span class="text-dark" style="width: 130px;" data-i18n="tabs.fryers">Fritézy & kuchyně - Casta</span>
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -2501,6 +2502,31 @@
     <script src="js/i18n.js"></script>
     <script src="js/cart.js"></script>
     <script src="js/contact.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const tabNav = document.querySelector('.nav.nav-pills');
+  if (!tabNav) return;
+
+  tabNav.querySelectorAll('a').forEach(a => {
+    // thêm class hiệu ứng
+    a.classList.add('liquid-btn');
+
+    // bỏ bg cũ
+    a.classList.remove('bg-light', 'rounded-pill');
+
+    // bọc text trong span (để lớp ::before không che)
+    if (!a.querySelector('span')) {
+      const text = a.textContent.trim();
+      a.textContent = '';
+      const s = document.createElement('span');
+      s.textContent = text;
+      a.appendChild(s);
+    }
+  });
+});
+</script>
+
+
 </body>
 
 </html>

@@ -1,0 +1,55 @@
+/* === LIQUID FILL EFFECT FOR CATEGORY BUTTONS === */
+.nav.nav-pills a.liquid-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0.6rem 1.4rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid #1f3353;
+  border-radius: 9999px;
+  background: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Hiệu ứng fill */
+.nav.nav-pills a.liquid-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(#1f3353 0 0) no-repeat calc(200% - var(--p, 0%))
+    100% / 200% var(--p, 0.2em);
+  z-index: 0;
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+/* Hover fill */
+.nav.nav-pills a.liquid-btn:hover::before,
+.nav.nav-pills a.liquid-btn.active::before {
+  --p: 100%;
+  --t: 0.3s;
+}
+
+/* Giữ text nổi trên lớp fill */
+.nav.nav-pills a.liquid-btn span {
+  position: relative;
+  z-index: 1;
+}
+
+/* Khi hover đổi màu text */
+.nav.nav-pills a.liquid-btn:hover span,
+.nav.nav-pills a.liquid-btn.active span {
+  color: #EA9A3B;
+}
+
+/* Nếu muốn đổi màu theo từng nút (tùy chọn) */
+.nav.nav-pills li:nth-child(1) a.liquid-btn { --clr:#1f3353; }
+.nav.nav-pills li:nth-child(2) a.liquid-btn { --clr:#00ffaa; }
+.nav.nav-pills li:nth-child(3) a.liquid-btn { --clr:#ff6b6b; }
