@@ -586,7 +586,8 @@
                             </li>
                             <li class="nav-item">
                                 <a class="d-flex py-2 m-2 bg-light rounded-pill" href="Fritezy_katagory.html">
-                                    <span class="text-dark" style="width: 130px;" data-i18n="tabs.fryers">Fritézy & kuchyně - Casta</span>
+                                    <span class="text-dark" style="width: 130px;" data-i18n="tabs.fryers">Fritézy &
+                                        kuchyně - Casta</span>
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -656,7 +657,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="d-flex m-2 py-2 bg-light rounded-pill"  href="porcelain_1.html">
+                                <a class="d-flex m-2 py-2 bg-light rounded-pill" href="porcelain_1.html">
                                     <span class="text-dark" style="width: 130px;" data-i18n="tabs.glassPorcelain">Sklo a
                                         porcelán</span>
                                 </a>
@@ -701,17 +702,18 @@
                                 </a>
                             </li>
 
-                                   <!-- ICE EQUIMENT -->
+                            <!-- ICE EQUIMENT -->
                             <li class="nav-item">
                                 <a class="d-flex m-2 py-2 bg-light rounded-pill" href="ice_equiment_katagory.html">
-                                    <span class="text-dark" style="width: 130px;" data-i18n="page.iceequiment.title">Ice makers</span>
+                                    <span class="text-dark" style="width: 130px;" data-i18n="page.iceequiment.title">Ice
+                                        makers</span>
                                 </a>
                             </li>
 
-                                      <!-- Sushi -->
+                            <!-- Sushi -->
                             <li class="nav-item">
                                 <a class="d-flex m-2 py-2 bg-light rounded-pill" href="Sushi.html">
-                                    <span class="text-dark" style="width: 130px;" >Sushi equiment</span>
+                                    <span class="text-dark" style="width: 130px;">Sushi equiment</span>
                                 </a>
                             </li>
 
@@ -2502,29 +2504,86 @@
     <script src="js/i18n.js"></script>
     <script src="js/cart.js"></script>
     <script src="js/contact.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  const tabNav = document.querySelector('.nav.nav-pills');
-  if (!tabNav) return;
+    <!-- hiệu ứng button -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const tabNav = document.querySelector('.nav.nav-pills');
+            if (!tabNav) return;
 
-  tabNav.querySelectorAll('a').forEach(a => {
-    // thêm class hiệu ứng
-    a.classList.add('liquid-btn');
+            tabNav.querySelectorAll('a').forEach(a => {
+                // thêm class hiệu ứng
+                a.classList.add('liquid-btn');
 
-    // bỏ bg cũ
-    a.classList.remove('bg-light', 'rounded-pill');
+                // bỏ bg cũ
+                a.classList.remove('bg-light', 'rounded-pill');
 
-    // bọc text trong span (để lớp ::before không che)
-    if (!a.querySelector('span')) {
-      const text = a.textContent.trim();
-      a.textContent = '';
-      const s = document.createElement('span');
-      s.textContent = text;
-      a.appendChild(s);
-    }
-  });
-});
-</script>
+                // bọc text trong span (để lớp ::before không che)
+                if (!a.querySelector('span')) {
+                    const text = a.textContent.trim();
+                    a.textContent = '';
+                    const s = document.createElement('span');
+                    s.textContent = text;
+                    a.appendChild(s);
+                }
+            });
+        });
+    </script>
+
+    <!-- hiệu ứng dropdown katagory -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const nav = document.querySelector('.nav.nav-pills');
+            if (!nav) return;
+
+            // Tạo <select> và đổ option theo các <a> trong nav
+            const select = document.createElement('select');
+            select.id = 'category-select';
+            select.className = 'form-select';
+
+            const links = Array.from(nav.querySelectorAll('a'));
+            links.forEach(a => {
+                const opt = document.createElement('option');
+                opt.value = a.getAttribute('href') || '#';
+                opt.textContent = a.textContent.trim();
+                if (a.classList.contains('active')) opt.selected = true;
+                select.appendChild(opt);
+            });
+
+            // Chèn select lên trước thanh pills
+            nav.parentNode.insertBefore(select, nav);
+
+            // Hàm kích hoạt tab hoặc chuyển trang
+            function activate(href) {
+                const link = links.find(l => (l.getAttribute('href') || '#') === href);
+                if (!link) {
+                    // fallback
+                    if (href && href.startsWith('#')) {
+                        const el = document.querySelector(href);
+                        if (el) el.scrollIntoView({ behavior: 'smooth' });
+                    } else if (href) {
+                        location.href = href;
+                    }
+                    return;
+                }
+
+                // Nếu là tab Bootstrap (data-bs-toggle="pill") thì show tab
+                if (link.dataset.bsToggle === 'pill') {
+                    if (window.bootstrap && bootstrap.Tab) {
+                        new bootstrap.Tab(link).show();
+                    } else {
+                        link.click(); // fallback nếu chưa load JS Bootstrap
+                    }
+                } else {
+                    // Link sang trang khác
+                    location.href = link.getAttribute('href');
+                }
+            }
+
+            // Bắt sự kiện đổi lựa chọn
+            select.addEventListener('change', e => activate(e.target.value));
+        });
+    </script>
+
 
 
 </body>
