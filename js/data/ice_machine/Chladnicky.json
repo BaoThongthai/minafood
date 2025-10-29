@@ -8,9 +8,9 @@
     "status": "Vypredané",
     "availability": "Out of stock",
     "dimensions": {
-      "w": "",
-      "d": "",
-      "h": ""
+      "w": "595",
+      "d": "642",
+      "h": "830"
     },
     "image": "https://icemakers.sk/files/cache/product/448/picture_compact-k-220-lg-2w-300x300.jpg"
   },
@@ -23,9 +23,9 @@
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
-      "w": "",
-      "d": "",
-      "h": ""
+      "w": "595",
+      "d": "667",
+      "h": "830"
     },
     "image": "https://icemakers.sk/files/cache/product/450/picture_compact_kg_220_lg_2w-300x300.jpg"
   },
@@ -38,9 +38,9 @@
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
-      "w": "",
-      "d": "",
-      "h": ""
+     "w": "595",
+      "d": "642",
+      "h": "830"
     },
     "image": "https://icemakers.sk/files/cache/product/464/6a54a5103734a55b6af8956df41d3057f3ee3478_962200441_compact_k_220_rg_2w-300x300.jpg"
   },
@@ -53,9 +53,9 @@
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+      "w": "595",
+      "d": "642",
+      "h": "1900"
     },
     "image": "https://icemakers.sk/files/cache/product/447/gram-k420-rg-c2-5w_img77258-300x300.jpg"
   },
@@ -68,27 +68,13 @@
     "status": "Vypredané",
     "availability": "Out of stock",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+      "w": "654",
+      "d": "840",
+      "h": "1996"
     },
     "image": "https://icemakers.sk/files/cache/product/151/hc_600_ntv_leg-300x300.jpg"
   },
-  {
-    "id": "mraznicka-compact-f-220-lg-2w",
-    "name": "Mraznička COMPACT F 220 LG 2W",
-    "label": "",
-    "price": 13658.64,
-    "currency": "€",
-    "status": "Na sklade",
-    "availability": "In stock",
-    "dimensions": {
-      "w": "",
-      "d": "",
-      "h": ""
-    },
-    "image": "https://icemakers.sk/files/cache/product/457/picture_compact_f_220_lg_2w-300x300.jpg"
-  },
+
   {
     "id": "mraznicka-compact-f-220-rg-2w",
     "name": "Mraznička COMPACT F 220 RG 2W",
@@ -98,24 +84,24 @@
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
-      "w": "",
-      "d": "",
-      "h": ""
+      "w": "595",
+      "d": "642",
+      "h": "830"
     },
     "image": "https://icemakers.sk/files/cache/product/431/d46753740cf05cf0f6017128e2c3b8640d5ee4ec_f220_closed_door_white-1024x768-300x300.jpg"
   },
   {
-    "id": "mraznicka-compact-f-420-lg-c2-5w",
-    "name": "Mraznička COMPACT F 420 LG C2 5W",
+    "id": "Mraznička COMPACT F 420 RG L1 5W",
+    "name": "Mraznička COMPACT F 420 RG L1 5W",
     "label": "",
     "price": 19512.24,
     "currency": "€",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
-      "w": "",
-      "d": "",
-      "h": ""
+      "w": "594",
+      "d": "642",
+      "h": "1875"
     },
     "image": "https://icemakers.sk/files/cache/product/446/picture_compact_f_420_rg_l1_5w-300x300.jpg"
   },
@@ -128,9 +114,9 @@
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
-      "w": "",
-      "d": "",
-      "h": ""
+      "w": "594",
+      "d": "642",
+      "h": "1875"
     },
     "image": "https://icemakers.sk/files/cache/product/408/307aa8921dba6eb9a409f608971437c7e0b1f1c5_hoshizaki_compact_kg_fg_420_wh_r_l_hero_transparent_cropped_(1)-300x300.png"
   },
@@ -143,9 +129,9 @@
     "status": "Vypredané",
     "availability": "Out of stock",
     "dimensions": {
-      "w": "",
-      "d": "",
-      "h": ""
+      "w": "654",
+      "d": "840",
+      "h": "1996"
     },
     "image": "https://icemakers.sk/files/cache/product/151/hc_600_ntv_leg-300x300.jpg"
   }

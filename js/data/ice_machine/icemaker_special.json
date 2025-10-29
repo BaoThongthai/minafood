@@ -9,9 +9,9 @@
     "image": "https://icemakers.sk/files/cache/product/10/srdcia-300x300.png",
     "type": "gule",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+      "w": "633",
+      "d": "506",
+      "h": "860"
     }
   },
   {
@@ -24,9 +24,9 @@
     "image": "https://icemakers.sk/files/cache/product/70/srdcia-300x300.png",
     "type": "gule",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+        "w": "633",
+      "d": "506",
+      "h": "860"
     }
   },
   {
@@ -39,9 +39,9 @@
     "image": "https://icemakers.sk/files/cache/product/80/srdcia-300x300.png",
     "type": "xxl",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+         "w": "633",
+      "d": "506",
+      "h": "860"
     }
   },
   {
@@ -54,9 +54,9 @@
     "image": "https://icemakers.sk/files/cache/product/80/srdcia-300x300.png",
     "type": "xxxl",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+         "w": "633",
+      "d": "506",
+      "h": "860"
     }
   },
   {
@@ -69,9 +69,9 @@
     "image": "https://icemakers.sk/files/cache/product/80/srdcia-300x300.png",
     "type": "hviezda",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+          "w": "633",
+      "d": "506",
+      "h": "860"
     }
   },
   {
@@ -84,9 +84,9 @@
     "image": "https://icemakers.sk/files/cache/product/80/srdcia-300x300.png",
     "type": "srdce",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+        "w": "633",
+      "d": "506",
+      "h": "860"
     }
   }
 ]

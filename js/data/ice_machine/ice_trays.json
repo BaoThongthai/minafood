@@ -1,182 +1,182 @@
 [
   {
-    "id": "TK-8D",
+    "id": "top-kit-tk-8d",
     "name": "TOP KIT TK-8D",
-    "label": "Vrchný kryt pre výrobník ľadu",
-    "price": 183396.0,
-    "currency": "Kč",
+    "label": "",
+    "price": 7536,
+    "currency": "€",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+      "w": "45",
+      "d": "240",
+      "h": "575"
     },
-    "image": "https://icemakers.cz/files/cache/product/103/tk1-300x300.jpg"
+    "image": "https://icemakers.sk/files/cache/product/103/tk1-300x300.jpg"
   },
   {
-    "id": "TK-18D",
+    "id": "top-kit-tk-18d",
     "name": "TOP KIT TK-18D",
-    "label": "Vrchný kryt pre výrobník ľadu",
-    "price": 183396.0,
-    "currency": "Kč",
+    "label": "",
+    "price": 7536,
+    "currency": "€",
     "status": "Na sklade",
-    "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
-    },
     "availability": "In stock",
-    "image": "https://icemakers.cz/files/cache/product/104/tk18d-300x300.jpg"
+    "dimensions": {
+      "w": "510",
+      "d": "60",
+      "h": "630"
+    },
+    "image": "https://icemakers.sk/files/cache/product/104/tk18d-300x300.jpg"
   },
   {
-    "id": "TK-4DM",
+    "id": "top-kit-tk-4dm",
     "name": "TOP KIT TK-4DM",
-    "label": "Vrchný kryt pre výrobník ľadu",
-    "price": 183396.0,
-    "currency": "Kč",
+    "label": "",
+    "price": 7536,
+    "currency": "€",
     "status": "Na sklade",
-    "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
-    },
     "availability": "In stock",
-    "image": "https://icemakers.cz/files/cache/product/105/whatsapp_image_2023-01-26_at_14.13.15-300x300.jpeg"
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/105/whatsapp_image_2023-01-26_at_14.13.15-300x300.jpeg"
   },
   {
-    "id": "TK-4DR",
+    "id": "top-kit-tk-4dr",
     "name": "TOP KIT TK-4DR",
-    "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
-    },
-    "label": "Vrchný kryt pre výrobník ľadu",
-    "price": 183396.0,
-    "currency": "Kč",
+    "label": "",
+    "price": 7536,
+    "currency": "€",
     "status": "Na sklade",
     "availability": "In stock",
-    "image": "https://icemakers.cz/files/cache/product/106/img_2268-300x300.jpg"
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/106/img_2268-300x300.jpg"
   },
   {
-    "id": "TK-IMD2",
+    "id": "top-kit-tk-imd2",
     "name": "TOP KIT TK-IMD2",
-    "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
-    },
-    "label": "Vrchný kryt pre výrobník ľadu",
-    "price": 183396.0,
-    "currency": "Kč",
+    "label": "",
+    "price": 7536,
+    "currency": "€",
     "status": "Na sklade",
     "availability": "In stock",
-    "image": "https://icemakers.cz/files/cache/product/107/whatsapp_image_2023-01-26_at_14.12.23-300x300.jpeg"
+    "dimensions": {
+      "w": "630",
+      "d": "200",
+      "h": "650"
+    },
+    "image": "https://icemakers.sk/files/cache/product/107/whatsapp_image_2023-01-26_at_14.12.23-300x300.jpeg"
   },
   {
-    "id": "B340SA-DIV",
-    "name": "DĚLÍCÍ STĚNA PRO B340SA",
-    "label": "Dělící stěna pro B340SA",
-    "price": 479516.4,
-    "currency": "Kč",
-    "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
-    },
+    "id": "deliaca-stena-pre-b340sa",
+    "name": "Deliaca stena pre B340SA",
+    "label": "",
+    "price": 19704,
+    "currency": "€",
     "status": "Na sklade",
     "availability": "In stock",
-    "image": "https://icemakers.cz/files/cache/product/153/deliaca-stena-300x300.png"
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://icemakers.sk/files/cache/product/153/deliaca-stena-300x300.png"
   },
   {
-    "id": "B-140SA",
+    "id": "b-140sa",
     "name": "B-140SA",
-    "label": "Zásobník na ľad",
+    "label": "",
     "price": 49680,
     "currency": "€",
     "status": "Predaj ukončený",
+    "availability": "",
     "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
+      "w": "560",
+      "d": "820",
+      "h": "1016"
     },
-    "availability": "Discontinued",
     "image": "https://icemakers.sk/files/cache/product/74/140sa-300x300.png"
   },
   {
-    "id": "B-140SB",
+    "id": "b-140sb",
     "name": "B-140SB",
-    "label": "Zásobník na ľad",
-    "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
-    },
+    "label": "",
     "price": 49680,
     "currency": "€",
     "status": "Na sklade",
     "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
     "image": "https://icemakers.sk/files/cache/product/548/hoshizaki_b-140sb_m190_hero-300x300.png"
   },
   {
-    "id": "B-210SA",
+    "id": "b-210sa",
     "name": "B-210SA",
-    "label": "Zásobník na ľad",
-    "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
-    },
+    "label": "",
     "price": 63960,
     "currency": "€",
     "status": "Vypredané",
-    "availability": "Sold out",
+    "availability": "",
+    "dimensions": {
+      "w": "781",
+      "d": "820",
+      "h": "1016"
+    },
     "image": "https://icemakers.sk/files/cache/product/75/210sa-300x300.png"
   },
   {
-    "id": "B-340SA",
+    "id": "b-340sa",
     "name": "B-340SA",
-    "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
-    },
-    "label": "Zásobník na ľad",
+    "label": "",
     "price": 78720,
     "currency": "€",
     "status": "Vypredané",
-    "availability": "Sold out",
+    "availability": "",
+    "dimensions": {
+      "w": "1220",
+      "d": "820",
+      "h": "1016"
+    },
     "image": "https://icemakers.sk/files/cache/product/76/310sa-300x300.png"
   },
   {
-    "id": "FOLLETT-F-650-44S",
-    "name": "FOLLETT F-650-44S",
-    "label": "Zásobník na ľad Follett",
-    "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
-    },
+    "id": "follett-f-650-44s",
+    "name": "Follett F-650-44S",
+    "label": "",
     "price": 90000,
     "currency": "€",
     "status": "Na sklade",
     "availability": "In stock",
+    "dimensions": {
+      "w": "1118",
+      "d": "801",
+      "h": "1270"
+    },
     "image": "https://icemakers.sk/files/cache/product/228/80717033_1-768x768-300x300.jpg"
   },
   {
-    "id": "FOLLETT-F-1025-52S",
-    "name": "FOLLETT F-1025-52S",
-    "label": "Zásobník na ľad Follett",
+    "id": "follett-f-1025-52s",
+    "name": "Follett F-1025-52S",
+    "label": "",
     "price": 109440,
-    "dimensions": {
-      "w": "—",
-      "d": "—",
-      "h": "—"
-    },
     "currency": "€",
     "status": "Na objednávku",
-    "availability": "To order",
+    "availability": "On order",
+    "dimensions": {
+      "w": "1320",
+      "d": "800",
+      "h": "1270"
+    },
     "image": "https://icemakers.sk/files/cache/product/171/f1025-52s-300x300.jpg"
   }
 ]

@@ -7,7 +7,7 @@
     "currency": "€",
     "status": "Na sklade",
     "availability": "In stock",
-    "dimensions": { "w": "", "d": "", "h": "" },
+    "dimensions": { "w": "1200", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/427/c5ab940a90f764cbb24dcfc1d770623ec98455f0_hnc_120be_r_b_rev00-300x300.png"
   },
   {
@@ -18,7 +18,7 @@
     "currency": "€",
     "status": "Na objednávku",
     "availability": "On order",
-    "dimensions": { "w": "", "d": "", "h": "" },
+   "dimensions": { "w": "1200", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/246/3a7c36d241a9844123042f27e30514eb206e1233_hnc_120be_l_blh_rev00__1_-300x300.jpg"
   },
   {
@@ -29,7 +29,7 @@
     "currency": "€",
     "status": "Na objednávku",
     "availability": "On order",
-    "dimensions": { "w": "", "d": "", "h": "" },
+    "dimensions": { "w": "1200", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/250/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg"
   },
   {
@@ -40,7 +40,7 @@
     "currency": "€",
     "status": "Na objednávku",
     "availability": "On order",
-    "dimensions": { "w": "", "d": "", "h": "" },
+    "dimensions": { "w": "1200", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/245/3a7c36d241a9844123042f27e30514eb206e1233_hnc_120be_l_blh_rev00__1_-300x300.jpg"
   },
   {
@@ -51,7 +51,7 @@
     "currency": "€",
     "status": "Na objednávku",
     "availability": "On order",
-    "dimensions": { "w": "", "d": "", "h": "" },
+    "dimensions": { "w": "1200", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/249/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg"
   },
   {
@@ -62,7 +62,7 @@
     "currency": "€",
     "status": "Na objednávku",
     "availability": "On order",
-    "dimensions": { "w": "", "d": "", "h": "" },
+    "dimensions": { "w": "1200", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/254/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg"
   },
   {
@@ -73,7 +73,7 @@
     "currency": "€",
     "status": "Na objednávku",
     "availability": "On order",
-    "dimensions": { "w": "", "d": "", "h": "" },
+    "dimensions": { "w": "1500", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/256/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg"
   },
   {
@@ -84,7 +84,7 @@
     "currency": "€",
     "status": "Na sklade",
     "availability": "In stock",
-    "dimensions": { "w": "", "d": "", "h": "" },
+    "dimensions": { "w": "1500", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/253/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg"
   },
   {
@@ -95,7 +95,7 @@
     "currency": "€",
     "status": "Na objednávku",
     "availability": "On order",
-    "dimensions": { "w": "", "d": "", "h": "" },
+    "dimensions": { "w": "1500", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/255/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg"
   },
   {
@@ -106,7 +106,7 @@
     "currency": "€",
     "status": "Na objednávku",
     "availability": "On order",
-    "dimensions": { "w": "", "d": "", "h": "" },
+    "dimensions": { "w": "1800", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/263/right-300x300.jpg"
   },
   {
@@ -117,7 +117,7 @@
     "currency": "€",
     "status": "Na objednávku",
     "availability": "On order",
-    "dimensions": { "w": "", "d": "", "h": "" },
+    "dimensions": { "w": "1800", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/264/left-300x300.jpg"
   },
   {
@@ -128,7 +128,7 @@
     "currency": "€",
     "status": "Na objednávku",
     "availability": "On order",
-    "dimensions": { "w": "", "d": "", "h": "" },
+    "dimensions": { "w": "1800", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/261/left-300x300.jpg"
   },
   {
@@ -139,7 +139,7 @@
     "currency": "€",
     "status": "Na objednávku",
     "availability": "On order",
-    "dimensions": { "w": "", "d": "", "h": "" },
+    "dimensions": { "w": "1800", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/262/right-300x300.jpg"
   },
   {
@@ -150,7 +150,7 @@
     "currency": "€",
     "status": "Na objednávku",
     "availability": "On order",
-    "dimensions": { "w": "", "d": "", "h": "" },
+    "dimensions": { "w": "2100", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/271/right-300x300.jpg"
   },
   {
@@ -161,7 +161,7 @@
     "currency": "€",
     "status": "Na objednávku",
     "availability": "On order",
-    "dimensions": { "w": "", "d": "", "h": "" },
+    "dimensions": { "w": "2100", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/272/left-300x300.jpg"
   },
   {
@@ -172,7 +172,7 @@
     "currency": "€",
     "status": "Na objednávku",
     "availability": "On order",
-    "dimensions": { "w": "", "d": "", "h": "" },
+    "dimensions": { "w": "2100", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/269/left-300x300.jpg"
   },
   {
@@ -183,7 +183,7 @@
     "currency": "€",
     "status": "Na objednávku",
     "availability": "On order",
-    "dimensions": { "w": "", "d": "", "h": "" },
+    "dimensions": { "w": "2100", "d": "345", "h": "270" },
     "image": "https://icemakers.sk/files/cache/product/270/right-300x300.jpg"
   }
 ]
