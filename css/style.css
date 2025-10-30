@@ -1032,6 +1032,25 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link{
   margin-top: 20px;
 }
 
-
+/* css logo hoshizaki */
     
 
+.product-card {
+  position: relative;
+  overflow: visible; /* cho phép logo hiển thị ngoài vùng hình */
+}
+.product-card .brand-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 60px;
+  height: auto;
+  z-index: 10;
+}
+
+.product-card .brand-logo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}

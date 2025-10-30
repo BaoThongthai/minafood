@@ -8,14 +8,14 @@
   padding: 0.6rem 1.4rem;
   font-size: 0.95rem;
   font-weight: 600;
-  color: #ffffff;
   text-decoration: none;
   border: 2px solid #1f3353;
   border-radius: 9999px;
-  background: none;
+  background: #fff;                /* nền trắng mặc định */
   cursor: pointer;
   overflow: hidden;
   transition: all 0.3s ease;
+  color: #1f3353 !important;       /* chữ xanh thương hiệu */
 }
 
 /* Hiệu ứng fill */
@@ -23,8 +23,8 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(#1f3353 0 0) no-repeat calc(200% - var(--p, 0%))
-    100% / 200% var(--p, 0.2em);
+  background: linear-gradient(#1f3353 0 0)
+    no-repeat calc(200% - var(--p, 0%)) 100% / 200% var(--p, 0.2em);
   z-index: 0;
   transition: 0.3s var(--t, 0s),
     background-position 0.3s calc(0.3s - var(--t, 0s));
@@ -46,37 +46,37 @@
 /* Khi hover đổi màu text */
 .nav.nav-pills a.liquid-btn:hover span,
 .nav.nav-pills a.liquid-btn.active span {
-  color: #EA9A3B;
+  color: #fff;                     /* chữ trắng khi hover */
 }
 
-/* Nếu muốn đổi màu theo từng nút (tùy chọn) */
-.nav.nav-pills li:nth-child(1) a.liquid-btn { --clr:#1f3353; }
-.nav.nav-pills li:nth-child(2) a.liquid-btn { --clr:#00ffaa; }
-.nav.nav-pills li:nth-child(3) a.liquid-btn { --clr:#ff6b6b; }
 
 /* Hai nút mỗi hàng trên màn hình nhỏ */
 /* Mobile: dùng dropdown, ẩn pills */
-@media (max-width: 768px){
-  .nav.nav-pills{ display:none !important; }
-  #category-select{ display:block; }
+@media (max-width: 768px) {
+  .nav.nav-pills {
+    display: none !important;
+  }
+
+  #category-select {
+    display: block;
+  }
 }
 
 /* Desktop/Tablet: ẩn dropdown, hiện pills */
-@media (min-width: 769px){
-  #category-select{ display:none; }
+@media (min-width: 769px) {
+  #category-select {
+    display: none;
+  }
 }
 
 /* Style cho dropdown (Bootstrap form-select + pill look) */
-#category-select{
-  width:100%;
+#category-select {
+  width: 100%;
   margin: 12px 0 20px;
   border-radius: 9999px;
   padding: .75rem 1.25rem;
   border: 2px solid #1f3353;
-  background-color:#fff;
-  color:#1f3353;
-  font-weight:600;
+  background-color: #fff;
+  color: #1f3353;
+  font-weight: 600;
 }
-
-
-

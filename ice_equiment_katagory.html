@@ -133,17 +133,51 @@
 
 
   <!-- Single Page Header start -->
-  <div class="container-fluid page-header py-5">
-    <h1 class="text-center text-white display-6" data-i18n="page.ice_maker.title">
-      Výrobník ledu
-    </h1>
-    <ol class="breadcrumb justify-content-center mb-0">
-      <li class="breadcrumb-item"><a href="index.html#Kategorie"><i class="fa-solid fa-backward"></i>&nbsp;
-          Back</a></li>
-    </ol>
-  </div>
+  <div class="page-header d-flex align-items-center justify-content-center text-center" style="
+       background: url('https://icemakers.online/assets/default/img/hero.png') center center/cover no-repeat;
+       height: 320px;
+       position: relative;
+     ">
+    <div class="overlay" style="
+       position: absolute;
+       top: 0; left: 0; right: 0; bottom: 0;
+       background: rgba(0, 0, 0, 0.4);
+     "></div>
 
+    <div class="container position-relative z-1 text-white">
+      <h1 class="fw-bold display-5 mb-3 text-uppercase" data-i18n="page.ice_maker.title" style="color: white;">
+        Hoshiyaki Výrobník ledu
+      </h1>
+      <a href="index.html#Kategorie">
+        <p class="mb-0"><i class="fa-solid fa-backward"></i>&nbsp;
+          Back
+        </p>
+      </a>
+    </div>
+  </div>
   <!-- Single Page Header End -->
+       <!-- giới thiệu thương hiệu -->
+    <div class="container py-5">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-5 mb-4 mb-md-0 text-center">
+                <img src="data:image/png;base64,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"
+                    alt="Nerezové chladicí vany" class="product-image">
+            </div>
+
+            <div class="col-md-7">
+                <p class="product-text" data-i18n="hoshizaki.text1">
+                    Hoshizaki je přední světová značka z Japonska zaměřená na výrobníky ledu a profesionální chladicí zařízení. Je ceněna pro vysokou spolehlivost, čistotu ledu a stabilní výkon.
+                </p>
+                <p class="product-text" data-i18n="hoshizaki.text2">
+                    Díky moderní technologii a důrazu na hygienu je Hoshizaki oblíbenou volbou restaurací a hotelů, které hledají dlouhou životnost a nízké provozní náklady.
+                </p>
+
+            </div>
+
+        </div>
+    </div>
 
 
   <!-- casta equiment-->
@@ -155,6 +189,9 @@
       <div class="col-6 col-md-3">
         <div class="product-card">
           <a href="ice_maker_6G.html" aria-label="Šokové zchlazovače">
+            <div class="brand-logo">
+              <img src="https://upload.wikimedia.org/wikipedia/fr/3/36/Hoshizaki_logo.png" alt="brand logo">
+            </div>
             <div class="thumb">
               <img
                 src="https://icemakers.sk/files/cache/product/7/d64df81156ea12376bf210e184f03c20aef7310d_im_21cne_4-300x300.png"
@@ -168,6 +205,9 @@
       <div class="col-6 col-md-3">
         <div class="product-card">
           <a href="ice_bucket.html" aria-label="Šokové zchlazovače">
+            <div class="brand-logo">
+              <img src="https://upload.wikimedia.org/wikipedia/fr/3/36/Hoshizaki_logo.png" alt="brand logo">
+            </div>
             <div class="thumb">
               <img
                 src="https://icemakers.cz/files/cache/product/111/c63a8cb1af0f8426d21cdc325ebd46394879e344_fm_60ke_hc-300x300.jpg"
@@ -181,6 +221,9 @@
       <div class="col-6 col-md-3">
         <div class="product-card">
           <a href="ice_maker_specilist.html" aria-label="Šokové zchlazovače">
+            <div class="brand-logo">
+              <img src="https://upload.wikimedia.org/wikipedia/fr/3/36/Hoshizaki_logo.png" alt="brand logo">
+            </div>
             <div class="thumb">
               <img src="https://icemakers.sk/files/cache/product/73/srdcia-300x300.png" alt="Šokové zchlazovače">
             </div>
@@ -192,6 +235,9 @@
       <div class="col-6 col-md-3">
         <div class="product-card">
           <a href="ice_maker_polmesiacovy.html" aria-label="Šokové zchlazovače">
+            <div class="brand-logo">
+              <img src="https://upload.wikimedia.org/wikipedia/fr/3/36/Hoshizaki_logo.png" alt="brand logo">
+            </div>
             <div class="thumb">
               <img
                 src="https://icemakers.sk/files/cache/product/164/3ccf4def880d813cab9198b395a0c003ee74651b_km_80c-300x300.png"
@@ -205,6 +251,9 @@
       <div class="col-6 col-md-3">
         <div class="product-card">
           <a href="ice_maker_dav.html" aria-label="Šokové zchlazovače">
+            <div class="brand-logo">
+              <img src="https://upload.wikimedia.org/wikipedia/fr/3/36/Hoshizaki_logo.png" alt="brand logo">
+            </div>
             <div class="thumb">
               <img
                 src="https://icemakers.sk/files/cache/product/244/901e015d8fba20249883366dab0dc9d8b28254e7_dcm_60ke_(1)-300x300.png"
@@ -218,6 +267,9 @@
       <div class="col-6 col-md-3">
         <div class="product-card">
           <a href="ice_trays.html" aria-label="Šokové zchlazovače">
+            <div class="brand-logo">
+              <img src="https://upload.wikimedia.org/wikipedia/fr/3/36/Hoshizaki_logo.png" alt="brand logo">
+            </div>
             <div class="thumb">
               <img src="https://icemakers.sk/files/cache/product/75/210sa-300x300.png" alt="Šokové zchlazovače">
             </div>
@@ -229,6 +281,9 @@
       <div class="col-6 col-md-3">
         <div class="product-card">
           <a href="ice_filtracia.html" aria-label="Šokové zchlazovače">
+            <div class="brand-logo">
+              <img src="https://upload.wikimedia.org/wikipedia/fr/3/36/Hoshizaki_logo.png" alt="brand logo">
+            </div>
             <div class="thumb">
               <img src="https://icemakers.sk/files/cache/product/110/h9320-52-scaled-300x300.jpg"
                 alt="Šokové zchlazovače">
@@ -241,6 +296,9 @@
       <div class="col-6 col-md-3">
         <div class="product-card">
           <a href="ice_Chladnicky.html" aria-label="Šokové zchlazovače">
+            <div class="brand-logo">
+              <img src="https://upload.wikimedia.org/wikipedia/fr/3/36/Hoshizaki_logo.png" alt="brand logo">
+            </div>
             <div class="thumb">
               <img src="https://icemakers.sk/files/cache/product/448/picture_compact-k-220-lg-2w-300x300.jpg"
                 alt="Šokové zchlazovače">
@@ -253,6 +311,9 @@
       <div class="col-6 col-md-3">
         <div class="product-card">
           <a href="ice_vycapne.html" aria-label="Šokové zchlazovače">
+            <div class="brand-logo">
+              <img src="https://upload.wikimedia.org/wikipedia/fr/3/36/Hoshizaki_logo.png" alt="brand logo">
+            </div>
             <div class="thumb">
               <img src="https://icemakers.sk/files/cache/product/115/beermatic_foto-300x300.jpg"
                 alt="Šokové zchlazovače">
@@ -265,9 +326,11 @@
       <div class="col-6 col-md-3">
         <div class="product-card">
           <a href="ice_nahradne_21x21x14_6G.html" aria-label="Šokové zchlazovače">
+            <div class="brand-logo">
+              <img src="https://upload.wikimedia.org/wikipedia/fr/3/36/Hoshizaki_logo.png" alt="brand logo">
+            </div>
             <div class="thumb">
-              <img src="https://icemakers.sk/files/cache/product/132/kapacitor-300x300.jpg"
-                alt="Šokové zchlazovače">
+              <img src="https://icemakers.sk/files/cache/product/132/kapacitor-300x300.jpg" alt="Šokové zchlazovače">
             </div>
             <div class="product-title" data-i18n="icemaker_nahradne">Náhradné diely</div>
           </a>
