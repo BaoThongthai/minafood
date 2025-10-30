@@ -1054,3 +1054,14 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link{
   object-fit: contain;
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
 }
+
+
+/* video decoration */
+.product-video {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
