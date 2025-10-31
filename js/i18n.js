@@ -219,6 +219,7 @@
             "section.Konvektomaty": "Konvektomaty a horkovzdušné trouby",
             "icemakers.ice_bucket": "NUGETOVE VÝROBNÍKY ĽADU",
             "section.svareky": "Svářečky podnosů",
+            "decora_tableware" : "NÁDOBÍ",
             "page.ice_maker.title": "Hoshizaki Výrobník ledu",
             "hoshizaki.text1": "Hoshizaki je přední světová značka z Japonska zaměřená na výrobníky ledu a profesionální chladicí zařízení. Je ceněna pro vysokou spolehlivost, čistotu ledu a stabilní výkon.",
             "hoshizaki.text2": "Díky moderní technologii a důrazu na hygienu je Hoshizaki oblíbenou volbou restaurací a hotelů, které hledají dlouhou životnost a nízké provozní náklady.",
@@ -241,6 +242,8 @@
 
         en: {
             "icemaker_vycapny":"Tapping devices",
+
+             "decora_tableware" : "TABLEWARE",
             "hoshizaki.text1":"Hoshizaki is a global leader from Japan specializing in commercial ice makers and refrigeration equipment. Known for durability and consistency, Hoshizaki products deliver pure ice and stable cooling performance for professional kitchens.",
             "hoshizaki.text2":"Trusted by top F&B brands worldwide, Hoshizaki combines advanced technology with strict hygiene standards to ensure reliable operation and lower operating costs.",
             "icemaker_nahradne": "Spare parts for ice makers",
