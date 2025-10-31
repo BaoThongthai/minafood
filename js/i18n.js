@@ -4,6 +4,7 @@
     const i18n = {
         cs: {
             "page.iceequiment.title": "Výrobníky ledu",
+            "decora_kategorie_porcelan":"Porcelán Kategorie ",
             "products.decor.title": "Výrobky pro výzdobu interiérů"
             ,
             "icemaker_vycapny":"Výčapne zariadenies",
@@ -242,7 +243,7 @@
 
         en: {
             "icemaker_vycapny":"Tapping devices",
-
+"decora_kategorie_porcelan":"Porcelain category",
              "decora_tableware" : "TABLEWARE",
             "hoshizaki.text1":"Hoshizaki is a global leader from Japan specializing in commercial ice makers and refrigeration equipment. Known for durability and consistency, Hoshizaki products deliver pure ice and stable cooling performance for professional kitchens.",
             "hoshizaki.text2":"Trusted by top F&B brands worldwide, Hoshizaki combines advanced technology with strict hygiene standards to ensure reliable operation and lower operating costs.",
