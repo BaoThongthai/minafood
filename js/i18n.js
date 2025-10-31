@@ -4,11 +4,12 @@
     const i18n = {
         cs: {
             "page.iceequiment.title": "Výrobníky ledu",
-            "decora_kategorie_porcelan":"Porcelán Kategorie ",
+            "decora_kitchenware": "kuchyňské nádobí",
+            "decora_kategorie_porcelan": "Porcelán Kategorie ",
             "products.decor.title": "Výrobky pro výzdobu interiérů"
             ,
-            "icemaker_vycapny":"Výčapne zariadenies",
-            "icemaker_Chladnicky&Mrazničky":"Chladnicky & Mrazničky",
+            "icemaker_vycapny": "Výčapne zariadenies",
+            "icemaker_Chladnicky&Mrazničky": "Chladnicky & Mrazničky",
             "section.decoration": "Výrobky pro výzdobu interiérů",
             "page.ice_bucket.title": "zásobníky na led",
             "tabs.decorace": "Ozdoby a dekorace",
@@ -220,8 +221,8 @@
             "section.Konvektomaty": "Konvektomaty a horkovzdušné trouby",
             "icemakers.ice_bucket": "NUGETOVE VÝROBNÍKY ĽADU",
             "section.svareky": "Svářečky podnosů",
-            "decora_tableware" : "NÁDOBÍ",
-            "decora_sklo_a_por":"Minafood - Sklo a porcelán",
+            "decora_tableware": "NÁDOBÍ",
+            "decora_sklo_a_por": "Minafood - Sklo a porcelán",
             "page.ice_maker.title": "Hoshizaki Výrobník ledu",
             "hoshizaki.text1": "Hoshizaki je přední světová značka z Japonska zaměřená na výrobníky ledu a profesionální chladicí zařízení. Je ceněna pro vysokou spolehlivost, čistotu ledu a stabilní výkon.",
             "hoshizaki.text2": "Díky moderní technologii a důrazu na hygienu je Hoshizaki oblíbenou volbou restaurací a hotelů, které hledají dlouhou životnost a nízké provozní náklady.",
@@ -243,17 +244,18 @@
         },
 
         en: {
-            "icemaker_vycapny":"Tapping devices",
-
-            "decora_sklo_a_por":"Minafood - Glass & porcelain",
-"decora_kategorie_porcelan":"Porcelain category",
-             "decora_tableware" : "TABLEWARE",
-            "hoshizaki.text1":"Hoshizaki is a global leader from Japan specializing in commercial ice makers and refrigeration equipment. Known for durability and consistency, Hoshizaki products deliver pure ice and stable cooling performance for professional kitchens.",
-            "hoshizaki.text2":"Trusted by top F&B brands worldwide, Hoshizaki combines advanced technology with strict hygiene standards to ensure reliable operation and lower operating costs.",
+            
+            "icemaker_vycapny": "Tapping devices",
+            "decora_kitchenware": "KITCHENWARE",
+            "decora_sklo_a_por": "Minafood - Glass & porcelain",
+            "decora_kategorie_porcelan": "Porcelain category",
+            "decora_tableware": "TABLEWARE",
+            "hoshizaki.text1": "Hoshizaki is a global leader from Japan specializing in commercial ice makers and refrigeration equipment. Known for durability and consistency, Hoshizaki products deliver pure ice and stable cooling performance for professional kitchens.",
+            "hoshizaki.text2": "Trusted by top F&B brands worldwide, Hoshizaki combines advanced technology with strict hygiene standards to ensure reliable operation and lower operating costs.",
             "icemaker_nahradne": "Spare parts for ice makers",
             "decorace.text1": "We offer a wide range of decorative items for the interiors of restaurants, cafes, & other gastronomic establishments. Our decorations combine aesthetics & functionality to create a pleasant atmosphere for your guests.",
             "icemakers_spec": "Special ice makers",
-            "icemaker_Chladnicky&Mrazničky":"Refrigerators & Freezers",
+            "icemaker_Chladnicky&Mrazničky": "Refrigerators & Freezers",
             "decorace.title": "Products for interior decoration",
             "decorace.text2": "Our decorations are designed to complement & enhance the atmosphere of your gastronomic space. We offer a wide range of styles & themes that can be tailored to your specific needs & tastes.",
             "icemakers_davkovace_ladu": "Ice dispensers",
