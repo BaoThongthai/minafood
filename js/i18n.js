@@ -3,11 +3,15 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+            "decora_gifsets":"dárkové sady",
+            "decora_grilling":"grilování",
             "page.iceequiment.title": "Výrobníky ledu",
+            "decora_tea&coffee":"Čaj a káva",
             "decora_kitchenware": "kuchyňské nádobí",
             "decora_kategorie_porcelan": "Porcelán Kategorie ",
             "products.decor.title": "Výrobky pro výzdobu interiérů"
             ,
+            "decora_chopsticks":"Tyčinky",
             "icemaker_vycapny": "Výčapne zariadenies",
             "icemaker_Chladnicky&Mrazničky": "Chladnicky & Mrazničky",
             "section.decoration": "Výrobky pro výzdobu interiérů",
@@ -244,7 +248,10 @@
         },
 
         en: {
-            
+            "decora_grilling":"grilling",
+            "decora_gifsets":"giftsets",
+            "decora_chopsticks":"CHOPSTICKS",
+             "decora_tea&coffee":"Tea & Coffee",
             "icemaker_vycapny": "Tapping devices",
             "decora_kitchenware": "KITCHENWARE",
             "decora_sklo_a_por": "Minafood - Glass & porcelain",

@@ -131,7 +131,7 @@
   };
 
   // ===== Quét nhiều trang =====
-  const TOTAL_PAGES = 9; // theo yêu cầu
+  const TOTAL_PAGES = 3; // theo yêu cầu
   console.log(`🔎 Collecting ${TOTAL_PAGES} page(s)...`);
 
   const all = [];
