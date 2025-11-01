@@ -5,6 +5,7 @@
         cs: {
             "decora_gifsets":"dárkové sady",
             "decora_grilling":"grilování",
+            "decora_decorative_porcelain":"dekorativní porcelán",
             "decora_healthcare":"zdravotnictví",
             "page.iceequiment.title": "Výrobníky ledu",
             "decora_tea&coffee":"Čaj a káva",
@@ -250,6 +251,7 @@
 
         en: {
             "decora_grilling":"grilling",
+            "decora_decorative_porcelain":"Decorative porcelain",
              "decora_healthcare":"healthcare",
             "decora_gifsets":"giftsets",
             "decora_chopsticks":"CHOPSTICKS",
