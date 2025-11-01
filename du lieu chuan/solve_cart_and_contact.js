@@ -5,7 +5,7 @@
   const PAGER_SLOT      = '#pager-slot';
   const CATEGORY_SLOT   = '#category-slot';
 
-  const DATA_URL = 'js/data/cnboriental_kitchenware.json'; // ← đổi sang file JSON của bạn
+  const DATA_URL = 'js/data/cnboriental_tableware.json'; // ← đổi sang file JSON của bạn
 
   const LABELS = {
     loadingAria: 'loading',
@@ -22,62 +22,18 @@
   const PAGE_SIZE = 30;
 
   // ========= CATEGORY RULES =========
- const CATEGORY_RULES = [
-  {
-    name: 'KNIVES',
-    patterns: [
-      /\bknife(s)?\b/i, /\bknives\b/i,
-      /\bgyuto\b/i, /\bsantoku\b/i, /\bpetty\b/i, /\bnakiri\b/i, /\bdeba\b/i,
-      /\bboning\b/i, /\bfillet\b/i, /\bcleaver\b/i, /\bsujihiki\b/i, /\byanagiba\b/i
-    ]
-  },
-  {
-    name: 'SHARPENING STONES',
-    patterns: [
-      /\bsharpen(ing)?\s*stone(s)?\b/i, /\bwhet\s*stone(s)?\b/i,
-      /\bwater\s*stone(s)?\b/i, /\bgrit\s*\d+\b/i, /\bnagura\b/i, /\bhoning\b/i
-    ]
-  },
-  {
-    name: 'CUTTING BOARDS',
-    patterns: [
-      /\bcutting\s*board(s)?\b/i, /\bchopping\s*board(s)?\b/i,
-      /\bboard\b/i, /\basahi\b/i, /\brubber\b/i, /\bsynthetic\b/i
-    ]
-  },
-  {
-    name: 'SCISSORS',
-    patterns: [
-      /\bscissor(s)?\b/i, /\bshear(s)?\b/i, /\bkitchen\s*shear(s)?\b/i
-    ]
-  },
-  {
-    name: 'COOKWARE',
-    patterns: [
-      /\bpot(s)?\b/i, /\bpan(s)?\b/i, /\bfry(ing)?\s*pan\b/i, /\bsauce\s*pan\b/i,
-      /\bstock\s*pot\b/i, /\bwok(s)?\b/i, /\bskillet(s)?\b/i,
-      /\bdutch\s*oven(s)?\b/i, /\bcasserole(s)?\b/i, /\bsauce\s*pot\b/i
-    ]
-  },
-  {
-    name: 'KITCHEN UTENSILS',
-    patterns: [
-      /\butensil(s)?\b/i, /\bspatula(s)?\b/i, /\bladle(s)?\b/i, /\bwhisk(s)?\b/i,
-      /\btong(s)?\b/i, /\bpeeler(s)?\b/i, /\bgrater(s)?\b/i, /\bskimmer(s)?\b/i,
-      /\bturner(s)?\b/i, /\bscoop(s)?\b/i, /\bmasher(s)?\b/i, /\bopener(s)?\b/i,
-      /\bmeasuring\s*(cup|spoon)s?\b/i, /\bcolander(s)?\b/i
-    ]
-  },
-  {
-    name: 'APPLIANCES',
-    patterns: [
-      /\bappliance(s)?\b/i, /\brice\s*cooker(s)?\b/i, /\bblender(s)?\b/i,
-      /\bmixer(s)?\b/i, /\btoaster(s)?\b/i, /\bmicrowave(s)?\b/i,
-      /\bgrill(s)?\b/i, /\boven(s)?\b/i, /\bice\s*maker(s)?\b/i,
-      /\bfood\s*processor(s)?\b/i, /\bvacuum\s*sealer(s)?\b/i
-    ]
-  }
-];
+  const CATEGORY_RULES = [
+    { name: 'COLLECTIONS', patterns: [/collection/i] },
+    { name: 'BOWLS', patterns: [/\bbowl(s)?\b/i] },
+    { name: 'PLATES', patterns: [/\bplate(s)?\b/i, /\bplatter(s)?\b/i] },
+    { name: 'SOY SAUCE DISHES AND DISPENSERS', patterns: [/soy\s*sauce/i, /dispenser/i] },
+    { name: 'MELAMINEWARE', patterns: [/melamine(ware)?/i] },
+    { name: 'LACQUERWARE', patterns: [/lacquer/i] },
+    { name: 'MELAMINE EARTHENWARE', patterns: [/earthenware/i] },
+    { name: 'BENTO BOXES AND TRAYS', patterns: [/bento/i, /\btray(s)?\b/i] },
+    { name: 'SAKE', patterns: [/\bsake\b/i, /\btokkuri\b/i, /\bochoko\b/i] },
+    { name: 'DISPLAYS', patterns: [/display/i] },
+  ];
 
   const SEE_ALL = LABELS.seeAll;
 
@@ -148,6 +104,12 @@
             ${p.sku ? `<p class="mb-2 small text-secondary">SKU: ${p.sku}</p>` : ''}
             ${priceText ? `<p class="mb-3 fw-semibold">${priceText}</p>` : `<p class="mb-3"></p>`}
             <div class="mt-auto d-flex justify-content-between gap-2">
+              <a href="#"
+                 class="btn border border-secondary rounded-pill px-3 text-primary js-inquiry-btn"
+                 data-id="${String(p.id).replace(/"/g, '&quot;')}">
+                 <i class="fa fa-paper-plane me-2 text-primary"></i>
+                 <span>${LABELS.contact}</span>
+              </a>
               <a href="#"
                  class="btn border border-secondary rounded-pill px-3 text-primary add-to-cart"
                  data-id="${String(p.id).replace(/"/g, '&quot;')}"
@@ -456,3 +418,19 @@
     }
   });
 })();
+
+// json có dạng như này
+//   {
+//     "id": "15544",
+//     "sku": "15544",
+//     "name": "Onyx Noir Shallow Bowl 25.6x4.5cm YW-7215/BK 3/36",
+//     "line1": "Onyx Noir Shallow Bowl 25.6x4.5cm",
+//     "line2": "YW-7215/BK 3/36",
+//     "label": "Final Stock",
+//     "price": 352.5,
+//     "price_src": 14.1,
+//     "currency": "",
+//     "image": "https://www.cnboriental-shop.nl/web/image/product.template/100398/image_512/%5B15544%5D%20Onyx%20Noir%20Shallow%20Bowl%2025.6x4.5cm%20YW-7215-BK%203-36?unique=b30a933",
+//     "href": "https://www.cnboriental-shop.nl/en_GB/shop/15544-onyx-noir-shallow-bowl-25-6x4-5cm-yw-7215-bk-3-36-100398?category=15",
+//     "sp": 1
+//   }

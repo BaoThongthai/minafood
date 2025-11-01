@@ -1,9 +1,9 @@
 // /js/products_filter_paged.js
 (async function () {
-  const GRID_SELECTOR = '#product-grid';
-  const COUNT_EL = '#product-count';
-  const PAGER_SLOT = '#pager-slot';
-  const CATEGORY_SLOT = '#category-slot';
+  const GRID_SELECTOR   = '#product-grid';
+  const COUNT_EL        = '#product-count';
+  const PAGER_SLOT      = '#pager-slot';
+  const CATEGORY_SLOT   = '#category-slot';
 
   const DATA_URL = 'js/data/cnboriental_tableware.json'; // ← đổi sang file JSON của bạn
 
@@ -14,12 +14,14 @@
     prev: '«',
     next: '»',
     page: 'Trang',
-    seeAll: 'SEE ALL'
+    seeAll: 'SEE ALL',
+    addToCart: 'Add to Cart',
+    added: 'Added!'
   };
 
   const PAGE_SIZE = 30;
 
-  // ========= CATEGORY RULES (dựa trên tên sản phẩm) =========
+  // ========= CATEGORY RULES =========
   const CATEGORY_RULES = [
     { name: 'COLLECTIONS', patterns: [/collection/i] },
     { name: 'BOWLS', patterns: [/\bbowl(s)?\b/i] },
@@ -32,6 +34,7 @@
     { name: 'SAKE', patterns: [/\bsake\b/i, /\btokkuri\b/i, /\bochoko\b/i] },
     { name: 'DISPLAYS', patterns: [/display/i] },
   ];
+
   const SEE_ALL = LABELS.seeAll;
 
   // ========= STATE =========
@@ -50,7 +53,7 @@
   const grid = document.querySelector(GRID_SELECTOR);
   if (!grid) return;
 
-  // ========= UTIL / RENDER =========
+  // ========= UTIL =========
   const normalize = (p) => ({
     id: p?.id || p?.sku || p?.name || '',
     sku: p?.sku || '',
@@ -58,14 +61,24 @@
     line1: p?.line1 || '',
     line2: p?.line2 || '',
     label: p?.label || '',
-    price: (p?.price ?? '') === '' ? null : p?.price,
-    currency: p?.currency || '',
+    // cố gắng chuyển giá thành number; nếu rỗng => null
+    price: (p?.price === '' || p?.price == null) ? null : Number(p.price),
+    currency: (p?.currency || '').trim(), // có thể rỗng
     image: p?.image || 'img/placeholder.webp',
     href: p?.href || '#',
     sp: p?.sp ?? null
   });
 
-  const fmtPrice = (price, currency) => (price == null || price === '') ? '' : `${price} ${currency}`.trim();
+  // Format giá: cs-CZ, 2 số lẻ. Nếu không có currency → mặc định "Kč bez DPH"
+  const fmtPrice = (price, currency) => {
+    if (price == null || price === '' || isNaN(price)) return '';
+    const formatted = new Intl.NumberFormat('cs-CZ', {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    }).format(Number(price));
+    const tail = currency ? currency : 'Kč bez DPH';
+    return `${formatted} ${tail}`.trim();
+  };
 
   function detectCategoryByName(name = '') {
     for (const rule of CATEGORY_RULES) {
@@ -74,6 +87,7 @@
     return SEE_ALL;
   }
 
+  // ========= RENDER =========
   const cardHTML = (p) => {
     const priceText = fmtPrice(p.price, p.currency);
     return `
@@ -91,10 +105,14 @@
             ${priceText ? `<p class="mb-3 fw-semibold">${priceText}</p>` : `<p class="mb-3"></p>`}
             <div class="mt-auto d-flex justify-content-between gap-2">
               <a href="#"
-                 class="btn border border-secondary rounded-pill px-3 text-primary js-inquiry-btn"
-                 data-id="${String(p.id).replace(/"/g, '&quot;')}">
-                 <i class="fa fa-paper-plane me-2 text-primary"></i>
-                 <span>${LABELS.contact}</span>
+                 class="btn border border-secondary rounded-pill px-3 text-primary add-to-cart"
+                 data-id="${String(p.id).replace(/"/g, '&quot;')}"
+                 data-name="${String(p.name).replace(/"/g, '&quot;')}"
+                 data-price="${p.price ?? ''}"
+                 data-currency="${p.currency || 'Kč'}"
+                 data-image="${p.image}">
+                 <i class="fa fa-shopping-bag me-2 text-primary"></i>
+                 <span>${LABELS.addToCart}</span>
               </a>
             </div>
           </div>
@@ -104,18 +122,22 @@
   };
 
   // Popup (tận dụng markup sẵn)
-  const popup = document.getElementById('product-popup');
-  const popupImg = document.getElementById('popup-img');
-  const popupName = document.getElementById('popup-name');
-  const popupDim = document.getElementById('popup-dim');
+  const popup       = document.getElementById('product-popup');
+  const popupImg    = document.getElementById('popup-img');
+  const popupName   = document.getElementById('popup-name');
+  const popupDim    = document.getElementById('popup-dim');
   const popupWeight = document.getElementById('popup-weight');
-  const popupClose = document.querySelector('.product-popup-close');
+  const popupClose  = document.querySelector('.product-popup-close');
+
   function openPopup(p) {
     popupImg.src = p.image || 'img/placeholder.webp';
     popupImg.alt = p.name || '';
     popupName.textContent = p.name || '';
     popupDim.textContent = [p.line1, p.line2].filter(Boolean).join(' • ');
-    popupWeight.textContent = [p.sku ? `SKU: ${p.sku}` : '', fmtPrice(p.price, p.currency)].filter(Boolean).join(' | ');
+    popupWeight.textContent = [
+      p.sku ? `SKU: ${p.sku}` : '',
+      fmtPrice(p.price, p.currency)
+    ].filter(Boolean).join(' | ');
     popup.classList.remove('hidden');
   }
   function closePopup() { popup.classList.add('hidden'); }
@@ -125,6 +147,7 @@
   function attachCardHandlers() {
     grid.querySelectorAll('.fruite-item').forEach(item => {
       item.addEventListener('click', (ev) => {
+        // tránh mở popup khi bấm nút
         if (ev.target.closest('a,button')) return;
         const id = item.dataset.id;
         const p = filteredProducts.find(prod => String(prod.id) === String(id));
@@ -132,6 +155,32 @@
       });
     });
   }
+
+  // ===== Add to Cart (uỷ quyền trên grid để không mất sau re-render) =====
+  grid.addEventListener('click', (e) => {
+    const a = e.target.closest('a.add-to-cart');
+    if (!a) return;
+    e.preventDefault();
+
+    const item = {
+      id: a.dataset.id,
+      name: a.dataset.name,
+      price: Number(a.dataset.price),
+      currency: a.dataset.currency || 'Kč',
+      image: a.dataset.image,
+      qty: 1
+    };
+
+    document.dispatchEvent(new CustomEvent('cart:add', { detail: item }));
+
+    a.classList.add('disabled');
+    const span = a.querySelector('span');
+    if (span) span.textContent = LABELS.added;
+    setTimeout(() => {
+      a.classList.remove('disabled');
+      if (span) span.textContent = LABELS.addToCart;
+    }, 1200);
+  });
 
   // ===== Dropdown category (Bootstrap) =====
   function updateURL() {
@@ -176,7 +225,7 @@
     });
   }
 
-  // ===== Phân trang Prev / Select / Next (Bootstrap input-group) =====
+  // ===== Phân trang Prev / Select / Next =====
   function renderPager(totalItems) {
     const slot = document.querySelector(PAGER_SLOT);
     if (!slot) return;
@@ -198,7 +247,7 @@
 
     const prevBtn = slot.querySelector('#pg-prev');
     const nextBtn = slot.querySelector('#pg-next');
-    const select = slot.querySelector('#pg-select');
+    const select  = slot.querySelector('#pg-select');
 
     prevBtn.disabled = currentPage <= 1;
     nextBtn.disabled = currentPage >= totalPages;
@@ -220,7 +269,7 @@
 
   function renderProducts() {
     const start = (currentPage - 1) * PAGE_SIZE;
-    const end = start + PAGE_SIZE;
+    const end   = start + PAGE_SIZE;
     const pageItems = filteredProducts.slice(start, end);
 
     grid.innerHTML = pageItems.map(cardHTML).join('');
@@ -230,7 +279,6 @@
     const cnt = document.querySelector(COUNT_EL);
     if (cnt) cnt.textContent = `${filteredProducts.length} Prodotti`;
 
-    // thông báo đã render (nếu cần hook ngoài)
     try {
       document.dispatchEvent(new CustomEvent('mina:productsRendered', { detail: { page: currentPage, total: filteredProducts.length } }));
     } catch {}
@@ -248,7 +296,10 @@
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const raw = await res.json();
 
-    allProducts = (Array.isArray(raw) ? raw : []).map(normalize).filter(p => p && p.name);
+    allProducts = (Array.isArray(raw) ? raw : [])
+      .map(normalize)
+      .filter(p => p && p.name);
+
     renderCategoryDropdown();
     applyFilter();
 
@@ -263,12 +314,11 @@
         <div class="alert alert-danger" role="alert">${LABELS.error}</div>
       </div>
     `;
-    const ps = document.querySelector(PAGER_SLOT); if (ps) ps.innerHTML = '';
+    const ps = document.querySelector(PAGER_SLOT);   if (ps) ps.innerHTML = '';
     const cs = document.querySelector(CATEGORY_SLOT); if (cs) cs.innerHTML = '';
   }
 
-  // ========== INQUIRY MODAL + EMAILJS (NHÚNG NGAY TRONG FILE NÀY) ==========
-  // Yêu cầu HTML đã có modal #inquiryModal như bạn dán ở trên.
+  // ========== INQUIRY MODAL + EMAILJS (giữ nguyên logic bạn đang dùng) ==========
   document.addEventListener('click', (e) => {
     const btn = e.target.closest('.js-inquiry-btn');
     if (!btn) return;
@@ -284,9 +334,8 @@
 
     const modalEl = document.getElementById('inquiryModal');
     if (!modalEl) { console.warn('[Inquiry] #inquiryModal not found'); return; }
-    const modal =(bootstrap?.Modal?.getInstance ? bootstrap.Modal.getInstance(modalEl) : null)|| new bootstrap.Modal(modalEl);
+    const modal = (bootstrap?.Modal?.getInstance ? bootstrap.Modal.getInstance(modalEl) : null) || new bootstrap.Modal(modalEl);
 
-    // fill UI
     const inqImg   = document.getElementById('inq-img');
     const inqName  = document.getElementById('inq-name');
     const inqLine  = document.getElementById('inq-line');
@@ -300,7 +349,6 @@
     const inqStatus= document.getElementById('inq-status');
     const inqSubmit= document.getElementById('inq-submit');
 
-    // giữ current product trên modal element để handler gửi truy cập
     modalEl._currentProduct = product;
 
     inqImg.src = product.image || 'img/placeholder.webp';
@@ -308,9 +356,8 @@
     inqName.textContent = product.name || '';
     inqLine.textContent = [product.line1, product.line2].filter(Boolean).join(' • ');
     inqSku.textContent = product.sku ? `SKU: ${product.sku}` : '';
-    inqPrice.textContent = (product.price == null || product.price === '') ? '' : `${product.price} ${product.currency || ''}`.trim();
+    inqPrice.textContent = fmtPrice(product.price, product.currency);
 
-    // reset form
     inqForm?.classList.remove('was-validated');
     if (inqEmail) inqEmail.value = '';
     if (inqPhone) inqPhone.value = '';
@@ -319,7 +366,6 @@
 
     modal.show();
 
-    // gắn 1 lần handler gửi (idempotent)
     if (!modalEl._sendBound && inqSubmit) {
       modalEl._sendBound = true;
       inqSubmit.addEventListener('click', async () => {
@@ -340,7 +386,7 @@
           product_line1: p.line1 || '',
           product_line2: p.line2 || '',
           product_sku: p.sku || '',
-          product_price: (p.price == null || p.price === '') ? '' : `${p.price} ${p.currency || ''}`.trim(),
+          product_price: fmtPrice(p.price, p.currency),
           product_image: p.image || '',
           product_link: p.href || '',
           page_url: window.location.href,
@@ -350,12 +396,8 @@
         };
 
         try {
-          // Emailjs nick : nobitavsxukanhieulam@gmail.com
-          // === EmailJS: thay 3 hằng số dưới (và đảm bảo đã nạp SDK + init ở HTML) ===
           const EMAILJS_SERVICE_ID = 'service_d7r5mo7';
           const EMAILJS_TEMPLATE_ID = 'template_nnbndsu';
-          // emailjs.init('YOUR_PUBLIC_KEY'); // init nên đặt ở HTML sau khi load SDK
-
           if (typeof emailjs === 'undefined') throw new Error('EmailJS SDK chưa được nạp hoặc chưa init');
           await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, params);
           if (inqStatus) inqStatus.textContent = 'Done ! We will contact you soon.';
