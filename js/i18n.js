@@ -3,6 +3,10 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+
+
+            "nav.Videa":"Videa",
+            "nav.Galerie":"Galerie",
             "decora_gifsets":"dárkové sady",
             "decora_grilling":"grilování",
             "decora_decorative_porcelain":"dekorativní porcelán",
@@ -91,7 +95,7 @@
             "tabs.kebabGrill2": "Gril na kebab",
             "tabs.inductionCookers": "Indukční vařiče",
             "tabs.hoods": "Digestoře",
-            "tabs.kitchenEquip": "Kuchyňské vybavení",
+            "tabs.kitchenEquip": "Kuchyňské potřeby",
 
             "prod.gasStoves.badge": "Plynový sporáky",
             "prod.gasStoves.title": "Plynový sporáky",
@@ -251,6 +255,8 @@
 
         en: {
             "decora_grilling":"grilling",
+             "nav.Videa":"Product Videos",
+            "nav.Galerie":"Gallery",
             "decora_decorative_porcelain":"Decorative porcelain",
              "decora_healthcare":"healthcare",
             "decora_gifsets":"giftsets",

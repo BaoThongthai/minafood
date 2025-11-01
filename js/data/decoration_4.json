@@ -1,0 +1,173 @@
+[
+  {
+    "id": "decoration-55",
+    "name": "Wooden Arch Display Shelf",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-55.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-56",
+    "name": "Japanese Style Bonsai Shelf",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-56.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-57",
+    "name": "Traditional Japanese Lady Figurine",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-57.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-58",
+    "name": "Round Wooden Display Rack",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-58.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-59",
+    "name": "Mini Cherry Blossom Bonsai Pot",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-59.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-60",
+    "name": "Classic Round Wooden Rack",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-60.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-61",
+    "name": "Circular Wooden Display Shelf",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-61.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-62",
+    "name": "Mini Fishing Boat Set",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-62.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-63",
+    "name": "Light Wood Bonsai Shelf",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-63.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-64",
+    "name": "Handcrafted Bamboo Grasshopper Model",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-64.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-65",
+    "name": "Wooden Shrimp Art Sculpture",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-65.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-66",
+    "name": "Golden Elephant Family Figurines",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-66.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-67",
+    "name": "Multi-Tier Round Wooden Shelf",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-67.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-68",
+    "name": "Rattan Hammock Tree Decor",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-68.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-69",
+    "name": "Golden Fish Family Sculpture",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-69.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-70",
+    "name": "Wooden Carp Pair Figurine",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-70.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-71",
+    "name": "Handcrafted Fish Sculpture",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-71.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-72",
+    "name": "Artistic Wooden Fish Duo",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-72.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  },
+  {
+    "id": "decoration-73",
+    "name": "Layered Wooden Pebble Ornament",
+    "label": "Decor",
+    "price": 1300,
+    "currency": "Kč",
+    "image": "img/decorace/decoration-73.jpg",
+    "dimensions": { "w": "—", "d": "—", "h": "—" }
+  }
+]
