@@ -4,7 +4,7 @@
     const i18n = {
         cs: {
 
-
+            "index.galarie":"Tato galerie představuje fotografie, které sdíleli naši vážení zákazníci. Zachycují skutečné okamžiky toho, jak naše produkty zapadají do každodenního života. Každý snímek odráží důvěru, spokojenost a kvalitu, o kterou se snažíme v každém detailu.",
             "nav.Videa":"Videa",
             "nav.Galerie":"Galerie",
             "decora_gifsets":"dárkové sady",
@@ -255,6 +255,7 @@
 
         en: {
             "decora_grilling":"grilling",
+            "index.galarie":"This gallery showcases images shared by our valued customers, capturing real moments of how our products fit beautifully into everyday life. Each photo reflects trust, satisfaction, and the quality we strive to deliver in every detail",
              "nav.Videa":"Product Videos",
             "nav.Galerie":"Gallery",
             "decora_decorative_porcelain":"Decorative porcelain",
