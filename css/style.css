@@ -1059,10 +1059,21 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link{
 /* video decoration */
 .product-video {
   width: 100%;
-  max-width: 400px;
-  height: 400px;
+  max-width: 500px;
+  height: 300px;
   object-fit: cover;
   border-radius: 12px;
 }
+
+.product-video-dai {
+  width: 100%;
+  max-width: 300px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+
 
 
