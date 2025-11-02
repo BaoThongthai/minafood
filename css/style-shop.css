@@ -559,7 +559,7 @@
   /* coede thêm */
   .hero-section {
     position: relative;
-    background: url('https://minafood.cz/wp-content/uploads/2024/03/kitchen-with-large-window.png') center center/cover no-repeat;
+    background: url('../img/kitchen-with-large-window.png') center center/cover no-repeat;
     min-height: 400px;
     display: flex;
     align-items: center;
