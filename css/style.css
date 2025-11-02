@@ -1067,8 +1067,8 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link{
 
 .product-video-dai {
   width: 100%;
-  max-width: 300px;
-  height: 500px;
+  max-width: 350px;
+  height: 606px;
   object-fit: cover;
   border-radius: 12px;
 }
