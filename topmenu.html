@@ -1,4 +1,7 @@
 <!-- components/topmenu.html -->
+
+<link rel="stylesheet" href="/css/mf_search.css">
+<script defer src="/js/mf_search.js"></script>
 <nav class="mf-topmenu border-top border-bottom bg-white">
         <div class="container d-flex align-items-center gap-3 flex-wrap py-2">
                 <a class="mf-link" href="/Porcelain_Kategorie.html">HOME</a>
@@ -270,6 +273,17 @@
                                 </li>
                         </ul>
                 </div>
+
+                <!-- SEARCH (global) -->
+<div class="ms-auto d-flex align-items-center">
+  <form id="mf-search-form" action="/search.html" class="mf-search">
+    <input id="mf-search-input" name="q" type="search" placeholder="Tìm sản phẩm…"
+           autocomplete="off" aria-label="Search">
+    <button type="submit">Tìm</button>
+    <div id="mf-search-suggest" class="mf-suggest" hidden></div>
+  </form>
+</div>
+
 
         </div>
 </nav>

@@ -478,27 +478,6 @@ const CATEGORY_RULES = [
       });
     }
   });
-     // === NHẬN CATEGORY TỪ THANH MENU (SPA, không reload) ===
-document.addEventListener('mina:menuCategory', (e) => {
-  const cat = (e.detail?.cat || SEE_ALL).trim();
-  if (!cat) return;
+// nhận search
 
-  // Nếu trùng category hiện tại thì thôi
-  if (cat === currentCategory) return;
-
-  // Cập nhật state
-  currentCategory = cat;
-  currentPage = 1;
-
-  // Lọc + render lại
-  applyFilter();
-  renderCategoryDropdown(); // để nút dropdown hiển thị đúng cat hiện tại
-  renderProducts();
-
-  // Đồng bộ URL cho back/refresh vẫn giữ filter
-  const url = new URL(location.href);
-  url.searchParams.set('page', '1');
-  url.searchParams.set('cat', currentCategory);
-  history.replaceState(null, '', url);
-});
 })();

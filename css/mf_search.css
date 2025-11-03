@@ -1,0 +1,123 @@
+/* ====== FORM SEARCH TRÊN HEADER ====== */
+.mf-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mf-search input[type="search"] {
+  width: 240px;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 0.9rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.mf-search input[type="search"]:focus {
+  border-color: #1f3353;
+  box-shadow: 0 0 0 3px rgba(31, 51, 83, 0.15);
+}
+
+.mf-search button {
+  padding: 0.45rem 0.8rem;
+  border: 1px solid #1f3353;
+  background-color: #1f3353;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s, opacity 0.2s;
+}
+
+.mf-search button:hover {
+  background-color: #16253b;
+  opacity: 0.95;
+}
+
+/* ====== DROPDOWN GỢI Ý ====== */
+.mf-suggest {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1100;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  margin-top: 0.35rem;
+  max-height: 420px;
+  overflow-y: auto;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.mf-s-item {
+  display: flex;
+  gap: 0.6rem;
+  padding: 0.55rem 0.6rem;
+  text-decoration: none;
+  color: #111;
+  align-items: center;
+  transition: background-color 0.15s;
+}
+
+.mf-s-item:hover {
+  background: #f5f7fb;
+}
+
+.mf-s-item img {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  background: #fafafa;
+}
+
+.mf-s-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.2;
+}
+
+.mf-s-name {
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.mf-s-meta {
+  font-size: 0.78rem;
+  color: #6b7280;
+  margin-top: 2px;
+}
+
+.mf-s-name mark {
+  background: transparent;
+  color: #d12f2f;
+  font-weight: 700;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 992px) {
+  .mf-search input[type="search"] {
+    width: 180px;
+  }
+}
+
+@media (max-width: 576px) {
+  .mf-search input[type="search"] {
+    width: 140px;
+    font-size: 0.85rem;
+  }
+  .mf-search button {
+    display: none;
+  }
+}
+
+/* ====== GIÚP KHÔNG CHE MENU DROPDOWN ====== */
+.mf-topmenu .mf-suggest {
+  z-index: 2000;
+}
