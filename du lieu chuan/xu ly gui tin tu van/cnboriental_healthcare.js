@@ -184,7 +184,12 @@ const CATEGORY_RULES = [
             ${p.sku ? `<p class="mb-2 small text-secondary">SKU: ${p.sku}</p>` : ''}
             ${priceText ? `<p class="mb-3 fw-semibold">${priceText}</p>` : `<p class="mb-3"></p>`}
             <div class="mt-auto d-flex justify-content-between gap-2">
-            
+               <a href="#"
+                 class="btn border border-secondary rounded-pill px-3 text-primary js-inquiry-btn"
+                 data-id="${String(p.id).replace(/"/g, '&quot;')}">
+                 <i class="fa fa-paper-plane me-2 text-primary"></i>
+                 <span>${LABELS.contact}</span>
+              </a>
               <a href="#"
                  class="btn border border-secondary rounded-pill px-3 text-primary add-to-cart"
                  data-id="${String(p.id).replace(/"/g, '&quot;')}"

@@ -16,7 +16,11 @@
     { json: '/js/data/cnboriental_grilling.json',    page: '/cnboriental_grilling.html',     cat: 'GRILLING' },
     // File data là "decoration.json" nhưng page là "decorations.html"
     { json: '/js/data/cnboriental_decorations.json',  page: '/cnboriental_decorations.html',  cat: 'DECORATIONS' },
-    { json: '/js/data/cnboriental_healthcare.json',  page: '/cnboriental_healthcare.html',   cat: 'HEALTHCARE' }
+    { json: '/js/data/cnboriental_healthcare.json',  page: '/cnboriental_healthcare.html',   cat: 'HEALTHCARE' },
+    {json: '/js/data/decoration_1.json',  page: '/decoration.html',   cat: ''},
+    {json: '/js/data/gline.json',  page: '/gas_g-line.html',   cat: 'G-line'},
+    {json: '/js/data/ice_machine/ice_trays.json', page: '/ice_trays.html'},
+    {json: '/js/casta_equiment/data/frytezy_lady900_1.json'},
   ];
 
   // ==== PHẦN TỬ FORM TRONG HEADER (nếu trang hiện tại có include topmenu) ====
@@ -186,7 +190,7 @@
         <h3 style="font-size:1rem;margin:.55rem 0 .25rem">${esc(p.name)}</h3>
         <div class="meta" style="font-size:.85rem;color:#6b7280">${esc(p.cat)}${p.sku?(' • '+esc(p.sku)) : ''}</div>
         ${p.price!=null ? `<div class="price" style="font-weight:700;margin-top:.35rem">${p.price} ${p.currency||''}</div>` : ''}
-        <a class="mf-btn" href="${esc(p.url || p.page)}" style="display:inline-block;margin-top:.5rem">Xem trên trang</a>
+        <a class="mf-btn" href="${esc(p.url || p.page)}" style="display:inline-block;margin-top:.5rem">Add to Cart</a>
       </div>
     `).join('');
   }

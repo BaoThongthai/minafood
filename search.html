@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
- <meta charset="utf-8">
+    <meta charset="utf-8">
     <title>MinaFood - Search Page</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <!-- minafood -->
@@ -64,10 +64,6 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-
-
-
-    
     <style>
         .mf-results {
             max-width: 1100px;
@@ -96,12 +92,18 @@
 
         .mf-card img {
             width: 100%;
-            height: 180px;
-            object-fit: cover;
-            border-radius: 8px;
-            background: #fafafa;
-            border: 1px solid #eee
+            height: 200px;
+            object-fit: contain;
+            /* ảnh co vừa khung, không cắt */
+            background-color: #fff;
+            /* nền trắng (hoặc #fafafa nếu muốn) */
+            border-radius: 10px;
+            border: 1px solid #eee;
+           
+            /* chừa viền trắng giúp ảnh có breathing space */
+            box-sizing: border-box;
         }
+
 
         .mf-card h3 {
             font-size: 1rem;
@@ -128,7 +130,7 @@
 </head>
 
 <body>
-        <!-- Navbar start -->
+    <!-- Navbar start -->
     <div class="container-fluid fixed-top">
         <div class="container topbar bg-primary d-none d-lg-block">
             <div class="d-flex justify-content-between">
@@ -159,7 +161,7 @@
                         <a href="index.html#Kategorie" class="nav-item nav-link"
                             data-i18n="nav.categories">Kategorie</a>
                         <a href="index.html#Onas" class="nav-item nav-link" data-i18n="nav.about">O nás</a>
-                         <a href="Galerie.html" class="nav-item nav-link" data-i18n="nav.Galerie">Galerie</a>
+                        <a href="Galerie.html" class="nav-item nav-link" data-i18n="nav.Galerie">Galerie</a>
                         <a href="videa.html" class="nav-item nav-link" data-i18n="nav.Videa">Videa</a>
                         <a href="contact.html" class="nav-item nav-link" data-i18n="nav.contact">Contact</a>
                     </div>
@@ -182,6 +184,7 @@
         </div>
     </div>
     <!-- Navbar End -->
+
     <!-- có thể include header của bạn ở đây -->
     <div class="mf-results">
         <div class="mf-head">
@@ -201,93 +204,93 @@
 
     <!-- Xử lý search và add to cart trong trang search -->
     <script>
-(async () => {
-  const params = new URLSearchParams(location.search);
-  const qRaw = params.get('q') || '';
-  const $ = (s, r=document) => r.querySelector(s);
+        (async () => {
+            const params = new URLSearchParams(location.search);
+            const qRaw = params.get('q') || '';
+            const $ = (s, r = document) => r.querySelector(s);
 
-  // điền lại ô search (nếu có)
-  const input = $('#mf-search-input');
-  if (input) input.value = qRaw;
+            // điền lại ô search (nếu có)
+            const input = $('#mf-search-input');
+            if (input) input.value = qRaw;
 
-  // ===== Utilities =====
-  const deaccent = (s='') => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-  const attrSafe = (s='') => String(s).replace(/"/g, '&quot;');
-  const fmtPrice = (price, currency) => {
-    if (price == null || price === '' || isNaN(Number(price))) return '';
-    const formatted = new Intl.NumberFormat('cs-CZ',{minimumFractionDigits:2,maximumFractionDigits:2}).format(Number(price));
-    return `${formatted} ${currency ? currency : 'Kč bez DPH'}`;
-  };
+            // ===== Utilities =====
+            const deaccent = (s = '') => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+            const attrSafe = (s = '') => String(s).replace(/"/g, '&quot;');
+            const fmtPrice = (price, currency) => {
+                if (price == null || price === '' || isNaN(Number(price))) return '';
+                const formatted = new Intl.NumberFormat('cs-CZ', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(Number(price));
+                return `${formatted} ${currency ? currency : 'Kč bez DPH'}`;
+            };
 
-  // Lấy index từ mf_search.js (localStorage)
-  async function pullIndex() {
-    try {
-      const cache = JSON.parse(localStorage.getItem('mf_search_index_v1') || 'null');
-      if (cache && cache.items) return cache.items;
-    } catch {}
-    // fallback: nạp file rồi đọc lại cache
-    await new Promise(res => {
-      const s = document.createElement('script');
-      s.src = '/js/mf_search.js';
-      s.onload = () => setTimeout(res, 300);
-      document.body.appendChild(s);
-    });
-    try {
-      const cache = JSON.parse(localStorage.getItem('mf_search_index_v1') || 'null');
-      return (cache && cache.items) ? cache.items : [];
-    } catch { return []; }
-  }
+            // Lấy index từ mf_search.js (localStorage)
+            async function pullIndex() {
+                try {
+                    const cache = JSON.parse(localStorage.getItem('mf_search_index_v1') || 'null');
+                    if (cache && cache.items) return cache.items;
+                } catch { }
+                // fallback: nạp file rồi đọc lại cache
+                await new Promise(res => {
+                    const s = document.createElement('script');
+                    s.src = '/js/mf_search.js';
+                    s.onload = () => setTimeout(res, 300);
+                    document.body.appendChild(s);
+                });
+                try {
+                    const cache = JSON.parse(localStorage.getItem('mf_search_index_v1') || 'null');
+                    return (cache && cache.items) ? cache.items : [];
+                } catch { return []; }
+            }
 
-  // ===== Mini Cart (localStorage) =====
-  const CART_KEY = 'mina_cart';
-  function readCart(){ try{ return JSON.parse(localStorage.getItem(CART_KEY) || '[]'); }catch{return []} }
-  function writeCart(list){ localStorage.setItem(CART_KEY, JSON.stringify(list)); }
-  function addToCart(item){
-    const cart = readCart();
-    const idx = cart.findIndex(x => String(x.id) === String(item.id));
-    if (idx >= 0) { cart[idx].qty = (cart[idx].qty||0) + (item.qty||1); }
-    else cart.push({...item, qty: item.qty || 1});
-    writeCart(cart);
-    updateCartBadge();
-    // tương thích hệ thống cũ nếu có
-    try { document.dispatchEvent(new CustomEvent('cart:add', { detail: item })); } catch {}
-  }
-  function cartCount(){
-    return readCart().reduce((s, it) => s + (Number(it.qty)||0), 0);
-  }
-  function updateCartBadge(){
-    const badge = document.querySelector('a[href="cart.html"] span.position-absolute');
-    if (badge) badge.textContent = String(cartCount());
-  }
-  updateCartBadge();
+            // ===== Mini Cart (localStorage) =====
+            const CART_KEY = 'mina_cart';
+            function readCart() { try { return JSON.parse(localStorage.getItem(CART_KEY) || '[]'); } catch { return [] } }
+            function writeCart(list) { localStorage.setItem(CART_KEY, JSON.stringify(list)); }
+            function addToCart(item) {
+                const cart = readCart();
+                const idx = cart.findIndex(x => String(x.id) === String(item.id));
+                if (idx >= 0) { cart[idx].qty = (cart[idx].qty || 0) + (item.qty || 1); }
+                else cart.push({ ...item, qty: item.qty || 1 });
+                writeCart(cart);
+                updateCartBadge();
+                // tương thích hệ thống cũ nếu có
+                try { document.dispatchEvent(new CustomEvent('cart:add', { detail: item })); } catch { }
+            }
+            function cartCount() {
+                return readCart().reduce((s, it) => s + (Number(it.qty) || 0), 0);
+            }
+            function updateCartBadge() {
+                const badge = document.querySelector('a[href="cart.html"] span.position-absolute');
+                if (badge) badge.textContent = String(cartCount());
+            }
+            updateCartBadge();
 
-  // ===== Rank & render =====
-  const q = deaccent(qRaw.trim());
-  const data = await pullIndex();
+            // ===== Rank & render =====
+            const q = deaccent(qRaw.trim());
+            const data = await pullIndex();
 
-  const ranked = data
-    .map(it => ({
-      it,
-      sc: (it._norm.includes(q) ? 10 : 0)
-        + (it._norm.startsWith(q) ? 5 : 0)
-        + q.split(/\s+/).filter(Boolean).reduce((a,t)=>a+(it._norm.includes(t)?2:0),0)
-    }))
-    .filter(x => x.sc > 0)
-    .sort((a,b)=> b.sc - a.sc)
-    .map(x => x.it);
+            const ranked = data
+                .map(it => ({
+                    it,
+                    sc: (it._norm.includes(q) ? 10 : 0)
+                        + (it._norm.startsWith(q) ? 5 : 0)
+                        + q.split(/\s+/).filter(Boolean).reduce((a, t) => a + (it._norm.includes(t) ? 2 : 0), 0)
+                }))
+                .filter(x => x.sc > 0)
+                .sort((a, b) => b.sc - a.sc)
+                .map(x => x.it);
 
-  const grid  = $('#mf-grid');
-  const count = $('#mf-count');
-  const empty = $('#mf-empty');
+            const grid = $('#mf-grid');
+            const count = $('#mf-count');
+            const empty = $('#mf-empty');
 
-  if (!ranked.length) { if (empty) empty.hidden = false; if (count) count.textContent='0 kết quả'; return; }
-  if (count) count.textContent = `${ranked.length} kết quả cho “${qRaw}”`;
+            if (!ranked.length) { if (empty) empty.hidden = false; if (count) count.textContent = '0 kết quả'; return; }
+            if (count) count.textContent = `${ranked.length} kết quả cho “${qRaw}”`;
 
-  grid.innerHTML = ranked.map(p => {
-    const id = p.name || p.sku || p.url || p.page || '';
-    const img = p.image || '/img/placeholder.webp';
-    const priceBlock = (p.price != null && p.price !== '') ? `<div class="price">${fmtPrice(p.price, p.currency)}</div>` : '';
-    return `
+            grid.innerHTML = ranked.map(p => {
+                const id = p.name || p.sku || p.url || p.page || '';
+                const img = p.image || '/img/placeholder.webp';
+                const priceBlock = (p.price != null && p.price !== '') ? `<div class="price">${fmtPrice(p.price, p.currency)}</div>` : '';
+                return `
       <div class="mf-card" id="${encodeURIComponent(id)}">
         <img loading="lazy" src="${attrSafe(img)}" alt="">
         <h3>${attrSafe(p.name || '')}</h3>
@@ -307,35 +310,35 @@
         </div>
       </div>
     `;
-  }).join('');
+            }).join('');
 
-  // ===== Add to Cart (event delegation) =====
-  grid.addEventListener('click', (e) => {
-    const btn = e.target.closest('.btn-add-to-cart');
-    if (!btn) return;
-    e.preventDefault();
+            // ===== Add to Cart (event delegation) =====
+            grid.addEventListener('click', (e) => {
+                const btn = e.target.closest('.btn-add-to-cart');
+                if (!btn) return;
+                e.preventDefault();
 
-    const priceNum = Number(btn.dataset.price || 0);
-    const item = {
-      id: btn.dataset.id,
-      name: btn.dataset.name,
-      price: isNaN(priceNum) ? 0 : priceNum,
-      currency: btn.dataset.currency || 'Kč',
-      image: btn.dataset.image || '/img/placeholder.webp',
-      qty: 1
-    };
+                const priceNum = Number(btn.dataset.price || 0);
+                const item = {
+                    id: btn.dataset.id,
+                    name: btn.dataset.name,
+                    price: isNaN(priceNum) ? 0 : priceNum,
+                    currency: btn.dataset.currency || 'Kč',
+                    image: btn.dataset.image || '/img/placeholder.webp',
+                    qty: 1
+                };
 
-    addToCart(item);
+                addToCart(item);
 
-    btn.classList.add('disabled');
-    const span = btn.querySelector('span');
-    if (span) span.textContent = 'Added!';
-    setTimeout(() => {
-      btn.classList.remove('disabled');
-      if (span) span.textContent = 'Add to Cart';
-    }, 1200);
-  });
-})();
+                btn.classList.add('disabled');
+                const span = btn.querySelector('span');
+                if (span) span.textContent = 'Added!';
+                setTimeout(() => {
+                    btn.classList.remove('disabled');
+                    if (span) span.textContent = 'Add to Cart';
+                }, 1200);
+            });
+        })();
     </script>
 
     <!-- Back to Top -->
@@ -355,7 +358,7 @@
     <script src="js/main.js"></script>
     <script src="js/i18n.js"></script>
     <script src="js/cart.js"></script>
-    
+
 </body>
 
 </html>
