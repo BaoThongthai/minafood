@@ -64,68 +64,26 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+        <!-- Mapping -->
+    <link rel="stylesheet" href="css/topmenu.css">
+
+    <script src="js/fragment-loader.js"></script>
+    <script>
+        loadFragment('#global-topmenu', 'topmenu.html', {
+            catBase: '/cnboriental_tableware.html',
+            catBase: '/cnboriental_kitchenware.html',
+            catBase: '/cnboriental_sushi&ramen.html',
+            catBase:'/cnboriental_chopsticks.html',
+            catBase:'/cnboriental_decoration.html',
+            catBase:'/cnboriental_gift.html',
+            catBase:'/cnboriental_grilling.html',
+             catBase:'/cnboriental_healthcare.html',
+             catBase:'/cnboriental_tea&coffee.html',
+        });
+    </script>
 </head>
 
 <body>
-
-
-    <!-- Spinner Start -->
-    <div id="spinner"
-        class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
-        <div class="spinner-grow text-primary" role="status"></div>
-    </div>
-    <!-- Spinner End -->
-
-    <!-- POPUP -->
-    <!-- Inquiry Modal -->
-    <div class="modal fade" id="inquiryModal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content border border-secondary rounded-3">
-                <div class="modal-header">
-                    <h5 class="modal-title">Na poptávku</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-
-                <div class="modal-body">
-                    <div class="d-flex gap-3 mb-3">
-                        <img id="inq-img" src="img/placeholder.webp" class="rounded border"
-                            style="width:120px;height:120px;object-fit:cover;">
-                        <div>
-                            <div class="fw-bold" id="inq-name"></div>
-                            <div class="text-muted small" id="inq-line"></div>
-                            <div class="small" id="inq-sku"></div>
-                            <div class="small fw-semibold" id="inq-price"></div>
-                        </div>
-                    </div>
-                    <form id="inquiryForm" novalidate>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <label class="form-label">Email</label>
-                                <input type="email" class="form-control" id="inq-email" required>
-                            </div>
-                            <div class="col-md-6">
-                                <label class="form-label">Phone number</label>
-                                <input type="tel" class="form-control" id="inq-phone" required>
-                            </div>
-                            <div class="col-12">
-                                <label class="form-label">Message</label>
-                                <textarea class="form-control" id="inq-message" rows="3"></textarea>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-                <div class="modal-footer">
-                    <div class="me-auto small text-muted" id="inq-status"></div>
-                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary" id="inq-submit">
-                        <i class="fa fa-paper-plane me-2"></i> Send
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END POPUP -->
     <!-- Navbar start -->
     <div class="container-fluid fixed-top">
         <div class="container topbar bg-primary d-none d-lg-block">
@@ -180,33 +138,7 @@
         </div>
     </div>
     <!-- Navbar End -->
-
-
-
-    <!-- Banner header page -->
-    <div class="page-header d-flex align-items-center justify-content-center text-center" style="
-       background: url('https://gotrangtri.vn/wp-content/uploads/2023/10/gom-su-nhat-ban-ava.jpg') center center/cover no-repeat;
-       height: 320px;
-       position: relative;
-     ">
-        <div class="overlay" style="
-       position: absolute;
-       top: 0; left: 0; right: 0; bottom: 0;
-       background: rgba(0, 0, 0, 0.4);
-     "></div>
-
-        <div class="container position-relative z-1 text-white">
-            <h1 class="fw-bold display-5 mb-3 text-uppercase" data-i18n="decora_decorative_porcelain" style="color: white;">
-                decorative porcelain
-            </h1>
-            <a href="Porcelain_Kategorie.html">
-                <p class="mb-0"><i class="fa-solid fa-backward"></i>&nbsp;
-                    Back
-                </p>
-            </a>
-        </div>
-    </div>
-    <!-- Banner header page -->
+    <div id="global-topmenu"></div>
 
     <!-- mina Shop Start-->
     <div class="container-fluid fruite py-5">

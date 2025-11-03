@@ -1,9 +1,9 @@
 // /js/products_filter_paged.js
 (async function () {
-  const GRID_SELECTOR   = '#product-grid';
-  const COUNT_EL        = '#product-count';
-  const PAGER_SLOT      = '#pager-slot';
-  const CATEGORY_SLOT   = '#category-slot';
+  const GRID_SELECTOR = '#product-grid';
+  const COUNT_EL = '#product-count';
+  const PAGER_SLOT = '#pager-slot';
+  const CATEGORY_SLOT = '#category-slot';
 
   const DATA_URL = 'js/data/cnboriental_grilling.json'; // ← đổi sang file JSON của bạn
 
@@ -22,57 +22,71 @@
   const PAGE_SIZE = 30;
 
   // ========= CATEGORY RULES =========
-const CATEGORY_RULES = [
+  const CATEGORY_RULES = [
     {
-    name: 'ELECTRIC GRILLS',
-    patterns: [
-      /\belectric\s*grill(s)?\b/i, /\bhot\s*plate(s)?\b/i,
-      /\bteppan(yaki)?\b/i, /\binduction\s*grill(s)?\b/i,
-      /\bcontact\s*grill\b/i, /\binfrared\s*grill\b/i,
-      /\belectric\s*bbq\b/i, /\belectric\s*stove\b/i,
-      /\belectric\s*cooker\b/i
-    ]
-  },
-  {
-    name: 'JAPANESE KONRO',
-    patterns: [
-      /\bjapanese\s*konro\b/i,
-    ]
-  },
-  {
-    name: 'CHINESE KONRO',
-    patterns: [
-      /\bchinese\s*konro\b/i, 
-    ]
-  },
-  {
-    name: 'CHARCOALS',
-    patterns: [
-      /\bcharcoal(s)?\b/i,
-    ]
-  },
-  {
-    name: 'SPARE PARTS',
-    patterns: [
-      /\bspare\s*part(s)?\b/i, /\breplacement\b/i,
-      /\bmesh\b/i, /\bwire\b/i, /\bgrill\s*net\b/i,
-      /\bhandle\b/i, /\bgrate(s)?\b/i, /\bcomponent(s)?\b/i
-    ]
-  },
-  {
-    name: 'SKEWERS & TONGS',
-    patterns: [
-      /\btong(s)?\b/i,
-     
-    ]
-  },
-  {
-    name: 'GRILLING STONES',
-    patterns: [
-      /\bgrilling\s*stone(s)?\b/i,
-    ]
-  },
-];
+      name: 'ELECTRIC GRILLS',
+      patterns: [
+        /\belectric\s*grill(s)?\b/i, /\bhot\s*plate(s)?\b/i,
+        /\bteppan(yaki)?\b/i, /\binduction\s*grill(s)?\b/i,
+        /\bcontact\s*grill\b/i, /\binfrared\s*grill\b/i,
+        /\belectric\s*bbq\b/i, /\belectric\s*stove\b/i,
+        /\belectric\s*cooker\b/i
+      ]
+    },
+    {
+      name: 'JAPANESE KONRO',
+      patterns: [
+        /\bjapanese\s*konro\b/i,
+      ]
+    },
+    {
+      name: 'CHINESE KONRO',
+      patterns: [
+        /\bchinese\s*konro\b/i,
+      ]
+    },
+    {
+      name: 'CHARCOALS',
+      patterns: [
+        /\bcharcoal(s)?\b/i,
+      ]
+    },
+    {
+      name: 'SKEWERS & TONGS',
+      patterns: [
+        // Tongs
+        /\btongs?\b/i, /\bkitchen\s*tongs?\b/i, /\bserving\s*tongs?\b/i,
+
+        // Skewers (yakitori/kushi, eel, bamboo…)
+        /\bskewers?\b/i, /\b(kushi|kushiyaki)\b/i,
+        /\b(bamboo|eel)\s*skewers?\b/i,
+
+        // Starters (lọ than/ấm châm lửa) – tránh trùng CHARCOALS
+        /(?=.*\b(starter|starter\s*pot)\b)(?=.*\b(grill|konro|bincho?tan)\b).*/i,
+
+        // Scoop/Schop (xẻng xúc than)
+        /\b(scoop|schop)\b/i
+      ]
+    },
+
+    // Đặt sau SKEWERS & TONGS và bỏ 'handle' để tránh bắt nhầm starter removable handle
+    {
+      name: 'SPARE PARTS',
+      patterns: [
+        /\bspare\s*parts?\b/i, /\breplacement\b/i,
+        /\bmesh\b/i, /\bwire\b/i, /\bgrill\s*net\b/i,
+        /\bgrates?\b/i, /\bcomponents?\b/i
+      ]
+    }
+
+    ,
+    {
+      name: 'GRILLING STONES',
+      patterns: [
+        /\bstone(s)?\b/i,
+      ]
+    },
+  ];
 
   const SEE_ALL = LABELS.seeAll;
 
@@ -161,12 +175,12 @@ const CATEGORY_RULES = [
   };
 
   // Popup (tận dụng markup sẵn)
-  const popup       = document.getElementById('product-popup');
-  const popupImg    = document.getElementById('popup-img');
-  const popupName   = document.getElementById('popup-name');
-  const popupDim    = document.getElementById('popup-dim');
+  const popup = document.getElementById('product-popup');
+  const popupImg = document.getElementById('popup-img');
+  const popupName = document.getElementById('popup-name');
+  const popupDim = document.getElementById('popup-dim');
   const popupWeight = document.getElementById('popup-weight');
-  const popupClose  = document.querySelector('.product-popup-close');
+  const popupClose = document.querySelector('.product-popup-close');
 
   function openPopup(p) {
     popupImg.src = p.image || 'img/placeholder.webp';
@@ -276,9 +290,9 @@ const CATEGORY_RULES = [
         <button class="btn btn-outline-secondary" type="button" id="pg-prev" aria-label="Previous">${LABELS.prev}</button>
         <select class="form-select" id="pg-select" aria-label="${LABELS.page}">
           ${Array.from({ length: totalPages }, (_, i) => {
-            const n = i + 1;
-            return `<option value="${n}" ${n === currentPage ? 'selected' : ''}>${LABELS.page} ${n}/${totalPages}</option>`;
-          }).join('')}
+      const n = i + 1;
+      return `<option value="${n}" ${n === currentPage ? 'selected' : ''}>${LABELS.page} ${n}/${totalPages}</option>`;
+    }).join('')}
         </select>
         <button class="btn btn-outline-secondary" type="button" id="pg-next" aria-label="Next">${LABELS.next}</button>
       </div>
@@ -286,7 +300,7 @@ const CATEGORY_RULES = [
 
     const prevBtn = slot.querySelector('#pg-prev');
     const nextBtn = slot.querySelector('#pg-next');
-    const select  = slot.querySelector('#pg-select');
+    const select = slot.querySelector('#pg-select');
 
     prevBtn.disabled = currentPage <= 1;
     nextBtn.disabled = currentPage >= totalPages;
@@ -308,7 +322,7 @@ const CATEGORY_RULES = [
 
   function renderProducts() {
     const start = (currentPage - 1) * PAGE_SIZE;
-    const end   = start + PAGE_SIZE;
+    const end = start + PAGE_SIZE;
     const pageItems = filteredProducts.slice(start, end);
 
     grid.innerHTML = pageItems.map(cardHTML).join('');
@@ -320,7 +334,7 @@ const CATEGORY_RULES = [
 
     try {
       document.dispatchEvent(new CustomEvent('mina:productsRendered', { detail: { page: currentPage, total: filteredProducts.length } }));
-    } catch {}
+    } catch { }
   }
 
   // ===== Loading & fetch =====
@@ -353,7 +367,7 @@ const CATEGORY_RULES = [
         <div class="alert alert-danger" role="alert">${LABELS.error}</div>
       </div>
     `;
-    const ps = document.querySelector(PAGER_SLOT);   if (ps) ps.innerHTML = '';
+    const ps = document.querySelector(PAGER_SLOT); if (ps) ps.innerHTML = '';
     const cs = document.querySelector(CATEGORY_SLOT); if (cs) cs.innerHTML = '';
   }
 
@@ -365,7 +379,7 @@ const CATEGORY_RULES = [
     e.preventDefault();
     const id = btn.getAttribute('data-id');
     const product = filteredProducts.find(x => String(x.id) === String(id))
-                  || allProducts.find(x => String(x.id) === String(id));
+      || allProducts.find(x => String(x.id) === String(id));
     if (!product) {
       console.warn('[Inquiry] Không tìm thấy sản phẩm id=', id);
       return;
@@ -375,18 +389,18 @@ const CATEGORY_RULES = [
     if (!modalEl) { console.warn('[Inquiry] #inquiryModal not found'); return; }
     const modal = (bootstrap?.Modal?.getInstance ? bootstrap.Modal.getInstance(modalEl) : null) || new bootstrap.Modal(modalEl);
 
-    const inqImg   = document.getElementById('inq-img');
-    const inqName  = document.getElementById('inq-name');
-    const inqLine  = document.getElementById('inq-line');
-    const inqSku   = document.getElementById('inq-sku');
+    const inqImg = document.getElementById('inq-img');
+    const inqName = document.getElementById('inq-name');
+    const inqLine = document.getElementById('inq-line');
+    const inqSku = document.getElementById('inq-sku');
     const inqPrice = document.getElementById('inq-price');
 
     const inqEmail = document.getElementById('inq-email');
     const inqPhone = document.getElementById('inq-phone');
-    const inqMsg   = document.getElementById('inq-message');
-    const inqForm  = document.getElementById('inquiryForm');
-    const inqStatus= document.getElementById('inq-status');
-    const inqSubmit= document.getElementById('inq-submit');
+    const inqMsg = document.getElementById('inq-message');
+    const inqForm = document.getElementById('inquiryForm');
+    const inqStatus = document.getElementById('inq-status');
+    const inqSubmit = document.getElementById('inq-submit');
 
     modalEl._currentProduct = product;
 
@@ -400,7 +414,7 @@ const CATEGORY_RULES = [
     inqForm?.classList.remove('was-validated');
     if (inqEmail) inqEmail.value = '';
     if (inqPhone) inqPhone.value = '';
-    if (inqMsg)   inqMsg.value = '';
+    if (inqMsg) inqMsg.value = '';
     if (inqStatus) inqStatus.textContent = '';
 
     modal.show();

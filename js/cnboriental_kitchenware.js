@@ -31,13 +31,16 @@
       /\bboning\b/i, /\bfillet\b/i, /\bcleaver\b/i, /\bsujihiki\b/i, /\byanagiba\b/i
     ]
   },
-  {
-    name: 'SHARPENING STONES',
-    patterns: [
-      /\bsharpen(ing)?\s*stone(s)?\b/i, /\bwhet\s*stone(s)?\b/i,
-      /\bwater\s*stone(s)?\b/i, /\bgrit\s*\d+\b/i, /\bnagura\b/i, /\bhoning\b/i
-    ]
-  },
+{
+  name: 'SHARPENING STONES',
+  patterns: [
+    /\bwh?e?ts?tone\b/i,                     // whetstone / wetstone / westone / wetsone
+    /\b(?:grit\s*\d+|\d+\s*grit)\b/i,        // grit 1000 / 1000 grit
+    /\bnagura\b/i,
+    /\bhon(?:e|ing)\b/i
+  ]
+}
+,
   {
     name: 'CUTTING BOARDS',
     patterns: [
@@ -455,4 +458,27 @@
       });
     }
   });
+    // === NHẬN CATEGORY TỪ THANH MENU (SPA, không reload) ===
+document.addEventListener('mina:menuCategory', (e) => {
+  const cat = (e.detail?.cat || SEE_ALL).trim();
+  if (!cat) return;
+
+  // Nếu trùng category hiện tại thì thôi
+  if (cat === currentCategory) return;
+
+  // Cập nhật state
+  currentCategory = cat;
+  currentPage = 1;
+
+  // Lọc + render lại
+  applyFilter();
+  renderCategoryDropdown(); // để nút dropdown hiển thị đúng cat hiện tại
+  renderProducts();
+
+  // Đồng bộ URL cho back/refresh vẫn giữ filter
+  const url = new URL(location.href);
+  url.searchParams.set('page', '1');
+  url.searchParams.set('cat', currentCategory);
+  history.replaceState(null, '', url);
+});
 })();

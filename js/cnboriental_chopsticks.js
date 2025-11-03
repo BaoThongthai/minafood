@@ -23,20 +23,37 @@
 
   // ========= CATEGORY RULES =========
 const CATEGORY_RULES = [
+  // 1) ƯU TIÊN: CHỈNH DISPLAY LÊN TRÊN
+  {
+    name: 'CHOPSTICK DISPLAY',
+    patterns: [
+      // tên thường thấy
+      /\bdisplay\b/i,
+      /\bunit\s*display\b/i,
+      /\bfloor\s*unit\b/i,
+      /\bcounter\s*unit\b/i,
+      /\bstand(s)?\b/i,
+      // bổ sung các biến thể hay gặp
+      /\bcarousel\b/i,
+      /\brotat(ing|ion)\b/i,
+      /\brack\b/i,
+      // bảo hiểm: có “chopstick(s)” + “display/stand”
+      /\bchopstick(s|set)?\b.*\b(display|stand|rack|unit)\b/i
+    ]
+  },
+
+  // 2) CÁC NHÓM KHÁC
   {
     name: 'DISPOSABLE CHOPSTICKS',
-    // Ưu tiên nhận diện trước để không bị nuốt bởi "SET"
     patterns: [
       /\bdisposable\b/i, /\bsingle[-\s]*use\b/i, /\bwaribashi\b/i,
-      /\bwood(en)?\b/i, /\bbamboo\b/i, /\bpairs?\b(?=.*\b(disposable|waribashi)\b)/i
+      /\bwood(en)?\b/i, /\bbamboo\b/i,
+      /\bpairs?\b(?=.*\b(disposable|waribashi)\b)/i
     ]
   },
   {
     name: 'COOKING CHOPSTICKS',
-    patterns: [
-      /\bcooking\s*chopstick(s)?\b/i, /\bryoribashi\b/i, /\bsai\s*bashi\b/i,
-      /\blong\b(?=.*\bchopstick)/i, /\btempura\b(?=.*\bchopstick)/i
-    ]
+    patterns: [ /\bcooking\b/i, /\bsaibashi\b/i ]
   },
   {
     name: 'CHILDREN CHOPSTICKS',
@@ -48,36 +65,42 @@ const CATEGORY_RULES = [
   {
     name: 'CHOPSTICK GIFTSET',
     patterns: [
-      /\bgift\s*set\b/i, /\bgiftset\b/i, /\bpresent\b(?=.*\bchopstick)/i,
+      // loại trừ các mẫu “display/stand” để khỏi lẫn
+      /\b(gift\s*set|giftset)\b(?![^]*\b(display|stand|rack|unit)\b)/i,
+      /\bpresent\b(?=.*\bchopstick)/i,
       /\bbox\b(?=.*\bset\b)/i
-    ]
-  },
-  {
-    name: 'CHOPSTICK SET',
-    patterns: [
-      /\bchopstick(s)?\s*set\b/i, /\bset\b(?=.*\bchopstick)/i, /\bpair(s)?\b/i
-    ]
-  },
-  {
-    name: 'SINGLE CHOPSTICKS',
-    patterns: [
-      /\bsingle\b(?=.*\bchopstick)/i, /\bchopstick\b(?!s|\s*set)/i
     ]
   },
   {
     name: 'CHOPSTICK RESTS',
     patterns: [
-      /\bchopstick\s*rest(s)?\b/i, /\bhashi(oki)?\b/i, /\brest\b(?=.*\bchopstick)/i
+      /\bchopstick\s*rest(s)?\b/i, /\bhashi(oki)?\b/i,
+      /\brest\b(?=.*\bchopstick)/i
     ]
   },
   {
-    name: 'CHOPSTICK DISPLAY',
+    name: 'SINGLE CHOPSTICKS',
     patterns: [
-      /\bdisplay\b(?=.*\bchopstick)/i, /\brack\b/i, /\bstand\b/i, /\bholder\b/i,
-      /\bbox\b(?=.*\bdisplay)/i
+      /\bsingle\b(?=.*\bchopstick)/i,
+      // “chopstick” (số ít) nhưng không phải “set”
+      /\bchopstick\b(?!s|\s*set)/i
+    ]
+  },
+
+  // 3) ĐỂ SET XUỐNG SAU CÙNG + CHẶN DISPLAY
+  {
+    name: 'CHOPSTICK SET',
+    patterns: [
+      // phải có “set” liên quan chopstick, nhưng KHÔNG có từ khoá của display
+      /\bchopstick(s)?\s*set\b(?![^]*\b(display|stand|rack|unit)\b)/i,
+      /\bchopstickset\b(?![^]*\b(display|stand|rack|unit)\b)/i,
+      /\bset\b(?=.*\bchopstick)(?![^]*\b(display|stand|rack|unit)\b)/i,
+      // “pair(s)” nhưng không phải kệ/đế trưng bày
+      /\bpairs?\b(?![^]*\b(display|stand|rack|unit)\b)/i
     ]
   }
 ];
+
 
   const SEE_ALL = LABELS.seeAll;
 
@@ -455,4 +478,27 @@ const CATEGORY_RULES = [
       });
     }
   });
+     // === NHẬN CATEGORY TỪ THANH MENU (SPA, không reload) ===
+document.addEventListener('mina:menuCategory', (e) => {
+  const cat = (e.detail?.cat || SEE_ALL).trim();
+  if (!cat) return;
+
+  // Nếu trùng category hiện tại thì thôi
+  if (cat === currentCategory) return;
+
+  // Cập nhật state
+  currentCategory = cat;
+  currentPage = 1;
+
+  // Lọc + render lại
+  applyFilter();
+  renderCategoryDropdown(); // để nút dropdown hiển thị đúng cat hiện tại
+  renderProducts();
+
+  // Đồng bộ URL cho back/refresh vẫn giữ filter
+  const url = new URL(location.href);
+  url.searchParams.set('page', '1');
+  url.searchParams.set('cat', currentCategory);
+  history.replaceState(null, '', url);
+});
 })();

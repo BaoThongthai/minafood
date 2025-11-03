@@ -15,6 +15,7 @@
             "qx260.spec.material_label": "Materiál:",
             "qx260.spec.material": "Nerezová ocel (Inox)",
             "qx260.spec.size_label": "Rozměry:",
+            "section.video.title":"Některé ikony zvýraznění filmů",
             "qx260.spec.size": "56 × 38 × 50 cm",
             "qx260.spec.weight_label": "Hmotnost:",
             "qx260.spec.weight": "44 kg",
@@ -290,6 +291,7 @@
         en: {
             // máy xay thịt
             "qx260.title": "Fresh Meat Slicer QX-260",
+            "section.video.title":"Some movie highlight video",
             "qx260.summary": "The QX-260 is built for restaurants and processing sites: a 1.5 kW motor, ~250 kg/h capacity, and interchangeable blade sets from 2–20 mm. It delivers fast, uniform slices and can handle tougher rind (calf, goat), reducing labor with simple one-button operation. Stainless-steel construction ensures hygienic cleaning—ideal for pho, stir-fries, and more.",
             "qx260.specs_title": "Key Specifications",
             "qx260.spec.power_label": "Power:",

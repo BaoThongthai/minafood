@@ -1,0 +1,84 @@
+/* TOPMENU mini */
+.mf-topmenu{
+  background:#fff;
+  /* giữ viền trên nếu bạn thích, còn viền dưới bỏ */
+  border-top:1px solid #eee;
+  border-bottom:none;              /* ← bỏ thanh ngang dưới */
+  padding:4px 0;
+  font-size:12px;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:.4px;
+
+  display:flex;
+  justify-content:center;          /* các mục canh giữa trong hàng */
+  align-items:center;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+/* Bỏ margin-left cố định, dùng container co giãn */
+#global-topmenu{
+  margin-top:100px;                /* giữ như bạn đang dùng */
+  display:flex;
+  justify-content:center;          /* canh giữa toàn khối */
+  padding:0 16px;                  /* đệm 2 bên khi màn hình nhỏ */
+}
+
+/* Giới hạn bề rộng để thẳng hàng với content Bootstrap */
+#global-topmenu .mf-topmenu{
+  width:100%;
+  margin:0 auto;
+  max-width:1320px;                /* ≥1400px */
+}
+
+/* Match các breakpoint container của Bootstrap */
+@media (max-width:1399.98px){
+  #global-topmenu .mf-topmenu{ max-width:1140px; }  /* ≥1200px */
+}
+@media (max-width:1199.98px){
+  #global-topmenu .mf-topmenu{ max-width:960px; }   /* ≥992px  */
+}
+@media (max-width:991.98px){
+  #global-topmenu .mf-topmenu{ max-width:720px; }   /* ≥768px  */
+}
+@media (max-width:767.98px){
+  #global-topmenu .mf-topmenu{
+    max-width:100%;
+    overflow-x:auto;               /* kéo ngang nếu tràn */
+    white-space:nowrap;
+    justify-content:flex-start;    /* mobile: canh trái để kéo */
+    gap:0;
+    padding:6px 8px;
+  }
+}
+
+/* Link */
+.mf-topmenu .mf-link{
+  color:#114070;
+  text-decoration:none;
+  padding:4px 10px;
+  transition:color .2s;
+}
+.mf-topmenu .mf-link:hover,
+.mf-topmenu .mf-link.active{ color:#114070; }
+
+/* Caret nhỏ */
+.mf-topmenu .dropdown-toggle::after{
+  font-size:3px;
+  vertical-align:middle;
+  margin-left:2px;
+}
+
+/* Dropdown */
+.mf-topmenu .dropdown-menu{
+  border-radius:6px;
+  font-size:11px;
+  border-color:#eee;
+  box-shadow:0 2px 6px rgba(0,0,0,.08);
+}
+
+/* Hover mở dropdown trên desktop */
+@media (hover:hover){
+  .mf-topmenu .dropdown:hover>.dropdown-menu{ display:block; }
+}

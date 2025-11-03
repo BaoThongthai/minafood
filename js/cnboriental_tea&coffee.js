@@ -41,8 +41,7 @@ const CATEGORY_RULES = [
   {
     name: 'MUGS & CUPS',
     patterns: [
-      /\bmug(s)?\b/i, /\bcup(s)?\b/i, /\bteacup(s)?\b/i,
-      /\bcoffee\s*mug(s)?\b/i, /\bespresso\b/i, /\bglass(es)?\b/i
+    /\cup\b/i,
     ]
   },
   {
@@ -84,7 +83,7 @@ const CATEGORY_RULES = [
     name: 'CAST IRONWARE',
     patterns: [
       /\bcast\s*iron\b/i, /\btetsubin\b/i,
-      /\bcast\s*ironware\b/i, /\biron\s*kettle\b/i, /\bteapot\s*iron\b/i
+      /\bcast\s*ironware\b/i, /\bkettle\b/i, /\bteapot\s*iron\b/i
     ]
   },
   {
@@ -92,7 +91,7 @@ const CATEGORY_RULES = [
     patterns: [
       /\baccessor(y|ies)\b/i, /\btea\s*tool(s)?\b/i,
       /\bholder\b/i, /\btray\b/i, /\bcoaster(s)?\b/i,
-      /\bbase\b/i, /\bstand\b/i
+      /\bbase\b/i, /\bstand\b/i, /\bpaper\b/i
     ]
   }
 ];
