@@ -28,6 +28,7 @@
             "qx260.clean.step3": "Poté znovu opláchněte čistou vodou, dokud nezmizí všechny zbytky i čisticí prostředek.",
             "qx260.clean.note": "Po opláchnutí pečlivě zkontrolujte nože. Pokud zůstaly jakékoli zbytky, opakujte kroky 2 a 3, dokud nebude blok zcela čistý."
             ,
+            "button.search": "vyhledávání",
 
             "index.galarie": "Tato galerie představuje fotografie, které sdíleli naši vážení zákazníci. Zachycují skutečné okamžiky toho, jak naše produkty zapadají do každodenního života. Každý snímek odráží důvěru, spokojenost a kvalitu, o kterou se snažíme v každém detailu.",
             "nav.Videa": "Videa",
@@ -339,6 +340,7 @@
             "decora_kitchenware": "KITCHENWARE",
             "decora_sklo_a_por": "Minafood - Glass & porcelain",
             "decora_kategorie_porcelan": "Porcelain category",
+            "button.search":"Search",
             "decora_tableware": "TABLEWARE",
             "hoshizaki.text1": "Hoshizaki is a global leader from Japan specializing in commercial ice makers and refrigeration equipment. Known for durability and consistency, Hoshizaki products deliver pure ice and stable cooling performance for professional kitchens.",
             "hoshizaki.text2": "Trusted by top F&B brands worldwide, Hoshizaki combines advanced technology with strict hygiene standards to ensure reliable operation and lower operating costs.",
