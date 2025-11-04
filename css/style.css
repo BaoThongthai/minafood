@@ -291,20 +291,31 @@
 
 
 
-
-@media (min-width: 992px) {
-    .hero-header,
-    .page-header {
-        margin-top: 152px !important;
-    }
+/* Phần điện thoại */
+:root{
+  --navbar-h: 72px;   /* chiều cao navbar */
+  --topbar-h: 40px;   /* chiều cao topbar desktop */
+  
 }
 
-@media (max-width: 992px) {
-    .hero-header,
-    .page-header {
-        margin-top: 97px !important;
-    }
+/* Desktop: có cả topbar + navbar */
+@media (min-width: 992px){
+  .hero-header,
+  .page-header{
+    margin-top: calc(var(--navbar-h) + var(--topbar-h)) !important;
+  }
 }
+
+/* Mobile: chỉ có navbar */
+@media (max-width: 991.98px){
+  .hero-header,
+  .page-header{
+    margin-top: var(--navbar-h) !important;
+  }
+}
+
+
+
 /*** Hero Header end ***/
 
 

@@ -64,6 +64,10 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/mf_search.css" rel="stylesheet">
+    <link href="css/cssneon.css" rel="stylesheet">
+    <script src="js/funtion_search_input.js"></script>
+
 </head>
 
 <body>
@@ -113,7 +117,17 @@
                         <a href="contact.html" class="nav-item nav-link" data-i18n="nav.contact">Contact</a>
                     </div>
                     <div class="d-flex m-3 me-0">
-                        <!-- Language Toggle -->
+                                             <!-- SEARCH (global) -->
+                    <div class="ms-auto d-flex align-items-center" style="margin-right: 7px;">
+                        <form id="mf-search-form" action="/search.html" class="mf-search">
+                            <input id="mf-search-input" name="q" type="search" placeholder="Find product"
+                                autocomplete="off" aria-label="Search">
+                            <button type="button" id="search-toggle" class="icon-only">
+                                <i class="fa-solid fa-magnifying-glass fa-2x" style="color: #114070;"></i>
+                            </button>
+                            <button type="submit" id="search-submit" class="text-btn" hidden>Find</button>
+                        </form>
+                    </div>
                         <button id="langToggle" class="btn btn-outline-secondary btn-sm px-3"
                             style="margin-right: 20px;">EN</button>
                         <a href="cart.html" class="position-relative me-4 my-auto">
