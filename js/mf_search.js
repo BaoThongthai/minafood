@@ -176,12 +176,11 @@
       .map(x => x.it);
 
     if (!ranked.length) {
-      count.textContent = '0 kết quả';
-      grid.innerHTML = '<div class="mf-empty">Không tìm thấy sản phẩm phù hợp.</div>';
+      count.textContent = '0 Product';
       return;
     }
 
-    count.textContent = `${ranked.length} kết quả cho “${qRaw}”`;
+    count.textContent = `${ranked.length} Search results for “${qRaw}”`;
 
     grid.innerHTML = ranked.map(p => `
       <div class="mf-card" id="${encodeURIComponent(p.name)}" style="border:1px solid #e5e7eb;border-radius:12px;padding:12px">

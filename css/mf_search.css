@@ -33,7 +33,6 @@
 }
 
 .mf-search button:hover {
-  background-color: #16253b;
   opacity: 0.95;
 }
 
@@ -120,4 +119,50 @@
 /* ====== GIÚP KHÔNG CHE MENU DROPDOWN ====== */
 .mf-topmenu .mf-suggest {
   z-index: 2000;
+}
+
+
+/* xử lý phần bung thanh input */
+.mf-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.mf-search input {
+  width: 0;
+  opacity: 0;
+  padding: 5px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.mf-search.active input {
+  width: 200px;
+  opacity: 1;
+  margin-right: 8px;
+}
+
+.mf-search button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: none;
+}
+
+
+
+
+/* === Nút chữ Find khi mở rộng === */
+.mf-search .text-btn {
+  font-size: 14px;
+  color:#114070; ;
+  background: #fff;
+  border: 1px solid #114070;
+  border-radius: 6px;
+  padding: 6px 12px;
 }

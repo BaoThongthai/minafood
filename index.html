@@ -63,6 +63,10 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/cssneon.css" rel="stylesheet">
+    <link href="css/mf_search.css" rel="stylesheet">
+
+    <script src="js/funtion_search_input.js"></script>
+
 </head>
 
 <body>
@@ -98,14 +102,29 @@
                 <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
                     <div class="navbar-nav mx-auto">
                         <a href="index.html" class="nav-item nav-link active" data-i18n="nav.home">Home</a>
-                        <a href="index.html#Kategorie" class="nav-item nav-link" data-i18n="nav.categories">Kategorie</a>
+                        <a href="index.html#Kategorie" class="nav-item nav-link"
+                            data-i18n="nav.categories">Kategorie</a>
                         <a href="index.html#Onas" class="nav-item nav-link" data-i18n="nav.about">O nás</a>
-                         <a href="Galerie.html" class="nav-item nav-link" data-i18n="nav.Galerie">Galerie</a>
+                        <a href="Galerie.html" class="nav-item nav-link" data-i18n="nav.Galerie">Galerie</a>
                         <a href="videa.html" class="nav-item nav-link" data-i18n="nav.Videa">Videa</a>
                         <a href="contact.html" class="nav-item nav-link" data-i18n="nav.contact">Kontakt</a>
                     </div>
+             
+                     <!-- SEARCH (global) -->
+                    <div class="ms-auto d-flex align-items-center" style="margin-right: 7px;">
+                        <form id="mf-search-form" action="/search.html" class="mf-search">
+                            <input id="mf-search-input" name="q" type="search" placeholder="Find product"
+                                autocomplete="off" aria-label="Search">
+                            <button type="button" id="search-toggle" class="icon-only">
+                                <i class="fa-solid fa-magnifying-glass fa-2x" style="color: #114070;"></i>
+                            </button>
+                            <button type="submit" id="search-submit" class="text-btn" hidden>Find</button>
+                        </form>
+                    </div>
                     <!-- Language Toggle -->
-                    <button id="langToggle" class="btn btn-outline-secondary btn-sm px-3">EN</button>
+                    <button id="langToggle" class="btn btn-outline-secondary btn-sm px-3">EN</button>      
+                 
+                    
                     <div class="d-flex m-3 me-0">
                         <a href="cart.html" class="position-relative me-4 my-auto">
                             <i class="fa fa-shopping-bag fa-2x" style="color: #114070;"></i>
@@ -117,6 +136,9 @@
                             <i class="fas fa-user fa-2x" style="color: #114070;"></i>
                         </a>
                     </div>
+
+                    
+
                 </div>
             </nav>
         </div>
@@ -146,7 +168,7 @@
                             data-i18n="hero.cta.services">
                             Naše služby
                         </a>
-                           <a href="index.html#Kategorie" class="btn btn-light fw-bold py-3 px-5 rounded"
+                        <a href="index.html#Kategorie" class="btn btn-light fw-bold py-3 px-5 rounded"
                             style="border:none; font-size:18px;">
                             Shopping
                         </a>
@@ -262,7 +284,10 @@
                         </div>
                     </article>
                 </a>
+                
             </div>
+
+            
 
             <!-- Item 2 -->
             <div class="col-12 col-md-6 col-lg-6">
@@ -482,7 +507,7 @@
                         <img src="img/customer_galary/galary-7.png" class="w-100 h-100 object-fit-cover" alt="Inox 08">
                     </div>
                 </div>
-                         <div class="col">
+                <div class="col">
                     <div class="inox-item ratio ratio-4x3">
                         <img src="img/customer_galary/galary-8.png" class="w-100 h-100 object-fit-cover" alt="Inox 07">
                     </div>
@@ -492,7 +517,7 @@
                         <img src="img/customer_galary/galary-9.png" class="w-100 h-100 object-fit-cover" alt="Inox 08">
                     </div>
                 </div>
-                  <div class="col">
+                <div class="col">
                     <div class="inox-item ratio ratio-4x3">
                         <img src="img/customer_galary/galary-10.png" class="w-100 h-100 object-fit-cover" alt="Inox 08">
                     </div>
@@ -500,11 +525,11 @@
             </div>
         </div>
         <!-- move_Galarie -->
-    <div class="text-center mt-4">
-        <button id="move_Galarie" data-i18n="buttons.showMore" class="btn btn-warning fw-bold px-4 py-2 rounded-3">
-            Zobrazit produkty
-        </button>
-    </div>
+        <div class="text-center mt-4">
+            <button id="move_Galarie" data-i18n="buttons.showMore" class="btn btn-warning fw-bold px-4 py-2 rounded-3">
+                Zobrazit produkty
+            </button>
+        </div>
     </section>
     <!-- Stainless Gallery End -->
 
@@ -573,7 +598,8 @@
                             </li>
                             <li class="nav-item">
                                 <a class="d-flex m-2 py-2 bg-light rounded-pill" href="cnboriental_grilling.html">
-                                    <span class="text-dark1" style="width: 130px;" data-i18n="tabs.grillPlates">Grilovací
+                                    <span class="text-dark1" style="width: 130px;"
+                                        data-i18n="tabs.grillPlates">Grilovací
                                         desky</span>
                                 </a>
                             </li>
@@ -633,7 +659,8 @@
                             </li>
                             <li class="nav-item">
                                 <a class="d-flex m-2 py-2 bg-light rounded-pill" href="Porcelain_Kategorie.html">
-                                    <span class="text-dark1" style="width: 130px;" data-i18n="tabs.glassPorcelain">Sklo a
+                                    <span class="text-dark1" style="width: 130px;" data-i18n="tabs.glassPorcelain">Sklo
+                                        a
                                         porcelán</span>
                                 </a>
                             </li>
@@ -656,7 +683,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="d-flex m-2 py-2 bg-light rounded-pill"  href="cnboriental_kitchenware.html">
+                                <a class="d-flex m-2 py-2 bg-light rounded-pill" href="cnboriental_kitchenware.html">
                                     <span class="text-dark1" style="width: 130px;"
                                         data-i18n="tabs.kitchenEquip">Kuchyňské potřeby</span>
                                 </a>
@@ -664,15 +691,16 @@
 
                             <li class="nav-item">
                                 <a class="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-19">
-                                    <span class="text-dark1" style="width: 130px;"
-                                        data-i18n="tabs.decorace">Ozdoby a dekorace</span>
+                                    <span class="text-dark1" style="width: 130px;" data-i18n="tabs.decorace">Ozdoby a
+                                        dekorace</span>
                                 </a>
                             </li>
 
                             <!-- //GASTRO A KUCHYNĚ -->
                             <li class="nav-item">
                                 <a class="d-flex m-2 py-2 bg-light rounded-pill" href="gastro-a-kuchyne.html">
-                                    <span class="text-dark1" style="width: 130px;" data-i18n="page.gastro.title">gastro a
+                                    <span class="text-dark1" style="width: 130px;" data-i18n="page.gastro.title">gastro
+                                        a
                                         kuchyně</span>
                                 </a>
                             </li>
@@ -680,7 +708,8 @@
                             <!-- ICE EQUIMENT -->
                             <li class="nav-item">
                                 <a class="d-flex m-2 py-2 bg-light rounded-pill" href="ice_equiment_katagory.html">
-                                    <span class="text-dark1" style="width: 130px;" data-i18n="page.iceequiment.title">Ice
+                                    <span class="text-dark1" style="width: 130px;"
+                                        data-i18n="page.iceequiment.title">Ice
                                         makers</span>
                                 </a>
                             </li>
@@ -692,10 +721,11 @@
                                 </a>
                             </li>
 
-                               <!-- healthcare -->
+                            <!-- healthcare -->
                             <li class="nav-item">
                                 <a class="d-flex m-2 py-2 bg-light rounded-pill" href="cnboriental_healthcare.html">
-                                    <span class="text-dark1" data-i18n="decora_healthcare" style="width: 130px; ">zdravotnictví</span>
+                                    <span class="text-dark1" data-i18n="decora_healthcare"
+                                        style="width: 130px; ">zdravotnictví</span>
                                 </a>
                             </li>
 
@@ -2418,6 +2448,7 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i
             class="fa fa-arrow-up"></i></a>
+            
 
 
     <!-- JavaScript Libraries -->
