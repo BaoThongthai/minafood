@@ -1246,5 +1246,118 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link{
 }
 
 
+/* Css phân trang đồng dạng */
+/* ===== MF Pagination (no Bootstrap conflicts) ===== */
+:root{
+  --mfpg-size: 40px;            /* kích thước nút desktop */
+  --mfpg-gap: 6px;              /* khoảng cách giữa nút */
+  --mfpg-primary: #1f3353;      /* active fill */
+  --mfpg-accent: #EA9A3B;       /* viền nút thường */
+  --mfpg-bg: #f7f8fb;           /* nền khung lớn */
+  --mfpg-ring: #e6e9f1;         /* viền khung lớn */
+  --mfpg-text: #1f3353;         /* chữ nút thường */
+  --mfpg-muted: #94a0b4;        /* mũi tên disabled */
+}
+
+.mf-pager{
+  display:flex;
+  justify-content:center;
+  margin-top: 16px;
+}
+
+.mf-pager__wrap{
+  display:flex;
+  gap: var(--mfpg-gap);
+  padding: 8px 10px;
+  border-radius: 999px;
+  background: var(--mfpg-bg);
+  border: 1px solid var(--mfpg-ring);
+  overflow-x:auto;
+  -webkit-overflow-scrolling: touch;
+  /* Shadow nhẹ giống hình mẫu */
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.6);
+}
+
+/* Nút tròn cơ bản */
+.mf-pg{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width: var(--mfpg-size);
+  height: var(--mfpg-size);
+  min-width: var(--mfpg-size);
+  border-radius: 999px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  user-select: none;
+  cursor: pointer;
+  border: 1px solid var(--mfpg-accent);
+  background: #fff;
+  color: var(--mfpg-text);
+  transition: transform .12s ease, box-shadow .12s ease, background .12s ease, border-color .12s ease;
+}
+
+/* Hover */
+.mf-pg:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(31,51,83,.12);
+}
+
+/* Active: xanh đậm, chữ trắng */
+.mf-pg.is-active{
+  background: var(--mfpg-primary);
+  border-color: var(--mfpg-primary);
+  color: #fff;
+  cursor: default;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Disabled: nhạt, không bấm */
+.mf-pg.is-disabled{
+  background: #f1f3f7;
+  border-color: var(--mfpg-ring);
+  color: var(--mfpg-muted);
+  pointer-events: none;
+  box-shadow: none;
+  transform: none;
+}
+
+/* Dấu … */
+.mf-ellipsis{
+  display:inline-flex;
+  align-items:center;
+  padding: 0 4px;
+  color: #8a8fa1;
+  font-weight: 700;
+}
+
+/* ==== Mobile tweaks (≤576px): thu nhỏ nút & khoảng cách) ==== */
+@media (max-width: 576px){
+  :root{
+    --mfpg-size: 32px;
+    --mfpg-gap: 4px;
+  }
+  .mf-pager__wrap{ padding: 6px 8px; }
+  .mf-pg{ font-size: 13px; }
+}
+
+/* ==== Very small (≤360px) nếu cần gọn hơn nữa ==== */
+@media (max-width: 360px){
+  :root{
+    --mfpg-size: 28px;
+    --mfpg-gap: 3px;
+  }
+  .mf-pager__wrap{ padding: 4px 6px; }
+  .mf-pg{ font-size: 12px; }
+}
+
+
+
+
+/* end Css phân trang đồng dạng ( dành cho phân trang đã làm) */
+
+
 
 
