@@ -279,37 +279,70 @@
   }
 
   // ===== Phân trang Prev / Select / Next =====
+  // ===== Phân trang Prev / Select / Next =====
   function renderPager(totalItems) {
     const slot = document.querySelector(PAGER_SLOT);
     if (!slot) return;
+
     const totalPages = Math.max(1, Math.ceil(totalItems / PAGE_SIZE));
+    // Nếu chỉ 1 trang thì xoá pager & thoát
+    if (totalPages <= 1) { slot.innerHTML = ''; updateURL(); return; }
+
+    // Clamp currentPage
     currentPage = Math.min(Math.max(1, currentPage), totalPages);
 
+    // Tạo dải trang kiểu: ‹ 1 … c-2 c-1 c c+1 c+2 … last ›
+    const pages = [];
+    const push = (n) => pages.push(n);
+    const addRange = (a, b) => { for (let i = a; i <= b; i++) pages.push(i); };
+
+    const centerSpan = 2;     // số trang mỗi bên current
+    const first = 1;
+    const last = totalPages;
+
+    push(first);
+
+    let start = Math.max(first + 1, currentPage - centerSpan);
+    let end = Math.min(last - 1, currentPage + centerSpan);
+
+    // nới để đủ 5 trang trung tâm khi sát biên
+    const desired = 1 + 1 + (centerSpan * 2 + 1) + 1; // 1 + mid(5) + 1 = 7 “điểm” (không tính …)
+    const midCount = end >= start ? (end - start + 1) : 0;
+    let missing = (centerSpan * 2 + 1) - midCount;
+    while (missing > 0 && start > first + 1) { start--; missing--; }
+    while (missing > 0 && end < last - 1) { end++; missing--; }
+
+    if (start > first + 1) pages.push('...');
+    if (end >= start) addRange(start, end);
+    if (end < last - 1) pages.push('...');
+    if (last > first) push(last);
+
     slot.innerHTML = `
-      <div class="input-group input-group-sm" style="max-width: 320px;">
-        <button class="btn btn-outline-secondary" type="button" id="pg-prev" aria-label="Previous">${LABELS.prev}</button>
-        <select class="form-select" id="pg-select" aria-label="${LABELS.page}">
-          ${Array.from({ length: totalPages }, (_, i) => {
-      const n = i + 1;
-      return `<option value="${n}" ${n === currentPage ? 'selected' : ''}>${LABELS.page} ${n}/${totalPages}</option>`;
-    }).join('')}
-        </select>
-        <button class="btn btn-outline-secondary" type="button" id="pg-next" aria-label="Next">${LABELS.next}</button>
-      </div>
-    `;
+    <div class="mf-pager-wrap">
+      <nav class="mf-pager" aria-label="Pagination">
+        <a href="#" class="mf-pg-btn ${currentPage === 1 ? 'is-disabled' : ''}" data-page="${currentPage - 1}" aria-label="Previous">‹</a>
+        ${pages.map(p => p === '...'
+      ? '<span class="mf-pg-ellipsis" aria-hidden="true">…</span>'
+      : `<a href="#" class="mf-pg-btn ${p === currentPage ? 'is-active' : ''}" data-page="${p}" aria-label="Page ${p}">${p}</a>`
+    ).join('')}
+        <a href="#" class="mf-pg-btn ${currentPage === totalPages ? 'is-disabled' : ''}" data-page="${currentPage + 1}" aria-label="Next">›</a>
+      </nav>
+    </div>
+  `;
 
-    const prevBtn = slot.querySelector('#pg-prev');
-    const nextBtn = slot.querySelector('#pg-next');
-    const select = slot.querySelector('#pg-select');
+    // Gắn click (Prev/Next + số)
+    slot.querySelectorAll('.mf-pg-btn').forEach(btn => {
+      const page = parseInt(btn.getAttribute('data-page'), 10);
+      if (isNaN(page)) return;
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (page < 1 || page > totalPages || page === currentPage) return;
+        currentPage = page;
+        renderProducts(); // gọi lại render
+      });
+    });
 
-    prevBtn.disabled = currentPage <= 1;
-    nextBtn.disabled = currentPage >= totalPages;
-
-    prevBtn.onclick = () => { if (currentPage > 1) { currentPage--; renderProducts(); } };
-    nextBtn.onclick = () => { if (currentPage < totalPages) { currentPage++; renderProducts(); } };
-    select.onchange = () => { currentPage = parseInt(select.value, 10); renderProducts(); };
-
-    updateURL();
+    updateURL(); // đồng bộ ?page
   }
 
   function applyFilter() {

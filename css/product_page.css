@@ -1,0 +1,106 @@
+.mf-pager-wrap{display:flex;justify-content:center;margin-top:8px}
+.mf-pager{display:flex;gap:6px;padding:4px 8px;border-radius:999px;background:#f7f7f9;border:1px solid rgba(31,51,83,.08);overflow-x:auto;-webkit-overflow-scrolling:touch}
+.mf-pg-btn{min-width:36px;height:36px;padding:0 10px;border:1px solid rgba(31,51,83,.15);border-radius:999px;background:#fff;color:#1f3353;font-weight:600;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;user-select:none;transition:transform .12s,box-shadow .12s,background .12s;white-space:nowrap}
+.mf-pg-btn:hover:not(.is-disabled):not(.is-active){transform:translateY(-1px);box-shadow:0 2px 8px rgba(31,51,83,.12)}
+.mf-pg-btn.is-active{background:#1f3353;color:#fff;border-color:#1f3353;cursor:default}
+.mf-pg-btn.is-disabled{opacity:.45;pointer-events:none}
+.mf-pg-ellipsis{display:inline-flex;align-items:center;padding:0 4px;color:#8a8fa1;font-weight:700}
+
+
+/* css cho điện thoại */
+/* ====== Pager đặt ở cuối danh sách ====== */
+.mf-pager-bottom {
+  margin-top: 16px;
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(31, 51, 83, .08);
+}
+
+/* ====== Bộ style pagination (desktop) ====== */
+.mf-pager-wrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.mf-pager {
+  display: flex;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #f7f7f9;
+  border: 1px solid rgba(31,51,83,.08);
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.mf-pg-btn {
+  min-width: 36px;
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid rgba(31,51,83,.15);
+  border-radius: 999px;
+  background: #fff;
+  color: #1f3353;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  user-select: none;
+  transition: transform .12s ease, box-shadow .12s ease, background .12s ease;
+  white-space: nowrap;
+}
+.mf-pg-btn:hover:not(.is-disabled):not(.is-active){
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(31,51,83,.12);
+}
+.mf-pg-btn.is-active{
+  background:#1f3353;
+  color:#fff;
+  border-color:#1f3353;
+  cursor:default;
+}
+.mf-pg-btn.is-disabled{
+  opacity:.45;
+  pointer-events:none;
+}
+.mf-pg-ellipsis{
+  display:inline-flex;
+  align-items:center;
+  padding:0 4px;
+  color:#8a8fa1;
+  font-weight:700;
+}
+
+/* ===== RESPONSIVE PAGINATION (Chỉ thu nhỏ kích thước ở mobile) ===== */
+@media (max-width: 576px) {
+  .mf-pager-bottom {
+    margin-top: 10px;
+    padding-top: 8px;
+  }
+
+  .mf-pager {
+    gap: 3px;                /* thu nhỏ khoảng cách giữa các nút */
+    padding: 4px 6px;
+  }
+
+  .mf-pg-btn {
+    min-width: 28px;         /* từ 36px -> 28px */
+    height: 28px;            /* từ 36px -> 28px */
+    font-size: 13px;         /* chữ nhỏ lại */
+    padding: 0 6px;
+  }
+
+  .mf-pg-btn.is-active {
+    background: #1f3353;
+    border-color: #1f3353;
+    color: #fff;
+  }
+
+  .mf-pg-ellipsis {
+    font-size: 13px;
+    padding: 0 2px;
+  }
+}
+
