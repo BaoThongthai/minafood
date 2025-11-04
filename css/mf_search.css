@@ -166,3 +166,78 @@
   border-radius: 6px;
   padding: 6px 12px;
 }
+
+
+/* Simple mobile search bar */
+@media (max-width: 991.98px) {
+  .container form[role="search"] {
+    background: var(--bs-primary);
+    border-radius: 999px;
+    padding: 6px;
+  }
+
+  .container form[role="search"] .form-control {
+    border: none;
+    border-radius: 999px;
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+  .container form[role="search"] .form-control:focus {
+    box-shadow: none;
+  }
+
+  .container form[role="search"] .btn {
+    border-radius: 999px;
+    font-size: 16px;
+  }
+
+  /* --- Fix mobile search full width --- */
+.mobile-search-wrapper {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.mobile-search-wrapper form {
+  background: var(--bs-primary);
+  border-radius: 999px;
+  padding: 6px 8px;
+  margin: 0 10px; /* bo nhẹ hai bên cho đẹp */
+  display: flex;
+  align-items: center;
+}
+
+.mobile-search-wrapper input.form-control {
+  flex: 1;
+  border: none;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #333;
+}
+
+.mobile-search-wrapper input.form-control:focus {
+  box-shadow: none;
+}
+
+.mobile-search-wrapper .btn {
+  border-radius: 999px;
+  background: var(--bs-secondary);
+  color: #fff;
+  font-size: 16px;
+  padding: 6px 12px;
+  border: none;
+}
+
+.mobile-search-wrapper { margin-top: -8px !important; }
+
+}
+
+/* Ẩn ảnh sản phẩm trong carousel khi màn hình nhỏ hơn 992px */
+@media (max-width: 991.98px) {
+  #carouselId {
+    display: none !important;
+  }
+}
+

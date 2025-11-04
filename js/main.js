@@ -10,33 +10,33 @@
         }, 1);
     };
     spinner(0);
-//  move_Plynovy 
- document.getElementById('move_Plynovy').addEventListener('click', function() {
+    //  move_Plynovy 
+    document.getElementById('move_Plynovy').addEventListener('click', function () {
         window.location.href = 'Plynovy.html';
     });
 
     //  move_Galarie
- document.getElementById('move_Galarie').addEventListener('click', function() {
+    document.getElementById('move_Galarie').addEventListener('click', function () {
         window.location.href = 'Galerie.html';
     });
 
     //  move_decoration 
- document.getElementById('move_decoration').addEventListener('click', function() {
+    document.getElementById('move_decoration').addEventListener('click', function () {
         window.location.href = 'decoration.html';
     });
 
     //  move_Chlazeni 
- document.getElementById('move_Chlazeni').addEventListener('click', function() {
+    document.getElementById('move_Chlazeni').addEventListener('click', function () {
         window.location.href = 'Chlazeni.html';
     });
 
-        //  move_testovin 
- document.getElementById('move_testovin').addEventListener('click', function() {
+    //  move_testovin 
+    document.getElementById('move_testovin').addEventListener('click', function () {
         window.location.href = 'testovin.html';
     });
 
-            //  move_testovin 
- document.getElementById('move_zpacovani').addEventListener('click', function() {
+    //  move_testovin 
+    document.getElementById('move_zpacovani').addEventListener('click', function () {
         window.location.href = 'zpacovani.html';
     });
 
@@ -54,20 +54,20 @@
             } else {
                 $('.fixed-top').removeClass('shadow').css('top', 0);
             }
-        } 
+        }
     });
-    
-    
-   // Back to top button
-   $(window).scroll(function () {
-    if ($(this).scrollTop() > 300) {
-        $('.back-to-top').fadeIn('slow');
-    } else {
-        $('.back-to-top').fadeOut('slow');
-    }
+
+
+    // Back to top button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            $('.back-to-top').fadeIn('slow');
+        } else {
+            $('.back-to-top').fadeOut('slow');
+        }
     });
     $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
         return false;
     });
 
@@ -80,27 +80,27 @@
         dots: true,
         loop: true,
         margin: 25,
-        nav : true,
-        navText : [
+        nav: true,
+        navText: [
             '<i class="bi bi-arrow-left"></i>',
             '<i class="bi bi-arrow-right"></i>'
         ],
         responsiveClass: true,
         responsive: {
-            0:{
-                items:1
+            0: {
+                items: 1
             },
-            576:{
-                items:1
+            576: {
+                items: 1
             },
-            768:{
-                items:1
+            768: {
+                items: 1
             },
-            992:{
-                items:2
+            992: {
+                items: 2
             },
-            1200:{
-                items:2
+            1200: {
+                items: 2
             }
         }
     });
@@ -114,27 +114,27 @@
         dots: true,
         loop: true,
         margin: 25,
-        nav : true,
-        navText : [
+        nav: true,
+        navText: [
             '<i class="bi bi-arrow-left"></i>',
             '<i class="bi bi-arrow-right"></i>'
         ],
         responsiveClass: true,
         responsive: {
-            0:{
-                items:1
+            0: {
+                items: 1
             },
-            576:{
-                items:1
+            576: {
+                items: 1
             },
-            768:{
-                items:2
+            768: {
+                items: 2
             },
-            992:{
-                items:3
+            992: {
+                items: 3
             },
-            1200:{
-                items:4
+            1200: {
+                items: 4
             }
         }
     });
@@ -156,6 +156,11 @@
             $("#video").attr('src', $videoSrc);
         })
     });
+
+    // css thanh search trên di động
+
+
+
 
 
 

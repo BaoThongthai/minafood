@@ -65,6 +65,7 @@
     <link href="css/cssneon.css" rel="stylesheet">
     <link href="css/mf_search.css" rel="stylesheet">
     <script src="js/funtion_search_input.js"></script>
+    
 
 </head>
 
@@ -108,9 +109,9 @@
                         <a href="videa.html" class="nav-item nav-link" data-i18n="nav.Videa">Videa</a>
                         <a href="contact.html" class="nav-item nav-link" data-i18n="nav.contact">Kontakt</a>
                     </div>
-             
 
-                                         <!-- SEARCH (global) -->
+
+                    <!-- SEARCH (global) -->
                     <div class="ms-auto d-flex align-items-center" style="margin-right: 7px;">
                         <form id="mf-search-form" action="/search.html" class="mf-search">
                             <input id="mf-search-input" name="q" type="search" placeholder="Find product"
@@ -118,12 +119,15 @@
                             <button type="button" id="search-toggle" class="icon-only">
                                 <i class="fa-solid fa-magnifying-glass fa-2x" style="color: #114070;"></i>
                             </button>
-                            <button type="submit" id="search-submit" class="text-btn" hidden>Find</button>
+                            <button type="submit" id="search-submit" class="text-btn" hidden><i
+                                    class="fa fa-magnifying-glass fa-2x" style="color: #114070;"></i></button>
                         </form>
                     </div>
-                    <button id="langToggle" class="btn btn-outline-secondary btn-sm px-3">EN</button>      
-                 
-                    
+
+
+                    <button id="langToggle" class="btn btn-outline-secondary btn-sm px-3">EN</button>
+
+
                     <div class="d-flex m-3 me-0">
                         <a href="cart.html" class="position-relative me-4 my-auto">
                             <i class="fa fa-shopping-bag fa-2x" style="color: #114070;"></i>
@@ -136,7 +140,7 @@
                         </a>
                     </div>
 
-                    
+
 
                 </div>
             </nav>
@@ -191,6 +195,17 @@
         </div>
     </div>
     <!-- Hero End -->
+
+
+<!-- Simple Mobile Search Bar -->
+<div class="mobile-search-wrapper d-lg-none mt-3 mb-3">
+  <form action="/search.html" class="d-flex" role="search">
+    <input class="form-control me-2" type="search" name="q" placeholder="Find product" aria-label="Search">
+    <button class="btn btn-warning fw-bold px-3" type="submit">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+  </form>
+</div>
 
 
 
@@ -283,10 +298,10 @@
                         </div>
                     </article>
                 </a>
-                
+
             </div>
 
-            
+
 
             <!-- Item 2 -->
             <div class="col-12 col-md-6 col-lg-6">
@@ -2447,7 +2462,7 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i
             class="fa fa-arrow-up"></i></a>
-            
+
 
 
     <!-- JavaScript Libraries -->
