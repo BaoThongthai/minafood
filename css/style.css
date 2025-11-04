@@ -475,6 +475,10 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link{
   background: #fff;   
 }
 
+.fruite .fruite-item{ max-width: none; }  
+
+
+
 /* ẢNH BÊN TRONG KHUNG: “contain” để thấy trọn máy */
 .fruite .fruite-item .fruite-img img{
   width:100%;
@@ -1039,10 +1043,53 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link{
 /* Màn rất nhỏ: 1 sp / hàng (tuỳ chọn) */
 @media (max-width: 399.98px){
   #product-grid > div{
-    flex: 0 0 100%;
-    max-width: 100%;
+    flex: 0 0 50%;
+    max-width: 50%;
   }
 }
+
+/* điều chỉnh tên sản phẩm trên mình hình điện thoại */
+/* Tên sản phẩm 1 dòng + ellipsis trên mobile */
+@media (max-width: 767.98px){
+  .fruite-item h4{
+    display:block;
+    width:100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.25;
+    margin-bottom: .35rem;   /* gọn hơn một chút */
+  }
+}
+
+
+/* ===============================
+   ✅ ẨN CHỮ "Add to Cart" TRÊN MOBILE
+   =============================== */
+@media (max-width: 767.98px) {
+  .fruite-item .btn span {
+    display: none !important;
+  }
+
+  .fruite-item .btn i {
+    margin-right: 0 !important;   /* bỏ khoảng cách giữa icon và chữ */
+    font-size: 1.1rem !important; /* icon to hơn chút cho rõ */
+  }
+
+  .fruite-item .btn {
+    padding: 6px 10px !important; /* thu gọn nút */
+    width: 38px !important;       /* bo tròn đều */
+    height: 38px !important;
+    border-radius: 50% !important;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+
+
+
 
 /* 5 sản phẩm mỗi hàng */
 
@@ -1095,4 +1142,109 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link{
   object-fit: cover;
   border-radius: 12px;
 }
+
+/* Fix scroll lỗi thanh ngang */
+/* ===== FIX scroll lag chỉ cho mobile ===== */
+@media (max-width: 991.98px) {
+
+  /* Không chặn toàn trang nữa, chỉ chặn phần gây tràn ngang */
+  body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+  }
+
+
+
+  /* Navbar fix — cho phép mở hamburger bình thường */
+  .navbar {
+    overflow-x: visible !important;
+  }
+
+  .navbar-collapse {
+    overflow-x: visible !important;
+    overflow-y: auto !important; /* cho phép scroll menu nếu dài */
+    max-height: 80vh; /* giới hạn chiều cao menu */
+  }
+
+  /* Giữ icon gọn gàng */
+  .navbar .d-flex.m-3.me-0 {
+    margin-right: 0 !important;
+  }
+
+  .topbar {
+    margin: 0 !important;
+    padding: 6px 10px !important;
+  }
+}
+
+@media (max-width: 991.98px){
+  /* Container có padding để bù margin âm của .row */
+  .container { 
+    padding-left: var(--bs-gutter-x, .95rem) !important; 
+    padding-right: var(--bs-gutter-x, .75rem) !important; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  /* .row không bị ẩn tràn ngang, giữ margin âm chuẩn */
+  .row{
+    overflow-x: visible !important;
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+  }
+
+  /* Giữ chặn tràn ở body thôi để hết thanh ngang */
+  body{ overflow-x: hidden !important; width:100% !important; }
+}
+
+
+
+/* ===== Contact section – Mobile tidy ===== */
+@media (max-width: 767.98px){
+
+  /* Hộp ngoài đỡ bị "phồng" */
+  .contact .p-5{ padding: 16px !important; }
+  .contact .text-center.mx-auto{ max-width: 100%; }
+
+  /* Bản đồ: ép full-width + tỉ lệ 16:9 */
+  .contact iframe{
+    width: 100% !important;
+    height: auto !important;       /* override inline height=400 */
+    aspect-ratio: 16 / 9;          /* hiển thị theo chiều ngang */
+    border: 0 !important;
+    display: block;
+    border-radius: 12px !important;
+  }
+
+  /* Fallback nếu trình duyệt không hỗ trợ aspect-ratio */
+  @supports not (aspect-ratio: 16/9){
+    .contact .map-fallback{        /* thêm class này cho div bọc iframe (tuỳ chọn) */
+      position: relative; 
+      padding-top: 56.25%;         /* 16:9 */
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .contact .map-fallback iframe{
+      position: absolute; inset: 0;
+      width: 100% !important; height: 100% !important;
+    }
+  }
+
+  /* Form: input/textarea nút gọn hơn, đều nhau */
+  .contact .form-control{
+    font-size: 15px;
+    padding: 12px 14px;
+    border-radius: 12px;
+  }
+  .contact textarea.form-control{ min-height: 140px; }
+
+  .contact button.btn{
+    padding: 12px 14px;
+    border-radius: 12px;
+    font-weight: 600;
+  }
+}
+
+
+
 
