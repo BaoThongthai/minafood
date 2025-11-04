@@ -10,6 +10,12 @@
   --card-hover-scale: 1.02;  /* 🔧 độ phóng khi hover */   /* cam thương hiệu nếu dùng */
 }
 
+
+html { font-size: 95%; }
+body { zoom: 0.95; }
+section, .container { padding: 0.8rem 0 !important; }
+
+
 /* đảm bảo một số thành phần lấy đúng màu */
 .text-primary    { color: var(--bs-primary) !important; }
 .bg-primary      { background: var(--bs-primary) !important; }
