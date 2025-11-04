@@ -7,13 +7,29 @@
   const grid = document.querySelector(GRID_SELECTOR);
   if (!grid) return;
 
-  // Định dạng kích thước: Š (width) - V (height) - H (depth)
-  const fmtDims = ({ w, h, d }) => `Š: ${w}\u00A0 V: ${h}\u00A0 H: ${d}`;
+    // Định dạng kích thước: Š (width) - V (height) - H (depth)
+    const fmtDims = ({ w, h, d }) => `Š: ${w}\u00A0 V: ${h}\u00A0 H: ${d}`;
+
+
+
+  // hàm gửi thông tin messege với sản phẩm không có giá
+  const buildInquiryMessage = (p) => {
+    const { w, h, d } = p.dimensions || {};
+    return [
+      "Hello, I want to ask about the product : ",
+      `• Product name : ${p.name}`,
+      `• Size : Š ${w}   V ${h}   H ${d}`,
+      `• Weight : ${p.weight} kg`,
+      `• Source Page : ${location.href}`
+    ].join("\n");
+  };
 
   // Template hiển thị sản phẩm
-  const cardHTML = (p) => `
+const cardHTML = (p) => {
+  const msg = encodeURIComponent(buildInquiryMessage(p));
+  return `
     <div class="col-md-6 col-lg-4 col-xl-3">
-      <div class="rounded position-relative fruite-item">
+      <div class="rounded position-relative fruite-item h-100">
         <div class="fruite-img">
           <img src="${p.image}"
                class="img-fluid w-100 rounded-top border border-secondary"
@@ -21,13 +37,15 @@
         </div>
         ${p.label ? `
         <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
-             style="top: 10px; left: 10px;font-size:12px">${p.label}</div>` : ''}
-        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-          <h4>${p.name}</h4>
-          <p>${fmtDims(p.dimensions)}</p>
-          <p>Peso: ${p.weight} kg</p>
-          <div class="d-flex justify-content-end">
-            <a href="contact.html"
+             style="top:10px;left:10px;font-size:12px">${p.label}</div>` : ''}
+
+        <div class="p-4 border border-secondary border-top-0 rounded-bottom d-flex flex-column">
+          <h4 class="mb-2">${p.name}</h4>
+          <p class="mb-1">${fmtDims(p.dimensions)}</p>
+          <p class="mb-3">Peso: ${p.weight} kg</p>
+
+          <div class="mt-auto d-flex justify-content-end">
+            <a href="contact.html?msg=${msg}"
                class="btn border border-secondary rounded-pill px-3 text-primary"
                aria-label="Na poptávku">
               <i class="fa fa-paper-plane me-2 text-primary"></i>
@@ -38,6 +56,7 @@
       </div>
     </div>
   `;
+};
 
   // Render danh sách
   const renderProducts = (list) => {

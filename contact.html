@@ -107,11 +107,11 @@
                 <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
                     <div class="navbar-nav mx-auto">
                         <a href="index.html" class="nav-item nav-link " data-i18n="nav.home">Home</a>
-                        
+
                         <a href="index.html#Kategorie" class="nav-item nav-link"
                             data-i18n="nav.categories">Kategorie</a>
                         <a href="index.html#Onas" class="nav-item nav-link" data-i18n="nav.about">O nás</a>
-                         <a href="Galerie.html" class="nav-item nav-link" data-i18n="nav.Galerie">Galerie</a>
+                        <a href="Galerie.html" class="nav-item nav-link" data-i18n="nav.Galerie">Galerie</a>
                         <a href="videa.html" class="nav-item nav-link" data-i18n="nav.Videa">Videa</a>
                         <a href="contact.html" class=" active nav-item nav-link" data-i18n="nav.contact">Kontakt</a>
                     </div>
@@ -176,10 +176,14 @@
                                         data-i18n-placeholder="form.email" placeholder="Enter Your Email"> </div>
                                 <div class="col-md-6"> <input type="text" class="form-control border-0 py-3 h-100"
                                         data-i18n-placeholder="form.phone" placeholder="Telefon"> </div>
-                            </div> <textarea class="w-100 form-control border-0 mb-4" rows="5" cols="10"
-                                data-i18n-placeholder="form.message" placeholder="Zpráva"></textarea> <button
-                                class="w-100 btn form-control border-secondary py-3 bg-white text-primary" type="submit"
-                                data-i18n="form.submit"> Submit </button>
+                            </div>
+
+                            <textarea id="contact-message"
+  class="w-100 form-control border-0 mb-4" rows="5" cols="10"
+  data-i18n-placeholder="form.message" placeholder="Zpráva"></textarea>
+
+                            <button class="w-100 btn form-control border-secondary py-3 bg-white text-primary"
+                                type="submit" data-i18n="form.submit"> Submit </button>
                         </form>
                     </div>
                     <div class="col-lg-5">
@@ -333,7 +337,7 @@
     <script src="js/main.js"></script>
     <script src="js/i18n.js"></script>
     <script src="js/contact.js"></script>
-     <script src="js/cart.js"></script>
+    <script src="js/cart.js"></script>
     <!-- gửi mail -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 

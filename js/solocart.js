@@ -53,7 +53,7 @@
 
       const priceDisplay = hasPrice
         ? fmtCurrency(price, currency)
-        : `<span class="text-secondary" style="font-size:13px;">(contact to get price)</span>`;
+        : `<span class="text-secondary" style="font-size:14px; color : red">Na poptávku</span>`;
 
       return `
         <tr data-id="${id}">

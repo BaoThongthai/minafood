@@ -34,29 +34,46 @@
             if (badge) badge.textContent = count;
         });
     }
+    // xử lý với đối tượng không có giá
+    (function () {
+        // Lấy nội dung từ querystring (?msg=...)
+        const params = new URLSearchParams(location.search);
+        const msg = params.get('msg');
 
+        // Tìm đúng textarea (ưu tiên theo id, fallback theo data attr)
+        const ta =
+            document.getElementById('contact-message') ||
+            document.querySelector('textarea[data-i18n-placeholder="form.message"]') ||
+            document.querySelector('form textarea');
 
-    (function(){
-  // Tạo container toast
-  const toast = document.createElement('div');
-  toast.className = 'toast-cart';
-  document.body.appendChild(toast);
+        if (ta && msg) {
+            ta.value = decodeURIComponent(msg);
+            // optional: focus và scroll tới chỗ ô nhập
+            ta.focus({ preventScroll: false });
+        }
+    })();
 
-  // Lắng nghe sự kiện click Add to Cart
-  document.addEventListener('click', function(e){
-    const btn = e.target.closest('.add-to-cart');
-    if (!btn) return;
+    (function () {
+        // Tạo container toast
+        const toast = document.createElement('div');
+        toast.className = 'toast-cart';
+        document.body.appendChild(toast);
 
-    const name = btn.dataset.name || 'Product';
-    showToast(`🛒 ${name} has been added to cart!!`);
-  });
+        // Lắng nghe sự kiện click Add to Cart
+        document.addEventListener('click', function (e) {
+            const btn = e.target.closest('.add-to-cart');
+            if (!btn) return;
 
-  function showToast(msg){
-    toast.textContent = msg;
-    toast.classList.add('show');
-    setTimeout(()=>toast.classList.remove('show'), 2200);
-  }
-})();
+            const name = btn.dataset.name || 'Product';
+            showToast(`🛒 ${name} has been added to cart!!`);
+        });
+
+        function showToast(msg) {
+            toast.textContent = msg;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 2200);
+        }
+    })();
 
     // Lắng nghe click Add to cart
     document.addEventListener(

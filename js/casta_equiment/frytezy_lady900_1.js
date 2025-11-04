@@ -17,8 +17,19 @@
   const grid = document.querySelector(GRID_SELECTOR);
   if (!grid) return;
 
-  // Định dạng kích thước: Š (width) - V (height) - H (depth)
-  const fmtDims = ({ w, h, d }) => `Š: ${w}\u00A0 V: ${h}\u00A0 H: ${d}`;
+    // Định dạng kích thước: Š (width) - V (height) - H (depth)
+    const fmtDims = ({ w, h, d }) => `Š: ${w}\u00A0 V: ${h}\u00A0 H: ${d}`;
+  // hàm gửi thông tin messege với sản phẩm không có giá
+  const buildInquiryMessage = (p) => {
+    const { w, h, d } = p.dimensions || {};
+    return [
+      "Hello, I want to ask about the product : ",
+      `• Product name : ${p.name}`,
+      `• Size : Š ${w}   V ${h}   H ${d}`,
+      `• Weight : ${p.weight} kg`,
+      `• Source Page : ${location.href}`
+    ].join("\n");
+  };
 
   // ---- Popup helpers (sử dụng #inquiryModal giống trang chuẩn) ----
   function openInquiry(product) {

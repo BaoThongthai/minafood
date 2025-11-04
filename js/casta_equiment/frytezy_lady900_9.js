@@ -17,38 +17,52 @@
   const grid = document.querySelector(GRID_SELECTOR);
   if (!grid) return;
 
-  const fmtDims = ({ w, h, d }) => `Š: ${w}\u00A0 V: ${h}\u00A0 H: ${d}`;
+    const fmtDims = ({ w, h, d }) => `Š: ${w}\u00A0 V: ${h}\u00A0 H: ${d}`;
+  // hàm gửi thông tin messege với sản phẩm không có giá
+  const buildInquiryMessage = (p) => {
+    const { w, h, d } = p.dimensions || {};
+    return [
+      "Hello, I want to ask about the product : ",
+      `• Product name : ${p.name}`,
+      `• Size : Š ${w}   V ${h}   H ${d}`,
+      `• Weight : ${p.weight} kg`,
+      `• Source Page : ${location.href}`
+    ].join("\n");
+  };
 
-  const cardHTML = (p) => {
-    const imgSrc = p.image || 'img/placeholder.webp'; // fallback nếu JSON không có image
-    return `
-      <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="rounded position-relative fruite-item h-100" data-id="${p.name}">
-          <div class="fruite-img">
-            <img src="${imgSrc}"
-                 class="img-fluid w-100 rounded-top border border-secondary"
-                 alt="${p.name}">
-          </div>
-          ${p.label ? `
-          <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
-               style="top: 10px; left: 10px;font-size:12px">${p.label}</div>` : ''}
-          <div class="p-4 border border-secondary border-top-0 rounded-bottom d-flex flex-column">
-            <h4 class="mb-2">${p.name}</h4>
-            <p class="mb-1">${fmtDims(p.dimensions)}</p>
-            <p class="mb-3">Peso: ${p.weight} kg</p>
-            <div class="mt-auto d-flex justify-content-end">
-              <a href="contact.html"
-                 class="btn border border-secondary rounded-pill px-3 text-primary"
-                 aria-label="Na poptávku">
-                <i class="fa fa-paper-plane me-2 text-primary"></i>
-                <span>Na poptávku</span>
-              </a>
-            </div>
+  // Template hiển thị sản phẩm
+const cardHTML = (p) => {
+  const msg = encodeURIComponent(buildInquiryMessage(p));
+  return `
+    <div class="col-md-6 col-lg-4 col-xl-3">
+      <div class="rounded position-relative fruite-item h-100">
+        <div class="fruite-img">
+          <img src="${p.image}"
+               class="img-fluid w-100 rounded-top border border-secondary"
+               alt="${p.name}">
+        </div>
+        ${p.label ? `
+        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+             style="top:10px;left:10px;font-size:12px">${p.label}</div>` : ''}
+
+        <div class="p-4 border border-secondary border-top-0 rounded-bottom d-flex flex-column">
+          <h4 class="mb-2">${p.name}</h4>
+          <p class="mb-1">${fmtDims(p.dimensions)}</p>
+          <p class="mb-3">Peso: ${p.weight} kg</p>
+
+          <div class="mt-auto d-flex justify-content-end">
+            <a href="contact.html?msg=${msg}"
+               class="btn border border-secondary rounded-pill px-3 text-primary"
+               aria-label="Na poptávku">
+              <i class="fa fa-paper-plane me-2 text-primary"></i>
+              <span>Na poptávku</span>
+            </a>
           </div>
         </div>
       </div>
-    `;
-  };
+    </div>
+  `;
+};
 
   // --- Popup elements ---
   const popup = document.getElementById('product-popup');

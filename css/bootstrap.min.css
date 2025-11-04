@@ -4482,6 +4482,7 @@ fieldset:disabled .btn {
 }
 
 .navbar {
+    top: 0;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -8122,8 +8123,8 @@ fieldset:disabled .btn {
 }
 
 .py-5 {
-    padding-top: 1.2rem !important;
-    padding-bottom: 1.2rem !important
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important
 }
 
 .pt-0 {
