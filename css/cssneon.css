@@ -10,7 +10,7 @@
   font-weight: 600;
   text-decoration: none;
   border: 2px solid #1f3353;
-  border-radius: 9999px;
+  border-radius: 10px;
   background: #fff;                /* nền trắng mặc định */
   cursor: pointer;
   overflow: hidden;
@@ -43,8 +43,17 @@
   z-index: 1;
 }
 
+.nav.nav-pills a.liquid-btn {
+  text-align: center;
+  line-height: 1.2;
+}
+
+.nav.nav-pills a.liquid-btn span {
+  font-size: clamp(0.7rem, 0.9vw, 0.95rem);
+}
+
+
 /* Khi hover đổi màu text */
-.nav.nav-pills a.liquid-btn:hover span,
 .nav.nav-pills a.liquid-btn.active span {
   color: #fff;                     /* chữ trắng khi hover */
 }
@@ -80,3 +89,30 @@
   color: #1f3353;
   font-weight: 600;
 }
+
+/* 1) Text ở trên lớp fill + có thể delay đổi màu */
+.nav.nav-pills a.liquid-btn span{
+  position: relative;
+  z-index: 1;
+  transition: color 0s var(--cdelay, 0s); /* dùng biến để điều khiển delay */
+}
+
+/* 2) Khi hover/active: bật fill + đặt delay đổi màu chữ = thời gian fill (0.3s) */
+.nav.nav-pills a.liquid-btn:hover::before,
+.nav.nav-pills a.liquid-btn.active::before{
+  --p: 100%;
+  --t: 0.3s;      /* thời gian fill */
+}
+
+.nav.nav-pills a.liquid-btn:hover,
+.nav.nav-pills a.liquid-btn.active{
+  --cdelay: 0.3s;  /* trì hoãn đổi màu chữ tới khi nền xanh đã lên */
+}
+
+.nav.nav-pills a.liquid-btn:hover span,
+.nav.nav-pills a.liquid-btn.active span{
+  color:#fff;
+}
+
+/* 3) (tuỳ chọn) tăng độ an toàn khi rê nhanh qua lại */
+.nav.nav-pills a.liquid-btn{ will-change: transform; }
