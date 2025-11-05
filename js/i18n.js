@@ -15,7 +15,7 @@
             "qx260.spec.material_label": "Materiál:",
             "qx260.spec.material": "Nerezová ocel (Inox)",
             "qx260.spec.size_label": "Rozměry:",
-            "section.video.title":"Některé ikony zvýraznění filmů",
+            "section.video.title": "Některé ikony zvýraznění filmů",
             "qx260.spec.size": "56 × 38 × 50 cm",
             "qx260.spec.weight_label": "Hmotnost:",
             "qx260.spec.weight": "44 kg",
@@ -27,6 +27,10 @@
             "qx260.clean.step2": "Rozprašovačem naneste prostředek na mytí nádobí do všech štěrbin a jemně vydrhněte kartáčem.",
             "qx260.clean.step3": "Poté znovu opláchněte čistou vodou, dokud nezmizí všechny zbytky i čisticí prostředek.",
             "qx260.clean.note": "Po opláchnutí pečlivě zkontrolujte nože. Pokud zůstaly jakékoli zbytky, opakujte kroky 2 a 3, dokud nebude blok zcela čistý."
+            ,
+            "casta_equipment.title": "Profesionální vybavení Casta",
+            "casta_equipment.text1": "Profesionální kuchyňské vybavení Casta spojuje spolehlivost, výkon a moderní design. Každý produkt je navržen s důrazem na kvalitu, bezpečnost a efektivitu provozu — od menších bister až po velké hotelové kuchyně.",
+            "casta_equipment.text2": "Nabízíme kompletní sortiment zařízení: varné linky, fritézy, chladicí a mrazicí skříně, pracovní stoly, dřezy i příslušenství. Casta je ideální volbou pro profesionály, kteří požadují dlouhou životnost a maximální výkon."
             ,
             "button.search": "Nalézt",
 
@@ -291,8 +295,12 @@
 
         en: {
             // máy xay thịt
+            "casta_equipment.title": "Casta Professional Equipment",
+            "casta_equipment.text1": "Casta professional kitchen equipment combines reliability, performance, and modern design. Every product is engineered with a focus on quality, safety, and operational efficiency — from small bistros to large hotel kitchens.",
+            "casta_equipment.text2": "We offer a complete range of equipment: cooking lines, fryers, refrigeration and freezing cabinets, worktables, sinks, and accessories. Casta is the perfect choice for professionals who demand durability and top performance."
+            ,
             "qx260.title": "Fresh Meat Slicer QX-260",
-            "section.video.title":"Some movie highlight video",
+            "section.video.title": "Some movie highlight video",
             "qx260.summary": "The QX-260 is built for restaurants and processing sites: a 1.5 kW motor, ~250 kg/h capacity, and interchangeable blade sets from 2–20 mm. It delivers fast, uniform slices and can handle tougher rind (calf, goat), reducing labor with simple one-button operation. Stainless-steel construction ensures hygienic cleaning—ideal for pho, stir-fries, and more.",
             "qx260.specs_title": "Key Specifications",
             "qx260.spec.power_label": "Power:",
@@ -340,7 +348,7 @@
             "decora_kitchenware": "KITCHENWARE",
             "decora_sklo_a_por": "Minafood - Glass & porcelain",
             "decora_kategorie_porcelan": "Porcelain category",
-            "button.search":"Find",
+            "button.search": "Find",
             "decora_tableware": "TABLEWARE",
             "hoshizaki.text1": "Hoshizaki is a global leader from Japan specializing in commercial ice makers and refrigeration equipment. Known for durability and consistency, Hoshizaki products deliver pure ice and stable cooling performance for professional kitchens.",
             "hoshizaki.text2": "Trusted by top F&B brands worldwide, Hoshizaki combines advanced technology with strict hygiene standards to ensure reliable operation and lower operating costs.",
