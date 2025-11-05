@@ -22,7 +22,11 @@
   "galary-20.png",
   "galary-21.png",
   "galary-22.png",
-  "galary-23.png"
+  "galary-23.png",
+  "galary-24.jpg",
+   "galary-25.jpg",
+   "galary-26.jpg"
+
   ];
 
   const container = document.getElementById("product-grid");

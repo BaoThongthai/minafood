@@ -183,33 +183,21 @@
         </div>
     </div>
     <!-- Phân trang -->
-  <!-- Phân trang -->
-  <div class="col-12">
-        <nav aria-label="Pagination">
-            <ul class="pagination justify-content-center mt-5 flex-nowrap">
-                <!-- Nút về đầu -->
-                <li class="page-item">
-                    <a class="page-link rounded" href="Fritezy_lady900_6.html" aria-label="Previous">
-                        <i class="fa fa-angle-double-left"></i>
-                    </a>
-                </li>
+    <!-- MF Pagination (custom, tách hẳn Bootstrap) -->
+    <div class="mf-pager">
+        <nav class="mf-pager__wrap" aria-label="Pagination">
+            <!-- Prev (disabled ở trang 1) -->
+            <a class="mf-pg" href="Fritezy_lady900_6.html" aria-label="Previous">«</span>
+            <!-- Số trang -->
+            <span class="mf-ellipsis" aria-hidden="true">…</span>
+            <a class="mf-pg" href="Fritezy_lady900_5.html">5</a>
+            <a class="mf-pg" href="Fritezy_lady900_6.html">6</a>
+            <a class="mf-pg is-active" aria-current="page">7</a>
+            <a class="mf-pg" href="Fritezy_lady900_8.html">8</a>
+            <a class="mf-pg" href="Fritezy_lady900_9.html">9</a>
 
-                <li class="page-item"><a class="page-link rounded" href="Fritezy_lady900_1.html">1</a></li>
-                 <li class="page-item disabled"><span class="page-link rounded">…</span></li>
-                <li class="page-item"><a class="page-link rounded" href="Fritezy_lady900_4.html">4</a></li>
-                <li class="page-item "><a class="page-link rounded" href="Fritezy_lady900_5.html">5</a></li>
-                <li class="page-item"><a class="page-link rounded" href="Fritezy_lady900_6.html">6</a></li  >
-                <li class="page-item active"><a class="page-link rounded" href="Fritezy_lady900_7.html">7</a></li>
-               
-           
-
-                <!-- Nút sang cuối -->
-                <li class="page-item disabled">
-                    <a class="page-link rounded" href="Fritezy_lady900_8.html" aria-label="Next">
-                        <i class="fa fa-angle-double-right"></i>
-                    </a>
-                </li>
-            </ul>
+            <!-- Next -->
+            <a class="mf-pg" href="Fritezy_lady900_8.html" aria-label="Next">»</a>
         </nav>
     </div>
 
