@@ -1,0 +1,98 @@
+[
+  {
+    "id": "plynovy-1",
+    "name": "Plynový sporáky - 1 hořák",
+    "label": "Plynový sporáky",
+    "image": "img/Plynovy/bep1.png",
+    "item_number": "",
+    "capacity": { "gross": "", "net": "" },
+    "dimensions": { "w": "", "d": "", "h": "" },
+    "availability": { "ostrava": "", "dansko": "", "status": "", "delivery": "" },
+    "price": 70000,
+    "currency": "Kč"
+  },
+  {
+    "id": "plynovy-2",
+    "name": "Plynový sporáky - 2 hořáky",
+    "label": "Plynový sporáky",
+    "image": "img/Plynovy/bep2.png",
+    "item_number": "",
+    "capacity": { "gross": "", "net": "" },
+    "dimensions": { "w": "", "d": "", "h": "" },
+    "availability": { "ostrava": "", "dansko": "", "status": "", "delivery": "" },
+    "price": 95000,
+    "currency": "Kč"
+  },
+  {
+    "id": "plynovy-3",
+    "name": "Plynový sporáky - 3 hořáky",
+    "label": "Plynový sporáky",
+    "image": "img/Plynovy/bep3.png",
+    "item_number": "",
+    "capacity": { "gross": "", "net": "" },
+    "dimensions": { "w": "", "d": "", "h": "" },
+    "availability": { "ostrava": "", "dansko": "", "status": "", "delivery": "" },
+    "price": 120000,
+    "currency": "Kč"
+  },
+  {
+    "id": "plynovy-4",
+    "name": "Plynový sporáky - 4 hořáky",
+    "label": "Plynový sporáky",
+    "image": "img/Plynovy/b4.png",
+    "item_number": "",
+    "capacity": { "gross": "", "net": "" },
+    "dimensions": { "w": "", "d": "", "h": "" },
+    "availability": { "ostrava": "", "dansko": "", "status": "", "delivery": "" },
+    "price": 150000,
+    "currency": "Kč"
+  },
+  {
+    "id": "plynovy-5",
+    "name": "Sporák wok 1 hořák LS CC/01",
+    "label": "Plynový sporáky",
+    "image": "img/Plynovy/bep5.png",
+    "item_number": "",
+    "capacity": { "gross": "", "net": "" },
+    "dimensions": { "w": "", "d": "", "h": "" },
+    "availability": { "ostrava": "", "dansko": "", "status": "", "delivery": "" },
+    "price": 45000,
+    "currency": "Kč"
+  },
+  {
+    "id": "plynovy-6",
+    "name": "Sporák wok 2 hořáky LS CC/02",
+    "label": "Plynový sporáky",
+    "image": "img/Plynovy/bep6.png",
+    "item_number": "",
+    "capacity": { "gross": "", "net": "" },
+    "dimensions": { "w": "", "d": "", "h": "" },
+    "availability": { "ostrava": "", "dansko": "", "status": "", "delivery": "" },
+    "price": 75000,
+    "currency": "Kč"
+  },
+  {
+    "id": "plynovy-7",
+    "name": "Sporák wok 3 hořáky LS CC/03",
+    "label": "Plynový sporáky",
+    "image": "img/Plynovy/bep7.png",
+    "item_number": "",
+    "capacity": { "gross": "", "net": "" },
+    "dimensions": { "w": "", "d": "", "h": "" },
+    "availability": { "ostrava": "", "dansko": "", "status": "", "delivery": "" },
+    "price": 90000,
+    "currency": "Kč"
+  },
+  {
+    "id": "plynovy-8",
+    "name": "Sporák wok 4 hořáky LS CC/04",
+    "label": "Plynový sporáky",
+    "image": "img/Plynovy/bep8.png",
+    "item_number": "",
+    "capacity": { "gross": "", "net": "" },
+    "dimensions": { "w": "", "d": "", "h": "" },
+    "availability": { "ostrava": "", "dansko": "", "status": "", "delivery": "" },
+    "price": 115000,
+    "currency": "Kč"
+  }
+]

@@ -12,7 +12,7 @@
   { json: '/js/data/cnboriental_chopsticks.json',    page: '/cnboriental_chopsticks.html',    cat: 'CHOPSTICKS' },
   { json: '/js/data/cnboriental_giftsets.json',      page: '/cnboriental_gift.html',          cat: 'GIFTSETS' },
   { json: '/js/data/cnboriental_grilling.json',      page: '/cnboriental_grilling.html',      cat: 'GRILLING' },
-  { json: '/js/data/cnboriental_decorations.json',   page: '/cnboriental_decorations.html',   cat: 'DECORATIONS' },
+  { json: '/js/data/cnboriental_decoration.json',   page: '/cnboriental_decorations.html',   cat: 'DECORATIONS' },
   { json: '/js/data/cnboriental_healthcare.json',    page: '/cnboriental_healthcare.html',    cat: 'HEALTHCARE' },
   { json: '/js/data/cnboriental_tea&coffee.json',    page: '/cnboriental_tea&coffee.html',    cat: 'TEA & COFFEE' },
   { json: '/js/data/chladici_pos.json',              page: '/chladici_pos.html',              cat: 'CHLADICI POS' },

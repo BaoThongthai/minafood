@@ -181,33 +181,19 @@
             <p id="popup-weight"></p>
         </div>
     </div>
-    <!-- Phân trang -->
-  <!-- Phân trang -->
-  <div class="col-12">
-        <nav aria-label="Pagination">
-            <ul class="pagination justify-content-center mt-5 flex-nowrap">
-                <!-- Nút về đầu -->
-                <li class="page-item">
-                    <a class="page-link rounded" href="Fritezy_fast700.html" aria-label="Previous">
-                        <i class="fa fa-angle-double-left"></i>
-                    </a>
-                </li>
+    <!-- MF Pagination (custom, tách hẳn Bootstrap) -->
+    <div class="mf-pager">
+        <nav class="mf-pager__wrap" aria-label="Pagination">
+            <!-- Prev (disabled ở trang 1) -->
+              <a class="mf-pg" href="Fritezy_fast700.html" aria-label="Previous">«</a>
 
-              
-                <li class="page-item "><a class="page-link rounded" href="Fritezy_fast700.html">1</a></li>
-                <li class="page-item active  "><a class="page-link rounded" href="">2</a></li>
-               
-           
-               
-           
+            <!-- Số trang -->
+            <a class="mf-pg " href="Fritezy_fast700.html">1</a>
+            <a class="mf-pg is-active" href="Fritezy_smart700.html">2</a>
+         
 
-                <!-- Nút sang cuối -->
-                <li class="page-item disabled ">
-                    <a class="page-link rounded" href="" aria-label="Next">
-                        <i class="fa fa-angle-double-right"></i>
-                    </a>
-                </li>
-            </ul>
+            <!-- Next -->
+            <a class="mf-pg is-disabled" href="Fritezy_smart700.html" aria-label="Next">»</a>
         </nav>
     </div>
 
