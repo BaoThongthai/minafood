@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PHO-100L",
+    "sku": "PHO-100L",
+    "name": "Electric Pho Cooker 100L",
+    "line1": "Capacity 100 Liters, w: 65, d: 65, h: 91",
+    "line2": "Three-layer insulated pot",
+    "label": "",
+    "price": 25000,
+    "currency": "",
+    "image": "img/pho/pho100.png",
+    "href": "",
+    "specs": {
+      "capacity_liters": 100,
+      "voltage": "380V",
+      "power_kw": 7.5,
+      "material": "High-grade stainless steel (Inox)",
+      "dimensions_cm": { "w": 65, "d": 65, "h": 91 },
+      "insulation": "3-layer structure: 2 layers of 1mm stainless steel + high-pressure injected polyurethane insulation",
+      "warranty_months": 12
+    }
+  },
+  {
+    "id": "PHO-50L",
+    "sku": "PHO-50L",
+    "name": "Electric Pho Cooker 50L",
+    "line1": "Capacity 50 Liters, w: 52, d: 52, h: 81",
+    "line2": "Three-layer insulated pot",
+    "label": "",
+    "price": 18000,
+    "currency": "",
+    "image": "img/pho/pho50.png",
+    "href": "",
+    "specs": {
+      "capacity_liters": 50,
+      "voltage": "380V",
+      "power_kw": 4.5,
+      "material": "High-grade stainless steel (Inox)",
+      "dimensions_cm": { "w": 52, "d": 52, "h": 81 },
+      "insulation": "3-layer structure: 2 layers of 1mm stainless steel + high-pressure injected polyurethane insulation",
+      "warranty_months": 12
+    }
+  },
+  {
+    "id": "PHO-80L",
+    "sku": "PHO-80L",
+    "name": "Electric Pho Cooker 80L",
+    "line1": "Capacity 30 Liters",
+    "line2": "Three-layer insulated pot",
+    "label": "",
+    "price": 22000,
+    "currency": "",
+    "image": "img/pho/pho80.png",
+    "href": "",
+    "specs": {
+      "capacity_liters": 30,
+      "voltage": "220V",
+      "power_kw": 2.5,
+      "material": "High-grade stainless steel (Inox)",
+      "dimensions_cm": { "w": 0, "d": 0, "h": 0 },
+      "insulation": "3-layer structure: 2 layers of 1mm stainless steel + high-pressure injected polyurethane insulation",
+      "warranty_months": 12
+    }
+  },
+    {
+    "id": "PHO-20L",
+    "sku": "PHO-20L",
+    "name": "Electric Pho Cooker 20L",
+    "line1": "Capacity 30 Liters ,w: 38, d: 38, h: 70",
+    "line2": "Three-layer insulated pot",
+    "label": "",
+    "price": 15000,
+    "currency": "",
+    "image": "img/pho/pho20l.png",
+    "href": "",
+    "specs": {
+      "capacity_liters": 30,
+      "voltage": "220V",
+      "power_kw": 2.5,
+      "material": "High-grade stainless steel (Inox)",
+      "dimensions_cm": { "w": 0, "d": 0, "h": 0 },
+      "insulation": "3-layer structure: 2 layers of 1mm stainless steel + high-pressure injected polyurethane insulation",
+      "warranty_months": 12
+    }
+  },
+      {
+    "id": "PHO-150L",
+    "sku": "PHO-150L",
+    "name": "Electric Pho Cooker 150L",
+    "line1": "Capacity 30 Liters",
+    "line2": "Three-layer insulated pot",
+    "label": "",
+    "price": 29000,
+    "currency": "",
+    "image": "img/pho/pho150.png",
+    "href": "",
+    "specs": {
+      "capacity_liters": 30,
+      "voltage": "220V",
+      "power_kw": 2.5,
+      "material": "High-grade stainless steel (Inox)",
+      "dimensions_cm": { "w": 0, "d": 0, "h": 0 },
+      "insulation": "3-layer structure: 2 layers of 1mm stainless steel + high-pressure injected polyurethane insulation",
+      "warranty_months": 12
+    }
+  },
+  {
+    "id": "PHO-30L",
+    "sku": "PHO-30L",
+    "name": "Electric Pho Cooker 30L",
+    "line1": "Capacity 30 Liters, w: 46, d: 46, h: 74",
+    "line2": "Three-layer insulated pot ",
+    "label": "",
+    "price": "liên hệ",
+    "currency": "",
+    "image": "img/pho/pho30.png",
+    "href": "",
+    "specs": {
+      "capacity_liters": 30,
+      "voltage": "220V",
+      "power_kw": 2.5,
+      "material": "High-grade stainless steel (Inox)",
+      "dimensions_cm": { "w": 46, "d": 46, "h": 74 },
+      "insulation": "3-layer structure: 2 layers of 1mm stainless steel + high-pressure injected polyurethane insulation",
+      "warranty_months": 12
+    }
+  }
+]

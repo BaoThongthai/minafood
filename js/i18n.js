@@ -116,7 +116,7 @@
             "portfolio.title": "Naše práce a reference",
             "portfolio.text": "Podívejte se na jedny z našich posledních prací a zakázek, které jsme kompletně realizovali od A-Z pro naše zákazníky",
             "sections.categoriesTitle": "Kategorie produktů",
-
+            "pho_cooker": "Vařiče na phở",
             "tabs.gasStoves": "Plynový sporáky",
             "tabs.fryers": "Fritézy & kuchyně",
             "tabs.gastroContainers": "Gastro nádoby",
@@ -295,6 +295,7 @@
 
         en: {
             // máy xay thịt
+            "pho_cooker": "Pho Cookers",
             "casta_equipment.title": "Casta Professional Equipment",
             "casta_equipment.text1": "Casta professional kitchen equipment combines reliability, performance, and modern design. Every product is engineered with a focus on quality, safety, and operational efficiency — from small bistros to large hotel kitchens.",
             "casta_equipment.text2": "We offer a complete range of equipment: cooking lines, fryers, refrigeration and freezing cabinets, worktables, sinks, and accessories. Casta is the perfect choice for professionals who demand durability and top performance."
