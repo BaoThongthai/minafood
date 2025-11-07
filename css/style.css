@@ -1893,3 +1893,42 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link {
 
 
 /*End style thanh cuộn best product */
+
+
+/* hiển thị ... ở card */
+/* Dùng cho mọi đoạn cần cắt dòng kèm dấu … */
+.line-clamp-1,
+.line-clamp-2,
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* bản chuẩn + kèm -webkit */
+.line-clamp-1 {
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+}
+
+.line-clamp-2 {
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+}
+
+/* (tuỳ chọn) giữ chiều cao đều giữa các card */
+.fruite-item .p-4 h4.line-clamp-2 {
+  min-height: 3.2em;
+}
+
+/* ~2 dòng tiêu đề */
+.fruite-item .p-4 p.line-clamp-2 {
+  min-height: 2.8em;
+}
+
+/* ~2 dòng mỗi đoạn */

@@ -1,11 +1,11 @@
-// đoạn js này xử lý nếu có giá thì add to cart còn không thì liên hệ
+// /js/products_filter_paged.js
 (async function () {
     const GRID_SELECTOR = "#product-grid";
     const COUNT_EL = "#product-count";
     const PAGER_SLOT = "#pager-slot";
     const CATEGORY_SLOT = "#category-slot";
 
-    const DATA_URL = "js/data/maythucphamth_pho.json"; // ← đổi sang file JSON của bạn
+    const DATA_URL = "js/data/maythucphamth_mayxaythit.json"; // ← đổi sang file JSON của bạn
 
     const LABELS = {
         loadingAria: "loading",
@@ -22,92 +22,7 @@
     const PAGE_SIZE = 30;
 
     // ========= CATEGORY RULES =========
-    const CATEGORY_RULES = [
-        // 1) ƯU TIÊN: CHỈNH DISPLAY LÊN TRÊN
-        {
-            name: "CHOPSTICK DISPLAY",
-            patterns: [
-                // tên thường thấy
-                /\bdisplay\b/i,
-                /\bunit\s*display\b/i,
-                /\bfloor\s*unit\b/i,
-                /\bcounter\s*unit\b/i,
-                /\bstand(s)?\b/i,
-                // bổ sung các biến thể hay gặp
-                /\bcarousel\b/i,
-                /\brotat(ing|ion)\b/i,
-                /\brack\b/i,
-                // bảo hiểm: có “chopstick(s)” + “display/stand”
-                /\bchopstick(s|set)?\b.*\b(display|stand|rack|unit)\b/i,
-            ],
-        },
 
-        // 2) CÁC NHÓM KHÁC
-        {
-            name: "DISPOSABLE CHOPSTICKS",
-            patterns: [
-                /\bdisposable\b/i,
-                /\bsingle[-\s]*use\b/i,
-                /\bwaribashi\b/i,
-                /\bwood(en)?\b/i,
-                /\bbamboo\b/i,
-                /\bpairs?\b(?=.*\b(disposable|waribashi)\b)/i,
-            ],
-        },
-        {
-            name: "COOKING CHOPSTICKS",
-            patterns: [/\bcooking\b/i, /\bsaibashi\b/i],
-        },
-        {
-            name: "CHILDREN CHOPSTICKS",
-            patterns: [
-                /\bchild(ren)?\b/i,
-                /\bkid(s)?\b/i,
-                /\btrainer\b/i,
-                /\blearning\b/i,
-                /\bring\b(?=.*\bchopstick)/i,
-                /\bhelper\b(?=.*\bchopstick)/i,
-            ],
-        },
-        {
-            name: "CHOPSTICK GIFTSET",
-            patterns: [
-                // loại trừ các mẫu “display/stand” để khỏi lẫn
-                /\b(gift\s*set|giftset)\b(?![^]*\b(display|stand|rack|unit)\b)/i,
-                /\bpresent\b(?=.*\bchopstick)/i,
-                /\bbox\b(?=.*\bset\b)/i,
-            ],
-        },
-        {
-            name: "CHOPSTICK RESTS",
-            patterns: [
-                /\bchopstick\s*rest(s)?\b/i,
-                /\bhashi(oki)?\b/i,
-                /\brest\b(?=.*\bchopstick)/i,
-            ],
-        },
-        {
-            name: "SINGLE CHOPSTICKS",
-            patterns: [
-                /\bsingle\b(?=.*\bchopstick)/i,
-                // “chopstick” (số ít) nhưng không phải “set”
-                /\bchopstick\b(?!s|\s*set)/i,
-            ],
-        },
-
-        // 3) ĐỂ SET XUỐNG SAU CÙNG + CHẶN DISPLAY
-        {
-            name: "CHOPSTICK SET",
-            patterns: [
-                // phải có “set” liên quan chopstick, nhưng KHÔNG có từ khoá của display
-                /\bchopstick(s)?\s*set\b(?![^]*\b(display|stand|rack|unit)\b)/i,
-                /\bchopstickset\b(?![^]*\b(display|stand|rack|unit)\b)/i,
-                /\bset\b(?=.*\bchopstick)(?![^]*\b(display|stand|rack|unit)\b)/i,
-                // “pair(s)” nhưng không phải kệ/đế trưng bày
-                /\bpairs?\b(?![^]*\b(display|stand|rack|unit)\b)/i,
-            ],
-        },
-    ];
 
     const SEE_ALL = LABELS.seeAll;
 
@@ -196,6 +111,7 @@
 ${p.line1 ? `<p class="mb-1 text-muted line-clamp-2" title="${p.line1}">${p.line1}</p>` : ''}
 ${p.line2 ? `<p class="mb-2 text-muted line-clamp-2" title="${p.line2}">${p.line2}</p>` : ''}
 ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku}">SKU: ${p.sku}</p>` : ''}
+
 
           ${priceText ? `<p class="mb-3 fw-semibold">${priceText}</p>` : `<p class="mb-3"></p>`}
 

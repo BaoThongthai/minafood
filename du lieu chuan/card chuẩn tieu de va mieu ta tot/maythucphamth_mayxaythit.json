@@ -1,0 +1,72 @@
+[
+    {
+        "id": "mk12",
+        "sku": "MK12",
+        "name": "Meat Grinder MK-12",
+        "line1": "Meat Grinder MK-12 (380×210×490mm)",
+        "line2": "850W power, 220V/50Hz, capacity 150kg/day. Stainless steel body with 6mm & 8mm plates. Compact design, easy to clean, suitable for small kitchens or butcher shops.",
+        "label": "",
+        "price": null,
+        "price_src": null,
+        "currency": "",
+        "image": "img/mayxaythit/KM12.png",
+        "href": "",
+        "sp": 1
+    },
+    {
+        "id": "mk22",
+        "sku": "MK22",
+        "name": "Meat Grinder MK-22",
+        "line1": "Meat Grinder MK-22 (490×285×450mm)",
+        "line2": "1100W motor, 220V/50Hz, productivity 220kg/day. Equipped with 6mm & 8mm plates. Full stainless steel frame, durable and stable for restaurant or deli use.",
+        "label": "",
+        "price": null,
+        "price_src": null,
+        "currency": "",
+        "image": "img/mayxaythit/MK22.png",
+        "href": "",
+        "sp": 1
+    },
+    {
+        "id": "mix11k",
+        "sku": "Mix11K",
+        "name": "1.1kW Meat Grinder and Fish Paste Mixer",
+        "line1": "1.1kW Meat Grinder and Fish Paste Mixer (Ø22cm bowl)",
+        "line2": "Made of stainless steel with 1.1kW copper motor, operates on 220V/50Hz. Grinds 1–2kg per batch. Includes 2 blades (grinding + stirring). Compact and efficient for home or small business use.",
+        "label": "",
+        "price": null,
+        "price_src": null,
+        "currency": "",
+        "image": "img/mayxaythit/mayxaythitdanhruoc.png",
+        "href": "",
+        "sp": 1
+    },
+    {
+        "id": "mix5kg",
+        "sku": "Mix5KG",
+        "name": "5KG Meat and Fish Paste Mixer",
+        "line1": "5KG Meat and Fish Paste Mixer (530×500×780mm)",
+        "line2": "3.5kW full-copper motor, 220V power. Stainless steel bowl (thickness 1.2mm), 2 mixing blades. Capacity 3–5kg per batch. Ideal for producing meat paste, sausages, or fish cakes in small factories.",
+        "label": "",
+        "price": null,
+        "price_src": null,
+        "currency": "",
+        "image": "img/mayxaythit/mayxaygiocha5kg.png",
+        "href": "",
+        "sp": 1
+    },
+    {
+        "id": "ats950",
+        "sku": "ATS950",
+        "name": "Meat Grinder ATS-950",
+        "line1": "Meat Grinder ATS-950 (560×310×440mm)",
+        "line2": "2.2kW motor, 220V power, 200kg/h output. Includes 4 blades and 4 plates (6–12mm). Cast aluminum housing, stainless steel auger. Heavy-duty machine for pork, beef, or chicken grinding.",
+        "label": "",
+        "price": null,
+        "price_src": null,
+        "currency": "",
+        "image": "img/mayxaythit/ATS950.png",
+        "href": "",
+        "sp": 1
+    }
+]

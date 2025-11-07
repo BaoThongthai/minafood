@@ -107,10 +107,10 @@
         ${p.label ? `<div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top:10px;left:10px;font-size:12px">${p.label}</div>` : ''}
 
         <div class="p-4 border border-secondary border-top-0 rounded-bottom d-flex flex-column">
-          <h4 class="mb-2">${p.name}</h4>
-          ${p.line1 ? `<p class="mb-1 text-muted">${p.line1}</p>` : ''}
-          ${p.line2 ? `<p class="mb-2 text-muted">${p.line2}</p>` : ''}
-          ${p.sku ? `<p class="mb-2 small text-secondary">SKU: ${p.sku}</p>` : ''}
+<h4 class="mb-2 line-clamp-2" title="${p.name}">${p.name}</h4>
+${p.line1 ? `<p class="mb-1 text-muted line-clamp-2" title="${p.line1}">${p.line1}</p>` : ''}
+${p.line2 ? `<p class="mb-2 text-muted line-clamp-2" title="${p.line2}">${p.line2}</p>` : ''}
+${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku}">SKU: ${p.sku}</p>` : ''}
 
           ${priceText ? `<p class="mb-3 fw-semibold">${priceText}</p>` : `<p class="mb-3"></p>`}
 
