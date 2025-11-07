@@ -15,8 +15,8 @@
         window.location.href = 'Plynovy.html';
     });
 
-    //  move_Galarie
-    document.getElementById('move_Galarie').addEventListener('click', function () {
+    //  move_galerie
+    document.getElementById('move_galerie').addEventListener('click', function () {
         window.location.href = 'Galerie.html';
     });
 
