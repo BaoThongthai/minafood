@@ -604,17 +604,25 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link {
 .product-popup-content {
   background: #fff;
   border-radius: 12px;
-  max-width: 760px;
-  /* khung tối đa khi xem to */
   width: 92%;
+  max-width: 480px;
+  /* ↓ GIỚI HẠN KÍCH THƯỚC POPUP */
+  max-height: 90vh;
+  /* ↓ KHÔNG BAO GIỜ VƯỢT QUÁ MÀN HÌNH */
+  overflow-y: auto;
+  /* ↓ nếu dài quá thì cuộn bên trong popup */
   padding: 18px;
   text-align: center;
   position: relative;
   box-shadow: 0 20px 60px rgba(0, 0, 0, .35);
+  animation: fadePop .25s ease;
 }
 
 .product-popup-content img {
   max-width: 100%;
+  max-height: 260px;
+  /* ↓ không cho ảnh phóng to quá */
+  object-fit: contain;
   height: auto;
   margin-bottom: 12px;
 }
@@ -632,6 +640,7 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link {
 .product-popup h4 {
   margin: 0 0 6px;
   font-size: 1.05rem;
+  font-weight: 600;
 }
 
 .product-popup p {
@@ -639,6 +648,32 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link {
   font-size: .95rem;
   color: #444;
 }
+
+/* hiệu ứng nhẹ */
+@keyframes fadePop {
+  from {
+    opacity: 0;
+    transform: scale(.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Tối ưu cho mobile */
+@media (max-width: 480px) {
+  .product-popup-content {
+    max-width: 92%;
+    padding: 14px;
+  }
+
+  .product-popup-content img {
+    max-height: 200px;
+  }
+}
+
 
 
 

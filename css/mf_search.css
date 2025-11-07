@@ -111,6 +111,7 @@
     width: 140px;
     font-size: 0.85rem;
   }
+
   .mf-search button {
     display: none;
   }
@@ -160,7 +161,8 @@
 /* === Nút chữ Find khi mở rộng === */
 .mf-search .text-btn {
   font-size: 14px;
-  color:#114070; ;
+  color: #114070;
+  ;
   background: #fff;
   border: 1px solid #114070;
   border-radius: 6px;
@@ -193,44 +195,47 @@
   }
 
   /* --- Fix mobile search full width --- */
-.mobile-search-wrapper {
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-}
+  .mobile-search-wrapper {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-.mobile-search-wrapper form {
-  background: var(--bs-primary);
-  border-radius: 999px;
-  padding: 6px 8px;
-  margin: 0 10px; /* bo nhẹ hai bên cho đẹp */
-  display: flex;
-  align-items: center;
-}
+  .mobile-search-wrapper form {
+    background: var(--bs-primary);
+    border-radius: 999px;
+    padding: 6px 8px;
+    margin: 0 10px;
+    /* bo nhẹ hai bên cho đẹp */
+    display: flex;
+    align-items: center;
+  }
 
-.mobile-search-wrapper input.form-control {
-  flex: 1;
-  border: none;
-  border-radius: 999px;
-  padding: 8px 12px;
-  font-size: 14px;
-  color: #333;
-}
+  .mobile-search-wrapper input.form-control {
+    flex: 1;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #333;
+  }
 
-.mobile-search-wrapper input.form-control:focus {
-  box-shadow: none;
-}
+  .mobile-search-wrapper input.form-control:focus {
+    box-shadow: none;
+  }
 
-.mobile-search-wrapper .btn {
-  border-radius: 999px;
-  background: var(--bs-secondary);
-  color: #fff;
-  font-size: 16px;
-  padding: 6px 12px;
-  border: none;
-}
+  .mobile-search-wrapper .btn {
+    border-radius: 999px;
+    background: var(--bs-secondary);
+    color: #fff;
+    font-size: 16px;
+    padding: 6px 12px;
+    border: none;
+  }
 
-.mobile-search-wrapper { margin-top: -8px !important; }
+  .mobile-search-wrapper {
+    margin-top: -8px !important;
+  }
 
 }
 
@@ -241,3 +246,71 @@
   }
 }
 
+
+
+
+/* thử nghiệm */
+/* ========== STYLISH SEARCH ========== */
+.stylish-search {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 25px;
+  border: 2px solid #1f3353;
+  /* dùng màu thương hiệu */
+  padding: 5px;
+  transition: all 0.8s ease;
+  overflow: hidden;
+}
+
+.stylish-search input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 42.5px;
+  line-height: 30px;
+  outline: none;
+  border: none;
+  display: none;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 20px;
+  color: #1f3353;
+}
+
+.stylish-search button {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 42.5px;
+  height: 42.5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  color: #1f3353;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+
+/* Hover mở rộng ra */
+.stylish-search:hover {
+  width: 260px;
+  cursor: pointer;
+}
+
+.stylish-search:hover input {
+  display: block;
+  padding-right: 45px;
+}
+
+.stylish-search:hover button i {
+  background: #1f3353;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+}

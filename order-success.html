@@ -61,8 +61,8 @@
 
   <!-- Template Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
-    <link href="css/mf_search.css" rel="stylesheet">
-    <script src="js/funtion_search_input.js"></script>
+  <link href="css/mf_search.css" rel="stylesheet">
+  <script src="js/funtion_search_input.js"></script>
 
 </head>
 
@@ -98,22 +98,23 @@
         <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
           <div class="navbar-nav mx-auto">
             <a href="index.html" class="nav-item nav-link active" data-i18n="nav.home">Home</a>
-            
+
             <a href="#Kategorie" class="nav-item nav-link" data-i18n="nav.categories">Kategorie</a>
             <a href="index.html#Onas" class="nav-item nav-link" data-i18n="nav.about">O nás</a>
             <a href="contact.html" class="nav-item nav-link" data-i18n="nav.contact">Kontakt</a>
           </div>
-                               <!-- SEARCH (global) -->
-                    <div class="ms-auto d-flex align-items-center" style="margin-right: 7px;">
-                        <form id="mf-search-form" action="/search.html" class="mf-search">
-                            <input id="mf-search-input" name="q" type="search" placeholder="Find product"
-                                autocomplete="off" aria-label="Search">
-                            <button type="button" id="search-toggle" class="icon-only">
-                                <i class="fa-solid fa-magnifying-glass fa-2x" style="color: #114070;"></i>
-                            </button>
-                            <button type="submit" id="search-submit" class="text-btn" hidden><i class="fa-solid fa-magnifying-glass fa-2x" style="color: #114070;"></i></button>
-                        </form>
-                    </div>
+          <!-- SEARCH (global) -->
+          <div class="ms-auto d-flex align-items-center" style="margin-right: 7px;">
+            <form id="mf-search-form" action="/search.html" class="mf-search">
+              <input id="mf-search-input" name="q" type="search" placeholder="Type to search" autocomplete="off"
+                aria-label="Search">
+              <button type="button" id="search-toggle" class="icon-only">
+                <i class="fa-solid fa-magnifying-glass fa-2x" style="color: #114070;"></i>
+              </button>
+              <button type="submit" id="search-submit" class="text-btn" hidden><i
+                  class="fa-solid fa-magnifying-glass fa-2x" style="color: #114070;"></i></button>
+            </form>
+          </div>
           <button id="langToggle" class="btn btn-outline-secondary btn-sm px-3">EN</button>
           <div class="d-flex m-3 me-0">
             <a href="cart.html" class="position-relative me-4 my-auto">
@@ -132,99 +133,99 @@
 
   </div>
   <!-- Navbar End -->
-<br>
-<hr/>
-<div class="container py-5">
-  <h2 data-i18n="thank.title">Checkout</h2>
-  <p class="text-muted" data-i18n="thank.desc">Děkujeme. Vaše objednávka byla přijata.</p>
+  <br>
+  <hr />
+  <div class="container py-5">
+    <h2 data-i18n="thank.title">Checkout</h2>
+    <p class="text-muted" data-i18n="thank.desc">Děkujeme. Vaše objednávka byla přijata.</p>
 
-  <div id="topMeta" class="row g-4 border-bottom pb-3 mb-4">
-    <div class="col-6 col-md-3">
-      <div class="order-kv" data-i18n="thank.orderNo">Číslo objednávky:</div>
-      <div class="order-v" id="mOrderNo">—</div>
+    <div id="topMeta" class="row g-4 border-bottom pb-3 mb-4">
+      <div class="col-6 col-md-3">
+        <div class="order-kv" data-i18n="thank.orderNo">Číslo objednávky:</div>
+        <div class="order-v" id="mOrderNo">—</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="order-kv" data-i18n="thank.date">Datum:</div>
+        <div class="order-v" id="mDate">—</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="order-kv" data-i18n="thank.total">Celkem:</div>
+        <div class="order-v" id="mTotal">—</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="order-kv" data-i18n="thank.paymentMethod">Platební metoda:</div>
+        <div class="order-v" id="mPayMethod">—</div>
+      </div>
     </div>
-    <div class="col-6 col-md-3">
-      <div class="order-kv" data-i18n="thank.date">Datum:</div>
-      <div class="order-v" id="mDate">—</div>
+
+    <h5 class="mb-3" data-i18n="thank.paymentInfo">Údaje pro platbu</h5>
+    <div class="border rounded p-3 mb-4">
+      <div class="fw-bold" id="bankCompany">—</div>
+      <div class="row mt-2">
+        <div class="col-6 col-md-3">
+          <div class="order-kv" data-i18n="thank.bank">Banka:</div>
+          <div class="order-v" id="bankName">—</div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="order-kv" data-i18n="thank.bankCode">Kód banky:</div>
+          <div class="order-v" id="bankCode">—</div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="order-kv" data-i18n="thank.accountNo">Číslo účtu:</div>
+          <div class="order-v" id="bankAcc">—</div>
+        </div>
+        <div class="col-12 col-md-6 mt-2">
+          <div class="order-kv" data-i18n="thank.iban">IBAN:</div>
+          <div class="order-v" id="bankIban">—</div>
+        </div>
+        <div class="col-12 col-md-6 mt-2">
+          <div class="order-kv" data-i18n="thank.bic">BIC/SWIFT:</div>
+          <div class="order-v" id="bankBic">—</div>
+        </div>
+      </div>
+      <p class="small text-muted mt-3 mb-0" data-i18n="thank.note">
+        Při platbě prosím uveďte <strong>variabilní symbol = číslo objednávky</strong>.
+        Objednávka bude zpracována po připsání částky na náš účet.
+      </p>
     </div>
-    <div class="col-6 col-md-3">
-      <div class="order-kv" data-i18n="thank.total">Celkem:</div>
-      <div class="order-v" id="mTotal">—</div>
+
+    <h5 class="mb-3" data-i18n="thank.detail">Detail objednávky</h5>
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th data-i18n="thank.product">Produkt</th>
+            <th class="text-end" data-i18n="thank.amount">Celkem</th>
+          </tr>
+        </thead>
+        <tbody id="orderRows"><!-- řádky položek --></tbody>
+        <tfoot>
+          <tr>
+            <th data-i18n="thank.subtotal">Mezisoučet:</th>
+            <td class="text-end" id="tSubtotal">—</td>
+          </tr>
+          <tr>
+            <th data-i18n="thank.shipping">Doprava:</th>
+            <td class="text-end" id="tShipping">—</td>
+          </tr>
+          <tr>
+            <th data-i18n="thank.vat">DPH:</th>
+            <td class="text-end" id="tVat">—</td>
+          </tr>
+          <tr>
+            <th data-i18n="thank.paymentMethod">Platební metoda:</th>
+            <td class="text-end" id="tPayMethod">—</td>
+          </tr>
+          <tr>
+            <th data-i18n="thank.total">Celkem:</th>
+            <td class="text-end fw-bold" id="tTotal">—</td>
+          </tr>
+        </tfoot>
+      </table>
     </div>
-    <div class="col-6 col-md-3">
-      <div class="order-kv" data-i18n="thank.paymentMethod">Platební metoda:</div>
-      <div class="order-v" id="mPayMethod">—</div>
-    </div>
+
+    <a href="shop.html" class="btn btn-outline-primary mt-3" data-i18n="thank.continue">Pokračovat v nákupu</a>
   </div>
-
-  <h5 class="mb-3" data-i18n="thank.paymentInfo">Údaje pro platbu</h5>
-<div class="border rounded p-3 mb-4">
-  <div class="fw-bold" id="bankCompany">—</div>
-  <div class="row mt-2">
-    <div class="col-6 col-md-3">
-      <div class="order-kv" data-i18n="thank.bank">Banka:</div>
-      <div class="order-v" id="bankName">—</div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="order-kv" data-i18n="thank.bankCode">Kód banky:</div>
-      <div class="order-v" id="bankCode">—</div>
-    </div>
-    <div class="col-12 col-md-6">
-      <div class="order-kv" data-i18n="thank.accountNo">Číslo účtu:</div>
-      <div class="order-v" id="bankAcc">—</div>
-    </div>
-    <div class="col-12 col-md-6 mt-2">
-      <div class="order-kv" data-i18n="thank.iban">IBAN:</div>
-      <div class="order-v" id="bankIban">—</div>
-    </div>
-    <div class="col-12 col-md-6 mt-2">
-      <div class="order-kv" data-i18n="thank.bic">BIC/SWIFT:</div>
-      <div class="order-v" id="bankBic">—</div>
-    </div>
-  </div>
-  <p class="small text-muted mt-3 mb-0" data-i18n="thank.note">
-    Při platbě prosím uveďte <strong>variabilní symbol = číslo objednávky</strong>.
-    Objednávka bude zpracována po připsání částky na náš účet.
-  </p>
-</div>
-
-  <h5 class="mb-3" data-i18n="thank.detail">Detail objednávky</h5>
-  <div class="table-responsive">
-    <table class="table">
-      <thead>
-        <tr>
-          <th data-i18n="thank.product">Produkt</th>
-          <th class="text-end" data-i18n="thank.amount">Celkem</th>
-        </tr>
-      </thead>
-      <tbody id="orderRows"><!-- řádky položek --></tbody>
-      <tfoot>
-        <tr>
-          <th data-i18n="thank.subtotal">Mezisoučet:</th>
-          <td class="text-end" id="tSubtotal">—</td>
-        </tr>
-        <tr>
-          <th data-i18n="thank.shipping">Doprava:</th>
-          <td class="text-end" id="tShipping">—</td>
-        </tr>
-        <tr>
-          <th data-i18n="thank.vat">DPH:</th>
-          <td class="text-end" id="tVat">—</td>
-        </tr>
-        <tr>
-          <th data-i18n="thank.paymentMethod">Platební metoda:</th>
-          <td class="text-end" id="tPayMethod">—</td>
-        </tr>
-        <tr>
-          <th data-i18n="thank.total">Celkem:</th>
-          <td class="text-end fw-bold" id="tTotal">—</td>
-        </tr>
-      </tfoot>
-    </table>
-  </div>
-
-  <a href="shop.html" class="btn btn-outline-primary mt-3" data-i18n="thank.continue">Pokračovat v nákupu</a>
-</div>
 
 
 
