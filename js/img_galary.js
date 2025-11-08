@@ -1,5 +1,6 @@
- // Danh sách tên file ảnh có trong thư mục
-  const imageList = [
+// Danh sách tên file ảnh có trong thư mục
+const imageList = [
+  "galary-27.png",
   "galary-1.jpg",
   "galary-2.jpg",
   "galary-3.jpg",
@@ -24,18 +25,17 @@
   "galary-22.png",
   "galary-23.png",
   "galary-24.jpg",
-   "galary-25.jpg",
-   "galary-26.jpg"
+  "galary-25.jpg",
+  "galary-26.jpg",
+];
 
-  ];
+const container = document.getElementById("product-grid");
 
-  const container = document.getElementById("product-grid");
+imageList.forEach((img) => {
+  const col = document.createElement("div");
+  col.className = "col-md-3 col-sm-6";
 
-  imageList.forEach((img) => {
-    const col = document.createElement("div");
-    col.className = "col-md-3 col-sm-6";
-
-    col.innerHTML = `
+  col.innerHTML = `
       <div class="card shadow-sm h-100">
         <div class="ratio ratio-1x1">
           <img src="img/customer_galary/${img}" 
@@ -44,5 +44,5 @@
         </div>
       </div>
     `;
-    container.appendChild(col);
-  });
+  container.appendChild(col);
+});

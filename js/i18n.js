@@ -10,6 +10,7 @@
             "qx260.spec.power": "1500 W (1,5 kW), 220 V / 50 Hz",
             "qx260.spec.capacity_label": "Výkon:",
             "qx260.spec.capacity": "cca 250 kg/h",
+            "roast.duck.oven.title": "trouba na pečené kachny",
             "qx260.spec.thickness_label": "Tloušťka řezu:",
             "meat.grinder.title": "mlýnek na maso",
             "qx260.spec.thickness": "2 – 2,5 – 3 – 3,5 – 5 – 7 – 10 – 15 – 20 mm",
@@ -297,6 +298,7 @@
 
         en: {
             // máy xay thịt
+            "roast.duck.oven.title": "Roast Duck Ovens",
             "meat.grinder.title": "Meat Grinders",
             "pho_cooker": "Pho Cookers",
             "bone.machine.title": "Bone Crusher Machine",
