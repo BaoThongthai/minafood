@@ -11,6 +11,7 @@
             "qx260.spec.capacity_label": "Výkon:",
             "qx260.spec.capacity": "cca 250 kg/h",
             "qx260.spec.thickness_label": "Tloušťka řezu:",
+            "meat.grinder.title": "mlýnek na maso",
             "qx260.spec.thickness": "2 – 2,5 – 3 – 3,5 – 5 – 7 – 10 – 15 – 20 mm",
             "qx260.spec.material_label": "Materiál:",
             "qx260.spec.material": "Nerezová ocel (Inox)",
@@ -21,6 +22,7 @@
             "qx260.spec.weight": "44 kg",
             "qx260.spec.warranty_label": "Záruka:",
             "qx260.spec.warranty": "15 měsíců",
+            "bone.machine.title": "Stroj na odstraňování kostí",
             "qx260.clean_title": "Návod na čištění nožového bloku",
             "qx260.clean_intro": "Při prvním použití nového stroje doporučujeme použít dva zralé ananasy rozdělené na čtvrtiny a protlačit je strojkem, aby se odstranil konzervační olej z výroby. Poté lze začít krájet maso.",
             "qx260.clean.step1": "Použijte vodní trysku k opláchnutí nožů a odstranění zbytků masa.",
@@ -295,7 +297,9 @@
 
         en: {
             // máy xay thịt
+            "meat.grinder.title": "Meat Grinders",
             "pho_cooker": "Pho Cookers",
+            "bone.machine.title": "Bone Crusher Machine",
             "casta_equipment.title": "Casta Professional Equipment",
             "casta_equipment.text1": "Casta professional kitchen equipment combines reliability, performance, and modern design. Every product is engineered with a focus on quality, safety, and operational efficiency — from small bistros to large hotel kitchens.",
             "casta_equipment.text2": "We offer a complete range of equipment: cooking lines, fryers, refrigeration and freezing cabinets, worktables, sinks, and accessories. Casta is the perfect choice for professionals who demand durability and top performance."
