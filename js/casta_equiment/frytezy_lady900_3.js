@@ -17,8 +17,8 @@
   const grid = document.querySelector(GRID_SELECTOR);
   if (!grid) return;
 
-    // Định dạng kích thước: Š (width) - V (height) - H (depth)
-    const fmtDims = ({ w, h, d }) => `Š: ${w}\u00A0 V: ${h}\u00A0 H: ${d}`;
+  // Định dạng kích thước: Š (width) - V (height) - H (depth)
+  const fmtDims = ({ w, h, d }) => `Š: ${w}\u00A0 V: ${h}\u00A0 H: ${d}`;
   // hàm gửi thông tin messege với sản phẩm không có giá
   const buildInquiryMessage = (p) => {
     const { w, h, d } = p.dimensions || {};
@@ -32,9 +32,9 @@
   };
 
   // Template hiển thị sản phẩm
-const cardHTML = (p) => {
-  const msg = encodeURIComponent(buildInquiryMessage(p));
-  return `
+  const cardHTML = (p) => {
+    const msg = encodeURIComponent(buildInquiryMessage(p));
+    return `
     <div class="col-md-6 col-lg-4 col-xl-3">
       <div class="rounded position-relative fruite-item h-100">
         <div class="fruite-img">
@@ -55,7 +55,7 @@ const cardHTML = (p) => {
             <a href="contact.html?msg=${msg}"
                class="btn border border-secondary rounded-pill px-3 text-primary"
                aria-label="Na poptávku">
-              <i class="fa fa-paper-plane me-2 text-primary"></i>
+              <i class="fa fa-envelope me-2 text-primary"></i>
               <span>Na poptávku</span>
             </a>
           </div>
@@ -63,7 +63,7 @@ const cardHTML = (p) => {
       </div>
     </div>
   `;
-};
+  };
 
 
   // Render danh sách (theo số lượng 'visible')

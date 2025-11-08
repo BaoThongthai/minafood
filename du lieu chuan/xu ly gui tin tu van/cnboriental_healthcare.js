@@ -1,9 +1,9 @@
 // /js/products_filter_paged.js
 (async function () {
-  const GRID_SELECTOR   = '#product-grid';
-  const COUNT_EL        = '#product-count';
-  const PAGER_SLOT      = '#pager-slot';
-  const CATEGORY_SLOT   = '#category-slot';
+  const GRID_SELECTOR = '#product-grid';
+  const COUNT_EL = '#product-count';
+  const PAGER_SLOT = '#pager-slot';
+  const CATEGORY_SLOT = '#category-slot';
 
   const DATA_URL = 'js/data/cnboriental_healthcare.json'; // ← đổi sang file JSON của bạn
 
@@ -22,98 +22,98 @@
   const PAGE_SIZE = 30;
 
   // ========= CATEGORY RULES =========
-const CATEGORY_RULES = [
-  {
-    name: 'EAGLE BRAND OIL',
-    patterns: [
-      /\beagle\b/i, /\beagle\s*brand\b/i, /\beagle\s*oil\b/i,
-      /\bgreen\s*oil\b/i, /\bwhite\s*oil\b/i
-    ]
-  },
-  {
-    name: 'SHILING OIL',
-    patterns: [
-      /\bshi\s*ling\b/i, /\bshiling\b/i, /\bshiling\s*oil\b/i
-    ]
-  },
-  {
-    name: 'NIN JIOM PEI PA KOA',
-    patterns: [
-      /\bnin\s*jiom\b/i, /\bpei\s*pa\s*koa\b/i,
-      /\bcough\s*syrup\b/i, /\bherbal\s*syrup\b/i
-    ]
-  },
-  {
-    name: 'TIGERBALM',
-    patterns: [
-      /\btiger\s*balm\b/i, /\btigerbalm\b/i, /\bointment\b/i,
-      /\bmuscle\s*pain\b/i, /\btiger\s*plaster\b/i
-    ]
-  },
-  {
-    name: 'NIN JIOM HERBAL CANDY',
-    patterns: [
-      /\bnin\s*jiom\b/i, /\bherbal\s*candy\b/i,
-      /\bpei\s*pa\s*candy\b/i, /\bherbal\s*lozenge\b/i
-    ]
-  },
-  {
-    name: 'JAPANESE DETOX FOOT PATCH',
-    patterns: [
-      /\bfoot\s*patch\b/i, /\bdetox\b/i,
-      /\bjapanese\s*patch\b/i, /\bslim\s*patch\b/i
-    ]
-  },
-  {
-    name: 'SEACOCONUT',
-    patterns: [
-      /\bsea\s*coconut\b/i, /\bcough\s*mixture\b/i,
-      /\bherbal\s*drink\b/i
-    ]
-  },
-  {
-    name: 'PAK FAH YEOW OIL',
-    patterns: [
-      /\bpak\s*fah\s*yeow\b/i, /\bwhite\s*flower\s*oil\b/i,
-      /\bpakfah\b/i
-    ]
-  },
-  {
-    name: 'ZHENG GU SHUI OIL',
-    patterns: [
-      /\bzheng\s*gu\s*shui\b/i, /\bchinese\s*medic(al)?\b/i,
-      /\bbruise\b/i, /\bjoint\s*pain\b/i
-    ]
-  },
-  {
-    name: 'MORNINGSTAR',
-    patterns: [
-      /\bmorning\s*star\b/i, /\bmorningstar\b/i,
-      /\bmedicated\b/i, /\bhealth\b(?=.*\bitem\b)/i
-    ]
-  },
-  {
-    name: 'GINSENG EXTRACT',
-    patterns: [
-      /\bginseng\b/i, /\bextract\b/i, /\bkorean\s*ginseng\b/i,
-      /\bred\s*ginseng\b/i
-    ]
-  },
-  {
-    name: 'GINSENG ROYAL JELLY',
-    patterns: [
-      /\broyal\s*jelly\b/i, /\bginseng\s*royal\b/i,
-      /\bhoney\s*ginseng\b/i
-    ]
-  },
-  {
-    name: 'HEALTHCARE PROMOTION ITEMS',
-    patterns: [
-      /\bpromotion\b/i, /\bpromo\b/i,
-      /\bhealthcare\s*item(s)?\b/i, /\bhealth\b(?=.*\bgift\b)/i
-    ]
-  }
-];
+  const CATEGORY_RULES = [
+    {
+      name: 'EAGLE BRAND OIL',
+      patterns: [
+        /\beagle\b/i, /\beagle\s*brand\b/i, /\beagle\s*oil\b/i,
+        /\bgreen\s*oil\b/i, /\bwhite\s*oil\b/i
+      ]
+    },
+    {
+      name: 'SHILING OIL',
+      patterns: [
+        /\bshi\s*ling\b/i, /\bshiling\b/i, /\bshiling\s*oil\b/i
+      ]
+    },
+    {
+      name: 'NIN JIOM PEI PA KOA',
+      patterns: [
+        /\bnin\s*jiom\b/i, /\bpei\s*pa\s*koa\b/i,
+        /\bcough\s*syrup\b/i, /\bherbal\s*syrup\b/i
+      ]
+    },
+    {
+      name: 'TIGERBALM',
+      patterns: [
+        /\btiger\s*balm\b/i, /\btigerbalm\b/i, /\bointment\b/i,
+        /\bmuscle\s*pain\b/i, /\btiger\s*plaster\b/i
+      ]
+    },
+    {
+      name: 'NIN JIOM HERBAL CANDY',
+      patterns: [
+        /\bnin\s*jiom\b/i, /\bherbal\s*candy\b/i,
+        /\bpei\s*pa\s*candy\b/i, /\bherbal\s*lozenge\b/i
+      ]
+    },
+    {
+      name: 'JAPANESE DETOX FOOT PATCH',
+      patterns: [
+        /\bfoot\s*patch\b/i, /\bdetox\b/i,
+        /\bjapanese\s*patch\b/i, /\bslim\s*patch\b/i
+      ]
+    },
+    {
+      name: 'SEACOCONUT',
+      patterns: [
+        /\bsea\s*coconut\b/i, /\bcough\s*mixture\b/i,
+        /\bherbal\s*drink\b/i
+      ]
+    },
+    {
+      name: 'PAK FAH YEOW OIL',
+      patterns: [
+        /\bpak\s*fah\s*yeow\b/i, /\bwhite\s*flower\s*oil\b/i,
+        /\bpakfah\b/i
+      ]
+    },
+    {
+      name: 'ZHENG GU SHUI OIL',
+      patterns: [
+        /\bzheng\s*gu\s*shui\b/i, /\bchinese\s*medic(al)?\b/i,
+        /\bbruise\b/i, /\bjoint\s*pain\b/i
+      ]
+    },
+    {
+      name: 'MORNINGSTAR',
+      patterns: [
+        /\bmorning\s*star\b/i, /\bmorningstar\b/i,
+        /\bmedicated\b/i, /\bhealth\b(?=.*\bitem\b)/i
+      ]
+    },
+    {
+      name: 'GINSENG EXTRACT',
+      patterns: [
+        /\bginseng\b/i, /\bextract\b/i, /\bkorean\s*ginseng\b/i,
+        /\bred\s*ginseng\b/i
+      ]
+    },
+    {
+      name: 'GINSENG ROYAL JELLY',
+      patterns: [
+        /\broyal\s*jelly\b/i, /\bginseng\s*royal\b/i,
+        /\bhoney\s*ginseng\b/i
+      ]
+    },
+    {
+      name: 'HEALTHCARE PROMOTION ITEMS',
+      patterns: [
+        /\bpromotion\b/i, /\bpromo\b/i,
+        /\bhealthcare\s*item(s)?\b/i, /\bhealth\b(?=.*\bgift\b)/i
+      ]
+    }
+  ];
 
   const SEE_ALL = LABELS.seeAll;
 
@@ -187,7 +187,7 @@ const CATEGORY_RULES = [
                <a href="#"
                  class="btn border border-secondary rounded-pill px-3 text-primary js-inquiry-btn"
                  data-id="${String(p.id).replace(/"/g, '&quot;')}">
-                 <i class="fa fa-paper-plane me-2 text-primary"></i>
+                 <i class="fa fa-envelope me-2 text-primary"></i>
                  <span>${LABELS.contact}</span>
               </a>
               <a href="#"
@@ -208,12 +208,12 @@ const CATEGORY_RULES = [
   };
 
   // Popup (tận dụng markup sẵn)
-  const popup       = document.getElementById('product-popup');
-  const popupImg    = document.getElementById('popup-img');
-  const popupName   = document.getElementById('popup-name');
-  const popupDim    = document.getElementById('popup-dim');
+  const popup = document.getElementById('product-popup');
+  const popupImg = document.getElementById('popup-img');
+  const popupName = document.getElementById('popup-name');
+  const popupDim = document.getElementById('popup-dim');
   const popupWeight = document.getElementById('popup-weight');
-  const popupClose  = document.querySelector('.product-popup-close');
+  const popupClose = document.querySelector('.product-popup-close');
 
   function openPopup(p) {
     popupImg.src = p.image || 'img/placeholder.webp';
@@ -323,9 +323,9 @@ const CATEGORY_RULES = [
         <button class="btn btn-outline-secondary" type="button" id="pg-prev" aria-label="Previous">${LABELS.prev}</button>
         <select class="form-select" id="pg-select" aria-label="${LABELS.page}">
           ${Array.from({ length: totalPages }, (_, i) => {
-            const n = i + 1;
-            return `<option value="${n}" ${n === currentPage ? 'selected' : ''}>${LABELS.page} ${n}/${totalPages}</option>`;
-          }).join('')}
+      const n = i + 1;
+      return `<option value="${n}" ${n === currentPage ? 'selected' : ''}>${LABELS.page} ${n}/${totalPages}</option>`;
+    }).join('')}
         </select>
         <button class="btn btn-outline-secondary" type="button" id="pg-next" aria-label="Next">${LABELS.next}</button>
       </div>
@@ -333,7 +333,7 @@ const CATEGORY_RULES = [
 
     const prevBtn = slot.querySelector('#pg-prev');
     const nextBtn = slot.querySelector('#pg-next');
-    const select  = slot.querySelector('#pg-select');
+    const select = slot.querySelector('#pg-select');
 
     prevBtn.disabled = currentPage <= 1;
     nextBtn.disabled = currentPage >= totalPages;
@@ -355,7 +355,7 @@ const CATEGORY_RULES = [
 
   function renderProducts() {
     const start = (currentPage - 1) * PAGE_SIZE;
-    const end   = start + PAGE_SIZE;
+    const end = start + PAGE_SIZE;
     const pageItems = filteredProducts.slice(start, end);
 
     grid.innerHTML = pageItems.map(cardHTML).join('');
@@ -367,7 +367,7 @@ const CATEGORY_RULES = [
 
     try {
       document.dispatchEvent(new CustomEvent('mina:productsRendered', { detail: { page: currentPage, total: filteredProducts.length } }));
-    } catch {}
+    } catch { }
   }
 
   // ===== Loading & fetch =====
@@ -400,7 +400,7 @@ const CATEGORY_RULES = [
         <div class="alert alert-danger" role="alert">${LABELS.error}</div>
       </div>
     `;
-    const ps = document.querySelector(PAGER_SLOT);   if (ps) ps.innerHTML = '';
+    const ps = document.querySelector(PAGER_SLOT); if (ps) ps.innerHTML = '';
     const cs = document.querySelector(CATEGORY_SLOT); if (cs) cs.innerHTML = '';
   }
 
@@ -412,7 +412,7 @@ const CATEGORY_RULES = [
     e.preventDefault();
     const id = btn.getAttribute('data-id');
     const product = filteredProducts.find(x => String(x.id) === String(id))
-                  || allProducts.find(x => String(x.id) === String(id));
+      || allProducts.find(x => String(x.id) === String(id));
     if (!product) {
       console.warn('[Inquiry] Không tìm thấy sản phẩm id=', id);
       return;
@@ -422,18 +422,18 @@ const CATEGORY_RULES = [
     if (!modalEl) { console.warn('[Inquiry] #inquiryModal not found'); return; }
     const modal = (bootstrap?.Modal?.getInstance ? bootstrap.Modal.getInstance(modalEl) : null) || new bootstrap.Modal(modalEl);
 
-    const inqImg   = document.getElementById('inq-img');
-    const inqName  = document.getElementById('inq-name');
-    const inqLine  = document.getElementById('inq-line');
-    const inqSku   = document.getElementById('inq-sku');
+    const inqImg = document.getElementById('inq-img');
+    const inqName = document.getElementById('inq-name');
+    const inqLine = document.getElementById('inq-line');
+    const inqSku = document.getElementById('inq-sku');
     const inqPrice = document.getElementById('inq-price');
 
     const inqEmail = document.getElementById('inq-email');
     const inqPhone = document.getElementById('inq-phone');
-    const inqMsg   = document.getElementById('inq-message');
-    const inqForm  = document.getElementById('inquiryForm');
-    const inqStatus= document.getElementById('inq-status');
-    const inqSubmit= document.getElementById('inq-submit');
+    const inqMsg = document.getElementById('inq-message');
+    const inqForm = document.getElementById('inquiryForm');
+    const inqStatus = document.getElementById('inq-status');
+    const inqSubmit = document.getElementById('inq-submit');
 
     modalEl._currentProduct = product;
 
@@ -447,7 +447,7 @@ const CATEGORY_RULES = [
     inqForm?.classList.remove('was-validated');
     if (inqEmail) inqEmail.value = '';
     if (inqPhone) inqPhone.value = '';
-    if (inqMsg)   inqMsg.value = '';
+    if (inqMsg) inqMsg.value = '';
     if (inqStatus) inqStatus.textContent = '';
 
     modal.show();

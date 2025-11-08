@@ -1,9 +1,9 @@
 // /js/products_filter_paged.js
 (async function () {
-  const GRID_SELECTOR   = '#product-grid';
-  const COUNT_EL        = '#product-count';
-  const PAGER_SLOT      = '#pager-slot';
-  const CATEGORY_SLOT   = '#category-slot';
+  const GRID_SELECTOR = '#product-grid';
+  const COUNT_EL = '#product-count';
+  const PAGER_SLOT = '#pager-slot';
+  const CATEGORY_SLOT = '#category-slot';
 
   const DATA_URL = 'js/data/cnboriental_tableware.json'; // ← đổi sang file JSON của bạn
 
@@ -107,7 +107,7 @@
               <a href="#"
                  class="btn border border-secondary rounded-pill px-3 text-primary js-inquiry-btn"
                  data-id="${String(p.id).replace(/"/g, '&quot;')}">
-                 <i class="fa fa-paper-plane me-2 text-primary"></i>
+                 <i class="fa fa-envelope me-2 text-primary"></i>
                  <span>${LABELS.contact}</span>
               </a>
               <a href="#"
@@ -128,12 +128,12 @@
   };
 
   // Popup (tận dụng markup sẵn)
-  const popup       = document.getElementById('product-popup');
-  const popupImg    = document.getElementById('popup-img');
-  const popupName   = document.getElementById('popup-name');
-  const popupDim    = document.getElementById('popup-dim');
+  const popup = document.getElementById('product-popup');
+  const popupImg = document.getElementById('popup-img');
+  const popupName = document.getElementById('popup-name');
+  const popupDim = document.getElementById('popup-dim');
   const popupWeight = document.getElementById('popup-weight');
-  const popupClose  = document.querySelector('.product-popup-close');
+  const popupClose = document.querySelector('.product-popup-close');
 
   function openPopup(p) {
     popupImg.src = p.image || 'img/placeholder.webp';
@@ -243,9 +243,9 @@
         <button class="btn btn-outline-secondary" type="button" id="pg-prev" aria-label="Previous">${LABELS.prev}</button>
         <select class="form-select" id="pg-select" aria-label="${LABELS.page}">
           ${Array.from({ length: totalPages }, (_, i) => {
-            const n = i + 1;
-            return `<option value="${n}" ${n === currentPage ? 'selected' : ''}>${LABELS.page} ${n}/${totalPages}</option>`;
-          }).join('')}
+      const n = i + 1;
+      return `<option value="${n}" ${n === currentPage ? 'selected' : ''}>${LABELS.page} ${n}/${totalPages}</option>`;
+    }).join('')}
         </select>
         <button class="btn btn-outline-secondary" type="button" id="pg-next" aria-label="Next">${LABELS.next}</button>
       </div>
@@ -253,7 +253,7 @@
 
     const prevBtn = slot.querySelector('#pg-prev');
     const nextBtn = slot.querySelector('#pg-next');
-    const select  = slot.querySelector('#pg-select');
+    const select = slot.querySelector('#pg-select');
 
     prevBtn.disabled = currentPage <= 1;
     nextBtn.disabled = currentPage >= totalPages;
@@ -275,7 +275,7 @@
 
   function renderProducts() {
     const start = (currentPage - 1) * PAGE_SIZE;
-    const end   = start + PAGE_SIZE;
+    const end = start + PAGE_SIZE;
     const pageItems = filteredProducts.slice(start, end);
 
     grid.innerHTML = pageItems.map(cardHTML).join('');
@@ -287,7 +287,7 @@
 
     try {
       document.dispatchEvent(new CustomEvent('mina:productsRendered', { detail: { page: currentPage, total: filteredProducts.length } }));
-    } catch {}
+    } catch { }
   }
 
   // ===== Loading & fetch =====
@@ -320,7 +320,7 @@
         <div class="alert alert-danger" role="alert">${LABELS.error}</div>
       </div>
     `;
-    const ps = document.querySelector(PAGER_SLOT);   if (ps) ps.innerHTML = '';
+    const ps = document.querySelector(PAGER_SLOT); if (ps) ps.innerHTML = '';
     const cs = document.querySelector(CATEGORY_SLOT); if (cs) cs.innerHTML = '';
   }
 
@@ -332,7 +332,7 @@
     e.preventDefault();
     const id = btn.getAttribute('data-id');
     const product = filteredProducts.find(x => String(x.id) === String(id))
-                  || allProducts.find(x => String(x.id) === String(id));
+      || allProducts.find(x => String(x.id) === String(id));
     if (!product) {
       console.warn('[Inquiry] Không tìm thấy sản phẩm id=', id);
       return;
@@ -342,18 +342,18 @@
     if (!modalEl) { console.warn('[Inquiry] #inquiryModal not found'); return; }
     const modal = (bootstrap?.Modal?.getInstance ? bootstrap.Modal.getInstance(modalEl) : null) || new bootstrap.Modal(modalEl);
 
-    const inqImg   = document.getElementById('inq-img');
-    const inqName  = document.getElementById('inq-name');
-    const inqLine  = document.getElementById('inq-line');
-    const inqSku   = document.getElementById('inq-sku');
+    const inqImg = document.getElementById('inq-img');
+    const inqName = document.getElementById('inq-name');
+    const inqLine = document.getElementById('inq-line');
+    const inqSku = document.getElementById('inq-sku');
     const inqPrice = document.getElementById('inq-price');
 
     const inqEmail = document.getElementById('inq-email');
     const inqPhone = document.getElementById('inq-phone');
-    const inqMsg   = document.getElementById('inq-message');
-    const inqForm  = document.getElementById('inquiryForm');
-    const inqStatus= document.getElementById('inq-status');
-    const inqSubmit= document.getElementById('inq-submit');
+    const inqMsg = document.getElementById('inq-message');
+    const inqForm = document.getElementById('inquiryForm');
+    const inqStatus = document.getElementById('inq-status');
+    const inqSubmit = document.getElementById('inq-submit');
 
     modalEl._currentProduct = product;
 
@@ -367,7 +367,7 @@
     inqForm?.classList.remove('was-validated');
     if (inqEmail) inqEmail.value = '';
     if (inqPhone) inqPhone.value = '';
-    if (inqMsg)   inqMsg.value = '';
+    if (inqMsg) inqMsg.value = '';
     if (inqStatus) inqStatus.textContent = '';
 
     modal.show();

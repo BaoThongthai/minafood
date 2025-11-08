@@ -17,8 +17,8 @@
   const grid = document.querySelector(GRID_SELECTOR);
   if (!grid) return;
 
-    // Định dạng kích thước: Š (width) - V (height) - H (depth)
-    const fmtDims = ({ w, h, d }) => `Š: ${w}\u00A0 V: ${h}\u00A0 H: ${d}`;
+  // Định dạng kích thước: Š (width) - V (height) - H (depth)
+  const fmtDims = ({ w, h, d }) => `Š: ${w}\u00A0 V: ${h}\u00A0 H: ${d}`;
   // hàm gửi thông tin messege với sản phẩm không có giá
   const buildInquiryMessage = (p) => {
     const { w, h, d } = p.dimensions || {};
@@ -33,22 +33,22 @@
 
   // ---- Popup helpers (sử dụng #inquiryModal giống trang chuẩn) ----
   function openInquiry(product) {
-    const modalEl  = document.getElementById('inquiryModal');
+    const modalEl = document.getElementById('inquiryModal');
     if (!modalEl) { console.warn('[Inquiry] #inquiryModal not found'); return; }
-    const modal    = (bootstrap?.Modal?.getInstance ? bootstrap.Modal.getInstance(modalEl) : null) || new bootstrap.Modal(modalEl);
+    const modal = (bootstrap?.Modal?.getInstance ? bootstrap.Modal.getInstance(modalEl) : null) || new bootstrap.Modal(modalEl);
 
-    const inqImg   = document.getElementById('inq-img');
-    const inqName  = document.getElementById('inq-name');
-    const inqLine  = document.getElementById('inq-line');
-    const inqSku   = document.getElementById('inq-sku');
+    const inqImg = document.getElementById('inq-img');
+    const inqName = document.getElementById('inq-name');
+    const inqLine = document.getElementById('inq-line');
+    const inqSku = document.getElementById('inq-sku');
     const inqPrice = document.getElementById('inq-price');
 
     const inqEmail = document.getElementById('inq-email');
     const inqPhone = document.getElementById('inq-phone');
-    const inqMsg   = document.getElementById('inq-message');
-    const inqForm  = document.getElementById('inquiryForm');
-    const inqStatus= document.getElementById('inq-status');
-    const inqSubmit= document.getElementById('inq-submit');
+    const inqMsg = document.getElementById('inq-message');
+    const inqForm = document.getElementById('inquiryForm');
+    const inqStatus = document.getElementById('inq-status');
+    const inqSubmit = document.getElementById('inq-submit');
 
     // Lưu tạm sản phẩm vào modal để submit dùng lại
     modalEl._currentProduct = product;
@@ -66,7 +66,7 @@
     inqForm?.classList.remove('was-validated');
     if (inqEmail) inqEmail.value = '';
     if (inqPhone) inqPhone.value = '';
-    if (inqMsg)   inqMsg.value = '';
+    if (inqMsg) inqMsg.value = '';
     if (inqStatus) inqStatus.textContent = '';
 
     modal.show();
@@ -140,7 +140,7 @@
             <a href="#"
                class="btn border border-secondary rounded-pill px-3 text-primary js-inquiry-btn"
                data-idx="${idx}">
-              <i class="fa fa-paper-plane me-2 text-primary"></i>
+              <i class="fa fa-envelope me-2 text-primary"></i>
               <span>${LABELS.contact}</span>
             </a>
           </div>

@@ -1,9 +1,9 @@
 // /js/products_filter_paged.js
 (async function () {
-  const GRID_SELECTOR  = '#product-grid';
-  const COUNT_EL       = '#product-count';
-  const PAGER_SLOT     = '#pager-slot';
-  const CATEGORY_SLOT  = '#category-slot';
+  const GRID_SELECTOR = '#product-grid';
+  const COUNT_EL = '#product-count';
+  const PAGER_SLOT = '#pager-slot';
+  const CATEGORY_SLOT = '#category-slot';
 
   const DATA_URL = 'js/data/cnboriental_tableware.json'; // ← đổi sang file JSON của bạn
 
@@ -43,7 +43,7 @@
 
   // đọc ?cat & ?page
   const qs = new URLSearchParams(location.search);
-  const initCat  = qs.get('cat');
+  const initCat = qs.get('cat');
   const initPage = parseInt(qs.get('page'), 10);
   if (initCat) currentCategory = initCat;
   if (!isNaN(initPage) && initPage >= 1) currentPage = initPage;
@@ -79,7 +79,7 @@
     const priceText = fmtPrice(p.price, p.currency);
     return `
       <div class="col-md-6 col-lg-4 col-xl-3">
-        <div class="rounded position-relative fruite-item h-100" data-id="${String(p.id).replace(/"/g,'&quot;')}">
+        <div class="rounded position-relative fruite-item h-100" data-id="${String(p.id).replace(/"/g, '&quot;')}">
           <div class="fruite-img">
             <img src="${p.image}" class="img-fluid w-100 rounded-top border border-secondary" alt="${p.name}">
           </div>
@@ -88,14 +88,14 @@
             <h4 class="mb-2">${p.name}</h4>
             ${p.line1 ? `<p class="mb-1 text-muted">${p.line1}</p>` : ''}
             ${p.line2 ? `<p class="mb-2 text-muted">${p.line2}</p>` : ''}
-            ${p.sku   ? `<p class="mb-2 small text-secondary">SKU: ${p.sku}</p>` : ''}
+            ${p.sku ? `<p class="mb-2 small text-secondary">SKU: ${p.sku}</p>` : ''}
             ${priceText ? `<p class="mb-3 fw-semibold">${priceText}</p>` : `<p class="mb-3"></p>`}
             <div class="mt-auto d-flex justify-content-between gap-2">
               <a href="${p.href}" target="_blank" rel="noopener" class="btn border border-secondary rounded-pill px-3 text-primary flex-grow-1">
                 <i class="fa fa-link me-2 text-primary"></i><span>Detail</span>
               </a>
               <a href="contact.html" class="btn border border-secondary rounded-pill px-3 text-primary">
-                <i class="fa fa-paper-plane me-2 text-primary"></i><span>${LABELS.contact}</span>
+                <i class="fa fa-envelope me-2 text-primary"></i><span>${LABELS.contact}</span>
               </a>
             </div>
           </div>
@@ -119,7 +119,7 @@
     popupWeight.textContent = [p.sku ? `SKU: ${p.sku}` : '', fmtPrice(p.price, p.currency)].filter(Boolean).join(' | ');
     popup.classList.remove('hidden');
   }
-  function closePopup(){ popup.classList.add('hidden'); }
+  function closePopup() { popup.classList.add('hidden'); }
   if (popupClose) popupClose.addEventListener('click', closePopup);
   if (popup) popup.addEventListener('click', (e) => { if (e.target === popup) closePopup(); });
 
@@ -162,7 +162,7 @@
         </button>
         <ul class="dropdown-menu">
           ${ordered.map(n => `
-            <li><a class="dropdown-item ${n===currentCategory?'active':''}" href="#" data-cat="${n}">${n}</a></li>
+            <li><a class="dropdown-item ${n === currentCategory ? 'active' : ''}" href="#" data-cat="${n}">${n}</a></li>
           `).join('')}
         </ul>
       </div>
@@ -193,10 +193,10 @@
       <div class="input-group input-group-sm" style="max-width: 320px;">
         <button class="btn btn-outline-secondary" type="button" id="pg-prev" aria-label="Previous">${LABELS.prev}</button>
         <select class="form-select" id="pg-select" aria-label="${LABELS.page}">
-          ${Array.from({length: totalPages}, (_,i) => {
-            const n = i+1;
-            return `<option value="${n}" ${n===currentPage?'selected':''}>${LABELS.page} ${n}/${totalPages}</option>`;
-          }).join('')}
+          ${Array.from({ length: totalPages }, (_, i) => {
+      const n = i + 1;
+      return `<option value="${n}" ${n === currentPage ? 'selected' : ''}>${LABELS.page} ${n}/${totalPages}</option>`;
+    }).join('')}
         </select>
         <button class="btn btn-outline-secondary" type="button" id="pg-next" aria-label="Next">${LABELS.next}</button>
       </div>
@@ -204,14 +204,14 @@
 
     const prevBtn = slot.querySelector('#pg-prev');
     const nextBtn = slot.querySelector('#pg-next');
-    const select  = slot.querySelector('#pg-select');
+    const select = slot.querySelector('#pg-select');
 
     prevBtn.disabled = currentPage <= 1;
     nextBtn.disabled = currentPage >= totalPages;
 
     prevBtn.onclick = () => { if (currentPage > 1) { currentPage--; renderProducts(); } };
     nextBtn.onclick = () => { if (currentPage < totalPages) { currentPage++; renderProducts(); } };
-    select.onchange   = () => { currentPage = parseInt(select.value, 10); renderProducts(); };
+    select.onchange = () => { currentPage = parseInt(select.value, 10); renderProducts(); };
 
     updateURL();
   }
@@ -226,7 +226,7 @@
 
   function renderProducts() {
     const start = (currentPage - 1) * PAGE_SIZE;
-    const end   = start + PAGE_SIZE;
+    const end = start + PAGE_SIZE;
     const pageItems = filteredProducts.slice(start, end);
 
     grid.innerHTML = pageItems.map(cardHTML).join('');
