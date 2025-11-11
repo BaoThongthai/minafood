@@ -3,6 +3,8 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+            "rangcomvabocbat.title": "rýžovaru a vařiče na nudle",
+            "tunaucom.title": "rýžovaru",
             "maythairau.title": "kráječ zeleniny",
             "mayhutchankhong.title": "vakuový stroj",
             "qx260.title": "Kráječ čerstvého masa QX-260",
@@ -299,6 +301,8 @@
         },
 
         en: {
+            "rangcomvabocbat.title": "Commercial Rice Cooker",
+            "tunaucom.title": "rice cooker",
             // máy xay thịt
             "maythairau.title": "vegetable slicer",
             "mayhutchankhong.title": "vacuum machine",

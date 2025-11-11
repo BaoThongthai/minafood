@@ -1,0 +1,44 @@
+[
+    {
+        "id": "tc10",
+        "sku": "TC10",
+        "name": "10-Tray Electric Rice Steamer",
+        "line1": "Model TC-10 – Electric Rice Steamer Cabinet with 10 trays, 12kW power",
+        "line2": "Voltage: single or three-phase 220V/380V; capacity 30–45kg rice/batch; size 770×660×1450mm; stainless steel body; 70kg; 15-month warranty.",
+        "label": "",
+        "price": null,
+        "price_src": "Liên hệ",
+        "currency": "VND",
+        "image": "img/tunaucom/TC10.png",
+        "href": "",
+        "sp": 1
+    },
+    {
+        "id": "tc8",
+        "sku": "TC8",
+        "name": "8-Tray Electric Rice Steamer",
+        "line1": "8-Tray Electric Rice Steamer – 3kW–8kW power (2Pha/3Pha 380V 50Hz)",
+        "line2": "Cooking time: 40–60 minutes; capacity 20–30kg rice/batch; size 680×540×1120mm; 58kg; stainless steel frame; 12-month warranty.",
+        "label": "",
+        "price": null,
+        "price_src": "Liên hệ",
+        "currency": "VND",
+        "image": "img/tunaucom/TC8.png",
+        "href": "",
+        "sp": 1
+    },
+    {
+        "id": "tc6",
+        "sku": "TC6",
+        "name": "6-Tray Electric Rice Steamer",
+        "line1": "6-Tray Electric Rice Steamer – 6kW power, 2-phase 220V or 3-phase 380V/50Hz",
+        "line2": "Cooking time: 40–60 minutes; size 670×540×1020mm; 50kg; full stainless steel construction; 12-month warranty.",
+        "label": "",
+        "price": null,
+        "price_src": "Liên hệ",
+        "currency": "VND",
+        "image": "img/tunaucom/TC6.png",
+        "href": "",
+        "sp": 1
+    }
+]
