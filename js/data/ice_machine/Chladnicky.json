@@ -4,7 +4,7 @@
     "name": "Chladnička COMPACT K 220 LG 2W",
     "label": "",
     "price": 13658.64,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Vypredané",
     "availability": "Out of stock",
     "dimensions": {
@@ -19,7 +19,7 @@
     "name": "Chladnička COMPACT KG 220 LG 2W",
     "label": "",
     "price": 13658.64,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -34,11 +34,11 @@
     "name": "Chladnička COMPACT K 220 RG 2W",
     "label": "",
     "price": 13658.64,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
-     "w": "595",
+      "w": "595",
       "d": "642",
       "h": "830"
     },
@@ -49,7 +49,7 @@
     "name": "Chladnička COMPACT K 420 RG C2 5W",
     "label": "",
     "price": 19512.24,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -64,7 +64,7 @@
     "name": "Mraznička Gram SUF-65DG-C-L",
     "label": "",
     "price": 67920.0,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Vypredané",
     "availability": "Out of stock",
     "dimensions": {
@@ -74,13 +74,12 @@
     },
     "image": "https://icemakers.sk/files/cache/product/151/hc_600_ntv_leg-300x300.jpg"
   },
-
   {
     "id": "mraznicka-compact-f-220-rg-2w",
     "name": "Mraznička COMPACT F 220 RG 2W",
     "label": "",
     "price": 13658.64,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -95,7 +94,7 @@
     "name": "Mraznička COMPACT F 420 RG L1 5W",
     "label": "",
     "price": 19512.24,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -110,7 +109,7 @@
     "name": "Mraznička COMPACT F 420 RG C2 5W",
     "label": "",
     "price": 19512.24,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -125,7 +124,7 @@
     "name": "Mraznička Gram SUF-65DG-C-L",
     "label": "",
     "price": 67920.0,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Vypredané",
     "availability": "Out of stock",
     "dimensions": {

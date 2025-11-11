@@ -4,7 +4,7 @@
     "name": "Štartovacia sada Beermatic",
     "label": "",
     "price": 12960,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -19,7 +19,7 @@
     "name": "Beermatic DBF-AS65WE-EU-HC",
     "label": "",
     "price": 214080.0,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Vypredané",
     "availability": "Out of stock",
     "dimensions": {

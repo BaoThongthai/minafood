@@ -3,6 +3,8 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+            "maythairau.title": "kráječ zeleniny",
+            "mayhutchankhong.title": "vakuový stroj",
             "qx260.title": "Kráječ čerstvého masa QX-260",
             "qx260.summary": "QX-260 je ideální stroj pro provozy a restaurace: motor 1,5 kW, výkon cca 250 kg/h a vyměnitelné nožové sady 2–20 mm. Řeže rovnoměrné plátky i silnější kůži (telecí, kozí), šetří práci – obsluha zvládne jedním tlačítkem. Konstrukce z nerezové oceli pro snadné čištění a vysokou hygienu, skvělá volba pro phở, stir-fry i další pokrmy.",
             "qx260.specs_title": "Hlavní parametry",
@@ -298,6 +300,8 @@
 
         en: {
             // máy xay thịt
+            "maythairau.title": "vegetable slicer",
+            "mayhutchankhong.title": "vacuum machine",
             "roast.duck.oven.title": "Roast Duck Ovens",
             "meat.grinder.title": "Meat Grinders",
             "pho_cooker": "Pho Cookers",

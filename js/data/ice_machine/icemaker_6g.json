@@ -4,7 +4,7 @@
     "name": "IM-100NE-HC-21",
     "label": "",
     "price": 142320,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -19,7 +19,7 @@
     "name": "IM-100CNE-HC-21",
     "label": "",
     "price": 142800,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na objednávku",
     "availability": "On order",
     "dimensions": {
@@ -34,7 +34,7 @@
     "name": "IM-100WNE-HC-21",
     "label": "",
     "price": 148800,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na objednávku",
     "availability": "On order",
     "dimensions": {
@@ -49,7 +49,7 @@
     "name": "IM-240XNE-HC-21",
     "label": "",
     "price": 173520,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Predaj ukončený",
     "availability": "",
     "dimensions": {
@@ -64,7 +64,7 @@
     "name": "IM-240DNE-HC-21",
     "label": "",
     "price": 173520,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Predaj ukončený",
     "availability": "",
     "dimensions": {
@@ -79,7 +79,7 @@
     "name": "IM-240XWNE-HC-21",
     "label": "",
     "price": 181800,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Predaj ukončený",
     "availability": "",
     "dimensions": {
@@ -94,7 +94,7 @@
     "name": "IM-240DWNE-HC-21",
     "label": "",
     "price": 181800,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Predaj ukončený",
     "availability": "",
     "dimensions": {
@@ -109,7 +109,7 @@
     "name": "IM-240ANE-HC-21",
     "label": "",
     "price": 182640,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Predaj ukončený",
     "availability": "",
     "dimensions": {
@@ -124,7 +124,7 @@
     "name": "IM-240AWNE-HC-21",
     "label": "",
     "price": 190920,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Predaj ukončený",
     "availability": "",
     "dimensions": {
@@ -139,7 +139,7 @@
     "name": "IM-240NE-HC-21",
     "label": "",
     "price": 217440,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Predaj ukončený",
     "availability": "",
     "dimensions": {

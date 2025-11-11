@@ -4,7 +4,7 @@
     "name": "Prívodová hadička na vodu 12 x 15 x 340 WRAS",
     "label": "",
     "price": 110.16,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -19,7 +19,7 @@
     "name": "KAPACITOR Riadiaca jednotka IM rada",
     "label": "",
     "price": 169.44,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -34,7 +34,7 @@
     "name": "Imbusová skrutka M8",
     "label": "",
     "price": 192,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -49,7 +49,7 @@
     "name": "KAPACITOR  Riadiaca jednotka IM rada",
     "label": "",
     "price": 261.36,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -64,7 +64,7 @@
     "name": "Nožička pre CNE/NE",
     "label": "",
     "price": 288,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -79,7 +79,7 @@
     "name": "Napájací kábel UK Malý IM 21-130 & FM 80-300",
     "label": "",
     "price": 360,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -94,7 +94,7 @@
     "name": "NAPÁJACÍ KÁBEL PRE RADU IM 21-130 A FM",
     "label": "",
     "price": 360,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -109,7 +109,7 @@
     "name": "Kryt na servo IM",
     "label": "",
     "price": 480,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -124,7 +124,7 @@
     "name": "Rameno malé IM21/30",
     "label": "",
     "price": 600,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -139,7 +139,7 @@
     "name": "Strunka pre IM21/30",
     "label": "",
     "price": 600,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -154,7 +154,7 @@
     "name": "Rameno pre IM45/65NE",
     "label": "",
     "price": 619.68,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -169,7 +169,7 @@
     "name": "Vzduchový filter IM21-45",
     "label": "",
     "price": 864,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -184,7 +184,7 @@
     "name": "Termosenzor nástrekovej dosky pre IM",
     "label": "",
     "price": 873.36,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -199,7 +199,7 @@
     "name": "Strunka na dvierka pre IM30",
     "label": "",
     "price": 883.44,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -214,7 +214,7 @@
     "name": "Držiak nástrekovej dosky",
     "label": "",
     "price": 960,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -229,7 +229,7 @@
     "name": "Čidlo zásobníka IM",
     "label": "",
     "price": 1056.96,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -244,7 +244,7 @@
     "name": "Solenoid na ventil horúceho plynu IM",
     "label": "",
     "price": 1104,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -259,7 +259,7 @@
     "name": "Tesnenie dverí IM45C/65",
     "label": "",
     "price": 1146.24,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -274,7 +274,7 @@
     "name": "TRUBKA NA PRÍVOD VODY PRE IM45/65",
     "label": "",
     "price": 1250.88,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -289,7 +289,7 @@
     "name": "Trubka na prívod vody pre IM21/30",
     "label": "",
     "price": 1296,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -304,7 +304,7 @@
     "name": "Tesnenie na dvierka IM21/30",
     "label": "",
     "price": 1438.8,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -319,7 +319,7 @@
     "name": "Vrchný kryt IM21/30",
     "label": "",
     "price": 1680,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -334,7 +334,7 @@
     "name": "PREDNÝ KRYT IM-45NE",
     "label": "",
     "price": 1680,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -349,7 +349,7 @@
     "name": "Solenoid IM45/IM65/IM100/IM130",
     "label": "",
     "price": 1700.16,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -364,7 +364,7 @@
     "name": "Solenoid IM21/30",
     "label": "",
     "price": 1700.16,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -379,7 +379,7 @@
     "name": "Rele pre IM240 - kompresor",
     "label": "",
     "price": 1740.96,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -394,7 +394,7 @@
     "name": "PÁČKA SNÍMAČA ZÁSOBNÍKU PRE IM30",
     "label": "",
     "price": 1960.08,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -409,7 +409,7 @@
     "name": "Mriežka na filter pre IM65",
     "label": "",
     "price": 1980.0,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -424,7 +424,7 @@
     "name": "Spúšťacia sada pre IM radu vzduchom chladené modely",
     "label": "",
     "price": 2376,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Vypredané",
     "availability": "",
     "dimensions": {
@@ -439,7 +439,7 @@
     "name": "Dvierka IM21/30",
     "label": "",
     "price": 3092.16,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -454,7 +454,7 @@
     "name": "Nástreková doska IM30CNE-25",
     "label": "",
     "price": 3817.44,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -469,7 +469,7 @@
     "name": "Motor na ventilátor IM-21-100",
     "label": "",
     "price": 4080,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -484,7 +484,7 @@
     "name": "DOOR assy IM-45NE",
     "label": "",
     "price": 5460.96,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -499,7 +499,7 @@
     "name": "Dvierka IM65LE/45CLE",
     "label": "",
     "price": 7680,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -514,7 +514,7 @@
     "name": "Senzor plynu",
     "label": "",
     "price": 7792.8,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -529,7 +529,7 @@
     "name": "Servo pre IM radu",
     "label": "",
     "price": 7800,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -544,7 +544,7 @@
     "name": "SOLENOID NA VENTIL HORÚCEHO PLYNU IM",
     "label": "",
     "price": 8736,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -559,7 +559,7 @@
     "name": "Riadiaca jednotka IM",
     "label": "",
     "price": 8760,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -574,7 +574,7 @@
     "name": "ČERPADLO (MAGNET PUMP) ASP-20CP 45CLE",
     "label": "",
     "price": 8897.04,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -589,7 +589,7 @@
     "name": "Riadiaca jednotka IM - Repas",
     "label": "",
     "price": 9600,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -604,7 +604,7 @@
     "name": "ČERPADLO (MAGNET PUMP) LMP-25CP",
     "label": "",
     "price": 10134.96,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {

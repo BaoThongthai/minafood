@@ -4,7 +4,7 @@
     "name": "TOP KIT TK-8D",
     "label": "",
     "price": 7536,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -19,7 +19,7 @@
     "name": "TOP KIT TK-18D",
     "label": "",
     "price": 7536,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -34,7 +34,7 @@
     "name": "TOP KIT TK-4DM",
     "label": "",
     "price": 7536,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -49,7 +49,7 @@
     "name": "TOP KIT TK-4DR",
     "label": "",
     "price": 7536,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -64,7 +64,7 @@
     "name": "TOP KIT TK-IMD2",
     "label": "",
     "price": 7536,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -79,7 +79,7 @@
     "name": "Deliaca stena pre B340SA",
     "label": "",
     "price": 19704,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -94,7 +94,7 @@
     "name": "B-140SA",
     "label": "",
     "price": 49680,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Predaj ukončený",
     "availability": "",
     "dimensions": {
@@ -109,7 +109,7 @@
     "name": "B-140SB",
     "label": "",
     "price": 49680,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -124,7 +124,7 @@
     "name": "B-210SA",
     "label": "",
     "price": 63960,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Vypredané",
     "availability": "",
     "dimensions": {
@@ -139,7 +139,7 @@
     "name": "B-340SA",
     "label": "",
     "price": 78720,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Vypredané",
     "availability": "",
     "dimensions": {
@@ -154,7 +154,7 @@
     "name": "Follett F-650-44S",
     "label": "",
     "price": 90000,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -169,7 +169,7 @@
     "name": "Follett F-1025-52S",
     "label": "",
     "price": 109440,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na objednávku",
     "availability": "On order",
     "dimensions": {

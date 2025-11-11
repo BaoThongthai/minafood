@@ -63,6 +63,7 @@
 
   <!-- Template Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/product_page.css" rel="stylesheet">
   <style>
     .mf-results {
       max-width: 1100px;
@@ -128,6 +129,8 @@
   </style>
   <link href="css/mf_search.css" rel="stylesheet">
   <script src="js/funtion_search_input.js"></script>
+
+
 
 </head>
 
@@ -209,6 +212,7 @@
     </div>
     <div id="mf-count"></div>
     <div id="mf-grid" class="mf-grid"></div>
+    <div id="mf-pager"></div>
     <div id="mf-empty" class="mf-empty" hidden>No suitable products found.</div>
   </div>
 
@@ -306,8 +310,10 @@
         .map(x => x.it);
 
       const grid = $('#mf-grid');
+
       const count = $('#mf-count');
       const empty = $('#mf-empty');
+
 
       if (!ranked.length) { if (empty) empty.hidden = false; if (count) count.textContent = '0 kết quả'; return; }
       if (count) count.textContent = `${ranked.length} kết quả cho “${qRaw}”`;
@@ -320,7 +326,7 @@
           // --- Có giá: Add to Cart ---
           const priceBlock = `<div class="price">${fmtPrice(p.price, p.currency)}</div>`;
           return `
-        <div class="mf-card" id="${encodeURIComponent(id)}">
+       <div class="mf-card" id="${encodeURIComponent(id)}" data-id="${attrSafe(id)}">
           <img loading="lazy" src="${attrSafe(img)}" alt="">
           <h3>${attrSafe(p.name || '')}</h3>
           <div class="meta">${attrSafe(p.cat || '')}${p.sku ? (' • ' + attrSafe(p.sku)) : ''}</div>
@@ -343,7 +349,7 @@
           // --- Không có giá: Na poptávku → contact.html?msg=... ---
           const msg = encodeURIComponent(buildInquiryMessage(p));
           return `
-        <div class="mf-card" id="${encodeURIComponent(id)}">
+        <div class="mf-card" id="${encodeURIComponent(id)}" data-id="${attrSafe(id)}">
           <img loading="lazy" src="${attrSafe(img)}" alt="">
           <h3>${attrSafe(p.name || '')}</h3>
           <div class="meta">${attrSafe(p.cat || '')}${p.sku ? (' • ' + attrSafe(p.sku)) : ''}</div>
@@ -361,10 +367,19 @@
       }).join('');
 
       // ===== Add to Cart (event delegation) =====
+      const clickGuard = new WeakSet(); // chống double click trong 1 nhịp
+
       grid.addEventListener('click', (e) => {
         const btn = e.target.closest('.btn-add-to-cart');
-        if (!btn) return; // chỉ bắt Add to Cart, không bắt Na poptávku
+        if (!btn) return; // chỉ bắt Add to Cart
         e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
+
+        // chống double click (nếu user bấm liên tục hoặc có 2 listener)
+        if (clickGuard.has(btn)) return;
+        clickGuard.add(btn);
+        setTimeout(() => clickGuard.delete(btn), 600);
 
         const priceNum = Number(btn.dataset.price || 0);
         const item = {
@@ -386,10 +401,22 @@
           if (span) span.textContent = 'Add to Cart';
         }, 1200);
       });
+
     })();
+
+
+
   </script>
 
-
+  <div id="product-popup" class="product-popup hidden">
+    <div class="product-popup-content">
+      <span class="product-popup-close">&times;</span>
+      <img src="" alt="" id="popup-img" />
+      <h4 id="popup-name"></h4>
+      <p id="popup-dim"></p>
+      <p id="popup-weight"></p>
+    </div>
+  </div>
   <!-- Back to Top -->
   <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i
       class="fa fa-arrow-up"></i></a>
@@ -405,8 +432,172 @@
 
   <!-- Template Javascript -->
   <script src="js/main.js"></script>
+  <script src="js/phantrangtrongsearch.js"></script>
   <script src="js/i18n.js"></script>
   <script src="js/cart.js"></script>
+  <script src="js/popup_search.js" defer></script>
+  <script>
+    (function () {
+      const container = document.getElementById('container');
+      const fmtPrice = (price, currency) => {
+        if (price == null || price === '' || isNaN(Number(price))) return '';
+        const f = new Intl.NumberFormat('cs-CZ', {
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2
+        }).format(Number(price));
+        return `${f} ${currency || 'Kč bez DPH'}`;
+      };
+
+      const qs = new URLSearchParams(location.search);
+      const key = qs.get('id') || '';
+      const deaccent = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+
+      // ===== MINI CART (same as JS mẫu) =====
+      const CART_KEY = 'mina_cart';
+      const readCart = () => {
+        try {
+          return JSON.parse(localStorage.getItem(CART_KEY) || '[]');
+        } catch {
+          return [];
+        }
+      };
+      const writeCart = list => localStorage.setItem(CART_KEY, JSON.stringify(list));
+
+      function updateCartBadge() {
+        const badge = document.querySelector('a[href="cart.html"] span') || document.getElementById('cart-count');
+        if (!badge) return;
+        const total = readCart().reduce((s, x) => s + (x.qty || 0), 0);
+        badge.textContent = String(total);
+      }
+
+      function addToCart(item) {
+        const cart = readCart();
+        const id = String(item.id);
+        const idx = cart.findIndex(x => String(x.id) === id);
+        if (idx >= 0) cart[idx].qty = (cart[idx].qty || 0) + (item.qty || 1);
+        else cart.push({ ...item, qty: item.qty || 1 });
+        writeCart(cart);
+        updateCartBadge(); // cập nhật ngay
+      }
+
+      function getIndex() {
+        try {
+          const cache = JSON.parse(localStorage.getItem('mf_search_index_v1') || 'null');
+          return cache?.items || [];
+        } catch {
+          return [];
+        }
+      }
+
+      setTimeout(render, 200);
+      updateCartBadge(); // đồng bộ số khi mở trang
+
+      function render() {
+        const items = getIndex();
+        const it = items.find(x =>
+          String(x.sku) === key ||
+          String(x.id) === key ||
+          String(x.name) === key ||
+          String(x.url) === key ||
+          String(x.page) === key ||
+          deaccent(String(x.name || '')) === deaccent(key)
+        );
+        if (!it) {
+          container.innerHTML = '<div class="empty">Product not found.</div>';
+          return;
+        }
+
+        const img = it.image || '/img/placeholder.webp';
+        const price = fmtPrice(it.price, it.currency);
+        const hasPrice = it.price && Number(it.price) > 0;
+        const line1 = it.line1 || it.dimensions || '';
+        const line2 = it.line2 || it.weight || '';
+        const desc = [line1, line2, it.label].filter(Boolean).join('<br>');
+
+        const details = [];
+        if (it.cat) details.push(['Category', it.cat]);
+        if (it.sku) details.push(['SKU', it.sku]);
+        if (it.dimensions) details.push(['Dimensions', it.dimensions]);
+        if (it.weight) details.push(['Weight', it.weight]);
+        if (it.line1) details.push(['Detail 1', it.line1]);
+        if (it.line2) details.push(['Detail 2', it.line2]);
+        if (it.label) details.push(['Label', it.label]);
+        if (it.currency && it.price)
+          details.push(['Price', fmtPrice(it.price, it.currency)]);
+
+        // ===== Nút hành động =====
+        let btnHTML = '';
+        if (hasPrice) {
+          btnHTML = `
+        <button class="btn btn-warning btn-action" id="addCartBtn">
+          <i class="fa fa-shopping-bag"></i> Add to Cart
+        </button>`;
+        } else {
+          const msg = encodeURIComponent(`Hello, I want to ask about: ${it.name} ${it.sku ? '(SKU: ' + it.sku + ')' : ''}`);
+          btnHTML = `
+        <a href="contact.html?msg=${msg}" class="btn btn-outline-primary btn-action">
+          <i class="fa fa-paper-plane"></i> Na poptávku
+        </a>`;
+        }
+
+        // ===== Tách HTML nhỏ để tránh lỗi backtick lồng =====
+        const skuStr = it.sku ? ' • ' + it.sku : '';
+        const priceHTML = price
+          ? `<div class="price">${price}</div>`
+          : `<div class="price" style="opacity:.8">Na poptávku</div>`;
+        const descHTML = desc ? `<p class="desc">${desc}</p>` : '';
+        const detailsHTML = details.length
+          ? `<table>${details
+            .map(([k, v]) => `<tr><td>${k}</td><td><strong>${v}</strong></td></tr>`)
+            .join('')}</table>`
+          : '';
+
+        // ===== Render chính =====
+        container.innerHTML = `
+      <div class="product-card row g-4">
+        <div class="col-md-5 text-center">
+          <img src="${img}" alt="${it.name}" class="product-img">
+        </div>
+        <div class="col-md-7">
+          <h1>${it.name || ''}</h1>
+          <div class="meta">
+            <span class="cat">${it.cat || ''}</span>${skuStr}
+          </div>
+          ${priceHTML}
+          ${descHTML}
+          ${detailsHTML}
+          <div style="margin-top:16px;">${btnHTML}</div>
+        </div>
+      </div>
+    `;
+
+        // ===== Bind Add to Cart =====
+        const addBtn = document.getElementById('addCartBtn');
+        if (addBtn) {
+          addBtn.addEventListener('click', () => {
+            addToCart({
+              id: it.sku || it.id || it.name,
+              name: it.name,
+              price: Number(it.price || 0),
+              currency: it.currency || 'Kč',
+              image: it.image || '/img/placeholder.webp',
+              qty: 1
+            });
+            // hiệu ứng nhỏ
+            const old = addBtn.innerHTML;
+            addBtn.disabled = true;
+            addBtn.innerHTML = `<i class="fa fa-check"></i> Added!`;
+            setTimeout(() => {
+              addBtn.disabled = false;
+              addBtn.innerHTML = old;
+            }, 900);
+          });
+        }
+      }
+    })();
+  </script>
+
+
 
 </body>
 

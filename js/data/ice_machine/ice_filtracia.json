@@ -4,7 +4,7 @@
     "name": "4HC NÁHRADNÝ PATRÓN",
     "label": "Náhradná filtračná vložka pre Hoshizaki 4HC",
     "price": 3000,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -19,7 +19,7 @@
     "name": "4HC SINGLE FILTER",
     "label": "Vodný filter Hoshizaki – jednoduchá jednotka",
     "price": 8952,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -34,7 +34,7 @@
     "name": "4HC TWIN FILTER",
     "label": "Vodný filter Hoshizaki – dvojitá jednotka",
     "price": 17328,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {

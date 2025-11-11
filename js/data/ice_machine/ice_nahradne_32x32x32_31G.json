@@ -4,7 +4,7 @@
     "name": "Tesnenie 240X",
     "label": "",
     "price": 104.88,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -19,7 +19,7 @@
     "name": "KAPACITOR Riadiaca jednotka IM rada",
     "label": "",
     "price": 169.44,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -34,7 +34,7 @@
     "name": "Skrutka na odpadovú dosku 240x",
     "label": "",
     "price": 186.96,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -49,7 +49,7 @@
     "name": "Imbusová skrutka M8",
     "label": "",
     "price": 192,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -64,7 +64,7 @@
     "name": "Šróbik do nastrekovej dosky IM240",
     "label": "",
     "price": 201.6,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -79,7 +79,7 @@
     "name": "KAPACITOR  Riadiaca jednotka IM rada",
     "label": "",
     "price": 261.36,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -94,7 +94,7 @@
     "name": "Nožička pre CNE/NE",
     "label": "",
     "price": 288,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -109,7 +109,7 @@
     "name": "IZOLAČNÝ VRCHNÝ PANEL BIELY UHDF IM-240",
     "label": "",
     "price": 322.56,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Vypredané",
     "availability": "",
     "dimensions": {
@@ -124,7 +124,7 @@
     "name": "Napájací kábel UK Veľký",
     "label": "",
     "price": 360,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -139,7 +139,7 @@
     "name": "Napájací kábel UK Malý IM 21-130 & FM 80-300",
     "label": "",
     "price": 360,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -154,7 +154,7 @@
     "name": "Napájací  kábel pre IM240",
     "label": "",
     "price": 360,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -169,7 +169,7 @@
     "name": "NAPÁJACÍ KÁBEL PRE RADU IM 21-130 A FM",
     "label": "",
     "price": 360,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -184,7 +184,7 @@
     "name": "Kryt na servo IM",
     "label": "",
     "price": 480,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -199,7 +199,7 @@
     "name": "Plech na kabeláž XNE/DNE model",
     "label": "",
     "price": 547.2,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -214,7 +214,7 @@
     "name": "Nožička IM-100CNE-HC-32",
     "label": "",
     "price": 600,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -229,7 +229,7 @@
     "name": "Termosenzor nástrekovej dosky pre IM",
     "label": "",
     "price": 873.36,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -244,7 +244,7 @@
     "name": "Strunka na servo IM240",
     "label": "",
     "price": 1025.04,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -259,7 +259,7 @@
     "name": "Čidlo zásobníka IM",
     "label": "",
     "price": 1056.96,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -274,7 +274,7 @@
     "name": "Solenoid na ventil horúceho plynu IM",
     "label": "",
     "price": 1104,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -289,7 +289,7 @@
     "name": "Trubka na prívod vody pre IM100/130",
     "label": "",
     "price": 1580.16,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -304,7 +304,7 @@
     "name": "Solenoid IM240",
     "label": "",
     "price": 1700.16,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -319,7 +319,7 @@
     "name": "Rele pre IM240 - kompresor",
     "label": "",
     "price": 1740.96,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -334,7 +334,7 @@
     "name": "Trubka na prívod vody pre IM240",
     "label": "",
     "price": 1980.0,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -349,7 +349,7 @@
     "name": "VYPÚŠŤACIA NÁDOBA IM240DNE/XNE",
     "label": "",
     "price": 2352,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -364,7 +364,7 @@
     "name": "Spúšťacia sada pre IM radu vzduchom chladené modely",
     "label": "",
     "price": 2376,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Vypredané",
     "availability": "",
     "dimensions": {
@@ -379,7 +379,7 @@
     "name": "Páčka snímača zásobníku pre 240DNE",
     "label": "",
     "price": 2702.16,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -394,7 +394,7 @@
     "name": "Páčka snímača zásobníku pre 240XNE",
     "label": "",
     "price": 2702.16,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -409,7 +409,7 @@
     "name": "Ľadový žľab IM240ANE",
     "label": "",
     "price": 2749.44,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -424,7 +424,7 @@
     "name": "Lievik pre IM240",
     "label": "",
     "price": 4000.08,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -439,7 +439,7 @@
     "name": "Motor na ventilátor IM-21-100",
     "label": "",
     "price": 4080,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -454,7 +454,7 @@
     "name": "Ventilátor pre IM240",
     "label": "",
     "price": 6980.16,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -469,7 +469,7 @@
     "name": "Nerezový lievik pre IM240",
     "label": "",
     "price": 7200,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na ceste",
     "availability": "",
     "dimensions": {
@@ -484,7 +484,7 @@
     "name": "Senzor plynu",
     "label": "",
     "price": 7792.8,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -499,7 +499,7 @@
     "name": "Servo pre IM radu",
     "label": "",
     "price": 7800,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -514,7 +514,7 @@
     "name": "SOLENOID NA VENTIL HORÚCEHO PLYNU IM",
     "label": "",
     "price": 8736,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -529,7 +529,7 @@
     "name": "Riadiaca jednotka IM",
     "label": "",
     "price": 8760,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -544,7 +544,7 @@
     "name": "ČERPADLO (MAGNET PUMP) ASP-20CP 45CLE",
     "label": "",
     "price": 8897.04,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -559,7 +559,7 @@
     "name": "Obere Abdeckung des IM-240DNE",
     "label": "",
     "price": 9455.52,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -574,7 +574,7 @@
     "name": "NÁSTREKOVÁ DOSKA PRE IM240",
     "label": "",
     "price": 9460.56,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -589,7 +589,7 @@
     "name": "Riadiaca jednotka IM - Repas",
     "label": "",
     "price": 9600,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -604,7 +604,7 @@
     "name": "Čerpadlo + O-ring IM100 - 240",
     "label": "",
     "price": 10515.6,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -619,7 +619,7 @@
     "name": "Nástreková doska pre IM240 - 32",
     "label": "",
     "price": 11165.04,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -634,7 +634,7 @@
     "name": "Čerpadlo (magnet pump) PMX-352BHZ1S",
     "label": "",
     "price": 11460.0,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -649,7 +649,7 @@
     "name": "Čerpadlo IM100/ IM240",
     "label": "",
     "price": 12000,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -664,7 +664,7 @@
     "name": "Kompresor NT6224U HC IM240",
     "label": "",
     "price": 28919.52,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {

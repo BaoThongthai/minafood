@@ -4,7 +4,7 @@
     "name": "Šrób na výparník FM",
     "label": "",
     "price": 96,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -19,7 +19,7 @@
     "name": "Šrób na výparník FM 150",
     "label": "",
     "price": 96,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -34,7 +34,7 @@
     "name": "Napájací kábel UK Veľký",
     "label": "",
     "price": 360,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -49,7 +49,7 @@
     "name": "Napájací kábel UK Malý IM 21-130 & FM 80-300",
     "label": "",
     "price": 360,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -64,7 +64,7 @@
     "name": "NAPÁJACÍ KÁBEL PRE RADU IM 21-130 A FM",
     "label": "",
     "price": 360,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -79,7 +79,7 @@
     "name": "Tesnenie FM750",
     "label": "",
     "price": 485.04,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -94,7 +94,7 @@
     "name": "Trubka na odpad pre FM",
     "label": "",
     "price": 799.92,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -109,7 +109,7 @@
     "name": "O RING tesnenie pre FM",
     "label": "",
     "price": 832.08,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -124,7 +124,7 @@
     "name": "Solenoid pre FM (24V)",
     "label": "",
     "price": 962.64,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -139,7 +139,7 @@
     "name": "Sieťka pre FM120KE-50",
     "label": "",
     "price": 1152,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -154,7 +154,7 @@
     "name": "Spiatočný elektro-ventil pre FM",
     "label": "",
     "price": 2266.32,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -169,7 +169,7 @@
     "name": "Vrchný kryt pre FM120EE",
     "label": "",
     "price": 2420.16,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -184,7 +184,7 @@
     "name": "Plavák pre FM",
     "label": "",
     "price": 2503.92,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -199,7 +199,7 @@
     "name": "Vnútorný plast zásobníka FM80/120/150",
     "label": "",
     "price": 2775.6,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -214,7 +214,7 @@
     "name": "PRÍRUBA-70 FM600",
     "label": "",
     "price": 2880,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na objednávku",
     "availability": "On order",
     "dimensions": {
@@ -229,7 +229,7 @@
     "name": "Spodný doraz pre nože FM",
     "label": "",
     "price": 4312.32,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -244,7 +244,7 @@
     "name": "Tesnenie dvierok pre FM-120KE-50",
     "label": "",
     "price": 4320,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -259,7 +259,7 @@
     "name": "Ovládacia doska pre FM",
     "label": "",
     "price": 4680,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -274,7 +274,7 @@
     "name": "Nôž vločky FM80 - FM150",
     "label": "",
     "price": 6720,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -289,7 +289,7 @@
     "name": "Nôž vločky FM300 - FM1800",
     "label": "",
     "price": 6720,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -304,7 +304,7 @@
     "name": "Rezacia hlava vločky FM80-FM150",
     "label": "",
     "price": 8400,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -319,7 +319,7 @@
     "name": "Rezacia hlava vločky FM300-FM1800",
     "label": "",
     "price": 10800,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -334,7 +334,7 @@
     "name": "Riadiaca doska FM",
     "label": "",
     "price": 11942.64,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -349,7 +349,7 @@
     "name": "Výparník FM600",
     "label": "",
     "price": 23129.04,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na objednávku",
     "availability": "On order",
     "dimensions": {

@@ -4,7 +4,7 @@
     "name": "KAPACITOR Riadiaca jednotka IM rada",
     "label": "",
     "price": 169.44,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -19,7 +19,7 @@
     "name": "Imbusová skrutka M8",
     "label": "",
     "price": 192,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -34,7 +34,7 @@
     "name": "KAPACITOR  Riadiaca jednotka IM rada",
     "label": "",
     "price": 261.36,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -49,7 +49,7 @@
     "name": "Napájací kábel UK Veľký",
     "label": "",
     "price": 360,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -64,7 +64,7 @@
     "name": "NAPÁJACÍ KÁBEL PRE RADU IM 21-130 A FM",
     "label": "",
     "price": 360,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -79,7 +79,7 @@
     "name": "Termosenzor nástrekovej dosky pre IM",
     "label": "",
     "price": 873.36,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -94,7 +94,7 @@
     "name": "Čidlo zásobníka IM",
     "label": "",
     "price": 1056.96,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -109,7 +109,7 @@
     "name": "Solenoid na ventil horúceho plynu IM",
     "label": "",
     "price": 1104,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -124,7 +124,7 @@
     "name": "Mriežka na filter pre IM65",
     "label": "",
     "price": 1980.0,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -139,7 +139,7 @@
     "name": "Motor na ventilátor IM-21-100",
     "label": "",
     "price": 4080,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -154,7 +154,7 @@
     "name": "TRUBKA NA PRÍVOD VODY PRE IM65-LM,-LM3",
     "label": "",
     "price": 4651.2,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -169,7 +169,7 @@
     "name": "Senzor plynu",
     "label": "",
     "price": 7792.8,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -184,7 +184,7 @@
     "name": "Servo pre IM radu",
     "label": "",
     "price": 7800,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -199,7 +199,7 @@
     "name": "Riadiaca jednotka IM",
     "label": "",
     "price": 8760,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
@@ -214,7 +214,7 @@
     "name": "Riadiaca jednotka IM - Repas",
     "label": "",
     "price": 9600,
-    "currency": "€",
+    "currency": "Kč bez DPH",
     "status": "Na sklade",
     "availability": "In stock",
     "dimensions": {
