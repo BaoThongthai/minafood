@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>MinaFood - Plynovy</title>
+  <title>MinaFood - Zpracování masa</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <!-- minafood -->
   <meta name="description"
@@ -62,19 +62,12 @@
 
   <!-- Template Stylesheet -->
   <link href="css/style.css" rel="stylesheet" />
+
   <link href="css/mf_search.css" rel="stylesheet" />
-  <link rel="stylesheet" href="css/product_page.css">
   <script src="js/funtion_search_input.js"></script>
 </head>
 
 <body>
-  <!-- Spinner Start -->
-  <div id="spinner"
-    class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center">
-    <div class="spinner-grow text-primary" role="status"></div>
-  </div>
-  <!-- Spinner End -->
-
   <!-- Navbar start -->
   <div class="container-fluid fixed-top">
     <div class="container topbar bg-primary d-none d-lg-block">
@@ -143,29 +136,33 @@
   <!-- Navbar End -->
 
   <!-- Single Page Header start -->
-  <div class="container-fluid page-header py-5">
-    <h1 class="text-center text-white display-6" data-i18n="tabs.gasStoves">
-      Plynový sporáky
-    </h1>
-    <ol class="breadcrumb justify-content-center mb-0">
-      <li class="breadcrumb-item">
-        <a href="index.html#Kategorie"><i class="fa-solid fa-house" style="color: white"></i></a>
-      </li>
-    </ol>
-  </div>
-  <!-- Single Page Header End -->
+  <div class="page-header d-flex align-items-center justify-content-center text-center" style="
+        background: url('https://cokhithinhvuong.com/files/assets/May_Xay_Thit/xaythitbanner.jpg')
+          center center/cover no-repeat;
+        height: 320px;
+        position: relative;
+      ">
+    <div class="overlay" style="
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.4);
+        "></div>
 
-  <!-- mina Shop Start-->
-  <!-- xử lý popup sản phẩm -->
-  <div id="product-popup" class="product-popup hidden">
-    <div class="product-popup-content">
-      <span class="product-popup-close">&times;</span>
-      <img src="" alt="" id="popup-img" />
-      <h4 id="popup-name"></h4>
-      <p id="popup-dim"></p>
-      <p id="popup-weight"></p>
+    <div class="container position-relative z-1 text-white">
+      <h1 class="fw-bold display-5 mb-3 text-uppercase" data-i18n="tabs.meatProcessing" style="color: white">
+        Zpracování masa
+      </h1>
+      <a href="index.html#Kategorie">
+        <p class="mb-0" style="color: antiquewhite">
+          <i class="fa-solid fa-house" style="color: white"></i>&nbsp; Back
+        </p>
+      </a>
     </div>
   </div>
+
   <!-- mina Shop Start-->
   <div class="container-fluid fruite py-5">
     <div class="container py-5">
@@ -183,6 +180,17 @@
           <div id="pager-slot" class="mf-pager-bottom"></div>
         </div>
       </div>
+    </div>
+  </div>
+  <!-- Fruits Shop End-->
+  <!-- xử lý popup sản phẩm -->
+  <div id="product-popup" class="product-popup hidden">
+    <div class="product-popup-content">
+      <span class="product-popup-close">&times;</span>
+      <img src="" alt="" id="popup-img" />
+      <h4 id="popup-name"></h4>
+      <p id="popup-dim"></p>
+      <p id="popup-weight"></p>
     </div>
   </div>
   <!-- Fruits Shop End-->
@@ -310,7 +318,8 @@
   <script src="js/main.js"></script>
   <script src="js/i18n.js"></script>
   <script src="js/cart.js"></script>
-  <script src="js/plynovy_sporaky.js"></script>
+  <script src="js/maythucphamth_maythaithit.js"></script>
+
 </body>
 
 </html>

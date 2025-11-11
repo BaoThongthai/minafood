@@ -5,9 +5,21 @@
     "label": "Plynový sporáky",
     "image": "img/Plynovy/bep1.png",
     "item_number": "",
-    "capacity": { "gross": "", "net": "" },
-    "dimensions": { "w": "", "d": "", "h": "" },
-    "availability": { "ostrava": "", "dansko": "", "status": "", "delivery": "" },
+    "capacity": {
+      "gross": "",
+      "net": ""
+    },
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "",
+      "delivery": ""
+    },
     "price": 70000,
     "currency": "Kč"
   },
@@ -17,9 +29,21 @@
     "label": "Plynový sporáky",
     "image": "img/Plynovy/bep2.png",
     "item_number": "",
-    "capacity": { "gross": "", "net": "" },
-    "dimensions": { "w": "", "d": "", "h": "" },
-    "availability": { "ostrava": "", "dansko": "", "status": "", "delivery": "" },
+    "capacity": {
+      "gross": "",
+      "net": ""
+    },
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "",
+      "delivery": ""
+    },
     "price": 95000,
     "currency": "Kč"
   },
@@ -29,9 +53,21 @@
     "label": "Plynový sporáky",
     "image": "img/Plynovy/bep3.png",
     "item_number": "",
-    "capacity": { "gross": "", "net": "" },
-    "dimensions": { "w": "", "d": "", "h": "" },
-    "availability": { "ostrava": "", "dansko": "", "status": "", "delivery": "" },
+    "capacity": {
+      "gross": "",
+      "net": ""
+    },
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "",
+      "delivery": ""
+    },
     "price": 120000,
     "currency": "Kč"
   },
@@ -41,9 +77,21 @@
     "label": "Plynový sporáky",
     "image": "img/Plynovy/b4.png",
     "item_number": "",
-    "capacity": { "gross": "", "net": "" },
-    "dimensions": { "w": "", "d": "", "h": "" },
-    "availability": { "ostrava": "", "dansko": "", "status": "", "delivery": "" },
+    "capacity": {
+      "gross": "",
+      "net": ""
+    },
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "",
+      "delivery": ""
+    },
     "price": 150000,
     "currency": "Kč"
   },
@@ -53,9 +101,21 @@
     "label": "Plynový sporáky",
     "image": "img/Plynovy/bep5.png",
     "item_number": "",
-    "capacity": { "gross": "", "net": "" },
-    "dimensions": { "w": "", "d": "", "h": "" },
-    "availability": { "ostrava": "", "dansko": "", "status": "", "delivery": "" },
+    "capacity": {
+      "gross": "",
+      "net": ""
+    },
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "",
+      "delivery": ""
+    },
     "price": 45000,
     "currency": "Kč"
   },
@@ -65,9 +125,21 @@
     "label": "Plynový sporáky",
     "image": "img/Plynovy/bep6.png",
     "item_number": "",
-    "capacity": { "gross": "", "net": "" },
-    "dimensions": { "w": "", "d": "", "h": "" },
-    "availability": { "ostrava": "", "dansko": "", "status": "", "delivery": "" },
+    "capacity": {
+      "gross": "",
+      "net": ""
+    },
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "",
+      "delivery": ""
+    },
     "price": 75000,
     "currency": "Kč"
   },
@@ -77,9 +149,21 @@
     "label": "Plynový sporáky",
     "image": "img/Plynovy/bep7.png",
     "item_number": "",
-    "capacity": { "gross": "", "net": "" },
-    "dimensions": { "w": "", "d": "", "h": "" },
-    "availability": { "ostrava": "", "dansko": "", "status": "", "delivery": "" },
+    "capacity": {
+      "gross": "",
+      "net": ""
+    },
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "",
+      "delivery": ""
+    },
     "price": 90000,
     "currency": "Kč"
   },
@@ -89,10 +173,358 @@
     "label": "Plynový sporáky",
     "image": "img/Plynovy/bep8.png",
     "item_number": "",
-    "capacity": { "gross": "", "net": "" },
-    "dimensions": { "w": "", "d": "", "h": "" },
-    "availability": { "ostrava": "", "dansko": "", "status": "", "delivery": "" },
+    "capacity": {
+      "gross": "",
+      "net": ""
+    },
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "",
+      "delivery": ""
+    },
     "price": 115000,
     "currency": "Kč"
+  },
+  {
+    "id": "t60",
+    "sku": "T60",
+    "name": "Smokeless Skewer Grill T60",
+    "line1": "Smokeless Skewer Grill T60 (670×330×195mm)",
+    "line2": "16kW power, 220V/50Hz, 11kg. 2 burners, infrared ceramic core, stainless steel body. Compact design for restaurants or food stalls.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "đ",
+    "image": "img/bepnuongaisikao/T60.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "t80",
+    "sku": "T80",
+    "name": "Smokeless Skewer Grill T80",
+    "line1": "Smokeless Skewer Grill T80 (820×330×195mm)",
+    "line2": "32kW power, 13kg, 2 burners. Infrared ceramic burners, 12V fan, stainless body. Ideal for grilling pork, chicken, seafood, or vegetables.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "đ",
+    "image": "img/bepnuongaisikao/T80.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "t120",
+    "sku": "T120",
+    "name": "Smokeless Skewer Grill T120",
+    "line1": "Smokeless Skewer Grill T120 (1243×330×195mm)",
+    "line2": "32kW power, 19kg, 4 burners. Stainless steel, 12V fan, ceramic infrared heating. Fast, even grilling for large restaurant operations.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "đ",
+    "image": "img/bepnuongaisikao/T120.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "t160",
+    "sku": "T160",
+    "name": "Gas Skewer Grill T160",
+    "line1": "Gas Skewer Grill T160 (1530×330×195mm)",
+    "line2": "32kW power, 24kg, 4 burners, stainless body. 12V blower fan, ceramic infrared burners, gas 2800Pa. Heavy-duty grill for restaurant chains.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "đ",
+    "image": "img/bepnuongaisikao/T160.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "t180",
+    "sku": "T180",
+    "name": "Smokeless Skewer Grill T180",
+    "line1": "Smokeless Skewer Grill T180 (1750×330×195mm)",
+    "line2": "32kW power, 26kg, 4 burners. Infrared ceramic, stainless steel body, 12V fan, 2800Pa gas pressure. Suitable for high-volume BBQ shops.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "đ",
+    "image": "img/bepnuongaisikao/T180.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "sl4",
+    "sku": "SL-04",
+    "name": "Gas Salamander Grill 4 Burners",
+    "line1": "Gas Salamander Grill 4 Burners (89×43×61cm)",
+    "line2": "Stainless steel 100%, compact design. Includes ignition gun and grill plate. 15-month warranty, ideal for seafood, pork, or skewers.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "đ",
+    "image": "img/bepnuongaisikao/SL4.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "sl6",
+    "sku": "SL-06",
+    "name": "Gas Salamander Grill 6 Burners",
+    "line1": "Gas Salamander Grill 6 Burners (89×43×61cm)",
+    "line2": "High-quality stainless steel 100%, 39kg. 6 burners, perfect for commercial BBQ use. Includes lighter and grill pan.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "đ",
+    "image": "img/bepnuongaisikao/SL6.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "sl8",
+    "sku": "SL-08",
+    "name": "Gas Salamander Grill 8 Burners",
+    "line1": "Gas Salamander Grill 8 Burners (108×43×61cm)",
+    "line2": "Inox body, 47kg, 8 burners. Gas fuel with accessories: lighter gun, grill plate. 15-month warranty. Heavy-duty professional model.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "đ",
+    "image": "img/bepnuongaisikao/SL8.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "sl10",
+    "sku": "SL-10",
+    "name": "Gas Salamander Grill 10 Burners",
+    "line1": "Gas Salamander Grill 10 Burners (128×43×61cm)",
+    "line2": "Stainless steel 100%, 59kg. 10 burners, full gas system with grill plate & lighter gun. Large capacity for restaurants and BBQ houses.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "đ",
+    "image": "img/bepnuongaisikao/SL10.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "f003",
+    "sku": "F003",
+    "name": "Gas Grill 4 Short Burners",
+    "line1": "Gas Grill 4 Short Burners F003 (58×40×19cm)",
+    "line2": "Compact infrared gas grill with 4 burners. Stainless steel body, high heat efficiency. Ideal for BBQ, seafood, skewers, and restaurant use.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "",
+    "image": "img/bepnuongaisikao/F003.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "f004",
+    "sku": "F004",
+    "name": "Gas Grill 4 Long Burners",
+    "line1": "Gas Grill 4 Long Burners F004 (58×60×19cm)",
+    "line2": "Infrared gas grill with 4 burners, 12kg weight. Stainless steel construction, even heat distribution. Suitable for seafood and commercial kitchens.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "",
+    "image": "img/bepnuongaisikao/F004.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "f005",
+    "sku": "F005",
+    "name": "Gas Grill 6 Short Burners",
+    "line1": "Gas Grill 6 Short Burners F005 (80×40×19cm)",
+    "line2": "6 infrared burners for faster grilling. Compact stainless frame, uniform heat. Ideal for seafood, pork, chicken, or BBQ skewers.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "",
+    "image": "img/bepnuongaisikao/F005.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "f006",
+    "sku": "F006",
+    "name": "Gas Grill 6 Long Burners",
+    "line1": "Gas Grill 6 Long Burners F006 (80×60×19cm)",
+    "line2": "Infrared ceramic gas grill, 6 burners. Made of stainless steel, durable and easy to clean. Perfect for restaurants and BBQ vendors.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "",
+    "image": "img/bepnuongaisikao/F006.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "f007",
+    "sku": "F007",
+    "name": "Gas Grill 8 Short Burners",
+    "line1": "Gas Grill 8 Short Burners F007 (102×40×19cm)",
+    "line2": "Large-size infrared grill with 8 burners. Stainless steel 100%, high durability. Ideal for BBQ, seafood, or large restaurant kitchens.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "",
+    "image": "img/bepnuongaisikao/F007.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "f008",
+    "sku": "F008",
+    "name": "Gas Grill 8 Long Burners",
+    "line1": "Gas Grill 8 Long Burners F008 (102×60×19cm)",
+    "line2": "Premium stainless steel gas grill, 8 burners. Uses ceramic infrared panels for even heat. Suitable for seafood, skewers, or grilled meat.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "",
+    "image": "img/bepnuongaisikao/F008.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "ef81",
+    "sku": "EF-81",
+    "name": "Single Deep Fryer SUNNY EF-81",
+    "line1": "Single Electric Deep Fryer EF-81 (45×28×30cm)",
+    "line2": "220V/50Hz, 2.5kW power, 5.5L oil tank. Stainless steel body, 50–200°C control, compact and easy to clean. Ideal for fries, chicken, snacks.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "",
+    "image": "img/bepnuongaisikao/EF81.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "ef82",
+    "sku": "EF-82",
+    "name": "Double Deep Fryer SUNNY EF-82",
+    "line1": "Double Electric Deep Fryer EF-82 (58×44×32cm)",
+    "line2": "2×2.5kW power, dual 5.5L tanks, stainless steel build. Independent thermostats, 50–200°C. Perfect for restaurants and fast-food stores.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "",
+    "image": "img/bepnuongaisikao/EF82.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "hongt60120",
+    "sku": "HONG-T60120",
+    "name": "Burner Tile for Grill T60–T120",
+    "line1": "Infrared Ceramic Burner for Grill T60/T120 (42×9.5cm)",
+    "line2": "High-quality ceramic burner tile. 1.2cm thickness, stainless steel frame and mesh. Provides even heat and long durability for gas grills.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "",
+    "image": "img/bepnuongaisikao/HONGT60120.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "hongt80160",
+    "sku": "HONG-T80160",
+    "name": "Burner Tile for Grill T80–T160",
+    "line1": "Infrared Ceramic Burner for Grill T80/T160 (58×9.5cm)",
+    "line2": "Premium ceramic tile burner. Heat-resistant 1.2cm ceramic face, inox mesh and frame. Replacement part for AISIKAO T80 & T160 models.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "",
+    "image": "img/bepnuongaisikao/HONGT80160.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "hongt180",
+    "sku": "HONG-T180",
+    "name": "Burner Tile for Grill T180",
+    "line1": "Infrared Ceramic Burner for Grill T180 (68×9.5cm)",
+    "line2": "High-quality ceramic burner tile, stainless steel mesh and frame. 1.2cm ceramic surface thickness for even heat and long-lasting performance.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "",
+    "image": "img/bepnuongaisikao/HONGT180.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "hongngan",
+    "sku": "HONG-NGAN",
+    "name": "Short Gas Burner Head",
+    "line1": "Short Gas Burner Head (20×9cm)",
+    "line2": "Ceramic infrared burner head for compact grills. 1.2cm ceramic face, stainless steel base, provides stable heat and long durability.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "",
+    "image": "img/bepnuongaisikao/HONGNGAN.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "hongdai",
+    "sku": "HONG-DAI",
+    "name": "Long Gas Burner Head",
+    "line1": "Long Gas Burner Head (40×9cm)",
+    "line2": "High-performance ceramic burner head for industrial grills. Infrared heat, stainless frame, and ceramic core for high durability and efficiency.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "",
+    "image": "img/bepnuongaisikao/HONGDAI.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "chandang",
+    "sku": "CHAN-DANG",
+    "name": "Short Inox Shield Plate for Gas Grill",
+    "line1": "Short Stainless Steel Shield Plate (20×9cm)",
+    "line2": "Made of inox. Prevents food debris from falling into the burner, protecting ceramic surface and extending lifespan of burner units.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "",
+    "image": "img/bepnuongaisikao/CHANDANG.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "chandai",
+    "sku": "CHAN-DAI",
+    "name": "Long Inox Shield Plate for Gas Grill",
+    "line1": "Long Stainless Steel Shield Plate (40×9cm)",
+    "line2": "Inox 304 construction, anti-rust. Replacement plate that blocks grease from direct flame, improving heat efficiency and burner longevity.",
+    "label": "",
+    "price": null,
+    "price_src": null,
+    "currency": "",
+    "image": "img/bepnuongaisikao/CHANDAI.png",
+    "href": "",
+    "sp": 1
   }
 ]
