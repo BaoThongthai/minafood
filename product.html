@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>MinaFood - Porcelain</title>
+    <title>MinaFood - Detail Product</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <!-- minafood -->
     <meta name="description"
@@ -241,7 +241,7 @@
     <!-- Navbar End -->
     <!-- Single Page Header start -->
     <div class="page-header d-flex align-items-center justify-content-center text-center" style="
-       background: url('https://icemakers.sk/files/categories/kockove-vyrobniky.jpg') center center/cover no-repeat;
+       background: url('img/banner1.png') center center/cover no-repeat;
        height: 320px;
        position: relative;
      ">
@@ -253,20 +253,27 @@
 
         <div class="container position-relative z-1 text-white">
             <h1 class="fw-bold display-5 mb-3 text-uppercase" style="color: white;">
-                VYROBNÍK LEDU
+                Product Detail
             </h1>
-            <a href="ice_equiment_katagory.html">
+            <a href="search.html">
                 <p class="mb-0" style="color:antiquewhite"><i class="fa-solid fa-house" style="color: white;"></i>&nbsp;
                     Back
                 </p>
             </a>
         </div>
     </div>
+
     <!-- Single Page Header End -->
+
     <div class="wrap">
-        <a href="javascript:history.back()" class="back">&larr; Back</a>
+        <a href="search.html" class="back">&larr; Back</a>
+
+        <div>
+            <hr>
+        </div>
         <div id="container"></div>
     </div>
+
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
         <div class="container py-5">
@@ -388,28 +395,41 @@
     <script>
         (function () {
             const container = document.getElementById('container');
+
+            // ===== Helpers =====
             const fmtPrice = (price, currency) => {
-                if (price == null || price === '' || isNaN(Number(price))) return '';
-                const f = new Intl.NumberFormat('cs-CZ', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(Number(price));
+                if (price == null || price === '' || isNaN(Number(price)) || Number(price) <= 0) return '';
+                const f = new Intl.NumberFormat('cs-CZ', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+                    .format(Number(price));
                 return `${f} ${currency || 'Kč bez DPH'}`;
             };
-            const qs = new URLSearchParams(location.search);
-            const key = qs.get('id') || '';
+            const escapeHtml = (s) => String(s)
+                .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
             const deaccent = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
-            // Giỏ hàng mini giống trang chính
+            const qs = new URLSearchParams(location.search);
+            const key = qs.get('id') || '';
+
+            // ===== Cart =====
             const CART_KEY = 'mina_cart';
             const readCart = () => { try { return JSON.parse(localStorage.getItem(CART_KEY) || '[]'); } catch { return []; } };
             const writeCart = (list) => localStorage.setItem(CART_KEY, JSON.stringify(list));
+            const cartCount = () => readCart().reduce((s, it) => s + (Number(it.qty) || 0), 0);
+            const updateCartBadge = () => {
+                const b = document.querySelector('a[href="cart.html"] span');
+                if (b) b.textContent = String(cartCount());
+            };
             const addToCart = (item) => {
                 const cart = readCart();
-                const idx = cart.findIndex(x => String(x.id) === String(item.id));
-                if (idx >= 0) cart[idx].qty = (cart[idx].qty || 0) + (item.qty || 1);
+                const i = cart.findIndex(x => String(x.id) === String(item.id));
+                if (i >= 0) cart[i].qty = (cart[i].qty || 0) + (item.qty || 1);
                 else cart.push({ ...item, qty: item.qty || 1 });
                 writeCart(cart);
                 alert('✅ Added to cart: ' + item.name);
             };
 
+            // Lấy index từ mf_search.js
             function getIndex() {
                 try {
                     const cache = JSON.parse(localStorage.getItem('mf_search_index_v1') || 'null');
@@ -417,10 +437,28 @@
                 } catch { return []; }
             }
 
-            // render sau 200ms để mf_search.js kịp load
+            // Build message để gửi sang contact.html
+            function buildInquiryMessageFull(p) {
+                const lines = [
+                    'Hello, I want to ask about this product:',
+                    p.name ? `• Product name: ${p.name}` : '',
+                    p.line1 ? `• Detail 1: ${p.line1}` : '',
+                    p.line2 ? `• Detail 2: ${p.line2}` : '',
+                    p.sku ? `• SKU: ${p.sku}` : '',
+                    fmtPrice(p.price, p.currency) ? `• Price: ${fmtPrice(p.price, p.currency)}` : '• Price: Na poptávku',
+                    p.cat ? `• Category: ${p.cat}` : '',
+                    p.dimensions ? `• Dimensions: ${p.dimensions}` : '',
+                    p.weight ? `• Weight: ${p.weight}` : '',
+                    `• Source Page: ${location.href}`
+                ].filter(Boolean);
+                return lines.join('\n');
+            }
+
             setTimeout(render, 200);
 
             function render() {
+                updateCartBadge();
+
                 const items = getIndex();
                 const it = items.find(x =>
                     String(x.sku) === key ||
@@ -430,67 +468,82 @@
                     String(x.page) === key ||
                     deaccent(String(x.name || '')) === deaccent(key)
                 );
-                if (!it) {
-                    container.innerHTML = '<div class="empty">Product not found.</div>';
-                    return;
-                }
+                if (!it) { container.innerHTML = '<div class="empty">Product not found.</div>'; return; }
 
                 const img = it.image || '/img/placeholder.webp';
-                const price = fmtPrice(it.price, it.currency);
-                const hasPrice = it.price && Number(it.price) > 0;
+                const priceText = fmtPrice(it.price, it.currency);
+                const hasPrice = !!priceText;
 
-                const line1 = it.line1 || it.dimensions || '';
-                const line2 = it.line2 || it.weight || '';
-                const desc = [line1, line2, it.label].filter(Boolean).join('<br>');
+                // Bảng gọn thông tin chính (ẩn image, url, json)
+                const important = [
+                    ['Name', it.name || ''],
+                    ['SKU', it.sku || ''],
+                    ['Price', priceText || 'Na poptávku'],
+                    ['Detail 1', it.line1 || ''],
+                    ['Detail 2', it.line2 || ''],
+                    ['Category', it.cat || ''],
+                    ['Dimensions', it.dimensions || ''],
+                    ['Weight', it.weight || ''],
+                    ['Label', it.label || '']
+                ].filter(([_, v]) => String(v).trim() !== '');
 
-                const details = [];
-                if (it.cat) details.push(['Category', it.cat]);
-                if (it.sku) details.push(['SKU', it.sku]);
-                if (it.dimensions) details.push(['Dimensions', it.dimensions]);
-                if (it.weight) details.push(['Weight', it.weight]);
-                if (it.line1) details.push(['Detail 1', it.line1]);
-                if (it.line2) details.push(['Detail 2', it.line2]);
-                if (it.label) details.push(['Label', it.label]);
-                if (it.currency && it.price) details.push(['Price', fmtPrice(it.price, it.currency)]);
-
-                // Xây nút hành động
+                // Nút hành động
                 let btnHTML = '';
                 if (hasPrice) {
                     btnHTML = `
-          <button class="btn btn-warning btn-action" id="addCartBtn">
-            <i class="fa fa-shopping-bag"></i> Add to Cart
-          </button>`;
+        <button class="btn btn-warning btn-action" id="addCartBtn">
+          <i class="fa fa-shopping-bag"></i> Add to Cart
+        </button>`;
                 } else {
-                    const msg = encodeURIComponent(`Hello, I want to ask about: ${it.name} (SKU: ${it.sku || ''})`);
+                    const msg = encodeURIComponent(buildInquiryMessageFull(it));
                     btnHTML = `
-          <a href="contact.html?msg=${msg}" class="btn btn-outline-primary btn-action">
-            <i class="fa fa-paper-plane"></i> Na poptávku
-          </a>`;
+        <a href="contact.html?msg=${msg}" class="btn btn-outline-primary btn-action" id="askBtn">
+          <i class="fa fa-paper-plane"></i> Na poptávku
+        </a>`;
                 }
 
-                container.innerHTML = `
-        <div class="product-card row g-4">
-          <div class="col-md-5 text-center">
-            <img src="${img}" alt="${it.name}" class="product-img">
-          </div>
-          <div class="col-md-7">
-            <h1>${it.name || ''}</h1>
-            <div class="meta">
-              <span class="cat">${it.cat || ''}</span>
-              ${it.sku ? ` • ${it.sku}` : ''}
-            </div>
-            ${price ? `<div class="price">${price}</div>` : `<div class="price" style="opacity:.8">Na poptávku</div>`}
-            ${desc ? `<p class="desc">${desc}</p>` : ''}
-            ${details.length ? `
-              <table>
-                ${details.map(([k, v]) => `<tr><td>${k}</td><td><strong>${v}</strong></td></tr>`).join('')}
-              </table>
-            ` : ''}
-            <div style="margin-top:16px;">${btnHTML}</div>
-          </div>
-        </div>`;
+                // CSS mini
+                const style = `
+      <style id="pd-style">
+        .pd-box{border:1px solid #eee;border-radius:14px;padding:16px}
+        .pd-table{width:100%;border-collapse:separate;border-spacing:0 6px}
+        .pd-table td{padding:4px 8px;vertical-align:top}
+        .pd-table td.k{width:160px;color:#6b7280}
+        .pill{display:inline-block;padding:.1rem .5rem;border:1px solid #e5e7eb;border-radius:999px;font-size:.8rem;color:#6b7280}
+      </style>`;
 
-                // bind Add to Cart
+                container.innerHTML = `
+      ${style}
+      <div class="product-card row g-4">
+        <div class="col-md-5 text-center">
+          <img src="${img}" alt="${escapeHtml(it.name || '')}" class="product-img">
+        </div>
+        <div class="col-md-7">
+          <h1>${escapeHtml(it.name || '')}</h1>
+          <div class="meta">
+            ${it.cat ? `<span class="pill">${escapeHtml(it.cat)}</span>` : ''}
+            ${it.sku ? ` <span class="pill">SKU: ${escapeHtml(it.sku)}</span>` : ''}
+          </div>
+          ${priceText ? `<div class="price">${priceText}</div>` : `<div class="price" style="opacity:.8">Na poptávku</div>`}
+
+          ${important.length ? `
+            <div class="pd-box mt-2">
+              <table class="pd-table">
+                ${important.map(([k, v]) => `
+                  <tr>
+                    <td class="k">${escapeHtml(k)}</td>
+                    <td><strong>${escapeHtml(v)}</strong></td>
+                  </tr>`).join('')}
+              </table>
+            </div>
+          `: ''}
+
+          <div style="margin-top:16px;">${btnHTML}</div>
+        </div>
+      </div>
+    `;
+
+                // Add to Cart → reload
                 const addBtn = document.getElementById('addCartBtn');
                 if (addBtn) {
                     addBtn.addEventListener('click', () => {
@@ -502,11 +555,16 @@
                             image: it.image || '/img/placeholder.webp',
                             qty: 1
                         });
+                        updateCartBadge();
+                        setTimeout(() => location.reload(), 100);
                     });
                 }
             }
         })();
     </script>
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
         crossorigin="anonymous"></script>
 </body>
