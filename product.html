@@ -170,6 +170,58 @@
             align-items: center;
             gap: 8px;
         }
+
+        /* Khung chứa ảnh: bo góc, có tỉ lệ chuẩn để cân với cột phải */
+        .media-frame {
+            width: 100%;
+            border: 1px solid #eee;
+            border-radius: 14px;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+
+            /* Giữ tỉ lệ khung giúp ảnh không “lọt thỏm” */
+            aspect-ratio: 4 / 3;
+            /* desktop mặc định */
+        }
+
+        /* Ảnh phóng tối đa trong khung, không bị cắt */
+        .product-img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 10px;
+            /* tuỳ thích */
+            border: none;
+            /* border đã ở .media-frame */
+            background: transparent;
+            display: block;
+        }
+
+        /* Cột trái căn giữa theo chiều dọc khi nội dung phải cao hơn */
+        .product-card .col-md-5 {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Mobile: dùng khung vuông cho gọn */
+        @media (max-width: 768px) {
+            .media-frame {
+                aspect-ratio: 1 / 1;
+                padding: 10px;
+            }
+        }
+
+        /* Màn rộng: cho khung cao hơn chút để cân chữ bên phải */
+        @media (min-width: 1200px) {
+            .media-frame {
+                aspect-ratio: 16 / 12;
+            }
+
+            /* gần 4:3 nhưng “đầy” hơn */
+        }
     </style>
 </head>
 
@@ -215,6 +267,7 @@
                             <form id="mf-search-form" action="/search.html" class="mf-search">
                                 <input id="mf-search-input" name="q" type="search" placeholder="Type to search"
                                     autocomplete="off" aria-label="Search">
+                                <input type="hidden" name="page" value="1">
                                 <button type="button" id="search-toggle" class="icon-only">
                                     <i class="fa-solid fa-magnifying-glass fa-2x" style="color: #114070;"></i>
                                 </button>
@@ -515,8 +568,10 @@
                 container.innerHTML = `
       ${style}
       <div class="product-card row g-4">
-        <div class="col-md-5 text-center">
-          <img src="${img}" alt="${escapeHtml(it.name || '')}" class="product-img">
+        <div class="col-md-5">
+        <div class="media-frame">
+            <img src="${img}" alt="${escapeHtml(it.name || '')}" class="product-img">
+        </div>
         </div>
         <div class="col-md-7">
           <h1>${escapeHtml(it.name || '')}</h1>
