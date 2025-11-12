@@ -479,7 +479,8 @@
                 if (i >= 0) cart[i].qty = (cart[i].qty || 0) + (item.qty || 1);
                 else cart.push({ ...item, qty: item.qty || 1 });
                 writeCart(cart);
-                alert('✅ Added to cart: ' + item.name);
+                // no alert, just return
+                return true;
             };
 
             // Lấy index từ mf_search.js
@@ -599,9 +600,9 @@
     `;
 
                 // Add to Cart → reload
-                const addBtn = document.getElementById('addCartBtn');
                 if (addBtn) {
-                    addBtn.addEventListener('click', () => {
+                    addBtn.addEventListener('click', (e) => {
+                        e.preventDefault();
                         addToCart({
                             id: it.sku || it.id || it.name,
                             name: it.name,
@@ -610,10 +611,11 @@
                             image: it.image || '/img/placeholder.webp',
                             qty: 1
                         });
-                        updateCartBadge();
-                        setTimeout(() => location.reload(), 100);
+                        updateCartBadge();           // cập nhật badge ngay (dù sẽ chuyển trang)
+                        window.location.href = 'cart.html'; // chuyển thẳng sang giỏ hàng
                     });
                 }
+
             }
         })();
     </script>

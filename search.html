@@ -129,6 +129,7 @@
   </style>
   <link href="css/mf_search.css" rel="stylesheet">
   <script src="js/funtion_search_input.js"></script>
+  <script src="js/mf_search.js"></script>
 
 
 
@@ -216,7 +217,7 @@
     <div id="mf-empty" class="mf-empty" hidden>No suitable products found.</div>
   </div>
 
-  <script src="/js/mf_search.js"></script>
+
 
   <!-- Xử lý search và add to cart trong trang search -->
   <script>
@@ -431,14 +432,16 @@
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
   <!-- Template Javascript -->
-  <script src="js/main.js"></script>
+  <script src="js/main.js" defer></script>
   <script src="js/phantrangtrongsearch.js"></script>
+  <script src="js/popup_search.js" defer></script>
   <script src="js/i18n.js"></script>
   <script src="js/cart.js"></script>
-  <script src="js/popup_search.js" defer></script>
+
   <script>
     (function () {
       const container = document.getElementById('container');
+      if (!container) return; // ⟵ Đừng chạy trên trang search
       const fmtPrice = (price, currency) => {
         if (price == null || price === '' || isNaN(Number(price))) return '';
         const f = new Intl.NumberFormat('cs-CZ', {

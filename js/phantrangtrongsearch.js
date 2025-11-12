@@ -56,17 +56,21 @@
             const cache = JSON.parse(localStorage.getItem('mf_search_index_v1') || 'null');
             if (cache && cache.items) return cache.items;
         } catch { }
+
+        // nếu mf_search.js đã được load thì gọi thẳng hàm build index của nó
+        if (window.mfSearch?.loadIndex) {
+            return await window.mfSearch.loadIndex();
+        }
+
+        // fallback (chỉ nếu bạn THỰC SỰ không include sẵn mf_search.js):
         await new Promise(res => {
             const s = document.createElement('script');
-            s.src = '/js/mf_search.js';
-            s.onload = () => setTimeout(res, 300);
-            document.body.appendChild(s);
+            s.src = '/js/mf_search.js'; s.defer = true; s.onload = res;
+            document.head.appendChild(s);
         });
-        try {
-            const cache = JSON.parse(localStorage.getItem('mf_search_index_v1') || 'null');
-            return (cache && cache.items) ? cache.items : [];
-        } catch { return []; }
+        return (await window.mfSearch.loadIndex()) || [];
     }
+
 
     // ===== Mini Cart =====
     const CART_KEY = 'mina_cart';
