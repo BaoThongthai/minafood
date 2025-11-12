@@ -228,6 +228,9 @@
     });
   }
 
+
+  // 
+
   // ==== HỖ TRỢ /search.html HIỂN THỊ KẾT QUẢ (nếu trang đó đã include file này) ====
   // Trang /search.html chỉ cần có #mf-grid, #mf-count, và đọc ?q=
   async function bootstrapSearchPageIfNeeded() {
@@ -266,6 +269,49 @@
       </div>
     `).join('');
   }
+
+  /* ========= First-time JSON 404 guard (reload once after first render) ========= */
+  (function () {
+    const FLAG = 'mf_search_reload_after_render_v1';
+    let hasJson404 = false;
+
+    // Bọc fetch để phát hiện 404 cho các JSON trong /js/data/
+    const _fetch = window.fetch;
+    window.fetch = async function (...args) {
+      try {
+        const res = await _fetch.apply(this, args);
+        const reqUrl = (args && args[0] && (args[0].url || args[0])) || '';
+        if (typeof reqUrl === 'string' &&
+          /\/js\/data\/.+\.json(\?|$)/i.test(reqUrl) &&
+          res && res.status === 404) {
+          hasJson404 = true;
+        }
+        return res;
+      } catch (err) {
+        const reqUrl = (args && args[0] && (args[0].url || args[0])) || '';
+        if (typeof reqUrl === 'string' && /\/js\/data\/.+\.json(\?|$)/i.test(reqUrl)) {
+          hasJson404 = true;
+        }
+        throw err;
+      }
+    };
+
+    // Hàm bạn sẽ gọi SAU KHI đã render xong các thẻ sản phẩm
+    window._mf_markProductsRendered = function () {
+      if (!hasJson404) return;                    // không có 404 → thôi
+      if (localStorage.getItem(FLAG)) return;     // đã reload 1 lần trước đó → thôi
+
+      localStorage.setItem(FLAG, '1');
+
+      // Đảm bảo có page=1 để tránh lỗi lần đầu thiếu tham số
+      const url = new URL(location.href);
+      if (!url.searchParams.get('page')) url.searchParams.set('page', '1');
+
+      // Reload nhanh, replace để không thêm history
+      location.replace(url.toString());
+    };
+  })();
+
 
   // Tự kích hoạt nếu đang ở /search.html
   bootstrapSearchPageIfNeeded();
