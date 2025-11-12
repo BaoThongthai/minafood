@@ -249,6 +249,19 @@
   async function bootstrapSearchPageIfNeeded() {
     const grid = document.querySelector('#mf-grid');
     const count = document.querySelector('#mf-count');
+    const loadingEl = document.querySelector('#mf-loading');
+    const emptyEl = document.querySelector('#mf-empty');
+
+    function showLoading() {
+      if (loadingEl) loadingEl.hidden = false;
+      if (emptyEl) emptyEl.hidden = true;  // ⬅️ ép ẩn empty khi bắt đầu
+      if (grid) grid.innerHTML = '';
+      if (count) count.textContent = '';
+    }
+    function hideLoading() {
+      if (loadingEl) loadingEl.hidden = true;
+    }
+
     if (!grid || !count) return; // không phải trang search.html
 
     const params = new URLSearchParams(location.search);
@@ -256,6 +269,7 @@
     if (INPUT) INPUT.value = qRaw;
 
     const q = deaccent(qRaw.trim()).toLowerCase();
+    showLoading();
     const data = await loadIndex();
 
     const ranked = data
@@ -265,14 +279,17 @@
       .map(x => x.it);
 
     if (!ranked.length) {
-      count.textContent = '0 Product';
+      hideLoading();
+      if (count) count.textContent = '0 Product';
+      if (emptyEl) emptyEl.hidden = false;   // ⬅️ chỉ bây giờ mới hiện empty
       return;
     }
 
     count.textContent = `${ranked.length} Search results for “${qRaw}”`;
 
     grid.innerHTML = ranked.map(p => `
-      <div class="mf-card" id="${encodeURIComponent(p.name)}" style="border:1px solid #e5e7eb;border-radius:12px;padding:12px">
+      <div class="mf-card" id="${encodeURIComponent(p.name)}" data-sku="${esc(p.sku || '')}"
+       data-name="${esc(p.name || '')}" style="border:1px solid #e5e7eb;border-radius:12px;padding:12px">
         <img loading="lazy" src="${esc(p.image || '/img/placeholder.webp')}" alt=""
              style="width:100%;height:180px;object-fit:cover;border-radius:8px;background:#fafafa;border:1px solid #eee">
         <h3 style="font-size:1rem;margin:.55rem 0 .25rem">${esc(p.name)}</h3>
@@ -281,7 +298,7 @@
         <a class="mf-btn" href="${esc(p.url || p.page)}" style="display:inline-block;margin-top:.5rem">Add to Cart</a>
       </div>
     `).join('');
-
+    hideLoading(); // ⬅️ tắt loading
     window._mf_markProductsRendered && window._mf_markProductsRendered();
 
   }

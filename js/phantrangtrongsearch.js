@@ -114,7 +114,7 @@
 
     if (!ranked.length) {
         if (empty) empty.hidden = false;
-        if (count) count.textContent = '0 kết quả';
+        if (count) count.textContent = '0 results';
         if (pagerSlot) pagerSlot.innerHTML = '';
         return;
     }
@@ -182,7 +182,7 @@
         const end = start + PAGE_SIZE;
         const pageItems = ranked.slice(start, end);
 
-        if (count) count.textContent = `${totalItems} kết quả cho “${qRaw}”`;
+        if (count) count.textContent = `${totalItems} results for “${qRaw}”`;
         empty && (empty.hidden = pageItems.length > 0);
 
         grid.innerHTML = pageItems.map(p => {

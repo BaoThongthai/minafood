@@ -201,17 +201,40 @@
   </div>
   <!-- Navbar End -->
 
+  <!-- Single Page Header start -->
+  <div class="page-header d-flex align-items-center justify-content-center text-center" style="
+       background: url('img/kitchen-with-large-window.png') center center/cover no-repeat;
+       height: 320px;
+       position: relative;
+     ">
+    <div class="overlay" style="
+       position: absolute;
+       top: 0; left: 0; right: 0; bottom: 0;
+       background: rgba(0, 0, 0, 0.4);
+     "></div>
+
+    <div class="container position-relative z-1 text-white">
+      <h1 class="fw-bold display-5 mb-3 text-uppercase" data-i18n="Search_results" style="color: white;">
+        Search results
+      </h1>
+      <a href="ice_equiment_katagory.html">
+        <p class="mb-0" style="color:antiquewhite"><i class="fa-solid fa-house" style="color: white;"></i>&nbsp;
+          Back
+        </p>
+      </a>
+    </div>
+  </div>
+  <!-- Single Page Header End -->
+
   <!-- có thể include header của bạn ở đây -->
   <div class="mf-results">
-    <div class="mf-head">
-      <h1>Search results</h1>
-      <form id="mf-search-form" action="/search.html" class="mf-search">
-        <input id="mf-search-input" name="q" type="search" placeholder="Tìm sản phẩm…" />
-        <button type="submit"><i class="fa-solid fa-magnifying-glass fa-2x" style="color: #114070;"></i></button>
-        <div id="mf-search-suggest" class="mf-suggest" hidden></div>
-      </form>
-    </div>
     <div id="mf-count"></div>
+    <!-- ⬇️ LOADING -->
+    <div id="mf-loading" class="mf-loading" hidden>
+      <div class="mf-spinner"></div>
+      <span style="margin-left:10px">Loading…</span>
+    </div>
+
     <div id="mf-grid" class="mf-grid"></div>
     <div id="mf-pager"></div>
     <div id="mf-empty" class="mf-empty" hidden>No suitable products found.</div>
@@ -316,8 +339,8 @@
       const empty = $('#mf-empty');
 
 
-      if (!ranked.length) { if (empty) empty.hidden = false; if (count) count.textContent = '0 kết quả'; return; }
-      if (count) count.textContent = `${ranked.length} kết quả cho “${qRaw}”`;
+      if (!ranked.length) { if (empty) empty.hidden = false; if (count) count.textContent = '0 results'; return; }
+      if (count) count.textContent = `${ranked.length} results for “${qRaw}”`;
 
       grid.innerHTML = ranked.map(p => {
         const id = p.name || p.sku || p.url || p.page || '';

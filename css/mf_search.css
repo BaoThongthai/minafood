@@ -314,3 +314,19 @@
   border-radius: 50%;
   padding: 10px;
 }
+
+/* phần loading thanh search */
+.mf-loading{
+  display:flex; align-items:center; justify-content:center;
+  padding:28px; color:#6b7280;
+}
+.mf-spinner{
+  width:22px; height:22px; border:3px solid #e5e7eb; border-top-color:#1f3353;
+  border-radius:50%; animation:mfspin 0.9s linear infinite;
+}
+@keyframes mfspin{ to{ transform:rotate(360deg); } }
+[hidden] { display: none !important; }
+
+/* hover card ở trang search → hiện bàn tay */
+.mf-grid .mf-card { cursor: pointer; }
+.mf-grid .mf-card a { cursor: pointer; } /* phòng khi có thẻ a bên trong */
