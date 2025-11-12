@@ -599,9 +599,11 @@
       </div>
     `;
 
-                // Add to Cart → reload
+
+                // ⬇️ đặt NGAY SAU container.innerHTML = `...`;
+                const addBtn = document.getElementById('addCartBtn');
                 if (addBtn) {
-                    addBtn.addEventListener('click', (e) => {
+                    addBtn.addEventListener('click', function (e) {
                         e.preventDefault();
                         addToCart({
                             id: it.sku || it.id || it.name,
@@ -611,8 +613,8 @@
                             image: it.image || '/img/placeholder.webp',
                             qty: 1
                         });
-                        updateCartBadge();           // cập nhật badge ngay (dù sẽ chuyển trang)
-                        window.location.href = 'cart.html'; // chuyển thẳng sang giỏ hàng
+                        updateCartBadge();
+                        window.location.href = 'cart.html'; // chuyển thẳng sang giỏ
                     });
                 }
 
