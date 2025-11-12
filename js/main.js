@@ -11,34 +11,27 @@
     };
     spinner(0);
     //  move_Plynovy 
-    document.getElementById('move_Plynovy').addEventListener('click', function () {
-        window.location.href = 'Plynovy.html';
-    });
+    const elPlynovy = document.getElementById('move_Plynovy');
+    if (elPlynovy) elPlynovy.addEventListener('click', () => location.href = 'Plynovy.html');
 
-    //  move_galerie
-    document.getElementById('move_galerie').addEventListener('click', function () {
-        window.location.href = 'Galerie.html';
-    });
+    const el = document.getElementById('move_galarie');
+    if (el) el.addEventListener('click', () => location.href = 'Galerie.html');
 
     //  move_decoration 
-    document.getElementById('move_decoration').addEventListener('click', function () {
-        window.location.href = 'decoration.html';
-    });
+    const elDecoration = document.getElementById('move_decoration');
+    if (elDecoration) elDecoration.addEventListener('click', () => location.href = 'decoration.html');
 
     //  move_Chlazeni 
-    document.getElementById('move_Chlazeni').addEventListener('click', function () {
-        window.location.href = 'Chlazeni.html';
-    });
+    const elChlazeni = document.getElementById('move_Chlazeni');
+    if (elChlazeni) elChlazeni.addEventListener('click', () => location.href = 'Chlazeni.html');
 
     //  move_testovin 
-    document.getElementById('move_testovin').addEventListener('click', function () {
-        window.location.href = 'testovin.html';
-    });
+    const elTestovin = document.getElementById('move_testovin');
+    if (elTestovin) elTestovin.addEventListener('click', () => location.href = 'testovin.html');
 
     //  move_testovin 
-    document.getElementById('move_zpacovani').addEventListener('click', function () {
-        window.location.href = 'zpacovani.html';
-    });
+    const elZpacovani = document.getElementById('move_zpacovani');
+    if (elZpacovani) elZpacovani.addEventListener('click', () => location.href = 'zpacovani.html');
 
     // Fixed Navbar
     $(window).scroll(function () {

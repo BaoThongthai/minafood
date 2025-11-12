@@ -2,7 +2,20 @@
    MinaFood – Global Search
    File: /js/mf_search.js
    ======================= */
+(function () {
+  // khóa đánh dấu đã fix 1 lần
+  const FIX_KEY = 'mf_first_search_fix_v1';
 
+  const url = new URL(location.href);
+  const hasPage = url.searchParams.has('page');
+
+  // Nếu chưa có ?page và chưa từng fix → thêm page=1, replace để không tạo history
+  if (!hasPage && !localStorage.getItem(FIX_KEY)) {
+    url.searchParams.set('page', '1');
+    localStorage.setItem(FIX_KEY, Date.now().toString());
+    location.replace(url.toString());
+  }
+})();
 (() => {
   // ==== CẤU HÌNH NGUỒN DỮ LIỆU (đúng theo tên file bạn đang dùng) ====
   const SOURCES = [
@@ -268,6 +281,9 @@
         <a class="mf-btn" href="${esc(p.url || p.page)}" style="display:inline-block;margin-top:.5rem">Add to Cart</a>
       </div>
     `).join('');
+
+    window._mf_markProductsRendered && window._mf_markProductsRendered();
+
   }
 
   /* ========= First-time JSON 404 guard (reload once after first render) ========= */
@@ -282,14 +298,14 @@
         const res = await _fetch.apply(this, args);
         const reqUrl = (args && args[0] && (args[0].url || args[0])) || '';
         if (typeof reqUrl === 'string' &&
-          /\/js\/data\/.+\.json(\?|$)/i.test(reqUrl) &&
+          /\/js\/.+\.json(\?|$)/i.test(reqUrl) &&
           res && res.status === 404) {
           hasJson404 = true;
         }
         return res;
       } catch (err) {
         const reqUrl = (args && args[0] && (args[0].url || args[0])) || '';
-        if (typeof reqUrl === 'string' && /\/js\/data\/.+\.json(\?|$)/i.test(reqUrl)) {
+        if (typeof reqUrl === 'string' && /\/js\/.+\.json(\?|$)/i.test(reqUrl)) {
           hasJson404 = true;
         }
         throw err;
