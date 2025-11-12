@@ -171,6 +171,49 @@
             gap: 8px;
         }
 
+        /* Khung chứa ảnh: cao hơn + co giãn hợp lý */
+        .media-frame {
+            width: 100%;
+            border: 1px solid #eee;
+            border-radius: 14px;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+            aspect-ratio: 4 / 3;
+            min-height: 440px;
+            /* ảnh không bị “lọt thỏm” */
+            max-height: 70vh;
+            /* không vượt quá chiều cao màn hình */
+        }
+
+        /* Link bao ảnh để bật lightbox */
+        .pd-zoom {
+            display: block;
+            width: 100%;
+            height: 100%;
+            cursor: zoom-in;
+        }
+
+        /* Ảnh fill đủ khung, không bị bóp méo */
+        .pd-zoom img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 10px;
+            background: transparent;
+            display: block;
+        }
+
+        /* Mobile: khung vuông và thấp hơn 1 chút */
+        @media (max-width:768px) {
+            .media-frame {
+                aspect-ratio: 1 / 1;
+                min-height: 340px;
+            }
+        }
+
         /* Khung chứa ảnh: bo góc, có tỉ lệ chuẩn để cân với cột phải */
         .media-frame {
             width: 100%;
@@ -185,19 +228,6 @@
             /* Giữ tỉ lệ khung giúp ảnh không “lọt thỏm” */
             aspect-ratio: 4 / 3;
             /* desktop mặc định */
-        }
-
-        /* Ảnh phóng tối đa trong khung, không bị cắt */
-        .product-img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            border-radius: 10px;
-            /* tuỳ thích */
-            border: none;
-            /* border đã ở .media-frame */
-            background: transparent;
-            display: block;
         }
 
         /* Cột trái căn giữa theo chiều dọc khi nội dung phải cao hơn */
@@ -571,8 +601,14 @@
       <div class="product-card row g-4">
         <div class="col-md-5">
         <div class="media-frame">
-            <img src="${img}" alt="${escapeHtml(it.name || '')}" class="product-img">
+        <a href="${img}"
+            class="pd-zoom"
+            data-lightbox="product"
+            data-title="${escapeHtml(it.name || '')}">
+            <img src="${img}" alt="${escapeHtml(it.name || '')}">
+        </a>
         </div>
+
         </div>
         <div class="col-md-7">
           <h1>${escapeHtml(it.name || '')}</h1>
