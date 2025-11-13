@@ -474,7 +474,7 @@
           <div class="d-flex justify-content-between align-items-center mb-2 mf-filter-toggle"
                data-target="mf-f-price"
                style="cursor:pointer;">
-            <span class="fw-bold text-primary text-uppercase small">Cena</span>
+            <span class="fw-bold text-primary text-uppercase small" data-i18n="unox.filter.price">Cena</span>
             <span class="mf-filter-arrow small">▴</span>
           </div>
           <div id="mf-f-price" class="mf-filter-body">
@@ -498,18 +498,18 @@
         }
 
         slot.innerHTML = `
-      <h5 class="mb-3">Filter</h5>
+      <h5 class="mb-3" data-i18n="unox.filter.title">Filter</h5>
 
       <!-- Napájení -->
       <div class="mf-filter-group mb-3">
         <div class="d-flex justify-content-between align-items-center mb-2 mf-filter-toggle"
              data-target="mf-f-power"
              style="cursor:pointer;">
-          <span class="fw-bold text-primary text-uppercase small">Napájení</span>
+          <span class="fw-bold text-primary text-uppercase small" data-i18n="unox.filter.power">Napájení</span>
           <span class="mf-filter-arrow small">▴</span>
         </div>
         <div id="mf-f-power" class="mf-filter-body">
-          ${powerHtml || '<div class="small text-muted">No data</div>'}
+          ${powerHtml || '<div class="small text-muted" data-i18n="unox.filter.noData">No data</div>'}
         </div>
       </div>
 
@@ -518,7 +518,7 @@
         <div class="d-flex justify-content-between align-items-center mb-2 mf-filter-toggle"
              data-target="mf-f-series"
              style="cursor:pointer;">
-          <span class="fw-bold text-primary text-uppercase small">Řada</span>
+          <span class="fw-bold text-primary text-uppercase small" data-i18n="unox.filter.series">Řada</span>
           <span class="mf-filter-arrow small">▴</span>
         </div>
         <div id="mf-f-series" class="mf-filter-body">
@@ -533,7 +533,7 @@
         <div class="d-flex justify-content-between align-items-center mb-2 mf-filter-toggle"
              data-target="mf-f-gncount"
              style="cursor:pointer;">
-          <span class="fw-bold text-primary text-uppercase small">Vsuvů</span>
+          <span class="fw-bold text-primary text-uppercase small" data-i18n="unox.filter.gnCount">Vsuvů</span>
           <span class="mf-filter-arrow small">▴</span>
         </div>
         <div id="mf-f-gncount" class="mf-filter-body">
@@ -546,7 +546,7 @@
         <div class="d-flex justify-content-between align-items-center mb-2 mf-filter-toggle"
              data-target="mf-f-gntype"
              style="cursor:pointer;">
-          <span class="fw-bold text-primary text-uppercase small">Typologie plechu</span>
+          <span class="fw-bold text-primary text-uppercase small" data-i18n="unox.filter.gnType">Typologie plechu</span>
           <span class="mf-filter-arrow small">▴</span>
         </div>
         <div id="mf-f-gntype" class="mf-filter-body">

@@ -3,7 +3,34 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
-            "Profesionalni_konvektomaty": "Profesionální konvektomaty",
+            // ============ UNOX sidebar categories ============
+            "unox.cat.show_all": "Zobrazit vše (169)",
+            "unox.cat.speed_ovens": "Commercial speed ovens (5)",
+
+            "unox.cat.rapid_heating_ovens": "Průmyslové rychloohřevné pece (3)",
+            "unox.cat.rapid_heating_combi": "Průmyslové rychloohřevné konvektomaty (2)",
+
+            "unox.cat.industrial_combi": "Průmyslové konvektomaty (79)",
+            "unox.cat.industrial_combi_stand": "Průmyslové konvektomaty na podestavbu (66)",
+            "unox.cat.industrial_combi_trolley": "Průmyslové konvektomaty na vozíku (13)",
+
+            "unox.cat.retail_ovens": "Profesionální pece pro maloobchod (8)",
+            "unox.cat.humidity_combi": "Průmyslové konvektomaty s vlhkostí (60)",
+            "unox.cat.convection_ovens": "Průmyslové konvekční pece (11)",
+            "unox.cat.hot_fridge": "Teplá chladnička (6)",
+
+            // ============ UNOX filters ============
+            "unox.filter.title": "Filtr",
+            "unox.filter.power": "Napájení",
+            "unox.filter.series": "Řada",
+            "unox.filter.price": "Cena",
+            "unox.filter.gnCount": "Vsuvů",
+            "unox.filter.gnType": "Typologie plechu",
+            "unox.filter.noData": "Žádná data"
+
+            ,
+            "titel_konvektomyty": "Profionální konvektomaty Unox využívají pokročilou technologii ke zvýšenívašeho zážitku z vaření. Díkykombinaci tepla, proudění horkého vzduchu a páry nabízejí všestranné možnosti, jako je grilování, vaření v páře,smažení na vzduchu, pražení, vaření ve vakuu a další. Tyto zařízení jsou ideální pro pekárny a cukrárny,poskytují spolehlivý, vysoce kvalitní výkon 24 hodin denně v kompaktním, prostorově úsporném designu."
+            , "Profesionalni_konvektomaty": "Profesionální konvektomaty",
             "rangcomvabocbat.title": "rýžovaru a vařiče na nudle",
             "tunaucom.title": "rýžovaru",
             "maythairau.title": "kráječ zeleniny",
@@ -303,8 +330,34 @@
         },
 
         en: {
-            "Profesionalni_konvektomaty": "Professional Convection Ovens",
+            "titel_konvektomyty": "Unox professional convection ovens use advanced technology to enhance your cooking experience. Thanks to the combination of heat, convection and steam, they offer versatile options such as grilling, steaming, air frying, roasting, sous vide cooking and more. These devices are ideal for bakeries and pastry shops, providing reliable, high-quality performance 24 hours a day in a compact, space-saving design"
+            , "Profesionalni_konvektomaty": "Professional Convection Ovens",
             "rangcomvabocbat.title": "Commercial Rice Cooker",
+            // ============ UNOX sidebar categories ============
+            "unox.cat.show_all": "Show all (169)",
+            "unox.cat.speed_ovens": "Commercial speed ovens (5)",
+
+            "unox.cat.rapid_heating_ovens": "Industrial rapid-heating ovens (3)",
+            "unox.cat.rapid_heating_combi": "Industrial rapid-heating combi ovens (2)",
+
+            "unox.cat.industrial_combi": "Industrial combi ovens (79)",
+            "unox.cat.industrial_combi_stand": "Industrial combi ovens on stand (66)",
+            "unox.cat.industrial_combi_trolley": "Industrial combi ovens on trolley (13)",
+
+            "unox.cat.retail_ovens": "Professional ovens for retail (8)",
+            "unox.cat.humidity_combi": "Industrial combi ovens with humidity (60)",
+            "unox.cat.convection_ovens": "Industrial convection ovens (11)",
+            "unox.cat.hot_fridge": "Heated refrigerator (6)",
+
+            // ============ UNOX filters ============
+            "unox.filter.title": "Filter",
+            "unox.filter.power": "Power supply",
+            "unox.filter.series": "Series",
+            "unox.filter.price": "Price",
+            "unox.filter.gnCount": "GN racks",
+            "unox.filter.gnType": "Tray size",
+            "unox.filter.noData": "No data",
+
             "tunaucom.title": "rice cooker",
             "Search_results": "Search results",
             // máy xay thịt

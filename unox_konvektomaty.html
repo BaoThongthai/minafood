@@ -66,6 +66,49 @@
   <link href="css/mf_search.css" rel="stylesheet" />
   <script src="js/funtion_search_input.js"></script>
   <link rel="stylesheet" href="css/product_page.css">
+  <style>
+    /* ====== UNOX – Sidebar category menu ====== */
+
+    .mf-cat-nav {
+      font-size: 0.95rem;
+      padding-left: 2px;
+      margin-bottom: 1.5rem;
+    }
+
+    /* từng dòng category */
+    .mf-cat-link {
+      color: #222;
+      /* màu chữ xám đậm */
+      text-decoration: none;
+      display: block;
+      padding: 3px 2px;
+      border-radius: 3px;
+      line-height: 1.4;
+    }
+
+    /* khoảng cách giữa các dòng */
+    .mf-cat-link+.mf-cat-link {
+      margin-top: 4px;
+    }
+
+    /* sub-category (đã có .ms-3 của bootstrap) cho cảm giác thụt vào */
+    .mf-cat-link.ms-3 {
+      font-size: 0.92rem;
+    }
+
+    /* hover giống Unox: chữ xanh, không nền đậm quá */
+    .mf-cat-link:hover {
+      color: #0070d8;
+      background-color: #f3f7ff;
+    }
+
+    /* dòng đang ACTIVE – chữ xanh + hơi đậm, nền nhạt */
+    .mf-cat-link.active {
+      color: #0070d8;
+      font-weight: 600;
+      background-color: #e6f0ff;
+    }
+  </style>
 </head>
 
 <body>
@@ -156,7 +199,8 @@
       <h1 class="fw-bold display-5 mb-3 text-uppercase" style="color: white" data-i18n="Profesionalni_konvektomaty">
         Profesionální konvektomaty.
       </h1>
-      <small>Profionální konvektomaty Unox využívají pokročilou technologii ke zvýšení vašeho zážitku z vaření. Díky
+      <small data-i18n="titel_konvektomyty">Profionální konvektomaty Unox využívají pokročilou technologii ke zvýšení
+        vašeho zážitku z vaření. Díky
         kombinaci tepla, proudění horkého vzduchu a páry nabízejí všestranné možnosti, jako je grilování, vaření v páře,
         smažení na vzduchu, pražení, vaření ve vakuu a další. Tyto zařízení jsou ideální pro pekárny a cukrárny,
         poskytují spolehlivý, vysoce kvalitní výkon 24 hodin denně v kompaktním, prostorově úsporném designu.</small>
@@ -184,10 +228,61 @@
       <div class="row g-4">
         <!-- Cột FILTER bên trái -->
         <aside class="col-lg-3 mb-4">
-          <div id="filter-panel" class="p-3 border rounded bg-white">
-            <!-- JS sẽ render filter vào đây -->
+          <div class="p-3 border rounded bg-white">
+            <!-- FILTER 5 mục đang dùng -->
+            <div id="filter-panel" class="mb-4"></div>
+
+            <!-- MENU DỌC CATEGORY GIỐNG UNOX -->
+            <nav id="side-category" class="mf-cat-nav">
+              <a href="#" class="mf-cat-link" data-i18n="unox.cat.show_all">
+                Zobrazit vše (169)
+              </a>
+
+              <a href="#" class="mf-cat-link" data-i18n="unox.cat.speed_ovens">
+                Commercial speed ovens (5)
+              </a>
+
+              <a href="#" class="mf-cat-link ms-3" data-i18n="unox.cat.rapid_heating_ovens">
+                Průmyslové rychloohřevné pece (3)
+              </a>
+
+              <a href="#" class="mf-cat-link ms-3" data-i18n="unox.cat.rapid_heating_combi">
+                Průmyslové rychloohřevné konvektomaty (2)
+              </a>
+
+              <a href="#" class="mf-cat-link" data-i18n="unox.cat.industrial_combi">
+                Průmyslové konvektomaty (79)
+              </a>
+
+              <!-- DÒNG ĐANG ACTIVE – TRANG HIỆN TẠI -->
+              <a href="unox_konvektomaty.html" class="mf-cat-link ms-3 active"
+                data-i18n="unox.cat.industrial_combi_stand">
+                Průmyslové konvektomaty na podestavbu (66)
+              </a>
+
+              <a href="#" class="mf-cat-link ms-3" data-i18n="unox.cat.industrial_combi_trolley">
+                Průmyslové konvektomaty na vozíku (13)
+              </a>
+
+              <a href="#" class="mf-cat-link" data-i18n="unox.cat.retail_ovens">
+                Profesionální pece pro maloobchod (8)
+              </a>
+
+              <a href="#" class="mf-cat-link" data-i18n="unox.cat.humidity_combi">
+                Průmyslové konvektomaty s vlhkostí (60)
+              </a>
+
+              <a href="#" class="mf-cat-link" data-i18n="unox.cat.convection_ovens">
+                Průmyslové konvekční pece (11)
+              </a>
+
+              <a href="#" class="mf-cat-link" data-i18n="unox.cat.hot_fridge">
+                Teplá chladnička (6)
+              </a>
+            </nav>
           </div>
         </aside>
+
 
         <!-- Cột sản phẩm bên phải -->
         <div class="col-lg-9">
