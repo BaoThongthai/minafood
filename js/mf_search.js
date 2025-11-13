@@ -106,6 +106,7 @@
     { json: '/js/data/maythucphamth_maythairau.json', page: '/maythucphamth_maythairau.html', cat: 'MAYTHAITHIT' },
     { json: '/js/data/maythucphamth_pho.json', page: '/maythucphamth_pho.html', cat: 'MAYTHAITHIT' },
     { json: '/js/data/maythucphamth_maythaithit.json', page: '/maythucphamth_maythaithit.html', cat: 'MAYTHAITHIT' },
+    { json: '/js/data/maythucphamth_maykhac.json', page: '/maythucphamth_maykhac.html', cat: 'MAYTHAITHIT' },
 
   ];
 
