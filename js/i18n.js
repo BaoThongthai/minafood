@@ -3,12 +3,15 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
-
+            "konvektomaty13_title": "Profesionální konvektomaty vozíkové.",
+            "unox_showall_tittle_small": "Prozkoumejte celou řadu produktů Unox, včetně profesionálních konvekčních pecí, profesionálních konvektomatů, profesionálních rychloohřevných pecí a systémů pro uchovávání teplých potravin. Použijte naše filtry, abyste rychle našli to, co nejlépe vyhovuje vašim potřebám. Nejste si jisti, která komerční trouba je pro vaši firmu nejlepší? Vyzkoušejte funkci „porovnat“ na našich produktových listech nebo si promluvte přímo s našimi odborníky!",
             "konvektomaty66": "Průmyslové konvektomaty na podestavbu",
             "konvektomaty_66": "Konvektomat nabízí více než jen horký vzduch – integruje také páru. Profesionální konvektomaty Unox umožňují snadné, automatizované vaření, které optimalizuje výsledky, čas a prostor. Můžete dokonce stohovat dvě jednotky a vytvořit varné stanice pro rúzné úpravy , ideální pro restaurace à la carte. Tyto intuitivní konvektomaty poskytují bezchybné, opakovatelné výsledky a zároveň snižují pracnost a plýtvání energií."
             // ============ UNOX sidebar categories ============
-            , "unox.cat.show_all": "Zobrazit vše (169)",
+            ,
+            "unox.cat.show_all": "Zobrazit vše (169)",
             "unox.cat.speed_ovens": "Commercial speed ovens (5)",
+            "Unox_showall_169.title": "Konvektomaty,pece a řešení Unox.",
 
             "unox.cat.rapid_heating_ovens": "Průmyslové rychloohřevné pece (3)",
             "unox.cat.rapid_heating_combi": "Průmyslové rychloohřevné konvektomaty (2)",
@@ -21,7 +24,8 @@
             "unox.cat.humidity_combi": "Průmyslové konvektomaty s vlhkostí (60)",
             "unox.cat.convection_ovens": "Průmyslové konvekční pece (11)",
             "unox.cat.hot_fridge": "Teplá chladnička (6)",
-
+            "konvektomaty_13": "Jedinečný design konvektomatu nejen distribuuje teplo přesným prouděním vzduchu, ale také využívá páru pro vynikající výkon při vaření. Profesionální vozíkové konvektomaty Unox jsou konstruovány tak, aby vydržely náročné tempo velkých kuchyní, varných center, hotelů, jídelen a nemocnic. Tyto trouby jsou navrženy pro intenzivní cykly vaření s velkým objemem a snadno zvládnou plné zatížení, ať už jde o vaření v páře, opékání, dušení, grilování nebo smažení. Konvektomaty Unox poskytují konzistentně opakovatelné, jednotné výsledky vaření za jakýchkoli podmínek."
+            ,
             // ============ UNOX filters ============
             "unox.filter.title": "Filtr",
             "unox.filter.power": "Napájení",
@@ -333,6 +337,11 @@
         },
 
         en: {
+
+            "unox_showall_tittle_small": "Explore the full range of Unox products, including professional convection ovens, professional combi ovens, professional rapid ovens and hot food storage systems. Use our filters to quickly find what best suits your needs. Not sure which commercial oven is best for your business? Try the compare feature on our product sheets or talk directly to our experts!",
+            "Unox_showall_169.title": "Unox Professional Kitchen Equipment",
+            "konvektomaty_13": "The unique design of the combi oven not only distributes heat with precise airflow, but also uses steam for superior cooking performance. Unox professional cart combi ovens are built to withstand the demanding pace of large kitchens, cooking centers, hotels, canteens and hospitals. These ovens are designed for intensive, high-volume cooking cycles and can easily handle full loads, whether steaming, roasting, braising, grilling or frying. Unox combi ovens deliver consistently repeatable, uniform cooking results under any conditions.",
+            "konvektomaty13_title": "Professional convection ovens on trolley.",
             "konvektomaty_66": "The combi oven offers more than just hot air – it also integrates steam. Unox professional combi ovens enable easy, automated cooking that optimizes results, time and space. You can even stack two units to create cooking stations for different preparations, ideal for à la carte restaurants. These intuitive combi ovens deliver flawless, repeatable results while reducing labor and energy waste."
             , "titel_konvektomyty": "Unox professional convection ovens use advanced technology to enhance your cooking experience. Thanks to the combination of heat, convection and steam, they offer versatile options such as grilling, steaming, air frying, roasting, sous vide cooking and more. These devices are ideal for bakeries and pastry shops, providing reliable, high-quality performance 24 hours a day in a compact, space-saving design"
             , "Profesionalni_konvektomaty": "Professional Convection Ovens",

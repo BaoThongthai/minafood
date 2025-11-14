@@ -1,0 +1,401 @@
+[
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/cheftop-mindmaps-big-plus-xevl-2011-dprs/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-trolley-combi-oven-XEVL-2011-DPRS-electric.webp",
+        "badge": "",
+        "model": "XEVL-2011-DPRS",
+        "productType": "Kombi",
+        "series": [
+            "CHEFTOP MIND.Maps™ PLUS",
+            "PLUS",
+            "BIG"
+        ],
+        "name": "20 GN 1/1 vsuvů",
+        "power": "Elektrický",
+        "features": [
+            "XEVL-2011-DPRS",
+            "Kombi",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Automatické mytí",
+            "utomatické programy",
+            "bez DPH"
+        ],
+        "consumption_text": "Consumption in kWh: 161 kWh/den",
+        "emissions_text": "Emise CO2: 0 kg CO2/den",
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": 0,
+        "price_text": "516 600,00 Kč",
+        "price_czk": 516600,
+        "vat_note": "bez DPH"
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/cheftop-mindmaps-big-plus-xevl-2011-gprs/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-trolley-combi-oven-XEVL-2011-GPRS-gas.webp",
+        "badge": "",
+        "model": "XEVL-2011-GPRS",
+        "productType": "Kombi",
+        "series": [
+            "CHEFTOP MIND.Maps™ PLUS",
+            "PLUS",
+            "BIG"
+        ],
+        "name": "20 GN 1/1 vsuvů",
+        "power": "Plyn",
+        "features": [
+            "XEVL-2011-GPRS",
+            "Kombi",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Automatické mytí",
+            "utomatické programy",
+            "bez DPH"
+        ],
+        "consumption_text": "Consumption in kWh: 201,1 kWh/den",
+        "emissions_text": "Emise CO2: 36,4 kg CO2/den",
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": 36.4,
+        "price_text": "564 480,00 Kč",
+        "price_czk": 564480,
+        "vat_note": "bez DPH"
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/cheftop-mindmaps-big-plus-xevl-2011-yprs/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-trolley-combi-oven-XEVL-2011-YPRS-electric.webp",
+        "badge": "",
+        "model": "XEVL-2011-YPRS",
+        "productType": "Kombi",
+        "series": [
+            "CHEFTOP MIND.Maps™ PLUS",
+            "PLUS",
+            "BIG"
+        ],
+        "name": "20 GN 1/1 vsuvů",
+        "power": "Elektrický",
+        "features": [
+            "XEVL-2011-YPRS",
+            "Kombi",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Automatické mytí",
+            "utomatické programy",
+            "bez DPH"
+        ],
+        "consumption_text": "Consumption in kWh: 161 kWh/den",
+        "emissions_text": "Emise CO2: 0 kg CO2/den",
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": 0,
+        "price_text": "498 960,00 Kč",
+        "price_czk": 498960,
+        "vat_note": "bez DPH"
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/cheftop-mindmaps-big-plus-xevl-2021-gprs/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-trolley-combi-oven-XEVL-2021-GPRS-gas.webp",
+        "badge": "",
+        "model": "XEVL-2021-GPRS",
+        "productType": "Kombi",
+        "series": [
+            "CHEFTOP MIND.Maps™ PLUS",
+            "PLUS",
+            "BIG"
+        ],
+        "name": "20 GN 2/1 vsuvů",
+        "power": "Plyn",
+        "features": [
+            "XEVL-2021-GPRS",
+            "Kombi",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Automatické mytí",
+            "utomatické programy",
+            "bez DPH"
+        ],
+        "consumption_text": "Consumption in kWh: 384,6 kWh/den",
+        "emissions_text": "Emise CO2: 69,6 kg CO2/den",
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": 69.6,
+        "price_text": "754 740,00 Kč",
+        "price_czk": 754740,
+        "vat_note": "bez DPH"
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/cheftop-mindmaps-big-plus-xevl-2021-dprs/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-trolley-combi-oven-XEVL-2021-DPRS-electric.webp",
+        "badge": "",
+        "model": "XEVL-2021-DPRS",
+        "productType": "Kombi",
+        "series": [
+            "CHEFTOP MIND.Maps™ PLUS",
+            "PLUS",
+            "BIG"
+        ],
+        "name": "20 GN 2/1 vsuvů",
+        "power": "Elektrický",
+        "features": [
+            "XEVL-2021-DPRS",
+            "Kombi",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Automatické mytí",
+            "utomatické programy",
+            "bez DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": "691 740,00 Kč",
+        "price_czk": 691740,
+        "vat_note": "bez DPH"
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/cheftop-mindmaps-big-plus-xevl-2021-yprs/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-trolley-combi-oven-XEVL-2021-YPRS-electric.webp",
+        "badge": "",
+        "model": "XEVL-2021-YPRS",
+        "productType": "Kombi",
+        "series": [
+            "CHEFTOP MIND.Maps™ PLUS",
+            "PLUS",
+            "BIG"
+        ],
+        "name": "20 GN 2/1 vsuvů",
+        "power": "Elektrický",
+        "features": [
+            "XEVL-2021-YPRS",
+            "Kombi",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Automatické mytí",
+            "utomatické programy",
+            "bez DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": "670 320,00 Kč",
+        "price_czk": 670320,
+        "vat_note": "bez DPH"
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/cheftop-mindmaps-big-one-xevl-2011-e1rs/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-trolley-combi-oven-XEVL-2011-E1RS-electric.webp",
+        "badge": "",
+        "model": "XEVL-2011-E1RS",
+        "productType": "Kombi",
+        "series": [
+            "CHEFTOP MIND.Maps™ ONE",
+            "ONE",
+            "BIG"
+        ],
+        "name": "20 GN 1/1 vsuvů",
+        "power": "Elektrický",
+        "features": [
+            "XEVL-2011-E1RS",
+            "Kombi",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Automatické mytí",
+            "bez DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": "357 840,00 Kč",
+        "price_czk": 357840,
+        "vat_note": "bez DPH"
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/cheftop-mindmaps-big-compact-plus-xecl-2013-yprs/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-trolley-combi-oven-XECL-2013-YPRS-electric.webp",
+        "badge": "",
+        "model": "XECL-2013-YPRS",
+        "productType": "Kombi",
+        "series": [
+            "CHEFTOP MIND.Maps™ PLUS",
+            "PLUS",
+            "BIG COMPACT"
+        ],
+        "name": "20 GN 1/1 vsuvů",
+        "power": "Elektrický",
+        "features": [
+            "XECL-2013-YPRS",
+            "Kombi",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Automatické mytí",
+            "utomatické programy",
+            "bez DPH"
+        ],
+        "consumption_text": "Consumption in kWh: 161,2 kWh/den",
+        "emissions_text": "Emise CO2: 0 kg CO2/den",
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": 0,
+        "price_text": "504 000,00 Kč",
+        "price_czk": 504000,
+        "vat_note": "bez DPH"
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/cheftop-mindmaps-big-compact-one-xecl-2013-e1rs/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-trolley-combi-oven-XECL-2013-E1RS-electric.webp",
+        "badge": "",
+        "model": "XECL-2013-E1RS",
+        "productType": "Kombi",
+        "series": [
+            "CHEFTOP MIND.Maps™ ONE",
+            "ONE",
+            "BIG COMPACT"
+        ],
+        "name": "20 GN 1/1 vsuvů",
+        "power": "Elektrický",
+        "features": [
+            "XECL-2013-E1RS",
+            "Kombi",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Automatické mytí",
+            "bez DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": "361 620,00 Kč",
+        "price_czk": 361620,
+        "vat_note": "bez DPH"
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/bakertop-mindmaps-big-plus-xebl-16eu-dprs/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-trolley-combi-oven-XEBL-16EU-DPRS-electric.webp",
+        "badge": "",
+        "model": "XEBL-16EU-DPRS",
+        "productType": "Kombi",
+        "series": [
+            "BAKERTOP MIND.Maps™ PLUS",
+            "PLUS",
+            "BIG"
+        ],
+        "name": "16 600x400 vsuvů",
+        "power": "Elektrický",
+        "features": [
+            "XEBL-16EU-DPRS",
+            "Kombi",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Automatické mytí",
+            "utomatické programy",
+            "bez DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": "526 680,00 Kč",
+        "price_czk": 526680,
+        "vat_note": "bez DPH"
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/bakertop-mindmaps-big-plus-xebl-16eu-yprs/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-trolley-combi-oven-XEBL-16EU-YPRS-electric.webp",
+        "badge": "",
+        "model": "XEBL-16EU-YPRS",
+        "productType": "Kombi",
+        "series": [
+            "BAKERTOP MIND.Maps™ PLUS",
+            "PLUS",
+            "BIG"
+        ],
+        "name": "16 600x400 vsuvů",
+        "power": "Elektrický",
+        "features": [
+            "XEBL-16EU-YPRS",
+            "Kombi",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Automatické mytí",
+            "utomatické programy",
+            "bez DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": "504 000,00 Kč",
+        "price_czk": 504000,
+        "vat_note": "bez DPH"
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/bakertop-mindmaps-big-plus-xebl-16eu-gprs/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-trolley-combi-oven-XEBL-16EU-GPRS-gas.webp",
+        "badge": "",
+        "model": "XEBL-16EU-GPRS",
+        "productType": "Kombi",
+        "series": [
+            "BAKERTOP MIND.Maps™ PLUS",
+            "PLUS",
+            "BIG"
+        ],
+        "name": "16 600x400 vsuvů",
+        "power": "Plyn",
+        "features": [
+            "XEBL-16EU-GPRS",
+            "Kombi",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Automatické mytí",
+            "utomatické programy",
+            "bez DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": "572 040,00 Kč",
+        "price_czk": 572040,
+        "vat_note": "bez DPH"
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/bakertop-mindmaps-big-one-xebl-16eu-e1rs/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-combi-oven-XEBL-16EU-E1RS-electric.webp",
+        "badge": "",
+        "model": "XEBL-16EU-E1RS",
+        "productType": "Kombi",
+        "series": [
+            "BAKERTOP MIND.Maps™",
+            "BIG"
+        ],
+        "name": "16 600x400 vsuvů",
+        "power": "Elektrický",
+        "features": [
+            "XEBL-16EU-E1RS",
+            "Kombi",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Automatické mytí",
+            "bez DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": "365 400,00 Kč",
+        "price_czk": 365400,
+        "vat_note": "bez DPH"
+    }
+]
