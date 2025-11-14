@@ -3,8 +3,11 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+
+            "konvektomaty66": "Průmyslové konvektomaty na podestavbu",
+            "konvektomaty_66": "Konvektomat nabízí více než jen horký vzduch – integruje také páru. Profesionální konvektomaty Unox umožňují snadné, automatizované vaření, které optimalizuje výsledky, čas a prostor. Můžete dokonce stohovat dvě jednotky a vytvořit varné stanice pro rúzné úpravy , ideální pro restaurace à la carte. Tyto intuitivní konvektomaty poskytují bezchybné, opakovatelné výsledky a zároveň snižují pracnost a plýtvání energií."
             // ============ UNOX sidebar categories ============
-            "unox.cat.show_all": "Zobrazit vše (169)",
+            , "unox.cat.show_all": "Zobrazit vše (169)",
             "unox.cat.speed_ovens": "Commercial speed ovens (5)",
 
             "unox.cat.rapid_heating_ovens": "Průmyslové rychloohřevné pece (3)",
@@ -330,9 +333,11 @@
         },
 
         en: {
-            "titel_konvektomyty": "Unox professional convection ovens use advanced technology to enhance your cooking experience. Thanks to the combination of heat, convection and steam, they offer versatile options such as grilling, steaming, air frying, roasting, sous vide cooking and more. These devices are ideal for bakeries and pastry shops, providing reliable, high-quality performance 24 hours a day in a compact, space-saving design"
+            "konvektomaty_66": "The combi oven offers more than just hot air – it also integrates steam. Unox professional combi ovens enable easy, automated cooking that optimizes results, time and space. You can even stack two units to create cooking stations for different preparations, ideal for à la carte restaurants. These intuitive combi ovens deliver flawless, repeatable results while reducing labor and energy waste."
+            , "titel_konvektomyty": "Unox professional convection ovens use advanced technology to enhance your cooking experience. Thanks to the combination of heat, convection and steam, they offer versatile options such as grilling, steaming, air frying, roasting, sous vide cooking and more. These devices are ideal for bakeries and pastry shops, providing reliable, high-quality performance 24 hours a day in a compact, space-saving design"
             , "Profesionalni_konvektomaty": "Professional Convection Ovens",
             "rangcomvabocbat.title": "Commercial Rice Cooker",
+            "konvektomaty66": "Industrial convection ovens on stand",
             // ============ UNOX sidebar categories ============
             "unox.cat.show_all": "Show all (169)",
             "unox.cat.speed_ovens": "Commercial speed ovens (5)",
