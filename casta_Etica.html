@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>MinaFood - Fritézy</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="utf-8" />
+  <title>MinaFood - Etnica</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <!-- minafood -->
   <meta name="description"
     content="Otevřete brány gastronomického úspěchu. Naše komplexní řešení pro gastronomii poskytují pevný základ pro váš úspěch v gastronomickém světě. Od montáže a" />
@@ -30,8 +30,8 @@
   <meta name="twitter:data2" content="1 minuta" />
 
   <!-- Favicons -->
-  <link href="img/logo.png" rel="icon">
-  <link href="img/logo.png" rel="apple-touch-icon">
+  <link href="img/logo.png" rel="icon" />
+  <link href="img/logo.png" rel="apple-touch-icon" />
 
   <!-- Zalo Link Preview -->
   <meta name="zalo:image" content="https://github.com/BaoThongthai/minafood/blob/main/img/About-us.webp?raw=true" />
@@ -41,51 +41,41 @@
     content="Otevřete brány gastronomického úspěchu. Naše komplexní řešení pro gastronomii poskytují pevný základ pro váš úspěch v gastronomickém světě. Od montáže a" />
 
   <!-- Google Web Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap"
-    rel="stylesheet">
+    rel="stylesheet" />
 
   <!-- Icon Font Stylesheet -->
   <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" /> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     referrerpolicy="no-referrer" />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 
   <!-- Libraries Stylesheet -->
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
   <!-- Customized Bootstrap Stylesheet -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
 
   <!-- Template Stylesheet -->
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/mf_search.css" rel="stylesheet">
-  <script src="js/funtion_search_input.js"></script>
+  <link href="css/style.css" rel="stylesheet" />
 
+  <link href="css/mf_search.css" rel="stylesheet" />
+  <script src="js/funtion_search_input.js"></script>
+  <link rel="stylesheet" href="css/product_page.css">
 </head>
 
 <body>
-
-
-  <!-- Spinner Start -->
-  <div id="spinner"
-    class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
-    <div class="spinner-grow text-primary" role="status"></div>
-  </div>
-  <!-- Spinner End -->
-
-
   <!-- Navbar start -->
   <div class="container-fluid fixed-top">
     <div class="container topbar bg-primary d-none d-lg-block">
       <div class="d-flex justify-content-between">
         <div class="top-info ps-2">
-          <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#"
-              class="text-white">Libušská 3/163, Praha - 142 00</a></small>
+          <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i>
+            <a href="#" class="text-white">Libušská 3/163, Praha - 142 00</a></small>
           <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#"
               class="text-white">htvgroup@seznam.cz</a></small>
         </div>
@@ -115,27 +105,29 @@
           </div>
           <div class="d-flex m-3 me-0">
             <!-- SEARCH (global) -->
-            <div class="ms-auto d-flex align-items-center" style="margin-right: 7px;">
+            <div class="ms-auto d-flex align-items-center" style="margin-right: 7px">
               <form id="mf-search-form" action="/search.html" class="mf-search">
                 <input id="mf-search-input" name="q" type="search" placeholder="Type to search" autocomplete="off"
-                  aria-label="Search">
+                  aria-label="Search" />
                 <button type="button" id="search-toggle" class="icon-only">
-                  <i class="fa-solid fa-magnifying-glass fa-2x" style="color: #114070;"></i>
+                  <i class="fa-solid fa-magnifying-glass fa-2x" style="color: #114070"></i>
                 </button>
-                <button type="submit" id="search-submit" class="text-btn" hidden><i
-                    class="fa-solid fa-magnifying-glass fa-2x" style="color: #114070;"></i></button>
+                <button type="submit" id="search-submit" class="text-btn" hidden>
+                  <i class="fa-solid fa-magnifying-glass fa-2x" style="color: #114070"></i>
+                </button>
               </form>
             </div>
-            <button id="langToggle" class="btn btn-outline-secondary btn-sm px-3"
-              style="margin-right: 20px;">EN</button>
+            <button id="langToggle" class="btn btn-outline-secondary btn-sm px-3" style="margin-right: 20px">
+              EN
+            </button>
             <a href="cart.html" class="position-relative me-4 my-auto">
-              <i class="fa fa-shopping-bag fa-2x" style="color: #114070;"></i>
+              <i class="fa fa-shopping-bag fa-2x" style="color: #114070"></i>
               <span
                 class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1"
-                style="top: -5px; left: 15px; height: 20px; min-width: 20px;">0</span>
+                style="top: -5px; left: 15px; height: 20px; min-width: 20px">0</span>
             </a>
             <a href="#" class="my-auto">
-              <i class="fas fa-user fa-2x" style="color: #114070;"></i>
+              <i class="fas fa-user fa-2x" style="color: #114070"></i>
             </a>
           </div>
         </div>
@@ -143,7 +135,6 @@
     </div>
   </div>
   <!-- Navbar End -->
-
 
   <!-- Single Page Header start -->
   <div class="page-header d-flex align-items-center justify-content-center text-center" style="
@@ -162,8 +153,8 @@
         "></div>
 
     <div class="container position-relative z-1 text-white">
-      <h1 class="fw-bold display-5 mb-3 text-uppercase" data-i18n="page.gastro.Fritezy_katagory" style="color: white">
-        Fritezy Katagory
+      <h1 class="fw-bold display-5 mb-3 text-uppercase" style="color: white">
+        Etnica
       </h1>
       <a href="index.html#Kategorie">
         <p class="mb-0" style="color: antiquewhite">
@@ -173,159 +164,62 @@
     </div>
   </div>
 
-
-
-  <!-- Single Page Header End -->
-
-
-  <!-- casta equiment-->
-  <div class="container py-5">
-    <div class="row g-4">
-
-
-
-      <div class="col-6 col-md-3">
-        <div class="product-card">
-          <a href="Fritezyprime700.html" aria-label="Šokové zchlazovače">
-            <div class="brand-logo">
-              <img src="https://casta.com/wp-content/themes/casta/assets/img/logo-casta.svg" alt="brand logo">
-            </div>
-            <div class="thumb">
-              <img src="https://casta.com/wp-content/uploads/2025/09/PRIME-700-939x750.webp" alt="Šokové zchlazovače">
-            </div>
-            <div class="product-title">PRIME700</div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-6 col-md-3">
-        <div class="product-card">
-          <a href="FritezyEasy700.html" aria-label="Šokové zchlazovače">
-            <div class="brand-logo">
-              <img src="https://casta.com/wp-content/themes/casta/assets/img/logo-casta.svg" alt="brand logo">
-            </div>
-            <div class="thumb">
-              <img src="https://casta.com/wp-content/uploads/2025/09/EASY700-793x750.webp" alt="Šokové zchlazovače">
-            </div>
-            <div class="product-title">EASY700</div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-6 col-md-3">
-        <div class="product-card">
-          <a href="Fritezy_lady900_1.html" aria-label="Šokové zchlazovače">
-            <div class="brand-logo">
-              <img src="https://casta.com/wp-content/themes/casta/assets/img/logo-casta.svg" alt="brand logo">
-            </div>
-            <div class="thumb">
-              <img src="https://casta.com/wp-content/uploads/2025/09/BLOCCO-LADY700-793x750.webp"
-                alt="Šokové zchlazovače">
-            </div>
-            <div class="product-title">LADY700</div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-6 col-md-3">
-        <div class="product-card">
-          <a href="Fritezy_lady900_8.html" aria-label="Šokové zchlazovače">
-            <div class="brand-logo">
-              <img src="https://casta.com/wp-content/themes/casta/assets/img/logo-casta.svg" alt="brand logo">
-            </div>
-            <div class="thumb">
-              <img src="https://casta.com/wp-content/uploads/2025/09/BLOCCO-LADYQ900--793x750.webp"
-                alt="Šokové zchlazovače">
-            </div>
-            <div class="product-title">LADYQ900</div>
-          </a>
+  <!-- xử lý popup sản phẩm -->
+  <div id="product-popup" class="product-popup hidden">
+    <div class="product-popup-content">
+      <span class="product-popup-close">&times;</span>
+      <img src="" alt="" id="popup-img" />
+      <h4 id="popup-name"></h4>
+      <p id="popup-dim"></p>
+      <p id="popup-weight"></p>
+    </div>
+  </div>
+  <!-- mina Shop Start-->
+  <div class="container-fluid fruite py-5">
+    <div class="container py-5">
+      <div class="row g-3">
+        <div class="col-lg-12">
+          <div id="product-grid" class="row g-4"></div>
         </div>
       </div>
 
 
-      <div class="col-6 col-md-3">
-        <div class="product-card">
-          <a href="casta_ladyQ900.html" aria-label="Šokové zchlazovače">
-            <div class="brand-logo">
-              <img src="https://casta.com/wp-content/themes/casta/assets/img/logo-casta.svg" alt="brand logo">
-            </div>
-            <div class="thumb">
-              <img src="https://casta.com/wp-content/uploads/2022/05/LQ-DKE400BC-400X900X850H_DX-317x300.jpg"
-                alt="Šokové zchlazovače">
-            </div>
-            <div class="product-title">LADYQ900_2</div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-6 col-md-3">
-        <div class="product-card">
-          <a href="Fritezy_fast700.html" aria-label="Šokové zchlazovače">
-            <div class="brand-logo">
-              <img src="https://casta.com/wp-content/themes/casta/assets/img/logo-casta.svg" alt="brand logo">
-            </div>
-            <div class="thumb">
-              <img src="https://casta.com/wp-content/uploads/2025/09/FAST700-793x750.webp" alt="Šokové zchlazovače">
-            </div>
-            <div class="product-title">FAST 700 & SMART 700</div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-6 col-md-3">
-        <div class="product-card">
-          <a href="Fritezy_PastryFryers.html" aria-label="Šokové zchlazovače">
-            <div class="brand-logo">
-              <img src="https://casta.com/wp-content/themes/casta/assets/img/logo-casta.svg" alt="brand logo">
-            </div>
-            <div class="thumb">
-              <img src="https://casta.com/wp-content/uploads/2025/09/PASTRY-FRYERS-793x750.webp"
-                alt="Šokové zchlazovače">
-            </div>
-            <div class="product-title">Pastry Fryers</div>
-          </a>
-        </div>
-      </div>
-
-
-      <div class="col-6 col-md-3">
-        <div class="product-card">
-          <a href="casta_Etica.html" aria-label="Šokové zchlazovače">
-            <div class="brand-logo">
-              <img src="https://casta.com/wp-content/themes/casta/assets/img/logo-casta.svg" alt="brand logo">
-            </div>
-            <div class="thumb">
-              <img src="https://casta.com/wp-content/uploads/2022/03/P7-FRE1V8-317x300.jpg" alt="Šokové zchlazovače">
-            </div>
-            <div class="product-title">Etnica</div>
-          </a>
+      <!-- đoạn code phân trang khi sản phẩm vượt quá 30 -->
+      <div class="row g-3">
+        <div class="col-lg-12">
+          <div id="product-grid" class="row g-4"></div>
+          <div id="pager-slot" class="mf-pager-bottom"></div>
         </div>
       </div>
     </div>
   </div>
-
-
-  <!-- gastro-a-kuchyne-->
-
+  <!-- Fruits Shop End-->
 
   <!-- Footer Start -->
   <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
     <div class="container py-5">
-      <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
+      <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5)">
         <div class="row g-4">
           <div class="col-lg-3">
             <a href="#">
               <h1 class="text-primary mb-0">M!NAFOOD</h1>
-              <p class="text-secondary mb-0">Řešení pro kuchyně a mrazničky</p>
+              <p class="text-secondary mb-0">
+                Řešení pro kuchyně a mrazničky
+              </p>
             </a>
           </div>
           <div class="col-lg-6">
             <div class="position-relative mx-auto">
+              <!-- <input class="form-control border-0 w-100 py-3 px-4 rounded-pill" type="number"
+                                placeholder="Your Email">
+                            <button type="submit"
+                                class="btn btn-primary border-0 border-secondary py-3 px-4 position-absolute rounded-pill text-white"
+                                style="top: 0; right: 0;">Subscribe Now</button> -->
             </div>
           </div>
           <div class="col-lg-3">
             <div class="d-flex justify-content-end pt-3">
-              <a class="btn  btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i
+              <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i
                   class="fab fa-twitter"></i></a>
               <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i
                   class="fab fa-facebook-f"></i></a>
@@ -341,8 +235,11 @@
         <div class="col-lg-3 col-md-6">
           <div class="footer-item">
             <h4 class="text-light mb-3">Why People Like us!</h4>
-            <p class="mb-4">typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+            <p class="mb-4">
+              typesetting, remaining essentially unchanged. It was popularised
+              in the 1960s with the like Aldus PageMaker including of Lorem
+              Ipsum.
+            </p>
             <a href="" class="btn border-secondary py-2 px-4 rounded-pill text-primary">Read More</a>
           </div>
         </div>
@@ -375,7 +272,7 @@
             <p>Email: htvgroup@seznam.cz</p>
             <p>Telefon: +420 608 561 691</p>
             <p>Payment Accepted</p>
-            <img src="img/payment.png" class="img-fluid" alt="">
+            <img src="img/payment.png" class="img-fluid" alt="" />
           </div>
         </div>
       </div>
@@ -388,14 +285,16 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-          <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>minafood</a>,
-            All right reserved.</span>
+          <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>minafood</a>, All right
+            reserved.</span>
         </div>
         <div class="col-md-6 my-auto text-center text-md-end text-white">
           <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
           <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
           <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-          Designed By <a class="border-bottom" href="https://htmlcodex.com">hoanglephibao</a> Distributed By
+          Designed By
+          <a class="border-bottom" href="https://htmlcodex.com">hoanglephibao</a>
+          Distributed By
           <a class="border-bottom" href="https://themewagon.com">hoanglephibao</a>
         </div>
       </div>
@@ -403,12 +302,9 @@
   </div>
   <!-- Copyright End -->
 
-
-
   <!-- Back to Top -->
   <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i
       class="fa fa-arrow-up"></i></a>
-
 
   <!-- JavaScript Libraries -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -422,6 +318,8 @@
   <script src="js/main.js"></script>
   <script src="js/i18n.js"></script>
   <script src="js/cart.js"></script>
+  <script src="js/casta_Etnica.js"></script>
+
 </body>
 
 </html>
