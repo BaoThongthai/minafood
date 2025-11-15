@@ -6,6 +6,8 @@
             "konvektomaty13_title": "Profesionální konvektomaty vozíkové.",
             "unox_showall_tittle_small": "Prozkoumejte celou řadu produktů Unox, včetně profesionálních konvekčních pecí, profesionálních konvektomatů, profesionálních rychloohřevných pecí a systémů pro uchovávání teplých potravin. Použijte naše filtry, abyste rychle našli to, co nejlépe vyhovuje vašim potřebám. Nejste si jisti, která komerční trouba je pro vaši firmu nejlepší? Vyzkoušejte funkci „porovnat“ na našich produktových listech nebo si promluvte přímo s našimi odborníky!",
             "konvektomaty66": "Průmyslové konvektomaty na podestavbu",
+            "titel_Professional_speed_oven": "Profesionální rychlé pece",
+            "titel_commercial_speed_ovens": "Profesionální rychlá pec Unox zaručují vysokou produktivitu a bleskurychlé vaření, kombinují konvekci, mikrovlny a – u vybraných modelů – páru a samomycí programy v jediné kompaktní jednotce. Jejich uživatelsky přívětivé rozhraní zajišťuje, že je může snadno obsluhovat i nevyškolený personál, takže je snadné poskytovat rychlé a konzistentní služby. Perfektní pro QSR, rychlé neformální restaurace a kavárny, pomáhají splnit požadavky časově citlivých zákazníků bez kompromisů v kvalitě.",
             "konvektomaty_66": "Konvektomat nabízí více než jen horký vzduch – integruje také páru. Profesionální konvektomaty Unox umožňují snadné, automatizované vaření, které optimalizuje výsledky, čas a prostor. Můžete dokonce stohovat dvě jednotky a vytvořit varné stanice pro rúzné úpravy , ideální pro restaurace à la carte. Tyto intuitivní konvektomaty poskytují bezchybné, opakovatelné výsledky a zároveň snižují pracnost a plýtvání energií."
             // ============ UNOX sidebar categories ============
             ,
@@ -337,7 +339,8 @@
         },
 
         en: {
-
+            "titel_Professional_speed_oven": "Professional Speed Ovens",
+            "titel_commercial_speed_ovens": "Unox commercial speed ovens are designed to deliver fast, efficient cooking performance for busy kitchens. These ovens utilize advanced heating technology to rapidly heat up and cook food, making them ideal for high-volume foodservice operations. With user-friendly controls and versatile cooking options, Unox speed ovens help streamline kitchen workflows while ensuring consistent, high-quality results.",
             "unox_showall_tittle_small": "Explore the full range of Unox products, including professional convection ovens, professional combi ovens, professional rapid ovens and hot food storage systems. Use our filters to quickly find what best suits your needs. Not sure which commercial oven is best for your business? Try the compare feature on our product sheets or talk directly to our experts!",
             "Unox_showall_169.title": "Unox Professional Kitchen Equipment",
             "konvektomaty_13": "The unique design of the combi oven not only distributes heat with precise airflow, but also uses steam for superior cooking performance. Unox professional cart combi ovens are built to withstand the demanding pace of large kitchens, cooking centers, hotels, canteens and hospitals. These ovens are designed for intensive, high-volume cooking cycles and can easily handle full loads, whether steaming, roasting, braising, grilling or frying. Unox combi ovens deliver consistently repeatable, uniform cooking results under any conditions.",
