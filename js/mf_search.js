@@ -98,6 +98,7 @@
     { json: '/js/casta_equiment/data/frytezy_prime700.json', page: '/frytezy_prime700.html', cat: 'FRYTEZY PRIME700' },
     { json: '/js/casta_equiment/data/frytezy_Smart700.json', page: '/frytezy_Smart700.html', cat: 'FRYTEZY SMART700' },
     { json: '/js/casta_equiment/data/grill_plate.json', page: '/grill_plate.html', cat: 'GRILL PLATE' },
+    { json: '/js/casta_equiment/data/casta_ladyQ900.json', page: '/casta_ladyQ900.html', cat: 'CASTA LADYQ900' },
 
     /* ===== MAYTHAITHIT ===== */
     { json: '/js/data/maythucphamth_mayxaythit.json', page: '/maythucphamth_mayxaythit.html', cat: 'MAYTHAITHIT' },

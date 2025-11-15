@@ -1,0 +1,2360 @@
+[
+    {
+        "code": "LQ/DSE400BC",
+        "name": "Electric dim sum steamer.",
+        "url": "https://casta.com/en/product/lq-dse400bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE400BC-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE400BC-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 50,
+            "volume": 0.3,
+            "electric_power": "12,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/FTG4BAL",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bal/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-FTG4BAL-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-FTG4BAL-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 150,
+            "volume": 0.6,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTG4BBM",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bbm/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBM-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBM-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 130,
+            "volume": 0.2,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/CUG6BC.6G",
+        "name": "Six burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug6bc-6g/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG6BC-1200X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG6BC-1200X900X850H-878x750.jpg",
+        "specs": {
+            "width": 1200,
+            "height": 850,
+            "depth": 900,
+            "weight": 120,
+            "volume": 0.9,
+            "gas_power": 44.4,
+            "burners": 6,
+            "burners_combination": "6x 7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/FTG2BAR",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg2bar/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG2BAR-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG2BAR-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 75,
+            "volume": 0.3,
+            "gas_power": 6.9
+        }
+    },
+    {
+        "code": "LQ/FTG4BALC",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4balc/",
+        "image": "https://casta.com/wp-content/uploads/2022/01/LQ-FTG4BALC-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/01/LQ-FTG4BALC-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 138,
+            "volume": 0.6,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTE4BAL",
+        "name": "Electric griddle plate.",
+        "url": "https://casta.com/en/product/lq-fte4bal/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-FTE4BAL-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-FTE4BAL-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 93,
+            "volume": 0.6,
+            "electric_power": "12,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/CUG2BB.1M1G",
+        "name": "Two burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug2bb-1m1g/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG2BB-400X900X270H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG2BB-400X900X270H-878x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 270,
+            "depth": 900,
+            "weight": 35,
+            "volume": 0.1,
+            "gas_power": 12.9,
+            "burners": 2,
+            "burners_combination": "1x5,5 kW +1x 7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/FTG4BAR",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bar/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BAR-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BAR-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 150,
+            "volume": 0.6,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/CQE4BA",
+        "name": "Electric range.",
+        "url": "https://casta.com/en/product/lq-cqe4ba/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CQE4BA-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-CQE4BA-793x750.png",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "volume": 0.6,
+            "electric_power": "16,0 400V3N~",
+            "electric_intensity": "50/60",
+            "electric_cooking_areas": "4 x 4,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/CPE2V1-1FP-A",
+        "name": "Electric pasta cookers Fastpasta.",
+        "url": "https://casta.com/en/product/lq-cpe2v1-1fp-a/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/LQ-CPE2V1-1FP-A-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/LQ-CPE2V1-1FP-A-793x750.jpg",
+        "specs": {
+            "width": 500,
+            "height": 850,
+            "depth": 900,
+            "electric_power": "12,6 400V3N~",
+            "electric_intensity": "50/60",
+            "number_of_tanks": 1,
+            "tanks_capacity": "1X 40 lt."
+        }
+    },
+    {
+        "code": "LQ/FTG2BARC",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg2barc/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG2BARC-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG2BARC-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 69,
+            "volume": 0.3,
+            "gas_power": 6.9
+        }
+    },
+    {
+        "code": "LQ/ENN2CC",
+        "name": "Neutral unit with drawer.",
+        "url": "https://casta.com/en/product/lq-enn2cc/",
+        "image": "https://casta.com/wp-content/uploads/2022/01/LQ-ENN2CC-400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/01/LQ-ENN2CC-400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "volume": 0.3
+        }
+    },
+    {
+        "code": "LQ/BS2BC",
+        "name": "Lava stone grill.",
+        "url": "https://casta.com/en/product/lq-bs2bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-BS2BC-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-BS2BC-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 100,
+            "volume": 0.6,
+            "gas_power": 22,
+            "burners_combination": "2 x 11,0 kW"
+        }
+    },
+    {
+        "code": "LQ/CPE4V2-2FP-AA",
+        "name": "Electric pasta cookers Fastpasta.",
+        "url": "https://casta.com/en/product/lq-cpe4v2-2fp-aa/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/LQ-CPE4V2-2FP-AA-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/LQ-CPE4V2-2FP-AA-793x750.jpg",
+        "specs": {
+            "width": 1000,
+            "height": 850,
+            "depth": 900,
+            "electric_power": "25,2 400V3N~",
+            "electric_intensity": "50/60",
+            "number_of_tanks": 2,
+            "tanks_capacity": "2X 40 LT"
+        }
+    },
+    {
+        "code": "LQ/DKE400BC",
+        "name": "Electric dim sum steamer.",
+        "url": "https://casta.com/en/product/lq-dke400bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE400BC-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE400BC-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 50,
+            "volume": 0.3,
+            "electric_power": "6,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/FTG4BBMC",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bbmc/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBMC-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBMC-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 100,
+            "volume": 0.2,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/TPG4NG",
+        "name": "Solid top gas range.",
+        "url": "https://casta.com/en/product/lq-tpg4ng/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-TPG4LO-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-TPG4LO-793x750.png",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 193,
+            "volume": 0.6,
+            "gas_power": 20.6,
+            "burners_combination": "1 x 12,0 kW",
+            "oven": "1 x 8,6 kW",
+            "oven_internal_dimensions": "540x745x340h"
+        }
+    },
+    {
+        "code": "LQ/ENN2BC",
+        "name": "Neutral unit.",
+        "url": "https://casta.com/en/product/lq-enn2bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-ENN2BC-400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-ENN2BC-400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 56,
+            "volume": 0.3
+        }
+    },
+    {
+        "code": "LQ/FTE4BAMC",
+        "name": "Electric griddle plate.",
+        "url": "https://casta.com/en/product/lq-fte4bamc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTE4BAMC-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTE4BAMC-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 98,
+            "volume": 0.6,
+            "electric_power": "12,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/FTG4BBRC",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bbrc/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBRC-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBRC-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 100,
+            "volume": 0.2,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/TPG6NG",
+        "name": "Solid top gas range.",
+        "url": "https://casta.com/en/product/lq-tpg6ng/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-TPG6LO-1-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-TPG6LO-1-793x750.png",
+        "specs": {
+            "width": 1200,
+            "height": 850,
+            "depth": 900,
+            "weight": 248,
+            "volume": 0.9,
+            "gas_power": 33.5,
+            "burners_combination": "1 x 5,5 kW + 1 x 7,4 kW + 1 x 12,0 kW",
+            "oven": "1 x 8,6 kW",
+            "oven_internal_dimensions": "540x745x340h"
+        }
+    },
+    {
+        "code": "LQ/CUI2HBC",
+        "name": "Electric induction range.",
+        "url": "https://casta.com/en/product/lq-cuihlbc/",
+        "image": "https://casta.com/wp-content/uploads/2022/01/LQ-CUI2LBC_400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/01/LQ-CUI2LBC_400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 73,
+            "volume": 0.3,
+            "electric_power": "10,0 400V3N~",
+            "electric_intensity": "50/60",
+            "electric_cooking_areas": "2 x 5,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/FTG4BAM",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bam-2/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-FTG4BAM-800X900X850H_DX-1-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-FTG4BAM-800X900X850H_DX-1-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 94,
+            "volume": 0.6,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTG4BCMC",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bcmc/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/LQ-FTG4BCMC-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/LQ-FTG4BCMC-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 138,
+            "volume": 0.6,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTG4BCLC",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bclc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG4BCL-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG4BCL-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 94,
+            "volume": 0.6,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTG4BBLC",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bblc/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBLC-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBLC-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 100,
+            "volume": 0.2,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTG2BBLK",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg2bblk/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG2BBL-400X900X270H_DX-334x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG2BBL-400X900X270H_DX-835x750.png",
+        "specs": {
+            "width": 400,
+            "height": 270,
+            "depth": 900,
+            "weight": 60,
+            "volume": 0.1,
+            "gas_power": 6.9
+        }
+    },
+    {
+        "code": "LQ/CUI4HBC",
+        "name": "Electric induction range.",
+        "url": "https://casta.com/en/product/lq-cui4hbc/",
+        "image": "https://casta.com/wp-content/uploads/2022/01/LQ-CUI4LBC_800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/01/LQ-CUI4LBC_800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 87,
+            "volume": 0.6,
+            "electric_power": "20,0 400V3N~",
+            "electric_intensity": "50/60",
+            "electric_cooking_areas": "4 x 5,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/FTE2BAL",
+        "name": "Electric griddle plate.",
+        "url": "https://casta.com/en/product/lq-fte2bal/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-FTE2BAL-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-FTE2BAL-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 77,
+            "volume": 0.3,
+            "electric_power": "6,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/ENN4CC",
+        "name": "Neutral unit with drawer.",
+        "url": "https://casta.com/en/product/lq-enn4cc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-ENN4CC-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-ENN4CC-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "volume": 0.6
+        }
+    },
+    {
+        "code": "LQ/CUG2BC.2G",
+        "name": "Two burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug2bc-2g/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG2BC-400X900X850H-1-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG2BC-400X900X850H-1-878x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 43,
+            "volume": 0.3,
+            "gas_power": 14.8,
+            "burners": 2,
+            "burners_combination": "2x7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/FTG2BBRC",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg2bbrc/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG2BBRC-400X900X270H_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG2BBRC-400X900X270H_DX-835x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 270,
+            "depth": 900,
+            "weight": 50,
+            "volume": 0.1,
+            "gas_power": 6.9
+        }
+    },
+    {
+        "code": "LQ/FTG2BALK",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg2balk/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG2BAL-400X900X850H_DX-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG2BAL-400X900X850H_DX-793x750.png",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 65,
+            "volume": 0.3,
+            "gas_power": 6.9
+        }
+    },
+    {
+        "code": "LQ/DSE800BC",
+        "name": "Electric Dim Sum steamer.",
+        "url": "https://casta.com/en/product/lq-dse800bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/01/LQ-DKE800BC-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/01/LQ-DKE800BC-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 85,
+            "volume": 0.6,
+            "electric_power": "24,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/FTE4BBLC",
+        "name": "Electric griddle plate.",
+        "url": "https://casta.com/en/product/lq-fte4bblc/",
+        "image": "https://casta.com/wp-content/uploads/2022/03/LQ-FTE4BBLC-800X900X270H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/03/LQ-FTE4BBLC-800X900X270H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 84,
+            "volume": 0.2,
+            "electric_power": "12,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/CUI2HBC",
+        "name": "Electric induction range.",
+        "url": "https://casta.com/en/product/lq-cuihlbc/",
+        "image": "https://casta.com/wp-content/uploads/2022/01/LQ-CUI2LBC_400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/01/LQ-CUI2LBC_400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 73,
+            "volume": 0.3,
+            "electric_power": "10,0 400V3N~",
+            "electric_intensity": "50/60",
+            "electric_cooking_areas": "2 x 5,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/FTG4BAM",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bam-2/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-FTG4BAM-800X900X850H_DX-1-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-FTG4BAM-800X900X850H_DX-1-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 94,
+            "volume": 0.6,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTG4BCMC",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bcmc/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/LQ-FTG4BCMC-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/LQ-FTG4BCMC-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 138,
+            "volume": 0.6,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTG4BCLC",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bclc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG4BCL-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG4BCL-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 94,
+            "volume": 0.6,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTG4BBLC",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bblc/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBLC-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBLC-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 100,
+            "volume": 0.2,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTG2BBLK",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg2bblk/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG2BBL-400X900X270H_DX-334x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG2BBL-400X900X270H_DX-835x750.png",
+        "specs": {
+            "width": 400,
+            "height": 270,
+            "depth": 900,
+            "weight": 60,
+            "volume": 0.1,
+            "gas_power": 6.9
+        }
+    },
+    {
+        "code": "LQ/CUI4HBC",
+        "name": "Electric induction range.",
+        "url": "https://casta.com/en/product/lq-cui4hbc/",
+        "image": "https://casta.com/wp-content/uploads/2022/01/LQ-CUI4LBC_800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/01/LQ-CUI4LBC_800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 87,
+            "volume": 0.6,
+            "electric_power": "20,0 400V3N~",
+            "electric_intensity": "50/60",
+            "electric_cooking_areas": "4 x 5,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/FTE2BAL",
+        "name": "Electric griddle plate.",
+        "url": "https://casta.com/en/product/lq-fte2bal/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-FTE2BAL-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-FTE2BAL-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 77,
+            "volume": 0.3,
+            "electric_power": "6,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/ENN4CC",
+        "name": "Neutral unit with drawer.",
+        "url": "https://casta.com/en/product/lq-enn4cc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-ENN4CC-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-ENN4CC-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "volume": 0.6
+        }
+    },
+    {
+        "code": "LQ/CUG2BC.2G",
+        "name": "Two burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug2bc-2g/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG2BC-400X900X850H-1-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG2BC-400X900X850H-1-878x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 43,
+            "volume": 0.3,
+            "gas_power": 14.8,
+            "burners": 2,
+            "burners_combination": "2x7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/FTG2BBRC",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg2bbrc/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG2BBRC-400X900X270H_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG2BBRC-400X900X270H_DX-835x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 270,
+            "depth": 900,
+            "weight": 50,
+            "volume": 0.1,
+            "gas_power": 6.9
+        }
+    },
+    {
+        "code": "LQ/FTG2BALK",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg2balk/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG2BAL-400X900X850H_DX-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG2BAL-400X900X850H_DX-793x750.png",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 65,
+            "volume": 0.3,
+            "gas_power": 6.9
+        }
+    },
+    {
+        "code": "LQ/FTG4BAMC",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bamc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG4BAMC-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG4BAMC-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 138,
+            "volume": 0.6,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTE2BCLC",
+        "name": "Electric griddle plate.",
+        "url": "https://casta.com/en/product/lq-fte2bclc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTE2BCLC-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTE2BCLC-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 48,
+            "volume": 0.3,
+            "electric_power": "6,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/FTG4BBL",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bbl/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBL-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBL-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 130,
+            "volume": 0.2,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTE4BBMC",
+        "name": "Electric griddle plate.",
+        "url": "https://casta.com/en/product/lq-fte4bbmc/",
+        "image": "https://casta.com/wp-content/uploads/2022/03/LQ-FTE4BBMC-800X900X270H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/03/LQ-FTE4BBMC-800X900X270H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 84,
+            "volume": 0.2,
+            "electric_power": "12,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/CUG2BC.1M1G",
+        "name": "Two burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug2bc-1m1g/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-CUG2BC-400X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-CUG2BC-400X900X850H-878x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 60,
+            "volume": 0.3,
+            "gas_power": 12.9,
+            "burners": 2,
+            "burners_combination": "1x7,4 kW + 1x5,5 kW"
+        }
+    },
+    {
+        "code": "LQ/FTG2BBR",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg2bbr/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG2BBR-400X900X270H_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG2BBR-400X900X270H_DX-835x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 270,
+            "depth": 900,
+            "weight": 65,
+            "volume": 0.1,
+            "gas_power": 6.9
+        }
+    },
+    {
+        "code": "LQ/CUG4BC.1P1M2G",
+        "name": "Four burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug4bc-1p1m2g/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG4BC-800X900X850H-2-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG4BC-800X900X850H-2-878x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 85,
+            "volume": 0.6,
+            "gas_power": 23.8,
+            "burners": "1x3,5 kW +1x5,5 kW + 2x7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/FTG4BBR",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bbr/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBR-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBR-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 130,
+            "volume": 0.2,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/DSE400BC",
+        "name": "Electric dim sum steamer.",
+        "url": "https://casta.com/en/product/lq-dse400bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE400BC-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE400BC-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 50,
+            "volume": 0.3,
+            "electric_power": "12,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/FTG4BAL",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bal/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-FTG4BAL-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-FTG4BAL-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 150,
+            "volume": 0.6,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTG4BBM",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bbm/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBM-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBM-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 130,
+            "volume": 0.2,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/CUG6BC.6G",
+        "name": "Six burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug6bc-6g/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG6BC-1200X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG6BC-1200X900X850H-878x750.jpg",
+        "specs": {
+            "width": 1200,
+            "height": 850,
+            "depth": 900,
+            "weight": 120,
+            "volume": 0.9,
+            "gas_power": 44.4,
+            "burners": 6,
+            "burners_combination": "6x 7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/FTG4BAMC",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bamc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG4BAMC-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG4BAMC-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 138,
+            "volume": 0.6,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTE2BCLC",
+        "name": "Electric griddle plate.",
+        "url": "https://casta.com/en/product/lq-fte2bclc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTE2BCLC-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTE2BCLC-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 48,
+            "volume": 0.3,
+            "electric_power": "6,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/FTG4BBL",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bbl/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBL-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBL-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 130,
+            "volume": 0.2,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTE4BBMC",
+        "name": "Electric griddle plate.",
+        "url": "https://casta.com/en/product/lq-fte4bbmc/",
+        "image": "https://casta.com/wp-content/uploads/2022/03/LQ-FTE4BBMC-800X900X270H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/03/LQ-FTE4BBMC-800X900X270H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 84,
+            "volume": 0.2,
+            "electric_power": "12,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/CUG2BC.1M1G",
+        "name": "Two burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug2bc-1m1g/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-CUG2BC-400X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-CUG2BC-400X900X850H-878x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 60,
+            "volume": 0.3,
+            "gas_power": 12.9,
+            "burners": 2,
+            "burners_combination": "1x7,4 kW + 1x5,5 kW"
+        }
+    },
+    {
+        "code": "LQ/FTG2BBR",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg2bbr/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG2BBR-400X900X270H_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG2BBR-400X900X270H_DX-835x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 270,
+            "depth": 900,
+            "weight": 65,
+            "volume": 0.1,
+            "gas_power": 6.9
+        }
+    },
+    {
+        "code": "LQ/CUG4BC.1P1M2G",
+        "name": "Four burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug4bc-1p1m2g/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG4BC-800X900X850H-2-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG4BC-800X900X850H-2-878x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 85,
+            "volume": 0.6,
+            "gas_power": 23.8,
+            "burners": "1x3,5 kW +1x5,5 kW + 2x7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/FTG4BBR",
+        "name": "Gas griddle plate.",
+        "url": "https://casta.com/en/product/lq-ftg4bbr/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBR-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBR-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 130,
+            "volume": 0.2,
+            "gas_power": 13.8
+        }
+    },
+    {
+        "code": "LQ/PDG410",
+        "name": "Gas boiling pan.",
+        "url": "https://casta.com/en/product/lq-pdg410/",
+        "image": "https://casta.com/wp-content/uploads/2021/09/LQ-PDG410-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/09/LQ-PDG410-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 160,
+            "volume": 0.6,
+            "gas_power": 21
+        }
+    },
+    {
+        "code": "LQ/BREI80M",
+        "name": "Electric tilting bratt pan.",
+        "url": "https://casta.com/en/product/lq-brei80m/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-BREI80M-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-BREI80M-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "thickness": "Fondo vasca / Bottom type / Type du fond / Fondo cuba AISI 304 12,0",
+            "weight": 152,
+            "volume": 0.6,
+            "electric_power": 9.9,
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/ENN2BB",
+        "name": "Neutral unit.",
+        "url": "https://casta.com/en/product/lq-enn2bb/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN2BB-400X900X230H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN2BB-400X900X230H_DX-877x750.png",
+        "specs": {
+            "width": 400,
+            "height": 270,
+            "depth": 900,
+            "weight": 25,
+            "volume": 0.1
+        }
+    },
+    {
+        "code": "LQ/DKE400BA",
+        "name": "Electric dim sum steamer.",
+        "url": "https://casta.com/en/product/lq-dke400ba/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "electric_power": "6,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/PDG410",
+        "name": "Gas boiling pan.",
+        "url": "https://casta.com/en/product/lq-pdg410/",
+        "image": "https://casta.com/wp-content/uploads/2021/09/LQ-PDG410-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/09/LQ-PDG410-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 160,
+            "volume": 0.6,
+            "gas_power": 21
+        }
+    },
+    {
+        "code": "LQ/BREI80M",
+        "name": "Electric tilting bratt pan.",
+        "url": "https://casta.com/en/product/lq-brei80m/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-BREI80M-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-BREI80M-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "thickness": "Fondo vasca / Bottom type / Type du fond / Fondo cuba AISI 304 12,0",
+            "weight": 152,
+            "volume": 0.6,
+            "electric_power": 9.9,
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/ENN2BB",
+        "name": "Neutral unit.",
+        "url": "https://casta.com/en/product/lq-enn2bb/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN2BB-400X900X230H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN2BB-400X900X230H_DX-877x750.png",
+        "specs": {
+            "width": 400,
+            "height": 270,
+            "depth": 900,
+            "weight": 25,
+            "volume": 0.1
+        }
+    },
+    {
+        "code": "LQ/DKE400BA",
+        "name": "Electric dim sum steamer.",
+        "url": "https://casta.com/en/product/lq-dke400ba/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "electric_power": "6,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/SPE40BB",
+        "name": "Electric chip scuttle.",
+        "url": "https://casta.com/en/product/lq-spe40bb/",
+        "image": "https://casta.com/wp-content/uploads/2021/04/LQ-SPE40BB_400X900X270H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/04/LQ-SPE40BB_400X900X270H_DX-877x750.png",
+        "specs": {
+            "width": 400,
+            "height": 275,
+            "depth": 900,
+            "weight": 45,
+            "volume": 0.1,
+            "electric_power": "1,0 230V~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/CPE2V1",
+        "name": "Electric pasta-cooker.",
+        "url": "https://casta.com/en/product/lq-cpe2v1/",
+        "image": "https://casta.com/wp-content/uploads/2022/01/LQ-CPE2V1-400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/01/LQ-CPE2V1-400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 60,
+            "volume": 0.3,
+            "electric_power": "12,0 400V3N~",
+            "electric_intensity": "50/60",
+            "number_of_tanks": 1,
+            "tanks_capacity": "1 x 40 lt"
+        }
+    },
+    {
+        "code": "LQ/PIE410",
+        "name": "Electric boiling pan.",
+        "url": "https://casta.com/en/product/lq-pie410/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-PIE415-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-PIE415-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 164,
+            "volume": 0.6,
+            "electric_power": "13,0 400V 3N~",
+            "electric_intensity": "50/60",
+            "tanks_capacity": "600x415"
+        }
+    },
+    {
+        "code": "LQ/FLG1V17",
+        "name": "One tank gas fryer.",
+        "url": "https://casta.com/en/product/lq-flg1v17/",
+        "image": "https://casta.com/wp-content/uploads/2014/03/L9-FLG1V17-400X900X850H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2014/03/L9-FLG1V17-400X900X850H_DX-877x750.png",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 68,
+            "volume": 0.3,
+            "gas_power": 16.5,
+            "number_of_tanks": 1,
+            "tanks_capacity": "1 x 17 lt"
+        }
+    },
+    {
+        "code": "LQ/BME1BA",
+        "name": "Electric bain-marie.",
+        "url": "https://casta.com/en/product/lq-bme1ba-2/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-BME1BA-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-BME1BA-793x750.png",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 53,
+            "volume": 0.3,
+            "electric_power": "1,8 230 V~",
+            "electric_intensity": "50/60",
+            "tanks_capacity": "GN 1/1 + 1/3"
+        }
+    },
+    {
+        "code": "LQ/BS2BB",
+        "name": "Lava stone grill.",
+        "url": "https://casta.com/en/product/lq-bs1bb-2/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-BS2BB-800X900X270H_DX-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-BS2BB-800X900X270H_DX-793x750.png",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 70,
+            "volume": 0.2,
+            "gas_power": 22,
+            "burners_combination": "2 x 11,0 kW"
+        }
+    },
+    {
+        "code": "LQ/BRGI80A",
+        "name": "Gas tilting bratt pan.",
+        "url": "https://casta.com/en/product/lq-brgi80a/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7BRGI50A-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7BRGI50A-835x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "thickness": "Fondo vasca / Bottom type / Type du fond / Fondo cuba AISI 304 10,0",
+            "weight": 156,
+            "volume": 0.6,
+            "gas_power": 22
+        }
+    },
+    {
+        "code": "LQ/CPG2V80",
+        "name": "Gas pasta-cooker.",
+        "url": "https://casta.com/en/product/lq-cpg2v80/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/L9-CPG2V80-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/L9-CPG2V80-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 125,
+            "volume": 0.6,
+            "gas_power": 30,
+            "number_of_tanks": 2,
+            "tanks_capacity": "2 x 40 lt"
+        }
+    },
+    {
+        "code": "LQ/FLG1V22",
+        "name": "One tank gas fryer.",
+        "url": "https://casta.com/en/product/lq-flg1v22-2/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-FLG1V17-400X900X850H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-FLG1V17-400X900X850H_DX-877x750.png",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "volume": 0.3,
+            "gas_power": 21,
+            "number_of_tanks": 1,
+            "tanks_capacity": "1 x 22 lt"
+        }
+    },
+    {
+        "code": "LQ/BS2BB",
+        "name": "Lava stone grill.",
+        "url": "https://casta.com/en/product/lq-bs1bb-2/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-BS2BB-800X900X270H_DX-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-BS2BB-800X900X270H_DX-793x750.png",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 70,
+            "volume": 0.2,
+            "gas_power": 22,
+            "burners_combination": "2 x 11,0 kW"
+        }
+    },
+    {
+        "code": "LQ/BRGI80A",
+        "name": "Gas tilting bratt pan.",
+        "url": "https://casta.com/en/product/lq-brgi80a/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7BRGI50A-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7BRGI50A-835x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "thickness": "Fondo vasca / Bottom type / Type du fond / Fondo cuba AISI 304 10,0",
+            "weight": 156,
+            "volume": 0.6,
+            "gas_power": 22
+        }
+    },
+    {
+        "code": "LQ/CPG2V80",
+        "name": "Gas pasta-cooker.",
+        "url": "https://casta.com/en/product/lq-cpg2v80/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/L9-CPG2V80-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/L9-CPG2V80-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 125,
+            "volume": 0.6,
+            "gas_power": 30,
+            "number_of_tanks": 2,
+            "tanks_capacity": "2 x 40 lt"
+        }
+    },
+    {
+        "code": "LQ/BREI80A",
+        "name": "Electric tilting bratt pan.",
+        "url": "https://casta.com/en/product/lq-brei80a/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7BREI50A-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7BREI50A-835x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "thickness": "Fondo vasca / Bottom type / Type du fond / Fondo cuba AISI 304 12,0",
+            "weight": 152,
+            "volume": 0.6,
+            "electric_power": 9.9,
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/PDG415",
+        "name": "Gas boiling pan.",
+        "url": "https://casta.com/en/product/lq-pdg415/",
+        "image": "https://casta.com/wp-content/uploads/2021/09/LQ-PDG415-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/09/LQ-PDG415-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 160,
+            "volume": 0.6,
+            "gas_power": 21
+        }
+    },
+    {
+        "code": "LQ/PIE415",
+        "name": "Electric boiling pan.",
+        "url": "https://casta.com/en/product/lq-pie415/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-PIE415-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-PIE415-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 164,
+            "volume": 0.6,
+            "electric_power": 13,
+            "electric_intensity": "50/60",
+            "tanks_capacity": "600x540"
+        }
+    },
+    {
+        "code": "LQ/DSE400BA",
+        "name": "Electric dim sum steamer.",
+        "url": "https://casta.com/en/product/lq-dse400ba/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 49,
+            "volume": 0.3,
+            "electric_power": "12,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/FLG2V8",
+        "name": "Two tank gas fryer .",
+        "url": "https://casta.com/en/product/lq-flg2v8/",
+        "image": "https://casta.com/wp-content/uploads/2014/03/L9-FLG2V8-400X900X850H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2014/03/L9-FLG2V8-400X900X850H_DX-877x750.png",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 65,
+            "volume": 0.3,
+            "gas_power": 11.6,
+            "number_of_tanks": 2,
+            "tanks_capacity": "1 x 8 lt + 1 x 8 lt"
+        }
+    },
+    {
+        "code": "LQ/CUG2BB.2G",
+        "name": "Cucina a gas a due fuochi.",
+        "url": "https://casta.com/en/product/lq-cug2bb-2g/",
+        "image": "https://casta.com/wp-content/uploads/2024/04/2g-323x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2024/04/2g.png",
+        "specs": {
+            "width": 400,
+            "height": 275,
+            "depth": 900,
+            "weight": 35,
+            "volume": 0.1,
+            "gas_power": 14.8,
+            "burners": 2,
+            "burners_combination": "2 x 7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/FRE2V8",
+        "name": "Two tank electric fryer .",
+        "url": "https://casta.com/en/product/lq-fre2v8/",
+        "image": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V8-400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V8-400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 54,
+            "volume": 0.3,
+            "electric_power": "14,0 400V3N~",
+            "electric_intensity": "50/60",
+            "number_of_tanks": 2,
+            "tanks_capacity": "1 x 8 lt + 1 x 8 lt"
+        }
+    },
+    {
+        "code": "LQ/PIG410",
+        "name": "Gas boiling pan.",
+        "url": "https://casta.com/en/product/lq-pig410/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-PIG415-1-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-PIG415-1-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 162,
+            "volume": 0.6,
+            "gas_power": 21,
+            "tanks_capacity": "600x415"
+        }
+    },
+    {
+        "code": "LQ/BS1BA",
+        "name": "Lava stone grill.",
+        "url": "https://casta.com/en/product/lq-bs1ba/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-BS1BA-400X900X850H_DX-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-BS1BA-400X900X850H_DX-793x750.png",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 60,
+            "volume": 0.3,
+            "gas_power": 11,
+            "burners_combination": "1 x 11,0 kW"
+        }
+    },
+    {
+        "code": "LQ/ENN4BB",
+        "name": "Neutral unit.",
+        "url": "https://casta.com/en/product/lq-enn4bb/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN4BB-800X900X230H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN4BB-800X900X230H_DX-877x750.png",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 45,
+            "volume": 0.2
+        }
+    },
+    {
+        "code": "LQ/DKE800BA",
+        "name": "Electric dim sum steamer.",
+        "url": "https://casta.com/en/product/lq-dke800ba/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE800BA-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE800BA-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 98,
+            "volume": 0.6,
+            "electric_power": "12,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/FRE2V17",
+        "name": "Two tanks electric fryer.",
+        "url": "https://casta.com/en/product/lq-fre2v17/",
+        "image": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V17-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V17-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 108,
+            "volume": 0.6,
+            "electric_power": "33,0 400V3N~",
+            "electric_intensity": "50/60",
+            "number_of_tanks": 2,
+            "tanks_capacity": "1 x 17 lt + 1 x 17 lt"
+        }
+    },
+    {
+        "code": "LQ/PIG415",
+        "name": "Gas boiling pan.",
+        "url": "https://casta.com/en/product/lq-pig415/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-PIG415-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-PIG415-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 164,
+            "volume": 0.6,
+            "gas_power": 21,
+            "tanks_capacity": "600x540"
+        }
+    },
+    {
+        "code": "LQ/BS2BA",
+        "name": "Lava stone grill.",
+        "url": "https://casta.com/en/product/lq-bs2ba/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-BS2BA-800X900X850H_DX-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-BS2BA-800X900X850H_DX-793x750.png",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 100,
+            "volume": 0.6,
+            "gas_power": 22,
+            "burners_combination": "2 x 11,0 kW"
+        }
+    },
+    {
+        "code": "LQ/DSE800BA",
+        "name": "Electric dim sum steamer.",
+        "url": "https://casta.com/en/product/lq-dse800ba/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE800BA-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE800BA-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 98,
+            "volume": 0.6,
+            "electric_power": "24,0 400V3N~",
+            "electric_intensity": "50/60"
+        }
+    },
+    {
+        "code": "LQ/ENN4CB",
+        "name": "Neutral unit.",
+        "url": "https://casta.com/en/product/lq-enn4cb/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN4CB-800X900X230H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN4CB-800X900X230H_DX-877x750.png",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 45,
+            "volume": 0.2
+        }
+    },
+    {
+        "code": "LQ/FLG2V17",
+        "name": "Two tank gas fryer.",
+        "url": "https://casta.com/en/product/lq-flg2v17/",
+        "image": "https://casta.com/wp-content/uploads/2014/03/L9-FLG2V17-800X900X850H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2014/03/L9-FLG2V17-800X900X850H_DX-877x750.png",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 98,
+            "volume": 0.6,
+            "gas_power": 33,
+            "number_of_tanks": 2,
+            "tanks_capacity": "1 x 17 lt + 1 x 17 lt"
+        }
+    },
+    {
+        "code": "LQ/FRE2V21",
+        "name": "Two tanks electric fryer.",
+        "url": "https://casta.com/en/product/lq-fre2v21-2/",
+        "image": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V17-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V17-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 110,
+            "volume": 0.6,
+            "electric_power": "40,0 400V3N~",
+            "electric_intensity": "50/60",
+            "number_of_tanks": 2,
+            "tanks_capacity": "1 x 21 lt + 1 x 21 lt"
+        }
+    },
+    {
+        "code": "LQ/CUG4BB.1P1M2G",
+        "name": "Four burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug4bb-1p1m2g/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG4BB-800X900X270H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG4BB-800X900X270H-878x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 270,
+            "depth": 900,
+            "weight": 70,
+            "volume": 0.2,
+            "gas_power": 23.8,
+            "burners": 4,
+            "burners_combination": "1X 3,5 + 1x 5,5 kW +2x 7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/ENN2BA",
+        "name": "Neutral unit.",
+        "url": "https://casta.com/en/product/lq-enn2ba/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN2BA-400X900X850H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN2BA-400X900X850H_DX-877x750.png",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 50,
+            "volume": 0.3
+        }
+    },
+    {
+        "code": "LQ/ENN2CA",
+        "name": "Neutral unit with drawer.",
+        "url": "https://casta.com/en/product/lq-enn2ca-2/",
+        "image": "https://casta.com/wp-content/uploads/2022/01/LQ-ENN2CA-400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/01/LQ-ENN2CA-400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 48,
+            "volume": 0.3
+        }
+    },
+    {
+        "code": "LQ/FRG1V17",
+        "name": "One tank gas fryer.",
+        "url": "https://casta.com/en/product/lq-frg1v17/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG1V17-400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG1V17-400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 62,
+            "volume": 0.3,
+            "gas_power": 16,
+            "number_of_tanks": 1,
+            "tanks_capacity": "1 x 17 lt"
+        }
+    },
+    {
+        "code": "LQ/CQE6BA",
+        "name": "Electric range.",
+        "url": "https://casta.com/en/product/lq-cqe6ba/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CQE6BA-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-CQE6BA-793x750.png",
+        "specs": {
+            "width": 1200,
+            "height": 850,
+            "depth": 900,
+            "weight": 130,
+            "volume": 0.9,
+            "electric_power": "24,0 400V3N~",
+            "electric_intensity": "50/60",
+            "electric_cooking_areas": "6 x 4,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/FRG1V21",
+        "name": "One tank gas fryer.",
+        "url": "https://casta.com/en/product/lq-frg1v21/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG1V17-400X900X850H_DX-1-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG1V17-400X900X850H_DX-1-877x750.jpg",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 62,
+            "volume": 0.3,
+            "gas_power": 19,
+            "number_of_tanks": 1,
+            "tanks_capacity": "1 x 21 lt"
+        }
+    },
+    {
+        "code": "LQ/ENN4BA",
+        "name": "Neutral unit.",
+        "url": "https://casta.com/en/product/lq-enn4ba-2/",
+        "image": "https://casta.com/wp-content/uploads/2022/03/LQ-ENN4BA-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/03/LQ-ENN4BA-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 112,
+            "volume": 0.6
+        }
+    },
+    {
+        "code": "LQ/CQE4NE",
+        "name": "Electric range.",
+        "url": "https://casta.com/en/product/lq-cqe4le-2/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-CQE4LE-800X900X850H-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-CQE4LE-800X900X850H-835x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 155,
+            "volume": 0.6,
+            "electric_power": "21,48 400V3N~",
+            "electric_intensity": "50/60",
+            "electric_cooking_areas": "4 x  4,0 kW 400V3N~",
+            "oven": "1 x 5,48 kW 400V3N~",
+            "oven_internal_dimensions": "685X530X350"
+        }
+    },
+    {
+        "code": "LQ/FRG2V17",
+        "name": "Two tanks gas fryer.",
+        "url": "https://casta.com/en/product/lq-frg2v17/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG2V13-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG2V13-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 124,
+            "volume": 0.6,
+            "gas_power": 32,
+            "number_of_tanks": 2,
+            "tanks_capacity": "2 x 17 lt"
+        }
+    },
+    {
+        "code": "LQ/ENN4CA",
+        "name": "Neutral unit.",
+        "url": "https://casta.com/en/product/lq-enn4ca/",
+        "image": "https://casta.com/wp-content/uploads/2021/04/LQ-ENN4CA-800X900X850H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/04/LQ-ENN4CA-800X900X850H_DX-877x750.png",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 90,
+            "volume": 0.6
+        }
+    },
+    {
+        "code": "LQ/CUG6BB.1P2M3G",
+        "name": "Six burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug6bb-1p2m3g/",
+        "image": "https://casta.com/wp-content/uploads/2022/03/LQ-CUG6BB-1200X900X270H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/03/LQ-CUG6BB-1200X900X270H-878x750.jpg",
+        "specs": {
+            "width": 1200,
+            "height": 270,
+            "depth": 900,
+            "volume": 0.3,
+            "gas_power": 36.7,
+            "burners": 6,
+            "burners_combination": "1x3,5 kW +2x5,5 kW + 3x7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/FRG2V21",
+        "name": "Two tanks gas fryer.",
+        "url": "https://casta.com/en/product/lq-frg2v21/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG2V17-800X900X850H_DX-1-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG2V17-800X900X850H_DX-1-877x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 124,
+            "volume": 0.6,
+            "gas_power": 38,
+            "number_of_tanks": 2,
+            "tanks_capacity": "2 x 21 lt"
+        }
+    },
+    {
+        "code": "LQ/CUG8BB.2P2M4G",
+        "name": "Eight burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug8bb-2p2m4g/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8BB-1600X900X270H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8BB-1600X900X270H-878x750.jpg",
+        "specs": {
+            "width": 1600,
+            "height": 270,
+            "depth": 900,
+            "weight": 140,
+            "volume": 0.4,
+            "gas_power": 47.6,
+            "burners": 8,
+            "burners_combination": "2X 3,5 + 2x 5,5 kW +4x 7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/CUG2BA.1M1G",
+        "name": "Two burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug2ba-1m1g/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CUG2BA-400X900X850H-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-CUG2BA-400X900X850H-878x750.png",
+        "specs": {
+            "width": 400,
+            "height": 850,
+            "depth": 900,
+            "weight": 60,
+            "volume": 0.3,
+            "gas_power": 12.9,
+            "burners": 2,
+            "burners_combination": "1x7,4 kW + 1x5,5 kW"
+        }
+    },
+    {
+        "code": "LQ/CUG4BA.1P1M2G",
+        "name": "Four burner gas range.",
+        "url": "https://casta.com/en/product/l9cug4ba-1p1m2g/",
+        "image": "https://casta.com/wp-content/uploads/2014/02/LQ-CUG4BA-800X900X850H-1-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/02/LQ-CUG4BA-800X900X850H-1-878x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 85,
+            "volume": 0.6,
+            "gas_power": 23.8,
+            "burners": 4,
+            "burners_combination": "1x3,5 kW +1x5,5 kW + 2x7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/CUG4BA.4G",
+        "name": "Four burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug4ba-4g/",
+        "image": "https://casta.com/wp-content/uploads/2022/01/LQ-CUG4BA-800X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/01/LQ-CUG4BA-800X900X850H-878x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 85,
+            "volume": 0.6,
+            "gas_power": 29.6,
+            "burners": "4x7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/CUG6BA.6G",
+        "name": "Six burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug6ba-6g/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG6BA-1200X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG6BA-1200X900X850H-878x750.jpg",
+        "specs": {
+            "width": 1200,
+            "height": 850,
+            "depth": 900,
+            "weight": 120,
+            "volume": 0.9,
+            "gas_power": 44.4,
+            "burners": 6,
+            "burners_combination": "6x 7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/CUG8BA.2P2M4G",
+        "name": "Eight burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug8ba-2p2m4g/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8BA-1600X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8BA-1600X900X850H-878x750.jpg",
+        "specs": {
+            "width": 1600,
+            "height": 850,
+            "depth": 900,
+            "weight": 170,
+            "volume": 1.2,
+            "gas_power": 47.6,
+            "burners": 8,
+            "burners_combination": "2x3,5 kW +2x5,5 kW + 4x7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/CUG4NG.1P1M2G",
+        "name": "Four burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug4ng-1p1m2g/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CUG4LO-800X900X850H-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-CUG4LO-800X900X850H-878x750.png",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 143,
+            "volume": 0.6,
+            "gas_power": 32.4,
+            "burners": 4,
+            "burners_combination": "1 x 3,5 kW + 1 x 5,5 kW + 2 x 7,4 kW",
+            "oven": "1 x 8,6 kW",
+            "oven_internal_dimensions": "540x745x340h"
+        }
+    },
+    {
+        "code": "LQ/CUG4NG.4G",
+        "name": "Four burner stainless steel gas range.",
+        "url": "https://casta.com/en/product/lq-cug4ng-4g/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG4NG-800X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG4NG-800X900X850H-878x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 144,
+            "volume": 0.6,
+            "gas_power": 38.2,
+            "burners": 4,
+            "burners_combination": "4 x 7,4 kW",
+            "oven": "1 x 8,6 kW",
+            "oven_internal_dimensions": "540x340x745"
+        }
+    },
+    {
+        "code": "LQ/CUG4NE.1P1M2G",
+        "name": "Four burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug4ne-1p1m2g/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CUG4LE-800X900X850H-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-CUG4LE-800X900X850H-878x750.png",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 143,
+            "volume": 0.6,
+            "gas_power": 23.8,
+            "electric_power": "5,48 400V3N~",
+            "electric_intensity": "50/60",
+            "burners": 4,
+            "burners_combination": "1 x 3,5 kW + 1 x 5,5 kW + 2 x 7,4 kW",
+            "oven": "1 x 5,48 400V3N~",
+            "oven_internal_dimensions": "685X530X350"
+        }
+    },
+    {
+        "code": "LQ/CUG4NE.4G",
+        "name": "Four burner gas range.",
+        "url": "https://casta.com/en/product/l9cug4le-4g/",
+        "image": "https://casta.com/wp-content/uploads/2014/02/LQ-CUG4NE-800X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/02/LQ-CUG4NE-800X900X850H-878x750.jpg",
+        "specs": {
+            "width": 800,
+            "height": 850,
+            "depth": 900,
+            "weight": 152,
+            "volume": 0.6,
+            "gas_power": 29.6,
+            "electric_power": "5,48 400V3N~",
+            "electric_intensity": "50/60",
+            "burners": 4,
+            "burners_combination": "4 x 7,4 kW",
+            "oven": "1 x 5,48 400V3N~",
+            "oven_internal_dimensions": "685X530X350"
+        }
+    },
+    {
+        "code": "LQ/CUG6NG.1P2M3G",
+        "name": "Six burner stainless steel gas range.",
+        "url": "https://casta.com/en/product/lq-cug6ng-1p2m3g/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-CUG6NG-1200X900X850H-1-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-CUG6NG-1200X900X850H-1-878x750.jpg",
+        "specs": {
+            "width": 1200,
+            "height": 850,
+            "depth": 900,
+            "weight": 200,
+            "volume": 0.9,
+            "gas_power": 45.3,
+            "burners": 6,
+            "burners_combination": "1 x 3,5 kW + 2 x 5,5 kW + 3 x 7,4 kW",
+            "oven": "1 x 8,6 kW",
+            "oven_internal_dimensions": "540x340x745"
+        }
+    },
+    {
+        "code": "LQ/CUG6NG.6G",
+        "name": "Six burner stainless steel gas range.",
+        "url": "https://casta.com/en/product/l9-cug6ng-6g/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG6NG-1200X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG6NG-1200X900X850H-878x750.jpg",
+        "specs": {
+            "width": 1200,
+            "height": 850,
+            "depth": 900,
+            "weight": 200,
+            "volume": 0.9,
+            "gas_power": 53,
+            "burners": 6,
+            "burners_combination": "6 x 7,4 kW",
+            "oven": "1 x 8,6 kW",
+            "oven_internal_dimensions": "540x340x745"
+        }
+    },
+    {
+        "code": "LQ/CUG6NE.1P2M3G",
+        "name": "Six burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug6ne-1p2m3g/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CUG6LE-1200X900X850H-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-CUG6LE-1200X900X850H-878x750.png",
+        "specs": {
+            "width": 1200,
+            "height": 850,
+            "depth": 900,
+            "weight": 198,
+            "volume": 0.9,
+            "gas_power": 36.7,
+            "electric_power": "5,48 400V3N~",
+            "electric_intensity": "50/60",
+            "burners": 6,
+            "burners_combination": "1 x 3,5 kW + 2 x 5,5 kW + 3 x 7,4 kW",
+            "oven": "1 x 5,48 400V3N~",
+            "oven_internal_dimensions": "685X530X350"
+        }
+    },
+    {
+        "code": "LQ/CUG6NE.6G",
+        "name": "Six burner gas range.",
+        "url": "https://casta.com/en/product/lq-cug6ne-6g/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG6NE-1200X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG6NE-1200X900X850H-878x750.jpg",
+        "specs": {
+            "width": 1200,
+            "height": 850,
+            "depth": 900,
+            "weight": 228,
+            "volume": 0.9,
+            "gas_power": 44.4,
+            "electric_power": "5,48 400V3N~",
+            "electric_intensity": "50/60",
+            "burners": 6,
+            "burners_combination": "6 x 7,4 kW",
+            "oven": "1 x 5,48 400V3N~",
+            "oven_internal_dimensions": "685X530X350"
+        }
+    },
+    {
+        "code": "LQ/KUG2BB.1M1G",
+        "name": "Two burner gas range.",
+        "url": "https://casta.com/en/product/lq-kug2bb-1m1g/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG2BB-400X900X270H-1-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG2BB-400X900X270H-1-878x750.jpg",
+        "specs": {
+            "width": 450,
+            "height": 270,
+            "depth": 900,
+            "weight": 40,
+            "volume": 0.1,
+            "gas_power": 12.9,
+            "burners": 2,
+            "burners_combination": "1x5,5 kW +1x 7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/KUG4BB.1P1M2G",
+        "name": "Four burner gas range.",
+        "url": "https://casta.com/en/product/lq-kug4bb-1p1m2g/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG4BB-800X900X270H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG4BB-800X900X270H-878x750.jpg",
+        "specs": {
+            "width": 900,
+            "height": 270,
+            "depth": 900,
+            "weight": 75,
+            "volume": 0.2,
+            "burners": 4,
+            "burners_combination": "1X 3,5 + 1x 5,5 kW +2x 7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/KUG6BB.1P2M3G",
+        "name": "Six burner gas range.",
+        "url": "https://casta.com/en/product/lq-kug6bb-1p2m3g/",
+        "image": "https://casta.com/wp-content/uploads/2022/03/LQ-CUG6BB-1200X900X270H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/03/LQ-CUG6BB-1200X900X270H-878x750.jpg",
+        "specs": {
+            "width": 1350,
+            "height": 270,
+            "depth": 900,
+            "volume": 0.3,
+            "gas_power": 36.7,
+            "burners": 6,
+            "burners_combination": "1x3,5 kW +2x5,5 kW + 3x7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/KUG8BB.2P2M4G",
+        "name": "Eight burner gas range.",
+        "url": "https://casta.com/en/product/lq-kug8bb-2p2m4g/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8BB-1600X900X270H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8BB-1600X900X270H-878x750.jpg",
+        "specs": {
+            "width": 1800,
+            "height": 270,
+            "depth": 900,
+            "weight": 145,
+            "volume": 0.4,
+            "gas_power": 47.6,
+            "burners": 8,
+            "burners_combination": "2X 3,5 + 2x 5,5 kW +4x 7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/KUG2BA.1M1G",
+        "name": "Two burner gas range.",
+        "url": "https://casta.com/en/product/lq-kug2ba-1m1g/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CUG2BA-400X900X850H-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-CUG2BA-400X900X850H-878x750.png",
+        "specs": {
+            "width": 450,
+            "height": 850,
+            "depth": 900,
+            "weight": 65,
+            "volume": 0.3,
+            "gas_power": 12.9,
+            "burners": 2,
+            "burners_combination": "1x7,4 kW + 1x5,5 kW"
+        }
+    },
+    {
+        "code": "LQ/KUG4BA.1P1M2G",
+        "name": "Four burner gas range.",
+        "url": "https://casta.com/en/product/lq-kug4ba-1p1m2g/",
+        "image": "https://casta.com/wp-content/uploads/2014/02/LQ-CUG4BA-800X900X850H-1-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/02/LQ-CUG4BA-800X900X850H-1-878x750.jpg",
+        "specs": {
+            "width": 900,
+            "height": 850,
+            "depth": 900,
+            "weight": 90,
+            "volume": 0.6,
+            "gas_power": 23.8,
+            "burners": 4,
+            "burners_combination": "1x3,5 kW +1x5,5 kW + 2x7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/KUG6BA.1P2M3G",
+        "name": "Six burner gas range.",
+        "url": "https://casta.com/en/product/lq-kug6ba-1p2m3g/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG6BA-1200X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG6BA-1200X900X850H-878x750.jpg",
+        "specs": {
+            "width": 1350,
+            "height": 850,
+            "depth": 900,
+            "weight": 155,
+            "volume": 0.9,
+            "gas_power": 36.7,
+            "burners": 6,
+            "burners_combination": "1x3,5 kW +2x5,5 kW + 3x7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/KUG8BA.2P2M4G",
+        "name": "Eight burner gas range.",
+        "url": "https://casta.com/en/product/lq-kug8ba-2p2m4g-2/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8BA-1600X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8BA-1600X900X850H-878x750.jpg",
+        "specs": {
+            "width": 1800,
+            "height": 850,
+            "depth": 900,
+            "weight": 180,
+            "volume": 1.4,
+            "gas_power": 47.6,
+            "burners": 8,
+            "burners_combination": "2x3,5 kW +2x5,5 kW + 4x7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/KUG4NG.1P1M2G",
+        "name": "Four burner gas range.",
+        "url": "https://casta.com/en/product/lq-kug4ng-1p1m2g/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG4NG-800X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG4NG-800X900X850H-878x750.jpg",
+        "specs": {
+            "width": 900,
+            "height": 900,
+            "depth": 850,
+            "weight": 150,
+            "volume": 0.7,
+            "gas_power": 32.4,
+            "burners": 4,
+            "burners_combination": "1 x 3,5 kW + 1 x 5,5 kW + 2 x 7,4 kW",
+            "oven": "1 x 8,6 kW",
+            "oven_internal_dimensions": "540x745x340h"
+        }
+    },
+    {
+        "code": "LQ/KUG4NE.1P1M2G",
+        "name": "Four burner gas range.",
+        "url": "https://casta.com/en/product/lq-kug4ne-1p1m2g/",
+        "image": "https://casta.com/wp-content/uploads/2014/02/LQ-CUG4NE-800X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/02/LQ-CUG4NE-800X900X850H-878x750.jpg",
+        "specs": {
+            "width": 900,
+            "height": 850,
+            "depth": 900,
+            "weight": 150,
+            "volume": 0.7,
+            "gas_power": 23.8,
+            "electric_power": "5,48 400V3N~",
+            "electric_intensity": "50/60",
+            "burners": 4,
+            "burners_combination": "1 x 3,5 kW + 1 x 5,5 kW + 2 x 7,4 kW",
+            "oven": "1 x 5,48 400V3N~",
+            "oven_internal_dimensions": "685X530X350"
+        }
+    },
+    {
+        "code": "LQ/KUG6NG.1P2M3G",
+        "name": "Six burner stainless steel gas range.",
+        "url": "https://casta.com/en/product/lq-kug6ng-1p2m3g/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-CUG6NG-1200X900X850H-1-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-CUG6NG-1200X900X850H-1-878x750.jpg",
+        "specs": {
+            "width": 1350,
+            "height": 850,
+            "depth": 900,
+            "weight": 210,
+            "volume": 1,
+            "gas_power": 45.3,
+            "burners": 6,
+            "burners_combination": "1 x 3,5 kW + 2 x 5,5 kW + 3 x 7,4 kW",
+            "oven": "1 x 8,6 kW",
+            "oven_internal_dimensions": "540x745x310h"
+        }
+    },
+    {
+        "code": "LQ/KUG6NG.6G",
+        "name": "Cucina a gas a sei fuochi.",
+        "url": "https://casta.com/en/product/lq-kug6ng-6g/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-CUG6NG-1200X900X850H-1-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-CUG6NG-1200X900X850H-1-878x750.jpg",
+        "specs": {
+            "width": 1350,
+            "height": 850,
+            "depth": 900,
+            "gas_power": 53,
+            "burners": 6,
+            "burners_combination": "6x 7,4 kW",
+            "oven": "1 x 8,6 kW",
+            "oven_internal_dimensions": "540x745x310h"
+        }
+    },
+    {
+        "code": "LQ/KUG6NE.1P2M3G",
+        "name": "Six burner gas range.",
+        "url": "https://casta.com/en/product/lq-kug6ne-1p2m3g/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG6NE-1200X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG6NE-1200X900X850H-878x750.jpg",
+        "specs": {
+            "width": 1350,
+            "height": 850,
+            "depth": 900,
+            "weight": 210,
+            "volume": 1,
+            "gas_power": 36.7,
+            "electric_power": "5,48 400V3N~",
+            "electric_intensity": "50/60",
+            "burners": 6,
+            "burners_combination": "1 x 3,5 kW + 2 x 5,5 kW + 3 x 7,4 kW",
+            "oven": "1 x 5,48 400V3N~",
+            "oven_internal_dimensions": "685X530X350"
+        }
+    }
+]
