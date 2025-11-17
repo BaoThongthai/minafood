@@ -1,0 +1,68 @@
+[
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/speed-x-xepa-0523-exrn-et/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-combi-speed-oven-XEPA-0523-EXRN-ET-electric.webp",
+        "badge": "",
+        "model": "XEPA-0523-EXRN-ET",
+        "productType": "Speed",
+        "series": [
+            "SPEED-X™ Digital.ID™",
+            "Digital.ID™",
+            "COUNTERTOP"
+        ],
+        "name": "5 GN 2/3 vsuvů",
+        "power": "Elektrický",
+        "features": [
+            "XEPA-0523-EXRN-ET",
+            "Speed",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Automatické mytí",
+            "utomatické programy",
+            "Mikrovlnná",
+            "Pokročilá digitální inteligence",
+            "bez DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": "316 260,00 Kč",
+        "price_czk": 316260,
+        "vat_note": "bez DPH"
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/speed-x-xepa-0523-exrn/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-combi-speed-oven-XEPA-0523-EXRN-electric.webp",
+        "badge": "",
+        "model": "XEPA-0523-EXRN",
+        "productType": "Speed",
+        "series": [
+            "SPEED-X™ Digital.ID™",
+            "Digital.ID™",
+            "COUNTERTOP"
+        ],
+        "name": "5 GN 2/3 vsuvů",
+        "power": "Elektrický",
+        "features": [
+            "XEPA-0523-EXRN",
+            "Speed",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Automatické mytí",
+            "utomatické programy",
+            "Mikrovlnná",
+            "Pokročilá digitální inteligence",
+            "bez DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": "303 660,00 Kč",
+        "price_czk": 303660,
+        "vat_note": "bez DPH"
+    }
+]

@@ -3,6 +3,11 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+            "titel_Teplá_chladnička_small": "Systémy Unox pro uchování a konzervaci pokrmů za tepla poskytují přesnou kontrolu teploty a vlhkosti, zachovávají organoleptické vlastnosti potravin a zároveň zajišťují maximální bezpečnost.Tyto systémy umožňují skladování při provozní teplotě po dobu až 72 hodin, zlepšují provoz kuchyně tím, že snižují plýtvání potravinami, spotřebu energie a vyhoření personálu.V důsledku toho jsou systémy Unox ideální pro centrální kuchyně, cateringové podniky, hotelové kuchyně a restaurace s rychlým občerstvením.Celkově řešení EVEREO® nabízí vynikající alternativu k tradičním metodám regenerace a šokového chlazení.",
+            "titel_Teplá_chladnička": "Teplá chladnička",
+            "titel_prumyslove_konvekcni_pece": "Průmyslové konvekční pece",
+            "titel_industrial_combination_ovens_with_humidity": "Průmyslové konvektomaty s vlhkostí",
+            "titel_profesionální_pece_pro_maloobchod": "Profesionální pece pro maloobchod",
             "konvektomaty13_title": "Profesionální konvektomaty vozíkové.",
             "unox_showall_tittle_small": "Prozkoumejte celou řadu produktů Unox, včetně profesionálních konvekčních pecí, profesionálních konvektomatů, profesionálních rychloohřevných pecí a systémů pro uchovávání teplých potravin. Použijte naše filtry, abyste rychle našli to, co nejlépe vyhovuje vašim potřebám. Nejste si jisti, která komerční trouba je pro vaši firmu nejlepší? Vyzkoušejte funkci „porovnat“ na našich produktových listech nebo si promluvte přímo s našimi odborníky!",
             "konvektomaty66": "Průmyslové konvektomaty na podestavbu",
@@ -339,6 +344,11 @@
         },
 
         en: {
+            "titel_Teplá_chladnička_small": "Unox systems for hot food storage and preservation provide precise control of temperature and humidity, preserve the organoleptic properties of food, and ensure maximum safety. These systems allow storage at operating temperature for up to 72 hours, improve kitchen operation by reducing food waste, energy consumption, and staff burnout. As a result, Unox systems are ideal for central kitchens, catering businesses, hotel kitchens, and fast food restaurants. Overall, the EVEREO® solution offers an excellent alternative to traditional regeneration and shock cooling methods.",
+            "titel_Teplá_chladnička": "Heated Refrigerator",
+            "titel_Prumyslove_konvekcni_pece": "Industrial Convection Ovens",
+            "titel_industrial_combination_ovens_with_humidity": "Industrial Combi Ovens with Humidity",
+            "titel_profesionální_pece_pro_maloobchod": "Professional Ovens for Retail",
             "titel_Professional_speed_oven": "Professional Speed Ovens",
             "titel_commercial_speed_ovens": "Unox commercial speed ovens are designed to deliver fast, efficient cooking performance for busy kitchens. These ovens utilize advanced heating technology to rapidly heat up and cook food, making them ideal for high-volume foodservice operations. With user-friendly controls and versatile cooking options, Unox speed ovens help streamline kitchen workflows while ensuring consistent, high-quality results.",
             "unox_showall_tittle_small": "Explore the full range of Unox products, including professional convection ovens, professional combi ovens, professional rapid ovens and hot food storage systems. Use our filters to quickly find what best suits your needs. Not sure which commercial oven is best for your business? Try the compare feature on our product sheets or talk directly to our experts!",

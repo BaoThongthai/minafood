@@ -1,0 +1,91 @@
+[
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/speedpro-xesr-03hs-mddn/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-convection-speed-oven-XESR-03HS-MDDN-electric.webp",
+        "badge": "",
+        "model": "XESR-03HS-MDDN",
+        "productType": "Speed",
+        "series": [
+            "SPEED.Pro™",
+            "COUNTERTOP"
+        ],
+        "name": "3 460x330 vsuvů",
+        "power": "Elektrický",
+        "features": [
+            "XESR-03HS-MDDN",
+            "Speed",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Mikrovlnná",
+            "bez DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": "191 520,00 Kč",
+        "price_czk": 191520,
+        "vat_note": "bez DPH"
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/speedpro-xesr-03hs-eddn/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-convection-speed-oven-XESR-03HS-EDDN-electric.webp",
+        "badge": "",
+        "model": "XESR-03HS-EDDN",
+        "productType": "Speed",
+        "series": [
+            "SPEED.Pro™",
+            "COUNTERTOP"
+        ],
+        "name": "3 460x330 vsuvů",
+        "power": "Elektrický",
+        "features": [
+            "XESR-03HS-EDDN",
+            "Speed",
+            "Digital Panel",
+            "Řízení vlhkosti",
+            "Konektivita a IoT",
+            "Mikrovlnná",
+            "bez DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": "191 520,00 Kč",
+        "price_czk": 191520,
+        "vat_note": "bez DPH"
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/konvektomaty/speedcompact-eco-xema-01ns-mcdn/",
+        "image": "https://www.unox.com/unox/media/contents/commercial-speed-oven-XEMA-01NS-MCDN-electric.webp",
+        "badge": "Nové",
+        "model": "XEMA-01NS-MCDN",
+        "productType": "Speed",
+        "series": [
+            "SPEED.Compact™ ECO",
+            "ECO",
+            "COUNTERTOP"
+        ],
+        "name": "1 300x300 vsuvů",
+        "power": "Elektrický",
+        "features": [
+            "Nové",
+            "XEMA-01NS-MCDN",
+            "Speed",
+            "Digital Panel",
+            "Konektivita a IoT",
+            "utomatické programy",
+            "Mikrovlnná",
+            "bez DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": "115 000,00 Kč",
+        "price_czk": 115000,
+        "vat_note": "bez DPH"
+    }
+]
