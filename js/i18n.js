@@ -3,6 +3,16 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+            "unox_filter_title": "Péče a údržba",
+
+            "unox_filter_show_all": "Zobrazit vše",
+            "unox_filter_auto_wash": "Mycí prostředky pro automatické mytí",
+            "unox_filter_manual_wash": "Čisticí prostředky pro ruční mytí",
+            "unox_filter_descaler": "Descaler",
+            "unox_filter_set": "Mycí sada",
+
+            "unox_filter_price": "Cena",
+            "unox_filter_price_range": "{min} Kč – {max} Kč",
             "titel_Teplá_chladnička_small": "Systémy Unox pro uchování a konzervaci pokrmů za tepla poskytují přesnou kontrolu teploty a vlhkosti, zachovávají organoleptické vlastnosti potravin a zároveň zajišťují maximální bezpečnost.Tyto systémy umožňují skladování při provozní teplotě po dobu až 72 hodin, zlepšují provoz kuchyně tím, že snižují plýtvání potravinami, spotřebu energie a vyhoření personálu.V důsledku toho jsou systémy Unox ideální pro centrální kuchyně, cateringové podniky, hotelové kuchyně a restaurace s rychlým občerstvením.Celkově řešení EVEREO® nabízí vynikající alternativu k tradičním metodám regenerace a šokového chlazení.",
             "titel_Teplá_chladnička": "Teplá chladnička",
             "titel_prumyslove_konvekcni_pece": "Průmyslové konvekční pece",
@@ -303,6 +313,7 @@
             "cat.gline": "SÉRIE G-LINE",
             "cat.wastecoolers": "NEREZOVÉ CHLADICÍ KOMORY NA ODPAD",
             "cat.traysealers": "SVÁŘEČKY PODNOSŮ",
+
             "cat.convectionovens": "KONVEKTOMATY A HORKOVZDUŠNÉ TROUBY",
             "page.gastro.title": "Gastro-a-kuchyně",
             "page.gastro.Fritezy_katagory": "Fritézy_katagory",
@@ -344,6 +355,16 @@
         },
 
         en: {
+            "unox_filter_title": "Care and Maintenance",
+
+            "unox_filter_show_all": "Show all",
+            "unox_filter_auto_wash": "Automatic washing detergents",
+            "unox_filter_manual_wash": "Manual cleaning detergents",
+            "unox_filter_descaler": "Descaler",
+            "unox_filter_set": "Washing set",
+
+            "unox_filter_price": "Price",
+            "unox_filter_price_range": "{min} Kč – {max} Kč",
             "titel_Teplá_chladnička_small": "Unox systems for hot food storage and preservation provide precise control of temperature and humidity, preserve the organoleptic properties of food, and ensure maximum safety. These systems allow storage at operating temperature for up to 72 hours, improve kitchen operation by reducing food waste, energy consumption, and staff burnout. As a result, Unox systems are ideal for central kitchens, catering businesses, hotel kitchens, and fast food restaurants. Overall, the EVEREO® solution offers an excellent alternative to traditional regeneration and shock cooling methods.",
             "titel_Teplá_chladnička": "Heated Refrigerator",
             "titel_Prumyslove_konvekcni_pece": "Industrial Convection Ovens",
