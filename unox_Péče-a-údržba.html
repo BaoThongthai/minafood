@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>MinaFood - Konvektomaty,pece a řešení Unox.</title>
+  <title>MinaFood - Care and maintenance</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <!-- minafood -->
   <meta name="description"
@@ -109,6 +109,8 @@
       background-color: #e6f0ff;
     }
   </style>
+  <link rel="stylesheet" href="style-menungang.css">
+  <script src="scripst-menungang.js"></script>
 </head>
 
 <body>
@@ -175,6 +177,7 @@
           </div>
         </div>
       </nav>
+
     </div>
   </div>
   <!-- Navbar End -->
@@ -196,14 +199,9 @@
         "></div>
 
     <div class="container position-relative z-1 text-white">
-      <h1 class="fw-bold display-5 mb-3 text-uppercase" style="color: white" data-i18n="Unox_showall_169.title">
-        Konvektomaty,pece a řešení Unox.
+      <h1 class="fw-bold display-5 mb-3 text-uppercase" style="color: white" data-i18n="Pece_a_udrzba.title">
+        Péče a údržba
       </h1>
-      <small data-i18n="unox_showall_tittle_small">Prozkoumejte celou řadu produktů Unox, včetně profesionálních
-        konvekčních pecí, profesionálních konvektomatů, profesionálních rychloohřevných pecí a systémů pro uchovávání
-        teplých potravin. Použijte naše filtry, abyste rychle našli to, co nejlépe vyhovuje vašim potřebám. Nejste si
-        jisti, která komerční trouba je pro vaši firmu nejlepší? Vyzkoušejte funkci „porovnat“ na našich produktových
-        listech nebo si promluvte přímo s našimi odborníky!.</small>
       <a href="index.html#Kategorie">
         <p class="mb-0 mt-3" style="color: antiquewhite">
           <i class="fa-solid fa-house" style="color: white"></i>&nbsp; Back
@@ -227,19 +225,158 @@
     <div class="container py-5">
       <div class="row g-4">
         <!-- Cột FILTER bên trái -->
-        <!-- Cột CATEGORY bên trái (giống Unox accessories) -->
         <aside class="col-lg-3 mb-4">
           <div class="p-3 border rounded bg-white">
-            <nav id="side-category" class="mf-cat-nav">
-              <!-- JS sẽ tự render:
-                  - Zobrazit vše (tổng số)
-                  - Trays starter kit (1)
-                  - Steaming and Sous Vide (8)
-                  - ...
-              -->
+            <nav id="side-category" class="mf-cat-nav mb-4">
+              <!-- Show all -->
+              <a href="#" class="mf-cat-link" data-cat="all">
+                <span data-i18n="unox_filter_show_all">Zobrazit vše</span>
+                <span> (22)</span>
+              </a>
+
+              <!-- Tiêu đề Péče a údržba -->
+              <div class="mt-2 mb-1 fw-semibold" data-i18n="unox_filter_care_title">
+                Péče a údržba
+              </div>
+
+              <!-- Mycí prostředky pro automatické mytí -->
+              <a href="#" class="mf-cat-link" data-cat="myc%C3%AD-prost%C5%99edky-pro-automatick%C3%A9-myt%C3%AD">
+                <span data-i18n="unox_filter_auto_wash">
+                  Mycí prostředky pro automatické mytí
+                </span>
+                <span> (5)</span>
+              </a>
+
+              <!-- Čisticí prostředky pro ruční mytí -->
+              <a href="#" class="mf-cat-link"
+                data-cat="%C4%8Distic%C3%AD-prost%C5%99edky-pro-ru%C4%8Dn%C3%AD-myt%C3%AD">
+                <span data-i18n="unox_filter_manual_wash">
+                  Čisticí prostředky pro ruční mytí
+                </span>
+                <span> (1)</span>
+              </a>
+
+              <!-- Descaler -->
+              <a href="#" class="mf-cat-link" data-cat="descaler">
+                <span data-i18n="unox_filter_descaler">Descaler</span>
+                <span> (2)</span>
+              </a>
+
+              <!-- Mycí sada -->
+              <a href="#" class="mf-cat-link" data-cat="myc%C3%AD-sada">
+                <span data-i18n="unox_filter_wash_kit">Mycí sada</span>
+                <span> (5)</span>
+              </a>
+
+              <!-- Tiêu đề Úprava vody -->
+              <div class="mt-2 mb-1 fw-semibold" data-i18n="unox_filter_water_title">
+                Úprava vody
+              </div>
+
+              <!-- Úprava vody pryskyřičnými filtry -->
+              <a href="#" class="mf-cat-link" data-cat="%C3%BAprava-vody-prysky%C5%99i%C4%8Dn%C3%BDmi-filtry">
+                <span data-i18n="unox_filter_resin_water">
+                  Úprava vody pryskyřičnými filtry
+                </span>
+                <span> (7)</span>
+              </a>
+
+              <!-- Úprava vody reverzní osmózou -->
+              <a href="#" class="mf-cat-link" data-cat="%C3%BAprava-vody-reverzn%C3%AD-osm%C3%B3zou">
+                <span data-i18n="unox_filter_osmosis_water">
+                  Úprava vody reverzní osmózou
+                </span>
+                <span> (2)</span>
+              </a>
+
+              <!-- Tiêu đề Úprava výstupní vody -->
+              <div class="mt-2 mb-1 fw-semibold" data-i18n="unox_filter_output_title">
+                Úprava výstupní vody
+              </div>
+
+              <!-- Chlazení výparů (1) -->
+              <a href="#" class="mf-cat-link" data-cat="chlazen%C3%AD-v%C3%BDpar%C5%AF">
+                <span data-i18n="unox_filter_steam_cooling">
+                  Chlazení výparů
+                </span>
+                <span> (1)</span>
+              </a>
+            </nav>
+
+            <!-- PRICE FILTER (CENA) -->
+            <div id="price-filter">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <span class="fw-semibold small text-uppercase" data-i18n="unox_filter_price_label">
+                  CENA
+                </span>
+                <span class="small">
+                  <span id="price-min-label">860</span> Kč –
+                  <span id="price-max-label">3 000</span> Kč
+                </span>
+              </div>
+
+              <!-- 2 thanh range cho min / max – JS sau này bind sự kiện -->
+              <input type="range" id="price-min" class="form-range" min="0" max="3000" value="860">
+              <input type="range" id="price-max" class="form-range mt-2" min="0" max="3000" value="3000">
+            </div>
+
+          </div>
+          <br>
+          <!-- BOX 2: ALL UNOX ACCESSORIES (phần quanh đỏ) -->
+          <div class="p-3 border rounded bg-white">
+            <nav class="mf-cat-nav">
+              <a href="unox_showall_phukien.html" class="mf-cat-link parent-link mt-2 mb-1 fw-semibold"
+                data-i18n="unox_Vsechna-prislusenstvi.title">
+                Všechna příslušenství
+              </a>
+
+              <a href="unox_Smart-accessories.html" class="mf-cat-link" data-i18n="unox_cat_smart_accessories">
+                Smart accessories
+              </a>
+
+              <a href="unox_Průmyslové_nádoby.html" class="mf-cat-link" data-i18n="unox_cat_prumyslove_nadoby">
+                Průmyslové nádoby
+              </a>
+
+              <a href="unox_Péče-a-údržba.html" class="mf-cat-link" data-i18n="unox_cat_pece_udrzba">
+                Péče a údržba
+              </a>
+
+              <a href="unox_Gastronomické_doplňky.html" class="mf-cat-link" data-i18n="unox_cat_gastronomicke_doplnky">
+                Gastronomické doplňky
+              </a>
+
+              <a href="unox_Pekařské_příslušenství.html" class="mf-cat-link"
+                data-i18n="unox_cat_pekarstvi_prislusenstvi">
+                Pekařské příslušenství
+              </a>
+
+              <a href="unox_Sada-pro-vakuovani-horkych-produktu.html" class="mf-cat-link"
+                data-i18n="unox_cat_sada_vakuovani_horkych">
+                Sada pro vakuování horkých produktů
+              </a>
+
+              <a href="unox_Systém-odsávání-vzduchu.html" class="mf-cat-link"
+                data-i18n="unox_cat_system_odsavani_vzduchu">
+                Systém odsávání vzduchu
+              </a>
+
+              <a href="unox_Vyrovnani-podlahy.html" class="mf-cat-link" data-i18n="unox_cat_vyrovnani_podlahy">
+                Vyrovnání podlahy
+              </a>
+
+              <a href="unox_Vozik-a-udrzovaci-obal.html" class="mf-cat-link" data-i18n="unox_cat_vozik_udrzovaci_obal">
+                Vozík a udržovací obal
+              </a>
+
+              <a href="unox_Ostatni-prislusenstvi.html" class="mf-cat-link" data-i18n="unox_cat_ostatni_prislusenstvi">
+                Ostatní příslušenství
+              </a>
             </nav>
           </div>
         </aside>
+
+
 
 
 
@@ -379,7 +516,7 @@
   <script src="js/main.js"></script>
   <script src="js/i18n.js"></script>
   <script src="js/cart.js"></script>
-  <script src="js/unox_commercial_tray.js"></script>
+  <script src="js/unox_Care_and_maintenance.js"></script>
 
 </body>
 

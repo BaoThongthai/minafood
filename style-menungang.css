@@ -1,0 +1,93 @@
+.mf-prislu-wrapper {
+    position: relative;
+    /* cho absolute bám vào */
+    display: inline-block;
+}
+
+/* PANEL OVERLAY – ĐÈ LÊN CÁC PHẦN TỬ KHÁC */
+.mf-prislu-panel {
+    position: absolute;
+    top: 100%;
+    /* nằm dưới tiêu đề */
+    left: 0;
+    /* chỉnh theo nhu cầu */
+    width: 300px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, .15);
+    padding: 12px 0;
+
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(5px);
+    transition: 0.2s ease;
+
+    z-index: 9999;
+    /* ĐÈ LÊN TẤT CẢ */
+}
+
+/* DESKTOP – hover mới mở */
+@media (min-width: 992px) {
+    .mf-prislu-wrapper:hover .mf-prislu-panel {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+}
+
+/* MOBILE – mở bằng .is-open (JS gắn class) */
+@media (max-width: 991px) {
+    .mf-prislu-wrapper:hover .mf-prislu-panel {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .mf-prislu-wrapper.is-open .mf-prislu-panel {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+}
+
+/* ITEM TRONG PANEL */
+.mf-prislu-panel .mf-cat-link {
+    display: block;
+    padding: 8px 18px;
+    white-space: nowrap;
+}
+
+.mf-prislu-panel .mf-cat-link:hover {
+    background: #f5f5f5;
+}
+
+
+/* css tiêu đề */
+/* Style cho tiêu đề nhóm trong filter */
+.mf-cat-nav .fw-semibold {
+    font-weight: 700;
+    color: var(--bs-primary, #1f3353);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+    padding: 6px 0 4px 0;
+    margin-top: 12px;
+    margin-bottom: 6px;
+
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.mf-cat-link[data-cat="all"] {
+    background: #f0f4f8;
+    border-radius: 4px;
+    font-weight: 600;
+    padding: 10px;
+    display: block;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    color: var(--bs-primary, #1f3353);
+}
+
+.mf-cat-link[data-cat="all"]:hover {
+    background: #e1e8ef;
+}

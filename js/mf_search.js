@@ -110,6 +110,27 @@
     { json: '/js/data/maythucphamth_maythaithit.json', page: '/maythucphamth_maythaithit.html', cat: 'MAYTHAITHIT' },
     { json: '/js/data/maythucphamth_maykhac.json', page: '/maythucphamth_maykhac.html', cat: 'MAYTHAITHIT' },
     { json: '/js/data/unox_konvektomaty.json', page: '/unox_konvektomaty.html', cat: 'UNOX' },
+    /* ===== UNOX (EXTENDED) ===== */
+    { json: '/js/data/unox_commercial_speed_oven_2.json', page: '/unox_Commercial_2.html', cat: 'UNOX' },
+    { json: '/js/data/unox_commercial_speed_oven_3.json', page: '/unox_Commercial_3.html', cat: 'UNOX' },
+    { json: '/js/data/unox_commercial_speed_oven_5.json', page: '/unox_Commercial_5.html', cat: 'UNOX' },
+    { json: '/js/data/unox_konvektomaty.json', page: '/unox_konvektomaty.html', cat: 'UNOX' },
+    { json: '/js/data/unox_konvektomaty13.json', page: '/unox_konvektomaty_13.html', cat: 'UNOX' },
+    { json: '/js/data/unox_konvektomaty66.json', page: '/unox_konvektomaty_66.html', cat: 'UNOX' },
+    { json: '/js/data/unox_pro_pece_pro_maloobchod_8.json', page: '/unox_pro_pece_pro_maloobchod_8.html', cat: 'UNOX' },
+    { json: '/js/data/unox_prumyslove_konvekcni_pece_11.json', page: '/unox_prumyslove_konvekcni_pece_11.html', cat: 'UNOX' },
+    { json: '/js/data/unox_Prumyslove_konvektomaty_s_vlhkosti_60.json', page: '/unox_Průmyslové_konvektomaty_s_vlhkostí.html', cat: 'UNOX' },
+    { json: '/js/data/unox_showall_169.json', page: '/unox_showall_169.html', cat: 'UNOX' },
+    { json: '/js/data/unox_tepla_chladnicka.json', page: '/unox_tepla_chladnicka.html', cat: 'UNOX' },
+    { json: '/js/data/unox_trays_all_categories.json', page: '/unox_commercial_trays.html', cat: 'UNOX' },
+    { json: '/js/data/unox_smart_accessories.json', page: '/unox_Péče-a-údržba.html', cat: 'UNOX' },
+    { json: '/js/data/unox_Care_and_maintenance.json', page: '/unox_smart_accessories.html', cat: 'UNOX' },
+    { json: '/js/data/unox_gastronomic_accessories.json', page: '/unox_Gastronomické_doplňky.html', cat: 'UNOX' },
+    { json: '/js/data/unox_Pekarske_prislusenstvi.json', page: '/unox_Pekařské_příslušenství.html', cat: 'UNOX' },
+    { json: '/js/data/unox_system_odsavani_vzduchu.json', page: '/unox_Systém-odsávání-vzduchu.html', cat: 'UNOX' },
+    { json: '/js/data/unox_vyrovnani_podlahy.json', page: '/unox_Vyrovnani-podlahy.html', cat: 'UNOX' },
+    { json: '/js/data/unox_vozik-a-udrzovaci-obal.json', page: '/unox_Vozik-a-udrzovaci-obal.html', cat: 'UNOX' },
+    { json: '/js/data/unox_Ostatni-prislusenstvi.json', page: '/unox_Ostatni-prislusenstvi.html', cat: 'UNOX' }
 
   ];
 

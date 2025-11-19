@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>MinaFood - Care and maintenance</title>
+  <title>MinaFood - Gastronomické doplňky</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <!-- minafood -->
   <meta name="description"
@@ -109,6 +109,8 @@
       background-color: #e6f0ff;
     }
   </style>
+  <link rel="stylesheet" href="style-menungang.css">
+  <script src="scripst-menungang.js"></script>
 </head>
 
 <body>
@@ -175,33 +177,6 @@
           </div>
         </div>
       </nav>
-      <!-- Language Switcher -->
-      <div class="dropdown mf-lang-switcher">
-        <button class="btn btn-sm btn-outline-light dropdown-toggle d-flex align-items-center gap-1" type="button"
-          id="langDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-          🌐 <span id="mf-current-lang">CS</span>
-        </button>
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
-          <li>
-            <button class="dropdown-item mf-change-lang" data-lang="cs" type="button">
-              🇨🇿 Čeština
-            </button>
-          </li>
-          <li>
-            <button class="dropdown-item mf-change-lang" data-lang="en" type="button">
-              🇬🇧 English
-            </button>
-          </li>
-          <li>
-            <button class="dropdown-item mf-change-lang" data-lang="vi" type="button">
-              🇻🇳 Tiếng Việt
-            </button>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Google translate element (ẩn đi, chỉ dùng cho script) -->
-      <div id="google_translate_element" class="d-none"></div>
 
     </div>
   </div>
@@ -224,14 +199,9 @@
         "></div>
 
     <div class="container position-relative z-1 text-white">
-      <h1 class="fw-bold display-5 mb-3 text-uppercase" style="color: white" data-i18n="Unox_showall_169.title">
-        Konvektomaty,pece a řešení Unox.
+      <h1 class="fw-bold display-5 mb-3 text-uppercase" style="color: white" data-i18n="Gastronomicke_doplnky.title">
+        Gastronomické doplňky
       </h1>
-      <small data-i18n="unox_showall_tittle_small">Prozkoumejte celou řadu produktů Unox, včetně profesionálních
-        konvekčních pecí, profesionálních konvektomatů, profesionálních rychloohřevných pecí a systémů pro uchovávání
-        teplých potravin. Použijte naše filtry, abyste rychle našli to, co nejlépe vyhovuje vašim potřebám. Nejste si
-        jisti, která komerční trouba je pro vaši firmu nejlepší? Vyzkoušejte funkci „porovnat“ na našich produktových
-        listech nebo si promluvte přímo s našimi odborníky!.</small>
       <a href="index.html#Kategorie">
         <p class="mb-0 mt-3" style="color: antiquewhite">
           <i class="fa-solid fa-house" style="color: white"></i>&nbsp; Back
@@ -255,70 +225,44 @@
     <div class="container py-5">
       <div class="row g-4">
         <!-- Cột FILTER bên trái -->
-        <!-- Cột FILTER bên trái -->
         <aside class="col-lg-3 mb-4">
           <div class="p-3 border rounded bg-white">
-
-
-
             <nav id="side-category" class="mf-cat-nav mb-4">
-
               <!-- Show all -->
               <a href="#" class="mf-cat-link" data-cat="all">
-                Zobrazit vše (22)
+                <span data-i18n="unox_filter_show_all">Zobrazit vše</span>
+                <span> (12)</span>
               </a>
-
-              <!-- Tiêu đề Úprava vody -->
-              <div class="mt-2 mb-1 fw-semibold">
+              <!-- Tiêu đề Péče a údržba -->
+              <div class="mt-2 mb-1 fw-semibold" data-i18n="unox_filter_care_title">
                 Péče a údržba
               </div>
-
               <!-- Mycí prostředky pro automatické mytí -->
-              <a href="#" class="mf-cat-link" data-cat="myc%C3%AD-prost%C5%99edky-pro-automatick%C3%A9-myt%C3%AD">
-                Mycí prostředky pro automatické mytí (5)
+              <a href="#" class="mf-cat-link" data-cat="slowtop-cook&hold-trouba">
+                <span data-i18n="unox_filter_slowtop_cook_hold_trouba">
+                  SLOWTOP Cook&Hold trouba
+                </span>
+                <span> (2)</span>
+              </a>
+              <!-- SMART.Drain sběr tuku -->
+              <a href="#" class="mf-cat-link" data-cat="smartdrain-sb%C4%9Br-tuku">
+                <span data-i18n="smart.drain-sber-tuku">SMART.Drain sběr tuku</span>
+                <span>(9)</span>
               </a>
 
-              <!-- Čisticí prostředky pro ruční mytí -->
-              <a href="#" class="mf-cat-link"
-                data-cat="%C4%8Distic%C3%AD-prost%C5%99edky-pro-ru%C4%8Dn%C3%AD-myt%C3%AD">
-                Čisticí prostředky pro ruční mytí (1)
-              </a>
-
-              <!-- Descaler -->
-              <a href="#" class="mf-cat-link" data-cat="descaler">
-                Descaler (2)
-              </a>
-
-              <!-- Mycí sada -->
-              <a href="#" class="mf-cat-link" data-cat="myc%C3%AD-sada">
-                Mycí sada (5)
-              </a>
-
-              <!-- Tiêu đề Úprava vody -->
-              <div class="mt-2 mb-1 fw-semibold">
-                Úprava vody
-              </div>
-
-
-              <!-- Úprava vody pryskyřičnými filtry -->
-              <a href="#" class="mf-cat-link" data-cat="%C3%BAprava-vody-prysky%C5%99i%C4%8Dn%C3%BDmi-filtry">
-                Úprava vody pryskyřičnými filtry (7)
-              </a>
-
-              <!-- Úprava vody reverzní osmózou -->
-              <a href="#" class="mf-cat-link" data-cat="%C3%BAprava-vody-reverzn%C3%AD-osm%C3%B3zou">
-                Úprava vody reverzní osmózou (2)
+              <!-- Udící sada HYPER.Smoker -->
+              <a href="#" class="mf-cat-link" data-cat="ud%C3%ADc%C3%AD-sada-hypersmoker">
+                <span data-i18n="sada_HYPER.Smoker">Udící sada HYPER.Smoker</span>
+                <span>(1)</span>
               </a>
             </nav>
-
-
-
-
 
             <!-- PRICE FILTER (CENA) -->
             <div id="price-filter">
               <div class="d-flex justify-content-between align-items-center mb-1">
-                <span class="fw-semibold small text-uppercase">CENA</span>
+                <span class="fw-semibold small text-uppercase" data-i18n="unox_filter_price_label">
+                  CENA
+                </span>
                 <span class="small">
                   <span id="price-min-label">860</span> Kč –
                   <span id="price-max-label">3 000</span> Kč
@@ -327,12 +271,65 @@
 
               <!-- 2 thanh range cho min / max – JS sau này bind sự kiện -->
               <input type="range" id="price-min" class="form-range" min="0" max="3000" value="860">
-
               <input type="range" id="price-max" class="form-range mt-2" min="0" max="3000" value="3000">
             </div>
 
           </div>
+          <br>
+          <!-- BOX 2: ALL UNOX ACCESSORIES (phần quanh đỏ) -->
+          <div class="p-3 border rounded bg-white">
+            <nav class="mf-cat-nav">
+              <a href="unox_showall_phukien.html" class="mf-cat-link parent-link mt-2 mb-1 fw-semibold"
+                data-i18n="unox_Vsechna-prislusenstvi.title">
+                Všechna příslušenství
+              </a>
+
+              <a href="unox_Smart-accessories.html" class="mf-cat-link" data-i18n="unox_cat_smart_accessories">
+                Smart accessories
+              </a>
+
+              <a href="unox_Průmyslové_nádoby.html" class="mf-cat-link" data-i18n="unox_cat_prumyslove_nadoby">
+                Průmyslové nádoby
+              </a>
+
+              <a href="unox_Péče-a-údržba.html" class="mf-cat-link" data-i18n="unox_cat_pece_udrzba">
+                Péče a údržba
+              </a>
+
+              <a href="unox_Gastronomické_doplňky.html" class="mf-cat-link" data-i18n="unox_cat_gastronomicke_doplnky">
+                Gastronomické doplňky
+              </a>
+
+              <a href="unox_Pekařské_příslušenství.html" class="mf-cat-link"
+                data-i18n="unox_cat_pekarstvi_prislusenstvi">
+                Pekařské příslušenství
+              </a>
+
+              <a href="unox_Sada-pro-vakuovani-horkych-produktu.html" class="mf-cat-link"
+                data-i18n="unox_cat_sada_vakuovani_horkych">
+                Sada pro vakuování horkých produktů
+              </a>
+
+              <a href="unox_Systém-odsávání-vzduchu.html" class="mf-cat-link"
+                data-i18n="unox_cat_system_odsavani_vzduchu">
+                Systém odsávání vzduchu
+              </a>
+
+              <a href="unox_Vyrovnani-podlahy.html" class="mf-cat-link" data-i18n="unox_cat_vyrovnani_podlahy">
+                Vyrovnání podlahy
+              </a>
+
+              <a href="unox_Vozik-a-udrzovaci-obal.html" class="mf-cat-link" data-i18n="unox_cat_vozik_udrzovaci_obal">
+                Vozík a udržovací obal
+              </a>
+
+              <a href="unox_Ostatni-prislusenstvi.html" class="mf-cat-link" data-i18n="unox_cat_ostatni_prislusenstvi">
+                Ostatní příslušenství
+              </a>
+            </nav>
+          </div>
         </aside>
+
 
 
 
@@ -473,7 +470,7 @@
   <script src="js/main.js"></script>
   <script src="js/i18n.js"></script>
   <script src="js/cart.js"></script>
-  <script src="js/unox_Care_and_maintenance.js"></script>
+  <script src="js/unox_Gastronomic_Accessories.js"></script>
 
 </body>
 

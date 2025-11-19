@@ -323,8 +323,7 @@
     "price_text": "6 555,00 Kč",
     "price_czk": 6555,
     "vat_note": "XHC053-SR"
-  }
-  ,
+  },
   {
     "category": "Úprava vody pryskyřičnými filtry",
     "category_slug": "%C3%BAprava-vody-prysky%C5%99i%C4%8Dn%C3%BDmi-filtry",
@@ -549,6 +548,30 @@
     "price_text": "6 755,00 Kč",
     "price_czk": 6755,
     "vat_note": "XHC006"
+  },
+  {
+    "category": "Chlazení výparů",
+    "category_slug": "chlazen%C3%AD-v%C3%BDpar%C5%AF",
+    "category_url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/p%C3%A9%C4%8De-a-%C3%BAdr%C5%BEba/%C3%BAprava-v%C3%BDstupn%C3%AD-vody/chlazen%C3%AD-v%C3%BDpar%C5%AF/",
+    "category_count": 1,
+    "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/xhc005/",
+    "image": "https://www.unox.com/unox/media/contents/chlazen%C3%AD-v%C3%BDfukov%C3%BDch-plyn%C5%AF-XHC005.png",
+    "badge": "",
+    "model": "XHC005",
+    "productType": null,
+    "series": [],
+    "name": "Ventil pro chlazení odpadních kapalin",
+    "power": "",
+    "features": [
+      "XHC005",
+      "+ DPH"
+    ],
+    "consumption_text": null,
+    "emissions_text": null,
+    "consumption_kwh_per_day": null,
+    "emissions_co2_kg_per_day": null,
+    "price_text": "3 935,00 Kč",
+    "price_czk": 3935,
+    "vat_note": "XHC005"
   }
-
 ]

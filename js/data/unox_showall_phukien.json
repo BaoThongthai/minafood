@@ -1,0 +1,2618 @@
+[
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/xuc028/",
+        "image": "https://www.unox.com/unox/media/contents/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD-pro-komer%C4%8Dn%C3%AD-plechy-XUC028.webp",
+        "badge": "",
+        "model": "XUC028",
+        "productType": null,
+        "series": [
+            "START.COOK"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "XUC028",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp350/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP350.webp",
+        "badge": "",
+        "model": "GRP350",
+        "productType": null,
+        "series": [
+            "STEAM&FRY"
+        ],
+        "name": "460x330",
+        "power": "",
+        "features": [
+            "GRP350",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp420/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP420.webp",
+        "badge": "",
+        "model": "GRP420",
+        "productType": null,
+        "series": [
+            "STEAM&FRY"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "GRP420",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp710/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP710.webp",
+        "badge": "",
+        "model": "GRP710",
+        "productType": null,
+        "series": [
+            "STEAM"
+        ],
+        "name": "GN 2/3",
+        "power": "",
+        "features": [
+            "GRP710",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp815/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP815.webp",
+        "badge": "",
+        "model": "GRP815",
+        "productType": null,
+        "series": [
+            "STEAM"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "GRP815",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg710/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG710.webp",
+        "badge": "",
+        "model": "TG710",
+        "productType": null,
+        "series": [
+            "FORO.STEEL40"
+        ],
+        "name": "GN 2/3",
+        "power": "",
+        "features": [
+            "TG710",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg810/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG810.webp",
+        "badge": "",
+        "model": "TG810",
+        "productType": null,
+        "series": [
+            "FORO.STEEL20"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG810",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg820/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG820.webp",
+        "badge": "",
+        "model": "TG820",
+        "productType": null,
+        "series": [
+            "FORO.STEEL40"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG820",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg830/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG830.webp",
+        "badge": "",
+        "model": "TG830",
+        "productType": null,
+        "series": [
+            "FORO.STEEL65"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG830",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp425/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP425.webp",
+        "badge": "",
+        "model": "GRP425",
+        "productType": null,
+        "series": [
+            "POLLO.GRILL"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "GRP425",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp970/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP970.webp",
+        "badge": "",
+        "model": "GRP970",
+        "productType": null,
+        "series": [
+            "CHROMO.GRILL"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "GRP970",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg720/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG720.webp",
+        "badge": "",
+        "model": "TG720",
+        "productType": null,
+        "series": [
+            "GRILL"
+        ],
+        "name": "GN 2/3",
+        "power": "",
+        "features": [
+            "TG720",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg770/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG770.webp",
+        "badge": "",
+        "model": "TG770",
+        "productType": null,
+        "series": [
+            "FAKIRO.GRILL"
+        ],
+        "name": "GN 2/3",
+        "power": "",
+        "features": [
+            "TG770",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg870/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG870.webp",
+        "badge": "",
+        "model": "TG870",
+        "productType": null,
+        "series": [
+            "FAKIRO.GRILL"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG870",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg885/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG885.webp",
+        "badge": "",
+        "model": "TG885",
+        "productType": null,
+        "series": [
+            "GRILL"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG885",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg970/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG970.webp",
+        "badge": "",
+        "model": "TG970",
+        "productType": null,
+        "series": [
+            "SUPER.GRILL"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG970",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg990/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG990.webp",
+        "badge": "",
+        "model": "TG990",
+        "productType": null,
+        "series": [
+            "ROMBO.GRILL"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG990",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg995/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG995.webp",
+        "badge": "",
+        "model": "TG995",
+        "productType": null,
+        "series": [
+            "FAKIRO.GRILL"
+        ],
+        "name": "GN 1/1",
+        "power": "",
+        "features": [
+            "TG995",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp430/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP430.webp",
+        "badge": "",
+        "model": "GRP430",
+        "productType": null,
+        "series": [
+            "POLLO.BLACK"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "GRP430",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp715/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP715.webp",
+        "badge": "",
+        "model": "GRP715",
+        "productType": null,
+        "series": [
+            "POLLO.BLACK"
+        ],
+        "name": "GN 2/3",
+        "power": "",
+        "features": [
+            "GRP715",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp825/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP825.webp",
+        "badge": "",
+        "model": "GRP825",
+        "productType": null,
+        "series": [
+            "POLLO.BLACK"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "GRP825",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp840/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP840.webp",
+        "badge": "",
+        "model": "GRP840",
+        "productType": null,
+        "series": [
+            "POLLO.GRILL"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "GRP840",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg705/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG705.webp",
+        "badge": "",
+        "model": "TG705",
+        "productType": null,
+        "series": [
+            "STEEL.40"
+        ],
+        "name": "GN 2/3",
+        "power": "",
+        "features": [
+            "TG705",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg805/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG805.webp",
+        "badge": "",
+        "model": "TG805",
+        "productType": null,
+        "series": [
+            "STEEL.20"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG805",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg815/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG815.png",
+        "badge": "",
+        "model": "TG815",
+        "productType": null,
+        "series": [
+            "STEEL.40"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG815",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg825/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG825.png",
+        "badge": "",
+        "model": "TG825",
+        "productType": null,
+        "series": [
+            "STEEL.65"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG825",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg840/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG840.png",
+        "badge": "",
+        "model": "TG840",
+        "productType": null,
+        "series": [
+            "BACON.20"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG840",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg895/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG895.png",
+        "badge": "",
+        "model": "TG895",
+        "productType": null,
+        "series": [
+            "BLACK.20"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG895",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg900/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG900.png",
+        "badge": "",
+        "model": "TG900",
+        "productType": null,
+        "series": [
+            "BLACK.40"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG900",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg944/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG944.png",
+        "badge": "",
+        "model": "TG944",
+        "productType": null,
+        "series": [
+            "BACON.GRID"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG944",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg945/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG945.png",
+        "badge": "",
+        "model": "TG945",
+        "productType": null,
+        "series": [
+            "BACON.40"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG945",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp711/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP711.png",
+        "badge": "",
+        "model": "GRP711",
+        "productType": null,
+        "series": [
+            "POTATO.FRY"
+        ],
+        "name": "GN 2/3",
+        "power": "",
+        "features": [
+            "GRP711",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp816/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP816.png",
+        "badge": "",
+        "model": "GRP816",
+        "productType": null,
+        "series": [
+            "BLACK.FRY"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "GRP816",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp817/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP817.png",
+        "badge": "",
+        "model": "GRP817",
+        "productType": null,
+        "series": [
+            "POTATO.FRY"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "GRP817",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp820/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP820.png",
+        "badge": "",
+        "model": "GRP820",
+        "productType": null,
+        "series": [
+            "CLEAN.FRY"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "GRP820",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg350/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG350.png",
+        "badge": "",
+        "model": "TG350",
+        "productType": null,
+        "series": [
+            "PAN.FRY"
+        ],
+        "name": "460x330",
+        "power": "",
+        "features": [
+            "TG350",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg735/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG735.png",
+        "badge": "",
+        "model": "TG735",
+        "productType": null,
+        "series": [
+            "PAN.FRY"
+        ],
+        "name": "GN 2/3",
+        "power": "",
+        "features": [
+            "TG735",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg905/",
+        "image": "https://www.unox.com/unox/media/contents/1673962956450.png",
+        "badge": "",
+        "model": "TG905",
+        "productType": null,
+        "series": [
+            "BLACK.20"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG905",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg935/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG935.png",
+        "badge": "",
+        "model": "TG935",
+        "productType": null,
+        "series": [
+            "EGGS 6x2"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG935",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg936/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG936.png",
+        "badge": "",
+        "model": "TG936",
+        "productType": null,
+        "series": [
+            "EGGS 8x1"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG936",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg937/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG937.png",
+        "badge": "",
+        "model": "TG937",
+        "productType": null,
+        "series": [
+            "EGGS 5"
+        ],
+        "name": "GN 2/3",
+        "power": "",
+        "features": [
+            "TG937",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp205/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP205.png",
+        "badge": "",
+        "model": "GRP205",
+        "productType": null,
+        "series": [
+            "CHROMO.GRID"
+        ],
+        "name": "342x242",
+        "power": "",
+        "features": [
+            "GRP205",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp305/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP305.png",
+        "badge": "",
+        "model": "GRP305",
+        "productType": null,
+        "series": [
+            "CHROMO.GRID"
+        ],
+        "name": "460x330",
+        "power": "",
+        "features": [
+            "GRP305",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp310/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP310.png",
+        "badge": "",
+        "model": "GRP310",
+        "productType": null,
+        "series": [
+            "BAGUETTE.GRID"
+        ],
+        "name": "460x330",
+        "power": "",
+        "features": [
+            "GRP310",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp355/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP355.png",
+        "badge": "",
+        "model": "GRP355",
+        "productType": null,
+        "series": [
+            "STEEL.GRID"
+        ],
+        "name": "460x330",
+        "power": "",
+        "features": [
+            "GRP355",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp405/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP405.png",
+        "badge": "",
+        "model": "GRP405",
+        "productType": null,
+        "series": [
+            "CHROMO.GRID"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "GRP405",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp410/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP410.png",
+        "badge": "",
+        "model": "GRP410",
+        "productType": null,
+        "series": [
+            "BAGUETTE.GRID"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "GRP410",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp565/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP565.png",
+        "badge": "",
+        "model": "GRP565",
+        "productType": null,
+        "series": [
+            "BAGUETTE.GRID"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "GRP565",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp705/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP705.png",
+        "badge": "",
+        "model": "GRP705",
+        "productType": null,
+        "series": [
+            "STEEL.GRID"
+        ],
+        "name": "GN 2/3",
+        "power": "",
+        "features": [
+            "GRP705",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp806/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP806.png",
+        "badge": "",
+        "model": "GRP806",
+        "productType": null,
+        "series": [
+            "STEEL.GRID"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "GRP806",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg205/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG205.png",
+        "badge": "",
+        "model": "TG205",
+        "productType": null,
+        "series": [
+            "BAKE"
+        ],
+        "name": "342x242",
+        "power": "",
+        "features": [
+            "TG205",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg305/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG305.png",
+        "badge": "",
+        "model": "TG305",
+        "productType": null,
+        "series": [
+            "BAKE"
+        ],
+        "name": "460x330",
+        "power": "",
+        "features": [
+            "TG305",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg310/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG310.png",
+        "badge": "",
+        "model": "TG310",
+        "productType": null,
+        "series": [
+            "FORO.BAKE"
+        ],
+        "name": "460x330",
+        "power": "",
+        "features": [
+            "TG310",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg314/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG314.png",
+        "badge": "",
+        "model": "TG314",
+        "productType": null,
+        "series": [
+            "FORO.SILICO"
+        ],
+        "name": "460x330",
+        "power": "",
+        "features": [
+            "TG314",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg330/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG330.png",
+        "badge": "",
+        "model": "TG330",
+        "productType": null,
+        "series": [
+            "FORO.BLACK"
+        ],
+        "name": "460x330",
+        "power": "",
+        "features": [
+            "TG330",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg335/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG335.png",
+        "badge": "",
+        "model": "TG335",
+        "productType": null,
+        "series": [
+            "FAKIRO™"
+        ],
+        "name": "460x330",
+        "power": "",
+        "features": [
+            "TG335",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg405/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG405.png",
+        "badge": "",
+        "model": "TG405",
+        "productType": null,
+        "series": [
+            "BAKE"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "TG405",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg410/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG410.png",
+        "badge": "",
+        "model": "TG410",
+        "productType": null,
+        "series": [
+            "FORO.BAKE"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "TG410",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg415/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG415.png",
+        "badge": "",
+        "model": "TG415",
+        "productType": null,
+        "series": [
+            "FORO.SILICO"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "TG415",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg416/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG416.png",
+        "badge": "",
+        "model": "TG416",
+        "productType": null,
+        "series": [
+            "BAKE.SILICO"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "TG416",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg430/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG430.png",
+        "badge": "",
+        "model": "TG430",
+        "productType": null,
+        "series": [
+            "FORO.BLACK"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "TG430",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg432/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG432.png",
+        "badge": "",
+        "model": "TG432",
+        "productType": null,
+        "series": [
+            "FORO.BLACK"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "TG432",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg435/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG435.png",
+        "badge": "",
+        "model": "TG435",
+        "productType": null,
+        "series": [
+            "FORO.BAGUETTE.BLACK"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "TG435",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg440/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG440.png",
+        "badge": "",
+        "model": "TG440",
+        "productType": null,
+        "series": [
+            "FAKIRO™"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "TG440",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg445/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG445.png",
+        "badge": "",
+        "model": "TG445",
+        "productType": null,
+        "series": [
+            "FORO.BAGUETTE"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "TG445",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg450/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG450.png",
+        "badge": "",
+        "model": "TG450",
+        "productType": null,
+        "series": [
+            "STEEL.BAKE"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "TG450",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg460/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG460.png",
+        "badge": "",
+        "model": "TG460",
+        "productType": null,
+        "series": [
+            "BAKE.BLACK"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "TG460",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg462/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG462.png",
+        "badge": "",
+        "model": "TG462",
+        "productType": null,
+        "series": [
+            "BAKE.BLACK"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "TG462",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg465/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG465.png",
+        "badge": "",
+        "model": "TG465",
+        "productType": null,
+        "series": [
+            "FAKIRO.GRILL"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "TG465",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg480/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG480.png",
+        "badge": "",
+        "model": "TG480",
+        "productType": null,
+        "series": [
+            "PANETTONE.Bake"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "TG480",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg485/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG485.png",
+        "badge": "",
+        "model": "TG485",
+        "productType": null,
+        "series": [
+            "COLOMBA.Bake"
+        ],
+        "name": "600x400",
+        "power": "",
+        "features": [
+            "TG485",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg715/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG715.png",
+        "badge": "",
+        "model": "TG715",
+        "productType": null,
+        "series": [
+            "FAKIRO™"
+        ],
+        "name": "GN 2/3",
+        "power": "",
+        "features": [
+            "TG715",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg731/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG731.png",
+        "badge": "",
+        "model": "TG731",
+        "productType": null,
+        "series": [
+            "FORO.BLACK"
+        ],
+        "name": "GN 2/3",
+        "power": "",
+        "features": [
+            "TG731",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg875/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG875.png",
+        "badge": "",
+        "model": "TG875",
+        "productType": null,
+        "series": [
+            "FAKIRO™"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG875",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg890/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG890.png",
+        "badge": "",
+        "model": "TG890",
+        "productType": null,
+        "series": [
+            "FORO.BLACK"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG890",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg940/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG940.png",
+        "badge": "",
+        "model": "TG940",
+        "productType": null,
+        "series": [
+            "BAKE.BLACK"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG940",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg975/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG975.png",
+        "badge": "",
+        "model": "TG975",
+        "productType": null,
+        "series": [
+            "FORO.SILICO"
+        ],
+        "name": "GN 1/1, GN 2/1",
+        "power": "",
+        "features": [
+            "TG975",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/grp360/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-GRP360.png",
+        "badge": "",
+        "model": "GRP360",
+        "productType": null,
+        "series": [
+            "SPEED.Grid"
+        ],
+        "name": "460x330",
+        "power": "",
+        "features": [
+            "GRP360",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg126/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG126.png",
+        "badge": "",
+        "model": "TG126",
+        "productType": null,
+        "series": [
+            "SPEED.Basket SMALL"
+        ],
+        "name": "300x300, 460x330, GN 2/3",
+        "power": "",
+        "features": [
+            "TG126",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg127/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG127.png",
+        "badge": "",
+        "model": "TG127",
+        "productType": null,
+        "series": [
+            "SPEED.Basket MEDIUM"
+        ],
+        "name": "300x300, 460x330, GN 2/3",
+        "power": "",
+        "features": [
+            "TG127",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg129/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG129.png",
+        "badge": "",
+        "model": "TG129",
+        "productType": null,
+        "series": [
+            "SPEED.Basket LARGE"
+        ],
+        "name": "460x330, GN 2/3",
+        "power": "",
+        "features": [
+            "TG129",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg131/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG131.png",
+        "badge": "",
+        "model": "TG131",
+        "productType": null,
+        "series": [
+            "SPEED.Basket SLIM"
+        ],
+        "name": "300x300",
+        "power": "",
+        "features": [
+            "TG131",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg132/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG132.png",
+        "badge": "",
+        "model": "TG132",
+        "productType": null,
+        "series": [
+            "SPEED.Basket LARGE"
+        ],
+        "name": "300x300",
+        "power": "",
+        "features": [
+            "TG132",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg133/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG133.png",
+        "badge": "",
+        "model": "TG133",
+        "productType": null,
+        "series": [
+            "Nepřilnavá fólie pro varnou komoru"
+        ],
+        "name": "300x300",
+        "power": "",
+        "features": [
+            "TG133",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg134/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG134.png",
+        "badge": "",
+        "model": "TG134",
+        "productType": null,
+        "series": [
+            "Nepřilnavá fólie pro SPEED.Plate"
+        ],
+        "name": "300x300",
+        "power": "",
+        "features": [
+            "TG134",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg142/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG142.png",
+        "badge": "",
+        "model": "TG142",
+        "productType": null,
+        "series": [
+            "SPEED.Plate FLAT"
+        ],
+        "name": "300x300",
+        "power": "",
+        "features": [
+            "TG142",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg143/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG143.png",
+        "badge": "",
+        "model": "TG143",
+        "productType": null,
+        "series": [
+            "SPEED.Plate RIBBED"
+        ],
+        "name": "300x300",
+        "power": "",
+        "features": [
+            "TG143",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg145/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG145.png",
+        "badge": "",
+        "model": "TG145",
+        "productType": null,
+        "series": [
+            "SPEED.Bake plech"
+        ],
+        "name": "300x300",
+        "power": "",
+        "features": [
+            "TG145",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg146/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG146.png",
+        "badge": "",
+        "model": "TG146",
+        "productType": null,
+        "series": [
+            "SPEED.Plate SLOT"
+        ],
+        "name": "300x300",
+        "power": "",
+        "features": [
+            "TG146"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg147/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG147.png",
+        "badge": "",
+        "model": "TG147",
+        "productType": null,
+        "series": [
+            "SPEED.Plate FLAT"
+        ],
+        "name": "300x300",
+        "power": "",
+        "features": [
+            "TG147"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg149/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG149.png",
+        "badge": "",
+        "model": "TG149",
+        "productType": null,
+        "series": [
+            "SPEED.Plate SLOT"
+        ],
+        "name": "300x300",
+        "power": "",
+        "features": [
+            "TG149"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg360/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG360.png",
+        "badge": "",
+        "model": "TG360",
+        "productType": null,
+        "series": [
+            "SPEED.Plate"
+        ],
+        "name": "460x330",
+        "power": "",
+        "features": [
+            "TG360",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg361/",
+        "image": "https://www.unox.com/unox/media/contents/TG361-RIGATA.png",
+        "badge": "",
+        "model": "TG361",
+        "productType": null,
+        "series": [
+            "SPEED.Plate"
+        ],
+        "name": "460x330",
+        "power": "",
+        "features": [
+            "TG361",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg365/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG365.png",
+        "badge": "",
+        "model": "TG365",
+        "productType": null,
+        "series": [
+            "Nepřilnavá teflonová fólie"
+        ],
+        "name": "460x330",
+        "power": "",
+        "features": [
+            "TG365",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg780/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-TG780.png",
+        "badge": "",
+        "model": "TG780",
+        "productType": null,
+        "series": [
+            "SPEED.Plate"
+        ],
+        "name": "GN 2/3",
+        "power": "",
+        "features": [
+            "TG780",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/xuc270/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-XUC270.png",
+        "badge": "",
+        "model": "XUC270",
+        "productType": null,
+        "series": [
+            "SPEED.Marks"
+        ],
+        "name": "460x330",
+        "power": "",
+        "features": [
+            "XUC270",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/xuc271/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-XUC271.png",
+        "badge": "",
+        "model": "XUC271",
+        "productType": null,
+        "series": [
+            "SPEED.Marks"
+        ],
+        "name": "GN 2/3",
+        "power": "",
+        "features": [
+            "XUC271",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/xuc272/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-XUC272.png",
+        "badge": "",
+        "model": "XUC272",
+        "productType": null,
+        "series": [
+            "SPEED.Marks"
+        ],
+        "name": "460x330",
+        "power": "",
+        "features": [
+            "XUC272",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/xuc289/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-XUC289.png",
+        "badge": "",
+        "model": "XUC289",
+        "productType": null,
+        "series": [
+            "SPEED.Marks"
+        ],
+        "name": "300x300",
+        "power": "",
+        "features": [
+            "XUC289",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/xuc291/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-XUC291.png",
+        "badge": "",
+        "model": "XUC291",
+        "productType": null,
+        "series": [
+            "SPEED.Marks SLOT"
+        ],
+        "name": "300x300",
+        "power": "",
+        "features": [
+            "XUC291"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/xuc292/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-XUC292.png",
+        "badge": "",
+        "model": "XUC292",
+        "productType": null,
+        "series": [
+            "START.COOK"
+        ],
+        "name": "300x300",
+        "power": "",
+        "features": [
+            "XUC292",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/xuc294/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-XUC294.png",
+        "badge": "",
+        "model": "XUC294",
+        "productType": null,
+        "series": [
+            "Nepřilnavá sklolaminátová fólie"
+        ],
+        "name": "300x300",
+        "power": "",
+        "features": [
+            "XUC294"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/xuc295/",
+        "image": "https://www.unox.com/unox/media/contents/komer%C4%8Dn%C3%AD-plechy-XUC295.png",
+        "badge": "",
+        "model": "XUC295",
+        "productType": null,
+        "series": [
+            "Nepřilnavá síť ze sklolaminátu"
+        ],
+        "name": "300x300",
+        "power": "",
+        "features": [
+            "XUC295"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg110/",
+        "image": "https://www.unox.com/unox/media/contents/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD-unox-pro-hork%C3%A9-vakuum-TG110.png",
+        "badge": "",
+        "model": "TG110",
+        "productType": null,
+        "series": [
+            "VACUUM.LID"
+        ],
+        "name": "GN 1/1",
+        "power": "",
+        "features": [
+            "TG110",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg111/",
+        "image": "https://www.unox.com/unox/media/contents/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD-unox-pro-hork%C3%A9-vakuum-TG111.png",
+        "badge": "",
+        "model": "TG111",
+        "productType": null,
+        "series": [
+            "VACUUM.100"
+        ],
+        "name": "GN 1/1",
+        "power": "",
+        "features": [
+            "TG111",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg112/",
+        "image": "https://www.unox.com/unox/media/contents/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD-unox-pro-hork%C3%A9-vakuum-TG112.png",
+        "badge": "",
+        "model": "TG112",
+        "productType": null,
+        "series": [
+            "VACUUM.40"
+        ],
+        "name": "GN 1/1",
+        "power": "",
+        "features": [
+            "TG112",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg113/",
+        "image": "https://www.unox.com/unox/media/contents/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD-unox-pro-hork%C3%A9-vakuum-TG113.png",
+        "badge": "",
+        "model": "TG113",
+        "productType": null,
+        "series": [
+            "Separační dno tekutin"
+        ],
+        "name": "GN 1/1",
+        "power": "",
+        "features": [
+            "TG113",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg116/",
+        "image": "https://www.unox.com/unox/media/contents/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD-unox-pro-hork%C3%A9-vakuum-TG116.png",
+        "badge": "",
+        "model": "TG116",
+        "productType": null,
+        "series": [
+            "VACUUM.55"
+        ],
+        "name": "GN 1/1",
+        "power": "",
+        "features": [
+            "TG116",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg120/",
+        "image": "https://www.unox.com/unox/media/contents/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD-unox-pro-hork%C3%A9-vakuum-TG120.png",
+        "badge": "",
+        "model": "TG120",
+        "productType": null,
+        "series": [
+            "VACUUM.LID"
+        ],
+        "name": "460x330, GN 1/1",
+        "power": "",
+        "features": [
+            "TG120",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg121/",
+        "image": "https://www.unox.com/unox/media/contents/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD-unox-pro-hork%C3%A9-vakuum-TG121.png",
+        "badge": "",
+        "model": "TG121",
+        "productType": null,
+        "series": [
+            "VACUUM.100"
+        ],
+        "name": "460x330, GN 1/1",
+        "power": "",
+        "features": [
+            "TG121",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg122/",
+        "image": "https://www.unox.com/unox/media/contents/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD-unox-pro-hork%C3%A9-vakuum-TG122.png",
+        "badge": "",
+        "model": "TG122",
+        "productType": null,
+        "series": [
+            "VACUUM.40"
+        ],
+        "name": "460x330, GN 1/1",
+        "power": "",
+        "features": [
+            "TG122",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg123/",
+        "image": "https://www.unox.com/unox/media/contents/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD-unox-pro-hork%C3%A9-vakuum-TG123.png",
+        "badge": "",
+        "model": "TG123",
+        "productType": null,
+        "series": [
+            "Separační dno tekutin"
+        ],
+        "name": "460x330, GN 1/1",
+        "power": "",
+        "features": [
+            "TG123",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg802/",
+        "image": "https://www.unox.com/unox/media/contents/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD-pro-komer%C4%8Dn%C3%AD-plechy-TG802.png",
+        "badge": "",
+        "model": "TG802",
+        "productType": null,
+        "series": [
+            "SUPERHOLDING LID"
+        ],
+        "name": "GN 1/1",
+        "power": "",
+        "features": [
+            "TG802",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    },
+    {
+        "url": "https://www.unox.com/cs_cz/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD/tg806/",
+        "image": "https://www.unox.com/unox/media/contents/p%C5%99%C3%ADslu%C5%A1enstv%C3%AD-pro-komer%C4%8Dn%C3%AD-plechy-TG806.png",
+        "badge": "",
+        "model": "TG806",
+        "productType": null,
+        "series": [
+            "SUPERHOLDING LID"
+        ],
+        "name": "460x330, GN 1/1",
+        "power": "",
+        "features": [
+            "TG806",
+            "+ DPH"
+        ],
+        "consumption_text": null,
+        "emissions_text": null,
+        "consumption_kwh_per_day": null,
+        "emissions_co2_kg_per_day": null,
+        "price_text": null,
+        "price_czk": null,
+        "vat_note": null
+    }
+]
