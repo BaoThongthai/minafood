@@ -242,49 +242,11 @@
 
                 <!-- SIDEBAR FILTER -->
                 <aside class="col-lg-3 mb-4">
-                    <div class="filter-content bg-light border rounded p-3">
-
-                        <!-- ====== Category ====== -->
-                        <div class="filter-option mb-3 pb-3 border-bottom" x-data="{ open: true }">
-                            <div class="filter-options-title d-flex justify-content-between align-items-center 
-                        cursor-pointer text-normal" @click="open = !open">
-                                <span class="title text-normal text-uppercase">
-                                    Category
-                                </span>
-                                <span class="text-normal">
-                                    <i class="fa-solid fa-chevron-down" :class="{ 'rotate-180': open }"
-                                        style="transition: transform .3s"></i>
-                                </span>
-                            </div>
-
-                            <template x-if="open">
-                                <div class="filter-options-content pt-2">
-                                    <!-- DỰA VÀO TÊN SẢN PHẨM -->
-                                    <a href="#" class="d-flex justify-content-between py-1 mf-cat-link">
-                                        <span>Range</span>
-                                        <span class="count text-muted">(37)</span>
-                                    </a>
-                                    <a href="#" class="d-flex justify-content-between py-1 mf-cat-link">
-                                        <span>Induction</span>
-                                        <span class="count text-muted">(11)</span>
-                                    </a>
-                                    <a href="#" class="d-flex justify-content-between py-1 mf-cat-link">
-                                        <span>Range with oven</span>
-                                        <span class="count text-muted">(10)</span>
-                                    </a>
-                                    <a href="#" class="d-flex justify-content-between py-1 mf-cat-link">
-                                        <span>Neutral</span>
-                                        <span class="count text-muted">(15)</span>
-                                    </a>
-                                    <!-- ... thêm mấy category khác nếu muốn ... -->
-                                </div>
-                            </template>
-                        </div>
-
-                        <!-- Nếu cần thêm Depth / Width / Price... thì dán tiếp các block tương tự ở đây -->
-
+                    <div id="filter-panel" class="filter-content bg-light border rounded p-3">
+                        <!-- JS speed_oven_filter.js sẽ generate toàn bộ filter giống hình chụp -->
                     </div>
                 </aside>
+
 
                 <!-- PRODUCT GRID + PAGER -->
                 <div class="col-lg-9">
@@ -429,62 +391,6 @@
     <script src="js/i18n.js"></script>
     <script src="js/cart.js"></script>
     <script src="js/combisteel_cooking_range.js"></script>
-    <script>
-        // Chờ DOM xong
-        document.addEventListener('DOMContentLoaded', () => {
-            const filterContainer = document.querySelector('.filter-content');
-            if (!filterContainer) return;
-
-            // Giả định mỗi card sản phẩm có class .fruite-item và tên nằm trong .product-name
-            // (nếu cấu trúc khác tui chỉnh lại sau)
-            function getAllCards() {
-                return Array.from(document.querySelectorAll('#product-grid .fruite-item'));
-            }
-
-            function filterByCategory(keyword) {
-                const cards = getAllCards();
-                const key = keyword.toLowerCase();
-
-                cards.forEach(card => {
-                    const nameEl = card.querySelector('.product-name') || card;
-                    const nameText = (nameEl.textContent || '').toLowerCase();
-
-                    if (!key || nameText.includes(key)) {
-                        card.style.display = '';
-                    } else {
-                        card.style.display = 'none';
-                    }
-                });
-            }
-
-            // Bắt click trên các link filter
-            filterContainer.addEventListener('click', (e) => {
-                const link = e.target.closest('a');
-                if (!link) return;
-                e.preventDefault();
-
-                const filterOptionEl = link.closest('.filter-option');
-                if (!filterOptionEl) return;
-
-                const titleEl = filterOptionEl.querySelector('.filter-options-title .title');
-                const group = titleEl ? titleEl.textContent.trim().toLowerCase() : '';
-
-                // Chỉ xử lý group Category (phần Depth/Width/Price tui sẽ map sau nếu bạn cần)
-                if (group === 'category') {
-                    const labelSpan = link.querySelector('span');
-                    const labelText = (labelSpan ? labelSpan.textContent : link.textContent).trim();
-                    const keyword = labelText.toLowerCase(); // vd: "range", "fryer", "neutral"...
-
-                    // Remove active trong group
-                    filterOptionEl.querySelectorAll('a').forEach(a => a.classList.remove('active'));
-                    link.classList.add('active');
-
-                    filterByCategory(keyword);
-                }
-            });
-        });
-    </script>
-    <script src="js/speed_oven_filter.js"></script>
 </body>
 
 </html>

@@ -1,173 +1,77 @@
-// /js/unox_konvektomaty.js
+// js/speed_oven_filter.js
+// Load JSON Combisteel + render product grid + filter như hình screenshot
+
 (async function () {
     const GRID_SELECTOR = "#product-grid";
-    const COUNT_EL = "#product-count";       // nếu không dùng thì cũng không sao
+    const FILTER_PANEL_SELECTOR = "#filter-panel";
     const PAGER_SLOT = "#pager-slot";
-    const CATEGORY_SLOT = "#category-slot";  // nếu chưa có category thì sẽ không render (dropdown nhỏ phía trên, nếu muốn giữ)
-    const FILTER_SLOT = "#filter-panel";     // ⬅ cột filter bên trái
 
+    // TODO: sửa lại path JSON đúng với bạn
     const DATA_URL = "js/data/combisteel_cooking_range.json";
 
     const LABELS = {
         loadingAria: "loading",
         error: "Không tải được danh sách sản phẩm. Vui lòng thử lại sau.",
-        contact: "Na poptávku",
-        prev: "«",
-        next: "»",
-        page: "Trang",
-        seeAll: "All categories",
         addToCart: "Add to Cart",
         added: "Added!",
+        contact: "Na poptávku",
+        shoppingOptions: "Shopping options",
     };
 
-    const PAGE_SIZE = 30;
-    const SEE_ALL = LABELS.seeAll;
+    const PAGE_SIZE = 24;
 
-    // ====== CATEGORY RULES cho Combisteel Cooking Range (giống list hình) ======
-    // Ưu tiên rule cụ thể đặt TRƯỚC, fallback "Range" và "Neutral" đặt sau cùng
-    const CATEGORY_RULES = [
-        { name: "Induction", patterns: [/INDUCTION/i] },
-        { name: "Range with oven", patterns: [/RANGE.*OVEN/i, /WITH OVEN/i] },
-        { name: "Solid top", patterns: [/SOLID TOP/i] },
-        { name: "Lava stone grill", patterns: [/LAVA STONE/i] },
-        { name: "Vapor grill", patterns: [/VAPOR GRILL/i, /VAPOUR GRILL/i] },
-        { name: "Fry top", patterns: [/FRY TOP/i, /FRY-TOP/i] },
-        { name: "Fryer", patterns: [/FRYER/i] },
-        { name: "Pasta cooker", patterns: [/PASTA COOKER/i] },
-        { name: "Bain-marie", patterns: [/BAIN[-\s]?MARIE/i] },
-        { name: "Boiling pan", patterns: [/BOILING PAN/i] },
-        { name: "Tilting pan", patterns: [/TILTING PAN/i] },
-
-        // Neutral (bàn trung tính, tủ, v.v.)
-        { name: "Neutral", patterns: [/NEUTRAL/i] },
-
-        // Fallback Range (mọi thứ có RANGE nhưng không rơi vào các case trên)
-        { name: "Range", patterns: [/RANGE/i] },
-    ];
-
-    function detectCategoryByName(name = "") {
-        for (const rule of CATEGORY_RULES) {
-            if (rule.patterns.some((re) => re.test(name))) return rule.name;
-        }
-        return SEE_ALL;
-    }
-
-    // ========= STATE =========
     let allProducts = [];
     let filteredProducts = [];
-    let currentPage = 1; // 1-based
-    let currentCategory = SEE_ALL;
 
-    // FILTER state (hiện tại chỉ dùng priceMin/Max, có thể mở rộng sau)
-    const filterState = {
-        priceMin: null,
-        priceMax: null,
-    };
-
-    // Min / Max giá toàn bộ sản phẩm (set sau khi load JSON)
-    let globalMinPrice = null;
-    let globalMaxPrice = null;
-
-    // đọc ?cat & ?page
-    const qs = new URLSearchParams(location.search);
-    const initCat = qs.get("cat");
-    const initPage = parseInt(qs.get("page"), 10);
-    if (initCat) currentCategory = initCat;
-    if (!isNaN(initPage) && initPage >= 1) currentPage = initPage;
+    // ===== POPUP DOM =====
+    const popup = document.getElementById("product-popup");
+    const popupImg = document.getElementById("popup-img");
+    const popupName = document.getElementById("popup-name");
+    const popupDim = document.getElementById("popup-dim");
+    const popupWeight = document.getElementById("popup-weight");
+    const popupClose = document.querySelector(".product-popup-close");
 
     const grid = document.querySelector(GRID_SELECTOR);
-    if (!grid) return;
+    const filterPanel = document.querySelector(FILTER_PANEL_SELECTOR);
 
-    // ========= UTIL =========
+    if (!grid || !filterPanel) return;
 
-    // Chuẩn hoá Combisteel JSON → format MinaFood
-    const normalize = (p) => {
-        // JSON Combisteel:
-        // code, name, url, image, image_large, price, price_currency, price_text,
-        // specs: { ean_code, width, depth, height, parcel_ready, gross_weight, voltage, electrical_power, version, model_tabletop/_freestanding/drop-in, brand ... }
+    const txt = (v) => (v ?? "").toString().trim();
 
-        const specs = p.specs || {};
+    // Giả định JSON Combisteel dạng:
+    // { code, name, url, image, price, price_currency, price_text, specs:{ width, depth, height, material, version, parcel_ready, piezo_ignition, model_type, voltage, ... } }
+    function normalize(raw) {
+        const s = raw.specs || {};
 
-        const width = specs.width ?? null;
-        const depth = specs.depth ?? null;
-        const height = specs.height ?? null;
-        const weight = specs.gross_weight ?? null;
-        const brand = specs.brand || "";
-
-        // Dòng kích thước: "800 x 900 x 900 mm"
-        const dimText =
-            width != null && depth != null && height != null
-                ? `${width} x ${depth} x ${height} mm`
-                : "";
-
-        // line1: Brand • Kích thước
-        const line1Parts = [];
-        if (brand) line1Parts.push(brand);
-        if (dimText) line1Parts.push(dimText);
-        const line1 = line1Parts.join(" • ");
-
-        // line2: cân nặng (nếu có)
-        const line2 = weight != null ? `Gross weight: ${weight} kg` : "";
-
-        // giá dạng số
-        let numericPrice = null;
-        if (p.price != null && !isNaN(Number(p.price))) {
-            numericPrice = Number(p.price);
-        }
-
-        const category = detectCategoryByName(p.name || "");
+        const price = Number.isFinite(Number(raw.price))
+            ? Number(raw.price)
+            : null;
 
         return {
-            // ==== các field chung mà phần còn lại đang dùng ====
-            id: p.code || p.id || p.name || "",
-            sku: p.code || "",
-            name: p.name || "",
+            id: raw.code || raw.id || raw.name || "",
+            sku: raw.code || "",
+            name: txt(raw.name),
+            href: raw.url || "#",
+            image: raw.image || raw.image_large || "img/placeholder.webp",
+            price,
+            currency: txt(raw.price_currency) || "CZK",
+            price_text_raw: txt(raw.price_text),
 
-            line1,
-            line2,
+            width_mm: s.width != null ? Number(s.width) : null,
+            depth_mm: s.depth != null ? Number(s.depth) : null,
+            height_mm: s.height != null ? Number(s.height) : null,
 
-            // Combisteel JSON không có badge/label -> để trống
-            label: "",
-
-            price: numericPrice,
-            currency: (p.price_currency || "Kč").trim(),
-
-            image: p.image || p.image_large || "img/placeholder.webp",
-            href: p.url || "#",
-            sp: null, // không dùng
-
-            // ====== chi tiết cho popup (dùng tạm code + brand) ======
-            model: p.code || "",
-            productType: brand || "",
-            series: [],            // Combisteel không có series -> để mảng rỗng
-            power: specs.electrical_power
-                ? `${specs.electrical_power} kW`
-                : "", // nếu có kW thì show
-            features: [],          // có thể đổ specs vào sau
-            consumption_text: "",
-            emissions_text: "",
-            vat_note: "",
-            price_text_raw: p.price_text || "",
-
-            gnCount: null,
-            gnType: null,
-
-            // Phần này để tiện mở rộng filter sau này
-            width,
-            depth,
-            height,
-            weight,
-            brand,
-            rawSpecs: specs,
-
-            category, // tên category (Range / Induction / Fryer / ...)
+            material: txt(s.material || s.body_material),
+            version: txt(s.version || s.energy_type), // Electric / Gas
+            parcel_ready: txt(s.parcel_ready || s.parcel),
+            piezo_ignition: txt(s.piezo_ignition || s.ignition),
+            model_type: txt(s.model_type || s.installation), // Freestanding / Tabletop
+            voltage: txt(s.voltage || s.voltage_volt),
         };
-    };
+    }
 
-    // Format giá: cs-CZ, 2 số lẻ
     const fmtPrice = (price, currency) => {
-        if (price == null || price === "" || isNaN(price) || Number(price) <= 0)
-            return "";
+        if (price == null || isNaN(price) || Number(price) <= 0) return "";
         const formatted = new Intl.NumberFormat("cs-CZ", {
             minimumFractionDigits: 2,
             maximumFractionDigits: 2,
@@ -179,54 +83,62 @@
     const buildInquiryMessage = (p = {}) => {
         const lines = [
             "Hello, I want to ask about this product:",
-            p.name ? `• Product name: ${p.name}` : "",
-            p.line1 ? `• Detail 1: ${p.line1}` : "",
-            p.line2 ? `• Detail 2: ${p.line2}` : "",
-            p.sku ? `• SKU: ${p.sku}` : "",
+            p.name ? `• Name: ${p.name}` : "",
+            p.sku ? `• Code: ${p.sku}` : "",
             `• Source Page: ${location.href}`,
         ].filter(Boolean);
         return lines.join("\n");
     };
 
-    // ========= RENDER CARD =========
-    const cardHTML = (p) => {
+    // ===== CARD HTML =====
+    function cardHTML(p) {
         const priceText = fmtPrice(p.price, p.currency);
         const hasPrice = Number.isFinite(p.price) && Number(p.price) > 0;
         const msg = encodeURIComponent(buildInquiryMessage(p));
 
+        const dimText =
+            p.width_mm || p.depth_mm || p.height_mm
+                ? [
+                    p.width_mm ? `${p.width_mm} mm` : "",
+                    p.depth_mm ? `x ${p.depth_mm} mm` : "",
+                    p.height_mm ? `x ${p.height_mm} mm` : "",
+                ]
+                    .join(" ")
+                    .trim()
+                : "";
+
         return `
       <div class="col-md-6 col-lg-4">
-        <div class="rounded position-relative fruite-item h-100" data-id="${String(
-            p.id
-        ).replace(/"/g, "&quot;")}">
+        <div class="rounded position-relative fruite-item h-100"
+             data-id="${String(p.id).replace(/"/g, "&quot;")}">
           <div class="fruite-img">
-            <img src="${p.image}" class="img-fluid w-100 rounded-top border border-secondary" alt="${p.name
-            }">
+            <img src="${p.image}"
+                 class="img-fluid w-100 rounded-top border border-secondary"
+                 alt="${p.name}">
           </div>
-          ${p.label
-                ? `<div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top:10px;left:10px;font-size:12px">${p.label}</div>`
-                : ""
-            }
-
           <div class="p-4 border border-secondary border-top-0 rounded-bottom d-flex flex-column">
-            <h4 class="mb-2 line-clamp-2" title="${p.name}">${p.name}</h4>
-            ${p.line1
-                ? `<p class="mb-1 text-muted line-clamp-2" title="${p.line1}">${p.line1}</p>`
-                : ""
-            }
-
+            <h4 class="mb-2 line-clamp-2 product-name" title="${p.name}">${p.name}</h4>
             ${p.sku
-                ? `<p class="mb-1 small text-secondary line-clamp-1" title="SKU: ${p.sku
-                }">SKU: ${p.sku}</p>`
+                ? `<p class="mb-1 small text-secondary" title="Code: ${p.sku}">Code: ${p.sku}</p>`
+                : ""
+            }
+            ${dimText
+                ? `<p class="mb-1 small text-secondary">${dimText}</p>`
+                : ""
+            }
+            ${p.version
+                ? `<p class="mb-1 small text-secondary">Version: ${p.version}</p>`
+                : ""
+            }
+            ${p.voltage
+                ? `<p class="mb-1 small text-secondary">Voltage: ${p.voltage}</p>`
                 : ""
             }
 
-            ${p.power
-                ? `<p class="mb-1 small text-secondary">Power: ${p.power}</p>`
-                : ""
+            ${priceText
+                ? `<p class="mb-3 fw-semibold">${priceText}</p>`
+                : `<p class="mb-3"></p>`
             }
-
-            ${priceText ? `<p class="mb-3 fw-semibold">${priceText}</p>` : `<p class="mb-3"></p>`}
 
             <div class="mt-auto d-flex justify-content-between gap-2">
               ${hasPrice
@@ -236,89 +148,51 @@
                        data-id="${String(p.id).replace(/"/g, "&quot;")}"
                        data-name="${String(p.name).replace(/"/g, "&quot;")}"
                        data-price="${p.price ?? ""}"
-                       data-currency="${p.currency || "Kč"}"
+                       data-currency="${p.currency || "CZK"}"
                        data-image="${p.image}">
                        <i class="fa fa-shopping-bag me-2 text-primary"></i>
                        <span>${LABELS.addToCart}</span>
-                    </a>
-                  `
+                    </a>`
                 : `
                     <a href="/contact.html?msg=${msg}"
                        class="btn border border-secondary rounded-pill px-3 text-primary"
                        aria-label="${LABELS.contact}">
                        <i class="fa fa-envelope me-2 text-primary"></i>
                        <span>${LABELS.contact}</span>
-                    </a>
-                  `
+                    </a>`
             }
             </div>
           </div>
         </div>
       </div>
     `;
-    };
+    }
 
-    // ========= POPUP =========
-    const popup = document.getElementById("product-popup");
-    const popupImg = document.getElementById("popup-img");
-    const popupName = document.getElementById("popup-name");
-    const popupDim = document.getElementById("popup-dim");
-    const popupWeight = document.getElementById("popup-weight");
-    const popupClose = document.querySelector(".product-popup-close");
-
+    // ===== POPUP =====
     function openPopup(p) {
         if (!popup) return;
-
         popupImg.src = p.image || "img/placeholder.webp";
         popupImg.alt = p.name || "";
         popupName.textContent = p.name || "";
 
-        const seriesHtml =
-            p.series && p.series.length
-                ? `<div class="mb-2">
-             ${p.series.map((s) => `<div>${s}</div>`).join("")}
-           </div>`
-                : "";
-
-        const featuresHtml =
-            p.features && p.features.length
-                ? `<ul class="mt-2 mb-0 small">
-             ${p.features.map((f) => `<li>${f}</li>`).join("")}
-           </ul>`
-                : "";
-
-        const greenBoxHtml =
-            p.consumption_text || p.emissions_text
-                ? `<div class="mt-3 p-2 rounded small" style="background:#e3f6df;">
-             ${p.consumption_text || ""}<br>
-             ${p.emissions_text || ""}
-           </div>`
-                : "";
+        const dimLines = [];
+        if (p.width_mm != null) dimLines.push(`Width: ${p.width_mm} mm`);
+        if (p.depth_mm != null) dimLines.push(`Depth: ${p.depth_mm} mm`);
+        if (p.height_mm != null) dimLines.push(`Height: ${p.height_mm} mm`);
 
         popupDim.innerHTML = `
-      ${p.model || p.productType
-                ? `<div class="mb-1 small text-muted">
-               ${p.model ? `<strong>${p.model}</strong>` : ""}${p.productType ? ` – ${p.productType}` : ""
-                }
-             </div>`
+      ${p.sku
+                ? `<div class="mb-1 small text-muted"><strong>${p.sku}</strong></div>`
                 : ""
             }
-      ${seriesHtml}
-      ${p.power
-                ? `<div class="mb-2">
-               <span class="badge bg-warning text-dark">${p.power}</span>
-             </div>`
+      ${dimLines.length
+                ? `<div class="mt-2 small">${dimLines.join("<br>")}</div>`
                 : ""
             }
-      ${featuresHtml}
-      ${greenBoxHtml}
     `;
 
         const priceText = fmtPrice(p.price, p.currency);
-        popupWeight.textContent = [priceText, p.vat_note || ""]
-            .filter(Boolean)
-            .join(" ");
-
+        popupWeight.textContent = priceText || p.price_text_raw || "";
         popup.classList.remove("hidden");
     }
 
@@ -326,258 +200,34 @@
         if (!popup) return;
         popup.classList.add("hidden");
     }
+
     if (popupClose) popupClose.addEventListener("click", closePopup);
-    if (popup)
+    if (popup) {
         popup.addEventListener("click", (e) => {
             if (e.target === popup) closePopup();
         });
+    }
 
-    // gắn click mở popup
     function attachCardHandlers() {
         grid.querySelectorAll(".fruite-item").forEach((item) => {
             item.addEventListener("click", (ev) => {
                 if (ev.target.closest("a,button")) return;
                 const id = item.dataset.id;
-                const p = filteredProducts.find(
-                    (prod) => String(prod.id) === String(id)
-                );
+                const p =
+                    filteredProducts.find((prod) => String(prod.id) === String(id)) ||
+                    allProducts.find((prod) => String(prod.id) === String(id));
                 if (p) openPopup(p);
             });
         });
     }
 
-    // ===== Add to Cart (event delegation) =====
-    grid.addEventListener("click", (e) => {
-        const a = e.target.closest("a.add-to-cart");
-        if (!a) return;
-        e.preventDefault();
-
-        const item = {
-            id: a.dataset.id,
-            name: a.dataset.name,
-            price: Number(a.dataset.price),
-            currency: a.dataset.currency || "Kč",
-            image: a.dataset.image,
-            qty: 1,
-        };
-
-        document.dispatchEvent(new CustomEvent("cart:add", { detail: item }));
-
-        a.classList.add("disabled");
-        const span = a.querySelector("span");
-        if (span) span.textContent = LABELS.added;
-        setTimeout(() => {
-            a.classList.remove("disabled");
-            if (span) span.textContent = LABELS.addToCart;
-        }, 1200);
-    });
-
-    // ===== URL helper =====
-    function updateURL() {
-        const url = new URL(location.href);
-        url.searchParams.set("page", String(currentPage));
-        url.searchParams.set("cat", currentCategory);
-        history.replaceState(null, "", url);
+    // ===== PAGINATION =====
+    function getCurrentPage() {
+        const qs = new URLSearchParams(location.search);
+        const p = parseInt(qs.get("page") || "1", 10);
+        return isNaN(p) || p < 1 ? 1 : p;
     }
 
-    // ===== Dropdown category (nếu muốn giữ ở trên) =====
-    function renderCategoryDropdown(orderedCats) {
-        const slot = document.querySelector(CATEGORY_SLOT);
-        if (!slot) return;
-
-        const list = [SEE_ALL, ...orderedCats];
-
-        slot.innerHTML = `
-      <div class="dropdown">
-        <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          ${currentCategory}
-        </button>
-        <ul class="dropdown-menu">
-          ${list
-                .map(
-                    (n) => `
-            <li><a class="dropdown-item ${n === currentCategory ? "active" : ""
-                        }" href="#" data-cat="${n}">${n}</a></li>
-          `
-                )
-                .join("")}
-        </ul>
-      </div>
-    `;
-
-        slot.querySelectorAll(".dropdown-item").forEach((a) => {
-            a.addEventListener("click", (e) => {
-                e.preventDefault();
-                const cat = a.getAttribute("data-cat") || SEE_ALL;
-                if (cat !== currentCategory) {
-                    currentCategory = cat;
-                    currentPage = 1;
-                    applyFilter();
-                    renderProducts();
-                }
-            });
-        });
-    }
-
-    // ===== FILTER bên trái – STYLE GIỐNG HÌNH (Shopping options → CATEGORY) =====
-    function renderFilters() {
-        const slot = document.querySelector(FILTER_SLOT);
-        if (!slot) return;
-
-        // Đếm số lượng theo category
-        const catCountMap = {};
-        let total = 0;
-        allProducts.forEach((p) => {
-            const cat = p.category || SEE_ALL;
-            total++;
-            catCountMap[cat] = (catCountMap[cat] || 0) + 1;
-        });
-
-        // Order: theo CATEGORY_RULES, chỉ giữ category thực sự có sản phẩm
-        const orderedCats = CATEGORY_RULES.map((r) => r.name).filter(
-            (name) => catCountMap[name]
-        );
-
-        const catLinksHtml = orderedCats
-            .map((cat) => {
-                const cnt = catCountMap[cat] || 0;
-                const isActive = currentCategory === cat;
-                return `
-          <a href="#"
-             class="d-flex justify-content-between align-items-center text-decoration-none small py-1 mf-cat-link ${isActive ? "text-cooking fw-semibold" : "text-body"
-                    }"
-             data-cat="${cat}">
-            <span>${cat}</span>
-            <span class="text-muted">(${cnt})</span>
-          </a>
-        `;
-            })
-            .join("");
-
-        // Row "All categories"
-        const allIsActive = currentCategory === SEE_ALL;
-        const allRowHtml = `
-      <a href="#"
-         class="d-flex justify-content-between align-items-center text-decoration-none small py-1 mf-cat-link ${allIsActive ? "text-cooking fw-semibold" : "text-body"
-            }"
-         data-cat="${SEE_ALL}">
-        <span>${SEE_ALL}</span>
-        <span class="text-muted">(${total})</span>
-      </a>
-    `;
-
-        // PRICE slider
-        let priceGroupHtml = "";
-        if (globalMinPrice != null && globalMaxPrice != null) {
-            const minVal = filterState.priceMin ?? globalMinPrice;
-            const maxVal = filterState.priceMax ?? globalMaxPrice;
-            priceGroupHtml = `
-        <div class="mt-4 pt-3 border-top">
-          <div class="d-flex justify-content-between align-items-center mb-2">
-            <span class="fw-bold text-uppercase small">Price</span>
-          </div>
-          <div id="mf-price-label" class="small mb-2">
-            ${fmtPrice(minVal, "Kč")} - ${fmtPrice(maxVal, "Kč")}
-          </div>
-          <div class="d-flex flex-column gap-1">
-            <input type="range" class="form-range" id="mf-price-min"
-                   min="${globalMinPrice}" max="${globalMaxPrice}"
-                   value="${minVal}">
-            <input type="range" class="form-range" id="mf-price-max"
-                   min="${globalMinPrice}" max="${globalMaxPrice}"
-                   value="${maxVal}">
-            <div class="d-flex justify-content-between small">
-              <span id="mf-price-min-label">${fmtPrice(minVal, "Kč")}</span>
-              <span id="mf-price-max-label">${fmtPrice(maxVal, "Kč")}</span>
-            </div>
-          </div>
-        </div>
-      `;
-        }
-
-        slot.innerHTML = `
-      <div class="p-3 rounded" style="background:#f6f1e4;">
-        <h6 class="mb-3 text-uppercase small">Shopping options</h6>
-
-        <div>
-          <div class="d-flex justify-content-between align-items-center mb-2">
-            <span class="fw-bold text-uppercase small">Category</span>
-          </div>
-          <nav class="d-flex flex-column">
-            ${allRowHtml}
-            ${catLinksHtml}
-          </nav>
-        </div>
-
-        ${priceGroupHtml}
-      </div>
-    `;
-
-        // Click category
-        slot.querySelectorAll(".mf-cat-link").forEach((a) => {
-            a.addEventListener("click", (e) => {
-                e.preventDefault();
-                const cat = a.getAttribute("data-cat") || SEE_ALL;
-                if (cat === currentCategory) return;
-                currentCategory = cat;
-                currentPage = 1;
-                applyFilter();
-                renderProducts();
-                // re-render filter để update class active
-                renderFilters();
-            });
-        });
-
-        // Price slider events
-        const minInput = slot.querySelector("#mf-price-min");
-        const maxInput = slot.querySelector("#mf-price-max");
-        const priceLabel = slot.querySelector("#mf-price-label");
-        const minLabel = slot.querySelector("#mf-price-min-label");
-        const maxLabel = slot.querySelector("#mf-price-max-label");
-
-        if (minInput && maxInput && priceLabel) {
-            const updatePrice = () => {
-                let minVal = Number(minInput.value);
-                let maxVal = Number(maxInput.value);
-                if (minVal > maxVal) [minVal, maxVal] = [maxVal, minVal];
-
-                filterState.priceMin = minVal;
-                filterState.priceMax = maxVal;
-
-                minInput.value = minVal;
-                maxInput.value = maxVal;
-
-                const minText = fmtPrice(minVal, "Kč");
-                const maxText = fmtPrice(maxVal, "Kč");
-                priceLabel.textContent = `${minText} - ${maxText}`;
-                if (minLabel) minLabel.textContent = minText;
-                if (maxLabel) maxLabel.textContent = maxText;
-
-                currentPage = 1;
-                applyFilter();
-                renderProducts();
-            };
-
-            minInput.addEventListener("input", updatePrice);
-            maxInput.addEventListener("input", updatePrice);
-        }
-    }
-
-    // ===== PRICE MATCH =====
-    function matchPrice(p) {
-        if (!p.price || globalMinPrice == null) return true;
-        const min = filterState.priceMin ?? globalMinPrice;
-        const max = filterState.priceMax ?? globalMaxPrice;
-        return p.price >= min && p.price <= max;
-    }
-
-    function matchesFilters(p) {
-        // Giá
-        if (!matchPrice(p)) return false;
-        return true;
-    }
-
-    // ===== Phân trang =====
     function renderPager(totalItems) {
         const slot = document.querySelector(PAGER_SLOT);
         if (!slot) return;
@@ -585,10 +235,10 @@
         const totalPages = Math.max(1, Math.ceil(totalItems / PAGE_SIZE));
         if (totalPages <= 1) {
             slot.innerHTML = "";
-            updateURL();
             return;
         }
 
+        let currentPage = getCurrentPage();
         currentPage = Math.min(Math.max(1, currentPage), totalPages);
 
         const pages = [];
@@ -597,12 +247,11 @@
             for (let i = a; i <= b; i++) pages.push(i);
         };
 
-        const centerSpan = 2;
         const first = 1;
         const last = totalPages;
+        const centerSpan = 2;
 
         push(first);
-
         let start = Math.max(first + 1, currentPage - centerSpan);
         let end = Math.min(last - 1, currentPage + centerSpan);
 
@@ -625,14 +274,14 @@
         slot.innerHTML = `
       <div class="mf-pager-wrap">
         <nav class="mf-pager" aria-label="Pagination">
-          <a href="#" class="mf-pg-btn ${currentPage === 1 ? "is-disabled" : ""
-            }" data-page="${currentPage - 1}" aria-label="Previous">‹</a>
+          <a href="#" class="mf-pg-btn ${currentPage === 1 ? "is-disabled" : ""}" data-page="${currentPage - 1
+            }" aria-label="Previous">‹</a>
           ${pages
                 .map((p) =>
                     p === "..."
-                        ? '<span class="mf-pg-ellipsis" aria-hidden="true">…</span>'
+                        ? `<span class="mf-pg-ellipsis">…</span>`
                         : `<a href="#" class="mf-pg-btn ${p === currentPage ? "is-active" : ""
-                        }" data-page="${p}" aria-label="Page ${p}">${p}</a>`
+                        }" data-page="${p}">${p}</a>`
                 )
                 .join("")}
           <a href="#" class="mf-pg-btn ${currentPage === totalPages ? "is-disabled" : ""
@@ -647,46 +296,300 @@
             btn.addEventListener("click", (e) => {
                 e.preventDefault();
                 if (page < 1 || page > totalPages || page === currentPage) return;
-                currentPage = page;
+                const url = new URL(location.href);
+                url.searchParams.set("page", String(page));
+                history.replaceState(null, "", url);
                 renderProducts();
             });
         });
-
-        updateURL();
     }
 
-    function applyFilter() {
-        let base;
-        if (currentCategory === SEE_ALL) {
-            base = allProducts.slice();
-        } else {
-            base = allProducts.filter((p) => (p.category || SEE_ALL) === currentCategory);
+    // ===== FILTER CONFIG =====
+    // Chỉ 1 lựa chọn mỗi nhóm – giống Magento
+    const FILTERS_STATE = {
+        depth: null,
+        height: null,
+        width: null,
+        price: null,
+        material: null,
+        version: null,
+        parcel_ready: null,
+        piezo_ignition: null,
+        model_type: null,
+        voltage: null,
+    };
+
+    const FILTER_CONFIG = {
+        depth: {
+            label: "DEPTH",
+            key: "depth_mm",
+            type: "range",
+            buckets: [
+                { id: "d-600-799", label: "600 – 799", min: 600, max: 799 },
+                { id: "d-800-999", label: "800 – 999", min: 800, max: 999 },
+            ],
+        },
+        height: {
+            label: "HEIGHT",
+            key: "height_mm",
+            type: "range",
+            buckets: [
+                { id: "h-200-399", label: "200 – 399", min: 200, max: 399 },
+                { id: "h-800-999", label: "800 – 999", min: 800, max: 999 },
+            ],
+        },
+        width: {
+            label: "WIDTH",
+            key: "width_mm",
+            type: "range",
+            buckets: [
+                { id: "w-400-599", label: "400 – 599", min: 400, max: 599 },
+                { id: "w-600-799", label: "600 – 799", min: 600, max: 799 },
+                { id: "w-800-999", label: "800 – 999", min: 800, max: 999 },
+                { id: "w-1200-1399", label: "1200 – 1399", min: 1200, max: 1399 },
+                { id: "w-1600-1799", label: "1600 – 1799", min: 1600, max: 1799 },
+            ],
+        },
+        price: {
+            label: "PRICE",
+            key: "price",
+            type: "range",
+            buckets: [
+                {
+                    id: "p-0-9999",
+                    label: "€0.00 – €9,999.99",
+                    min: 0,
+                    max: 9999.99,
+                },
+                {
+                    id: "p-10000-plus",
+                    label: "€10,000.00 and above",
+                    min: 10000,
+                    max: Infinity,
+                },
+            ],
+        },
+        material: {
+            label: "MATERIAL",
+            key: "material",
+            type: "value",
+            buckets: [
+                {
+                    id: "m-430",
+                    label: "Stainless steel 430",
+                    value: "Stainless steel 430",
+                },
+            ],
+        },
+        version: {
+            label: "VERSION",
+            key: "version",
+            type: "value",
+            buckets: [
+                { id: "v-electric", label: "Electric", value: "Electric" },
+                { id: "v-gas", label: "Gas", value: "Gas" },
+            ],
+        },
+        parcel_ready: {
+            label: "PARCEL READY",
+            key: "parcel_ready",
+            type: "value",
+            buckets: [{ id: "parcel-no", label: "No", value: "No" }],
+        },
+        piezo_ignition: {
+            label: "PIEZO IGNITION",
+            key: "piezo_ignition",
+            type: "value",
+            buckets: [{ id: "piezo-yes", label: "Yes", value: "Yes" }],
+        },
+        model_type: {
+            label: "MODEL TABLETOP/FREESTANDING/DROP-IN",
+            key: "model_type",
+            type: "value",
+            buckets: [
+                {
+                    id: "model-freestanding",
+                    label: "Freestanding",
+                    value: "Freestanding",
+                },
+                { id: "model-tabletop", label: "Tabletop", value: "Tabletop" },
+            ],
+        },
+        voltage: {
+            label: "VOLTAGE (VOLT)",
+            key: "voltage",
+            type: "value",
+            buckets: [
+                { id: "vol-230", label: "230", value: "230" },
+                { id: "vol-400", label: "400", value: "400" },
+            ],
+        },
+    };
+
+    function matchBucket(p, conf, bucket) {
+        const val = p[conf.key];
+        if (conf.type === "range") {
+            if (!Number.isFinite(val)) return false;
+            return val >= bucket.min && val <= bucket.max;
         }
-        filteredProducts = base.filter(matchesFilters);
+        if (conf.type === "value") {
+            return txt(val).toLowerCase() === txt(bucket.value).toLowerCase();
+        }
+        return true;
+    }
+
+    // ===== BUILD FILTER UI =====
+    function buildFilterPanel() {
+        const total = allProducts.length;
+
+        const groupsHtml = Object.entries(FILTER_CONFIG)
+            .map(([groupId, conf]) => {
+                const bucketHtml = conf.buckets
+                    .map((b) => {
+                        const count = allProducts.filter((p) =>
+                            matchBucket(p, conf, b)
+                        ).length;
+
+                        return `
+              <a href="#"
+                 class="d-flex justify-content-between py-1 mf-filter-link"
+                 data-group="${groupId}"
+                 data-bucket-id="${b.id}">
+                <span>${b.label}</span>
+                <span class="count text-muted">(${count})</span>
+              </a>
+            `;
+                    })
+                    .join("");
+
+                return `
+          <div class="filter-option mb-3 pb-3 border-bottom" data-group="${groupId}">
+            <div class="filter-options-title d-flex justify-content-between align-items-center cursor-pointer text-normal"
+                 data-toggle="collapse">
+              <span class="title text-normal text-uppercase">${conf.label}</span>
+              <span class="text-normal">
+                <i class="fa-solid fa-chevron-down" style="transition: transform .3s"></i>
+              </span>
+            </div>
+            <div class="filter-options-content pt-2">
+              ${bucketHtml}
+            </div>
+          </div>
+        `;
+            })
+            .join("");
+
+        filterPanel.innerHTML = `
+      <div class="mb-3">
+        <strong>${LABELS.shoppingOptions}</strong>
+      </div>
+      ${groupsHtml}
+    `;
+
+        // toggle open/close (accordion style)
+        filterPanel.querySelectorAll(".filter-option").forEach((opt) => {
+            const header = opt.querySelector(".filter-options-title");
+            const content = opt.querySelector(".filter-options-content");
+            const icon = opt.querySelector("i.fa-chevron-down");
+
+            // mặc định mở
+            content.style.display = "block";
+            header.addEventListener("click", () => {
+                const isOpen = content.style.display !== "none";
+                content.style.display = isOpen ? "none" : "block";
+                if (icon) icon.style.transform = isOpen ? "rotate(180deg)" : "rotate(0deg)";
+            });
+        });
+
+        // click filter
+        filterPanel.addEventListener("click", (e) => {
+            const link = e.target.closest(".mf-filter-link");
+            if (!link) return;
+            e.preventDefault();
+
+            const group = link.dataset.group;
+            const bucketId = link.dataset.bucketId;
+            if (!group || !bucketId) return;
+
+            // toggle: click lại lần nữa thì bỏ filter
+            if (FILTERS_STATE[group] === bucketId) {
+                FILTERS_STATE[group] = null;
+                link.classList.remove("active");
+            } else {
+                FILTERS_STATE[group] = bucketId;
+
+                // set active trong group
+                filterPanel
+                    .querySelectorAll(`.mf-filter-link[data-group="${group}"]`)
+                    .forEach((a) => a.classList.remove("active"));
+                link.classList.add("active");
+            }
+
+            // reset page về 1
+            const url = new URL(location.href);
+            url.searchParams.set("page", "1");
+            history.replaceState(null, "", url);
+
+            applyFilters();
+            renderProducts();
+        });
+    }
+
+    // ===== APPLY FILTERS =====
+    function applyFilters() {
+        let list = allProducts.slice();
+
+        Object.entries(FILTERS_STATE).forEach(([groupId, bucketId]) => {
+            if (!bucketId) return;
+            const conf = FILTER_CONFIG[groupId];
+            if (!conf) return;
+            const bucket = conf.buckets.find((b) => b.id === bucketId);
+            if (!bucket) return;
+
+            list = list.filter((p) => matchBucket(p, conf, bucket));
+        });
+
+        filteredProducts = list;
     }
 
     function renderProducts() {
-        const start = (currentPage - 1) * PAGE_SIZE;
+        const page = getCurrentPage();
+        const start = (page - 1) * PAGE_SIZE;
         const end = start + PAGE_SIZE;
         const pageItems = filteredProducts.slice(start, end);
 
         grid.innerHTML = pageItems.map(cardHTML).join("");
         attachCardHandlers();
         renderPager(filteredProducts.length);
-
-        const cnt = document.querySelector(COUNT_EL);
-        if (cnt) cnt.textContent = `${filteredProducts.length} products`;
-
-        try {
-            document.dispatchEvent(
-                new CustomEvent("mina:productsRendered", {
-                    detail: { page: currentPage, total: filteredProducts.length },
-                })
-            );
-        } catch { }
     }
 
-    // ===== Loading & fetch =====
+    // ===== ADD TO CART =====
+    grid.addEventListener("click", (e) => {
+        const a = e.target.closest("a.add-to-cart");
+        if (!a) return;
+        e.preventDefault();
+
+        const item = {
+            id: a.dataset.id,
+            name: a.dataset.name,
+            price: Number(a.dataset.price),
+            currency: a.dataset.currency || "CZK",
+            image: a.dataset.image,
+            qty: 1,
+        };
+
+        document.dispatchEvent(new CustomEvent("cart:add", { detail: item }));
+
+        a.classList.add("disabled");
+        const span = a.querySelector("span");
+        if (span) span.textContent = LABELS.added;
+        setTimeout(() => {
+            a.classList.remove("disabled");
+            if (span) span.textContent = LABELS.addToCart;
+        }, 1200);
+    });
+
+    // ===== LOAD JSON & INIT =====
     grid.innerHTML = `
     <div class="col-12 text-center py-5">
       <div class="spinner-border" role="status" aria-label="${LABELS.loadingAria}"></div>
@@ -697,45 +600,15 @@
         const res = await fetch(DATA_URL, { cache: "no-store" });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const raw = await res.json();
-
         allProducts = (Array.isArray(raw) ? raw : [])
             .map(normalize)
             .filter((p) => p && p.name);
 
-        // Tính min/max giá
-        const prices = allProducts
-            .map((p) => p.price)
-            .filter((v) => typeof v === "number" && !isNaN(v));
-
-        if (prices.length) {
-            globalMinPrice = Math.min(...prices);
-            globalMaxPrice = Math.max(...prices);
-            filterState.priceMin = globalMinPrice;
-            filterState.priceMax = globalMaxPrice;
-        }
-
-        // Chuẩn bị category list dựa trên data
-        const catCountMap = {};
-        allProducts.forEach((p) => {
-            catCountMap[p.category || SEE_ALL] =
-                (catCountMap[p.category || SEE_ALL] || 0) + 1;
-        });
-        const orderedCats = CATEGORY_RULES.map((r) => r.name).filter(
-            (name) => catCountMap[name]
-        );
-
-        // Render filter và dropdown
-        renderFilters();
-        renderCategoryDropdown(orderedCats);
-
-        applyFilter();
-
-        const maxPage = Math.max(1, Math.ceil(filteredProducts.length / PAGE_SIZE));
-        if (currentPage > maxPage) currentPage = 1;
-
+        buildFilterPanel();
+        applyFilters();
         renderProducts();
     } catch (err) {
-        console.error("Load products failed:", err);
+        console.error("Load speed ovens failed:", err);
         grid.innerHTML = `
       <div class="col-12">
         <div class="alert alert-danger" role="alert">${LABELS.error}</div>
@@ -743,114 +616,5 @@
     `;
         const ps = document.querySelector(PAGER_SLOT);
         if (ps) ps.innerHTML = "";
-        const cs = document.querySelector(CATEGORY_SLOT);
-        if (cs) cs.innerHTML = "";
     }
-
-    // ===== INQUIRY MODAL + EMAILJS (giữ nguyên như cũ nếu trang có modal) =====
-    document.addEventListener("click", (e) => {
-        const btn = e.target.closest(".js-inquiry-btn");
-        if (!btn) return;
-
-        e.preventDefault();
-        const id = btn.getAttribute("data-id");
-        const product =
-            filteredProducts.find((x) => String(x.id) === String(id)) ||
-            allProducts.find((x) => String(x.id) === String(id));
-        if (!product) {
-            console.warn("[Inquiry] Không tìm thấy sản phẩm id=", id);
-            return;
-        }
-
-        const modalEl = document.getElementById("inquiryModal");
-        if (!modalEl) {
-            console.warn("[Inquiry] #inquiryModal not found");
-            return;
-        }
-        const modal =
-            (bootstrap?.Modal?.getInstance
-                ? bootstrap.Modal.getInstance(modalEl)
-                : null) || new bootstrap.Modal(modalEl);
-
-        const inqImg = document.getElementById("inq-img");
-        const inqName = document.getElementById("inq-name");
-        const inqLine = document.getElementById("inq-line");
-        const inqSku = document.getElementById("inq-sku");
-        const inqPrice = document.getElementById("inq-price");
-
-        const inqEmail = document.getElementById("inq-email");
-        const inqPhone = document.getElementById("inq-phone");
-        const inqMsg = document.getElementById("inq-message");
-        const inqForm = document.getElementById("inquiryForm");
-        const inqStatus = document.getElementById("inq-status");
-        const inqSubmit = document.getElementById("inq-submit");
-
-        modalEl._currentProduct = product;
-
-        inqImg.src = product.image || "img/placeholder.webp";
-        inqImg.alt = product.name || "";
-        inqName.textContent = product.name || "";
-        inqLine.textContent = [product.line1, product.line2].filter(Boolean).join(" • ");
-        inqSku.textContent = product.sku ? `SKU: ${product.sku}` : "";
-        inqPrice.textContent = fmtPrice(product.price, product.currency);
-
-        inqForm?.classList.remove("was-validated");
-        if (inqEmail) inqEmail.value = "";
-        if (inqPhone) inqPhone.value = "";
-        if (inqMsg) inqMsg.value = "";
-        if (inqStatus) inqStatus.textContent = "";
-
-        modal.show();
-
-        if (!modalEl._sendBound && inqSubmit) {
-            modalEl._sendBound = true;
-            inqSubmit.addEventListener("click", async () => {
-                if (!inqForm) return;
-                inqForm.classList.add("was-validated");
-                if (!inqEmail?.checkValidity?.() || !inqPhone?.checkValidity?.()) {
-                    if (inqStatus)
-                        inqStatus.textContent =
-                            "Please fill in your full Email and Phone Number.";
-                    return;
-                }
-                const p = modalEl._currentProduct;
-                if (!p) {
-                    if (inqStatus) inqStatus.textContent = "Không tìm thấy sản phẩm.";
-                    return;
-                }
-
-                inqSubmit.disabled = true;
-                if (inqStatus) inqStatus.textContent = "Đang gửi...";
-
-                const params = {
-                    product_name: p.name || "",
-                    product_line1: p.line1 || "",
-                    product_line2: p.line2 || "",
-                    product_sku: p.sku || "",
-                    product_price: fmtPrice(p.price, p.currency),
-                    product_image: p.image || "",
-                    product_link: p.href || "",
-                    page_url: window.location.href,
-                    user_email: inqEmail.value.trim(),
-                    user_phone: inqPhone.value.trim(),
-                    user_message: inqMsg.value.trim(),
-                };
-
-                try {
-                    const EMAILJS_SERVICE_ID = "service_d7r5mo7";
-                    const EMAILJS_TEMPLATE_ID = "template_nnbndsu";
-                    if (typeof emailjs === "undefined")
-                        throw new Error("EmailJS SDK chưa được nạp hoặc chưa init");
-                    await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, params);
-                    if (inqStatus) inqStatus.textContent = "Done ! We will contact you soon.";
-                    setTimeout(() => bootstrap.Modal.getInstance(modalEl)?.hide(), 1200);
-                } catch (err) {
-                    console.error(err);
-                    if (inqStatus) inqStatus.textContent = "Fail. Please send Again.";
-                } finally {
-                    inqSubmit.disabled = false;
-                }
-            });
-        }
-    });
 })();
