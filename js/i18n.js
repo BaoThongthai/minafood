@@ -387,7 +387,7 @@
 
             "cat.convectionovens": "KONVEKTOMATY A HORKOVZDUŠNÉ TROUBY",
             "page.gastro.title": "Gastro-a-kuchyně",
-            "page.gastro.Fritezy_katagory": "Fritézy_katagory",
+            "page.gastro.Fritezy_katagory": "Fritézy katagory",
             "section.coolingtubs": "Nerezové chladicí vany",
             "coolingtubs.text1": "V naší nabídce naleznete různé chladící vany pro uchování a chlazení nápojů v plechovkách nebo PET lahvích - párty chladící válce,",
             "coolingtubs.text2": "chladničky volně stojící, dále zde naleznete i nerezové chladící vany na gastronádoby."
