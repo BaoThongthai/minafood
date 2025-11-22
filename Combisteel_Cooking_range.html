@@ -189,7 +189,7 @@
 
     <!-- Single Page Header start -->
     <div class="page-header d-flex align-items-center justify-content-center text-center" style="
-        background: url('https://www.unox.com/unox/media/contents/1671781922715.webp')
+        background: url('https://www.combisteel.com/media/wysiwyg/1_-_cooking_range_OF_7_-_neutral_-_lasse-bergqvist-ro3H4mJIArA-unsplash_612x408px.jpg')
           center center/cover no-repeat;
         height: 320px;
         position: relative;
@@ -204,19 +204,13 @@
         "></div>
 
         <div class="container position-relative z-1 text-white">
-            <h1 class="fw-bold display-5 mb-3 text-uppercase" style="color: white"
-                data-i18n="titel_Professional_speed_oven">
-                Profesionální rychlá pec.
+            <h1 class="fw-bold display-5 mb-3 text-uppercase" style="color: white">
+                Cooking range
             </h1>
-            <small data-i18n="titel_commercial_speed_ovens">Profesionální rychlá pec Unox zaručují vysokou produktivitu
-                a
-                bleskurychlé vaření, kombinují konvekci, mikrovlny a – u vybraných modelů – páru a samomycí programy v
-                jediné
-                kompaktní jednotce. Jejich uživatelsky přívětivé rozhraní zajišťuje, že je může snadno obsluhovat i
-                nevyškolený
-                personál, takže je snadné poskytovat rychlé a konzistentní služby. Perfektní pro QSR, rychlé neformální
-                restaurace a kavárny, pomáhají splnit požadavky časově citlivých zákazníků bez kompromisů v
-                kvalitě.</small>
+            <small data-i18n="title_combisteel_range">Objevte náš výběr produktů z řady vaření, speciálně vytvořených
+                pro profesionální kuchaře. Od plynových varných stolů a pečicích plechů až po praktické příslušenství,
+                naše kolekce nabízí vše, co potřebujete v profesionální kuchyni. Snadno připravte lahodná jídla, která
+                zapůsobí na každého.</small>
             <a href="index.html#Kategorie">
                 <p class="mb-0 mt-3" style="color: antiquewhite">
                     <i class="fa-solid fa-house" style="color: white"></i>&nbsp; Back
@@ -235,17 +229,108 @@
             <p id="popup-weight"></p>
         </div>
     </div>
+
+
     <!-- mina Shop Start-->
     <div class="container-fluid fruite py-5">
         <div class="container py-5">
             <div class="row g-4">
 
+
+
+                <!-- SIDEBAR FILTER -->
                 <!-- SIDEBAR FILTER -->
                 <aside class="col-lg-3 mb-4">
-                    <div id="filter-panel" class="filter-content bg-light border rounded p-3">
-                        <!-- JS speed_oven_filter.js sẽ generate toàn bộ filter giống hình chụp -->
+
+
+                    <!-- CATEGORY – cố định, không dính JS -->
+                    <div class="filter-content bg-light border rounded p-3" x-data="{ catOpen: true }">
+                        <!-- tiêu đề -->
+                        <div class="filter-options-title d-flex justify-content-between align-items-center cursor-pointer"
+                            @click="catOpen = !catOpen">
+                            <span class="title text-uppercase">Category</span>
+                            <span>
+                                <i class="fa-solid fa-chevron-down" :class="{ 'rotate-180': catOpen }"
+                                    style="transition: transform .3s"></i>
+                            </span>
+                        </div>
+
+                        <!-- danh sách category fix cứng -->
+                        <div class="filter-options-content pt-2" x-show="catOpen">
+                            <a href="range.html" class="mf-filter-row d-flex justify-content-between">
+                                <span>Range</span>
+                                <span class="count text-muted">(37)</span>
+                            </a>
+
+                            <a href="induction.html" class="mf-filter-row d-flex justify-content-between">
+                                <span>Induction</span>
+                                <span class="count text-muted">(11)</span>
+                            </a>
+
+                            <a href="range-with-oven.html" class="mf-filter-row d-flex justify-content-between">
+                                <span>Range with oven</span>
+                                <span class="count text-muted">(10)</span>
+                            </a>
+
+                            <a href="solid-top.html" class="mf-filter-row d-flex justify-content-between">
+                                <span>Solid top</span>
+                                <span class="count text-muted">(1)</span>
+                            </a>
+
+                            <a href="lava-stone-grill.html" class="mf-filter-row d-flex justify-content-between">
+                                <span>Lava stone grill</span>
+                                <span class="count text-muted">(7)</span>
+                            </a>
+
+                            <a href="vapor-grill.html" class="mf-filter-row d-flex justify-content-between">
+                                <span>Vapor grill</span>
+                                <span class="count text-muted">(3)</span>
+                            </a>
+
+                            <a href="fry-top.html" class="mf-filter-row d-flex justify-content-between">
+                                <span>Fry top</span>
+                                <span class="count text-muted">(41)</span>
+                            </a>
+
+                            <a href="fryer.html" class="mf-filter-row d-flex justify-content-between">
+                                <span>Fryer</span>
+                                <span class="count text-muted">(23)</span>
+                            </a>
+
+                            <a href="pasta-cooker.html" class="mf-filter-row d-flex justify-content-between">
+                                <span>Pasta cooker</span>
+                                <span class="count text-muted">(7)</span>
+                            </a>
+
+                            <a href="bain-marie.html" class="mf-filter-row d-flex justify-content-between">
+                                <span>Bain-marie</span>
+                                <span class="count text-muted">(5)</span>
+                            </a>
+
+                            <a href="boiling-pan.html" class="mf-filter-row d-flex justify-content-between">
+                                <span>Boiling pan</span>
+                                <span class="count text-muted">(7)</span>
+                            </a>
+
+                            <a href="tilting-pan.html" class="mf-filter-row d-flex justify-content-between">
+                                <span>Tilting pan</span>
+                                <span class="count text-muted">(5)</span>
+                            </a>
+
+                            <a href="neutral.html" class="mf-filter-row d-flex justify-content-between">
+                                <span>Neutral</span>
+                                <span class="count text-muted">(15)</span>
+                            </a>
+                        </div>
                     </div>
+                    <!-- FILTER động: JS combisteel_cooking_range.js sẽ vẽ vào đây -->
+                    <div id="filter-panel" class="filter-content bg-light border rounded p-3 mt-4">
+                        <!-- để trống, JS sẽ fill -->
+                    </div>
+
+
                 </aside>
+
 
 
                 <!-- PRODUCT GRID + PAGER -->

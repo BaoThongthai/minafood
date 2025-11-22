@@ -3,6 +3,7 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+            "title_combisteel_range": "Objevte náš výběr produktů z řady vaření, speciálně vytvořených pro profesionální kuchaře. Od plynových varných stolů a pečicích plechů až po praktické příslušenství, naše kolekce nabízí vše, co potřebujete v profesionální kuchyni. Snadno připravte lahodná jídla, která zapůsobí na každého.",
             "unox_cat_smart_accessories": "Smart accessories",
             "unox_cat_prumyslove_nadoby": "Průmyslové nádoby",
             "unox_cat_pece_udrzba": "Péče a údržba",
@@ -426,6 +427,7 @@
         },
 
         en: {
+            "title_combisteel_range": "Discover our selection of cooking line products, specially formulated for professional chefs. From gas cooking tables and baking trays to handy accessories, ourcollection offers everything you need in a professional kitchen. Easily prepare delicious meals that will impress everyone.",
             "unox_cat_smart_accessories": "Smart accessories",
             "unox_cat_prumyslove_nadoby": "Industrial containers",
             "unox_cat_pece_udrzba": "Care & maintenance",
