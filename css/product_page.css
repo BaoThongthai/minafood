@@ -257,3 +257,9 @@
 .rotate-180 {
   transform: rotate(180deg);
 }
+
+.mf-filter-row.active {
+  font-weight: 600;
+  color: #0070d8 !important;
+  background-color: #e6f0ff;
+}
