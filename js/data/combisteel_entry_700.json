@@ -1,0 +1,632 @@
+[
+    {
+        "code": "7545.0010",
+        "name": "ENTRY 700 INDUCTION STOVE 4 HOBS",
+        "url": "https://www.combisteel.com/en/7545-0010-entry-700-induction-stove-4-hobs.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_0010_render_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_0010_render_1.jpg",
+        "price": 84875,
+        "price_currency": "CZK",
+        "price_text": "84 875 Kč",
+        "specs": {
+            "width": 800,
+            "depth": 700,
+            "height": 941,
+            "material": "Stainless steel Aisi 201",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 81,
+            "particulars": "Suitable pan sizes: 16 to 25 cm",
+            "voltage": 400,
+            "frequency": 50,
+            "electrical_power": 14,
+            "version": "Induction",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "burner_capacity_/_division": "4x 3,5",
+            "operation": "Knob",
+            "brand": "COMBISTEEL",
+            "dimensions_glass_sheet_wxdxh": "700x560"
+        },
+        "downloads": [
+            {
+                "label": "7545.0010 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216648/product/4903/"
+            },
+            {
+                "label": "Exploded view 7545.0010 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216649/product/4903/"
+            },
+            {
+                "label": "Manual 7545.0005-0010",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216650/product/4903/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7545.0020",
+        "name": "ENTRY 700 EL. FRY TOP CHROME",
+        "url": "https://www.combisteel.com/en/7545-0020-entry-700-el-fry-top-chrome.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_0020_render_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_0020_render_1.jpg",
+        "price": 58875,
+        "price_currency": "CZK",
+        "price_text": "58 875 Kč",
+        "specs": {
+            "width": 800,
+            "depth": 700,
+            "height": 980,
+            "material": "Stainless steel",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 101,
+            "net_weight": 85,
+            "voltage": 400,
+            "frequency": 50,
+            "electrical_power": 8.1,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "+180/+250",
+            "griddle_surface": "Chromed smooth",
+            "operation": "Knob",
+            "grease_collection_tray_/_drawer": "Yes",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "7545.0020 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216655/product/4905/"
+            },
+            {
+                "label": "Manual 7545.0015-0020",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216656/product/4905/"
+            },
+            {
+                "label": "Exploded view 7545.0020 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216657/product/4905/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7545.9000",
+                "name": "ENTRY 700 DOOR\nNot suitable for 7545.0005 and 7545.0010",
+                "url": "https://www.combisteel.com/en/7545-9000-entry-700-door-not-suitable-for-7545-0005-and-7545-0010.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7545.0005",
+        "name": "ENTRY 700 INDUCTION STOVE 2 HOBS",
+        "url": "https://www.combisteel.com/en/7545-0005-entry-700-induction-stove-2-hobs.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_0005_render_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_0005_render_1.jpg",
+        "price": 49750,
+        "price_currency": "CZK",
+        "price_text": "49 750 Kč",
+        "specs": {
+            "width": 400,
+            "depth": 700,
+            "height": 941,
+            "material": "Stainless steel Aisi 201",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 49,
+            "particulars": "Suitable pan sizes: 16 to 25 cm",
+            "voltage": 400,
+            "frequency": 50,
+            "electrical_power": 7,
+            "version": "Induction",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "burner_capacity_/_division": "2x 3,5",
+            "operation": "Knob",
+            "brand": "COMBISTEEL",
+            "dimensions_glass_sheet_wxdxh": "320x560",
+            "cord_length": 1350
+        },
+        "downloads": [
+            {
+                "label": "7545.0005 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231346/product/4902/"
+            },
+            {
+                "label": "Exploded view 7545.0005 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231347/product/4902/"
+            },
+            {
+                "label": "Manual 7545.0005-0010",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231348/product/4902/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7545.0015",
+        "name": "ENTRY 700 EL. FRY TOP CHROME",
+        "url": "https://www.combisteel.com/en/7545-0015-entry-700-el-fry-top-chrome.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_0015_render_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_0015_render_1.jpg",
+        "price": 36000,
+        "price_currency": "CZK",
+        "price_text": "36 000 Kč",
+        "specs": {
+            "width": 400,
+            "depth": 700,
+            "height": 980,
+            "material": "Stainless steel",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 555,
+            "net_weight": 44,
+            "voltage": 400,
+            "frequency": 50,
+            "electrical_power": 2.7,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "+180/+250",
+            "griddle_surface": "Chromed smooth",
+            "dim._griddle_wxd": "282x447",
+            "operation": "Knob",
+            "grease_collection_tray_/_drawer": "Yes",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "7545.0015 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216642/product/4904/"
+            },
+            {
+                "label": "Manual 7545.0015-0020",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216643/product/4904/"
+            },
+            {
+                "label": "Exploded view 7545.0015 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216644/product/4904/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7545.9000",
+                "name": "ENTRY 700 DOOR\nNot suitable for 7545.0005 and 7545.0010",
+                "url": "https://www.combisteel.com/en/7545-9000-entry-700-door-not-suitable-for-7545-0005-and-7545-0010.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7455.0965",
+        "name": "ELECTRIC FRYER 2X12L 2X9KW",
+        "url": "https://www.combisteel.com/en/7455-0965-electric-fryer-2x12l-2x9kw.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0960-0965_render_3.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0960-0965_render_3.jpg",
+        "price": 33500,
+        "price_currency": "CZK",
+        "price_text": "33 500 Kč",
+        "specs": {
+            "ean_code": 7435137870876,
+            "width": 800,
+            "depth": 700,
+            "height": 850,
+            "material": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 645,
+            "net_weight": 49,
+            "voltage": "2x 400",
+            "electrical_power": "2x9",
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "number_of_baskets": 2,
+            "contents_frypot": "2x12",
+            "brand": "COMBISTEEL",
+            "cord_length": 1500,
+            "plug_and_play": "No"
+        },
+        "downloads": [
+            {
+                "label": "Manual Fryers 7455.0930 - 0965",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1228807/product/764/"
+            },
+            {
+                "label": "Dimensions 7455.0960-0965",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1228808/product/764/"
+            },
+            {
+                "label": "Wiring diagram 7455.0930 - 0965",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1228809/product/764/"
+            },
+            {
+                "label": "Exploded view 7455.0965 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1228810/product/764/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7545.9000",
+                "name": "ENTRY 700 DOOR\nNot suitable for 7545.0005 and 7545.0010",
+                "url": "https://www.combisteel.com/en/7545-9000-entry-700-door-not-suitable-for-7545-0005-and-7545-0010.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            },
+            {
+                "code": "7455.0925",
+                "name": "BASKET FRYER FOR 7455.0930-0935-0940-0945-0950-0955-0960-0965",
+                "url": "https://www.combisteel.com/en/7455-0925-basket-fryer-for-7455-0930-0935-0940-0945-0950-0955-0960-0965.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0925_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0925_1.jpg",
+                "price": 2425,
+                "price_currency": "CZK",
+                "price_text": "2 425 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7455.0960",
+        "name": "ELECTRIC FRYER 2X12L 2X6KW",
+        "url": "https://www.combisteel.com/en/7455-0960-electric-fryer-2x12l-2x6kw.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0960-0965_render_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0960-0965_render_1.jpg",
+        "price": 32250,
+        "price_currency": "CZK",
+        "price_text": "32 250 Kč",
+        "specs": {
+            "ean_code": 7435137870869,
+            "width": 800,
+            "depth": 700,
+            "height": 850,
+            "material": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 645,
+            "net_weight": 49,
+            "voltage": "2x 400",
+            "electrical_power": "2x6",
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "number_of_baskets": 2,
+            "contents_frypot": "2x12",
+            "brand": "COMBISTEEL",
+            "cord_length": 1500,
+            "plug_and_play": "No"
+        },
+        "downloads": [
+            {
+                "label": "Manual Fryers 7455.0930 - 0965",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1230893/product/763/"
+            },
+            {
+                "label": "Dimensions 7455.0960-0965",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1230894/product/763/"
+            },
+            {
+                "label": "Wiring diagram 7455.0930 - 0965",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1230895/product/763/"
+            },
+            {
+                "label": "Exploded view 7455.0960 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1230896/product/763/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7545.9000",
+                "name": "ENTRY 700 DOOR\nNot suitable for 7545.0005 and 7545.0010",
+                "url": "https://www.combisteel.com/en/7545-9000-entry-700-door-not-suitable-for-7545-0005-and-7545-0010.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            },
+            {
+                "code": "7455.0925",
+                "name": "BASKET FRYER FOR 7455.0930-0935-0940-0945-0950-0955-0960-0965",
+                "url": "https://www.combisteel.com/en/7455-0925-basket-fryer-for-7455-0930-0935-0940-0945-0950-0955-0960-0965.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0925_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0925_1.jpg",
+                "price": 2425,
+                "price_currency": "CZK",
+                "price_text": "2 425 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7545.0035",
+        "name": "ENTRY 700 ELECTRIC BAIN-MARIE 1/1GN",
+        "url": "https://www.combisteel.com/en/7545-0035-entry-700-electric-bain-marie-1-1gn.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_0035_render_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_0035_render_1.jpg",
+        "price": 28750,
+        "price_currency": "CZK",
+        "price_text": "28 750 Kč",
+        "specs": {
+            "width": 400,
+            "depth": 700,
+            "height": 920,
+            "material": "Stainless steel",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 445,
+            "net_weight": 33,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 2,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "0/+85",
+            "contents_of_gn": "1X 1/1",
+            "brand": "COMBISTEEL",
+            "cord_length": 1000
+        },
+        "downloads": [
+            {
+                "label": "7545.0035 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216645/product/4910/"
+            },
+            {
+                "label": "Manual 7545.0035",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216646/product/4910/"
+            },
+            {
+                "label": "Exploded view 7545.0035 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216647/product/4910/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7545.9000",
+                "name": "ENTRY 700 DOOR\nNot suitable for 7545.0005 and 7545.0010",
+                "url": "https://www.combisteel.com/en/7545-9000-entry-700-door-not-suitable-for-7545-0005-and-7545-0010.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7455.0950",
+        "name": "ELECTRIC FRYER 1X12L 6KW",
+        "url": "https://www.combisteel.com/en/7455-0950-electric-fryer-1x12l-6kw.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0950-0955_render_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0950-0955_render_1.jpg",
+        "price": 19625,
+        "price_currency": "CZK",
+        "price_text": "19 625 Kč",
+        "specs": {
+            "ean_code": 7435137870845,
+            "width": 400,
+            "depth": 700,
+            "height": 850,
+            "material": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 41,
+            "net_weight": 30,
+            "voltage": 400,
+            "electrical_power": 6,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "number_of_baskets": 1,
+            "contents_frypot": 12,
+            "brand": "COMBISTEEL",
+            "cord_length": 1500,
+            "plug_and_play": "No"
+        },
+        "downloads": [
+            {
+                "label": "Manual Fryers 7455.0930 - 0965",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213398/product/761/"
+            },
+            {
+                "label": "Dimensions 7455.0950-0955",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213399/product/761/"
+            },
+            {
+                "label": "Wiring diagram 7455.0930 - 0965",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213400/product/761/"
+            },
+            {
+                "label": "Exploded view 7455.0950 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213401/product/761/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7545.9000",
+                "name": "ENTRY 700 DOOR\nNot suitable for 7545.0005 and 7545.0010",
+                "url": "https://www.combisteel.com/en/7545-9000-entry-700-door-not-suitable-for-7545-0005-and-7545-0010.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            },
+            {
+                "code": "7455.0925",
+                "name": "BASKET FRYER FOR 7455.0930-0935-0940-0945-0950-0955-0960-0965",
+                "url": "https://www.combisteel.com/en/7455-0925-basket-fryer-for-7455-0930-0935-0940-0945-0950-0955-0960-0965.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0925_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0925_1.jpg",
+                "price": 2425,
+                "price_currency": "CZK",
+                "price_text": "2 425 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7455.0955",
+        "name": "ELECTRIC FRYER 1X12L 9KW",
+        "url": "https://www.combisteel.com/en/7455-0955-electric-fryer-1x12l-9kw.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0950-0955_render_3.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0950-0955_render_3.jpg",
+        "price": 19500,
+        "price_currency": "CZK",
+        "price_text": "19 500 Kč",
+        "specs": {
+            "ean_code": 7435137870852,
+            "width": 400,
+            "depth": 700,
+            "height": 850,
+            "material": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 41,
+            "net_weight": 30,
+            "voltage": 400,
+            "electrical_power": 9,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "number_of_baskets": 1,
+            "contents_frypot": 12,
+            "brand": "COMBISTEEL",
+            "cord_length": 1500,
+            "plug_and_play": "No"
+        },
+        "downloads": [
+            {
+                "label": "Manual Fryers 7455.0930 - 0965",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231769/product/762/"
+            },
+            {
+                "label": "Dimensions 7455.0950-0955",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231770/product/762/"
+            },
+            {
+                "label": "Wiring diagram 7455.0930 - 0965",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231771/product/762/"
+            },
+            {
+                "label": "Exploded view 7455.0955 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231772/product/762/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7545.9000",
+                "name": "ENTRY 700 DOOR\nNot suitable for 7545.0005 and 7545.0010",
+                "url": "https://www.combisteel.com/en/7545-9000-entry-700-door-not-suitable-for-7545-0005-and-7545-0010.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            },
+            {
+                "code": "7455.0925",
+                "name": "BASKET FRYER FOR 7455.0930-0935-0940-0945-0950-0955-0960-0965",
+                "url": "https://www.combisteel.com/en/7455-0925-basket-fryer-for-7455-0930-0935-0940-0945-0950-0955-0960-0965.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0925_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0925_1.jpg",
+                "price": 2425,
+                "price_currency": "CZK",
+                "price_text": "2 425 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7545.0045",
+        "name": "ENTRY 700 NEUTRAL UNIT DOUBLE",
+        "url": "https://www.combisteel.com/en/7545-0045-entry-700-neutral-unit-double.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_0045_render_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_0045_render_1.jpg",
+        "price": 18750,
+        "price_currency": "CZK",
+        "price_text": "18 750 Kč",
+        "specs": {
+            "width": 800,
+            "depth": 700,
+            "height": 920,
+            "material": "Stainless steel",
+            "color": "Stainless steel",
+            "gross_weight": 54,
+            "net_weight": 385,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "7545.0045 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216651/product/4907/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7545.9000",
+                "name": "ENTRY 700 DOOR\nNot suitable for 7545.0005 and 7545.0010",
+                "url": "https://www.combisteel.com/en/7545-9000-entry-700-door-not-suitable-for-7545-0005-and-7545-0010.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7545.0040",
+        "name": "ENTRY 700 NEUTRAL UNIT SINGLE",
+        "url": "https://www.combisteel.com/en/7545-0040-entry-700-neutral-unit-single.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_0040_render_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_0040_render_1.jpg",
+        "price": 14375,
+        "price_currency": "CZK",
+        "price_text": "14 375 Kč",
+        "specs": {
+            "width": 400,
+            "depth": 700,
+            "height": 920,
+            "material": "Stainless steel",
+            "color": "Stainless steel",
+            "gross_weight": 355,
+            "net_weight": 24,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "7545.0040 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216658/product/4906/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7545.9000",
+                "name": "ENTRY 700 DOOR\nNot suitable for 7545.0005 and 7545.0010",
+                "url": "https://www.combisteel.com/en/7545-9000-entry-700-door-not-suitable-for-7545-0005-and-7545-0010.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7545.9000",
+        "name": "ENTRY 700 DOOR\nNot suitable for 7545.0005 and 7545.0010",
+        "url": "https://www.combisteel.com/en/7545-9000-entry-700-door-not-suitable-for-7545-0005-and-7545-0010.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
+        "price": 2375,
+        "price_currency": "CZK",
+        "price_text": "2 375 Kč",
+        "specs": {
+            "material": "Stainless steel",
+            "color": "Stainless steel",
+            "parcel_ready": "Yes",
+            "gross_weight": 5,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    }
+]

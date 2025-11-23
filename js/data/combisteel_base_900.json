@@ -1,0 +1,2425 @@
+[
+    {
+        "code": "7178.3145",
+        "name": "BASE 900 INDUCTION ELECTRIC RANGE 4 PL.",
+        "url": "https://www.combisteel.com/en/7178-3145-base-900-induction-electric-range-4-pl.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3145-15898.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3145-15898.jpg",
+        "price": 337500,
+        "price_currency": "CZK",
+        "price_text": "337 500 Kč",
+        "specs": {
+            "ean_code": 7422242984994,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 64,
+            "voltage": 400,
+            "electrical_power": 20,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "burner_capacity_/_division": "4x 5",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Induction (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215750/product/4420/"
+            },
+            {
+                "label": "Productsheet 7178.3145",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215751/product/4420/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3095",
+        "name": "BASE 900 GAS BOILING PAN 250L - INDIRECT HEATING",
+        "url": "https://www.combisteel.com/en/7178-3095-base-900-gas-boiling-pan-250l-indirect-heating.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3095-15422.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3095-15422.jpg",
+        "price": 182375,
+        "price_currency": "CZK",
+        "price_text": "182 375 Kč",
+        "specs": {
+            "volume": 250,
+            "ean_code": 7422242983997,
+            "width": 1200,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 282,
+            "particulars": "Equipped with thermostatic control (230V electrical connection).",
+            "total_gas_output": 30,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "water_inlet": "1/2",
+            "heating": "Indirect",
+            "brand": "COMBISTEEL",
+            "dim._bassin_wxdxh": "960x510x510",
+            "gross_capacity": 250
+        },
+        "downloads": [
+            {
+                "label": "COMBISTEEL - Instruction - Boiling Pan - Gas",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215893/product/4300/"
+            },
+            {
+                "label": "Tank Dimensions 7178.3095",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215894/product/4300/"
+            },
+            {
+                "label": "Exploded view 7178.3095 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215895/product/4300/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3125",
+        "name": "BASE 900 GAS TILTING PAN 120L",
+        "url": "https://www.combisteel.com/en/7178-3125-base-900-gas-tilting-pan-120l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3125-15428.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3125-15428.jpg",
+        "price": 180750,
+        "price_currency": "CZK",
+        "price_text": "180 750 Kč",
+        "specs": {
+            "ean_code": 7422242984956,
+            "width": 1200,
+            "depth": 900,
+            "height": 900,
+            "gross_weight": 214,
+            "particulars": "Equipped with thermostatic control (230V electrical connection).",
+            "total_gas_output": 30,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "+50/+300",
+            "capacity": 120,
+            "type_tilting": "Manual tilting",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Bratt Pan Gas (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215942/product/4302/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3115",
+        "name": "BASE 900 EL. BOILING PAN 250L - INDIRECT HEATING",
+        "url": "https://www.combisteel.com/en/7178-3115-base-900-el-boiling-pan-250l-indirect-heating.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3115-15426.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3115-15426.jpg",
+        "price": 176250,
+        "price_currency": "CZK",
+        "price_text": "176 250 Kč",
+        "specs": {
+            "volume": 250,
+            "ean_code": 7422242984932,
+            "width": 1200,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 274,
+            "voltage": 400,
+            "electrical_power": 24,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "water_inlet": "1/2",
+            "heating": "Indirect",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Electric Boiling Pan",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1218510/product/4298/"
+            },
+            {
+                "label": "Exploded view 7178.3115 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1218511/product/4298/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3140",
+        "name": "BASE 900 INDUCTION ELECTRIC RANGE 2 PL.",
+        "url": "https://www.combisteel.com/en/7178-3140-base-900-induction-electric-range-2-pl.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3140-15899.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3140-15899.jpg",
+        "price": 176125,
+        "price_currency": "CZK",
+        "price_text": "176 125 Kč",
+        "specs": {
+            "ean_code": 7422242984987,
+            "width": 400,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 44,
+            "voltage": 400,
+            "electrical_power": 10,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "burner_capacity_/_division": "2x 5",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Induction (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215765/product/4419/"
+            },
+            {
+                "label": "Productsheet 7178.3140",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215766/product/4419/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3135",
+        "name": "BASE 900 EL. TILTING PAN 120L",
+        "url": "https://www.combisteel.com/en/7178-3135-base-900-el-tilting-pan-120l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3135-15430.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3135-15430.jpg",
+        "price": 175125,
+        "price_currency": "CZK",
+        "price_text": "175 125 Kč",
+        "specs": {
+            "ean_code": 7422242984970,
+            "width": 1200,
+            "depth": 900,
+            "height": 900,
+            "gross_weight": 185,
+            "voltage": 400,
+            "electrical_power": 18,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "+50/+300",
+            "capacity": 120,
+            "type_tilting": "Manual tilting",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Bratt Pan (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215822/product/4304/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3105",
+        "name": "BASE 900 GAS BOILING PAN 250L - DIRECT HEATING",
+        "url": "https://www.combisteel.com/en/7178-3105-base-900-gas-boiling-pan-250l-direct-heating.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3105-15424.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3105-15424.jpg",
+        "price": 165000,
+        "price_currency": "CZK",
+        "price_text": "165 000 Kč",
+        "specs": {
+            "volume": 250,
+            "ean_code": 7422242984918,
+            "width": 1200,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 202,
+            "total_gas_output": 30,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "water_inlet": "1/2",
+            "heating": "Directly",
+            "brand": "COMBISTEEL",
+            "dim._bassin_wxdxh": "960x510x500"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Gas Boiling Pan",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216022/product/4296/"
+            },
+            {
+                "label": "Exploded view 7178.3105 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216023/product/4296/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3090",
+        "name": "BASE 900 GAS BOILING PAN 150L - INDIRECT HEATING",
+        "url": "https://www.combisteel.com/en/7178-3090-base-900-gas-boiling-pan-150l-indirect-heating.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3090-15421.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3090-15421.jpg",
+        "price": 164625,
+        "price_currency": "CZK",
+        "price_text": "164 625 Kč",
+        "specs": {
+            "volume": 150,
+            "ean_code": 7422242983980,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 174,
+            "particulars": "Equipped with thermostatic control (230V electrical connection).",
+            "total_gas_output": 20,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "water_inlet": "1/2",
+            "heating": "Indirect",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "COMBISTEEL - Instruction - Boiling Pan - Gas",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215889/product/4299/"
+            },
+            {
+                "label": "Exploded view 7178.3090 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215890/product/4299/"
+            },
+            {
+                "label": "7178.3090",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215891/product/4299/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3030",
+        "name": "BASE 900 GAS STOVE 8 BU. WITH GAS OVEN",
+        "url": "https://www.combisteel.com/en/7178-3030-base-900-gas-stove-8-bu-with-gas-oven.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3030-15410.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3030-15410.jpg",
+        "price": 155125,
+        "price_currency": "CZK",
+        "price_text": "155 125 Kč",
+        "specs": {
+            "ean_code": 7422242982952,
+            "width": 1600,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 275,
+            "particulars": "2/1 GN geschikt voor de oven",
+            "total_gas_output": 80,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "oven_power": "6X2",
+            "burner_capacity_/_division": "8X 8,5",
+            "number_of_burners": 8,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Gas Range (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215813/product/4280/"
+            },
+            {
+                "label": "Exploded view 7178.3030 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215814/product/4280/"
+            },
+            {
+                "label": "Oven dimensions 7178.0415-0420-0435-0590-3015-3020-3025-3030-3035-3040",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215815/product/4280/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7488.9055",
+                "name": "PRO 700/900 GRID FOR PAN",
+                "url": "https://www.combisteel.com/en/7488-9055-pro-700-900-grid-for-pan.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
+                "price": 300,
+                "price_currency": "CZK",
+                "price_text": "300 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3110",
+        "name": "BASE 900 EL. BOILING PAN 150L - INDIRECT HEATING",
+        "url": "https://www.combisteel.com/en/7178-3110-base-900-el-boiling-pan-150l-indirect-heating.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3110-15425.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3110-15425.jpg",
+        "price": 152000,
+        "price_currency": "CZK",
+        "price_text": "152 000 Kč",
+        "specs": {
+            "volume": 150,
+            "ean_code": 7422242984925,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 154,
+            "voltage": 400,
+            "electrical_power": 12,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "water_inlet": "1/2",
+            "heating": "Indirect",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Electric Boiling Pan",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216024/product/4297/"
+            },
+            {
+                "label": "Exploded view 7178.3110 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216025/product/4297/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3120",
+        "name": "BASE 900 GAS TILTING PAN 80L",
+        "url": "https://www.combisteel.com/en/7178-3120-base-900-gas-tilting-pan-80l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3120-15427.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3120-15427.jpg",
+        "price": 145250,
+        "price_currency": "CZK",
+        "price_text": "145 250 Kč",
+        "specs": {
+            "ean_code": 7422242984949,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "gross_weight": 177,
+            "particulars": "Equipped with thermostatic control (230V electrical connection).",
+            "total_gas_output": 20,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "+50/+300",
+            "capacity": 80,
+            "type_tilting": "Manual tilting",
+            "brand": "COMBISTEEL",
+            "gas_connection": "1/2\"",
+            "water_inlet": "1/2"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Bratt Pan Gas (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216026/product/4301/"
+            },
+            {
+                "label": "Datasheet 7178.3120",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216027/product/4301/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3130",
+        "name": "BASE 900 EL. TILTING PAN 80L",
+        "url": "https://www.combisteel.com/en/7178-3130-base-900-el-tilting-pan-80l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3130-15429.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3130-15429.jpg",
+        "price": 133875,
+        "price_currency": "CZK",
+        "price_text": "133 875 Kč",
+        "specs": {
+            "ean_code": 7422242984963,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "gross_weight": 166,
+            "voltage": 400,
+            "electrical_power": 12,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "+50/+300",
+            "capacity": 80,
+            "type_tilting": "Manual tilting",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Bratt Pan (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1226068/product/4303/"
+            },
+            {
+                "label": "Productsheet 7178.3130",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1226069/product/4303/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3100",
+        "name": "BASE 900 GAS BOILING PAN 150L - DIRECT HEATING",
+        "url": "https://www.combisteel.com/en/7178-3100-base-900-gas-boiling-pan-150l-direct-heating.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3100-15423.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3100-15423.jpg",
+        "price": 127500,
+        "price_currency": "CZK",
+        "price_text": "127 500 Kč",
+        "specs": {
+            "volume": 150,
+            "ean_code": 7422242984901,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 150,
+            "total_gas_output": 20,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "water_inlet": "1/2",
+            "heating": "Directly",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Gas Boiling Pan",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215933/product/4295/"
+            },
+            {
+                "label": "Exploded view 7178.3100 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215934/product/4295/"
+            },
+            {
+                "label": "7178.3100 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215935/product/4295/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3025",
+        "name": "BASE 900 GAS STOVE 6 BU. WITH GAS OVEN",
+        "url": "https://www.combisteel.com/en/7178-3025-base-900-gas-stove-6-bu-with-gas-oven.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3025-15409.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3025-15409.jpg",
+        "price": 93625,
+        "price_currency": "CZK",
+        "price_text": "93 625 Kč",
+        "specs": {
+            "ean_code": 7422242982945,
+            "width": 1200,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 215,
+            "particulars": "2/1 GN geschikt voor de oven",
+            "total_gas_output": 57,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "oven_power": 6,
+            "burner_capacity_/_division": "6X 8,5",
+            "number_of_burners": 6,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Gas Range (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231314/product/4278/"
+            },
+            {
+                "label": "Exploded view 7178.3025 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231315/product/4278/"
+            },
+            {
+                "label": "Oven dimensions 7178.0415-0420-0435-0590-3015-3020-3025-3030-3035-3040",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231316/product/4278/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7488.9055",
+                "name": "PRO 700/900 GRID FOR PAN",
+                "url": "https://www.combisteel.com/en/7488-9055-pro-700-900-grid-for-pan.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
+                "price": 300,
+                "price_currency": "CZK",
+                "price_text": "300 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3050",
+        "name": "BASE 900 GAS FRYER 2X19L",
+        "url": "https://www.combisteel.com/en/7178-3050-base-900-gas-fryer-2x19l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3050-15414.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3050-15414.jpg",
+        "price": 89250,
+        "price_currency": "CZK",
+        "price_text": "89 250 Kč",
+        "specs": {
+            "ean_code": 7422242983904,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "accessories_included": "4 manden",
+            "parcel_ready": "No",
+            "gross_weight": 133,
+            "total_gas_output": 36,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "number_of_baskets": "4x 140x350x130",
+            "gross_capacity": "2X 19",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Gas Fryers (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216017/product/4289/"
+            },
+            {
+                "label": "Exploded view 7178.3050 (2023)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216018/product/4289/"
+            },
+            {
+                "label": "Exploded view 7178.3050 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216019/product/4289/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9070",
+                "name": "BASE 900 BASKET GAS FRYER",
+                "url": "https://www.combisteel.com/en/7178-9070-base-900-basket-gas-fryer.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9070_1-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9070_1-min_1.png",
+                "price": 2500,
+                "price_currency": "CZK",
+                "price_text": "2 500 Kč"
+            },
+            {
+                "code": "7178.9075",
+                "name": "BASE 900 BASKET GAS FRYER",
+                "url": "https://www.combisteel.com/en/7178-9075-base-900-basket-gas-fryer.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9075-11024.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9075-11024.jpg",
+                "price": 4500,
+                "price_currency": "CZK",
+                "price_text": "4 500 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3035",
+        "name": "BASE 900 ELECTRIC RANGE 4 PL. EL. OVEN",
+        "url": "https://www.combisteel.com/en/7178-3035-base-900-electric-range-4-pl-el-oven.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3035-15411.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3035-15411.jpg",
+        "price": 89000,
+        "price_currency": "CZK",
+        "price_text": "89 000 Kč",
+        "specs": {
+            "ean_code": 7422242982969,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 170,
+            "particulars": "2/1 GN geschikt voor de oven",
+            "voltage": 400,
+            "electrical_power": 18,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "oven_power": 6,
+            "solid_top_power/_division": "4X 3",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 El. Range (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216003/product/4279/"
+            },
+            {
+                "label": "Exploded view 7178.3035 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216004/product/4279/"
+            },
+            {
+                "label": "Oven dimensions 7178.0415-0420-0435-0590-3015-3020-3025-3030-3035-3040",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216005/product/4279/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3215",
+        "name": "BASE 900 GAS VAPOR GRILL",
+        "url": "https://www.combisteel.com/en/7178-3215-base-900-gas-vapor-grill.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3215-15925_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3215-15925_1.jpg",
+        "price": 84625,
+        "price_currency": "CZK",
+        "price_text": "84 625 Kč",
+        "specs": {
+            "ean_code": 7422242986936,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 220,
+            "total_gas_output": 22,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Vapor Grill (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215779/product/4428/"
+            },
+            {
+                "label": "Exploded view 7178.3215 (2023)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215780/product/4428/"
+            },
+            {
+                "label": "Productsheet 7178.3215",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215781/product/4428/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3020",
+        "name": "BASE 900 GAS STOVE 4 BU. WITH ELECTRIC OVEN",
+        "url": "https://www.combisteel.com/en/7178-3020-base-900-gas-stove-4-bu-with-electric-oven.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3020-15408.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3020-15408.jpg",
+        "price": 84500,
+        "price_currency": "CZK",
+        "price_text": "84 500 Kč",
+        "specs": {
+            "ean_code": 7422242982938,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 144,
+            "particulars": "2/1 GN geschikt voor de oven",
+            "voltage": 400,
+            "electrical_power": 6,
+            "total_gas_output": 40,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "burner_capacity_/_division": "4X 8,5",
+            "number_of_burners": 4,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Exploded view 7178.3020 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215918/product/4259/"
+            },
+            {
+                "label": "Oven dimensions 7178.0415-0420-0435-0590-3015-3020-3025-3030-3035-3040",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215919/product/4259/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7488.9055",
+                "name": "PRO 700/900 GRID FOR PAN",
+                "url": "https://www.combisteel.com/en/7488-9055-pro-700-900-grid-for-pan.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
+                "price": 300,
+                "price_currency": "CZK",
+                "price_text": "300 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3200",
+        "name": "BASE 900 EL. FRY TOP CHROME",
+        "url": "https://www.combisteel.com/en/7178-3200-base-900-el-fry-top-chrome.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3200-15929.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3200-15929.jpg",
+        "price": 75375,
+        "price_currency": "CZK",
+        "price_text": "75 375 Kč",
+        "specs": {
+            "ean_code": 7422242986905,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 153,
+            "particulars": "Hard verchroomd bakoppervlak",
+            "voltage": 400,
+            "electrical_power": 12,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "griddle_surface": "Chromed smooth",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 El. Fry Top (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215748/product/4424/"
+            },
+            {
+                "label": "Productsheet 7178.3200",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215749/product/4424/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3015",
+        "name": "BASE 900 GAS STOVE 4 BU. WITH GAS OVEN",
+        "url": "https://www.combisteel.com/en/7178-3015-base-900-gas-stove-4-bu-with-gas-oven.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3015-15407.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3015-15407.jpg",
+        "price": 74125,
+        "price_currency": "CZK",
+        "price_text": "74 125 Kč",
+        "specs": {
+            "ean_code": 7422242982921,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 158,
+            "particulars": "2/1 GN geschikt voor de oven",
+            "total_gas_output": 40,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "oven_power": 6,
+            "burner_capacity_/_division": "4X 8,5",
+            "number_of_burners": 4,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Gas Range (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215878/product/4283/"
+            },
+            {
+                "label": "Exploded view 7178.3015 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215879/product/4283/"
+            },
+            {
+                "label": "Oven dimensions 7178.0415-0420-0435-0590-3015-3020-3025-3030-3035-3040",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215880/product/4283/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7488.9055",
+                "name": "PRO 700/900 GRID FOR PAN",
+                "url": "https://www.combisteel.com/en/7488-9055-pro-700-900-grid-for-pan.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
+                "price": 300,
+                "price_currency": "CZK",
+                "price_text": "300 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3010",
+        "name": "BASE 900 GAS RANGE 6 BU.",
+        "url": "https://www.combisteel.com/en/7178-3010-base-900-gas-range-6-bu.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3010-15406.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3010-15406.jpg",
+        "price": 74125,
+        "price_currency": "CZK",
+        "price_text": "74 125 Kč",
+        "specs": {
+            "ean_code": 7422242982914,
+            "width": 1200,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 155,
+            "total_gas_output": 52,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "burner_capacity_/_division": "6X 8,5",
+            "number_of_burners": 6,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Gas Range (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215875/product/4284/"
+            },
+            {
+                "label": "Exploded view 7178.3010 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215876/product/4284/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            },
+            {
+                "code": "7488.9055",
+                "name": "PRO 700/900 GRID FOR PAN",
+                "url": "https://www.combisteel.com/en/7488-9055-pro-700-900-grid-for-pan.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
+                "price": 300,
+                "price_currency": "CZK",
+                "price_text": "300 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3080",
+        "name": "BASE 900 GAS PASTA COOKER",
+        "url": "https://www.combisteel.com/en/7178-3080-base-900-gas-pasta-cooker.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3080-15528.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3080-15528.jpg",
+        "price": 73750,
+        "price_currency": "CZK",
+        "price_text": "73 750 Kč",
+        "specs": {
+            "ean_code": 7422242983966,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "accessories_included": "10 manden",
+            "parcel_ready": "No",
+            "gross_weight": 97,
+            "total_gas_output": 18,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "0/+100",
+            "number_of_baskets": "2x 220x150x210 + 8x 110x150x210",
+            "gross_capacity": "2X 24",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Pasta Cooker (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215884/product/4293/"
+            },
+            {
+                "label": "Exploded view 7178.3080 (2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215885/product/4293/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9085",
+                "name": "BASE 900 BASKET PASTA COOKER LEFT",
+                "url": "https://www.combisteel.com/en/7178-9085-base-900-basket-pasta-cooker-left.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9085-11027.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9085-11027.jpg",
+                "price": 2125,
+                "price_currency": "CZK",
+                "price_text": "2 125 Kč"
+            },
+            {
+                "code": "7178.9086",
+                "name": "BASE 900 BASKET PASTA COOKER RIGHT",
+                "url": "https://www.combisteel.com/en/7178-9086-base-900-basket-pasta-cooker-right.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9085-11027_2.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9085-11027_2.jpg",
+                "price": 2125,
+                "price_currency": "CZK",
+                "price_text": "2 125 Kč"
+            },
+            {
+                "code": "7178.9090",
+                "name": "BASE 900 BASKET PASTA COOKER GAS",
+                "url": "https://www.combisteel.com/en/7178-9090-base-900-basket-pasta-cooker-gas.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9090-11034.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9090-11034.jpg",
+                "price": 2625,
+                "price_currency": "CZK",
+                "price_text": "2 625 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3190",
+        "name": "BASE 900 GAS FRY TOP CHROME",
+        "url": "https://www.combisteel.com/en/7178-3190-base-900-gas-fry-top-chrome.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3190-15892.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3190-15892.jpg",
+        "price": 71500,
+        "price_currency": "CZK",
+        "price_text": "71 500 Kč",
+        "specs": {
+            "ean_code": 7422242985977,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 135,
+            "particulars": "Hard verchroomd bakoppervlak",
+            "total_gas_output": 18,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "griddle_surface": "Chromed smooth",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Gas Fry Tops (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215744/product/4429/"
+            },
+            {
+                "label": "Exploded view 7178.3190 (2023)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215745/product/4429/"
+            },
+            {
+                "label": "Exploded View 7178.3190 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215746/product/4429/"
+            },
+            {
+                "label": "Productsheet 7178.3190",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215747/product/4429/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3040",
+        "name": "BASE 900 SOLID TOP RANGE GAS OVEN",
+        "url": "https://www.combisteel.com/en/7178-3040-base-900-solid-top-range-gas-oven.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3040-15412.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3040-15412.jpg",
+        "price": 71125,
+        "price_currency": "CZK",
+        "price_text": "71 125 Kč",
+        "specs": {
+            "ean_code": 7422242982976,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 135,
+            "particulars": "2/1 GN geschikt voor de oven",
+            "total_gas_output": 11,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "oven_power": 6,
+            "solid_top_power/_division": 5,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Exploded view 7178.3040 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1228278/product/4285/"
+            },
+            {
+                "label": "Oven dimensions 7178.0415-0420-0435-0590-3015-3020-3025-3030-3035-3040",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1228279/product/4285/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3060",
+        "name": "BASE 900 ELECTRIC FRYER 2X22L",
+        "url": "https://www.combisteel.com/en/7178-3060-base-900-electric-fryer-2x22l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3060-15416.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3060-15416.jpg",
+        "price": 70375,
+        "price_currency": "CZK",
+        "price_text": "70 375 Kč",
+        "specs": {
+            "ean_code": 7422242983928,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "accessories_included": "4 manden",
+            "parcel_ready": "No",
+            "gross_weight": 106,
+            "voltage": 400,
+            "electrical_power": 36,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "number_of_baskets": "4x 140x320x185",
+            "gross_capacity": "2X 22",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 El. Fryers (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215820/product/4291/"
+            },
+            {
+                "label": "Exploded View 7178.3060 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215821/product/4291/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9080",
+                "name": "BASE 900 BASKET ELECTRIC FRYER",
+                "url": "https://www.combisteel.com/en/7178-9080-base-900-basket-electric-fryer.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9080-11023.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9080-11023.jpg",
+                "price": 2500,
+                "price_currency": "CZK",
+                "price_text": "2 500 Kč"
+            },
+            {
+                "code": "7178.9105",
+                "name": "BASE 700/900 FRYER OIL COLLECTION TRAY WITH FILTER",
+                "url": "https://www.combisteel.com/en/7178-9105-base-700-900-fryer-oil-collection-tray-with-filter.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9105_rvss_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9105_rvss_1.png",
+                "price": 3250,
+                "price_currency": "CZK",
+                "price_text": "3 250 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3180",
+        "name": "BASE 900 EL. FRY TOP GROOVED/SMOOTH",
+        "url": "https://www.combisteel.com/en/7178-3180-base-900-el-fry-top-grooved-smooth.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3180-15893.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3180-15893.jpg",
+        "price": 62125,
+        "price_currency": "CZK",
+        "price_text": "62 125 Kč",
+        "specs": {
+            "ean_code": 7422242985953,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 165,
+            "voltage": 400,
+            "electrical_power": 12,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "griddle_surface": "Smooth/ribbed",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 El. Fry Top (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215756/product/4417/"
+            },
+            {
+                "label": "Productsheet 7178.3180",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215757/product/4417/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3070",
+        "name": "BASE 900 GAS LAVA STONE GRILL",
+        "url": "https://www.combisteel.com/en/7178-3070-base-900-gas-lava-stone-grill.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3070-15418.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3070-15418.jpg",
+        "price": 57250,
+        "price_currency": "CZK",
+        "price_text": "57 250 Kč",
+        "specs": {
+            "ean_code": 7422242983942,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 145,
+            "total_gas_output": 18,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Lava Stone (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215924/product/4287/"
+            },
+            {
+                "label": "Exploded view 7178.3070 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215925/product/4287/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            },
+            {
+                "code": "7178.9055",
+                "name": "BASE 700/900 SCRAPER FOR LAVA STONE GRILL GROOVED",
+                "url": "https://www.combisteel.com/en/7178-9055-base-700-900-scraper-for-lava-stone-grill-grooved.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9055-11030.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9055-11030.jpg",
+                "price": 625,
+                "price_currency": "CZK",
+                "price_text": "625 Kč"
+            },
+            {
+                "code": "7178.9060",
+                "name": "LAVA STONES 2,5KG",
+                "url": "https://www.combisteel.com/en/7178-9060-lava-stones-2-5kg.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9060-11031.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9060-11031.jpg",
+                "price": 375,
+                "price_currency": "CZK",
+                "price_text": "375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3165",
+        "name": "BASE 900 EL. FRY TOP",
+        "url": "https://www.combisteel.com/en/7178-3165-base-900-el-fry-top.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3165-15895.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3165-15895.jpg",
+        "price": 55750,
+        "price_currency": "CZK",
+        "price_text": "55 750 Kč",
+        "specs": {
+            "ean_code": 7422242985939,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 153,
+            "voltage": 400,
+            "electrical_power": 12,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "griddle_surface": "Smooth",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 El. Fry Top (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215761/product/4415/"
+            },
+            {
+                "label": "Productsheet 7178.3165",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215762/product/4415/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3005",
+        "name": "BASE 900 GAS RANGE 4 BU.",
+        "url": "https://www.combisteel.com/en/7178-3005-base-900-gas-range-4-bu.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3005-15405.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3005-15405.jpg",
+        "price": 55750,
+        "price_currency": "CZK",
+        "price_text": "55 750 Kč",
+        "specs": {
+            "ean_code": 7422242982907,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 105,
+            "total_gas_output": 34,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "burner_capacity_/_division": "4X 8,5",
+            "number_of_burners": 4,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Gas Range (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231610/product/4257/"
+            },
+            {
+                "label": "Exploded view 7178.3005 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231611/product/4257/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            },
+            {
+                "code": "7488.9055",
+                "name": "PRO 700/900 GRID FOR PAN",
+                "url": "https://www.combisteel.com/en/7488-9055-pro-700-900-grid-for-pan.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
+                "price": 300,
+                "price_currency": "CZK",
+                "price_text": "300 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3045",
+        "name": "BASE 900 GAS FRYER 1X19L",
+        "url": "https://www.combisteel.com/en/7178-3045-base-900-gas-fryer-1x19l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3045-15413.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3045-15413.jpg",
+        "price": 53875,
+        "price_currency": "CZK",
+        "price_text": "53 875 Kč",
+        "specs": {
+            "ean_code": 7422242982990,
+            "width": 400,
+            "depth": 900,
+            "height": 900,
+            "accessories_included": "2 manden",
+            "parcel_ready": "No",
+            "gross_weight": 78,
+            "total_gas_output": 18,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "number_of_baskets": "2x 140x350x130",
+            "gross_capacity": "1X 19",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Gas Fryers (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231854/product/4288/"
+            },
+            {
+                "label": "Exploded view 7178.3045 (2023)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231855/product/4288/"
+            },
+            {
+                "label": "Exploded view 7178.3045 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231856/product/4288/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9070",
+                "name": "BASE 900 BASKET GAS FRYER",
+                "url": "https://www.combisteel.com/en/7178-9070-base-900-basket-gas-fryer.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9070_1-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9070_1-min_1.png",
+                "price": 2500,
+                "price_currency": "CZK",
+                "price_text": "2 500 Kč"
+            },
+            {
+                "code": "7178.9075",
+                "name": "BASE 900 BASKET GAS FRYER",
+                "url": "https://www.combisteel.com/en/7178-9075-base-900-basket-gas-fryer.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9075-11024.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9075-11024.jpg",
+                "price": 4500,
+                "price_currency": "CZK",
+                "price_text": "4 500 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3210",
+        "name": "BASE 900 GAS VAPOR GRILL",
+        "url": "https://www.combisteel.com/en/7178-3210-base-900-gas-vapor-grill.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3210-15931.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3210-15931.jpg",
+        "price": 52000,
+        "price_currency": "CZK",
+        "price_text": "52 000 Kč",
+        "specs": {
+            "ean_code": 7422242986929,
+            "width": 400,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 114,
+            "total_gas_output": 11,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Vapor Grill (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215777/product/4423/"
+            },
+            {
+                "label": "Exploded view 7178.3210 (2023)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215778/product/4423/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3155",
+        "name": "BASE 900 GAS FRY TOP",
+        "url": "https://www.combisteel.com/en/7178-3155-base-900-gas-fry-top.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3155-15897.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3155-15897.jpg",
+        "price": 51750,
+        "price_currency": "CZK",
+        "price_text": "51 750 Kč",
+        "specs": {
+            "ean_code": 7422242985915,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 135,
+            "total_gas_output": 18,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "griddle_surface": "Smooth",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Gas Fry Tops (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215752/product/4413/"
+            },
+            {
+                "label": "Exploded view 7178.3155 (2023)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215753/product/4413/"
+            },
+            {
+                "label": "Exploded View 7178.3155 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215754/product/4413/"
+            },
+            {
+                "label": "Productsheet 7178.3155",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215755/product/4413/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3195",
+        "name": "BASE 900 EL. FRY TOP CHROME",
+        "url": "https://www.combisteel.com/en/7178-3195-base-900-el-fry-top-chrome.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3195-15928.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3195-15928.jpg",
+        "price": 51375,
+        "price_currency": "CZK",
+        "price_text": "51 375 Kč",
+        "specs": {
+            "ean_code": 7422242985984,
+            "width": 400,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 86,
+            "particulars": "Hard verchroomd bakoppervlak",
+            "voltage": 400,
+            "electrical_power": 6,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "griddle_surface": "Chromed smooth",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 El. Fry Top (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215763/product/4425/"
+            },
+            {
+                "label": "Productsheet 7178.3195",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215764/product/4425/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3185",
+        "name": "BASE 900 GAS FRY TOP CHROME",
+        "url": "https://www.combisteel.com/en/7178-3185-base-900-gas-fry-top-chrome.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3185-15927.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3185-15927.jpg",
+        "price": 50250,
+        "price_currency": "CZK",
+        "price_text": "50 250 Kč",
+        "specs": {
+            "ean_code": 7422242985960,
+            "width": 400,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 83,
+            "particulars": "Hard verchroomd bakoppervlak",
+            "total_gas_output": 9,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "griddle_surface": "Chromed smooth",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Gas Fry Tops (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215773/product/4427/"
+            },
+            {
+                "label": "Exploded view 7178.3185 (2023)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215774/product/4427/"
+            },
+            {
+                "label": "Exploded View 7178.3185 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215775/product/4427/"
+            },
+            {
+                "label": "Productsheet 7178.3185",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215776/product/4427/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3075",
+        "name": "BASE 900 GAS PASTA COOKER",
+        "url": "https://www.combisteel.com/en/7178-3075-base-900-gas-pasta-cooker.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3075-15419.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3075-15419.jpg",
+        "price": 48250,
+        "price_currency": "CZK",
+        "price_text": "48 250 Kč",
+        "specs": {
+            "ean_code": 7422242983959,
+            "width": 400,
+            "depth": 900,
+            "height": 900,
+            "accessories_included": "5 manden",
+            "parcel_ready": "No",
+            "gross_weight": 89,
+            "total_gas_output": 12,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "0/+100",
+            "number_of_baskets": "1x 220x150x240 + 4x 110x150x240",
+            "gross_capacity": 24,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Pasta Cooker (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215927/product/4292/"
+            },
+            {
+                "label": "Exploded view 7178.3075 (2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215928/product/4292/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9085",
+                "name": "BASE 900 BASKET PASTA COOKER LEFT",
+                "url": "https://www.combisteel.com/en/7178-9085-base-900-basket-pasta-cooker-left.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9085-11027.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9085-11027.jpg",
+                "price": 2125,
+                "price_currency": "CZK",
+                "price_text": "2 125 Kč"
+            },
+            {
+                "code": "7178.9086",
+                "name": "BASE 900 BASKET PASTA COOKER RIGHT",
+                "url": "https://www.combisteel.com/en/7178-9086-base-900-basket-pasta-cooker-right.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9085-11027_2.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9085-11027_2.jpg",
+                "price": 2125,
+                "price_currency": "CZK",
+                "price_text": "2 125 Kč"
+            },
+            {
+                "code": "7178.9090",
+                "name": "BASE 900 BASKET PASTA COOKER GAS",
+                "url": "https://www.combisteel.com/en/7178-9090-base-900-basket-pasta-cooker-gas.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9090-11034.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9090-11034.jpg",
+                "price": 2625,
+                "price_currency": "CZK",
+                "price_text": "2 625 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3170",
+        "name": "BASE 900 EL. FRY TOP GROOVED",
+        "url": "https://www.combisteel.com/en/7178-3170-base-900-el-fry-top-grooved.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3170-15894.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3170-15894.jpg",
+        "price": 47125,
+        "price_currency": "CZK",
+        "price_text": "47 125 Kč",
+        "specs": {
+            "ean_code": 7422242985946,
+            "width": 400,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 92,
+            "voltage": 400,
+            "electrical_power": 6,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "griddle_surface": "Ribbed",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 El. Fry Top (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215771/product/4416/"
+            },
+            {
+                "label": "Productsheet 7178.3170",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215772/product/4416/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            },
+            {
+                "code": "7178.9050",
+                "name": "BASE 700 SCRAPER FOR FRY TOP GROOVED",
+                "url": "https://www.combisteel.com/en/7178-9050-base-700-scraper-for-fry-top-grooved.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9050-11029.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9050-11029.jpg",
+                "price": 625,
+                "price_currency": "CZK",
+                "price_text": "625 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3055",
+        "name": "BASE 900 ELECTRIC FRYER 1X22L",
+        "url": "https://www.combisteel.com/en/7178-3055-base-900-electric-fryer-1x22l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3055-15415.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3055-15415.jpg",
+        "price": 45875,
+        "price_currency": "CZK",
+        "price_text": "45 875 Kč",
+        "specs": {
+            "ean_code": 7422242983911,
+            "width": 400,
+            "depth": 900,
+            "height": 900,
+            "accessories_included": "2 manden",
+            "parcel_ready": "No",
+            "gross_weight": 70,
+            "voltage": 400,
+            "electrical_power": 18,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "number_of_baskets": "2x 140x320x185",
+            "gross_capacity": "1X 22",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 El. Fryers (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215818/product/4290/"
+            },
+            {
+                "label": "Exploded View 7178.3055 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215819/product/4290/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9080",
+                "name": "BASE 900 BASKET ELECTRIC FRYER",
+                "url": "https://www.combisteel.com/en/7178-9080-base-900-basket-electric-fryer.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9080-11023.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9080-11023.jpg",
+                "price": 2500,
+                "price_currency": "CZK",
+                "price_text": "2 500 Kč"
+            },
+            {
+                "code": "7178.9105",
+                "name": "BASE 700/900 FRYER OIL COLLECTION TRAY WITH FILTER",
+                "url": "https://www.combisteel.com/en/7178-9105-base-700-900-fryer-oil-collection-tray-with-filter.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9105_rvss_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9105_rvss_1.png",
+                "price": 3250,
+                "price_currency": "CZK",
+                "price_text": "3 250 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3085",
+        "name": "BASE 900 EL. PASTA COOKER",
+        "url": "https://www.combisteel.com/en/7178-3085-base-900-el-pasta-cooker.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3085-15420.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3085-15420.jpg",
+        "price": 38625,
+        "price_currency": "CZK",
+        "price_text": "38 625 Kč",
+        "specs": {
+            "ean_code": 7422242983973,
+            "width": 400,
+            "depth": 900,
+            "height": 900,
+            "accessories_included": "5 manden",
+            "parcel_ready": "No",
+            "gross_weight": 65,
+            "voltage": 400,
+            "electrical_power": 9,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "0/+100",
+            "number_of_baskets": "1x 220x150x210 + 4x 110x150x210",
+            "gross_capacity": "1X 24",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Pasta Cookers (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215887/product/4294/"
+            },
+            {
+                "label": "7178.3085 - Water Inlet and Tank Dimensions-x",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215888/product/4294/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9085",
+                "name": "BASE 900 BASKET PASTA COOKER LEFT",
+                "url": "https://www.combisteel.com/en/7178-9085-base-900-basket-pasta-cooker-left.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9085-11027.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9085-11027.jpg",
+                "price": 2125,
+                "price_currency": "CZK",
+                "price_text": "2 125 Kč"
+            },
+            {
+                "code": "7178.9086",
+                "name": "BASE 900 BASKET PASTA COOKER RIGHT",
+                "url": "https://www.combisteel.com/en/7178-9086-base-900-basket-pasta-cooker-right.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9085-11027_2.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9085-11027_2.jpg",
+                "price": 2125,
+                "price_currency": "CZK",
+                "price_text": "2 125 Kč"
+            },
+            {
+                "code": "7178.9090",
+                "name": "BASE 900 BASKET PASTA COOKER GAS",
+                "url": "https://www.combisteel.com/en/7178-9090-base-900-basket-pasta-cooker-gas.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9090-11034.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9090-11034.jpg",
+                "price": 2625,
+                "price_currency": "CZK",
+                "price_text": "2 625 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3160",
+        "name": "BASE 900 EL. FRY TOP",
+        "url": "https://www.combisteel.com/en/7178-3160-base-900-el-fry-top.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3160-15896.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3160-15896.jpg",
+        "price": 38250,
+        "price_currency": "CZK",
+        "price_text": "38 250 Kč",
+        "specs": {
+            "ean_code": 7422242985922,
+            "width": 400,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 86,
+            "voltage": 400,
+            "electrical_power": 6,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "griddle_surface": "Smooth",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 El. Fry Top (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215742/product/4414/"
+            },
+            {
+                "label": "Productsheet 7178.3160",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215743/product/4414/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3065",
+        "name": "BASE 900 GAS LAVA STONE GRILL",
+        "url": "https://www.combisteel.com/en/7178-3065-base-900-gas-lava-stone-grill.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3065-15417.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3065-15417.jpg",
+        "price": 38000,
+        "price_currency": "CZK",
+        "price_text": "38 000 Kč",
+        "specs": {
+            "ean_code": 7422242983935,
+            "width": 400,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 92,
+            "total_gas_output": 9,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Lava Stone (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1218670/product/4286/"
+            },
+            {
+                "label": "Exploded view 7178.3065 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1218671/product/4286/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            },
+            {
+                "code": "7178.9055",
+                "name": "BASE 700/900 SCRAPER FOR LAVA STONE GRILL GROOVED",
+                "url": "https://www.combisteel.com/en/7178-9055-base-700-900-scraper-for-lava-stone-grill-grooved.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9055-11030.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9055-11030.jpg",
+                "price": 625,
+                "price_currency": "CZK",
+                "price_text": "625 Kč"
+            },
+            {
+                "code": "7178.9060",
+                "name": "LAVA STONES 2,5KG",
+                "url": "https://www.combisteel.com/en/7178-9060-lava-stones-2-5kg.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9060-11031.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9060-11031.jpg",
+                "price": 375,
+                "price_currency": "CZK",
+                "price_text": "375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3150",
+        "name": "BASE 900 GAS FRY TOP",
+        "url": "https://www.combisteel.com/en/7178-3150-base-900-gas-fry-top.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3150-15926.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3150-15926.jpg",
+        "price": 37000,
+        "price_currency": "CZK",
+        "price_text": "37 000 Kč",
+        "specs": {
+            "ean_code": 7422242985908,
+            "width": 400,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 83,
+            "total_gas_output": 9,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "griddle_surface": "Smooth",
+            "dim._griddle_wxd": "392x670",
+            "grease_collection_tray_/_drawer": "Yes",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Gas Fry Tops (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215767/product/4412/"
+            },
+            {
+                "label": "Exploded view 7178.3150 (2023)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215768/product/4412/"
+            },
+            {
+                "label": "Exploded View 7178.3150 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215769/product/4412/"
+            },
+            {
+                "label": "Productsheet 7178.3150",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215770/product/4412/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3000",
+        "name": "BASE 900 GAS RANGE 2 BU.",
+        "url": "https://www.combisteel.com/en/7178-3000-base-900-gas-range-2-bu.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3000-15404.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3000-15404.jpg",
+        "price": 30750,
+        "price_currency": "CZK",
+        "price_text": "30 750 Kč",
+        "specs": {
+            "ean_code": 7422242981993,
+            "width": 400,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 64,
+            "total_gas_output": 17,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "burner_capacity_/_division": "2X 8,5",
+            "number_of_burners": 2,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Gas Range (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1228260/product/4261/"
+            },
+            {
+                "label": "Exploded view 7178.3000 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1228261/product/4261/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            },
+            {
+                "code": "7488.9055",
+                "name": "PRO 700/900 GRID FOR PAN",
+                "url": "https://www.combisteel.com/en/7488-9055-pro-700-900-grid-for-pan.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
+                "price": 300,
+                "price_currency": "CZK",
+                "price_text": "300 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3205",
+        "name": "BASE 900 ELECTRIC BAIN-MARIE",
+        "url": "https://www.combisteel.com/en/7178-3205-base-900-electric-bain-marie.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3205-15930.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3205-15930.jpg",
+        "price": 29000,
+        "price_currency": "CZK",
+        "price_text": "29 000 Kč",
+        "specs": {
+            "ean_code": 7422242986912,
+            "width": 400,
+            "depth": 900,
+            "height": 900,
+            "parcel_ready": "No",
+            "gross_weight": 53,
+            "voltage": 230,
+            "electrical_power": 1,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "gross_capacity": 26,
+            "contents_of_gn": "1x 1/1GN",
+            "max._depth_gn_container": 150,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Bain-Marie (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215758/product/4426/"
+            },
+            {
+                "label": "Exploded View 7178.3205 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215759/product/4426/"
+            },
+            {
+                "label": "Productsheet 7178.3205",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215760/product/4426/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3225",
+        "name": "BASE 900 NEUTRAL UNIT",
+        "url": "https://www.combisteel.com/en/7178-3225-base-900-neutral-unit.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3225-15932.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3225-15932.jpg",
+        "price": 17125,
+        "price_currency": "CZK",
+        "price_text": "17 125 Kč",
+        "specs": {
+            "ean_code": 7422242986950,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "gross_weight": 65,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Neutral Units (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215782/product/4421/"
+            },
+            {
+                "label": "Productsheet 7178.3225",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215783/product/4421/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.3220",
+        "name": "BASE 900 NEUTRAL UNIT",
+        "url": "https://www.combisteel.com/en/7178-3220-base-900-neutral-unit.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3220-15891.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3220-15891.jpg",
+        "price": 15375,
+        "price_currency": "CZK",
+        "price_text": "15 375 Kč",
+        "specs": {
+            "ean_code": 7422242986943,
+            "width": 400,
+            "depth": 900,
+            "height": 900,
+            "gross_weight": 43,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Neutral Units (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215784/product/4422/"
+            },
+            {
+                "label": "Productsheet 7178.3220",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215785/product/4422/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9045",
+                "name": "BASE 700/900 DOOR",
+                "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.9075",
+        "name": "BASE 900 BASKET GAS FRYER",
+        "url": "https://www.combisteel.com/en/7178-9075-base-900-basket-gas-fryer.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9075-11024.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9075-11024.jpg",
+        "price": 4500,
+        "price_currency": "CZK",
+        "price_text": "4 500 Kč",
+        "specs": {
+            "width": 280,
+            "depth": 350,
+            "height": 130,
+            "parcel_ready": "Yes",
+            "gross_weight": 3,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7178.9105",
+        "name": "BASE 700/900 FRYER OIL COLLECTION TRAY WITH FILTER",
+        "url": "https://www.combisteel.com/en/7178-9105-base-700-900-fryer-oil-collection-tray-with-filter.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9105_rvss_1.png",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9105_rvss_1.png",
+        "price": 3250,
+        "price_currency": "CZK",
+        "price_text": "3 250 Kč",
+        "specs": {},
+        "downloads": [
+            {
+                "label": "7178.9105 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216632/product/4745/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.9090",
+        "name": "BASE 900 BASKET PASTA COOKER GAS",
+        "url": "https://www.combisteel.com/en/7178-9090-base-900-basket-pasta-cooker-gas.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9090-11034.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9090-11034.jpg",
+        "price": 2625,
+        "price_currency": "CZK",
+        "price_text": "2 625 Kč",
+        "specs": {
+            "width": 220,
+            "depth": 150,
+            "height": 240,
+            "parcel_ready": "Yes",
+            "gross_weight": 3,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7178.9070",
+        "name": "BASE 900 BASKET GAS FRYER",
+        "url": "https://www.combisteel.com/en/7178-9070-base-900-basket-gas-fryer.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9070_1-min_1.png",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9070_1-min_1.png",
+        "price": 2500,
+        "price_currency": "CZK",
+        "price_text": "2 500 Kč",
+        "specs": {
+            "width": 140,
+            "depth": 350,
+            "height": 130,
+            "parcel_ready": "Yes",
+            "gross_weight": 3,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7178.9080",
+        "name": "BASE 900 BASKET ELECTRIC FRYER",
+        "url": "https://www.combisteel.com/en/7178-9080-base-900-basket-electric-fryer.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9080-11023.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9080-11023.jpg",
+        "price": 2500,
+        "price_currency": "CZK",
+        "price_text": "2 500 Kč",
+        "specs": {
+            "width": 140,
+            "depth": 320,
+            "height": 185,
+            "parcel_ready": "Yes",
+            "gross_weight": 3,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7178.9045",
+        "name": "BASE 700/900 DOOR",
+        "url": "https://www.combisteel.com/en/7178-9045-base-700-900-door.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9045_door_1.png",
+        "price": 2375,
+        "price_currency": "CZK",
+        "price_text": "2 375 Kč",
+        "specs": {
+            "ean_code": 6017435825812,
+            "width": 397,
+            "depth": 35,
+            "height": 495,
+            "accessories_included": "scharnierkit rechts",
+            "parcel_ready": "Yes",
+            "gross_weight": 5,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": [
+            {
+                "code": "7178.9046",
+                "name": "HINGE SET LEFT FOR 7178.9045",
+                "url": "https://www.combisteel.com/en/7178-9046-hinge-set-left-for-7178-9045.html",
+                "image": "https://www.combisteel.com/static/version20251021072834/frontend/H1/combisteel/en_GB/Magento_Catalog/images/product/placeholder/small_image.jpg",
+                "image_large": "https://www.combisteel.com/static/version20251021072834/frontend/H1/combisteel/en_GB/Magento_Catalog/images/product/placeholder/small_image.jpg",
+                "price": 875,
+                "price_currency": "CZK",
+                "price_text": "875 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7178.9085",
+        "name": "BASE 900 BASKET PASTA COOKER LEFT",
+        "url": "https://www.combisteel.com/en/7178-9085-base-900-basket-pasta-cooker-left.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9085-11027.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9085-11027.jpg",
+        "price": 2125,
+        "price_currency": "CZK",
+        "price_text": "2 125 Kč",
+        "specs": {
+            "width": 110,
+            "depth": 150,
+            "height": 240,
+            "parcel_ready": "Yes",
+            "gross_weight": 3,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7178.9095",
+        "name": "BASE 900 BASKET PASTA COOKER LEFT",
+        "url": "https://www.combisteel.com/en/7178-9095-base-900-basket-pasta-cooker-left.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9095-11027.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9095-11027.jpg",
+        "price": 2125,
+        "price_currency": "CZK",
+        "price_text": "2 125 Kč",
+        "specs": {
+            "width": 110,
+            "depth": 150,
+            "height": 210,
+            "parcel_ready": "Yes",
+            "gross_weight": 3,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7178.9100",
+        "name": "BASE 900 BASKET PASTA COOKER EL.",
+        "url": "https://www.combisteel.com/en/7178-9100-base-900-basket-pasta-cooker-el.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9100-11034.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9100-11034.jpg",
+        "price": 2125,
+        "price_currency": "CZK",
+        "price_text": "2 125 Kč",
+        "specs": {
+            "width": 110,
+            "depth": 150,
+            "height": 210,
+            "parcel_ready": "Yes",
+            "gross_weight": 3,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7178.9086",
+        "name": "BASE 900 BASKET PASTA COOKER RIGHT",
+        "url": "https://www.combisteel.com/en/7178-9086-base-900-basket-pasta-cooker-right.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9085-11027_2.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9085-11027_2.jpg",
+        "price": 2125,
+        "price_currency": "CZK",
+        "price_text": "2 125 Kč",
+        "specs": {
+            "width": 110,
+            "depth": 150,
+            "height": 240,
+            "parcel_ready": "Yes",
+            "gross_weight": 3,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7178.9050",
+        "name": "BASE 700 SCRAPER FOR FRY TOP GROOVED",
+        "url": "https://www.combisteel.com/en/7178-9050-base-700-scraper-for-fry-top-grooved.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9050-11029.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_9050-11029.jpg",
+        "price": 625,
+        "price_currency": "CZK",
+        "price_text": "625 Kč",
+        "specs": {
+            "ean_code": 6017434480449,
+            "width": 320,
+            "depth": 120,
+            "height": 30,
+            "parcel_ready": "Yes",
+            "gross_weight": 1,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    }
+]

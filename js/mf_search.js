@@ -130,7 +130,21 @@
     { json: '/js/data/unox_system_odsavani_vzduchu.json', page: '/unox_Systém-odsávání-vzduchu.html', cat: 'UNOX' },
     { json: '/js/data/unox_vyrovnani_podlahy.json', page: '/unox_Vyrovnani-podlahy.html', cat: 'UNOX' },
     { json: '/js/data/unox_vozik-a-udrzovaci-obal.json', page: '/unox_Vozik-a-udrzovaci-obal.html', cat: 'UNOX' },
-    { json: '/js/data/unox_Ostatni-prislusenstvi.json', page: '/unox_Ostatni-prislusenstvi.html', cat: 'UNOX' }
+    { json: '/js/data/unox_Ostatni-prislusenstvi.json', page: '/unox_Ostatni-prislusenstvi.html', cat: 'UNOX' },
+    /* ===== COMBISTEEL ===== */
+    { json: '/js/data/combisteel_bain_marie.json', page: '/combisteel_bain_marie.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_boiling_pan.json', page: '/combisteel_boiling_pan.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_cooking_fry_top.json', page: '/Combisteel_Fry_top.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_cooking_fryer.json', page: '/Combisteel_Fryer.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_cooking_lava_stone_grill.json', page: '/Combisteel_Lava_stone_grill.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_cooking_range_with_oven.json', page: '/combisteel_cooking_range_with_oven.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_cooking_range.json', page: '/combisteel_cooking_range.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_cooking_solid_top.json', page: '/combisteel_cooking_solid_top.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_cooking_vapor_grill.json', page: '/Combisteel_Vapor_grill.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_induction.json', page: '/combisteel_induction.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_neutral.json', page: '/combisteel_neutral.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_pasta_cooker.json', page: '/combisteel_pasta_cooker.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_tilting_pan.json', page: '/combisteel_tilting_pan.html', cat: 'COMBISTEEL' },
 
   ];
 

@@ -1,0 +1,191 @@
+[
+    {
+        "code": "7178.3125",
+        "name": "BASE 900 GAS TILTING PAN 120L",
+        "url": "https://www.combisteel.com/en/7178-3125-base-900-gas-tilting-pan-120l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3125-15428.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3125-15428.jpg",
+        "price": 180750,
+        "price_currency": "CZK",
+        "price_text": "180 750 Kč",
+        "specs": {
+            "ean_code": 7422242984956,
+            "width": 1200,
+            "depth": 900,
+            "height": 900,
+            "gross_weight": 214,
+            "particulars": "Equipped with thermostatic control (230V electrical connection).",
+            "total_gas_output": 30,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "+50/+300",
+            "capacity": 120,
+            "type_tilting": "Manual tilting",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Bratt Pan Gas (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215942/product/4302/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3135",
+        "name": "BASE 900 EL. TILTING PAN 120L",
+        "url": "https://www.combisteel.com/en/7178-3135-base-900-el-tilting-pan-120l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3135-15430.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3135-15430.jpg",
+        "price": 175125,
+        "price_currency": "CZK",
+        "price_text": "175 125 Kč",
+        "specs": {
+            "ean_code": 7422242984970,
+            "width": 1200,
+            "depth": 900,
+            "height": 900,
+            "gross_weight": 185,
+            "voltage": 400,
+            "electrical_power": 18,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "+50/+300",
+            "capacity": 120,
+            "type_tilting": "Manual tilting",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Bratt Pan (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215822/product/4304/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3120",
+        "name": "BASE 900 GAS TILTING PAN 80L",
+        "url": "https://www.combisteel.com/en/7178-3120-base-900-gas-tilting-pan-80l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3120-15427.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3120-15427.jpg",
+        "price": 145250,
+        "price_currency": "CZK",
+        "price_text": "145 250 Kč",
+        "specs": {
+            "ean_code": 7422242984949,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "gross_weight": 177,
+            "particulars": "Equipped with thermostatic control (230V electrical connection).",
+            "total_gas_output": 20,
+            "version": "Gas",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "+50/+300",
+            "capacity": 80,
+            "type_tilting": "Manual tilting",
+            "brand": "COMBISTEEL",
+            "gas_connection": "1/2\"",
+            "water_inlet": "1/2"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Bratt Pan Gas (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216026/product/4301/"
+            },
+            {
+                "label": "Datasheet 7178.3120",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216027/product/4301/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.3130",
+        "name": "BASE 900 EL. TILTING PAN 80L",
+        "url": "https://www.combisteel.com/en/7178-3130-base-900-el-tilting-pan-80l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3130-15429.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3130-15429.jpg",
+        "price": 133875,
+        "price_currency": "CZK",
+        "price_text": "133 875 Kč",
+        "specs": {
+            "ean_code": 7422242984963,
+            "width": 800,
+            "depth": 900,
+            "height": 900,
+            "gross_weight": 166,
+            "voltage": 400,
+            "electrical_power": 12,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "+50/+300",
+            "capacity": 80,
+            "type_tilting": "Manual tilting",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Bratt Pan (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1226068/product/4303/"
+            },
+            {
+                "label": "Productsheet 7178.3130",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1226069/product/4303/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7178.0545",
+        "name": "BASE 700 ELECTRIC TILTING PAN",
+        "url": "https://www.combisteel.com/en/7178-0545-base-700-electric-tilting-pan.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_0545-11071.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_0545-11071.jpg",
+        "price": 113250,
+        "price_currency": "CZK",
+        "price_text": "113 250 Kč",
+        "specs": {
+            "ean_code": 6017426392309,
+            "width": 800,
+            "depth": 700,
+            "height": 900,
+            "gross_weight": 150,
+            "voltage": 400,
+            "electrical_power": 9,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "50-300",
+            "gross_capacity": 60,
+            "type_tilting": "Manual tilting",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7178 Bratt Pan (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1229984/product/445/"
+            },
+            {
+                "label": "Connection system 700 series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1229985/product/445/"
+            },
+            {
+                "label": "Exploded view 7178.0545 (2019)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1229986/product/445/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7178.9320",
+                "name": "CASTOR SET FOR TABLE WITH SLIDING DOORS 4X",
+                "url": "https://www.combisteel.com/en/7178-9320-castor-set-for-table-with-sliding-doors-4x.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/w/1/w1-min_11.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/w/1/w1-min_11.png",
+                "price": 2500,
+                "price_currency": "CZK",
+                "price_text": "2 500 Kč"
+            }
+        ]
+    }
+]
