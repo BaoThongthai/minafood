@@ -3,6 +3,9 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+            "tabs.Trouba": "Trouba",
+            "title_combisteel_ovens": "Prozkoumejte naši řadu profesionálních pecí Combisteel, navržených tak, aby splňovaly potřeby moderních kuchařů a cateringových služeb. Naše kolekce zahrnuje širokou škálu produktů, od konvektomatů a pečicích pecí až po specializované pece pro pečení chleba a pizzy. S našimi profesionálními pecemi můžete snadno připravit lahodná jídla s konzistentní kvalitou a efektivitou, což zlepší váš provoz a uspokojí vaše zákazníky.",
+            "title_combisteel_buffet_equipment": "Objevte naši řadu vybavení pro bufety Combisteel, navrženou tak, aby splňovala potřeby profesionálních kuchařů a cateringových služeb. Naše kolekce zahrnuje širokou škálu produktů, od ohřívačů jídel a stolků na servírování až po praktické doplňky, které usnadňují přípravu a prezentaci pokrmů. S naším vybavením pro bufety můžete snadno vytvořit efektivní a atraktivní prostor pro podávání jídel, který zaujme vaše hosty a zlepší celkový zážitek z jídla.",
             "title_combisteel_range": "Objevte náš výběr produktů z řady vaření, speciálně vytvořených pro profesionální kuchaře. Od plynových varných stolů a pečicích plechů až po praktické příslušenství, naše kolekce nabízí vše, co potřebujete v profesionální kuchyni. Snadno připravte lahodná jídla, která zapůsobí na každého.",
             "unox_cat_smart_accessories": "Smart accessories",
             "unox_cat_prumyslove_nadoby": "Průmyslové nádoby",
@@ -427,6 +430,9 @@
         },
 
         en: {
+            "tabs.Trouba": "Ovens",
+            "title_combisteel_ovens": "Our ovens offer performance and reliability. Whether you have a restaurant, bakery or catering business, our ovens have wide capacity options and precise temperature control. These ensure that your dishes are prepared consistently and perfectly.",
+            "title_combisteel_buffet_equipment": "Explore our range of buffet equipment designed to enhance your food service experience. From elegant serving stations to practical warming trays, our collection offers versatile solutions for presenting and maintaining the quality of your dishes. Perfect for restaurants, hotels, and catering services looking to impress their guests.",
             "title_combisteel_range": "Discover our selection of cooking line products, specially formulated for professional chefs. From gas cooking tables and baking trays to handy accessories, ourcollection offers everything you need in a professional kitchen. Easily prepare delicious meals that will impress everyone.",
             "unox_cat_smart_accessories": "Smart accessories",
             "unox_cat_prumyslove_nadoby": "Industrial containers",

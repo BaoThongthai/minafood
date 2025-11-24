@@ -132,19 +132,31 @@
     { json: '/js/data/unox_vozik-a-udrzovaci-obal.json', page: '/unox_Vozik-a-udrzovaci-obal.html', cat: 'UNOX' },
     { json: '/js/data/unox_Ostatni-prislusenstvi.json', page: '/unox_Ostatni-prislusenstvi.html', cat: 'UNOX' },
     /* ===== COMBISTEEL ===== */
-    { json: '/js/data/combisteel_bain_marie.json', page: '/combisteel_bain_marie.html', cat: 'COMBISTEEL' },
-    { json: '/js/data/combisteel_boiling_pan.json', page: '/combisteel_boiling_pan.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_bain_marie.json', page: '/Combisteel_Bain_marie.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_base_600.json', page: '/Combisteel_Base_600.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_base_700_countertop.json', page: '/Combisteel_Base_700_Countertop.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_base_700.json', page: '/Combisteel_Base_700.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_base_900.json', page: '/Combisteel_Base_900.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_boiling_pan.json', page: '/Combisteel_Boiling_pan.html', cat: 'COMBISTEEL' },
+
     { json: '/js/data/combisteel_cooking_fry_top.json', page: '/Combisteel_Fry_top.html', cat: 'COMBISTEEL' },
     { json: '/js/data/combisteel_cooking_fryer.json', page: '/Combisteel_Fryer.html', cat: 'COMBISTEEL' },
     { json: '/js/data/combisteel_cooking_lava_stone_grill.json', page: '/Combisteel_Lava_stone_grill.html', cat: 'COMBISTEEL' },
-    { json: '/js/data/combisteel_cooking_range_with_oven.json', page: '/combisteel_cooking_range_with_oven.html', cat: 'COMBISTEEL' },
-    { json: '/js/data/combisteel_cooking_range.json', page: '/combisteel_cooking_range.html', cat: 'COMBISTEEL' },
-    { json: '/js/data/combisteel_cooking_solid_top.json', page: '/combisteel_cooking_solid_top.html', cat: 'COMBISTEEL' },
     { json: '/js/data/combisteel_cooking_vapor_grill.json', page: '/Combisteel_Vapor_grill.html', cat: 'COMBISTEEL' },
-    { json: '/js/data/combisteel_induction.json', page: '/combisteel_induction.html', cat: 'COMBISTEEL' },
-    { json: '/js/data/combisteel_neutral.json', page: '/combisteel_neutral.html', cat: 'COMBISTEEL' },
-    { json: '/js/data/combisteel_pasta_cooker.json', page: '/combisteel_pasta_cooker.html', cat: 'COMBISTEEL' },
-    { json: '/js/data/combisteel_tilting_pan.json', page: '/combisteel_tilting_pan.html', cat: 'COMBISTEEL' },
+
+    { json: '/js/data/combisteel_cooking_range_with_oven.json', page: '/Combisteel_Cooking_range_with_oven.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_cooking_range.json', page: '/Combisteel_Cooking_range.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_cooking_solid_top.json', page: '/Combisteel_Cooking_solid_top.html', cat: 'COMBISTEEL' },
+
+    { json: '/js/data/combisteel_drop-in_cooking_range.json', page: '/Combisteel_Drop-in_cooking_range.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_entry_700.json', page: '/Combisteel_Entry_700.html', cat: 'COMBISTEEL' },
+
+    { json: '/js/data/combisteel_induction.json', page: '/Combisteel_Cooking_induction.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_neutral.json', page: '/Combisteel_Neutral.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_pasta_cooker.json', page: '/Combisteel_Pasta_cooker.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_tilting_pan.json', page: '/Combisteel_Tilting_pan.html', cat: 'COMBISTEEL' },
+
+
 
   ];
 

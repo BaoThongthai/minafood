@@ -588,5 +588,249 @@
             }
         ],
         "accessories": []
+    },
+    {
+        "code": "7266.0040",
+        "name": "CERAMIC RANGE 4 ZONES",
+        "url": "https://www.combisteel.com/en/7266-0040-ceramic-range-4-zones.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7266_0040-5438.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7266_0040-5438.jpg",
+        "price": 71750,
+        "price_currency": "CZK",
+        "price_text": "71 750 Kč",
+        "specs": {
+            "diameter_top_plate": "2x 240 / 1x 180 / 1x 145",
+            "ean_code": 6017430043082,
+            "width": 600,
+            "depth": 600,
+            "height": 260,
+            "parcel_ready": "No",
+            "gross_weight": 35,
+            "voltage": 400,
+            "frequency": 50,
+            "electrical_power": "2x 2,4 / 1x 1,8 / 1x 1,2",
+            "version": "Electric",
+            "number_of_burners": 4,
+            "installation_width": 592,
+            "installation_depth": 592,
+            "plug_and_play": "No"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7266 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212388/product/583/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7266.0015",
+        "name": "GAS RANGE 4 BU. 18KW",
+        "url": "https://www.combisteel.com/en/7266-0015-gas-range-4-bu-18kw.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7266_0015-5434.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7266_0015-5434.jpg",
+        "price": 54750,
+        "price_currency": "CZK",
+        "price_text": "54 750 Kč",
+        "specs": {
+            "ean_code": 6017428522582,
+            "width": 600,
+            "depth": 600,
+            "height": 270,
+            "parcel_ready": "No",
+            "gross_weight": 22,
+            "version": "Gas",
+            "burner_capacity_/_division": "2 3,5 / 2 5,5",
+            "number_of_burners": 4
+        },
+        "downloads": [
+            {
+                "label": "Manual 7266 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212383/product/578/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7266.0020",
+        "name": "GAS RANGE 4 BU. 14KW",
+        "url": "https://www.combisteel.com/en/7266-0020-gas-range-4-bu-14kw.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7266_0020-5434.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7266_0020-5434.jpg",
+        "price": 53500,
+        "price_currency": "CZK",
+        "price_text": "53 500 Kč",
+        "specs": {
+            "ean_code": 6017432442425,
+            "width": 600,
+            "depth": 600,
+            "height": 270,
+            "parcel_ready": "No",
+            "gross_weight": 22,
+            "version": "Gas",
+            "burner_capacity_/_division": "4x 3,5",
+            "number_of_burners": 4
+        },
+        "downloads": [
+            {
+                "label": "Manual 7266 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212384/product/579/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7266.0035",
+        "name": "CERAMIC RANGE 2 ZONES",
+        "url": "https://www.combisteel.com/en/7266-0035-ceramic-range-2-zones.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7266_0035-5437.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7266_0035-5437.jpg",
+        "price": 52375,
+        "price_currency": "CZK",
+        "price_text": "52 375 Kč",
+        "specs": {
+            "diameter_top_plate": "1x 240 / 1x 180",
+            "ean_code": 6017447056051,
+            "width": 400,
+            "depth": 600,
+            "height": 260,
+            "parcel_ready": "No",
+            "gross_weight": 26,
+            "voltage": 400,
+            "frequency": 50,
+            "electrical_power": "1x 2,4 / 1x 1,8",
+            "version": "Electric",
+            "number_of_burners": 2,
+            "installation_width": 392,
+            "installation_depth": 592,
+            "plug_and_play": "No"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7266 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212387/product/582/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7266.0030",
+        "name": "EL. RANGE 4 PL.",
+        "url": "https://www.combisteel.com/en/7266-0030-el-range-4-pl.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7266_0030-5436.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7266_0030-5436.jpg",
+        "price": 39625,
+        "price_currency": "CZK",
+        "price_text": "39 625 Kč",
+        "specs": {
+            "diameter_top_plate": "2x 220 / 2x 180",
+            "ean_code": 6017428619695,
+            "width": 600,
+            "depth": 600,
+            "height": 260,
+            "parcel_ready": "No",
+            "gross_weight": 35,
+            "voltage": 400,
+            "electrical_power": "2x 2,6 / 2x 1,5",
+            "version": "Electric",
+            "number_of_burners": 4,
+            "installation_width": 592,
+            "installation_depth": 592
+        },
+        "downloads": [
+            {
+                "label": "Manual 7266 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212386/product/581/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7266.0005",
+        "name": "GAS RANGE 2 BU. 9KW",
+        "url": "https://www.combisteel.com/en/7266-0005-gas-range-2-bu-9kw.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7266_0005-5433.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7266_0005-5433.jpg",
+        "price": 34250,
+        "price_currency": "CZK",
+        "price_text": "34 250 Kč",
+        "specs": {
+            "ean_code": 6017457662693,
+            "width": 400,
+            "depth": 600,
+            "height": 270,
+            "parcel_ready": "No",
+            "gross_weight": 16,
+            "version": "Gas",
+            "burner_capacity_/_division": "1x 3,5 / 1x 5,5",
+            "number_of_burners": 2
+        },
+        "downloads": [
+            {
+                "label": "Manual 7266 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212381/product/576/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7266.0010",
+        "name": "GAS RANGE 2 BU. 7KW",
+        "url": "https://www.combisteel.com/en/7266-0010-gas-range-2-bu-7kw.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7266_0010-5433.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7266_0010-5433.jpg",
+        "price": 32875,
+        "price_currency": "CZK",
+        "price_text": "32 875 Kč",
+        "specs": {
+            "ean_code": 6017427392339,
+            "width": 400,
+            "depth": 600,
+            "height": 270,
+            "parcel_ready": "No",
+            "gross_weight": 16,
+            "version": "Gas",
+            "burner_capacity_/_division": "2x 3,5",
+            "number_of_burners": 2
+        },
+        "downloads": [
+            {
+                "label": "Manual 7266 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212382/product/577/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7266.0025",
+        "name": "EL. RANGE 2 PL.",
+        "url": "https://www.combisteel.com/en/7266-0025-el-range-2-pl.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7266_0025-5435.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7266_0025-5435.jpg",
+        "price": 27500,
+        "price_currency": "CZK",
+        "price_text": "27 500 Kč",
+        "specs": {
+            "diameter_top_plate": "1x 220 / 1x 180",
+            "ean_code": 6017429070013,
+            "width": 400,
+            "depth": 600,
+            "height": 260,
+            "parcel_ready": "No",
+            "gross_weight": 26,
+            "voltage": 400,
+            "electrical_power": "1x 2,6 / 1x 1,5",
+            "version": "Electric",
+            "number_of_burners": 2,
+            "installation_width": 392,
+            "installation_depth": 592
+        },
+        "downloads": [
+            {
+                "label": "Manual 7266 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212385/product/580/"
+            }
+        ],
+        "accessories": []
     }
 ]
