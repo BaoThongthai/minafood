@@ -6,7 +6,7 @@
         "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3215-15925_1.jpg",
         "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3215-15925_1.jpg",
         "price": 84625,
-        "price_currency": "CZK",
+        "price_currency": " Kč bez DPH",
         "price_text": "84 625 Kč",
         "specs": {
             "ean_code": 7422242986936,
@@ -43,7 +43,7 @@
         "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3210-15931.jpg",
         "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3210-15931.jpg",
         "price": 52000,
-        "price_currency": "CZK",
+        "price_currency": " Kč bez DPH",
         "price_text": "52 000 Kč",
         "specs": {
             "ean_code": 7422242986929,
@@ -76,7 +76,7 @@
         "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_0505-11037.jpg",
         "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_0505-11037.jpg",
         "price": 48250,
-        "price_currency": "CZK",
+        "price_currency": " Kč bez DPH",
         "price_text": "48 250 Kč",
         "specs": {
             "ean_code": 6017437637697,
@@ -116,7 +116,7 @@
                 "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/w/1/w1-min_11.png",
                 "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/w/1/w1-min_11.png",
                 "price": 2500,
-                "price_currency": "CZK",
+                "price_currency": " Kč bez DPH",
                 "price_text": "2 500 Kč"
             }
         ]

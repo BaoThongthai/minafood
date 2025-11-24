@@ -3,6 +3,15 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+
+
+            "cat_kitchen_equipment": "Kuchyňské vybavení",
+            "cat_drink_equipment": "Vybavení na nápoje",
+            "cat_warming_equipment": "Ohřívací vybavení",
+            "cat_event_equipment": "Vybavení na akce",
+            "cat_kitchen_tools": "Kuchyňské nástroje",
+
+
             "title_combisteel_kitchen_equiment": "Naše rozsáhlá kolekce profesionálního vybavení, v rozmezí od vakuové stroje a vařiče těstovin až po fritézy a pekáče, nabízejí řešení pro každou kuchyni. Vyberte si spolehlivost a výkon ve své kuchyni s naším cateringovým a cateringovým vybavením.",
             "tabs.Trouba": "Trouba",
             "title_combisteel_ovens": "Prozkoumejte naši řadu profesionálních pecí Combisteel, navržených tak, aby splňovaly potřeby moderních kuchařů a cateringových služeb. Naše kolekce zahrnuje širokou škálu produktů, od konvektomatů a pečicích pecí až po specializované pece pro pečení chleba a pizzy. S našimi profesionálními pecemi můžete snadno připravit lahodná jídla s konzistentní kvalitou a efektivitou, což zlepší váš provoz a uspokojí vaše zákazníky.",
@@ -431,6 +440,12 @@
         },
 
         en: {
+
+            "cat_kitchen_equipment": "Kitchen equipment",
+            "cat_drink_equipment": "Drink equipment",
+            "cat_warming_equipment": "Warming equipment",
+            "cat_event_equipment": "Event equipment",
+            "cat_kitchen_tools": "Kitchen tools",
             "tabs.Trouba": "Ovens",
             "title_combisteel_ovens": "Our ovens offer performance and reliability. Whether you have a restaurant, bakery or catering business, our ovens have wide capacity options and precise temperature control. These ensure that your dishes are prepared consistently and perfectly.",
             "title_combisteel_buffet_equipment": "Explore our range of buffet equipment designed to enhance your food service experience. From elegant serving stations to practical warming trays, our collection offers versatile solutions for presenting and maintaining the quality of your dishes. Perfect for restaurants, hotels, and catering services looking to impress their guests.",

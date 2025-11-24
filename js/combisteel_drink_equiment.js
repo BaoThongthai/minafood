@@ -7,7 +7,7 @@
     const PAGER_SLOT = "#pager-slot";
 
     // TODO: sửa lại path JSON đúng với bạn
-    const DATA_URL = "js/data/combisteel_kitchen_equiment.json";
+    const DATA_URL = "js/data/combisteel_drink_equiment.json";
 
     const LABELS = {
         loadingAria: "loading",
@@ -435,15 +435,16 @@
         // === PRICE ===
         price: {
             label: "PRICE",
-            key: "price",
+            key: "price_czk",   // <== đổi key
             type: "range",
             buckets: [
-                { id: "p-0-9999", label: "€0.00 – €9,999.99", min: 0, max: 9999.99 },
-                { id: "p-10000-19999", label: "€10,000.00 – €19,999.99", min: 10000, max: 19999.99 },
-                { id: "p-20000-29999", label: "€20,000.00 – €29,999.99", min: 20000, max: 29999.99 },
-                { id: "p-30000-plus", label: "€30,000.00 and above", min: 30000, max: Infinity },
+                { id: "p-0-9999", label: "0 – 9 999 Kč", min: 0, max: 9999 },
+                { id: "p-10000-19999", label: "10 000 – 19 999 Kč", min: 10000, max: 19999 },
+                { id: "p-20000-29999", label: "20 000 – 29 999 Kč", min: 20000, max: 29999 },
+                { id: "p-30000-plus", label: "30 000 Kč and above", min: 30000, max: Infinity },
             ],
         },
+
 
         // === MATERIAL ===
         material: {
