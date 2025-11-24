@@ -3,6 +3,7 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+            "title_combisteel_kitchen_equiment": "Naše rozsáhlá kolekce profesionálního vybavení, v rozmezí od vakuové stroje a vařiče těstovin až po fritézy a pekáče, nabízejí řešení pro každou kuchyni. Vyberte si spolehlivost a výkon ve své kuchyni s naším cateringovým a cateringovým vybavením.",
             "tabs.Trouba": "Trouba",
             "title_combisteel_ovens": "Prozkoumejte naši řadu profesionálních pecí Combisteel, navržených tak, aby splňovaly potřeby moderních kuchařů a cateringových služeb. Naše kolekce zahrnuje širokou škálu produktů, od konvektomatů a pečicích pecí až po specializované pece pro pečení chleba a pizzy. S našimi profesionálními pecemi můžete snadno připravit lahodná jídla s konzistentní kvalitou a efektivitou, což zlepší váš provoz a uspokojí vaše zákazníky.",
             "title_combisteel_buffet_equipment": "Objevte naši řadu vybavení pro bufety Combisteel, navrženou tak, aby splňovala potřeby profesionálních kuchařů a cateringových služeb. Naše kolekce zahrnuje širokou škálu produktů, od ohřívačů jídel a stolků na servírování až po praktické doplňky, které usnadňují přípravu a prezentaci pokrmů. S naším vybavením pro bufety můžete snadno vytvořit efektivní a atraktivní prostor pro podávání jídel, který zaujme vaše hosty a zlepší celkový zážitek z jídla.",
@@ -743,6 +744,7 @@
             "portfolio.text": "Take a look at some of our recent projects & contracts that we have fully completed from A to Z for our customers",
             "sections.categoriesTitle": "Product Categories"
             ,
+            "title_combisteel_kitchen_equiment": "Our extensive collection of professional equipment, ranging from vacuum machines and pasta cookers to deep fryers and baking trays, offer a solution for every kitchen. Choose reliability and performance in your kitchen with our catering and catering equipment.",
             "tabs.gasStoves": "Gas stoves",
             "tabs.fryers": "Fryers & stove",
             "tabs.gastroContainers": "Gastro containers",

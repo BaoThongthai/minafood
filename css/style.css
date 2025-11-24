@@ -17,13 +17,13 @@
   /* cam thương hiệu nếu dùng */
 }
 
-
+/* điều khiển to nhỏ icon */
 html {
-  font-size: 85%;
+  font-size: 95%;
 }
 
 body {
-  zoom: 0.95;
+  zoom: 0.90;
 }
 
 section,

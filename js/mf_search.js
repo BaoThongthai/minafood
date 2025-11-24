@@ -155,6 +155,7 @@
     { json: '/js/data/combisteel_neutral.json', page: '/Combisteel_Neutral.html', cat: 'COMBISTEEL' },
     { json: '/js/data/combisteel_pasta_cooker.json', page: '/Combisteel_Pasta_cooker.html', cat: 'COMBISTEEL' },
     { json: '/js/data/combisteel_tilting_pan.json', page: '/Combisteel_Tilting_pan.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/combisteel_ovens_equipment.json', page: '/Combisteel_Ovens_equipment.html', cat: 'COMBISTEEL' },
 
 
 
