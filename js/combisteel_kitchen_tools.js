@@ -7,7 +7,7 @@
     const PAGER_SLOT = "#pager-slot";
 
     // TODO: sửa lại path JSON đúng với bạn
-    const DATA_URL = "js/data/combisteel_entry_700.json";
+    const DATA_URL = "js/data/combisteel_kitchen_tools.json";
 
     const LABELS = {
         loadingAria: "loading",
@@ -57,18 +57,40 @@
             currency: txt(raw.price_currency) || "CZK",
             price_text_raw: txt(raw.price_text),
 
+            // kích thước
             width_mm: s.width != null ? Number(s.width) : null,
             depth_mm: s.depth != null ? Number(s.depth) : null,
             height_mm: s.height != null ? Number(s.height) : null,
 
-            material: txt(s.material || s.body_material),
-            version: txt(s.version || s.energy_type), // Electric / Gas
-            parcel_ready: txt(s.parcel_ready || s.parcel),
-            piezo_ignition: txt(s.piezo_ignition || s.ignition),
-            model_type: txt(s.model_type || s.installation), // Freestanding / Tabletop
-            voltage: txt(s.voltage || s.voltage_volt),
+            // các thông số chung
+            material: txt(s.material),
+            version: txt(s.version),                          // Electric / Gas / Induction
+            parcel_ready: txt(s.parcel_ready),                // Yes / No
+            piezo_ignition: txt(s.piezo_ignition),            // Yes / No
+            model_type: txt(s["model_tabletop/_freestanding/drop-in"]), // Freestanding / Tabletop
+            voltage: txt(s.voltage),                          // 230, 2x 230, ...
+
+            // field riêng cho bộ filter mới
+            insulation_thickness: txt(s.insulation_thickness),
+            griddle_surface: txt(s.griddle_surface),          // Chromed smooth, Ribbed, ...
+            energy_label: txt(s.energy_label),                // A, No energy label required
+            mobile: txt(s.mobile),                            // Yes / No
+            lockable: txt(s.lockable),                        // Yes / No
+            type_of_cooling: txt(s.type_of_cooling),          // Ventilated
+            drain_valve: txt(s.drain_valve),                  // Yes / No
+            cooling_agent: txt(s.cooling_agent),              // R 290, R 600 A
+            lights: txt(s.lights),                            // No / Yes / Yes, LED
+            operation: txt(s.operation),                      // Digital / Knob / Manual / Touch screen
+            color: txt(s.color),                              // Black, Stainless steel, ...
+            dishwasher_proof: txt(s.dishwasher_proof),        // Yes / No
+            execution_window: txt(s.execution_window),        // curved / Right
+
+            // === CATEGORY nếu bạn có mapping riêng thì giữ nguyên, nếu không dùng có thể bỏ ===
+            category: "Generic",
+
         };
     }
+
 
     const fmtPrice = (price, currency) => {
         if (price == null || isNaN(price) || Number(price) <= 0) return "";
@@ -306,27 +328,62 @@
 
     // ===== FILTER CONFIG =====
     // Chỉ 1 lựa chọn mỗi nhóm – giống Magento
+    // ===== FILTER CONFIG =====
+    // Chỉ 1 lựa chọn mỗi nhóm – giống Magento
     const FILTERS_STATE = {
+        category: null,
+
         depth: null,
         height: null,
         width: null,
+        insulation_thickness: null,
         price: null,
+
         material: null,
         version: null,
+        griddle_surface: null,
+        energy_label: null,
+        defrost: null,
+        mobile: null,
+        lockable: null,
+        type_of_cooling: null,
+        drain_valve: null,
+        cooling_agent: null,
+
+        lights: null,
         parcel_ready: null,
         piezo_ignition: null,
+        operation: null,
         model_type: null,
         voltage: null,
+        color: null,
+        dishwasher_proof: null,
+        execution_window: null,
     };
 
+    const CATEGORY_ORDER = [
+        "Combisteamers",
+        "Convection ovens",
+        "Microwaves",
+        "Oven supports and accessories",
+        "Generic",
+    ];
+
     const FILTER_CONFIG = {
+
+
+        // === SIZE ===
         depth: {
             label: "DEPTH",
             key: "depth_mm",
             type: "range",
             buckets: [
+                { id: "d-0-199", label: "0 – 199", min: 0, max: 199 },
+                { id: "d-200-399", label: "200 – 399", min: 200, max: 399 },
+                { id: "d-400-599", label: "400 – 599", min: 400, max: 599 },
                 { id: "d-600-799", label: "600 – 799", min: 600, max: 799 },
                 { id: "d-800-999", label: "800 – 999", min: 800, max: 999 },
+                { id: "d-1200-1399", label: "1200 – 1399", min: 1200, max: 1399 },
             ],
         },
         height: {
@@ -334,8 +391,16 @@
             key: "height_mm",
             type: "range",
             buckets: [
+                { id: "h-0-199", label: "0 – 199", min: 0, max: 199 },
                 { id: "h-200-399", label: "200 – 399", min: 200, max: 399 },
+                { id: "h-400-599", label: "400 – 599", min: 400, max: 599 },
+                { id: "h-600-799", label: "600 – 799", min: 600, max: 799 },
                 { id: "h-800-999", label: "800 – 999", min: 800, max: 999 },
+                { id: "h-1000-1199", label: "1000 – 1199", min: 1000, max: 1199 },
+                { id: "h-1200-1399", label: "1200 – 1399", min: 1200, max: 1399 },
+                { id: "h-1400-1599", label: "1400 – 1599", min: 1400, max: 1599 },
+                { id: "h-1600-1799", label: "1600 – 1799", min: 1600, max: 1799 },
+                { id: "h-1800-1999", label: "1800 – 1999", min: 1800, max: 1999 },
             ],
         },
         width: {
@@ -343,44 +408,65 @@
             key: "width_mm",
             type: "range",
             buckets: [
+                { id: "w-0-199", label: "0 – 199", min: 0, max: 199 },
+                { id: "w-200-399", label: "200 – 399", min: 200, max: 399 },
                 { id: "w-400-599", label: "400 – 599", min: 400, max: 599 },
                 { id: "w-600-799", label: "600 – 799", min: 600, max: 799 },
                 { id: "w-800-999", label: "800 – 999", min: 800, max: 999 },
+                { id: "w-1000-1199", label: "1000 – 1199", min: 1000, max: 1199 },
                 { id: "w-1200-1399", label: "1200 – 1399", min: 1200, max: 1399 },
+                { id: "w-1400-1599", label: "1400 – 1599", min: 1400, max: 1599 },
                 { id: "w-1600-1799", label: "1600 – 1799", min: 1600, max: 1799 },
+                { id: "w-1800-1999", label: "1800 – 1999", min: 1800, max: 1999 },
+                { id: "w-2000-2199", label: "2000 – 2199", min: 2000, max: 2199 },
+                { id: "w-2400-2599", label: "2400 – 2599", min: 2400, max: 2599 },
             ],
         },
+
+        insulation_thickness: {
+            label: "INSULATION THICKNESS",
+            key: "insulation_thickness",
+            type: "value",
+            buckets: [
+                { id: "ins-120-plus", label: "120 and above", value: "120 and above" },
+            ],
+        },
+
+        // === PRICE ===
         price: {
             label: "PRICE",
             key: "price",
             type: "range",
             buckets: [
-                {
-                    id: "p-0-9999",
-                    label: "Kč 0.00 – 9,999.99",
-                    min: 0,
-                    max: 9999.99,
-                },
-                {
-                    id: "p-10000-plus",
-                    label: "10,000.00 and above",
-                    min: 10000,
-                    max: Infinity,
-                },
+                { id: "p-0-9999", label: "Kč 0.00 – 9,999.99", min: 0, max: 9999.99 },
+                { id: "p-10000-19999", label: "Kč 10,000.00 – 19,999.99", min: 10000, max: 19999.99 },
+                { id: "p-20000-29999", label: "Kč 20,000.00 – 29,999.99", min: 20000, max: 29999.99 },
+                { id: "p-30000-plus", label: "Kč 30,000.00 and above", min: 30000, max: Infinity },
             ],
         },
+
+        // === MATERIAL ===
         material: {
             label: "MATERIAL",
             key: "material",
             type: "value",
             buckets: [
-                {
-                    id: "m-430",
-                    label: "Stainless steel 430",
-                    value: "Stainless steel 430",
-                },
+                { id: "m-aluminium", label: "Aluminium", value: "Aluminium" },
+                { id: "m-hardglas", label: "Hardglas", value: "Hardglas" },
+                { id: "m-polycarbonate", label: "Polycarbonate", value: "Polycarbonate" },
+                { id: "m-polypropylene", label: "Polypropylene", value: "Polypropylene" },
+                { id: "m-powder-coated", label: "Powder coated steel", value: "Powder coated steel" },
+                { id: "m-ss", label: "Stainless steel", value: "Stainless steel" },
+                { id: "m-ss-18-10", label: "Stainless steel 18/10", value: "Stainless steel 18/10" },
+                { id: "m-ss-18-8", label: "Stainless steel 18/8", value: "Stainless steel 18/8" },
+                { id: "m-ss-430", label: "Stainless steel 430", value: "Stainless steel 430" },
+                { id: "m-ss-aisi-201", label: "Stainless steel Aisi 201", value: "Stainless steel Aisi 201" },
+                { id: "m-ss-aisi-304", label: "Stainless steel Aisi 304", value: "Stainless steel Aisi 304" },
+                { id: "m-ss-jyh21ct", label: "Stainless steel JYH21CT", value: "Stainless steel JYH21CT" },
+                { id: "m-synthetic", label: "Synthetic", value: "Synthetic" },
             ],
         },
+
         version: {
             label: "VERSION",
             key: "version",
@@ -388,43 +474,200 @@
             buckets: [
                 { id: "v-electric", label: "Electric", value: "Electric" },
                 { id: "v-gas", label: "Gas", value: "Gas" },
+                { id: "v-induction", label: "Induction", value: "Induction" },
             ],
         },
+
+        griddle_surface: {
+            label: "GRIDDLE SURFACE",
+            key: "griddle_surface",
+            type: "value",
+            buckets: [
+                { id: "gs-chromed-smooth", label: "Chromed smooth", value: "Chromed smooth" },
+                { id: "gs-ribbed", label: "Ribbed", value: "Ribbed" },
+                { id: "gs-smooth", label: "Smooth", value: "Smooth" },
+                { id: "gs-smooth-ribbed", label: "Smooth/ribbed", value: "Smooth/ribbed" },
+            ],
+        },
+
+        energy_label: {
+            label: "ENERGY LABEL",
+            key: "energy_label",
+            type: "value",
+            buckets: [
+                { id: "el-a", label: "A", value: "A" },
+                {
+                    id: "el-no-label",
+                    label: "No energy label required",
+                    value: "No energy label required",
+                },
+            ],
+        },
+
+        defrost: {
+            label: "DEFROST",
+            key: "defrost",
+            type: "value",
+            buckets: [
+                { id: "def-auto", label: "Automatic", value: "Automatic" },
+            ],
+        },
+
+        mobile: {
+            label: "MOBILE",
+            key: "mobile",
+            type: "value",
+            buckets: [
+                { id: "mobile-no", label: "No", value: "No" },
+                { id: "mobile-yes", label: "Yes", value: "Yes" },
+            ],
+        },
+
+        lockable: {
+            label: "LOCKABLE",
+            key: "lockable",
+            type: "value",
+            buckets: [
+                { id: "lock-no", label: "No", value: "No" },
+                { id: "lock-yes", label: "Yes", value: "Yes" },
+            ],
+        },
+
+        type_of_cooling: {
+            label: "TYPE OF COOLING",
+            key: "type_of_cooling",
+            type: "value",
+            buckets: [
+                { id: "cool-ventilated", label: "Ventilated", value: "Ventilated" },
+            ],
+        },
+
+        drain_valve: {
+            label: "DRAIN VALVE",
+            key: "drain_valve",
+            type: "value",
+            buckets: [
+                { id: "drain-no", label: "No", value: "No" },
+                { id: "drain-yes", label: "Yes", value: "Yes" },
+            ],
+        },
+
+        cooling_agent: {
+            label: "COOLING AGENT",
+            key: "cooling_agent",
+            type: "value",
+            buckets: [
+                { id: "ca-r290", label: "R 290", value: "R 290" },
+                { id: "ca-r600a", label: "R 600 A", value: "R 600 A" },
+            ],
+        },
+
+        lights: {
+            label: "LIGHTS",
+            key: "lights",
+            type: "value",
+            buckets: [
+                { id: "light-no", label: "No", value: "No" },
+                { id: "light-yes", label: "Yes", value: "Yes" },
+                { id: "light-led", label: "Yes, LED", value: "Yes, LED" },
+            ],
+        },
+
         parcel_ready: {
             label: "PARCEL READY",
             key: "parcel_ready",
             type: "value",
-            buckets: [{ id: "parcel-no", label: "No", value: "No" }],
+            buckets: [
+                { id: "parcel-yes", label: "Yes", value: "Yes" },
+                { id: "parcel-no", label: "No", value: "No" },
+            ],
         },
+
         piezo_ignition: {
             label: "PIEZO IGNITION",
             key: "piezo_ignition",
             type: "value",
-            buckets: [{ id: "piezo-yes", label: "Yes", value: "Yes" }],
+            buckets: [
+                { id: "piezo-no", label: "No", value: "No" },
+                { id: "piezo-yes", label: "Yes", value: "Yes" },
+            ],
         },
+
+        operation: {
+            label: "OPERATION",
+            key: "operation",
+            type: "value",
+            buckets: [
+                { id: "op-digital", label: "Digital", value: "Digital" },
+                { id: "op-knob", label: "Knob", value: "Knob" },
+                { id: "op-manual", label: "Manual", value: "Manual" },
+                { id: "op-touch", label: "Touch screen", value: "Touch screen" },
+            ],
+        },
+
         model_type: {
             label: "MODEL TABLETOP/FREESTANDING/DROP-IN",
             key: "model_type",
             type: "value",
             buckets: [
-                {
-                    id: "model-freestanding",
-                    label: "Freestanding",
-                    value: "Freestanding",
-                },
+                { id: "model-freestanding", label: "Freestanding", value: "Freestanding" },
                 { id: "model-tabletop", label: "Tabletop", value: "Tabletop" },
             ],
         },
+
         voltage: {
             label: "VOLTAGE (VOLT)",
             key: "voltage",
             type: "value",
             buckets: [
                 { id: "vol-230", label: "230", value: "230" },
+                { id: "vol-2x230", label: "2x 230", value: "2x 230" },
+                { id: "vol-2x400", label: "2x 400", value: "2x 400" },
                 { id: "vol-400", label: "400", value: "400" },
             ],
         },
+
+        color: {
+            label: "COLOR",
+            key: "color",
+            type: "value",
+            buckets: [
+                { id: "c-black", label: "Black", value: "Black" },
+                { id: "c-black-ss", label: "Black / Stainless steel", value: "Black / Stainless steel" },
+                { id: "c-blue", label: "Blue", value: "Blue" },
+                { id: "c-brass", label: "Brass", value: "Brass" },
+                { id: "c-gold", label: "Gold", value: "Gold" },
+                { id: "c-green", label: "Green", value: "Green" },
+                { id: "c-grey-black", label: "Grey / Black", value: "Grey / Black" },
+                { id: "c-red", label: "Red", value: "Red" },
+                { id: "c-silver", label: "Silver", value: "Silver" },
+                { id: "c-ss", label: "Stainless steel", value: "Stainless steel" },
+                { id: "c-white", label: "White", value: "White" },
+                { id: "c-white-blue", label: "White / Blue", value: "White / Blue" },
+            ],
+        },
+
+        dishwasher_proof: {
+            label: "DISHWASHER PROOF",
+            key: "dishwasher_proof",
+            type: "value",
+            buckets: [
+                { id: "dw-no", label: "No", value: "No" },
+                { id: "dw-yes", label: "Yes", value: "Yes" },
+            ],
+        },
+
+        execution_window: {
+            label: "EXECUTION WINDOW",
+            key: "execution_window",
+            type: "value",
+            buckets: [
+                { id: "ew-curved", label: "curved", value: "curved" },
+                { id: "ew-right", label: "Right", value: "Right" },
+            ],
+        },
     };
+
 
     function matchBucket(p, conf, bucket) {
         const val = p[conf.key];

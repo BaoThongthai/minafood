@@ -4,7 +4,7 @@
     const i18n = {
         cs: {
 
-
+            "tabs_Kitchen_Equipment_categories": "Kategorie kuchyňského vybavení",
             "cat_kitchen_equipment": "Kuchyňské vybavení",
             "cat_drink_equipment": "Vybavení na nápoje",
             "cat_warming_equipment": "Ohřívací vybavení",
@@ -440,7 +440,7 @@
         },
 
         en: {
-
+            "tabs_Kitchen_Equipment_categories": "Kitchen Equipment Categories",
             "cat_kitchen_equipment": "Kitchen equipment",
             "cat_drink_equipment": "Drink equipment",
             "cat_warming_equipment": "Warming equipment",

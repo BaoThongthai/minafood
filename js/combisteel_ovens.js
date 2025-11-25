@@ -434,13 +434,13 @@
             buckets: [
                 {
                     id: "p-0-9999",
-                    label: "€0.00 – €9,999.99",
+                    label: "Kč 0.00 – 9,999.99",
                     min: 0,
                     max: 9999.99,
                 },
                 {
                     id: "p-10000-plus",
-                    label: "€10,000.00 and above",
+                    label: "10,000.00 and above",
                     min: 10000,
                     max: Infinity,
                 },
