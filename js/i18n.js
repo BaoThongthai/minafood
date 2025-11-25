@@ -4,13 +4,14 @@
     const i18n = {
         cs: {
 
+            "title.Refrigeration": "Chladicí zařízení",
             "tabs_Kitchen_Equipment_categories": "Kategorie kuchyňského vybavení",
             "cat_kitchen_equipment": "Kuchyňské vybavení",
             "cat_drink_equipment": "Vybavení na nápoje",
             "cat_warming_equipment": "Ohřívací vybavení",
             "cat_event_equipment": "Vybavení na akce",
             "cat_kitchen_tools": "Kuchyňské nástroje",
-
+            "title_combisteel_ Refrigeration": "Objevte naši řadu profesionálních chladicích zařízení Combisteel, navrženou tak, aby splňovala potřeby moderních kuchařů a cateringových služeb. Naše kolekce zahrnuje širokou škálu produktů, od chladicích a mrazicích skříní až po vitríny a pracovní stoly s chlazením. S našimi profesionálními chladicími zařízeními můžete snadno udržet čerstvost a kvalitu potravin, což zlepší váš provoz a uspokojí vaše zákazníky.",
 
             "title_combisteel_kitchen_equiment": "Naše rozsáhlá kolekce profesionálního vybavení, v rozmezí od vakuové stroje a vařiče těstovin až po fritézy a pekáče, nabízejí řešení pro každou kuchyni. Vyberte si spolehlivost a výkon ve své kuchyni s naším cateringovým a cateringovým vybavením.",
             "tabs.Trouba": "Trouba",
@@ -440,6 +441,8 @@
         },
 
         en: {
+            "title_combisteel_ Refrigeration": "Explore our wide selection of refrigerators, designed to maintain food freshness and quality. Choose from refrigerated display cases, freezers, and glass door refrigerators to store products at the ideal temperature while enhancing visibility for customers."
+            , "title.Refrigeration": "Refrigeration",
             "tabs_Kitchen_Equipment_categories": "Kitchen Equipment Categories",
             "cat_kitchen_equipment": "Kitchen equipment",
             "cat_drink_equipment": "Drink equipment",
