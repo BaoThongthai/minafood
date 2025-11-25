@@ -492,14 +492,19 @@
             const content = opt.querySelector(".filter-options-content");
             const icon = opt.querySelector("i.fa-chevron-down");
 
-            // mặc định mở
-            content.style.display = "block";
+            // ✅ mặc định ĐÓNG khi load trang
+            content.style.display = "none";
+            if (icon) icon.style.transform = "rotate(180deg)"; // thích thì để, không cần cũng được
+
             header.addEventListener("click", () => {
                 const isOpen = content.style.display !== "none";
                 content.style.display = isOpen ? "none" : "block";
-                if (icon) icon.style.transform = isOpen ? "rotate(180deg)" : "rotate(0deg)";
+                if (icon) icon.style.transform = isOpen ? "rotate(180deg)" : "rotate(180deg)";
+                // hoặc nếu muốn mở ra thì mũi tên quay xuống:
+                // if (icon) icon.style.transform = isOpen ? "rotate(180deg)" : "rotate(0deg)";
             });
         });
+
 
         // click filter
         filterPanel.addEventListener("click", (e) => {
