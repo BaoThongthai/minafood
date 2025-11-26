@@ -1,0 +1,164 @@
+[
+    {
+        "code": "7465.0050",
+        "name": "CUTLERY POLISHER",
+        "url": "https://www.combisteel.com/en/7465-0050-cutlery-polisher.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7465_0050-7792.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7465_0050-7792.jpg",
+        "price": 74875,
+        "price_currency": "CZK",
+        "price_text": "74 875 Kč",
+        "specs": {
+            "ean_code": 7435137850816,
+            "width": 660,
+            "depth": 650,
+            "height": 700,
+            "material": "Stainless steel",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 82,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 8,
+            "capacity_in_units_per_time": "5 KG",
+            "capacity_in_units_per_hour": 7000,
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7465.0045 0050",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1224153/product/3723/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7465.0052",
+                "name": "GRANULATE FOR CUTLERY POLISHER 5 X 4KG",
+                "url": "https://www.combisteel.com/en/7465-0052-granulate-for-cutlery-polisher-5-x-4kg.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7465_0052-8526.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7465_0052-8526.jpg",
+                "price": 6375,
+                "price_currency": "CZK",
+                "price_text": "6 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7465.0045",
+        "name": "CUTLERY POLISHER",
+        "url": "https://www.combisteel.com/en/7465-0045-cutlery-polisher.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7465_0045-7791.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7465_0045-7791.jpg",
+        "price": 57875,
+        "price_currency": "CZK",
+        "price_text": "57 875 Kč",
+        "specs": {
+            "ean_code": 7435137850809,
+            "width": 560,
+            "depth": 550,
+            "height": 410,
+            "material": "Stainless steel",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 50,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 6,
+            "capacity_in_units_per_time": "3 KG",
+            "capacity_in_units_per_hour": 3000,
+            "noise_level": "90-100",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7465.0045 0050",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231509/product/3722/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7465.0052",
+                "name": "GRANULATE FOR CUTLERY POLISHER 5 X 4KG",
+                "url": "https://www.combisteel.com/en/7465-0052-granulate-for-cutlery-polisher-5-x-4kg.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7465_0052-8526.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7465_0052-8526.jpg",
+                "price": 6375,
+                "price_currency": "CZK",
+                "price_text": "6 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7531.0200",
+        "name": "GLASS POLISHER",
+        "url": "https://www.combisteel.com/en/7531-0200-glass-polisher.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7531_0200a.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7531_0200a.jpg",
+        "price": 23125,
+        "price_currency": "CZK",
+        "price_text": "23 125 Kč",
+        "specs": {
+            "ean_code": 7422242974995,
+            "width": 330,
+            "depth": 330,
+            "height": 510,
+            "material": "Stainless steel",
+            "color": "Stainless steel",
+            "accessories_included": "5 brushes. The short brush is 20cm high. The long brush is 23cm high.",
+            "parcel_ready": "Yes",
+            "gross_weight": 15,
+            "net_weight": 13,
+            "particulars": "The airflow has a temperature of up to 85 degrees.",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.2,
+            "capacity_in_units_per_hour": 330,
+            "operation": "Knob",
+            "brand": "COMBISTEEL",
+            "cord_length": 1100,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7531.0200",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216099/product/4544/"
+            },
+            {
+                "label": "Exploded View 7531.0200 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216100/product/4544/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7531.0202",
+                "name": "BRUSH SET FOR GLASS POLISHER 7531.0200",
+                "url": "https://www.combisteel.com/en/7531-0202-brush-set-for-glass-polisher-7531-0200.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7531_0202_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7531_0202_1.png",
+                "price": 7875,
+                "price_currency": "CZK",
+                "price_text": "7 875 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7531.0202",
+        "name": "BRUSH SET FOR GLASS POLISHER 7531.0200",
+        "url": "https://www.combisteel.com/en/7531-0202-brush-set-for-glass-polisher-7531-0200.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7531_0202_1.png",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7531_0202_1.png",
+        "price": 7875,
+        "price_currency": "CZK",
+        "price_text": "7 875 Kč",
+        "specs": {
+            "parcel_ready": "Yes",
+            "gross_weight": 5,
+            "particulars": "The short brush is 20cm high. The long brush is 23cm high.",
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    }
+]

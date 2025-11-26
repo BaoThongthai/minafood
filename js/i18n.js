@@ -3,7 +3,12 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
-
+            "title.Accessories.for.dishwashers": "Příslušenství pro myčky nádobí",
+            "title.polishing.machine": "lešticí stroj",
+            "title.exit_tables": "Výstupní tabulky",
+            "title.Entry_tables": "Tabulky záznamů",
+            "title_combisteel_Dishwashers": "Rozsáhlá kolekce myček nádobí, speciálně navržených tak, aby splňovaly vysoké nároky profesionálních uživatelů. Bez ohledu na velikost vaší firmy, naše myčky nabízejí rychlost, efektivitu a důkladné mytí. Naše modely zaručují čisté nádobí a kuchyňské náčiní.",
+            "title.Dishwashers": "Myčky nádobí",
             "title.Ice.machines": "stroj na led",
             "title.dry_age_cabinets": "suché věkové skříně",
             "title.Display_cases": "Vitríny",
@@ -447,6 +452,12 @@
         },
 
         en: {
+            "title.Accessories.for.dishwashers": "Accessories for dishwashers",
+            "title.polishing.machine": "polishing machine",
+            "title.exit_tables": "exit tables",
+            "title.Entry_tables": "Entry tables",
+            "title_combisteel_Dishwashers": "An extensive collection of dishwashers, specially designed to meet the high demands of professional users. Regardless of your business size, our dishwashers offer speed, efficiency and thorough cleaning. Our models guarantee clean tableware and kitchen utensils.",
+            "title.Dishwashers": "Dishwashers",
             "title.Ice.machines": "stroj na led",
             "title.beverage_coolers": "beverage coolers",
             "title.Display_cases": "Display cases",

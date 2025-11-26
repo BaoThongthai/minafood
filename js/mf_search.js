@@ -156,6 +156,12 @@
     { json: '/js/data/combisteel_pasta_cooker.json', page: '/Combisteel_Pasta_cooker.html', cat: 'COMBISTEEL' },
     { json: '/js/data/combisteel_tilting_pan.json', page: '/Combisteel_Tilting_pan.html', cat: 'COMBISTEEL' },
     { json: '/js/data/combisteel_ovens_equipment.json', page: '/Combisteel_Ovens_equipment.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/Combisteel_dishwashers.json', page: '/Combisteel_Dishwashers.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/Combisteel_dishwashers_Accessories_for_dishwashers.json', page: '/Combisteel_Dishwashers_accessories_for_dishwashers.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/Combisteel_dishwashers_Entry_tables.json', page: '/Combisteel_Dishwashers_Entrytables.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/Combisteel_dishwashers_exit_tables.json', page: '/Combisteel_Dishwashers_exit_tables.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/Combisteel_dishwashers_polishing_machine.json', page: '/Combisteel_Dishwashers_polishing_machines.html', cat: 'COMBISTEEL' },
+
 
 
 
