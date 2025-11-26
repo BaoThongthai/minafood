@@ -7,7 +7,7 @@
     const PAGER_SLOT = "#pager-slot";
 
     // TODO: sửa lại path JSON đúng với bạn
-    const DATA_URL = "js/data/combisteel_refrigeration_equipment.json";
+    const DATA_URL = "js/data/Combisteel_chest_freezers.json";
 
     const LABELS = {
         loadingAria: "loading",
@@ -78,12 +78,20 @@
             lockable: txt(s.lockable),                        // Yes / No
             type_of_cooling: txt(s.type_of_cooling),          // Ventilated
             drain_valve: txt(s.drain_valve),                  // Yes / No
-            cooling_agent: txt(s.cooling_agent),              // R 290, R 600 A
+            cooling_agent: txt(s.cooling_agent),              // R 290, R 449 A, R 452 A
             lights: txt(s.lights),                            // No / Yes / Yes, LED
             operation: txt(s.operation),                      // Digital / Knob / Manual / Touch screen
             color: txt(s.color),                              // Black, Stainless steel, ...
             dishwasher_proof: txt(s.dishwasher_proof),        // Yes / No
-            execution_window: txt(s.execution_window),        // curved / Right
+            execution_window: txt(s.execution_window),
+            // ✅ NEW cho filter giống ảnh
+            door_reversible: txt(s.door_reversible),          // Yes / No
+            door_left_right_hinging: txt(
+                s["door left / right hinging"] ||
+                s["door_left / right hinging"] ||
+                s["door_left_right_hinging"] ||
+                s["door_left/right_hinging"] ||
+                s.door_left_right_hinging),       // curved / Right
 
             // === CATEGORY nếu bạn có mapping riêng thì giữ nguyên, nếu không dùng có thể bỏ ===
             category: "Generic",
@@ -349,6 +357,9 @@
         type_of_cooling: null,
         drain_valve: null,
         cooling_agent: null,
+        // ✅ thêm:
+        door_reversible: null,
+        door_left_right_hinging: null,
 
         lights: null,
         parcel_ready: null,
@@ -428,22 +439,23 @@
             key: "insulation_thickness",
             type: "value",
             buckets: [
+                { id: "ins-80-99", label: "80 – 99", value: "80-99" },
                 { id: "ins-120-plus", label: "120 and above", value: "120 and above" },
             ],
         },
 
+
         // === PRICE ===
         price: {
             label: "PRICE",
-            key: "price_czk",   // <== đổi key
+            key: "price",      // dùng trực tiếp price số (đã x 25 nếu bạn đã xử lý nơi khác)
             type: "range",
             buckets: [
-                { id: "p-0-9999", label: "0 – 9 999 Kč", min: 0, max: 9999 },
-                { id: "p-10000-19999", label: "10 000 – 19 999 Kč", min: 10000, max: 19999 },
-                { id: "p-20000-29999", label: "20 000 – 29 999 Kč", min: 20000, max: 29999 },
-                { id: "p-30000-plus", label: "30 000 Kč and above", min: 30000, max: Infinity },
+                { id: "p-0-9999", label: "0.00 – 9,999.99", min: 0, max: 9999.99 },
+                { id: "p-10000+", label: "10,000.00 and above", min: 10000, max: Infinity },
             ],
         },
+
 
 
         // === MATERIAL ===
@@ -552,6 +564,14 @@
                 { id: "drain-yes", label: "Yes", value: "Yes" },
             ],
         },
+        door_reversible: {
+            label: "DOOR REVERSIBLE",
+            key: "door_reversible",
+            type: "value",
+            buckets: [
+                { id: "dr-rev-yes", label: "Yes", value: "Yes" },
+            ],
+        },
 
         cooling_agent: {
             label: "COOLING AGENT",
@@ -559,7 +579,16 @@
             type: "value",
             buckets: [
                 { id: "ca-r290", label: "R 290", value: "R 290" },
-                { id: "ca-r600a", label: "R 600 A", value: "R 600 A" },
+                { id: "ca-r449a", label: "R 449 A", value: "R 449 A" },
+                { id: "ca-r452a", label: "R 452 A", value: "R 452 A" },
+            ],
+        },
+        door_left_right_hinging: {
+            label: "DOOR LEFT / RIGHT HINGING",
+            key: "door_left_right_hinging",
+            type: "value",
+            buckets: [
+                { id: "dlrh-right", label: "Right", value: "Right" },
             ],
         },
 

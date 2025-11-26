@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>MinaFood - Refrigeration
+    <title>MinaFood - Combisteel Ice machines
     </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <!-- minafood -->
@@ -205,8 +205,8 @@
         "></div>
 
         <div class="container position-relative z-1 text-white">
-            <h1 class="fw-bold display-5 mb-3 text-uppercase" data-i18n="title.Refrigeration" style="color: white">
-                Refrigeration
+            <h1 class="fw-bold display-5 mb-3 text-uppercase" data-i18n="title.Ice.machines" style="color: white">
+                Ice machines
             </h1>
             <small data-i18n="title_combisteel_ Refrigeration">Explore our wide selection of refrigerators, designed to
                 maintain food freshness and quality. Choose from refrigerated display cases, freezers, and glass door
@@ -249,51 +249,74 @@
                         <!-- tiêu đề -->
                         <div class="filter-options-title d-flex justify-content-between align-items-center cursor-pointer"
                             @click="catOpen = !catOpen">
-                            <span class="title text-uppercase">Category</span>
-                            <span>
-                                <i class="fa-solid fa-chevron-down" :class="{ 'rotate-180': catOpen }"
-                                    style="transition: transform .3s"></i>
-                            </span>
+                            <span class="title text-uppercase">CATEGORY</span>
+                            <i class="fa-solid fa-chevron-down" :class="{ 'rotate-180': catOpen }"
+                                style="transition: transform .3s"></i>
                         </div>
 
-                        <!-- danh sách category fix cứng + i18n, GIỮ NGUYÊN SỐ -->
+                        <!-- danh sách category -->
                         <div class="filter-options-content pt-2" x-show="catOpen">
 
-                            <a href="Combisteel_kitchen_equiment.html"
+                            <a href="Combisteel_cold_and_freezer_rooms.html"
                                 class="mf-filter-row d-flex justify-content-between ">
-                                <span data-i18n="cat_kitchen_equipment">Kitchen equipment</span>
-                                <span class="count text-muted">(193)</span>
+                                <span>Cold and freezer rooms</span>
+                                <span class="count text-muted">(164)</span>
                             </a>
 
-                            <a href="Combisteel_drink_equipment.html"
+                            <a href="Combisteel_refrigerators.html"
+                                class="mf-filter-row d-flex justify-content-between">
+                                <span>Refrigerators</span>
+                                <span class="count text-muted">(157)</span>
+                            </a>
+
+                            <a href="Combisteel_freezers.html" class="mf-filter-row d-flex justify-content-between ">
+                                <span>Freezers</span>
+                                <span class="count text-muted">(77)</span>
+                            </a>
+
+                            <a href="Combisteel_chest_freezers.html"
+                                class="mf-filter-row d-flex justify-content-between">
+                                <span>Chest freezers</span>
+                                <span class="count text-muted">(70)</span>
+                            </a>
+
+                            <a href="Combisteel_dry_age_cabinets.html"
+                                class="mf-filter-row d-flex justify-content-between">
+                                <span>Dry age cabinets</span>
+                                <span class="count text-muted">(5)</span>
+                            </a>
+
+                            <a href="Combisteel_counters.html" class="mf-filter-row d-flex justify-content-between">
+                                <span>Counters</span>
+                                <span class="count text-muted">(147)</span>
+                            </a>
+
+                            <a href="Combisteel_display_cases.html"
+                                class="mf-filter-row d-flex justify-content-between">
+                                <span>Display cases</span>
+                                <span class="count text-muted">(162)</span>
+                            </a>
+
+                            <a href="Combisteel_beverage_coolers.html"
+                                class="mf-filter-row d-flex justify-content-between">
+                                <span>Beverage coolers</span>
+                                <span class="count text-muted">(61)</span>
+                            </a>
+
+                            <a href="Combisteel_ice_machines.html"
                                 class="mf-filter-row d-flex justify-content-between active">
-                                <span data-i18n="cat_drink_equipment">Drink equipment</span>
-                                <span class="count text-muted">(25)</span>
+                                <span>Ice machines</span>
+                                <span class="count text-muted">(21)</span>
                             </a>
 
-                            <a href="Combisteel_warning_equipment.html"
-                                class="mf-filter-row d-flex justify-content-between">
-                                <span data-i18n="cat_warming_equipment">Warming equipment</span>
-                                <span class="count text-muted">(45)</span>
-                            </a>
-
-                            <a href="Combisteel_event_equipment.html"
-                                class="mf-filter-row d-flex justify-content-between">
-                                <span data-i18n="cat_event_equipment">Event equipment</span>
-                                <span class="count text-muted">(35)</span>
-                            </a>
-
-                            <a href="Combisteel_kitchen_tools.html"
-                                class="mf-filter-row d-flex justify-content-between">
-                                <span data-i18n="cat_kitchen_tools">Kitchen tools</span>
-                                <span class="count text-muted">(113)</span>
+                            <a href="Minafood_chlazeni.html" class="mf-filter-row d-flex justify-content-between">
+                                <span>other machines</span>
+                                <span class="count text-muted">(21)</span>
                             </a>
 
                         </div>
-
-
-
                     </div>
+
                     <!-- FILTER động: JS combisteel_cooking_range.js sẽ vẽ vào đây -->
                     <div id="filter-panel" class="filter-content bg-light border rounded p-3 mt-4">
                         <!-- để trống, JS sẽ fill -->
@@ -446,7 +469,7 @@
     <script src="js/main.js"></script>
     <script src="js/i18n.js"></script>
     <script src="js/cart.js"></script>
-    <script src="js/combisteel_refrigeration_equiment.js"></script>
+    <script src="js/Combisteel_ice_machines.js"></script>
 </body>
 
 </html>

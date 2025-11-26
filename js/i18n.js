@@ -4,10 +4,16 @@
     const i18n = {
         cs: {
 
-            "title.Refrigeration": "Chladicí zařízení",
+            "title.Ice.machines": "stroj na led",
+            "title.dry_age_cabinets": "suché věkové skříně",
+            "title.Display_cases": "Vitríny",
+            "title.beverage_coolers": "chladiče na nápoje",
+            "title.chest_freezers": "truhlicové mrazáky",
+            "title.Refrigeration": "Chlazení - chladicí a mrazicí komory Combisteel",
             "tabs_Kitchen_Equipment_categories": "Kategorie kuchyňského vybavení",
             "cat_kitchen_equipment": "Kuchyňské vybavení",
             "cat_drink_equipment": "Vybavení na nápoje",
+            "title.Refrigerators": "Ledničky",
             "cat_warming_equipment": "Ohřívací vybavení",
             "cat_event_equipment": "Vybavení na akce",
             "cat_kitchen_tools": "Kuchyňské nástroje",
@@ -441,8 +447,14 @@
         },
 
         en: {
+            "title.Ice.machines": "stroj na led",
+            "title.beverage_coolers": "beverage coolers",
+            "title.Display_cases": "Display cases",
+            "title.dry_age_cabinets": "dry age cabinets",
+            "title.chest_freezers": "chest freezers",
+            "title.Refrigerators": "Refrigerators",
             "title_combisteel_ Refrigeration": "Explore our wide selection of refrigerators, designed to maintain food freshness and quality. Choose from refrigerated display cases, freezers, and glass door refrigerators to store products at the ideal temperature while enhancing visibility for customers."
-            , "title.Refrigeration": "Refrigeration",
+            , "title.Refrigeration": "Refrigeration - Combisteel cold and freezer rooms",
             "tabs_Kitchen_Equipment_categories": "Kitchen Equipment Categories",
             "cat_kitchen_equipment": "Kitchen equipment",
             "cat_drink_equipment": "Drink equipment",
