@@ -204,9 +204,35 @@
       page: '/Combisteel_Ventilation_Ventilation_hoods.html',
       cat: 'COMBISTEEL'
     },
+    {
+      json: '/js/data/Combisteel_Pizzeria_Dough_preparation.json',
+      page: '/Combisteel_Pizzeria_Dough_preparation.html',
+      cat: 'COMBISTEEL'
+    },
 
+    {
+      json: '/js/data/Combisteel_Pizzeria_Pizza_accessories.json',
+      page: '/Combisteel_Pizzeria_Pizza_accessories.html',
+      cat: 'COMBISTEEL'
+    },
 
+    {
+      json: '/js/data/Combisteel_Pizzeria_Pizza_ovens.json',
+      page: '/Combisteel_Pizzeria_Pizza_ovens.html',
+      cat: 'COMBISTEEL'
+    },
 
+    {
+      json: '/js/data/Combisteel_Pizzeria_Pizza_preparation.json',
+      page: '/Combisteel_Pizzeria_Pizza_preparation.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/Combisteel_Pizzeria_Range_with_oven.json',
+      page: '/Combisteel_Pizzeria_Range_with_oven.html',
+      cat: 'COMBISTEEL'
+    },
 
   ];
 
