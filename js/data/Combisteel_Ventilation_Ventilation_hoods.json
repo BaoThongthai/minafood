@@ -4014,5 +4014,18 @@
                 "price_text": "625 Kč"
             }
         ]
+    },
+    {
+        "code": "Digestore-1",
+        "name": "Gastro Digestoř Nástěnná (více velikostí)",
+        "url": "",
+        "image": "https://minafood.cz/wp-content/uploads/2024/03/Frame-3620-300x300.webp",
+        "image_large": "https://minafood.cz/wp-content/uploads/2024/03/Frame-3620-300x300.webp",
+        "price": 17000,
+        "price_currency": "Kč bez DPH",
+        "price_text": "17000 Kč bez DPH",
+        "specs": {},
+        "downloads": [],
+        "accessories": []
     }
 ]
