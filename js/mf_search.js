@@ -175,6 +175,35 @@
     },
     { json: '/js/data/Combisteel_Neutral_Wall_and_storage_cupboards.json', page: '/Combisteel_Neutral_Wall_and_storage_cupboards.html', cat: 'COMBISTEEL' },
     { json: '/js/data/Combisteel_Neutral_Worktables_and_worktops.json', page: '/Combisteel_Neutral_Worktables_and_worktops.html', cat: 'COMBISTEEL' },
+    {
+      json: '/js/data/Combisteel_Ventilation_Accessories_for_ventilation_hoods.json',
+      page: '/Combisteel_Ventilation_Accessories_for_ventilation_hoods.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/Combisteel_Ventilation_Air_cleaner_and_accessories.json',
+      page: '/Combisteel_Ventilation_Air_cleaner_and_accessories.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/Combisteel_Ventilation_Air_Conducts.json',
+      page: '/Combisteel_Ventilation_Air_conducts.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/Combisteel_Ventilation_Fans.json',
+      page: '/Combisteel_Ventilation_Fans.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/Combisteel_Ventilation_Ventilation_hoods.json',
+      page: '/Combisteel_Ventilation_Ventilation_hoods.html',
+      cat: 'COMBISTEEL'
+    },
 
 
 
