@@ -1,0 +1,777 @@
+[
+    {
+        "code": "7839.0380",
+        "name": "SHELF UNITS 5 LEVELS 2500",
+        "url": "https://www.combisteel.com/en/7839-0380-shelf-units-5-levels-2500.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7839_0380-2822.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7839_0380-2822.jpg",
+        "price": 41000,
+        "price_currency": "CZK",
+        "price_text": "41 000 Kč",
+        "specs": {
+            "ean_code": 7422242893852,
+            "width": 2500,
+            "depth": 400,
+            "height": 1800,
+            "parcel_ready": "No",
+            "gross_weight": 107,
+            "number_of_levels": 5,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7839.0330",
+        "name": "SHELF UNITS 4 LEVELS 2500",
+        "url": "https://www.combisteel.com/en/7839-0330-shelf-units-4-levels-2500.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7839_0330-2821.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7839_0330-2821.jpg",
+        "price": 33875,
+        "price_currency": "CZK",
+        "price_text": "33 875 Kč",
+        "specs": {
+            "ean_code": 7422242893814,
+            "width": 2500,
+            "depth": 400,
+            "height": 1800,
+            "parcel_ready": "No",
+            "gross_weight": 107,
+            "number_of_levels": 4,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7839.0370",
+        "name": "SHELF UNITS 5 LEVELS 2000",
+        "url": "https://www.combisteel.com/en/7839-0370-shelf-units-5-levels-2000.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7839_0370-2822.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7839_0370-2822.jpg",
+        "price": 29000,
+        "price_currency": "CZK",
+        "price_text": "29 000 Kč",
+        "specs": {
+            "ean_code": 7422242893845,
+            "width": 2000,
+            "depth": 400,
+            "height": 1800,
+            "parcel_ready": "No",
+            "gross_weight": 83,
+            "number_of_levels": 5,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7839.0360",
+        "name": "SHELF UNITS 5 LEVELS 1500",
+        "url": "https://www.combisteel.com/en/7839-0360-shelf-units-5-levels-1500.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7839_0360-2822.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7839_0360-2822.jpg",
+        "price": 25875,
+        "price_currency": "CZK",
+        "price_text": "25 875 Kč",
+        "specs": {
+            "ean_code": 7422242893838,
+            "width": 1500,
+            "depth": 400,
+            "height": 1800,
+            "parcel_ready": "No",
+            "gross_weight": 59,
+            "number_of_levels": 5,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7839.0320",
+        "name": "SHELF UNITS 4 LEVELS 2000",
+        "url": "https://www.combisteel.com/en/7839-0320-shelf-units-4-levels-2000.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7839_0320-2821.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7839_0320-2821.jpg",
+        "price": 23875,
+        "price_currency": "CZK",
+        "price_text": "23 875 Kč",
+        "specs": {
+            "ean_code": 7422242893807,
+            "width": 2000,
+            "depth": 400,
+            "height": 1800,
+            "parcel_ready": "No",
+            "gross_weight": 83,
+            "number_of_levels": 4,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7839.0350",
+        "name": "SHELF UNITS 5 LEVELS 1000",
+        "url": "https://www.combisteel.com/en/7839-0350-shelf-units-5-levels-1000.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7839_0350-2822.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7839_0350-2822.jpg",
+        "price": 22625,
+        "price_currency": "CZK",
+        "price_text": "22 625 Kč",
+        "specs": {
+            "ean_code": 7422242893821,
+            "width": 1000,
+            "depth": 400,
+            "height": 1800,
+            "parcel_ready": "No",
+            "gross_weight": 35,
+            "number_of_levels": 5,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7839.0310",
+        "name": "SHELF UNITS 4 SHELVES 1500",
+        "url": "https://www.combisteel.com/en/7839-0310-shelf-units-4-shelves-1500.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7839_0310-2821.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7839_0310-2821.jpg",
+        "price": 21250,
+        "price_currency": "CZK",
+        "price_text": "21 250 Kč",
+        "specs": {
+            "ean_code": 7422242892893,
+            "width": 1500,
+            "depth": 400,
+            "height": 1800,
+            "parcel_ready": "No",
+            "gross_weight": 59,
+            "max._load_capacity_shelf": 35,
+            "number_of_levels": 4,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7839.0300",
+        "name": "SHELF UNITS 4 LEVELS 1000",
+        "url": "https://www.combisteel.com/en/7839-0300-shelf-units-4-levels-1000.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7839_0300-2821.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7839_0300-2821.jpg",
+        "price": 18750,
+        "price_currency": "CZK",
+        "price_text": "18 750 Kč",
+        "specs": {
+            "ean_code": 7422242892886,
+            "width": 1000,
+            "depth": 400,
+            "height": 1800,
+            "parcel_ready": "No",
+            "gross_weight": 35,
+            "number_of_levels": 4,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7013.2150",
+        "name": "SHELVING SYSTEM 1975",
+        "url": "https://www.combisteel.com/en/7013-2150-shelving-system-1975.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2150-6381.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2150-6381.jpg",
+        "price": 16400,
+        "price_currency": "CZK",
+        "price_text": "16 400 Kč",
+        "specs": {
+            "ean_code": 7435137876885,
+            "width": 1975,
+            "depth": 450,
+            "height": 1700,
+            "parcel_ready": "No",
+            "gross_weight": 32
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7013.2145",
+        "name": "SHELVING SYSTEM 1825",
+        "url": "https://www.combisteel.com/en/7013-2145-shelving-system-1825.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2145-6381.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2145-6381.jpg",
+        "price": 15400,
+        "price_currency": "CZK",
+        "price_text": "15 400 Kč",
+        "specs": {
+            "ean_code": 7435137876878,
+            "width": 1825,
+            "depth": 450,
+            "height": 1700,
+            "parcel_ready": "No",
+            "gross_weight": 30
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7013.2140",
+        "name": "SHELVING SYSTEM 1675",
+        "url": "https://www.combisteel.com/en/7013-2140-shelving-system-1675.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2140-6381.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2140-6381.jpg",
+        "price": 14800,
+        "price_currency": "CZK",
+        "price_text": "14 800 Kč",
+        "specs": {
+            "ean_code": 7435137876861,
+            "width": 1675,
+            "depth": 450,
+            "height": 1700,
+            "parcel_ready": "No",
+            "gross_weight": 27
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7490.0250",
+        "name": "SHELF UNITS 4 LEVELS FLAT-PACKED 1500",
+        "url": "https://www.combisteel.com/en/7490-0250-shelf-units-4-levels-flat-packed-1500.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7490_0250-9476.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7490_0250-9476.jpg",
+        "price": 14375,
+        "price_currency": "CZK",
+        "price_text": "14 375 Kč",
+        "specs": {
+            "ean_code": 7435137823810,
+            "width": 1500,
+            "depth": 500,
+            "height": 1800,
+            "parcel_ready": "No",
+            "gross_weight": 22,
+            "max._load_capacity_shelf": 50,
+            "number_of_levels": 4,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Assembly instruction four layer board",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214460/product/2137/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7013.2135",
+        "name": "SHELVING SYSTEM 1525",
+        "url": "https://www.combisteel.com/en/7013-2135-shelving-system-1525.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2135-6381.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2135-6381.jpg",
+        "price": 13600,
+        "price_currency": "CZK",
+        "price_text": "13 600 Kč",
+        "specs": {
+            "ean_code": 7435137876854,
+            "width": 1525,
+            "depth": 450,
+            "height": 1700,
+            "parcel_ready": "No",
+            "gross_weight": 25
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7013.2130",
+        "name": "SHELVING SYSTEM 1375",
+        "url": "https://www.combisteel.com/en/7013-2130-shelving-system-1375.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2130-6381.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2130-6381.jpg",
+        "price": 12800,
+        "price_currency": "CZK",
+        "price_text": "12 800 Kč",
+        "specs": {
+            "ean_code": 7435137876847,
+            "width": 1375,
+            "depth": 450,
+            "height": 1700,
+            "parcel_ready": "No",
+            "gross_weight": 22
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7013.2125",
+        "name": "SHELVING SYSTEM 1225",
+        "url": "https://www.combisteel.com/en/7013-2125-shelving-system-1225.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2125-6381.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2125-6381.jpg",
+        "price": 12000,
+        "price_currency": "CZK",
+        "price_text": "12 000 Kč",
+        "specs": {
+            "ean_code": 7435137876830,
+            "width": 1225,
+            "depth": 450,
+            "height": 1700,
+            "parcel_ready": "No",
+            "gross_weight": 20
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7490.0245",
+        "name": "SHELF UNITS 4 LEVELS FLAT-PACKED 1200",
+        "url": "https://www.combisteel.com/en/7490-0245-shelf-units-4-levels-flat-packed-1200.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7490_0245-9476.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7490_0245-9476.jpg",
+        "price": 11250,
+        "price_currency": "CZK",
+        "price_text": "11 250 Kč",
+        "specs": {
+            "ean_code": 7435137823803,
+            "width": 1200,
+            "depth": 500,
+            "height": 1800,
+            "parcel_ready": "No",
+            "gross_weight": 22,
+            "max._load_capacity_shelf": 50,
+            "number_of_levels": 4,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Assembly instruction four layer board",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235275/product/2136/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7013.2120",
+        "name": "SHELVING SYSTEM 1075",
+        "url": "https://www.combisteel.com/en/7013-2120-shelving-system-1075.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2120-6381.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2120-6381.jpg",
+        "price": 11000,
+        "price_currency": "CZK",
+        "price_text": "11 000 Kč",
+        "specs": {
+            "ean_code": 7435137876823,
+            "width": 1075,
+            "depth": 450,
+            "height": 1700,
+            "parcel_ready": "No",
+            "gross_weight": 17
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7490.0240",
+        "name": "SHELF UNITS 4 LEVELS FLAT-PACKED 1000",
+        "url": "https://www.combisteel.com/en/7490-0240-shelf-units-4-levels-flat-packed-1000.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7490_0240-9476.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7490_0240-9476.jpg",
+        "price": 10250,
+        "price_currency": "CZK",
+        "price_text": "10 250 Kč",
+        "specs": {
+            "ean_code": 7435137822899,
+            "width": 1000,
+            "depth": 500,
+            "height": 1800,
+            "parcel_ready": "No",
+            "gross_weight": 22,
+            "max._load_capacity_shelf": 50,
+            "number_of_levels": 4,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Assembly instruction four layer board",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1228320/product/2135/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7013.2115",
+        "name": "SHELVING SYSTEM 925",
+        "url": "https://www.combisteel.com/en/7013-2115-shelving-system-925.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2115-6381.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2115-6381.jpg",
+        "price": 10200,
+        "price_currency": "CZK",
+        "price_text": "10 200 Kč",
+        "specs": {
+            "ean_code": 7435137876816,
+            "width": 925,
+            "depth": 450,
+            "height": 1700,
+            "parcel_ready": "No",
+            "gross_weight": 15
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7013.2110",
+        "name": "SHELVING SYSTEM 775",
+        "url": "https://www.combisteel.com/en/7013-2110-shelving-system-775.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2110-6381.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7013_2110-6381.jpg",
+        "price": 10000,
+        "price_currency": "CZK",
+        "price_text": "10 000 Kč",
+        "specs": {
+            "ean_code": 7435137876809,
+            "width": 775,
+            "depth": 450,
+            "height": 1700,
+            "parcel_ready": "No",
+            "gross_weight": 10
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7490.0235",
+        "name": "SHELF UNITS 4 LEVELS FLAT-PACKED 900",
+        "url": "https://www.combisteel.com/en/7490-0235-shelf-units-4-levels-flat-packed-900.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7490_0235-9476.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7490_0235-9476.jpg",
+        "price": 9875,
+        "price_currency": "CZK",
+        "price_text": "9 875 Kč",
+        "specs": {
+            "ean_code": 7435137822882,
+            "width": 900,
+            "depth": 500,
+            "height": 1800,
+            "parcel_ready": "No",
+            "gross_weight": 22,
+            "max._load_capacity_shelf": 50,
+            "number_of_levels": 4,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [
+            {
+                "label": "Assembly instruction four layer board",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1229041/product/2134/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7530.0020",
+        "name": "SHELF UNITS 4 LEVELS 1800 FLAT PACKED",
+        "url": "https://www.combisteel.com/en/7530-0020-shelf-units-4-levels-1800-flat-packed.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_0020-15228.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_0020-15228.jpg",
+        "price": 8000,
+        "price_currency": "CZK",
+        "price_text": "8 000 Kč",
+        "specs": {
+            "ean_code": 7422242970997,
+            "width": 1800,
+            "depth": 450,
+            "height": 1800,
+            "material": "Chromed steel",
+            "color": "Chrome",
+            "parcel_ready": "No",
+            "gross_weight": 37,
+            "max._load_capacity_shelf": 250,
+            "number_of_levels": 4,
+            "brand": "CREATIVE KITCHEN"
+        },
+        "downloads": [
+            {
+                "label": "Manual Shelf Unit 7530 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216054/product/4226/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7530.9000",
+                "name": "SET OF 2 POLE CLAMPS CHROME FOR 7530.0005-0010-0015-0020",
+                "url": "https://www.combisteel.com/en/7530-9000-set-of-2-pole-clamps-chrome-for-7530-0005-0010-0015-0020.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9000_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9000_1.png",
+                "price": 625,
+                "price_currency": "CZK",
+                "price_text": "625 Kč"
+            },
+            {
+                "code": "7530.9010",
+                "name": "CASTOR SET 4X FOR SHELF UNITS",
+                "url": "https://www.combisteel.com/en/7530-9010-castor-set-4x-for-shelf-units.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9010-6176.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9010-6176.jpg",
+                "price": 875,
+                "price_currency": "CZK",
+                "price_text": "875 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7530.0015",
+        "name": "SHELF UNITS 4 LEVELS 1500 FLAT PACKED",
+        "url": "https://www.combisteel.com/en/7530-0015-shelf-units-4-levels-1500-flat-packed.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_0015-15226.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_0015-15226.jpg",
+        "price": 6950,
+        "price_currency": "CZK",
+        "price_text": "6 950 Kč",
+        "specs": {
+            "ean_code": 7422242970980,
+            "width": 1500,
+            "depth": 450,
+            "height": 1800,
+            "material": "Chromed steel",
+            "color": "Chrome",
+            "parcel_ready": "No",
+            "gross_weight": 29,
+            "max._load_capacity_shelf": 250,
+            "number_of_levels": 4,
+            "brand": "CREATIVE KITCHEN"
+        },
+        "downloads": [
+            {
+                "label": "Manual Shelf Unit 7530 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1225033/product/4225/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7530.9000",
+                "name": "SET OF 2 POLE CLAMPS CHROME FOR 7530.0005-0010-0015-0020",
+                "url": "https://www.combisteel.com/en/7530-9000-set-of-2-pole-clamps-chrome-for-7530-0005-0010-0015-0020.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9000_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9000_1.png",
+                "price": 625,
+                "price_currency": "CZK",
+                "price_text": "625 Kč"
+            },
+            {
+                "code": "7530.9010",
+                "name": "CASTOR SET 4X FOR SHELF UNITS",
+                "url": "https://www.combisteel.com/en/7530-9010-castor-set-4x-for-shelf-units.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9010-6176.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9010-6176.jpg",
+                "price": 875,
+                "price_currency": "CZK",
+                "price_text": "875 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7530.0040",
+        "name": "SHELF UNITS 4 LEVELS 1800 BLACK FLAT PACKED",
+        "url": "https://www.combisteel.com/en/7530-0040-shelf-units-4-levels-1800-black-flat-packed.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_0040-15440.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_0040-15440.jpg",
+        "price": 6800,
+        "price_currency": "CZK",
+        "price_text": "6 800 Kč",
+        "specs": {
+            "ean_code": 7422242971932,
+            "width": 1800,
+            "depth": 450,
+            "height": 1800,
+            "material": "Powder coated steel",
+            "color": "Black",
+            "parcel_ready": "No",
+            "gross_weight": 37,
+            "max._load_capacity_shelf": 250,
+            "number_of_levels": 4,
+            "brand": "CREATIVE KITCHEN"
+        },
+        "downloads": [
+            {
+                "label": "Manual Shelf Unit 7530 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216002/product/4228/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7530.9005",
+                "name": "SET OF 2 POLE CLAMPS BLACK FOR 7530.0025-0030-0035-0040",
+                "url": "https://www.combisteel.com/en/7530-9005-set-of-2-pole-clamps-black-for-7530-0025-0030-0035-0040.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9005_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9005_1.png",
+                "price": 625,
+                "price_currency": "CZK",
+                "price_text": "625 Kč"
+            },
+            {
+                "code": "7530.9010",
+                "name": "CASTOR SET 4X FOR SHELF UNITS",
+                "url": "https://www.combisteel.com/en/7530-9010-castor-set-4x-for-shelf-units.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9010-6176.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9010-6176.jpg",
+                "price": 875,
+                "price_currency": "CZK",
+                "price_text": "875 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7530.0035",
+        "name": "SHELF UNITS 4 LEVELS 1500 BLACK FLAT PACKED",
+        "url": "https://www.combisteel.com/en/7530-0035-shelf-units-4-levels-1500-black-flat-packed.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_0035-15439.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_0035-15439.jpg",
+        "price": 5900,
+        "price_currency": "CZK",
+        "price_text": "5 900 Kč",
+        "specs": {
+            "ean_code": 7422242971925,
+            "width": 1500,
+            "depth": 450,
+            "height": 1800,
+            "material": "Powder coated steel",
+            "color": "Black",
+            "parcel_ready": "No",
+            "gross_weight": 29,
+            "max._load_capacity_shelf": 250,
+            "number_of_levels": 4,
+            "brand": "CREATIVE KITCHEN"
+        },
+        "downloads": [
+            {
+                "label": "Manual Shelf Unit 7530 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1225104/product/4229/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7530.9005",
+                "name": "SET OF 2 POLE CLAMPS BLACK FOR 7530.0025-0030-0035-0040",
+                "url": "https://www.combisteel.com/en/7530-9005-set-of-2-pole-clamps-black-for-7530-0025-0030-0035-0040.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9005_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9005_1.png",
+                "price": 625,
+                "price_currency": "CZK",
+                "price_text": "625 Kč"
+            },
+            {
+                "code": "7530.9010",
+                "name": "CASTOR SET 4X FOR SHELF UNITS",
+                "url": "https://www.combisteel.com/en/7530-9010-castor-set-4x-for-shelf-units.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9010-6176.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9010-6176.jpg",
+                "price": 875,
+                "price_currency": "CZK",
+                "price_text": "875 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7530.0010",
+        "name": "SHELF UNITS 4 LEVELS 1200 FLAT PACKED",
+        "url": "https://www.combisteel.com/en/7530-0010-shelf-units-4-levels-1200-flat-packed.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_0010-15434.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_0010-15434.jpg",
+        "price": 5300,
+        "price_currency": "CZK",
+        "price_text": "5 300 Kč",
+        "specs": {
+            "ean_code": 7422242970973,
+            "width": 1200,
+            "depth": 450,
+            "height": 1800,
+            "material": "Chromed steel",
+            "color": "Chrome",
+            "parcel_ready": "No",
+            "gross_weight": 24,
+            "max._load_capacity_shelf": 250,
+            "number_of_levels": 4,
+            "brand": "CREATIVE KITCHEN"
+        },
+        "downloads": [
+            {
+                "label": "Manual Shelf Unit 7530 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1229261/product/4224/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7530.9000",
+                "name": "SET OF 2 POLE CLAMPS CHROME FOR 7530.0005-0010-0015-0020",
+                "url": "https://www.combisteel.com/en/7530-9000-set-of-2-pole-clamps-chrome-for-7530-0005-0010-0015-0020.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9000_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9000_1.png",
+                "price": 625,
+                "price_currency": "CZK",
+                "price_text": "625 Kč"
+            },
+            {
+                "code": "7530.9010",
+                "name": "CASTOR SET 4X FOR SHELF UNITS",
+                "url": "https://www.combisteel.com/en/7530-9010-castor-set-4x-for-shelf-units.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9010-6176.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9010-6176.jpg",
+                "price": 875,
+                "price_currency": "CZK",
+                "price_text": "875 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7530.0030",
+        "name": "SHELF UNITS 4 LEVELS 1200 BLACK FLAT PACKED",
+        "url": "https://www.combisteel.com/en/7530-0030-shelf-units-4-levels-1200-black-flat-packed.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_0030-15231.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_0030-15231.jpg",
+        "price": 4525,
+        "price_currency": "CZK",
+        "price_text": "4 525 Kč",
+        "specs": {
+            "ean_code": 7422242971918,
+            "width": 1200,
+            "depth": 450,
+            "height": 1800,
+            "material": "Powder coated steel",
+            "color": "Black",
+            "parcel_ready": "No",
+            "gross_weight": 24,
+            "max._load_capacity_shelf": 250,
+            "number_of_levels": 4,
+            "brand": "CREATIVE KITCHEN"
+        },
+        "downloads": [
+            {
+                "label": "Manual Shelf Unit 7530 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1217089/product/4227/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7530.9005",
+                "name": "SET OF 2 POLE CLAMPS BLACK FOR 7530.0025-0030-0035-0040",
+                "url": "https://www.combisteel.com/en/7530-9005-set-of-2-pole-clamps-black-for-7530-0025-0030-0035-0040.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9005_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9005_1.png",
+                "price": 625,
+                "price_currency": "CZK",
+                "price_text": "625 Kč"
+            },
+            {
+                "code": "7530.9010",
+                "name": "CASTOR SET 4X FOR SHELF UNITS",
+                "url": "https://www.combisteel.com/en/7530-9010-castor-set-4x-for-shelf-units.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9010-6176.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7530_9010-6176.jpg",
+                "price": 875,
+                "price_currency": "CZK",
+                "price_text": "875 Kč"
+            }
+        ]
+    }
+]

@@ -161,6 +161,20 @@
     { json: '/js/data/Combisteel_dishwashers_Entry_tables.json', page: '/Combisteel_Dishwashers_Entrytables.html', cat: 'COMBISTEEL' },
     { json: '/js/data/Combisteel_dishwashers_exit_tables.json', page: '/Combisteel_Dishwashers_exit_tables.html', cat: 'COMBISTEEL' },
     { json: '/js/data/Combisteel_dishwashers_polishing_machine.json', page: '/Combisteel_Dishwashers_polishing_machines.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/Combisteel_Neutral_Heated_cupboards.json', page: '/Combisteel_Neutral_Heated_cupboards.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/Combisteel_Neutral_Hygiene.json', page: '/Combisteel_Neutral_Hygiene.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/Combisteel_Neutral_Overshelves.json', page: '/Combisteel_Neutral_Overshelves.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/Combisteel_Neutral_Service_trolleys.json', page: '/Combisteel_Neutral_Service_trolleys.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/Combisteel_Neutral_Shelf_units.json', page: '/Combisteel_Neutral_Shelf_units.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/Combisteel_Neutral_Sink_units.json', page: '/Combisteel_Neutral_Sink_units.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/Combisteel_Neutral_Small_stainless_steel_products.json', page: '/Combisteel_Neutral_Small_stainless_steel_products.html', cat: 'COMBISTEEL' },
+    {
+      json: '/js/data/Combisteel_Neutral_Stainless_steel_wall_shelves_and_accessories.json',
+      page: '/Combisteel_Neutral_Stainless_steel_wall_shelves_and_accessories.html',
+      cat: 'COMBISTEEL'
+    },
+    { json: '/js/data/Combisteel_Neutral_Wall_and_storage_cupboards.json', page: '/Combisteel_Neutral_Wall_and_storage_cupboards.html', cat: 'COMBISTEEL' },
+    { json: '/js/data/Combisteel_Neutral_Worktables_and_worktops.json', page: '/Combisteel_Neutral_Worktables_and_worktops.html', cat: 'COMBISTEEL' },
 
 
 

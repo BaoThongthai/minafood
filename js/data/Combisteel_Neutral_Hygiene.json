@@ -1,0 +1,321 @@
+[
+    {
+        "code": "7812.1000",
+        "name": "DISINFECTION POST INCL. ELBOW-OPERATED DISPENER",
+        "url": "https://www.combisteel.com/en/7812-1000-disinfection-post-incl-elbow-operated-dispener.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7812_1000-12911.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/8/7812_1000-12911.jpg",
+        "price": 10925,
+        "price_currency": "CZK",
+        "price_text": "10 925 Kč",
+        "specs": {
+            "ean_code": 6017448129112,
+            "width": 160,
+            "depth": 30,
+            "height": 1418,
+            "material": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 12,
+            "particulars": "Voor handzeep en desinfectiemiddel"
+        },
+        "downloads": [
+            {
+                "label": "Dimensions 7812.1000",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215286/product/346/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7522.0050",
+        "name": "SS DISINFECTION DISPENSER POST INCL. DISPENSER",
+        "url": "https://www.combisteel.com/en/7522-0050-ss-disinfection-dispenser-post-incl-dispenser.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7522_0050-13031.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7522_0050-13031.jpg",
+        "price": 6250,
+        "price_currency": "CZK",
+        "price_text": "6 250 Kč",
+        "specs": {
+            "ean_code": 7422242919972,
+            "width": 150,
+            "depth": 125,
+            "height": 1460,
+            "material": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 12,
+            "capacity": "500ML"
+        },
+        "downloads": [
+            {
+                "label": "Dimensions 7522.0050",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213311/product/345/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7521.0005",
+        "name": "INFRARED THERMOMETER",
+        "url": "https://www.combisteel.com/en/7521-0005-infrared-thermometer.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0005-12896.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0005-12896.jpg",
+        "price": 3000,
+        "price_currency": "CZK",
+        "price_text": "3 000 Kč",
+        "specs": {
+            "ean_code": 6017444456496,
+            "width": 95,
+            "depth": 43,
+            "height": 156,
+            "material": "Synthetic",
+            "color": "White / Blue",
+            "parcel_ready": "Yes",
+            "particulars": "Geschikt om lichaamstemperatuur en objecten te meten.",
+            "temperature_range": "Lichaam: 32-43 / Object: 0-60",
+            "accuracy_°c": "Lichaam: 0,3 / Object: 1",
+            "sensor_range": "1-15cm",
+            "battery": "2X 1.5V AAA (niet inbegrepen)"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7521.0015",
+        "name": "WATERPROOF DIGITAL POCKET THERMOMETER",
+        "url": "https://www.combisteel.com/en/7521-0015-waterproof-digital-pocket-thermometer.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0015-13100.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0015-13100.jpg",
+        "price": 1075,
+        "price_currency": "CZK",
+        "price_text": "1 075 Kč",
+        "specs": {
+            "ean_code": 6017427097074,
+            "height": 95,
+            "parcel_ready": "Yes",
+            "temperature_range": "40-150",
+            "probe_length": 95,
+            "accuracy_°c": "±0.5°C (-10°C - 100°C)",
+            "battery": "1x  LR44/AG13",
+            "waterprotection": "IP68"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7521.0015 (ENG)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215179/product/3676/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7521.0010",
+        "name": "INFRARED THERMOMETER",
+        "url": "https://www.combisteel.com/en/7521-0010-infrared-thermometer.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0010a_dark_gray.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0010a_dark_gray.jpg",
+        "price": 825,
+        "price_currency": "CZK",
+        "price_text": "825 Kč",
+        "specs": {
+            "ean_code": 6017430788754,
+            "material": "Synthetic",
+            "color": "Blue",
+            "parcel_ready": "Yes",
+            "temperature_range": "50-380",
+            "accuracy_°c": 2,
+            "battery": "2X 1.5V AAA (niet inbegrepen)"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7521.0010 (ENG)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215178/product/3675/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7522.0015",
+        "name": "WALL MOUNT STANCHION STAINLESS STEEL",
+        "url": "https://www.combisteel.com/en/7522-0015-wall-mount-stanchion-stainless-steel.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7522_0015-12936.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7522_0015-12936.jpg",
+        "price": 725,
+        "price_currency": "CZK",
+        "price_text": "725 Kč",
+        "specs": {
+            "ean_code": 6017444834881,
+            "material": "Powder coated steel",
+            "color": "Stainless steel",
+            "parcel_ready": "Yes",
+            "gross_weight": 3,
+            "particulars": "Lengte lint: 3m"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7522.0020",
+        "name": "WALL MOUNT STANCHION BLACK",
+        "url": "https://www.combisteel.com/en/7522-0020-wall-mount-stanchion-black.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7522_0020-12937.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7522_0020-12937.jpg",
+        "price": 675,
+        "price_currency": "CZK",
+        "price_text": "675 Kč",
+        "specs": {
+            "ean_code": 6017432182192,
+            "width": 0,
+            "material": "Powder coated steel",
+            "color": "Black",
+            "parcel_ready": "Yes",
+            "gross_weight": 3,
+            "particulars": "Lengte lint: 3m"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7521.0025",
+        "name": "MULTI-PURPOSE DIGITAL THERMOMETER",
+        "url": "https://www.combisteel.com/en/7521-0025-multi-purpose-digital-thermometer.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0025-13102.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0025-13102.jpg",
+        "price": 425,
+        "price_currency": "CZK",
+        "price_text": "425 Kč",
+        "specs": {
+            "ean_code": 6017436481437,
+            "width": 66,
+            "depth": 24,
+            "height": 107,
+            "parcel_ready": "Yes",
+            "temperature_range": "50-300",
+            "accuracy_°c": "+/-1?",
+            "battery": "1X 1.5V AAA"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7521.0025 (ENG)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215181/product/3678/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7521.0030",
+        "name": "FOLDING PROBE POCKET THERMOMETER",
+        "url": "https://www.combisteel.com/en/7521-0030-folding-probe-pocket-thermometer.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0030-13103.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0030-13103.jpg",
+        "price": 400,
+        "price_currency": "CZK",
+        "price_text": "400 Kč",
+        "specs": {
+            "ean_code": 6017428656683,
+            "parcel_ready": "Yes",
+            "temperature_range": "50-300",
+            "accuracy_°c": "±0.5°C (-10°C to 100°C)"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7521.0030 (ENG)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215182/product/3679/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7521.0035",
+        "name": "DIGITAL THERMOMETER WITH TIMER",
+        "url": "https://www.combisteel.com/en/7521-0035-digital-thermometer-with-timer.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0035-13104.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0035-13104.jpg",
+        "price": 375,
+        "price_currency": "CZK",
+        "price_text": "375 Kč",
+        "specs": {
+            "ean_code": 6017445534520,
+            "width": 65,
+            "depth": 17,
+            "height": 70,
+            "parcel_ready": "Yes",
+            "particulars": "Magneet aan de achterkant",
+            "temperature_range": "-50/+300",
+            "accuracy_°c": "±1 (0-100)",
+            "battery": "1X 1.5V(AAA)"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7521.0035 (ENG)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215183/product/3680/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7521.0020",
+        "name": "WATERPROOF DIGITAL THERMOMETER",
+        "url": "https://www.combisteel.com/en/7521-0020-waterproof-digital-thermometer.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0020-13101.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0020-13101.jpg",
+        "price": 250,
+        "price_currency": "CZK",
+        "price_text": "250 Kč",
+        "specs": {
+            "ean_code": 6017437893826,
+            "width": 23,
+            "height": 212,
+            "parcel_ready": "Yes",
+            "temperature_range": "50-300",
+            "probe_length": 127,
+            "accuracy_°c": "±1 (-20/+80)",
+            "battery": "1x LR44"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7521.0020 (ENG)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215180/product/3677/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7521.0045",
+        "name": "MEAT THERMOMETER Ø73",
+        "url": "https://www.combisteel.com/en/7521-0045-meat-thermometer-o73.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0045-13106.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0045-13106.jpg",
+        "price": 250,
+        "price_currency": "CZK",
+        "price_text": "250 Kč",
+        "specs": {
+            "ean_code": 6017447453416,
+            "material": "Stainless steel Aisi 304",
+            "parcel_ready": "Yes",
+            "temperature_range": "0-120",
+            "probe_length": 115,
+            "diameter": 73
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7521.0040",
+        "name": "MEAT THERMOMETER Ø52",
+        "url": "https://www.combisteel.com/en/7521-0040-meat-thermometer-o52.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0040-13105.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7521_0040-13105.jpg",
+        "price": 150,
+        "price_currency": "CZK",
+        "price_text": "150 Kč",
+        "specs": {
+            "ean_code": 6017453936996,
+            "material": "Stainless steel Aisi 304",
+            "parcel_ready": "Yes",
+            "temperature_range": "0-250",
+            "probe_length": 127,
+            "diameter": 52
+        },
+        "downloads": [],
+        "accessories": []
+    }
+]

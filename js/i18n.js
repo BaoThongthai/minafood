@@ -3,6 +3,7 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+            "title_combisteel_Neutral_range": "Zlepšete efektivitu a organizaci ve vaší cateringové kuchyni s naším vysoce kvalitním nábytkem z nerezové oceli. Vyberte si z různých konfigurací a velikostí, které vyhoví vašim specifickým potřebám. Optimalizujte uspořádání vaší kuchyně s naším nábytkem z nerezové oceli pro maximální efektivitu.",
             "title.Accessories.for.dishwashers": "Příslušenství pro myčky nádobí",
             "title.polishing.machine": "lešticí stroj",
             "title.exit_tables": "Výstupní tabulky",
@@ -452,6 +453,7 @@
         },
 
         en: {
+            "title_combisteel_Neutral_range": "Improve efficiency and organization in your catering kitchen with our high-quality stainless steel furniture. Choose from a variety of configurations and sizes to meet your specific needs. Optimize your kitchen layout with our stainless steel furniture for maximum efficiency",
             "title.Accessories.for.dishwashers": "Accessories for dishwashers",
             "title.polishing.machine": "polishing machine",
             "title.exit_tables": "exit tables",
