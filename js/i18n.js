@@ -3,6 +3,8 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+            "title.industries": "průmyslová odvětví",
+            "title_combisteel_industries_bar": "Na stránce „Odvětví“ naleznete přehled různých kategorií, z nichž každá je zaměřena na specifická odvětví, jako jsou supermarkety, hotely, bary a snack bary. Kliknutím na odvětví zobrazíte produkty speciálně vybrané pro váš typ podnikání.",
             "title_combisteel_Bakery": "Ať už provozujete tradiční pekárnu, moderní cukrárnu nebo restauraci, s naším výběrem pekařského vybavení, jako jsou hnětače těsta, trouby a kráječe chleba, máte vždy k dispozici řešení."
             , "title_combisteel_pizza": "Objevte náš speciální výběr produktů pro pizzerie, jako jsou pece na pizzu, válečky na těsto, hnětače těsta a další. Naše produkty vám pomohou připravit lahodnou, křupavou pizzu, kterou si vaši zákazníci zamilují znovu a znovu. S našimi produkty pro pizzerie zvolte kvalitu a autenticitu vaší pizzy.",
             "title_combisteel_ Faucets": "Spolehlivost a hygiena jsou pro naši řadu baterií klíčové. Ať už hledáte výkonné sprchy na mytí nádobí nebo směšovací/swingové baterie, náš výběr zahrnuje různé styly a konfigurace. Vyberte si špičkový výkon ve vaší kuchyni s našimi vysoce kvalitními bateriemi."
@@ -456,6 +458,8 @@
         },
 
         en: {
+            "title.industries": "industries",
+            "title_combisteel_industries_bar": "On the Industries page you will find an overview of various categories, each tailored to specific sectors such as supermarkets, hotels, bars and snack bars. Click on an industry to discover products specially selected for your type of business. ",
             "title_combisteel_Bakery": "Whether you run a traditional bakery, modern pastry shop or restaurant, with our selection of bakery equipment such as dough kneaders, ovens and bread slicers you always have a solution available.",
             "title_combisteel_pizza": "Discover our special selection of products for pizzerias such as pizza ovens, rolling pins, dough kneaders and more. Our products help you prepare delicious, crispy pizzas that your customers will love again and again. Choose quality and authenticity in your pizza with our pizzeria products.",
             "title_combisteel_ Faucets": "Reliability and hygiene are central to our range of taps. Whether you are looking for powerful rinse showers for washing dishes or mixer/swing taps, our selection includes different styles and configurations. Choose top performance in your kitchen with our high-quality taps.",

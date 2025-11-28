@@ -244,6 +244,65 @@
       page: '/Combisteel_Bakery_Bakery_Food_processors.html',
       cat: 'COMBISTEEL'
     },
+    {
+      json: '/js/data/combisteel_industries_Asian_cuisine.js',
+      page: '/Combisteel_Industries_asian_cuisine.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/combisteel_industries_bar.js',
+      page: '/Combisteel_Industries_bar.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/combisteel_industries_Butcher_shop.js',
+      page: '/Combisteel_Industries_butcher_shop.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/combisteel_industries_Foodtruck.js',
+      page: '/Combisteel_Industries_foodtruck.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/combisteel_industries_hotel.js',
+      page: '/Combisteel_Industries_hotel.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/combisteel_industries_Ice_cream.js',
+      page: '/Combisteel_Industries_ice_cream.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/combisteel_industries_Kebab_shop.js',
+      page: '/Combisteel_Industries_kebab_shop.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/combisteel_industries_Retail.js',
+      page: '/Combisteel_Industries_retail.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/combisteel_industries_Snack_bar.js',
+      page: '/Combisteel_Industries_snack_bar.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/combisteel_industries_Supermarket.js',
+      page: '/Combisteel_Industries_supermarket.html',
+      cat: 'COMBISTEEL'
+    },
 
 
   ];
