@@ -233,6 +233,18 @@
       page: '/Combisteel_Pizzeria_Range_with_oven.html',
       cat: 'COMBISTEEL'
     },
+    {
+      json: '/js/data/Combisteel_bakery_bakery_refrigeration.json',
+      page: '/Combisteel_Bakery_Bakery_refrigeration.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/Combisteel_bakery_Food_processors.json',
+      page: '/Combisteel_Bakery_Bakery_Food_processors.html',
+      cat: 'COMBISTEEL'
+    },
+
 
   ];
 

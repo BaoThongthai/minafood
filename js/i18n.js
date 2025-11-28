@@ -3,7 +3,8 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
-            "title_combisteel_pizza": "Objevte náš speciální výběr produktů pro pizzerie, jako jsou pece na pizzu, válečky na těsto, hnětače těsta a další. Naše produkty vám pomohou připravit lahodnou, křupavou pizzu, kterou si vaši zákazníci zamilují znovu a znovu. S našimi produkty pro pizzerie zvolte kvalitu a autenticitu vaší pizzy.",
+            "title_combisteel_Bakery": "Ať už provozujete tradiční pekárnu, moderní cukrárnu nebo restauraci, s naším výběrem pekařského vybavení, jako jsou hnětače těsta, trouby a kráječe chleba, máte vždy k dispozici řešení."
+            , "title_combisteel_pizza": "Objevte náš speciální výběr produktů pro pizzerie, jako jsou pece na pizzu, válečky na těsto, hnětače těsta a další. Naše produkty vám pomohou připravit lahodnou, křupavou pizzu, kterou si vaši zákazníci zamilují znovu a znovu. S našimi produkty pro pizzerie zvolte kvalitu a autenticitu vaší pizzy.",
             "title_combisteel_ Faucets": "Spolehlivost a hygiena jsou pro naši řadu baterií klíčové. Ať už hledáte výkonné sprchy na mytí nádobí nebo směšovací/swingové baterie, náš výběr zahrnuje různé styly a konfigurace. Vyberte si špičkový výkon ve vaší kuchyni s našimi vysoce kvalitními bateriemi."
             , "title.Faucets": "Faucety",
             "title_combisteel_Neutral_range": "Zlepšete efektivitu a organizaci ve vaší cateringové kuchyni s naším vysoce kvalitním nábytkem z nerezové oceli. Vyberte si z různých konfigurací a velikostí, které vyhoví vašim specifickým potřebám. Optimalizujte uspořádání vaší kuchyně s naším nábytkem z nerezové oceli pro maximální efektivitu.",
@@ -455,6 +456,7 @@
         },
 
         en: {
+            "title_combisteel_Bakery": "Whether you run a traditional bakery, modern pastry shop or restaurant, with our selection of bakery equipment such as dough kneaders, ovens and bread slicers you always have a solution available.",
             "title_combisteel_pizza": "Discover our special selection of products for pizzerias such as pizza ovens, rolling pins, dough kneaders and more. Our products help you prepare delicious, crispy pizzas that your customers will love again and again. Choose quality and authenticity in your pizza with our pizzeria products.",
             "title_combisteel_ Faucets": "Reliability and hygiene are central to our range of taps. Whether you are looking for powerful rinse showers for washing dishes or mixer/swing taps, our selection includes different styles and configurations. Choose top performance in your kitchen with our high-quality taps.",
             "title_combisteel_Neutral_range": "Improve efficiency and organization in your catering kitchen with our high-quality stainless steel furniture. Choose from a variety of configurations and sizes to meet your specific needs. Optimize your kitchen layout with our stainless steel furniture for maximum efficiency",
