@@ -510,29 +510,46 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link {
 
 
 /*** Fruits Start ***/
-/* Card đồng chiều cao & xếp dọc nội dung */
+/* CARD sản phẩm kiểu vendor (ảnh 1) */
 .fruite .fruite-item {
+  position: relative;
   display: flex;
   flex-direction: column;
   height: 100%;
-  transition: transform .2s ease;
-  cursor: pointer;
-  max-width: 275px;
-
+  max-width: none;
+  /* bỏ giới hạn 275px */
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  /* viền xám nhạt bao nguyên card */
+  border-radius: 8px;
+  box-shadow: none;
+  /* không cần bóng đổ */
+  padding: 0;
+  /* card không có padding, để dành cho .p-4 */
 }
+
 
 .fruite .fruite-item:hover {
   transform: scale(var(--card-hover-scale));
 }
 
-/* KHUNG ẢNH: dùng chiều cao cố định để card thấp gọn */
 .fruite .fruite-item .fruite-img {
   height: var(--card-img-h);
-  /* 🔧 chỉnh ở biến */
   overflow: hidden;
-  border-radius: 10px 10px 0 0;
+  border-radius: 8px 8px 0 0;
+  /* bo tròn cùng card */
   background: #fff;
+  border-bottom: 1px solid #f1f3f6;
+  /* đường mảnh giữa ảnh & nội dung */
 }
+
+.fruite .fruite-item .fruite-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 6px;
+}
+
 
 .fruite .fruite-item {
   max-width: none;
@@ -556,13 +573,16 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link {
 }
 
 /* Nội dung card nhỏ gọn */
+/* Bỏ viền cam ở phần nội dung, chỉ giữ viền ngoài ở .fruite-item */
 .fruite .fruite-item .p-4 {
-  border-top: 0;
-  border-radius: 0 0 10px 10px;
-  margin-top: auto;
-  padding: var(--card-pad) !important;
-  /* 🔧 giảm padding */
+  border: 0 !important;
+  /* xoá border-secondary */
+  border-radius: 0 0 8px 8px !important;
+  /* bo tròn dưới card */
+  padding: 12px 14px !important;
+  /* padding gọn như vendor */
 }
+
 
 .fruite .fruite-item h4 {
   font-size: var(--card-title);
@@ -1314,19 +1334,15 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link {
 
 }
 
-/* Tiêu đề sản phẩm – 1 dòng + ... để tránh khoảng trắng */
+/* Tên sản phẩm 1–2 dòng, gọn */
 .fruite .fruite-item h4.product-name {
-  font-size: var(--card-title);
-  line-height: 1.25;
-  color: #243b55;
+  font-size: .95rem;
+  line-height: 1.3;
+  color: #111827;
   white-space: nowrap;
-  /* chỉ 1 dòng */
   overflow: hidden;
   text-overflow: ellipsis;
-  /* thêm ... nếu dài */
   margin-bottom: .35rem;
-  min-height: auto;
-  /* bỏ ép chiều cao 2 dòng */
 }
 
 .fruite-item .p-4 h4.product-name {

@@ -3,6 +3,7 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+            "title_combisteel_energyline_ref": "Objevte naši řadu energeticky úsporného chlazení. Nízká spotřeba energie s plným výkonem, ideální pro udržitelný a efektivní provoz. Na této stránce najdete výběr různých chladicích jednotek vhodných pro udržitelný a efektivní provoz firmy.",
             "title.industries": "průmyslová odvětví",
             "title_combisteel_industries_bar": "Na stránce „Odvětví“ naleznete přehled různých kategorií, z nichž každá je zaměřena na specifická odvětví, jako jsou supermarkety, hotely, bary a snack bary. Kliknutím na odvětví zobrazíte produkty speciálně vybrané pro váš typ podnikání.",
             "title_combisteel_Bakery": "Ať už provozujete tradiční pekárnu, moderní cukrárnu nebo restauraci, s naším výběrem pekařského vybavení, jako jsou hnětače těsta, trouby a kráječe chleba, máte vždy k dispozici řešení."
@@ -458,6 +459,7 @@
         },
 
         en: {
+            "title_combisteel_energyline_ref": "Discover our range of energy-efficient refrigeration. Low energy use with full performance, ideal for sustainable and efficient operations. On this page, you’ll find a selection of various refrigeration units suitable for sustainable and efficient business operations.",
             "title.industries": "industries",
             "title_combisteel_industries_bar": "On the Industries page you will find an overview of various categories, each tailored to specific sectors such as supermarkets, hotels, bars and snack bars. Click on an industry to discover products specially selected for your type of business. ",
             "title_combisteel_Bakery": "Whether you run a traditional bakery, modern pastry shop or restaurant, with our selection of bakery equipment such as dough kneaders, ovens and bread slicers you always have a solution available.",
@@ -650,7 +652,7 @@
             ,
             "decora_grilling": "grilling",
             "index.galarie": "This gallery showcases images shared by our valued customers, capturing real moments of how our products fit beautifully into everyday life. Each photo reflects trust, satisfaction, and the quality we strive to deliver in every detail",
-            "nav.Videa": "Product Videos",
+            "nav.Videa": "Videos",
             "nav.Galerie": "Gallery",
             "decora_decorative_porcelain": "Decorative",
             "decora_healthcare": "healthcare",
@@ -739,7 +741,7 @@
             "nav.home": "Home",
             "nav.shop": "E-Shop",
             "nav.categories": "Categories",
-            "nav.about": "About us",
+            "nav.about": "About",
             "nav.contact": "Contact",
             "cat.shockfreezers": "Blast Chillers & Freezers",
             "cat.coolingtubs": "Stainless Cooling Baths",

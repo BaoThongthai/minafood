@@ -1,0 +1,405 @@
+[
+    {
+        "code": "7455.1360",
+        "name": "BACKBAR COOLER HIGH 458 L SS",
+        "url": "https://www.combisteel.com/en/7455-1360-backbar-cooler-high-458-l-ss.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1360-7536.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1360-7536.jpg",
+        "price": 39250,
+        "price_currency": "CZK",
+        "price_text": "39 250 Kč",
+        "specs": {
+            "ean_code": 7435137794790,
+            "width": 900,
+            "depth": 515,
+            "height": 1820,
+            "material": "Stainless steel",
+            "material_interior": "Stainless steel",
+            "color": "Stainless steel",
+            "gross_weight": 105,
+            "net_weight": 98,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.38,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 600 A",
+            "temperature_range": "+2/+10",
+            "number_of_guide_pairs": 84,
+            "number_of_grids": "2x 5",
+            "guides_distance": 20,
+            "gross_capacity": 458,
+            "dim._interior_wxdxh": "808x418x1490",
+            "temperature_display": "Yes, digital",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "Yes",
+            "number_of_doors": 2,
+            "door_left_/_right_hinging": "Left and right hinged",
+            "noise_level": 45,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 45,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 80,
+            "cord_length": 1800,
+            "energy_label": "B",
+            "eprel_id": 2386675,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7455.1360 (from 07-2025 - serial no 2505A01-2-0001)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236370/product/1570/"
+            },
+            {
+                "label": "Manual 7455.13xx products",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236371/product/1570/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.1351",
+                "name": "GRID LEFT FOR 7455.1350 - 7455.1353 - 7455.1360",
+                "url": "https://www.combisteel.com/en/7455-1351-grid-left-for-7455-1350-7455-1353-7455-1360.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1351-1354_3.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1351-1354_3.png",
+                "price": 775,
+                "price_currency": "CZK",
+                "price_text": "775 Kč"
+            },
+            {
+                "code": "7455.1352",
+                "name": "SET 4 CLIPS FOR GRID 7455.1347-1353-1360",
+                "url": "https://www.combisteel.com/en/7455-1352-set-4-clips-for-grid-7455-1347-1353-1360.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_5.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_5.png",
+                "price": 200,
+                "price_currency": "CZK",
+                "price_text": "200 Kč"
+            },
+            {
+                "code": "7455.1354",
+                "name": "GRID RIGHT FOR 7455.1350 - 7455.1353 - 7455.1360",
+                "url": "https://www.combisteel.com/en/7455-1354-grid-right-for-7455-1350-7455-1353-7455-1360.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1351-1354_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1351-1354_1.png",
+                "price": 575,
+                "price_currency": "CZK",
+                "price_text": "575 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7455.1310",
+        "name": "BACKBAR COOLER BLACK 3 DOORS",
+        "url": "https://www.combisteel.com/en/7455-1310-backbar-cooler-black-3-doors.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1310-5763.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1310-5763.jpg",
+        "price": 23750,
+        "price_currency": "CZK",
+        "price_text": "23 750 Kč",
+        "specs": {
+            "ean_code": 7435137794738,
+            "width": 1335,
+            "depth": 500,
+            "height": 900,
+            "material": "Powder coated steel",
+            "material_interior": "Aluminium",
+            "color": "Black",
+            "gross_weight": 80,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.3,
+            "cooling_agent": "R 600 A",
+            "temperature_range": "+2 / +10",
+            "number_of_guide_pairs": 51,
+            "number_of_grids": 6,
+            "guides_distance": 20,
+            "gross_capacity": 298,
+            "dim._interior_wxdxh": "1245x355x745",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "Yes",
+            "number_of_doors": 3,
+            "noise_level": 47,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 45,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 80,
+            "energy_label": "A",
+            "eprel_id": 2370329
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7455.1310 (from 08-2025 - serial no 2504A15-3-0001)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234799/product/1562/"
+            },
+            {
+                "label": "Manual 7455.13xx products",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234800/product/1562/"
+            },
+            {
+                "label": "Exploded view 7455.1310 (2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234801/product/1562/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.1302",
+                "name": "GRID FOR BACKBAR COOLER 7455.1300-1301-1305-1307-1310",
+                "url": "https://www.combisteel.com/en/7455-1302-grid-for-backbar-cooler-7455-1300-1301-1305-1307-1310.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7526_9300-9305_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7526_9300-9305_1.jpg",
+                "price": 500,
+                "price_currency": "CZK",
+                "price_text": "500 Kč"
+            },
+            {
+                "code": "7455.1306",
+                "name": "SET 4 CLIPS FOR GRID FOR 7455.1300-1301-1305-1307-1310-1315-1320-1384-1385",
+                "url": "https://www.combisteel.com/en/7455-1306-set-4-clips-for-grid-for-7455-1300-1301-1305-1307-1310-1315-1320-1384-1385.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1306_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1306_1.png",
+                "price": 150,
+                "price_currency": "CZK",
+                "price_text": "150 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7455.1315",
+        "name": "BACKBAR COOLER BLACK 2 SLIDING DOORS",
+        "url": "https://www.combisteel.com/en/7455-1315-backbar-cooler-black-2-sliding-doors.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1315_x-min_1.png",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1315_x-min_1.png",
+        "price": 20375,
+        "price_currency": "CZK",
+        "price_text": "20 375 Kč",
+        "specs": {
+            "ean_code": 7435137794745,
+            "width": 900,
+            "depth": 500,
+            "height": 900,
+            "material": "Powder coated steel",
+            "material_interior": "Aluminium",
+            "color": "Black",
+            "gross_weight": 55,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.24,
+            "cooling_agent": "R 600 A",
+            "temperature_range": "+2/+10",
+            "number_of_guide_pairs": 34,
+            "number_of_grids": 4,
+            "guides_distance": 20,
+            "gross_capacity": 198,
+            "dim._interior_wxdxh": "810x355x745",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "number_of_doors": 2,
+            "noise_level": 43,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 45,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 45,
+            "cord_length": 1800,
+            "energy_label": "B",
+            "eprel_id": 2370403,
+            "plug_and_play": "Yes",
+            "self-closing_door": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7455.1315 (from 09-2025 - from serial no 2504A15-4-0001)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1229995/product/1563/"
+            },
+            {
+                "label": "Manual 7455.13xx products",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1229996/product/1563/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.1304",
+                "name": "GRID LEFT/RIGHT FOR BACKBAR COOLER 7455.1315-1320",
+                "url": "https://www.combisteel.com/en/7455-1304-grid-left-right-for-backbar-cooler-7455-1315-1320.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7526_9300-9305_17.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7526_9300-9305_17.jpg",
+                "price": 625,
+                "price_currency": "CZK",
+                "price_text": "625 Kč"
+            },
+            {
+                "code": "7455.1306",
+                "name": "SET 4 CLIPS FOR GRID FOR 7455.1300-1301-1305-1307-1310-1315-1320-1384-1385",
+                "url": "https://www.combisteel.com/en/7455-1306-set-4-clips-for-grid-for-7455-1300-1301-1305-1307-1310-1315-1320-1384-1385.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1306_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1306_1.png",
+                "price": 150,
+                "price_currency": "CZK",
+                "price_text": "150 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7455.1305",
+        "name": "BACKBAR COOLER BLACK 2 DOORS",
+        "url": "https://www.combisteel.com/en/7455-1305-backbar-cooler-black-2-doors.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1305-5932.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1305-5932.jpg",
+        "price": 18000,
+        "price_currency": "CZK",
+        "price_text": "18 000 Kč",
+        "specs": {
+            "ean_code": 7435137794721,
+            "width": 900,
+            "depth": 500,
+            "height": 900,
+            "material": "Powder coated steel",
+            "material_interior": "Aluminium",
+            "color": "Black",
+            "gross_weight": 55,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 24,
+            "cooling_agent": "R 600 A",
+            "temperature_range": "+2 / +10",
+            "number_of_guide_pairs": 34,
+            "number_of_grids": 4,
+            "guides_distance": 20,
+            "gross_capacity": 198,
+            "dim._interior_wxdxh": "810x355x745",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "Yes",
+            "number_of_doors": 2,
+            "door_left_/_right_hinging": "Left and right hinged",
+            "noise_level": 43,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 45,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 50,
+            "energy_label": "A",
+            "eprel_id": 2370360,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7455.1305 (from 07-2025 - serial no 2504A15-2-0001)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236342/product/1560/"
+            },
+            {
+                "label": "Manual 7455.13xx products",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236343/product/1560/"
+            },
+            {
+                "label": "Exploded view 7455.1305 (2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236344/product/1560/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.1302",
+                "name": "GRID FOR BACKBAR COOLER 7455.1300-1301-1305-1307-1310",
+                "url": "https://www.combisteel.com/en/7455-1302-grid-for-backbar-cooler-7455-1300-1301-1305-1307-1310.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7526_9300-9305_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7526_9300-9305_1.jpg",
+                "price": 500,
+                "price_currency": "CZK",
+                "price_text": "500 Kč"
+            },
+            {
+                "code": "7455.1306",
+                "name": "SET 4 CLIPS FOR GRID FOR 7455.1300-1301-1305-1307-1310-1315-1320-1384-1385",
+                "url": "https://www.combisteel.com/en/7455-1306-set-4-clips-for-grid-for-7455-1300-1301-1305-1307-1310-1315-1320-1384-1385.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1306_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1306_1.png",
+                "price": 150,
+                "price_currency": "CZK",
+                "price_text": "150 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7455.1300",
+        "name": "BACKBAR COOLER BLACK 1 DOOR",
+        "url": "https://www.combisteel.com/en/7455-1300-backbar-cooler-black-1-door.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1300-5931.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1300-5931.jpg",
+        "price": 13500,
+        "price_currency": "CZK",
+        "price_text": "13 500 Kč",
+        "specs": {
+            "ean_code": 7435137794714,
+            "width": 500,
+            "depth": 500,
+            "height": 900,
+            "material": "Powder coated steel",
+            "material_interior": "Aluminium",
+            "color": "Black",
+            "gross_weight": 35,
+            "particulars": "Height feet: 15mm",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 18,
+            "cooling_agent": "R 600 A",
+            "temperature_range": "+2 / +10",
+            "number_of_guide_pairs": 17,
+            "number_of_grids": 2,
+            "guides_distance": 20,
+            "gross_capacity": 98,
+            "dim._interior_wxdxh": "410x355x745",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "Yes",
+            "mobile": "No",
+            "number_of_doors": 1,
+            "door_left_/_right_hinging": "Right",
+            "noise_level": 43,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 45,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 40,
+            "energy_label": "A",
+            "eprel_id": 2370315,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7455.1300 (from serial no 2504A15-1-0001)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234500/product/1556/"
+            },
+            {
+                "label": "Manual 7455.13xx products",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234501/product/1556/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.1302",
+                "name": "GRID FOR BACKBAR COOLER 7455.1300-1301-1305-1307-1310",
+                "url": "https://www.combisteel.com/en/7455-1302-grid-for-backbar-cooler-7455-1300-1301-1305-1307-1310.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7526_9300-9305_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7526_9300-9305_1.jpg",
+                "price": 500,
+                "price_currency": "CZK",
+                "price_text": "500 Kč"
+            },
+            {
+                "code": "7455.1306",
+                "name": "SET 4 CLIPS FOR GRID FOR 7455.1300-1301-1305-1307-1310-1315-1320-1384-1385",
+                "url": "https://www.combisteel.com/en/7455-1306-set-4-clips-for-grid-for-7455-1300-1301-1305-1307-1310-1315-1320-1384-1385.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1306_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1306_1.png",
+                "price": 150,
+                "price_currency": "CZK",
+                "price_text": "150 Kč"
+            }
+        ]
+    }
+]

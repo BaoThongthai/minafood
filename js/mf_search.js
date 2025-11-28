@@ -303,6 +303,48 @@
       page: '/Combisteel_Industries_supermarket.html',
       cat: 'COMBISTEEL'
     },
+    {
+      json: '/js/data/Combisteel_Energyline_Backbar_counters.json',
+      page: '/Combisteel_Energyline_backbar_counters.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/Combisteel_Energyline_Display_cases.json',
+      page: '/Combisteel_Energyline_display_cases.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/Combisteel_Energyline_Freezers.json',
+      page: '/Combisteel_Energyline_freezers.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/Combisteel_Energyline_ice_cream_displays.json',
+      page: '/Combisteel_Energyline_ice_cream_displays.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/Combisteel_Energyline_pizza_preparation_counters.json',
+      page: '/Combisteel_Energyline_pizza_preparation_counters.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/Combisteel_Energyline_Refrigerated_counters.json',
+      page: '/Combisteel_Energyline_refrigerated_counters.html',
+      cat: 'COMBISTEEL'
+    },
+
+    {
+      json: '/js/data/Combisteel_Energyline_Refrigerators.json',
+      page: '/Combisteel_Energyline_Refrigerators.html',
+      cat: 'COMBISTEEL'
+    },
+
 
 
   ];
