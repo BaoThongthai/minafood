@@ -1,0 +1,2665 @@
+[
+    {
+        "code": "L7/CC/01.BC",
+        "name": "Cuisinière Wok avec un brûleur.",
+        "url": "https://casta.com/fr/product/l7-cc-01-bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/L7-CC-01.BC_.DX_-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/L7-CC-01.BC_.DX_-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 46,
+            "volume": 0.2,
+            "puissance_du_gaz": 14,
+            "brûleurs": 1,
+            "combination_brûleurs": "Mod. \"T\" 14,0 kW"
+        }
+    },
+    {
+        "code": "L7/CUET2BC",
+        "name": "Cuisinière électrique avec deux zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7-cuet2bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/L7-CUET2BC-400X700X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/L7-CUET2BC-400X700X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 55,
+            "volume": 0.2,
+            "puissance_électrique": "5,2 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 2,6 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KNN2BC",
+        "name": "Élément neutre.",
+        "url": "https://casta.com/fr/product/l7-knn2bc/",
+        "image": "https://casta.com/wp-content/uploads/2021/10/L7-KNN2BC-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/10/L7-KNN2BC-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 65,
+            "volume": 0.5
+        }
+    },
+    {
+        "code": "L7/CUI2BC.L",
+        "name": "Cuisinière électrique induction avec deux zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7-cui2bc-l/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/L7-CUI2BC.L-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/L7-CUI2BC.L-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 55,
+            "volume": 0.2,
+            "puissance_électrique": "7,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 3,5 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KNN1CA",
+        "name": "Élément neutre avec tiroir.",
+        "url": "https://casta.com/fr/product/l7-knn1ca/",
+        "image": "https://casta.com/wp-content/uploads/2022/01/L7-KNN1CA-400X700X850H-DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/01/L7-KNN1CA-400X700X850H-DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 32,
+            "volume": 0.2
+        }
+    },
+    {
+        "code": "L7/KTE1BCL",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7-kte1bcl/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/L7-KTE1BCL-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/L7-KTE1BCL-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 60,
+            "volume": 0.2,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/ENN1BC",
+        "name": "Élément neutre.",
+        "url": "https://casta.com/fr/product/l7-enn1bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/L7-KNN1BC-400X700X850H-SX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/L7-KNN1BC-400X700X850H-SX-793x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 70,
+            "volume": 0.2
+        }
+    },
+    {
+        "code": "L7/DSE800BC",
+        "name": "Cuiseur vapeur Dim Sum électrique.",
+        "url": "https://casta.com/fr/product/l7-dse800bc/",
+        "image": "https://casta.com/wp-content/uploads/2014/09/L7-DSE800BC-400x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/09/L7-DSE800BC-1000x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 69,
+            "volume": 0.5,
+            "puissance_électrique": "14,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "L7/KNN1CC",
+        "name": "Élément neutre avec tiroir.",
+        "url": "https://casta.com/fr/product/l7-knn1cc/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/L7-KNN1CC-400X700X850H-SX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/L7-KNN1CC-400X700X850H-SX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 32,
+            "volume": 0.2
+        }
+    },
+    {
+        "code": "L7/DSE800BA",
+        "name": "Cuiseur vapeur Dim Sum électrique.",
+        "url": "https://casta.com/fr/product/l7-dse800bc-2/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/L7-DSE800BA_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/L7-DSE800BA_DX-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 69,
+            "volume": 0.5,
+            "puissance_électrique": "14,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "L7/KTG2BCLC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7-ktg2bclc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/L7-KTG2BCLC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/L7-KTG2BCLC-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 87,
+            "volume": 0.5,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/KTE2BCR",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7-kte2bcr/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/L7-KTE2BCR-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/L7-KTE2BCR-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 87,
+            "volume": 0.5,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 400V3N~"
+        }
+    },
+    {
+        "code": "L7/BS3BA",
+        "name": "Grille pierre volcanique.",
+        "url": "https://casta.com/fr/product/l7-bs3ba/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/L7-BS3BA-1200X700X850H_SX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/L7-BS3BA-1200X700X850H_SX-793x750.jpg",
+        "specs": {
+            "largeur": 1200,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 135,
+            "volume": 0.7,
+            "puissance_du_gaz": 24
+        }
+    },
+    {
+        "code": "L7/DSE400BA",
+        "name": "Cuiseur vapeur Dim Sum électrique.",
+        "url": "https://casta.com/fr/product/l7-dse400ba/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 35,
+            "volume": 0.2,
+            "puissance_électrique": "7,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "L7/CUET4BC",
+        "name": "Cuisinière électrique avec quatre zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7-cuet4bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/L7-CUET4BC-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/L7-CUET4BC-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 75,
+            "volume": 0.5,
+            "puissance_électrique": "10,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 2,6 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE1BCRC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7-kte1bcrc/",
+        "image": "https://casta.com/wp-content/uploads/2022/08/L7-KTE1BCRC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/08/L7-KTE1BCRC-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 60,
+            "volume": 0.2,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KME1BC",
+        "name": "Bains-marie eléctrique.",
+        "url": "https://casta.com/fr/product/l7-kme1bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/L7-KME1BC-400X700X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/L7-KME1BC-400X700X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 32,
+            "volume": 0.2,
+            "puissance_électrique": "1,5 230V~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1 x GN 1/1"
+        }
+    },
+    {
+        "code": "L7/KTE2BCLC",
+        "name": "Electrique fry top.",
+        "url": "https://casta.com/fr/product/l7-kte2bclc/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/L7-KTE2BCLC-1-1-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/L7-KTE2BCLC-1-1-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 87,
+            "volume": 0.5,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KME2BC",
+        "name": "Bains-marie eléctrique.",
+        "url": "https://casta.com/fr/product/l7-kme2bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/L7-KME2BC-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/L7-KME2BC-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 32,
+            "volume": 0.5,
+            "puissance_électrique": "3,0 230V~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1 x GN 2/1"
+        }
+    },
+    {
+        "code": "L7/TPG4LO",
+        "name": "Cuisinière plaque coup de feux gaz.",
+        "url": "https://casta.com/fr/product/l7-tpg4lo/",
+        "image": "https://casta.com/wp-content/uploads/2014/02/L9-TPG4LO-800X900X850H-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2014/02/L9-TPG4LO-800X900X850H-878x750.png",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 132,
+            "volume": 0.5,
+            "puissance_du_gaz": 16.9,
+            "combination_brûleurs": "1 x 9,0 kW",
+            "four": "1 x 7,9 kW",
+            "dimensions_intérieurs_du_four": "685X530X350h"
+        }
+    },
+    {
+        "code": "L7/CUET2BB",
+        "name": "Cuisinière électrique avec deux zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cuet2bb/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CUET2BB-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CUET2BB-939x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 30,
+            "volume": 0.1,
+            "puissance_électrique": "5,2 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 2,6 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/CUET4BB",
+        "name": "Cuisinière électrique avec quatre zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cuet4bb/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CUET4BB-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CUET4BB-939x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 50,
+            "volume": 0.1,
+            "puissance_électrique": "10,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 2,6 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/CUET6BB",
+        "name": "Cuisinière électrique avec six zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cuet6bb/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CUET6BB-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CUET6BB-939x750.jpg",
+        "specs": {
+            "largeur": 1200,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 73,
+            "volume": 0.2,
+            "puissance_électrique": "15,6 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "6 x 2,6 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/CUET2BA",
+        "name": "Cuisinière électrique avec deux zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cuet2ba/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CUET2BA-400x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CUET2BA-1000x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 55,
+            "volume": 0.2,
+            "puissance_électrique": "5,6 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 2,6 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/CUET4BA",
+        "name": "Cuisinière électrique avec quatre zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cuet4ba/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CUET4BA-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CUET4BA-939x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 75,
+            "volume": 0.5,
+            "puissance_électrique": "10,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 2,6 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/CUET6BA",
+        "name": "Cuisinière électrique avec six zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cuet6ba/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CUET6BA-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CUET6BA-939x750.jpg",
+        "specs": {
+            "largeur": 1200,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 122,
+            "volume": 0.7,
+            "puissance_électrique": "15,6 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "6 x 2,6 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/CUET4LE",
+        "name": "Cuisinière électrique avec quatre zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cuet4le/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CUET4LE-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CUET4LE-939x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 120,
+            "volume": 0.5,
+            "puissance_électrique": "15,88 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 2,6 kW 400V3N~",
+            "four": "1 x 5,48 kW 400V3N~",
+            "dimensions_intérieurs_du_four": "685x530x350h"
+        }
+    },
+    {
+        "code": "L7/CUET6LEN",
+        "name": "Cuisinière électrique avec six zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cuet6fen/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CUET6LE-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CUET6LE-939x750.jpg",
+        "specs": {
+            "largeur": 1200,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 170,
+            "volume": 0.7,
+            "puissance_électrique": "21,08 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "6 x 2,6 kW 400V3N~",
+            "four": "1 x 5,48 kW 400V3N~",
+            "dimensions_intérieurs_du_four": "685x530x350h"
+        }
+    },
+    {
+        "code": "L7/CVE2BB",
+        "name": "Cuisinière électrique vitrocéramique avec deux zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cve2bb/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CVE2BB-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CVE2BB-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 25,
+            "volume": 0.1,
+            "puissance_électrique": "5,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 2,5 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/CVE4BB",
+        "name": "Cuisinière électrique vitrocéramique avec quatre zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cve4bb/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CVE4BB-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CVE4BB-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 50,
+            "volume": 0.1,
+            "puissance_électrique": "10,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 2,5 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/CVE2BA",
+        "name": "Cuisinière électrique vitrocéramique avec deux zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cve2ba/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CVE2BA-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CVE2BA-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 53,
+            "volume": 0.2,
+            "puissance_électrique": "5,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 2,5 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/CVE4BA",
+        "name": "Cuisinière électrique vitrocéramique avec quatre zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cve4ba/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CVE4BA-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CVE4BA-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 70,
+            "volume": 0.5,
+            "puissance_électrique": "10,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 2,5 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/CVE4LE",
+        "name": "Cuisinière électrique vitrocéramique avec quatre zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cve4fe/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7-CVE4LE-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7-CVE4LE-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 123,
+            "volume": 0.5,
+            "puissance_électrique": "15,48 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 2,5 kW 400V3N~",
+            "four": "1 x 5,48 kW 400V3N~",
+            "dimensions_intérieurs_du_four": "685x530x350h"
+        }
+    },
+    {
+        "code": "L7/CUI2BB.L",
+        "name": "Cuisinière électrique induction avec deux zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cui2bb-2/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CUI2BBL-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CUI2BBL-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 25,
+            "volume": 0.1,
+            "puissance_électrique": "7,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 3,5 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/CUI4BB.L",
+        "name": "Cuisinière électrique induction avec quatre zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cui4bb/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CUI4BBL-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CUI4BBL-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 50,
+            "volume": 0.1,
+            "puissance_électrique": "14,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 3,5 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/CUI2BA.L",
+        "name": "Cuisinière électrique induction avec deux zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cui2ba/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CUI2BAL-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CUI2BAL-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 55,
+            "volume": 0.2,
+            "puissance_électrique": "7,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 3,5 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/CUI4BA.L",
+        "name": "Cuisinière électrique induction avec quatre zones de cuisson.",
+        "url": "https://casta.com/fr/product/l7cui4ba/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CUI4BAL-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CUI4BAL-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 78,
+            "volume": 0.5,
+            "puissance_électrique": "14,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 3,5 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/CC/01.BB",
+        "name": "Cuisinière Wok avec un brûleur.",
+        "url": "https://casta.com/fr/product/l7cc01-bb40/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7CC01BB-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7CC01BB-1-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 38,
+            "volume": 0.1,
+            "puissance_du_gaz": "14,0 kW",
+            "brûleurs": 1,
+            "combination_brûleurs": "Mod. \"T\" 14,0 kW"
+        }
+    },
+    {
+        "code": "L7/CC/01.BA",
+        "name": "Cuisinière Wok avec un brûleur.",
+        "url": "https://casta.com/fr/product/l7cc01-ba40/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7CC01BA-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7CC01BA-1-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 46,
+            "volume": 0.2,
+            "puissance_du_gaz": "14,0 kW",
+            "brûleurs": 1,
+            "combination_brûleurs": "Mod. \"T\" 14,0 kW"
+        }
+    },
+    {
+        "code": "L7/SPE40BB",
+        "name": "Chauffe frites électrique.",
+        "url": "https://casta.com/fr/product/l7-spe40bb/",
+        "image": "https://casta.com/wp-content/uploads/2021/04/L7SPE40BB-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/04/L7SPE40BB-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 700,
+            "volume": 0.1,
+            "puissance_électrique": "1,0 230V~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "L7/SPE40BA",
+        "name": "Chauffe frites électrique.",
+        "url": "https://casta.com/fr/product/l7-spe40ba/",
+        "image": "https://casta.com/wp-content/uploads/2021/04/L7SPE40BA-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/04/L7SPE40BA-939x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "volume": 0.2,
+            "puissance_électrique": "1,0 230V~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "L7/SPE40BC",
+        "name": "Chauffe frites électrique.",
+        "url": "https://casta.com/fr/product/l7-spe40bc/",
+        "image": "https://casta.com/wp-content/uploads/2021/04/L7SPE40BC-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/04/L7SPE40BC-939x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "volume": 0.2,
+            "puissance_électrique": "1,0 230V~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "L7/FLG1V13",
+        "name": "Friteuse  gaz à une cuve.",
+        "url": "https://casta.com/fr/product/l7flg1v13/",
+        "image": "https://casta.com/wp-content/uploads/2013/10/L7FLG1V13-400x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/10/L7FLG1V13-1000x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 45,
+            "volume": 0.2,
+            "puissance_du_gaz": 11.2,
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1 x 13 lt"
+        }
+    },
+    {
+        "code": "L7/FLG1V17",
+        "name": "Friteuse  gaz à une cuve.",
+        "url": "https://casta.com/fr/product/l7flg1v17/",
+        "image": "https://casta.com/wp-content/uploads/2013/10/L7FLG1V17-400x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/10/L7FLG1V17-1000x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 45,
+            "volume": 0.2,
+            "puissance_du_gaz": 16.5,
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1x 17 lt"
+        }
+    },
+    {
+        "code": "L7/FLG2V8",
+        "name": "Friteuse gaz à deux cuves.",
+        "url": "https://casta.com/fr/product/l7flg2v8/",
+        "image": "https://casta.com/wp-content/uploads/2013/10/L7FLG2V8-400x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/10/L7FLG2V8-1000x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 45,
+            "volume": 0.2,
+            "puissance_du_gaz": 11.6,
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1x 8 lt + 1 x 8 lt"
+        }
+    },
+    {
+        "code": "L7/FLG2V13",
+        "name": "Friteuse gaz à deux cuves.",
+        "url": "https://casta.com/fr/product/l7flg2v13/",
+        "image": "https://casta.com/wp-content/uploads/2013/10/L7FLG2V17-1-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/10/L7FLG2V17-1-939x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 65,
+            "volume": 0.5,
+            "puissance_du_gaz": 22.4,
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 13 lt + 1 x 13 lt"
+        }
+    },
+    {
+        "code": "L7/FLG2V17",
+        "name": "Friteuse gaz à deux cuves.",
+        "url": "https://casta.com/fr/product/l7flg2v17/",
+        "image": "https://casta.com/wp-content/uploads/2013/10/L7FLG2V17-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/10/L7FLG2V17-939x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 65,
+            "volume": 0.5,
+            "puissance_du_gaz": 33,
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1x 17 lt + 1 x 17 lt"
+        }
+    },
+    {
+        "code": "L7/FRG1V13",
+        "name": "Friteuse gaz à une cuve.",
+        "url": "https://casta.com/fr/product/l7frg1v13/",
+        "image": "https://casta.com/wp-content/uploads/2013/10/L7FRG1V13-400x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/10/L7FRG1V13-1000x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 56,
+            "volume": 0.2,
+            "puissance_du_gaz": 12,
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1 x 13 lt"
+        }
+    },
+    {
+        "code": "L7/FRG1V17",
+        "name": "Friteuse gaz à une cuve.",
+        "url": "https://casta.com/fr/product/l7frg1v17/",
+        "image": "https://casta.com/wp-content/uploads/2013/10/L7FRG1V17-400x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/10/L7FRG1V17-1000x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 56,
+            "volume": 0.2,
+            "puissance_du_gaz": 16,
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1 x 17 lt"
+        }
+    },
+    {
+        "code": "L7/FRG2V13",
+        "name": "Friteuse gaz à deux cuves.",
+        "url": "https://casta.com/fr/product/l7frg2v13/",
+        "image": "https://casta.com/wp-content/uploads/2013/10/L7FRG2V13-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/10/L7FRG2V13-939x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 66,
+            "volume": 0.4,
+            "puissance_du_gaz": 24,
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 13 lt + 1 x 13 lt"
+        }
+    },
+    {
+        "code": "L7/FRG2V17",
+        "name": "Friteuse gaz à deux cuves.",
+        "url": "https://casta.com/fr/product/l7frg2v17/",
+        "image": "https://casta.com/wp-content/uploads/2013/10/L7FRG2V17-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/10/L7FRG2V17-939x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 112,
+            "volume": 0.4,
+            "puissance_du_gaz": 32,
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 17 lt + 1 x 17 lt"
+        }
+    },
+    {
+        "code": "L7/FRE1V13",
+        "name": "Friteuse électrique à une cuve.",
+        "url": "https://casta.com/fr/product/l7fre1v13/",
+        "image": "https://casta.com/wp-content/uploads/2013/10/L7FRE1V13-400x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/10/L7FRE1V13-1000x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 50,
+            "volume": 0.2,
+            "puissance_électrique": "12,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1 x 13 lt"
+        }
+    },
+    {
+        "code": "L7/FRE1V17",
+        "name": "Friteuse électrique à une cuve.",
+        "url": "https://casta.com/fr/product/l7fre1v17/",
+        "image": "https://casta.com/wp-content/uploads/2013/10/L7FRE1V17-400x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/10/L7FRE1V17-1000x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 50,
+            "volume": 0.2,
+            "puissance_électrique": "16,5 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1 x 17 lt"
+        }
+    },
+    {
+        "code": "L7/FRE2V8",
+        "name": "Friteuse électrique à deux cuves.",
+        "url": "https://casta.com/fr/product/l7fre2v8/",
+        "image": "https://casta.com/wp-content/uploads/2013/10/L7FRE2V8-400x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/10/L7FRE2V8-1000x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 50,
+            "volume": 0.2,
+            "puissance_électrique": "14,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 8 lt + 1 x 8 lt"
+        }
+    },
+    {
+        "code": "L7/FRE2V13",
+        "name": "Friteuse électrique à deux cuves.",
+        "url": "https://casta.com/fr/product/l7fre2v13/",
+        "image": "https://casta.com/wp-content/uploads/2013/10/L7FRE2V13-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/10/L7FRE2V13-939x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 78,
+            "volume": 0.5,
+            "puissance_électrique": "24,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 13 lt + 1 x 13 lt"
+        }
+    },
+    {
+        "code": "L7/FRE2V17",
+        "name": "Friteuse électrique à deux cuves.",
+        "url": "https://casta.com/fr/product/l7fre2v17/",
+        "image": "https://casta.com/wp-content/uploads/2013/10/L7-FRE2V17-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/10/L7-FRE2V17-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 78,
+            "volume": 0.5,
+            "puissance_électrique": "33,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 17 lt + 1 x 17 lt"
+        }
+    },
+    {
+        "code": "L7/KPG1V40",
+        "name": "Cuiseur à pâtes gaz à une cuve.",
+        "url": "https://casta.com/fr/product/l7kpg1v40/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7KPG1V40-400x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7KPG1V40-1000x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 50,
+            "volume": 0.2,
+            "puissance_du_gaz": 11,
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1 x 28 lt"
+        }
+    },
+    {
+        "code": "L7/KPG2V80",
+        "name": "Cuiseur à pâtes gaz à deux cuves.",
+        "url": "https://casta.com/fr/product/l7kpg2v80/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7KPG2V80-1-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7KPG2V80-1-939x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 75,
+            "volume": 0.5,
+            "puissance_du_gaz": 22,
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 28 lt + 1 x 28 lt"
+        }
+    },
+    {
+        "code": "L7/KPE1V40",
+        "name": "Cuiseur à pâtes électrique à une cuve.",
+        "url": "https://casta.com/fr/product/l7kpe1v40/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7KPE1V40-1-400x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7KPE1V40-1-1000x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 50,
+            "volume": 0.2,
+            "puissance_électrique": "7,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1 x 28 lt"
+        }
+    },
+    {
+        "code": "L7/KPE2V80",
+        "name": "Cuiseur à pâtes électrique à deux cuves.",
+        "url": "https://casta.com/fr/product/l7kpe2v80/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7-CPE2V80-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7-CPE2V80-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 70,
+            "volume": 0.5,
+            "puissance_électrique": "14,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 28 lt + 1 x 28 lt"
+        }
+    },
+    {
+        "code": "L7/KME1BA",
+        "name": "Bains-marie eléctrique.",
+        "url": "https://casta.com/fr/product/l7bme1ba/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7KME1BA-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7KME1BA-939x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 32,
+            "volume": 0.2,
+            "puissance_électrique": "1,5 230V~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1 x GN 1/1"
+        }
+    },
+    {
+        "code": "L7/KME2BA",
+        "name": "Bains-marie eléctrique.",
+        "url": "https://casta.com/fr/product/l7bme2ba/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7KME2BA-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7KME2BA-939x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 32,
+            "volume": 0.5,
+            "puissance_électrique": "3,0 230V~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1 x GN 2/1"
+        }
+    },
+    {
+        "code": "L7/FTG1BBL",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg1bbl/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBL-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBL-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 41,
+            "volume": 0.1,
+            "puissance_du_gaz": 6
+        }
+    },
+    {
+        "code": "L7/KTG1BBL",
+        "name": "Fry top gaz",
+        "url": "https://casta.com/fr/product/l7ktg1bbl/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBL-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBL-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 45,
+            "volume": 0.1,
+            "puissance_du_gaz": 6
+        }
+    },
+    {
+        "code": "L7/FTG1BBLC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg1bblc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBLC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBLC-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 41,
+            "volume": 0.1,
+            "puissance_du_gaz": 6
+        }
+    },
+    {
+        "code": "L7/KTG1BBLC",
+        "name": "Fry top gaz",
+        "url": "https://casta.com/fr/product/l7ktg1bblc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBLC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBLC-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 45,
+            "volume": 0.1,
+            "puissance_du_gaz": 6
+        }
+    },
+    {
+        "code": "L7/FTG1BBR",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg1bbr/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBR-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBR-1-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 41,
+            "volume": 0.1,
+            "puissance_du_gaz": 6
+        }
+    },
+    {
+        "code": "L7/KTG1BBR",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg1bbr/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBR-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBR-1-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 53,
+            "volume": 0.1
+        }
+    },
+    {
+        "code": "L7/FTG1BBRC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg1bbrc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBRC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBRC-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 41,
+            "volume": 0.1,
+            "puissance_du_gaz": 6
+        }
+    },
+    {
+        "code": "L7/KTG1BBRC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg1bbrc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBRC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BBRC-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 45,
+            "volume": 0.1,
+            "puissance_du_gaz": 6
+        }
+    },
+    {
+        "code": "L7/FTG2BBL",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg2bbl/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBL-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBL-1-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 75,
+            "volume": 0.1,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/KTG2BBL",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg2bbl/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBL-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBL-1-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 79,
+            "volume": 0.1,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/FTG2BBLC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg2bblc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBLC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBLC-1-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 75,
+            "volume": 0.1,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/KTG2BBLC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg2bbl-2/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBLC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBLC-1-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 79,
+            "volume": 0.1,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/FTG2BBR",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg2bbr/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBR-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBR-1-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 75,
+            "volume": 0.1,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/KTG2BBR",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg2bbr-2/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBR-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBR-1-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 79,
+            "volume": 0.1,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/FTG2BBRC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg2bbrc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBRC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBRC-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 75,
+            "volume": 0.1,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/KTG2BBRC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg2bbrc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBRC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBRC-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 79,
+            "volume": 0.1,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/FTG2BBM",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg2bbm/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBM-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBM-1-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 79,
+            "volume": 0.1,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/KTG2BBM",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg2bbm/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBM-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBM-1-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 79,
+            "volume": 0.1,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/FTG2BBMC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg2bbmc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBMC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBMC-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 75,
+            "volume": 0.1,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/KTG2BBMC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg2bbmc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBMC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BBMC-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 79,
+            "volume": 0.1,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/FTG1BAL",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg1bal/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BAL-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BAL-1-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 55,
+            "volume": 0.2,
+            "puissance_du_gaz": 6
+        }
+    },
+    {
+        "code": "L7/KTG1BAL",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg1bal/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BAL-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BAL-1-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 60,
+            "volume": 0.2,
+            "puissance_du_gaz": 6
+        }
+    },
+    {
+        "code": "L7/FTG1BALC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg1balc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BALC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BALC-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 55,
+            "volume": 0.1,
+            "puissance_du_gaz": 6
+        }
+    },
+    {
+        "code": "L7/KTG1BALC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg1balc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BALC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BALC-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 60,
+            "volume": 0.2,
+            "puissance_du_gaz": 6
+        }
+    },
+    {
+        "code": "L7/FTG1BAR",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg1bar/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BAR-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BAR-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 55,
+            "volume": 0.2,
+            "puissance_du_gaz": 6
+        }
+    },
+    {
+        "code": "L7/KTG1BAR",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg1bar-2/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BAR-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BAR-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 60,
+            "volume": 0.2,
+            "puissance_du_gaz": 6
+        }
+    },
+    {
+        "code": "L7/FTG1BARC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg1barc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BARC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BARC-1-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 55,
+            "volume": 0.2,
+            "puissance_du_gaz": 6
+        }
+    },
+    {
+        "code": "L7/KTG1BARC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg1barc-2/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BARC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG1BARC-1-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 60,
+            "volume": 0.2,
+            "puissance_du_gaz": 6
+        }
+    },
+    {
+        "code": "L7/FTG2BAL",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg2bal/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAL-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAL-1-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.4,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/KTG2BAL",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg2bal/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAL-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAL-1-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 87,
+            "volume": 0.5,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/FTG2BALC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg2balc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BALC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BALC-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.4,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/KTG2BALC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg2balc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BALC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BALC-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 87,
+            "volume": 0.5,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/FTG2BAR",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg2bar/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAR-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAR-1-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.4,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/KTG2BAR",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg2bar/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAR-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAR-1-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 87,
+            "volume": 0.5,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/FTG2BARC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg2barc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BARC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BARC-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.4,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/KTG2BARC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg2barc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BARC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BARC-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 87,
+            "volume": 0.5,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/FTG2BAM",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg2bam/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAM-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAM-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.4,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/KTG2BAM",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg2bam/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAM-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAM-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 87,
+            "volume": 0.5,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/FTG2BAMC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ftg2bamc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAMC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAMC-1-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.4,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/KTG2BAMC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/l7ktg2bamc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAMC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTG2BAMC-1-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 87,
+            "volume": 0.5,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/FTE1BBL",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte1bbl/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BBL-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BBL-1-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 40,
+            "volume": 0.1,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE1BBL",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/e7kte1bbl-2/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BBL-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BBL-1-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 45,
+            "volume": 0.1,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE1BBLC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte1bblc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BBLC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BBLC-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 40,
+            "volume": 0.1,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE1BBLC",
+        "name": "Eléctrique fry top.",
+        "url": "https://casta.com/fr/product/l7kte1bblc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BBLC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BBLC-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 45,
+            "volume": 0.1,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE1BBR",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte1bbr/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BBR-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BBR-1-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 40,
+            "volume": 0.1,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE1BBR",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte1bbr-2/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BBR-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BBR-1-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 45,
+            "volume": 0.1,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE1BBRC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte1bbrc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BBRC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BBRC-1-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 40,
+            "volume": 0.1,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE1BBRC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte1bbr/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BBRC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BBRC-1-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 45,
+            "volume": 0.1,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE2BBL",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte2bbl/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBL-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBL-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 75,
+            "volume": 0.1,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE2BBL",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte2bbl/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBL-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBL-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.1,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE2BBLC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte2bblc/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBLC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBLC-1-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 75,
+            "volume": 0.1,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE2BBLC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte2bblc/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBLC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBLC-1-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.1,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE2BBR",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte2bbr/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBR-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBR-1-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 75,
+            "volume": 0.1,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE2BBR",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte2bbr/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBR-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBR-1-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.1,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE2BBRC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte2bbrc/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBRC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBRC-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 75,
+            "volume": 0.1,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE2BBRC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte2bbrc/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBRC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBRC-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.1,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE2BBM",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte2bbm/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBM-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBM-1-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 75,
+            "volume": 0.1,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE2BBM",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte2bbm/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBM-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBM-1-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.1,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE2BBMC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte2bbmc/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBMC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBMC-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 75,
+            "volume": 0.1,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE2BBMC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte2bbmc/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBMC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BBMC-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.1,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE1BAL",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte1bal/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BAL-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BAL-1-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 55,
+            "volume": 0.2,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE1BAL",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte1bal-2/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BAL-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BAL-1-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 60,
+            "volume": 0.2,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE1BALC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte1balc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BALC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BALC-1-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 55,
+            "volume": 0.2,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE1BALC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte1balc/",
+        "image": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BALC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/10/L7FTE1BALC-1-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 60,
+            "volume": 0.2,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE1BAR",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte1bar/",
+        "image": "https://casta.com/wp-content/uploads/2014/11/L7FTE1BAR-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/11/L7FTE1BAR-1-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 55,
+            "volume": 0.2,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE1BAR",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte1bar/",
+        "image": "https://casta.com/wp-content/uploads/2014/11/L7FTE1BAR-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/11/L7FTE1BAR-1-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 60,
+            "volume": 0.2,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50 /60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE1BARC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte1barc/",
+        "image": "https://casta.com/wp-content/uploads/2014/11/L7FTE1BARC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/11/L7FTE1BARC-1-835x750.jpg",
+        "specs": {
+            "largeur": 350,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 55,
+            "volume": 0.2,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE1BARC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte1barc/",
+        "image": "https://casta.com/wp-content/uploads/2014/11/L7FTE1BARC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/11/L7FTE1BARC-1-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 60,
+            "volume": 0.2,
+            "puissance_électrique": "5,4 400V3N~",
+            "intensité_du_courant": "50 /60",
+            "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE2BAL",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte2bal/",
+        "image": "https://casta.com/wp-content/uploads/2014/11/L7FTE2BAL-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/11/L7FTE2BAL-1-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.4,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE2BAL",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte2bal-2/",
+        "image": "https://casta.com/wp-content/uploads/2014/11/L7FTE2BAL-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/11/L7FTE2BAL-1-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 87,
+            "volume": 0.5,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE2BALC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte2balc/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BALC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BALC-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.4,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE2BALC",
+        "name": "Electrique fry top.",
+        "url": "https://casta.com/fr/product/l7kte2balc/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BALC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BALC-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 87,
+            "volume": 0.5,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50 /60",
+            "zones_de_cuisson_électriques": "2 x 5,4 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE2BAR",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte2bar/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BAR-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BAR-1-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.4,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE2BAR",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte2bar/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BAR-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BAR-1-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 87,
+            "volume": 0.5,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE2BARC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte2barc/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BARC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BARC-1-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.4,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE2BARC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte2barc/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BARC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BARC-1-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 87,
+            "volume": 0.5,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE2BAM",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte2bam/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BAM-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BAM-1-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.4,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE2BAM",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte2bam/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BAM-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BAM-1-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 87,
+            "volume": 0.5,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 400V3N~"
+        }
+    },
+    {
+        "code": "L7/FTE2BAMC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7fte2bamc/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BAMC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BAMC-1-835x750.jpg",
+        "specs": {
+            "largeur": 700,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.4,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+        }
+    },
+    {
+        "code": "L7/KTE2BAMC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/l7kte2bamc/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BAMC-1-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7FTE2BAMC-1-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 87,
+            "volume": 0.5,
+            "puissance_électrique": "10,8 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,4 400V3N~"
+        }
+    },
+    {
+        "code": "L7/BS1BB",
+        "name": "Grille pierre volcanique.",
+        "url": "https://casta.com/fr/product/l7bs1bb/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7BS1BB-1-400x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7BS1BB-1-1000x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 48,
+            "volume": 0.1,
+            "puissance_du_gaz": 8
+        }
+    },
+    {
+        "code": "L7/BS2BB",
+        "name": "Grille pierre volcanique.",
+        "url": "https://casta.com/fr/product/l7bs2bb/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7BS2BB-1-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7BS2BB-1-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 80,
+            "volume": 0.1,
+            "puissance_du_gaz": 16
+        }
+    },
+    {
+        "code": "L7/BS1BA",
+        "name": "Grille pierre volcanique.",
+        "url": "https://casta.com/fr/product/l7bs1ba/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7BS1BA-1-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7BS1BA-1-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 60,
+            "volume": 0.2,
+            "puissance_du_gaz": 8
+        }
+    },
+    {
+        "code": "L7/BS1BC",
+        "name": "Grille pierre volcanique.",
+        "url": "https://casta.com/fr/product/l7bs1ba-2/",
+        "image": "https://casta.com/wp-content/uploads/2015/07/L7BS1BC-1-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2015/07/L7BS1BC-1-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 64,
+            "volume": 0.2,
+            "puissance_du_gaz": 8
+        }
+    },
+    {
+        "code": "L7/BS2BA",
+        "name": "Grille pierre volcanique.",
+        "url": "https://casta.com/fr/product/l7bs2ba/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7BS2BA-1-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7BS2BA-1-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 90,
+            "volume": 0.5,
+            "puissance_du_gaz": 16
+        }
+    },
+    {
+        "code": "L7/BS2BC",
+        "name": "Grille pierre volcanique.",
+        "url": "https://casta.com/fr/product/16294/",
+        "image": "https://casta.com/wp-content/uploads/2016/11/L7BS2BC-1-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2016/11/L7BS2BC-1-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 97,
+            "volume": 0.5,
+            "puissance_du_gaz": 16
+        }
+    },
+    {
+        "code": "L7/KNN1BB",
+        "name": "Elément neutre.",
+        "url": "https://casta.com/fr/product/l7knn1bb/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7KNN1BB-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7KNN1BB-939x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 16,
+            "volume": 0.1
+        }
+    },
+    {
+        "code": "L7/KNN2BB",
+        "name": "Élément neutre.",
+        "url": "https://casta.com/fr/product/l7enn2bb/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7KNN2BB-1-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7KNN2BB-1-939x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 700,
+            "poids": 30,
+            "volume": 0.1
+        }
+    },
+    {
+        "code": "L7/ENN1BA",
+        "name": "Élément neutre.",
+        "url": "https://casta.com/fr/product/l7enn1ba/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7KNN1BA-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7KNN1BA-939x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 32,
+            "volume": 0.2
+        }
+    },
+    {
+        "code": "L7/KNN2BA",
+        "name": "Élément neutre.",
+        "url": "https://casta.com/fr/product/l7enn2ba/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7KNN2BA-1-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7KNN2BA-1-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 64,
+            "volume": 0.5
+        }
+    },
+    {
+        "code": "L7/KNN1BC",
+        "name": "Élément neutre.",
+        "url": "https://casta.com/fr/product/l7knn1bc/",
+        "image": "https://casta.com/wp-content/uploads/2016/11/L7KNN1BC-1-376x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2016/11/L7KNN1BC-1-939x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 70,
+            "volume": 0.2
+        }
+    },
+    {
+        "code": "L7/BRGI50M",
+        "name": "Sauteuse basculante gaz.",
+        "url": "https://casta.com/fr/product/l7brgi50m/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7BRGI50M-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7BRGI50M-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "épaisseur": "Fondo vasca / Bottom type / Type du fond / Fondo cuba AISI 304 10",
+            "poids": 160,
+            "volume": 0.5,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/BRGl50A",
+        "name": "Sauteuse basculante gaz.",
+        "url": "https://casta.com/fr/product/l7brgf70m/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7BRGI50A-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7BRGI50A-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "épaisseur": "Fondo vasca / Bottom type / Type du fond / Fondo cuba AISI 304 10",
+            "poids": 160,
+            "volume": 0.5,
+            "puissance_du_gaz": 12
+        }
+    },
+    {
+        "code": "L7/BREI50M",
+        "name": "Sauteuse basculante électrique.",
+        "url": "https://casta.com/fr/product/l7brel50m/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7BREI50M-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7BREI50M-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "épaisseur": "Fondo vasca / Bottom type / Type du fond / Fondo cuba AISI 304",
+            "poids": 145,
+            "volume": 0.5,
+            "puissance_électrique": "8,7 400V3N~",
+            "intensité_du_courant": "50 / 60"
+        }
+    },
+    {
+        "code": "L7/BREI50A",
+        "name": "Sauteuse basculante électrique.",
+        "url": "https://casta.com/fr/product/l7brei50a/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7BREI50A-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7BREI50A-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "épaisseur": "Fondo vasca / Bottom type / Type du fond / Fondo cuba AISI 304 10",
+            "poids": 145,
+            "volume": 0.5,
+            "puissance_électrique": "8,7 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "L7/PIG501",
+        "name": "Marmite gaz.",
+        "url": "https://casta.com/fr/product/l7pig501/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7PIG501-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7PIG501-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 160,
+            "volume": 0.5,
+            "puissance_du_gaz": 15.5
+        }
+    },
+    {
+        "code": "L7/PIE501",
+        "name": "Marmite électrique.",
+        "url": "https://casta.com/fr/product/l7pie501/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7PIE501-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7PIE501-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 145,
+            "volume": 0.5,
+            "puissance_électrique": "9,0 400V3N~"
+        }
+    },
+    {
+        "code": "L7/DKE400BA",
+        "name": "Cuiseur à vapeur Dim Sum électrique.",
+        "url": "https://casta.com/fr/product/l7dke400ba/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7DKE400BA-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7DKE400BA-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 33,
+            "volume": 2,
+            "puissance_électrique": "3,5 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "L7/DKE800BA",
+        "name": "Cuiseur vapeur pour Dim Sum électrique.",
+        "url": "https://casta.com/fr/product/l7dke800ba/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7DKE800BA-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7DKE800BA-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 72,
+            "volume": 0.5,
+            "puissance_électrique": "7,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "L7/DKE400BC",
+        "name": "Cuiseur vapeur Dim Sum électrique.",
+        "url": "https://casta.com/fr/product/l7dke400bc/",
+        "image": "https://casta.com/wp-content/uploads/2014/09/L7DKE400BC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/09/L7DKE400BC-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 39,
+            "volume": 0.2,
+            "puissance_électrique": "3,5 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "L7/DKE800BC",
+        "name": "Cuiseur vapeur Dim Sum électrique.",
+        "url": "https://casta.com/fr/product/l7dke800bc/",
+        "image": "https://casta.com/wp-content/uploads/2014/09/L7DKE800BC-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2014/09/L7DKE800BC-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 69,
+            "volume": 0.5,
+            "puissance_électrique": "7,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "L7/CCG1V80",
+        "name": "",
+        "url": "https://casta.com/fr/product/l7ccg1v80/",
+        "image": "https://casta.com/wp-content/uploads/2017/12/Couscoussi%C3%A8re.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2017/12/Couscoussi%C3%A8re.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 700,
+            "poids": 70,
+            "volume": 0.5,
+            "puissance_du_gaz": 15,
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "40,0 lt"
+        }
+    }
+]

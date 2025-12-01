@@ -1,0 +1,1987 @@
+[
+    {
+        "code": "LQ/CQE4BA",
+        "name": "Cuisinière électrique",
+        "url": "https://casta.com/fr/product/lq-cqe4ba/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CQE4BA-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-CQE4BA-793x750.png",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "volume": 0.6,
+            "puissance_électrique": "16,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 4,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/FTG4BCL",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bcl/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG4BCL-800X900X850H_DX-1-1-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG4BCL-800X900X850H_DX-1-1-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 150,
+            "volume": 0.6,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/KUG8FF.2P2M4G",
+        "name": "Cuisinière gaz à huit feux.",
+        "url": "https://casta.com/fr/product/lq-kug8ff-2p2m4g/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8FF-1600X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8FF-1600X900X850H-878x750.jpg",
+        "specs": {
+            "largeur": 1800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "volume": 1.4,
+            "puissance_du_gaz": 63.4,
+            "brûleurs": 8,
+            "combination_brûleurs": "2 x 3,5 kW + 2 x 5,5 kW + 4 x 7,4 kW",
+            "four": "2 x 8,6 kW",
+            "dimensions_intérieurs_du_four": "540x745x340h"
+        }
+    },
+    {
+        "code": "LQ/FTG4BBRC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bbrc/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBRC-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBRC-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 100,
+            "volume": 0.2,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/CQE2BB",
+        "name": "Cuisinière électrique.",
+        "url": "https://casta.com/fr/product/lq-cqe2bb/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CQE2BB-400X900X270H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CQE2BB-400X900X270H-878x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 275,
+            "profondeur": 900,
+            "poids": 65,
+            "volume": 0.1,
+            "puissance_électrique": "8,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 4,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/FRE2V13",
+        "name": "Friteuse électrique à deux cuves.",
+        "url": "https://casta.com/fr/product/lq-fre2v13/",
+        "image": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V13-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V13-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 106,
+            "volume": 0.6,
+            "puissance_électrique": "24,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 13 lt + 1 x 13 lt"
+        }
+    },
+    {
+        "code": "LQ/FTE4BAL",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/lq-fte4bal/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-FTE4BAL-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-FTE4BAL-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 93,
+            "volume": 0.6,
+            "puissance_électrique": "12,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/ENN2CC",
+        "name": "Elément neutre avec tiroir.",
+        "url": "https://casta.com/fr/product/lq-enn2cc/",
+        "image": "https://casta.com/wp-content/uploads/2022/01/LQ-ENN2CC-400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/01/LQ-ENN2CC-400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "volume": 0.3
+        }
+    },
+    {
+        "code": "LQ/FTG4BBLC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bblc/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBLC-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBLC-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 100,
+            "volume": 0.2,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/CQE4BB",
+        "name": "Cuisinière électrique.",
+        "url": "https://casta.com/fr/product/lq-cqe4bb/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CQE4BB-800X900X270H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CQE4BB-800X900X270H-878x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 275,
+            "profondeur": 900,
+            "poids": 130,
+            "volume": 0.2,
+            "puissance_électrique": "16,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 4,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/FTG2BAL",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg2bal/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG2BAL-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG2BAL-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 75,
+            "volume": 0.3,
+            "puissance_du_gaz": 6.9
+        }
+    },
+    {
+        "code": "LQ/FTE4BCLC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/lq-fte4bclc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTE4BCLC-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTE4BCLC-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 93,
+            "volume": 0.6,
+            "puissance_électrique": "12,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/CQE4BA",
+        "name": "Cuisinière électrique",
+        "url": "https://casta.com/fr/product/lq-cqe4ba/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CQE4BA-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-CQE4BA-793x750.png",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "volume": 0.6,
+            "puissance_électrique": "16,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 4,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/FTG4BCL",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bcl/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG4BCL-800X900X850H_DX-1-1-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG4BCL-800X900X850H_DX-1-1-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 150,
+            "volume": 0.6,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/KUG8FF.2P2M4G",
+        "name": "Cuisinière gaz à huit feux.",
+        "url": "https://casta.com/fr/product/lq-kug8ff-2p2m4g/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8FF-1600X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8FF-1600X900X850H-878x750.jpg",
+        "specs": {
+            "largeur": 1800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "volume": 1.4,
+            "puissance_du_gaz": 63.4,
+            "brûleurs": 8,
+            "combination_brûleurs": "2 x 3,5 kW + 2 x 5,5 kW + 4 x 7,4 kW",
+            "four": "2 x 8,6 kW",
+            "dimensions_intérieurs_du_four": "540x745x340h"
+        }
+    },
+    {
+        "code": "LQ/FTG4BBRC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bbrc/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBRC-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBRC-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 100,
+            "volume": 0.2,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/CQE2BB",
+        "name": "Cuisinière électrique.",
+        "url": "https://casta.com/fr/product/lq-cqe2bb/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CQE2BB-400X900X270H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CQE2BB-400X900X270H-878x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 275,
+            "profondeur": 900,
+            "poids": 65,
+            "volume": 0.1,
+            "puissance_électrique": "8,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 4,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/FRE2V13",
+        "name": "Friteuse électrique à deux cuves.",
+        "url": "https://casta.com/fr/product/lq-fre2v13/",
+        "image": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V13-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V13-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 106,
+            "volume": 0.6,
+            "puissance_électrique": "24,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 13 lt + 1 x 13 lt"
+        }
+    },
+    {
+        "code": "LQ/FTE4BAL",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/lq-fte4bal/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-FTE4BAL-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-FTE4BAL-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 93,
+            "volume": 0.6,
+            "puissance_électrique": "12,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/ENN2CC",
+        "name": "Elément neutre avec tiroir.",
+        "url": "https://casta.com/fr/product/lq-enn2cc/",
+        "image": "https://casta.com/wp-content/uploads/2022/01/LQ-ENN2CC-400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/01/LQ-ENN2CC-400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "volume": 0.3
+        }
+    },
+    {
+        "code": "LQ/FTG4BBLC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bblc/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBLC-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBLC-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 100,
+            "volume": 0.2,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/CQE4BB",
+        "name": "Cuisinière électrique.",
+        "url": "https://casta.com/fr/product/lq-cqe4bb/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CQE4BB-800X900X270H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CQE4BB-800X900X270H-878x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 275,
+            "profondeur": 900,
+            "poids": 130,
+            "volume": 0.2,
+            "puissance_électrique": "16,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 4,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/FTG2BAL",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg2bal/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG2BAL-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG2BAL-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 75,
+            "volume": 0.3,
+            "puissance_du_gaz": 6.9
+        }
+    },
+    {
+        "code": "LQ/FTE4BCLC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/lq-fte4bclc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTE4BCLC-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTE4BCLC-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 93,
+            "volume": 0.6,
+            "puissance_électrique": "12,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/FTG4BALK",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4balk/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG4BAL-800X900X850H_DX-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG4BAL-800X900X850H_DX-793x750.png",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 130,
+            "volume": 0.6,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/ENN2BC",
+        "name": "Élément neutre.",
+        "url": "https://casta.com/fr/product/lq-enn2bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-ENN2BC-400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-ENN2BC-400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 56,
+            "volume": 0.3
+        }
+    },
+    {
+        "code": "LQ/FTE2BCLC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/lq-fte2bclc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTE2BCLC-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTE2BCLC-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 48,
+            "volume": 0.3,
+            "puissance_électrique": "6,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/TPG4NG",
+        "name": "Cuisinière avec plaque coup de feu.",
+        "url": "https://casta.com/fr/product/lq-tpg4ng/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-TPG4LO-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-TPG4LO-793x750.png",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 193,
+            "volume": 0.6,
+            "puissance_du_gaz": 20.6,
+            "combination_brûleurs": "1 x 12,0 kW",
+            "four": "1 x 8,6 kW",
+            "dimensions_intérieurs_du_four": "540x745x340h"
+        }
+    },
+    {
+        "code": "LQ/FTG4BBL",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bbl/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBL-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBL-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 130,
+            "volume": 0.2,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTG2BALK",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg2balk/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG2BAL-400X900X850H_DX-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG2BAL-400X900X850H_DX-793x750.png",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 65,
+            "volume": 0.3,
+            "puissance_du_gaz": 6.9
+        }
+    },
+    {
+        "code": "LQ/FTG4BAM",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bam-2/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-FTG4BAM-800X900X850H_DX-1-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-FTG4BAM-800X900X850H_DX-1-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 94,
+            "volume": 0.6,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/CUG2BC.1M1G",
+        "name": "Cuisinière gaz à deux feux.",
+        "url": "https://casta.com/fr/product/lq-cug2bc-1m1g/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-CUG2BC-400X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-CUG2BC-400X900X850H-878x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 60,
+            "volume": 0.3,
+            "puissance_du_gaz": 12.9,
+            "brûleurs": 2,
+            "combination_brûleurs": "1x7,4 kW + 1x5,5 kW"
+        }
+    },
+    {
+        "code": "LQ/TPG6NG",
+        "name": "Cuisinière avec plaque coup de feu.",
+        "url": "https://casta.com/fr/product/lq-tpg6ng/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-TPG6LO-1-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-TPG6LO-1-793x750.png",
+        "specs": {
+            "largeur": 1200,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 248,
+            "volume": 0.9,
+            "puissance_du_gaz": 33.5,
+            "combination_brûleurs": "1 x 5,5 kW + 1 x 7,4 kW + 1 x 12,0 kW",
+            "four": "1 x 8,6 kW",
+            "dimensions_intérieurs_du_four": "540x745x340h"
+        }
+    },
+    {
+        "code": "LQ/FTG2BBR",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg2bbr/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG2BBR-400X900X270H_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG2BBR-400X900X270H_DX-835x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 65,
+            "volume": 0.1,
+            "puissance_du_gaz": 6.9
+        }
+    },
+    {
+        "code": "LQ/FTG4BARK",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bark/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG4BAR-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG4BAR-793x750.png",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 130,
+            "volume": 0.6,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTE2BAL",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/lq-fte2bal/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-FTE2BAL-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-FTE2BAL-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 77,
+            "volume": 0.3,
+            "puissance_électrique": "6,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/CUG2BB.1M1G",
+        "name": "Cuisinière gaz à deux feux.",
+        "url": "https://casta.com/fr/product/lq-cug2bb-1m1g/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG2BB-400X900X270H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/LQ-CUG2BB-400X900X270H-878x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 35,
+            "volume": 0.1,
+            "puissance_du_gaz": 12.9,
+            "brûleurs": 2,
+            "combination_brûleurs": "1x5,5 kW +1x 7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/CUG4BC.1P1M2G",
+        "name": "Cuisinière gaz à quatre feux.",
+        "url": "https://casta.com/fr/product/lq-cug4bc-1p1m2g/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG4BC-800X900X850H-2-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-CUG4BC-800X900X850H-2-878x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 85,
+            "volume": 0.6,
+            "puissance_du_gaz": 23.8,
+            "brûleurs": "1x3,5 kW +1x5,5 kW + 2x7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/FTG4BBR",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bbr/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBR-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBR-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 130,
+            "volume": 0.2,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTG4BAMK",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bamk/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG4BAM-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG4BAM-793x750.png",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 130,
+            "volume": 0.6,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/CPE2V1-1FP-A",
+        "name": "Cuiseur à pâtes électrique Fastpasta.",
+        "url": "https://casta.com/fr/product/lq-cpe2v1-1fp-a/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/LQ-CPE2V1-1FP-A-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/LQ-CPE2V1-1FP-A-793x750.jpg",
+        "specs": {
+            "largeur": 500,
+            "hauteur": 850,
+            "profondeur": 900,
+            "puissance_électrique": "12,6 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1X 40 lt."
+        }
+    },
+    {
+        "code": "LQ/DSE400BC",
+        "name": "Cuiseur vapeur pour dim sum électrique.",
+        "url": "https://casta.com/fr/product/lq-dse400bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE400BC-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE400BC-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 50,
+            "volume": 0.3,
+            "puissance_électrique": "12,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/FTG4BAL",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bal/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-FTG4BAL-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-FTG4BAL-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 150,
+            "volume": 0.6,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTG4BBM",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bbm/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBM-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBM-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 130,
+            "volume": 0.2,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/FTG2BBLK",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg2bblk/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG2BBL-400X900X270H_DX-334x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-FTG2BBL-400X900X270H_DX-835x750.png",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 60,
+            "volume": 0.1,
+            "puissance_du_gaz": 6.9
+        }
+    },
+    {
+        "code": "LQ/CC/01.BA",
+        "name": "Cuisinière Wok gaz.",
+        "url": "https://casta.com/fr/product/lq-cc-01-ba/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-CC-01.BA-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-CC-01.BA-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 58,
+            "volume": 0.3,
+            "puissance_du_gaz": "14,0 kW",
+            "brûleurs": 1,
+            "combination_brûleurs": "Mod. T 14,0 kW"
+        }
+    },
+    {
+        "code": "LQ/CPE4V2-2FP-AA",
+        "name": "Cuiseur à pâtes électrique Fastpasta.",
+        "url": "https://casta.com/fr/product/lq-cpe4v2-2fp-aa/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/LQ-CPE4V2-2FP-AA-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/LQ-CPE4V2-2FP-AA-793x750.jpg",
+        "specs": {
+            "largeur": 1000,
+            "hauteur": 850,
+            "profondeur": 900,
+            "puissance_électrique": "25,2 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "2X 40 LT"
+        }
+    },
+    {
+        "code": "LQ/DSE800BC",
+        "name": "Cuiseur vapeur pour dim sum électrique.",
+        "url": "https://casta.com/fr/product/lq-dse800bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/01/LQ-DKE800BC-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/01/LQ-DKE800BC-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 85,
+            "volume": 0.6,
+            "puissance_électrique": "24,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/FTG4BBMC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bbmc/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBMC-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBMC-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 100,
+            "volume": 0.2,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/CQE4BA",
+        "name": "Cuisinière électrique",
+        "url": "https://casta.com/fr/product/lq-cqe4ba/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CQE4BA-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-CQE4BA-793x750.png",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "volume": 0.6,
+            "puissance_électrique": "16,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 4,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/FTG4BCL",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bcl/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG4BCL-800X900X850H_DX-1-1-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG4BCL-800X900X850H_DX-1-1-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 150,
+            "volume": 0.6,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/KUG8FF.2P2M4G",
+        "name": "Cuisinière gaz à huit feux.",
+        "url": "https://casta.com/fr/product/lq-kug8ff-2p2m4g/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8FF-1600X900X850H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8FF-1600X900X850H-878x750.jpg",
+        "specs": {
+            "largeur": 1800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "volume": 1.4,
+            "puissance_du_gaz": 63.4,
+            "brûleurs": 8,
+            "combination_brûleurs": "2 x 3,5 kW + 2 x 5,5 kW + 4 x 7,4 kW",
+            "four": "2 x 8,6 kW",
+            "dimensions_intérieurs_du_four": "540x745x340h"
+        }
+    },
+    {
+        "code": "LQ/FTG4BBRC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bbrc/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBRC-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBRC-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 100,
+            "volume": 0.2,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/CQE2BB",
+        "name": "Cuisinière électrique.",
+        "url": "https://casta.com/fr/product/lq-cqe2bb/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CQE2BB-400X900X270H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CQE2BB-400X900X270H-878x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 275,
+            "profondeur": 900,
+            "poids": 65,
+            "volume": 0.1,
+            "puissance_électrique": "8,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 4,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/FRE2V13",
+        "name": "Friteuse électrique à deux cuves.",
+        "url": "https://casta.com/fr/product/lq-fre2v13/",
+        "image": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V13-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V13-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 106,
+            "volume": 0.6,
+            "puissance_électrique": "24,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 13 lt + 1 x 13 lt"
+        }
+    },
+    {
+        "code": "LQ/FTE4BAL",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/lq-fte4bal/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-FTE4BAL-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-FTE4BAL-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 93,
+            "volume": 0.6,
+            "puissance_électrique": "12,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/ENN2CC",
+        "name": "Elément neutre avec tiroir.",
+        "url": "https://casta.com/fr/product/lq-enn2cc/",
+        "image": "https://casta.com/wp-content/uploads/2022/01/LQ-ENN2CC-400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/01/LQ-ENN2CC-400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "volume": 0.3
+        }
+    },
+    {
+        "code": "LQ/FTG4BBLC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bblc/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBLC-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBLC-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 100,
+            "volume": 0.2,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/CQE4BB",
+        "name": "Cuisinière électrique.",
+        "url": "https://casta.com/fr/product/lq-cqe4bb/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CQE4BB-800X900X270H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CQE4BB-800X900X270H-878x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 275,
+            "profondeur": 900,
+            "poids": 130,
+            "volume": 0.2,
+            "puissance_électrique": "16,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 4,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/FTG2BAL",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg2bal/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG2BAL-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTG2BAL-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 75,
+            "volume": 0.3,
+            "puissance_du_gaz": 6.9
+        }
+    },
+    {
+        "code": "LQ/BME2BC",
+        "name": "Bains-marie électrique.",
+        "url": "https://casta.com/fr/product/lq-bme2bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/LQ-BME2BC-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/LQ-BME2BC-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 90,
+            "volume": 0.6,
+            "puissance_électrique": "3,6 230 V~",
+            "intensité_du_courant": "50/60",
+            "capacité_des_cuves": "GN 2/1+ 2x1/3"
+        }
+    },
+    {
+        "code": "LQ/DKE400BC",
+        "name": "Cuiseur vapeur pour dim sum électrique.",
+        "url": "https://casta.com/fr/product/lq-dke400bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE400BC-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE400BC-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 50,
+            "volume": 0.3,
+            "puissance_électrique": "6,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/FTG2BARC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg2barc/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG2BARC-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG2BARC-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 69,
+            "volume": 0.3,
+            "puissance_du_gaz": 6.9
+        }
+    },
+    {
+        "code": "LQ/BME1BC",
+        "name": "Bains-marie électrique.",
+        "url": "https://casta.com/fr/product/lq-bme1bc/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/LQ-BME1BC-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/LQ-BME1BC-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 53,
+            "volume": 0.3,
+            "puissance_électrique": "1,8 230 V~",
+            "intensité_du_courant": "50/60",
+            "capacité_des_cuves": "GN 1/1 + 1/3"
+        }
+    },
+    {
+        "code": "LQ/FTE4BAMC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/lq-fte4bamc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-FTE4BAMC-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-FTE4BAMC-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 98,
+            "volume": 0.6,
+            "puissance_électrique": "12,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/FTG2BALC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg2balc/",
+        "image": "https://casta.com/wp-content/uploads/2022/03/LQ-FTG2BALC-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/03/LQ-FTG2BALC-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 69,
+            "volume": 0.3,
+            "puissance_du_gaz": 6.9
+        }
+    },
+    {
+        "code": "LQ/FTE4BBMC",
+        "name": "Fry top électrique.",
+        "url": "https://casta.com/fr/product/lq-fte4bbmc/",
+        "image": "https://casta.com/wp-content/uploads/2022/03/LQ-FTE4BBMC-800X900X270H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/03/LQ-FTE4BBMC-800X900X270H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 84,
+            "volume": 0.2,
+            "puissance_électrique": "12,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/ENN4CC",
+        "name": "Elément neutre avec tiroir.",
+        "url": "https://casta.com/fr/product/lq-enn4cc/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-ENN4CC-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-ENN4CC-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "volume": 0.6
+        }
+    },
+    {
+        "code": "LQ/FTG4BBMC",
+        "name": "Fry top gaz.",
+        "url": "https://casta.com/fr/product/lq-ftg4bbmc/",
+        "image": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBMC-800X900X270_DX-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/09/LQ-FTG4BBMC-800X900X270_DX-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 100,
+            "volume": 0.2,
+            "puissance_du_gaz": 13.8
+        }
+    },
+    {
+        "code": "LQ/BREI80M",
+        "name": "Sauteuse basculante électrique.",
+        "url": "https://casta.com/fr/product/lq-brei80m/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-BREI80M-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-BREI80M-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "épaisseur": "Fondo vasca / Bottom type / Type du fond / Fondo cuba AISI 304 12,0",
+            "poids": 152,
+            "volume": 0.6,
+            "puissance_électrique": 9.9,
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/BS1BB",
+        "name": "Grilla de pierre volcanique.",
+        "url": "https://casta.com/fr/product/lq-bs1bb/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-BS1BB-400X900X270H_DX-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-BS1BB-400X900X270H_DX-793x750.png",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 45,
+            "volume": 0.1,
+            "puissance_du_gaz": 11,
+            "combination_brûleurs": "1 x 11,0 kW"
+        }
+    },
+    {
+        "code": "LQ/PIE410",
+        "name": "Marmite électrique.",
+        "url": "https://casta.com/fr/product/lq-pie410/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-PIE415-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-PIE415-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 164,
+            "volume": 0.6,
+            "puissance_électrique": "13,0 400V 3N~",
+            "intensité_du_courant": "50/60",
+            "capacité_des_cuves": "600x415"
+        }
+    },
+    {
+        "code": "LQ/PDG410",
+        "name": "Marmite gaz.",
+        "url": "https://casta.com/fr/product/lq-pdg410/",
+        "image": "https://casta.com/wp-content/uploads/2021/09/LQ-PDG410-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/09/LQ-PDG410-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 160,
+            "volume": 0.6,
+            "puissance_du_gaz": 21
+        }
+    },
+    {
+        "code": "LQ/BME1BA",
+        "name": "Bains-marie électrique.",
+        "url": "https://casta.com/fr/product/lq-bme1ba-2/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-BME1BA-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-BME1BA-793x750.png",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 53,
+            "volume": 0.3,
+            "puissance_électrique": "1,8 230 V~",
+            "intensité_du_courant": "50/60",
+            "capacité_des_cuves": "GN 1/1 + 1/3"
+        }
+    },
+    {
+        "code": "LQ/DKE400BA",
+        "name": "Cuiseur vapeur pour dim sum électrique.",
+        "url": "https://casta.com/fr/product/lq-dke400ba/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "puissance_électrique": "6,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/FRE1V17",
+        "name": "Friteuse électrique à une cuve .",
+        "url": "https://casta.com/fr/product/lq-fre1v17/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-FRE1V17-400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-FRE1V17-400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 54,
+            "volume": 0.3,
+            "puissance_électrique": "16,5 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1 x 17 lt"
+        }
+    },
+    {
+        "code": "L9/CUG2BB.1P1M",
+        "name": "Cuisinière gaz à deux feux.",
+        "url": "https://casta.com/fr/product/l9cug2bb/",
+        "image": "https://casta.com/wp-content/uploads/2013/10/2.-LQ-KUG2BB-450X900X270H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/10/2.-LQ-KUG2BB-450X900X270H-878x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 275,
+            "profondeur": 900,
+            "poids": 35,
+            "volume": 0.1,
+            "puissance_du_gaz": 9,
+            "brûleurs": 2,
+            "combination_brûleurs": "1x 3,5 kW +1x 5,5 kW"
+        }
+    },
+    {
+        "code": "LQ/ENN2BB",
+        "name": "Élément neutre.",
+        "url": "https://casta.com/fr/product/lq-enn2bb/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN2BB-400X900X230H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN2BB-400X900X230H_DX-877x750.png",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 25,
+            "volume": 0.1
+        }
+    },
+    {
+        "code": "LQ/FLG1V17",
+        "name": "Friteuse  gaz à une cuve.",
+        "url": "https://casta.com/fr/product/lq-flg1v17/",
+        "image": "https://casta.com/wp-content/uploads/2014/03/L9-FLG1V17-400X900X850H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2014/03/L9-FLG1V17-400X900X850H_DX-877x750.png",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 68,
+            "volume": 0.3,
+            "puissance_du_gaz": 16.5,
+            "nombre_de_cuves": 1,
+            "capacité_de_la_cuve": "1 x 17 lt"
+        }
+    },
+    {
+        "code": "LQ/BREI80M",
+        "name": "Sauteuse basculante électrique.",
+        "url": "https://casta.com/fr/product/lq-brei80m/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-BREI80M-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-BREI80M-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "épaisseur": "Fondo vasca / Bottom type / Type du fond / Fondo cuba AISI 304 12,0",
+            "poids": 152,
+            "volume": 0.6,
+            "puissance_électrique": 9.9,
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/BS1BB",
+        "name": "Grilla de pierre volcanique.",
+        "url": "https://casta.com/fr/product/lq-bs1bb/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-BS1BB-400X900X270H_DX-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-BS1BB-400X900X270H_DX-793x750.png",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 45,
+            "volume": 0.1,
+            "puissance_du_gaz": 11,
+            "combination_brûleurs": "1 x 11,0 kW"
+        }
+    },
+    {
+        "code": "LQ/PIE410",
+        "name": "Marmite électrique.",
+        "url": "https://casta.com/fr/product/lq-pie410/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-PIE415-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-PIE415-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 164,
+            "volume": 0.6,
+            "puissance_électrique": "13,0 400V 3N~",
+            "intensité_du_courant": "50/60",
+            "capacité_des_cuves": "600x415"
+        }
+    },
+    {
+        "code": "LQ/SPE40BB",
+        "name": "Chauffe frites électrique.",
+        "url": "https://casta.com/fr/product/lq-spe40bb/",
+        "image": "https://casta.com/wp-content/uploads/2021/04/LQ-SPE40BB_400X900X270H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/04/LQ-SPE40BB_400X900X270H_DX-877x750.png",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 275,
+            "profondeur": 900,
+            "poids": 45,
+            "volume": 0.1,
+            "puissance_électrique": "1,0 230V~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/DSE400BA",
+        "name": "Cuiseur vapeur pour dim sum électrique.",
+        "url": "https://casta.com/fr/product/lq-dse400ba/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 49,
+            "volume": 0.3,
+            "puissance_électrique": "12,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/SPE40BA",
+        "name": "Chauffe frites électrique.",
+        "url": "https://casta.com/fr/product/lq-spe40ba/",
+        "image": "https://casta.com/wp-content/uploads/2021/04/LQ-SPE40BA_400X900X850H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/04/LQ-SPE40BA_400X900X850H_DX-877x750.png",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 60,
+            "volume": 0.3,
+            "puissance_électrique": "1,0 230V~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/PIE415",
+        "name": "Marmite électrique.",
+        "url": "https://casta.com/fr/product/lq-pie415/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-PIE415-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-PIE415-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 164,
+            "volume": 0.6,
+            "puissance_électrique": 13,
+            "intensité_du_courant": "50/60",
+            "capacité_des_cuves": "600x540"
+        }
+    },
+    {
+        "code": "LQ/CPG2V80",
+        "name": "Cuiseur à pâtes gaz.",
+        "url": "https://casta.com/fr/product/lq-cpg2v80/",
+        "image": "https://casta.com/wp-content/uploads/2022/04/L9-CPG2V80-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/04/L9-CPG2V80-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 125,
+            "volume": 0.6,
+            "puissance_du_gaz": 30,
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "2 x 40 lt"
+        }
+    },
+    {
+        "code": "LQ/DSE400BA",
+        "name": "Cuiseur vapeur pour dim sum électrique.",
+        "url": "https://casta.com/fr/product/lq-dse400ba/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-DKE400BA-400X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 49,
+            "volume": 0.3,
+            "puissance_électrique": "12,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/BRGI80A",
+        "name": "Sauteuse basculante gaz.",
+        "url": "https://casta.com/fr/product/lq-brgi80a/",
+        "image": "https://casta.com/wp-content/uploads/2013/11/L7BRGI50A-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/11/L7BRGI50A-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "épaisseur": "Fondo vasca / Bottom type / Type du fond / Fondo cuba AISI 304 10,0",
+            "poids": 156,
+            "volume": 0.6,
+            "puissance_du_gaz": 22
+        }
+    },
+    {
+        "code": "LQ/CVE4BB",
+        "name": "Cuisinière électrique vitrocéramique.",
+        "url": "https://casta.com/fr/product/lq-cve4bb/",
+        "image": "https://casta.com/wp-content/uploads/2022/10/LQ-CVE4BB-800X900X270H_SX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/10/LQ-CVE4BB-800X900X270H_SX-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 70,
+            "puissance_électrique": "12,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 3,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/PDG415",
+        "name": "Marmite gaz.",
+        "url": "https://casta.com/fr/product/lq-pdg415/",
+        "image": "https://casta.com/wp-content/uploads/2021/09/LQ-PDG415-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/09/LQ-PDG415-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 160,
+            "volume": 0.6,
+            "puissance_du_gaz": 21
+        }
+    },
+    {
+        "code": "LQ/BREI80A",
+        "name": "Sauteuse basculante électrique.",
+        "url": "https://casta.com/fr/product/lq-brei80a/",
+        "image": "https://casta.com/wp-content/uploads/2013/12/L7BREI50A-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2013/12/L7BREI50A-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "épaisseur": "Fondo vasca / Bottom type / Type du fond / Fondo cuba AISI 304 12,0",
+            "poids": 152,
+            "volume": 0.6,
+            "puissance_électrique": 9.9,
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/FLG1V22",
+        "name": "Friteuse  gaz à une cuve.",
+        "url": "https://casta.com/fr/product/lq-flg1v22-2/",
+        "image": "https://casta.com/wp-content/uploads/2014/03/L9-FLG1V17-400X900X850H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2014/03/L9-FLG1V17-400X900X850H_DX-877x750.png",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "volume": 0.3,
+            "puissance_du_gaz": 21,
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1 x 22 lt"
+        }
+    },
+    {
+        "code": "LQ/ENN2CB",
+        "name": "Élément neutre.",
+        "url": "https://casta.com/fr/product/lq-enn2cb/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN2CB-400X900X230H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN2CB-400X900X230H_DX-877x750.png",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 25,
+            "volume": 0.1
+        }
+    },
+    {
+        "code": "LQ/FRE1V21",
+        "name": "Friteuse électrique à une cuve.",
+        "url": "https://casta.com/fr/product/lq-fre1v21/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-FRE1V17-400X900X850H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-FRE1V17-400X900X850H_DX-877x750.png",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 60,
+            "volume": 0.3,
+            "puissance_électrique": "20,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1 x 21,0 lt"
+        }
+    },
+    {
+        "code": "LQ/BS2BB",
+        "name": "Grilla de pierre volcanique.",
+        "url": "https://casta.com/fr/product/lq-bs1bb-2/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-BS2BB-800X900X270H_DX-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-BS2BB-800X900X270H_DX-793x750.png",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 70,
+            "volume": 0.2,
+            "puissance_du_gaz": 22,
+            "combination_brûleurs": "2 x 11,0 kW"
+        }
+    },
+    {
+        "code": "LQ/DKE800BA",
+        "name": "Cuiseur vapeur pour dim sum électrique.",
+        "url": "https://casta.com/fr/product/lq-dke800ba/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE800BA-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE800BA-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 98,
+            "volume": 0.6,
+            "puissance_électrique": "12,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/CUI2HBA",
+        "name": "Cuisinière à  induction.",
+        "url": "https://casta.com/fr/product/lq-cui2hba/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-CUI2LBA_400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-CUI2LBA_400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 73,
+            "volume": 0.3,
+            "puissance_électrique": "10,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 5,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/ENN4BB",
+        "name": "Élément neutre.",
+        "url": "https://casta.com/fr/product/lq-enn4bb/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN4BB-800X900X230H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN4BB-800X900X230H_DX-877x750.png",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 45,
+            "volume": 0.2
+        }
+    },
+    {
+        "code": "LQ/FRE2V8",
+        "name": "Friteuse électrique à deux cuves.",
+        "url": "https://casta.com/fr/product/lq-fre2v8/",
+        "image": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V8-400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V8-400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 54,
+            "volume": 0.3,
+            "puissance_électrique": "14,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 8 lt + 1 x 8 lt"
+        }
+    },
+    {
+        "code": "LQ/FLG2V8",
+        "name": "Friteuse  gaz à deux cuves.",
+        "url": "https://casta.com/fr/product/lq-flg2v8/",
+        "image": "https://casta.com/wp-content/uploads/2014/03/L9-FLG2V8-400X900X850H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2014/03/L9-FLG2V8-400X900X850H_DX-877x750.png",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 65,
+            "volume": 0.3,
+            "puissance_du_gaz": 11.6,
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 8 lt + 1 x 8 lt"
+        }
+    },
+    {
+        "code": "LQ/PIG410",
+        "name": "Marmite gaz .",
+        "url": "https://casta.com/fr/product/lq-pig410/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-PIG415-1-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-PIG415-1-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 162,
+            "volume": 0.6,
+            "puissance_du_gaz": 21,
+            "capacité_des_cuves": "600x415"
+        }
+    },
+    {
+        "code": "LQ/BS1BA",
+        "name": "Grillade pierre volcanique.",
+        "url": "https://casta.com/fr/product/lq-bs1ba/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-BS1BA-400X900X850H_DX-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-BS1BA-400X900X850H_DX-793x750.png",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 60,
+            "volume": 0.3,
+            "puissance_du_gaz": 11,
+            "combination_brûleurs": "1 x 11,0 kW"
+        }
+    },
+    {
+        "code": "LQ/CVE2BA",
+        "name": "Cuisinière électrique vitrocéramique.",
+        "url": "https://casta.com/fr/product/lq-cve2ba/",
+        "image": "https://casta.com/wp-content/uploads/2022/10/LQ-CVE2BA-400X900X850H_SX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/10/LQ-CVE2BA-400X900X850H_SX-793x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 45,
+            "volume": 0.3,
+            "puissance_électrique": "6,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "2 x 3,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/CUG2BB.2G",
+        "name": "Cucina a gas a due fuochi.",
+        "url": "https://casta.com/fr/product/lq-cug2bb-2g/",
+        "image": "https://casta.com/wp-content/uploads/2024/04/2g-323x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2024/04/2g.png",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 275,
+            "profondeur": 900,
+            "poids": 35,
+            "volume": 0.1,
+            "puissance_du_gaz": 14.8,
+            "brûleurs": 2,
+            "combination_brûleurs": "2 x 7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/FLG2V17",
+        "name": "Friteuse gaz à deux cuves.",
+        "url": "https://casta.com/fr/product/lq-flg2v17/",
+        "image": "https://casta.com/wp-content/uploads/2014/03/L9-FLG2V17-800X900X850H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2014/03/L9-FLG2V17-800X900X850H_DX-877x750.png",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 98,
+            "volume": 0.6,
+            "puissance_du_gaz": 33,
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 17 lt + 1 x 17 lt"
+        }
+    },
+    {
+        "code": "LQ/ENN4CB",
+        "name": "Élément neutre.",
+        "url": "https://casta.com/fr/product/lq-enn4cb/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN4CB-800X900X230H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN4CB-800X900X230H_DX-877x750.png",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 45,
+            "volume": 0.2
+        }
+    },
+    {
+        "code": "LQ/FRE2V17",
+        "name": "Friteuse électrique à deux cuves.",
+        "url": "https://casta.com/fr/product/lq-fre2v17/",
+        "image": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V17-800X900X850H_DX-1-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V17-800X900X850H_DX-1-877x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 108,
+            "volume": 0.6,
+            "puissance_électrique": "33,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 17 lt + 1 x 17 lt"
+        }
+    },
+    {
+        "code": "LQ/DSE800BA",
+        "name": "Cuiseur vapeur pour dim sum électrique.",
+        "url": "https://casta.com/fr/product/lq-dse800ba/",
+        "image": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE800BA-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/05/LQ-DKE800BA-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 98,
+            "volume": 0.6,
+            "puissance_électrique": "24,0 400V3N~",
+            "intensité_du_courant": "50/60"
+        }
+    },
+    {
+        "code": "LQ/BS2BA",
+        "name": "Grilla de pierre volcanique.",
+        "url": "https://casta.com/fr/product/lq-bs2ba/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-BS2BA-800X900X850H_DX-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-BS2BA-800X900X850H_DX-793x750.png",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 100,
+            "volume": 0.6,
+            "puissance_du_gaz": 22,
+            "combination_brûleurs": "2 x 11,0 kW"
+        }
+    },
+    {
+        "code": "LQ/FLG2V17",
+        "name": "Friteuse gaz à deux cuves.",
+        "url": "https://casta.com/fr/product/lq-flg2v17/",
+        "image": "https://casta.com/wp-content/uploads/2014/03/L9-FLG2V17-800X900X850H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2014/03/L9-FLG2V17-800X900X850H_DX-877x750.png",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 98,
+            "volume": 0.6,
+            "puissance_du_gaz": 33,
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 17 lt + 1 x 17 lt"
+        }
+    },
+    {
+        "code": "LQ/ENN4CB",
+        "name": "Élément neutre.",
+        "url": "https://casta.com/fr/product/lq-enn4cb/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN4CB-800X900X230H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN4CB-800X900X230H_DX-877x750.png",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 45,
+            "volume": 0.2
+        }
+    },
+    {
+        "code": "LQ/CUG4BB.1P1M2G",
+        "name": "Cuisinière gaz à quatre feux.",
+        "url": "https://casta.com/fr/product/lq-cug4bb-1p1m2g/",
+        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG4BB-800X900X270H-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG4BB-800X900X270H-878x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 270,
+            "profondeur": 900,
+            "poids": 70,
+            "volume": 0.2,
+            "puissance_du_gaz": 23.8,
+            "brûleurs": 4,
+            "combination_brûleurs": "1X 3,5 + 1x 5,5 kW +2x 7,4 kW"
+        }
+    },
+    {
+        "code": "LQ/FRE2V21",
+        "name": "Friteuse électrique à deux cuves.",
+        "url": "https://casta.com/fr/product/lq-fre2v21-2/",
+        "image": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V17-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2021/06/LQ-FRE2V17-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 110,
+            "volume": 0.6,
+            "puissance_électrique": "40,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "1 x 21 lt + 1 x 21 lt"
+        }
+    },
+    {
+        "code": "LQ/ENN2BA",
+        "name": "Élément neutre.",
+        "url": "https://casta.com/fr/product/lq-enn2ba/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN2BA-400X900X850H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-ENN2BA-400X900X850H_DX-877x750.png",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 50,
+            "volume": 0.3
+        }
+    },
+    {
+        "code": "LQ/CVE4NE",
+        "name": "Cuisinière électrique vitrocéramique.",
+        "url": "https://casta.com/fr/product/lq-cve4ne/",
+        "image": "https://casta.com/wp-content/uploads/2022/03/LQ-CVE4LE-800X900X850H_DX-317x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/03/LQ-CVE4LE-800X900X850H_DX-793x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 150,
+            "volume": 0.6,
+            "puissance_électrique": "19,08 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x 3,0 kW 400V3N~",
+            "four": "1 x 5,48 kW 400V3N~",
+            "dimensions_intérieurs_du_four": "530x685x350h"
+        }
+    },
+    {
+        "code": "LQ/CQE6BA",
+        "name": "Cuisinière électrique",
+        "url": "https://casta.com/fr/product/lq-cqe6ba/",
+        "image": "https://casta.com/wp-content/uploads/2021/03/LQ-CQE6BA-317x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/03/LQ-CQE6BA-793x750.png",
+        "specs": {
+            "largeur": 1200,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 130,
+            "volume": 0.9,
+            "puissance_électrique": "24,0 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "6 x 4,0 kW 400V3N~"
+        }
+    },
+    {
+        "code": "LQ/ENN2CA",
+        "name": "Elément neutre avec tiroir.",
+        "url": "https://casta.com/fr/product/lq-enn2ca-2/",
+        "image": "https://casta.com/wp-content/uploads/2022/01/LQ-ENN2CA-400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/01/LQ-ENN2CA-400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 48,
+            "volume": 0.3
+        }
+    },
+    {
+        "code": "LQ/FRG1V17",
+        "name": "Friteuse gaz à une cuve.",
+        "url": "https://casta.com/fr/product/lq-frg1v17/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG1V17-400X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG1V17-400X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 62,
+            "volume": 0.3,
+            "puissance_du_gaz": 16,
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1 x 17 lt"
+        }
+    },
+    {
+        "code": "LQ/CQE4NE",
+        "name": "Cuisinière électrique.",
+        "url": "https://casta.com/fr/product/lq-cqe4le-2/",
+        "image": "https://casta.com/wp-content/uploads/2022/02/LQ-CQE4LE-800X900X850H-334x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/02/LQ-CQE4LE-800X900X850H-835x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 155,
+            "volume": 0.6,
+            "puissance_électrique": "21,48 400V3N~",
+            "intensité_du_courant": "50/60",
+            "zones_de_cuisson_électriques": "4 x  4,0 kW 400V3N~",
+            "four": "1 x 5,48 kW 400V3N~",
+            "dimensions_intérieurs_du_four": "685X530X350"
+        }
+    },
+    {
+        "code": "LQ/FRG1V21",
+        "name": "Friteuse gaz à une cuve.",
+        "url": "https://casta.com/fr/product/lq-frg1v21/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG1V17-400X900X850H_DX-1-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG1V17-400X900X850H_DX-1-877x750.jpg",
+        "specs": {
+            "largeur": 400,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 62,
+            "volume": 0.3,
+            "puissance_du_gaz": 19,
+            "nombre_de_cuves": 1,
+            "capacité_des_cuves": "1 x 21 lt"
+        }
+    },
+    {
+        "code": "LQ/ENN4BA",
+        "name": "Élément neutre.",
+        "url": "https://casta.com/fr/product/lq-enn4ba-2/",
+        "image": "https://casta.com/wp-content/uploads/2022/03/LQ-ENN4BA-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/03/LQ-ENN4BA-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 112,
+            "volume": 0.6
+        }
+    },
+    {
+        "code": "LQ/FRG2V17",
+        "name": "Friteuse gaz à deux cuves.",
+        "url": "https://casta.com/fr/product/lq-frg2v17/",
+        "image": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG2V13-800X900X850H_DX-351x300.jpg",
+        "image_large": "https://casta.com/wp-content/uploads/2022/06/LQ-FRG2V13-800X900X850H_DX-877x750.jpg",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 124,
+            "volume": 0.6,
+            "puissance_du_gaz": 32,
+            "nombre_de_cuves": 2,
+            "capacité_des_cuves": "2 x 17 lt"
+        }
+    },
+    {
+        "code": "LQ/ENN4CA",
+        "name": "Elément neutre avec tiroir.",
+        "url": "https://casta.com/fr/product/lq-enn4ca/",
+        "image": "https://casta.com/wp-content/uploads/2021/04/LQ-ENN4CA-800X900X850H_DX-351x300.png",
+        "image_large": "https://casta.com/wp-content/uploads/2021/04/LQ-ENN4CA-800X900X850H_DX-877x750.png",
+        "specs": {
+            "largeur": 800,
+            "hauteur": 850,
+            "profondeur": 900,
+            "poids": 90,
+            "volume": 0.6
+        }
+    }
+]

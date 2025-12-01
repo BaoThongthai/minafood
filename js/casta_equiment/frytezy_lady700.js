@@ -6,7 +6,7 @@
     const CATEGORY_SLOT = "#category-slot";
     const EXTRA_FILTER_SLOT = "#extra-filter-slot"; // filter loại thiết bị + nguồn nhiệt
 
-    const DATA_URL = "js/casta_equiment/data/casta_Etnica.json";
+    const DATA_URL = "js/casta_equiment/data/frytezy_Easy700.json";
 
     const LABELS = {
         loadingAria: "loading",
@@ -526,13 +526,13 @@
         // Chỉ hiển thị list static, không filter trong JS
         // Bạn thay href="#" thành link HTML tương ứng sau
         slot.innerHTML = `
-        <a href="Fritezyprime700.html" class="mf-filter-row d-flex justify-content-between mt-3">
+              <a href="Fritezyprime700.html" class="mf-filter-row d-flex justify-content-between mt-3">
             <span>PRIME700</span>
           </a><hr/>
           <a href="FritezyEasy700.html" class="mf-filter-row d-flex justify-content-between">
             <span>EASY700</span>
           </a><hr/>
-          <a href="Fritezylady700.html" class="mf-filter-row d-flex justify-content-between">
+          <a href="Fritezylady700.html" class="mf-filter-row d-flex justify-content-between active1">
             <span>LADY700</span>
           </a><hr/>
           <a href="Fritezylady900.html" class="mf-filter-row d-flex justify-content-between">
@@ -541,7 +541,7 @@
           <a href="Fritezy_PastryFryers.html" class="mf-filter-row d-flex justify-content-between">
             <span>PASTRY FRYERS</span>
           </a><hr/>
-          <a href="casta_Etica.html" class="mf-filter-row d-flex justify-content-between active1">
+          <a href="casta_Etica.html" class="mf-filter-row d-flex justify-content-between">
              <span>ETNICA</span>
           </a>
          

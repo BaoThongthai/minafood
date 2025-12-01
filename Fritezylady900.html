@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>MinaFood - Combisteel_Drop-in_cooking_range</title>
+    <title>MinaFood - frytezy lady 900</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <!-- minafood -->
     <meta name="description"
@@ -67,53 +67,6 @@
     <link href="css/mf_search.css" rel="stylesheet" />
     <script src="js/funtion_search_input.js"></script>
     <link rel="stylesheet" href="css/product_page.css">
-    <style>
-        /* ====== UNOX – Sidebar category menu ====== */
-
-        .mf-cat-nav {
-            font-size: 0.95rem;
-            padding-left: 2px;
-            margin-bottom: 1.5rem;
-        }
-
-        /* từng dòng category */
-        .mf-cat-link {
-            color: #222;
-            /* màu chữ xám đậm */
-            text-decoration: none;
-            display: block;
-            padding: 3px 2px;
-            border-radius: 3px;
-            line-height: 1.4;
-        }
-
-        /* khoảng cách giữa các dòng */
-        .mf-cat-link+.mf-cat-link {
-            margin-top: 4px;
-        }
-
-        /* sub-category (đã có .ms-3 của bootstrap) cho cảm giác thụt vào */
-        .mf-cat-link.ms-3 {
-            font-size: 0.92rem;
-        }
-
-        /* hover giống Unox: chữ xanh, không nền đậm quá */
-        .mf-cat-link:hover {
-            color: #0070d8;
-            background-color: #f3f7ff;
-        }
-
-        /* dòng đang ACTIVE – chữ xanh + hơi đậm, nền nhạt */
-        .mf-cat-link.active {
-            color: #0070d8;
-            font-weight: 600;
-            background-color: #e6f0ff;
-        }
-    </style>
-    <link rel="stylesheet" href="style-menungang.css">
-    <script src="scripst-menungang.js"></script>
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
 </head>
 
 <body>
@@ -189,7 +142,7 @@
 
     <!-- Single Page Header start -->
     <div class="page-header d-flex align-items-center justify-content-center text-center" style="
-        background: url('https://www.combisteel.com/media/wysiwyg/1_-_cooking_range_OF_7_-_neutral_-_lasse-bergqvist-ro3H4mJIArA-unsplash_612x408px.jpg')
+        background: url('img/kitchen-with-large-window.png')
           center center/cover no-repeat;
         height: 320px;
         position: relative;
@@ -205,14 +158,10 @@
 
         <div class="container position-relative z-1 text-white">
             <h1 class="fw-bold display-5 mb-3 text-uppercase" style="color: white">
-                Combisteel Drop-in cooking range
+                Fritezy LADYQ900
             </h1>
-            <small data-i18n="title_combisteel_range">Objevte náš výběr produktů z řady vaření, speciálně vytvořených
-                pro profesionální kuchaře. Od plynových varných stolů a pečicích plechů až po praktické příslušenství,
-                naše kolekce nabízí vše, co potřebujete v profesionální kuchyni. Snadno připravte lahodná jídla, která
-                zapůsobí na každého.</small>
-            <a href="Fritezyprime700.html">
-                <p class="mb-0 mt-3" style="color: antiquewhite">
+            <a href="index.html#Kategorie">
+                <p class="mb-0" style="color: antiquewhite">
                     <i class="fa-solid fa-backward" style="color: white"></i>&nbsp; Back
                 </p>
             </a>
@@ -229,153 +178,46 @@
             <p id="popup-weight"></p>
         </div>
     </div>
-
-
-    <!-- mina Shop Start-->
     <div class="container-fluid fruite py-5">
         <div class="container-fluid py-5">
             <div class="row g-4">
 
-
-
-                <!-- SIDEBAR FILTER -->
                 <!-- SIDEBAR FILTER -->
                 <aside class="col-lg-3 mb-4">
 
 
-                    <!-- CATEGORY – cố định, không dính JS -->
-                    <div class="filter-content bg-light border rounded p-3" x-data="{ catOpen: true }">
+
+                    <!-- CATEGORY – khung cố định, LIST bên trong sẽ do JS fill -->
+                    <div class="filter-content bg-light border rounded p-3">
                         <!-- tiêu đề -->
-                        <div class="filter-options-title d-flex justify-content-between align-items-center cursor-pointer"
-                            @click="catOpen = !catOpen">
+                        <div
+                            class="filter-options-title d-flex justify-content-between align-items-center cursor-pointer">
                             <span class="title text-uppercase">Category</span>
                             <span>
-                                <i class="fa-solid fa-chevron-down" :class="{ 'rotate-180': catOpen }"
-                                    style="transition: transform .3s"></i>
+                                <i class="fa-solid fa-chevron-down" style="transition: transform .3s"></i>
                             </span>
                         </div>
 
-                        <!-- danh sách category fix cứng -->
-                        <div class="filter-options-content pt-2" x-show="catOpen">
-                            <a href="Combisteel_Cooking_range.html"
-                                class="mf-filter-row d-flex justify-content-between">
-                                <span>Range</span>
-                                <span class="count text-muted">(37)</span>
-                            </a>
-
-                            <a href="Combisteel_Cooking_induction.html"
-                                class="mf-filter-row d-flex justify-content-between ">
-                                <span>Induction</span>
-                                <span class="count text-muted">(11)</span>
-                            </a>
-
-                            <a href="Combisteel_Cooking_range_with_oven.html"
-                                class="mf-filter-row d-flex justify-content-between ">
-                                <span>Range with oven</span>
-                                <span class="count text-muted">(10)</span>
-                            </a>
-
-                            <a href="Combisteel_Cooking_solid_top.html"
-                                class="mf-filter-row d-flex justify-content-between">
-                                <span>Solid top</span>
-                                <span class="count text-muted">(1)</span>
-                            </a>
-
-                            <a href="Combisteel_Lava_stone_grill.html"
-                                class="mf-filter-row d-flex justify-content-between">
-                                <span>Lava stone grill</span>
-                                <span class="count text-muted">(7)</span>
-                            </a>
-
-                            <a href="Combisteel_Vapor_grill.html" class="mf-filter-row d-flex justify-content-between">
-                                <span>Vapor grill</span>
-                                <span class="count text-muted">(3)</span>
-                            </a>
-
-                            <a href="Combisteel_Fry_top.html" class="mf-filter-row d-flex justify-content-between">
-                                <span>Fry top</span>
-                                <span class="count text-muted">(41)</span>
-                            </a>
-
-                            <a href="Combisteel_Fryer.html" class="mf-filter-row d-flex justify-content-between">
-                                <span>Fryer</span>
-                                <span class="count text-muted">(23)</span>
-                            </a>
-
-                            <a href="Combisteel_Pasta_cooker.html" class="mf-filter-row d-flex justify-content-between">
-                                <span>Pasta cooker</span>
-                                <span class="count text-muted">(7)</span>
-                            </a>
-
-                            <a href="Combisteel_Bain_marie.html" class="mf-filter-row d-flex justify-content-between">
-                                <span>Bain-marie</span>
-                                <span class="count text-muted">(5)</span>
-                            </a>
-
-                            <a href="Combisteel_Boiling_pan.html" class="mf-filter-row d-flex justify-content-between">
-                                <span>Boiling pan</span>
-                                <span class="count text-muted">(7)</span>
-                            </a>
-
-                            <a href="Combisteel_Tilting_pan.html" class="mf-filter-row d-flex justify-content-between">
-                                <span>Tilting pan</span>
-                                <span class="count text-muted">(5)</span>
-                            </a>
-
-                            <a href="Combisteel_Neutral.html" class="mf-filter-row d-flex justify-content-between">
-                                <span>Neutral</span>
-                                <span class="count text-muted">(15)</span>
-                            </a>
-
-                            <!-- Làm thêm chỗ này -->
-                            <a href="Combisteel_Entry_700.html" class="mf-filter-row d-flex justify-content-between ">
-                                <span>Entry 700</span>
-                                <span class="count text-muted">(12)</span>
-                            </a>
-
-                            <a href="Combisteel_Base_600.html" class="mf-filter-row d-flex justify-content-between ">
-                                <span>Base 600</span>
-                                <span class="count text-muted">(32)</span>
-                            </a>
-
-                            <a href="Combisteel_Base_700.html" class="mf-filter-row d-flex justify-content-between ">
-                                <span>Base 700</span>
-                                <span class="count text-muted">(51)</span>
-                            </a>
-
-                            <a href="Combisteel_Base_700_Countertop.html"
-                                class="mf-filter-row d-flex justify-content-between ">
-                                <span>Base 700 Countertop</span>
-                                <span class="count text-muted">(37)</span>
-                            </a>
-
-                            <a href="Combisteel_Base_900.html" class="mf-filter-row d-flex justify-content-between ">
-                                <span>Base 900</span>
-                                <span class="count text-muted">(56)</span>
-                            </a>
-
-                            <a href="Combisteel_Drop-in_cooking_range.html"
-                                class="mf-filter-row d-flex justify-content-between active">
-                                <span>Drop-in cooking range</span>
-                                <span class="count text-muted">(26)</span>
-                            </a>
-
+                        <!-- danh sách category: JS products_filter_paged.js sẽ vẽ vào đây -->
+                        <div class="filter-options-content pt-2" id="category-slot">
+                            <!-- JS fill: Bếp điện / Bếp ga / Khác -->
                         </div>
                     </div>
-                    <!-- FILTER động: JS combisteel_cooking_range.js sẽ vẽ vào đây -->
-                    <div id="filter-panel" class="filter-content bg-light border rounded p-3 mt-4">
-                        <!-- để trống, JS sẽ fill -->
+
+                    <!-- FILTER động khác (để trống, sau này muốn thêm depth/height thì dùng tiếp) -->
+                    <div id="extra-filter-slot" class="filter-content bg-light border rounded p-3 mt-4">
+                        <!-- currently empty -->
                     </div>
+
 
 
                 </aside>
 
 
-
                 <!-- PRODUCT GRID + PAGER -->
                 <div class="col-lg-9">
                     <div id="product-grid" class="row g-4">
-                        <!-- JS sẽ render sản phẩm vào đây -->
+                        <!-- JS render sản phẩm -->
                     </div>
 
                     <!-- Phân trang -->
@@ -385,10 +227,6 @@
             </div>
         </div>
     </div>
-
-
-    <!-- Fruits Shop End-->
-
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
@@ -514,7 +352,8 @@
     <script src="js/main.js"></script>
     <script src="js/i18n.js"></script>
     <script src="js/cart.js"></script>
-    <script src="js/combisteel_drop-in_cooking_range.js"></script>
+    <script src="js/casta_equiment/frytezy_lady900.js"></script>
+
 </body>
 
 </html>

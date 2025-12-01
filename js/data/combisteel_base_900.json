@@ -517,58 +517,6 @@
         "accessories": []
     },
     {
-        "code": "7178.3025",
-        "name": "BASE 900 GAS STOVE 6 BU. WITH GAS OVEN",
-        "url": "https://www.combisteel.com/en/7178-3025-base-900-gas-stove-6-bu-with-gas-oven.html",
-        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3025-15409.jpg",
-        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3025-15409.jpg",
-        "price": 93625,
-        "price_currency": " Kč bez DPH",
-        "price_text": "93 625 Kč",
-        "specs": {
-            "ean_code": 7422242982945,
-            "width": 1200,
-            "depth": 900,
-            "height": 900,
-            "parcel_ready": "No",
-            "gross_weight": 215,
-            "particulars": "2/1 GN geschikt voor de oven",
-            "total_gas_output": 57,
-            "version": "Gas",
-            "model_tabletop/_freestanding/drop-in": "Freestanding",
-            "oven_power": 6,
-            "burner_capacity_/_division": "6X 8,5",
-            "number_of_burners": 6,
-            "brand": "COMBISTEEL"
-        },
-        "downloads": [
-            {
-                "label": "Manual 7178 Gas Range (ENG-NL-DE-FR)",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231314/product/4278/"
-            },
-            {
-                "label": "Exploded view 7178.3025 (2024)",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231315/product/4278/"
-            },
-            {
-                "label": "Oven dimensions 7178.0415-0420-0435-0590-3015-3020-3025-3030-3035-3040",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231316/product/4278/"
-            }
-        ],
-        "accessories": [
-            {
-                "code": "7488.9055",
-                "name": "PRO 700/900 GRID FOR PAN",
-                "url": "https://www.combisteel.com/en/7488-9055-pro-700-900-grid-for-pan.html",
-                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
-                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
-                "price": 300,
-                "price_currency": " Kč bez DPH",
-                "price_text": "300 Kč"
-            }
-        ]
-    },
-    {
         "code": "7178.3050",
         "name": "BASE 900 GAS FRYER 2X19L",
         "url": "https://www.combisteel.com/en/7178-3050-base-900-gas-fryer-2x19l.html",
@@ -706,55 +654,6 @@
             }
         ],
         "accessories": []
-    },
-    {
-        "code": "7178.3020",
-        "name": "BASE 900 GAS STOVE 4 BU. WITH ELECTRIC OVEN",
-        "url": "https://www.combisteel.com/en/7178-3020-base-900-gas-stove-4-bu-with-electric-oven.html",
-        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3020-15408.jpg",
-        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_3020-15408.jpg",
-        "price": 84500,
-        "price_currency": " Kč bez DPH",
-        "price_text": "84 500 Kč",
-        "specs": {
-            "ean_code": 7422242982938,
-            "width": 800,
-            "depth": 900,
-            "height": 900,
-            "parcel_ready": "No",
-            "gross_weight": 144,
-            "particulars": "2/1 GN geschikt voor de oven",
-            "voltage": 400,
-            "electrical_power": 6,
-            "total_gas_output": 40,
-            "version": "Gas",
-            "model_tabletop/_freestanding/drop-in": "Freestanding",
-            "burner_capacity_/_division": "4X 8,5",
-            "number_of_burners": 4,
-            "brand": "COMBISTEEL"
-        },
-        "downloads": [
-            {
-                "label": "Exploded view 7178.3020 (2024)",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215918/product/4259/"
-            },
-            {
-                "label": "Oven dimensions 7178.0415-0420-0435-0590-3015-3020-3025-3030-3035-3040",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215919/product/4259/"
-            }
-        ],
-        "accessories": [
-            {
-                "code": "7488.9055",
-                "name": "PRO 700/900 GRID FOR PAN",
-                "url": "https://www.combisteel.com/en/7488-9055-pro-700-900-grid-for-pan.html",
-                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
-                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7488_9055-6842.jpg",
-                "price": 300,
-                "price_currency": " Kč bez DPH",
-                "price_text": "300 Kč"
-            }
-        ]
     },
     {
         "code": "7178.3200",

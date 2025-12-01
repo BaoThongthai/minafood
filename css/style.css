@@ -2085,3 +2085,32 @@ nav[aria-label="Pagination"] .page-item.disabled .page-link {
     transform: translateY(0) scale(1);
   }
 }
+
+
+
+/* Base row */
+.mf-filter-row {
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: #1f3353;
+  text-decoration: none;
+  transition: background 0.25s, color 0.25s;
+}
+
+/* Hover */
+.mf-filter-row:hover {
+  background: #f0f6ff;
+  /* xanh nhạt */
+  color: #1f3353;
+}
+
+/* ACTIVE — giống hình bạn gửi */
+.mf-filter-row.active1 {
+  background: #e6f0ff !important;
+  /* xanh nhạt highlight */
+  color: #1f3353 !important;
+  font-weight: 600;
+  border-radius: 6px;
+}

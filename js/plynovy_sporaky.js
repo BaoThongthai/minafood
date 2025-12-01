@@ -4,9 +4,9 @@
   const COUNT_EL = "#product-count";
   const PAGER_SLOT = "#pager-slot";
   const CATEGORY_SLOT = "#category-slot";
-  const EXTRA_FILTER_SLOT = "#extra-filter-slot"; // optional: filter số hořák
+  const EXTRA_FILTER_SLOT = "#extra-filter-slot"; // optional: filter số hořák + loại thiết bị + nguồn nhiệt + cooking range + base
 
-  const DATA_URL = "js/data/plynovy_sporaky.json";
+  const DATA_URL = "js/data/plynovy_sporaky.json"; // đổi sang JSON khác nếu dùng cho trang khác
 
   const LABELS = {
     loadingAria: "loading",
@@ -45,13 +45,48 @@
     burners3: { en: "3 burners", cs: "3 hořáky" },
     burners4plus: { en: "4+ burners", cs: "4+ hořáků" },
 
-    // 👇 THÊM MỚI Ở ĐÂY
+    // Loại thiết bị
     typeTitle: { en: "Appliance type", cs: "Typ zařízení" },
     typeAll: { en: "All", cs: "Vše" },
     typeStove: { en: "Stoves / wok", cs: "Sporáky / wok" },
     typeGrill: { en: "Grills / BBQ", cs: "Grilly / BBQ" },
+    typeFryer: { en: "Deep fryers", cs: "Fritézy" },
     typeChinese: { en: "Chinese cooker", cs: "Čínský sporák" },
     typeSpare: { en: "Accessories", cs: "Příslušenství" },
+
+    // Nguồn nhiệt
+    powerTitle: { en: "Power source", cs: "Typ ohřevu" },
+    powerAll: { en: "All", cs: "Vše" },
+    powerGas: { en: "Gas", cs: "Plyn" },
+    powerElectric: { en: "Electric", cs: "Elektřina" },
+    powerCombo: {
+      en: "Gas & electric / Infrared",
+      cs: "Kombinované / infra",
+    },
+
+    // 🔹 Cooking range type (hình 1)
+    rangeKindTitle: {
+      en: "Cooking range type",
+      cs: "Typ varné desky",
+    },
+    rangeAll: { en: "All", cs: "Vše" },
+    rangeRange: { en: "Range", cs: "Range" },
+    rangeInduction: { en: "Induction", cs: "Indukce" },
+    rangeWithOven: { en: "Range with oven", cs: "Range s troubou" },
+
+    // 🔹 Base (hình 2)
+    baseTitle: { en: "Base", cs: "Base" },
+    baseAll: { en: "All", cs: "Vše" },
+    base700: { en: "Base 700", cs: "Base 700" },
+    base700Top: {
+      en: "Base 700 Countertop",
+      cs: "Base 700 Countertop",
+    },
+    base900: { en: "Base 900", cs: "Base 900" },
+    baseDropIn: {
+      en: "Drop-in cooking range",
+      cs: "Drop-in cooking range",
+    },
   };
 
   function t(key) {
@@ -71,7 +106,6 @@
   };
 
   // ========= CATEGORY RULES =========
-  // dùng key cố định, label i18n
   const CATEGORY_RULES = [
     {
       key: "electric",
@@ -123,7 +157,7 @@
   }
 
   // ========= FILTER: LOẠI THIẾT BỊ =========
-  const TYPE_KEYS = ["all", "stove", "grill", "chinese", "spare"];
+  const TYPE_KEYS = ["all", "stove", "grill", "fryer", "chinese", "spare"];
 
   function getTypeLabel(key) {
     switch (key) {
@@ -131,6 +165,8 @@
         return t("typeStove");
       case "grill":
         return t("typeGrill");
+      case "fryer":
+        return t("typeFryer");
       case "chinese":
         return t("typeChinese");
       case "spare":
@@ -148,10 +184,13 @@
       .join(" ")
       .toLowerCase();
 
+    // Deep fryer
+    if (/fryer/.test(text)) return "fryer";
+
     // Chinese / Eurasia / wok
     if (/(cucina cinese|eurasia|wok)/.test(text)) return "chinese";
 
-    // Grill / BBQ / skewer / teppanyaki
+    // Grill / BBQ / skewer / teppanyaki / stone sausage
     if (/(grill|bbq|skewer|teppanyaki|stone sausage)/.test(text)) return "grill";
 
     // Phụ tùng / tile / burner head...
@@ -162,6 +201,102 @@
     return "stove";
   }
 
+  // ========= FILTER: NGUỒN NHIỆT =========
+  const POWER_KEYS = ["all", "gas", "electric", "combo"];
+
+  function getPowerLabel(key) {
+    switch (key) {
+      case "gas":
+        return t("powerGas");
+      case "electric":
+        return t("powerElectric");
+      case "combo":
+        return t("powerCombo");
+      case "all":
+      default:
+        return t("powerAll");
+    }
+  }
+
+  function detectPowerGroup(p = {}) {
+    const text = [p.name, p.line1, p.line2, p.label]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+
+    const hasGas = /(gas|plynový|plynovy)/.test(text);
+    const hasElec = /(electric|elektrick|induction|indukční)/.test(text);
+
+    if (hasGas && hasElec) return "combo";
+    if (hasGas) return "gas";
+    if (hasElec) return "electric";
+
+    return "all";
+  }
+
+  // ========= NEW: COOKING RANGE TYPE (Range / Induction / Range with oven) =========
+  const RANGE_KIND_KEYS = ["all", "range", "induction", "range_oven"];
+
+  function getRangeKindLabel(key) {
+    switch (key) {
+      case "range":
+        return t("rangeRange");
+      case "induction":
+        return t("rangeInduction");
+      case "range_oven":
+        return t("rangeWithOven");
+      case "all":
+      default:
+        return t("rangeAll");
+    }
+  }
+
+  function detectRangeKind(p = {}) {
+    const text = [p.name, p.line1, p.line2, p.label]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+
+    if (/induction/.test(text)) return "induction";
+    if (/(range with oven|with oven)/.test(text)) return "range_oven";
+    if (/range/.test(text)) return "range";
+
+    return "all";
+  }
+
+  // ========= NEW: BASE TYPE (Base 700 / Base 900 / Drop-in...) =========
+  const BASE_KEYS = ["all", "base700", "base700top", "base900", "dropin"];
+
+  function getBaseLabel(key) {
+    switch (key) {
+      case "base700":
+        return t("base700");
+      case "base700top":
+        return t("base700Top");
+      case "base900":
+        return t("base900");
+      case "dropin":
+        return t("baseDropIn");
+      case "all":
+      default:
+        return t("baseAll");
+    }
+  }
+
+  function detectBaseGroup(p = {}) {
+    const text = [p.name, p.line1, p.line2, p.label]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+
+    if (/base 700 countertop/.test(text)) return "base700top";
+    if (/base 900/.test(text)) return "base900";
+    if (/drop[-\s]?in/.test(text)) return "dropin";
+    if (/base 700/.test(text)) return "base700";
+
+    return "all";
+  }
+
   const SEE_ALL = LABELS.seeAll;
 
   // ========= STATE =========
@@ -170,8 +305,10 @@
   let currentPage = 1;
   let currentCategory = CAT_ALL_KEY;
   let currentBurners = "all";
-  let currentType = "all";          // NEW: filter theo loại thiết bị
-
+  let currentType = "all";
+  let currentPower = "all";
+  let currentRangeKind = "all"; // NEW
+  let currentBase = "all"; // NEW
 
   // đọc ?cat & ?page (cat = key)
   const qs = new URLSearchParams(location.search);
@@ -183,12 +320,10 @@
   const grid = document.querySelector(GRID_SELECTOR);
   if (!grid) return;
 
-  // ========= UTIL =========
-  // ========= UTIL: chuẩn hoá data Casta =========
+  // ========= UTIL: chuẩn hoá data =========
   const normalize = (p) => {
     const s = p?.specs || {};
 
-    // Map cả key tiếng Anh lẫn tiếng Ý
     const width = s.width ?? s.larghezza ?? null;
     const height = s.height ?? s.altezza ?? null;
     const depth = s.depth ?? s["profondità"] ?? s.profondita ?? null;
@@ -199,13 +334,13 @@
     const burners_combination =
       s.burners_combination ?? s.combinazione_bruciatori ?? "";
 
-    // Dòng 1: kích thước
     const dimStr =
       width || depth || height
-        ? `Dimensioni (L×P×H): ${[width, depth, height].filter(Boolean).join(" x ")} mm`
+        ? `Dimensioni (L×P×H): ${[width, depth, height]
+          .filter(Boolean)
+          .join(" x ")} mm`
         : "";
 
-    // Dòng 2: các thông số còn lại (dùng cho inquiry / fallback)
     const detailParts = [];
     if (weight != null) detailParts.push(`Peso: ${weight} kg`);
     if (volume != null) detailParts.push(`Volume: ${volume} m³`);
@@ -218,9 +353,9 @@
       id: p?.code || p?.id || p?.name || "",
       sku: p?.code || p?.sku || "",
       name: p?.name || "",
-      line1: dimStr,
-      line2: detailStr,
-      label: "",
+      line1: p?.line1 || dimStr,
+      line2: p?.line2 || detailStr,
+      label: p?.label || "",
       price: p?.price === "" || p?.price == null ? null : Number(p.price),
       currency: (p?.currency || "").trim(),
       image: p?.image || p?.image_large || "img/placeholder.webp",
@@ -237,7 +372,6 @@
       },
     };
   };
-
 
   const specsHTML = (p) => {
     const s = p.specs || {};
@@ -264,7 +398,6 @@
     </ul>
   `;
   };
-
 
   const fmtPrice = (price, currency) => {
     if (price == null || price === "" || isNaN(price) || Number(price) <= 0)
@@ -300,74 +433,23 @@
     return "other";
   }
 
-  // đọc số hořák từ text
+  // đọc số hořák từ text (hořák / burner / bruciatori)
   function detectBurnerGroup(p = {}) {
     const text = [p.name, p.line1, p.line2, p.label]
       .filter(Boolean)
       .join(" ")
       .toLowerCase();
 
-    if (/(^|\s)1\s*(hoř|horak|burner)/.test(text)) return "1";
-    if (/(^|\s)2\s*(hoř|horak|burner)/.test(text)) return "2";
-    if (/(^|\s)3\s*(hoř|horak|burner)/.test(text)) return "3";
+    if (/(^|\s)1\s*(hoř|horak|burner|bruciatori|fuochi)/.test(text)) return "1";
+    if (/(^|\s)2\s*(hoř|horak|burner|bruciatori|fuochi)/.test(text)) return "2";
+    if (/(^|\s)3\s*(hoř|horak|burner|bruciatori|fuochi)/.test(text)) return "3";
     if (
-      /(4|5|6|7|8|9)\s*(hoř|horak|burner)/.test(text) ||
+      /(4|5|6|7|8|9)\s*(hoř|horak|burner|bruciatori|fuochi)/.test(text) ||
       /(4\s*\+?\s*burners?)/.test(text)
     )
       return "4+";
 
     return "all";
-  }
-
-  // ========= RENDER CARD =========
-  // ========= RENDER CARD (HIỂN THỊ NHIỀU THÔNG TIN HƠN) =========
-
-  // format kích thước
-  function getDimensionsText(p) {
-    if (p.dimensions && (p.dimensions.w || p.dimensions.d || p.dimensions.h)) {
-      const w = p.dimensions.w;
-      const d = p.dimensions.d;
-      const h = p.dimensions.h;
-      if (w && d && h) return `${w} x ${d} x ${h} mm`;
-    }
-
-    if (p.specs && (p.specs.larghezza || p.specs.profondità || p.specs.altezza)) {
-      const w = p.specs.larghezza;
-      const d = p.specs.profondità;
-      const h = p.specs.altezza;
-      if (w && d && h) return `${w} x ${d} x ${h} mm`;
-    }
-
-    return "";
-  }
-
-  // format cân nặng
-  function getWeightText(p) {
-    if (p.weight) return `${p.weight} kg`;
-    if (p.specs && p.specs.peso) return `${p.specs.peso} kg`;
-    return "";
-  }
-
-  // sku / code
-  function getCode(p) {
-    return p.sku || p.item_number || p.code || "";
-  }
-
-  // mô tả ngắn
-  function getShortDescription(p) {
-    if (p.line1) return p.line1;
-    if (p.specs && p.specs.combinazione_bruciatori) return p.specs.combinazione_bruciatori;
-    return "";
-  }
-
-  // giá
-  function getPriceText(p) {
-    if (typeof p.price === "number")
-      return `${p.price.toLocaleString("cs-CZ")} ${p.currency || ""}`;
-
-    if (p.price_src) return p.price_src;
-
-    return "";
   }
 
   // ========= RENDER CARD =========
@@ -378,23 +460,34 @@
 
     return `
     <div class="col-md-6 col-lg-4 col-xl-3">
-      <div class="rounded position-relative fruite-item h-100" data-id="${String(p.id).replace(/"/g, "&quot;")}">
+      <div class="rounded position-relative fruite-item h-100" data-id="${String(
+      p.id
+    ).replace(/"/g, "&quot;")}">
         <div class="fruite-img">
           <img src="${p.image}" class="img-fluid w-100 rounded-top border border-secondary" alt="${p.name}">
         </div>
 
-        ${p.label ? `
+        ${p.label
+        ? `
         <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
-             style="top:10px;left:10px;font-size:12px">${p.label}</div>` : ""}
+             style="top:10px;left:10px;font-size:12px">${p.label}</div>`
+        : ""
+      }
 
         <div class="p-4 border border-secondary border-top-0 rounded-bottom d-flex flex-column">
 
           <h4 class="mb-1 line-clamp-2" title="${p.name}">${p.name}</h4>
-          ${p.sku ? `<p class="mb-1 small text-secondary">Code: ${p.sku}</p>` : ""}
+          ${p.sku
+        ? `<p class="mb-1 small text-secondary">Code: ${p.sku}</p>`
+        : ""
+      }
 
           ${specsHTML(p)}
 
-          ${priceText ? `<p class="mb-3 fw-semibold">${priceText}</p>` : `<p class="mb-3"></p>`}
+          ${priceText
+        ? `<p class="mb-3 fw-semibold">${priceText}</p>`
+        : `<p class="mb-3"></p>`
+      }
 
           <div class="mt-auto d-flex justify-content-between gap-2">
             ${hasPrice
@@ -426,8 +519,6 @@
   `;
   };
 
-
-
   // ========= POPUP =========
   const popup = document.getElementById("product-popup");
   const popupImg = document.getElementById("popup-img");
@@ -436,7 +527,6 @@
   const popupWeight = document.getElementById("popup-weight");
   const popupClose = document.querySelector(".product-popup-close");
 
-  // ========= POPUP =========
   function openPopup(p) {
     if (!popup) return;
     popupImg.src = p.image || "img/placeholder.webp";
@@ -531,7 +621,6 @@
     const slot = document.querySelector(CATEGORY_SLOT);
     if (!slot) return;
 
-    // Đếm số sản phẩm mỗi category
     const counts = {};
     for (const p of allProducts) {
       const catKey = detectCategory(p);
@@ -546,7 +635,8 @@
         const isAll = key === CAT_ALL_KEY;
         const label = isAll ? t("all") : getCategoryLabel(key);
         const count = isAll ? totalAll : counts[key] || 0;
-        const active = key === currentCategory ? "" : "";
+        const active = key === currentCategory ? "active" : "";
+
         return `
           <a href="#"
              class="mf-filter-row d-flex justify-content-between ${active}"
@@ -562,22 +652,26 @@
       a.addEventListener("click", (e) => {
         e.preventDefault();
         const cat = a.getAttribute("data-cat") || CAT_ALL_KEY;
-        if (cat === currentCategory) return;
         currentCategory = cat;
         currentPage = 1;
         applyFilter();
+        renderCategorySidebar();
+        renderExtraFilters();
         renderProducts();
       });
     });
   }
 
-  // ========= EXTRA FILTER: Burners + Type =========
+  // ========= EXTRA FILTER: Burners + Type + Power + RangeKind + Base =========
   function renderExtraFilters() {
     const slot = document.querySelector(EXTRA_FILTER_SLOT);
     if (!slot) return;
 
     const burnerCounts = {};
     const typeCounts = {};
+    const powerCounts = {};
+    const rangeKindCounts = {};
+    const baseCounts = {};
 
     for (const p of allProducts) {
       const b = detectBurnerGroup(p);
@@ -585,66 +679,174 @@
 
       const ty = detectTypeGroup(p);
       typeCounts[ty] = (typeCounts[ty] || 0) + 1;
+
+      const pw = detectPowerGroup(p);
+      powerCounts[pw] = (powerCounts[pw] || 0) + 1;
+
+      const rk = detectRangeKind(p);
+      rangeKindCounts[rk] = (rangeKindCounts[rk] || 0) + 1;
+
+      const base = detectBaseGroup(p);
+      baseCounts[base] = (baseCounts[base] || 0) + 1;
     }
 
     const totalAll = allProducts.length;
 
-    // phần filter số hořák
-    let html = `
-    <div class="mb-2 fw-semibold text-uppercase" style="font-size: 0.85rem;">
-      ${t("burnersTitle")}
-    </div>
-  `;
+    let html = "";
+
+    // 🔹 Nhóm COOKING RANGE TYPE (Range / Induction / Range with oven)
+    html += `
+      <div class="mb-2 fw-semibold text-uppercase" style="font-size: 0.85rem;">
+        ${t("rangeKindTitle")}
+      </div>
+    `;
+
+    html += RANGE_KIND_KEYS.map((k) => {
+      const label = getRangeKindLabel(k);
+      const count = k === "all" ? totalAll : rangeKindCounts[k] || 0;
+      const active = k === currentRangeKind ? "active" : "";
+      return `
+        <a href="#"
+           class="mf-filter-row d-flex justify-content-between ${active}"
+           data-range-kind="${k}">
+          <span>${label}</span>
+          <span class="count text-muted">(${count})</span>
+        </a>
+      `;
+    }).join("");
+
+    html += `<hr class="my-3">`;
+
+    // 🔹 Nhóm BASE (Base 700 / Base 900 / Drop-in...)
+    html += `
+      <div class="mb-2 fw-semibold text-uppercase" style="font-size: 0.85rem;">
+        ${t("baseTitle")}
+      </div>
+    `;
+
+    html += BASE_KEYS.map((k) => {
+      const label = getBaseLabel(k);
+      const count = k === "all" ? totalAll : baseCounts[k] || 0;
+      const active = k === currentBase ? "active" : "";
+      return `
+        <a href="#"
+           class="mf-filter-row d-flex justify-content-between ${active}"
+           data-base="${k}">
+          <span>${label}</span>
+          <span class="count text-muted">(${count})</span>
+        </a>
+      `;
+    }).join("");
+
+    html += `<hr class="my-3">`;
+
+    // 🔹 Nhóm BURNERS
+    html += `
+      <div class="mb-2 fw-semibold text-uppercase" style="font-size: 0.85rem;">
+        ${t("burnersTitle")}
+      </div>
+    `;
 
     html += BURNER_KEYS.map((k) => {
       const label = getBurnerLabel(k);
       const count = k === "all" ? totalAll : burnerCounts[k] || 0;
-      const active = k === currentBurners ? "" : "";
+      const active = k === currentBurners ? "active" : "";
+
       return `
-      <a href="#"
-         class="mf-filter-row d-flex justify-content-between ${active}"
-         data-burners="${k}">
-        <span>${label}</span>
-        <span class="count text-muted">(${count})</span>
-      </a>
-    `;
+        <a href="#"
+           class="mf-filter-row d-flex justify-content-between ${active}"
+           data-burners="${k}">
+          <span>${label}</span>
+          <span class="count text-muted">(${count})</span>
+        </a>
+      `;
     }).join("");
 
-    // ngăn cách nhóm mới
     html += `<hr class="my-3">`;
 
-    // phần filter loại thiết bị
+    // 🔹 Nhóm TYPE
     html += `
-    <div class="mb-2 fw-semibold text-uppercase" style="font-size: 0.85rem;">
-      ${t("typeTitle")}
-    </div>
-  `;
+      <div class="mb-2 fw-semibold text-uppercase" style="font-size: 0.85rem;">
+        ${t("typeTitle")}
+      </div>
+    `;
 
     html += TYPE_KEYS.map((k) => {
       const label = getTypeLabel(k);
       const count = k === "all" ? totalAll : typeCounts[k] || 0;
-      const active = k === currentType ? "" : "";
+      const active = k === currentType ? "active" : "";
+
       return `
-      <a href="#"
-         class="mf-filter-row d-flex justify-content-between ${active}"
-         data-type="${k}">
-        <span>${label}</span>
-        <span class="count text-muted">(${count})</span>
-      </a>
+        <a href="#"
+           class="mf-filter-row d-flex justify-content-between ${active}"
+           data-type="${k}">
+          <span>${label}</span>
+          <span class="count text-muted">(${count})</span>
+        </a>
+      `;
+    }).join("");
+
+    html += `<hr class="my-3">`;
+
+    // 🔹 Nhóm POWER
+    html += `
+      <div class="mb-2 fw-semibold text-uppercase" style="font-size: 0.85rem;">
+        ${t("powerTitle")}
+      </div>
     `;
+
+    html += POWER_KEYS.map((k) => {
+      const label = getPowerLabel(k);
+      const count = k === "all" ? totalAll : powerCounts[k] || 0;
+      const active = k === currentPower ? "active" : "";
+
+      return `
+        <a href="#"
+           class="mf-filter-row d-flex justify-content-between ${active}"
+           data-power="${k}">
+          <span>${label}</span>
+          <span class="count text-muted">(${count})</span>
+        </a>
+      `;
     }).join("");
 
     slot.innerHTML = html;
+
+    // click – range kind
+    slot.querySelectorAll("[data-range-kind]").forEach((a) => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        const key = a.getAttribute("data-range-kind") || "all";
+        currentRangeKind = key;
+        currentPage = 1;
+        applyFilter();
+        renderExtraFilters();
+        renderProducts();
+      });
+    });
+
+    // click – base
+    slot.querySelectorAll("[data-base]").forEach((a) => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        const key = a.getAttribute("data-base") || "all";
+        currentBase = key;
+        currentPage = 1;
+        applyFilter();
+        renderExtraFilters();
+        renderProducts();
+      });
+    });
 
     // click – burners
     slot.querySelectorAll("[data-burners]").forEach((a) => {
       a.addEventListener("click", (e) => {
         e.preventDefault();
         const key = a.getAttribute("data-burners") || "all";
-        if (key === currentBurners) return;
         currentBurners = key;
         currentPage = 1;
         applyFilter();
+        renderExtraFilters();
         renderProducts();
       });
     });
@@ -654,15 +856,27 @@
       a.addEventListener("click", (e) => {
         e.preventDefault();
         const key = a.getAttribute("data-type") || "all";
-        if (key === currentType) return;
         currentType = key;
         currentPage = 1;
         applyFilter();
+        renderExtraFilters();
+        renderProducts();
+      });
+    });
+
+    // click – power source
+    slot.querySelectorAll("[data-power]").forEach((a) => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        const key = a.getAttribute("data-power") || "all";
+        currentPower = key;
+        currentPage = 1;
+        applyFilter();
+        renderExtraFilters();
         renderProducts();
       });
     });
   }
-
 
   // ========= PAGINATION =========
   function renderPager(totalItems) {
@@ -718,8 +932,10 @@
         .map((p) =>
           p === "..."
             ? '<span class="mf-pg-ellipsis" aria-hidden="true">…</span>'
-            : `<a href="#" class="mf-pg-btn ${p === currentPage ? "is-active" : ""
-            }" data-page="${p}" aria-label="Page ${p}">${p}</a>`
+            : `<a href="#"
+                    class="mf-pg-btn ${p === currentPage ? "is-active" : ""}"
+                    data-page="${p}"
+                    aria-label="Page ${p}">${p}</a>`
         )
         .join("")}
         <a href="#" class="mf-pg-btn ${currentPage === totalPages ? "is-disabled" : ""
@@ -747,18 +963,23 @@
       const catKey = detectCategory(p);
       const burnerKey = detectBurnerGroup(p);
       const typeKey = detectTypeGroup(p);
+      const powerKey = detectPowerGroup(p);
+      const rangeKindKey = detectRangeKind(p);
+      const baseKey = detectBaseGroup(p);
 
       const okCat =
         currentCategory === CAT_ALL_KEY || catKey === currentCategory;
       const okBurner =
         currentBurners === "all" || burnerKey === currentBurners;
-      const okType =
-        currentType === "all" || typeKey === currentType;
+      const okType = currentType === "all" || typeKey === currentType;
+      const okPower = currentPower === "all" || powerKey === currentPower;
+      const okRangeKind =
+        currentRangeKind === "all" || rangeKindKey === currentRangeKind;
+      const okBase = currentBase === "all" || baseKey === currentBase;
 
-      return okCat && okBurner && okType;
+      return okCat && okBurner && okType && okPower && okRangeKind && okBase;
     });
   }
-
 
   function renderProducts() {
     const start = (currentPage - 1) * PAGE_SIZE;

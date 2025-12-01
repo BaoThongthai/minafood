@@ -1,193 +1,1669 @@
 [
   {
-    "id": "E7KTE2BBMK",
-    "name": "Fry top elettrico – E7/KTE2BBMK",
-    "label": "EASY 700 / FRY-TOP",
+    "code": "E7/KTE2BBMK",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7-kte2bbmk/",
     "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTE2BBM-800X700X270H-DX-376x300.jpg",
-    "dimensions": {
-      "w": 800,
-      "h": 270,
-      "d": 700
-    },
-    "weight": 90,
-    "volume_m3": 0.1,
-    "power": "10,8 kW 400V 3N~",
-    "frequency": "50/60 Hz",
-    "zone_cottura": "2 × 5,4 kW 400V 3N~",
-    "info": "không có"
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTE2BBM-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 270,
+      "profondeur": 700,
+      "poids": 90,
+      "volume": 0.1,
+      "puissance_électrique": "10,8 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+    }
   },
-  
   {
-    "id": "E7KTE1BBLK",
-    "name": "Fry top elettrico – E7/KTE1BBLK",
-    "label": "EASY 700 / FRY-TOP",
+    "code": "E7/KTE1BBLK",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7-kte1bblk/",
     "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BBL-400X700X270H-DX-376x300.jpg",
-    "dimensions": {
-      "w": 400,
-      "h": 270,
-      "d": 700
-    },
-    "weight": 53,
-    "volume_m3": 0.1,
-    "power": "5,4 kW 400V 3N~",
-    "frequency": "không có",
-    "zone_cottura": "không có",
-    "info": "không có"
-  }
-,
-{
-    "id": "E7FTG2BBLK",
-    "name": "Fry top a gas – E7/FTG2BBLK",
-    "label": "EASY 700 / FRY-TOP",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BBL-400X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 270,
+      "profondeur": 700,
+      "poids": 53,
+      "volume": 0.1,
+      "puissance_électrique": "5,4 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "1 x 5,4 400V3N~"
+    }
+  },
+  {
+    "code": "E7/CUET2BB",
+    "name": "Cuisinière électrique avec deux zones de cuisson.",
+    "url": "https://casta.com/fr/product/e7cuet2bb-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-CUET2BB-400X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-CUET2BB-400X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "24,5/31,0",
+      "volume": "0,1/0,2",
+      "puissance_électrique": "5,2 kW 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "2 x 2,6 kW 400V3N~"
+    }
+  },
+  {
+    "code": "E7/CUET4BB",
+    "name": "Cuisinière électrique avec quatre zones de cuisson.",
+    "url": "https://casta.com/fr/product/e7cuet4bb/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-CUET4BB-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-CUET4BB-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "36,0/47,0",
+      "volume": "0,1/0,4",
+      "puissance_électrique": "10,4 kW 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "4 x 2,6 kW 400V3N~"
+    }
+  },
+  {
+    "code": "E7/CUET6BB",
+    "name": "Cuisinière électrique avec six zones de cuisson.",
+    "url": "https://casta.com/fr/product/e7cuet6bb/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-CUET6BB-1200X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-CUET6BB-1200X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 1200,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "56,5/67,5",
+      "volume": "0,2/0,5",
+      "puissance_électrique": "15,6 kW 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "6 x 2,6 kW 400V3N~"
+    }
+  },
+  {
+    "code": "E7/CUET2BA",
+    "name": "Cuisinière électrique avec deux zones de cuisson.",
+    "url": "https://casta.com/fr/product/e7cuet2ba/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-CUET2BA-400X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-CUET2BA-400X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "30,5/39,5",
+      "volume": "0,2/0,4",
+      "puissance_électrique": "5,2 kW 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "2 x 2,6 kW 400V3N~"
+    }
+  },
+  {
+    "code": "E7/CUET4BA",
+    "name": "Cuisinière électrique avec quatre zones de cuisson.",
+    "url": "https://casta.com/fr/product/e7cuet4ba/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-CUET4BA-800X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-CUET4BA-800X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "47,0/61,5",
+      "volume": "0,5/0,9",
+      "puissance_électrique": "10,4 kW 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "4 x 2,6 kW 400V3N~"
+    }
+  },
+  {
+    "code": "E7/CUET6BA",
+    "name": "Cuisinière électrique avec six zones de cuisson.",
+    "url": "https://casta.com/fr/product/e7cuet6ba/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-CUET6BA-1200X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-CUET6BA-1200X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 1200,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "112,0/130,0",
+      "volume": "0,7/1,3",
+      "puissance_électrique": "15,6 kW 400V3N~",
+      "intensité_du_courant": "50/60",
+      "brûleurs": "6 x 2,6 kW 400V3N~"
+    }
+  },
+  {
+    "code": "E7/CUET4LE",
+    "name": "Cuisinière électrique avec quatre zones de cuisson.",
+    "url": "https://casta.com/fr/product/e7cuet4fe/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-CUET4LE-800X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-CUET4LE-800X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "108,5/123,0",
+      "volume": "0,5/0,9",
+      "puissance_électrique": "15,88 kW 400 V 3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "4 x 2,6 kW 400 V 3N~",
+      "four": "1 x 5,48 kW 400 V 3N~",
+      "dimensions_intérieurs_du_four": "685x550x310h"
+    }
+  },
+  {
+    "code": "E7/CUET6LE",
+    "name": "Cuisinière électrique avec six zones de cuisson.",
+    "url": "https://casta.com/fr/product/e7cuet6fen/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-CUET6LE-1200X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-CUET6LE-1200X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 1200,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "132,0/150,0",
+      "volume": "0,7/1,3",
+      "puissance_électrique": "21,08 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "6 x 2,6 kW 400V3N~",
+      "four": "1 x 5,48 kW 400V3N~",
+      "dimensions_intérieurs_du_four": "685x550x310h"
+    }
+  },
+  {
+    "code": "E7/SPE40BB",
+    "name": "Chauffe frites électrique.",
+    "url": "https://casta.com/fr/product/e7-spe40bb/",
+    "image": "https://casta.com/wp-content/uploads/2021/04/E7SPE40BB-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2021/04/E7SPE40BB-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "25,5/32,0",
+      "volume": "0,1/0,2",
+      "puissance_électrique": "1,0 230V~",
+      "intensité_du_courant": "50/60"
+    }
+  },
+  {
+    "code": "E7/SPE40BA",
+    "name": "Chauffe frites électrique.",
+    "url": "https://casta.com/fr/product/e7-spe40ba/",
+    "image": "https://casta.com/wp-content/uploads/2021/04/E7SPE40BA-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2021/04/E7SPE40BA-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "28,0/37,0",
+      "volume": "0,2/0,4",
+      "puissance_électrique": "1,0 230V~",
+      "intensité_du_courant": "50/60"
+    }
+  },
+  {
+    "code": "E7/SPE40BC",
+    "name": "Chauffe frites électrique.",
+    "url": "https://casta.com/fr/product/e7-spe40bc/",
+    "image": "https://casta.com/wp-content/uploads/2021/04/E7SPE40BC-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2021/04/E7SPE40BC-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "37,0/46,0",
+      "volume": "0,2/0,4",
+      "puissance_électrique": "1,0 230V~",
+      "intensité_du_courant": "50/60"
+    }
+  },
+  {
+    "code": "E7/FLG1V13",
+    "name": "Friteuse gaz à une cuve.",
+    "url": "https://casta.com/fr/product/e7flg1v13/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FLG1V13-400X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-FLG1V13-400X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "46,0/55,0",
+      "volume": "0,2/0,4",
+      "puissance_du_gaz": 11.2,
+      "nombre_de_cuves": 1,
+      "capacité_des_cuves": "1 x 13,0 L"
+    }
+  },
+  {
+    "code": "E7/FLG1V17",
+    "name": "Friteuse gaz à une cuve.",
+    "url": "https://casta.com/fr/product/e7flg1v17/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FLG1V17-400X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-FLG1V17-400X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "46,0/55,0",
+      "volume": "0,2/0,4",
+      "puissance_du_gaz": 16.5,
+      "nombre_de_cuves": 1,
+      "capacité_des_cuves": "1 x 17,0 L"
+    }
+  },
+  {
+    "code": "E7/FLG2V8",
+    "name": "Friteuse gaz à deux cuves.",
+    "url": "https://casta.com/fr/product/e7flg2v8/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FLG2V8-400X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-FLG2V8-400X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "54,5/63,5",
+      "volume": "0,2/0,4",
+      "puissance_du_gaz": 11.6,
+      "nombre_de_cuves": 2,
+      "capacité_des_cuves": "1 x 8,0 L + 1 x 8,0 L"
+    }
+  },
+  {
+    "code": "E7/FLG2V13",
+    "name": "Friteuse gaz à deux cuves.",
+    "url": "https://casta.com/fr/product/e7flg2v13/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FLG2V13-800X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-FLG2V13-800X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "81,5/96,0",
+      "volume": 0.5,
+      "puissance_du_gaz": 22.4,
+      "nombre_de_cuves": 2,
+      "capacité_des_cuves": "1 x 13,0 L + 1 x 13,0 L"
+    }
+  },
+  {
+    "code": "E7/FLG2V17",
+    "name": "Friteuse  gaz à deux cuves.",
+    "url": "https://casta.com/fr/product/e7flg2v17/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FLG2V17-800X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-FLG2V17-800X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "87,5/102,0",
+      "volume": "0,5/0,9",
+      "puissance_du_gaz": 33,
+      "nombre_de_cuves": 2,
+      "capacité_des_cuves": "1 x 17,0 L + 1 x 17,0 L"
+    }
+  },
+  {
+    "code": "E7/FRE1V13",
+    "name": "Friteuse électrique à une cuve.",
+    "url": "https://casta.com/fr/product/e7fre1v13/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FRE1V17-400X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-FRE1V17-400X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "41,0/50,0",
+      "volume": "0,2/0,4",
+      "puissance_électrique": "12,0 400V3N~",
+      "intensité_du_courant": "50/60",
+      "nombre_de_cuves": 1,
+      "capacité_des_cuves": "1 x 13,0 L"
+    }
+  },
+  {
+    "code": "E7/FRE1V17",
+    "name": "Friteuse électrique à une cuve.",
+    "url": "https://casta.com/fr/product/e7fre1v17/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FRE1V17-400X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-FRE1V17-400X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "42,0/51,0",
+      "volume": "0,2/0,4",
+      "puissance_électrique": "16,5 400V3N~",
+      "intensité_du_courant": "50/60",
+      "nombre_de_cuves": 1,
+      "capacité_des_cuves": "1 x 17 lt"
+    }
+  },
+  {
+    "code": "E7/FRE2V8",
+    "name": "Friteuse électrique à deux cuves.",
+    "url": "https://casta.com/fr/product/e7fre2v8/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FRE2V8-400X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-FRE2V8-400X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "42,0/51,0",
+      "volume": "0,2/0,4",
+      "puissance_électrique": "14,0 400V3N~",
+      "intensité_du_courant": "50/60",
+      "nombre_de_cuves": 2,
+      "capacité_des_cuves": "1 x 8,0 L + 1 x 8,0 L"
+    }
+  },
+  {
+    "code": "E7/FRE2V13",
+    "name": "Friteuse électrique à deux cuves.",
+    "url": "https://casta.com/fr/product/e7fre2v13/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FRE2V13-800X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-FRE2V13-800X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "70,0/84,5",
+      "volume": "0,5/0,9",
+      "puissance_électrique": "24,0 400V3N~",
+      "intensité_du_courant": "50/60",
+      "nombre_de_cuves": 2,
+      "capacité_des_cuves": "1 x 13,0 L + 1 x 13,0 L"
+    }
+  },
+  {
+    "code": "E7/FRE2V17",
+    "name": "Friteuse électrique à deux cuves.",
+    "url": "https://casta.com/fr/product/e7fre2v17/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-FRE2V17-800X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-FRE2V17-800X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "72,5/87,0",
+      "volume": "0,5/0,9",
+      "puissance_électrique": "33,0 400V3N~",
+      "intensité_du_courant": "50/60",
+      "nombre_de_cuves": 2,
+      "capacité_des_cuves": "1 x 17,0 L + 1 x 17,0 L"
+    }
+  },
+  {
+    "code": "E7/KPG1V40",
+    "name": "Cuiseur à pâtes gaz à une cuve.",
+    "url": "https://casta.com/fr/product/e7kpg1v40/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KPG1V40-400X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KPG1V40-400X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "44,0/53,0",
+      "volume": "0,2/0,4",
+      "puissance_du_gaz": 11,
+      "nombre_de_cuves": 1,
+      "capacité_des_cuves": "1 x 28,0 L"
+    }
+  },
+  {
+    "code": "E7/KPG2V80",
+    "name": "Cuiseur à pâtes gaz.",
+    "url": "https://casta.com/fr/product/e7kpg2v80/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KPG2V80-800X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KPG2V80-800X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "89,5/104,0",
+      "volume": "0,4/0,9",
+      "puissance_du_gaz": 22,
+      "nombre_de_cuves": 2,
+      "capacité_des_cuves": "1 x 28,0 L + 1 x 28,0 L"
+    }
+  },
+  {
+    "code": "E7/KPE1V40",
+    "name": "Cuiseur à pâtes électrique à une cuve.",
+    "url": "https://casta.com/fr/product/e7cpe1v40/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KPE1V40-400X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KPE1V40-400X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "42,0/51,0",
+      "volume": "0,2/0,4",
+      "puissance_électrique": "7,0 400V3N~",
+      "intensité_du_courant": "50/60",
+      "nombre_de_cuves": 1,
+      "capacité_des_cuves": "1 x 28 lt"
+    }
+  },
+  {
+    "code": "E7/KPE2V80",
+    "name": "Cuiseur à pâtes électrique à deux cuves.",
+    "url": "https://casta.com/fr/product/e7kpe2v80/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KPE2V80-800X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KPE2V80-800X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "67,5/82,0",
+      "volume": "0,4/0,9",
+      "puissance_électrique": "14,0 400V3N~",
+      "intensité_du_courant": "50/60",
+      "nombre_de_cuves": 2,
+      "capacité_des_cuves": "1 x 28,0 L + 1 x 28,0 L"
+    }
+  },
+  {
+    "code": "E7/KME1BA",
+    "name": "Bains-marie eléctrique .",
+    "url": "https://casta.com/fr/product/e7kme1ba/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KME1BA-400X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KME1BA-400X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "29,0/38,0",
+      "volume": "0,2/0,4",
+      "puissance_électrique": "1,5 230V~",
+      "intensité_du_courant": "50/60",
+      "nombre_de_cuves": 1,
+      "capacité_des_cuves": "GN 1/1"
+    }
+  },
+  {
+    "code": "E7/KME2BA",
+    "name": "Bains-marie eléctrique.",
+    "url": "https://casta.com/fr/product/e7kme2ba/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KME2BA-800X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KME2BA-800X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "44,5/59,0",
+      "volume": "0,5/0,9",
+      "puissance_électrique": "3,0 230V~",
+      "intensité_du_courant": "50/60",
+      "nombre_de_cuves": 1,
+      "capacité_des_cuves": "GN 2/1"
+    }
+  },
+  {
+    "code": "E7/BS1BB",
+    "name": "Grille pierre volcanique.",
+    "url": "https://casta.com/fr/product/e7bs1bb/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7BS1BB-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7BS1BB-1000x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "25,5/32,0",
+      "volume": "0,1/0,2",
+      "puissance_du_gaz": 8
+    }
+  },
+  {
+    "code": "E7/BS2BB",
+    "name": "Grille pierre volcanique.",
+    "url": "https://casta.com/fr/product/e7bs1bb-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7BS2BB-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7BS2BB-1000x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "60,0/71,0",
+      "volume": "0,2/0,4",
+      "puissance_du_gaz": 16
+    }
+  },
+  {
+    "code": "E7/BS3BB",
+    "name": "Grille pierre volcanique.",
+    "url": "https://casta.com/fr/product/e7-bs3bb/",
+    "image": "https://casta.com/wp-content/uploads/2025/11/E7-BS3BB-317x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2025/11/E7-BS3BB-793x750.jpg",
+    "specs": {
+      "largeur": 1200,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "122,0/136,0",
+      "volume": "0,2/0,5",
+      "puissance_du_gaz": 24
+    }
+  },
+  {
+    "code": "E7/BS1BA",
+    "name": "Grille pierre volcanique.",
+    "url": "https://casta.com/fr/product/e7bs1ba/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7BS1BA-1-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7BS1BA-1-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "45,5/54,5",
+      "volume": "0,2/0,4",
+      "puissance_du_gaz": 8
+    }
+  },
+  {
+    "code": "E7/BS2BA",
+    "name": "Grille pierre volcanique.",
+    "url": "https://casta.com/fr/product/e7bs2ba/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7BS2BA-1-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7BS2BA-1-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "85,5/100,0",
+      "volume": "0,5/0,9",
+      "puissance_du_gaz": 16
+    }
+  },
+  {
+    "code": "E7/BS3BA",
+    "name": "Grille pierre volcanique.",
+    "url": "https://casta.com/fr/product/e7-bs3ba/",
+    "image": "https://casta.com/wp-content/uploads/2025/11/E7-BS3BA-317x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2025/11/E7-BS3BA-793x750.jpg",
+    "specs": {
+      "largeur": 1200,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "108,0/126,0",
+      "volume": "0,7/1,3",
+      "puissance_du_gaz": 24
+    }
+  },
+  {
+    "code": "E7/BS1BC",
+    "name": "Grille pierre volcanique.",
+    "url": "https://casta.com/fr/product/e7-bs1bc/",
+    "image": "https://casta.com/wp-content/uploads/2025/11/E7-BS1BC-317x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2025/11/E7-BS1BC-793x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "52,0/61,0",
+      "volume": "0,2/0,4",
+      "puissance_du_gaz": 8
+    }
+  },
+  {
+    "code": "E7/BS2BC",
+    "name": "Grille pierre volcanique.",
+    "url": "https://casta.com/fr/product/e7-bs2bc/",
+    "image": "https://casta.com/wp-content/uploads/2025/11/E7-BS2BC-317x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2025/11/E7-BS2BC-793x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "86,5/111,0",
+      "volume": "0,4/0,9",
+      "puissance_du_gaz": 16
+    }
+  },
+  {
+    "code": "E7/KTG1BBL",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ktg1bbl/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BBL-400X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BBL-400X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "47,5/54,0",
+      "volume": "0,1/0,2",
+      "puissance_du_gaz": 6,
+      "brûleurs": 1,
+      "combination_brûleurs": "1 x 6,0 kW",
+      "dimensions_de_la_plaque": "396 x 530"
+    }
+  },
+  {
+    "code": "E7/BS3BC2",
+    "name": "Grille pierre volcanique.",
+    "url": "https://casta.com/fr/product/e7-bs3bc2/",
+    "image": "https://casta.com/wp-content/uploads/2025/11/E7-BS3BC-317x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2025/11/E7-BS3BC-793x750.jpg",
+    "specs": {
+      "largeur": 1200,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "122,5/136,5",
+      "volume": "0,7/1,3",
+      "puissance_du_gaz": 24
+    }
+  },
+  {
+    "code": "E7/KTG1BBLK",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7-ktg1bblk/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BBL-400X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BBL-400X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "47,5/54,0",
+      "volume": "0,1/0,2",
+      "puissance_du_gaz": 6,
+      "brûleurs": 1,
+      "combination_brûleurs": "1 x 6,0 kW",
+      "dimensions_de_la_plaque": "396 x 530"
+    }
+  },
+  {
+    "code": "E7/KTG1BBR",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ktg1bbr/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG1BBR-400X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTG1BBR-400X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "46,5/53,0",
+      "volume": "0,1/0,2",
+      "puissance_du_gaz": 6,
+      "brûleurs": 1,
+      "combination_brûleurs": "1 x 6,0 kW",
+      "dimensions_de_la_plaque": "396 x 530"
+    }
+  },
+  {
+    "code": "E7/KTG1BBRK",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7-ktg1bbrk/",
+    "image": "https://casta.com/wp-content/uploads/2025/11/E7-KTG1BBRK-317x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2025/11/E7-KTG1BBRK-793x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "46,5/53,0",
+      "volume": "0,1/0,2",
+      "puissance_du_gaz": 6,
+      "brûleurs": 1,
+      "combination_brûleurs": "1 x 6,0 kW",
+      "dimensions_de_la_plaque": "396 x 530"
+    }
+  },
+  {
+    "code": "E7/FTG2BBL",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ftg2bbl/",
     "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BBL-800X700X270H-DX-376x300.jpg",
-    "dimensions": {
-      "w": 700,
-      "h": 270,
-      "d": 700
-    },
-    "weight": 84,
-    "volume_m3": 0.2,
-    "power_gas": "12,0 kW",
-    "frequency": "không có",
-    "zone_cottura": "không có",
-    "info": "không có"
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BBL-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "83,0/94,0",
+      "volume": "0,1/0,4",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "696 x 530"
+    }
   },
-{
-  "id": "E7KTG1BBLK",
-  "name": "Fry top a gas – E7/KTG1BBLK",
-  "label": "EASY 700 / FRY-TOP",
-  "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BBL-400X700X270H-DX-376x300.jpg",
-  "dimensions": {
-    "w": 400,
-    "h": 270,
-    "d": 700
+  {
+    "code": "E7/FTG2BBLK",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7-ftg2bblk/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BBL-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BBL-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "83,0/94,0",
+      "volume": "0,1/0,4",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "696 x 530"
+    }
   },
-  "weight": 53,
-  "volume_m3": 0.15,
-  "power_gas": "6,0 kW",
-  "frequency": "không có",
-  "zone_cottura": "1 zona cottura",
-  "info": "Piano superiore arrotondato in acciaio inox AISI 304, camino scarico fumi incorporato. Piastra di cottura in acciaio AISI 430 spessore 15 mm liscia. Alzata paraspruzzi in acciaio inox AISI 304. Canalina frontale con foro di scarico e cassetto raccolta olio e grassi. Bruciatori a due tubi fiamma ad alto rendimento per 1 zona cottura."
-},
-{
-  "id": "E7KTG2BBMK",
-  "name": "Fry top a gas – E7/KTG2BBMK",
-  "label": "EASY 700 / FRY-TOP",
-  "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBM-800X700X270H-DX-376x300.jpg",
-  "dimensions": {
-    "w": 800,
-    "h": 275,
-    "d": 700
+  {
+    "code": "E7/KTG2BBL",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ktg2bbl/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BBL-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BBL-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "86,0/97,0",
+      "volume": "0,1/0,2",
+      "puissance_du_gaz": 12,
+      "brûleurs": "2 x 6,0",
+      "dimensions_de_la_plaque": "796 x 530"
+    }
   },
-  "weight": 84,
-  "volume_m3": 0.2,
-  "power_gas": "12,0 kW",
-  "frequency": "không có",
-  "zone_cottura": "2 zone cottura (1/2 liscia, 1/2 rigata)",
-  "info": "Piano superiore arrotondato in acciaio inox AISI 304, camino scarico fumi incorporato. Piastra di cottura in acciaio AISI 430 spessore 15 mm, metà liscia e metà rigata. Alzata paraspruzzi in acciaio inox AISI 304. Canalina frontale con foro di scarico e cassetto raccolta olio e grassi. Bruciatori a due tubi fiamma ad alto rendimento per 2 zone indipendenti."
-},
-
-{
-  
-  "id": "E7FTG2BBMK",
-  "name": "Fry top a gas – E7/FTG2BBMK",
-  "label": "EASY 700 / FRY-TOP",
-  "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBM-800X700X270H-DX-376x300.jpg",
-  "dimensions": {
-    "w": 700,
-    "h": 275,
-    "d": 700
+  {
+    "code": "E7/KTG2BBLK",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/24257/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BBL-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BBL-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "86,0/97,0",
+      "volume": "0,2/0,4",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "796 x 530"
+    }
   },
-  "weight": 80,
-  "volume_m3": 0.2,
-  "power_gas": "12,0 kW",
-  "frequency": "không có",
-  "zone_cottura": "2 zone cottura (1/2 liscia, 1/2 rigata)",
-  "info": "Piano superiore arrotondato in acciaio inox AISI 304, camino scarico fumi incorporato. Piastra di cottura in acciaio AISI 430, spessore 15,0 mm, 1/2 liscia e 1/2 rigata. Alzate paraspruzzi in acciaio inox AISI 304. Canalina frontale con foro di scarico e cassetto raccolta olio e grassi. Bruciatori gas a due tubi fiamma ad alto rendimento per 2 zone indipendenti."
-},
-{
-  "sp": "7",
-  "id": "E7KTG2BBLK",
-  "name": "Fry top a gas – E7/KTG2BBLK",
-  "label": "EASY 700 / FRY-TOP",
-  "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BBL-800X700X270H-DX-376x300.jpg",
-  "dimensions": { 
-    "w": 800, 
-    "h": 275, 
-    "d": 700 
+  {
+    "code": "E7/FTG2BBR",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ftg2bbr-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBR-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBR-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "84,0/95,0",
+      "volume": "0,1/0,4",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "696 x 530"
+    }
   },
-  "weight": 84
-},
-{
-  "sp": "8",
-  "id": "E7CUPG2BB2M",
-  "name": "Cucina a gas a due fuochi – E7/CUPG2BB.2M",
-  "label": "EASY 700 / CUCINA",
-  "image": "https://casta.com/wp-content/uploads/2013/10/E7-KUPG2BB.1M1G-800X700X270H-DX-1-e1568097871136.jpg",
-  "dimensions": { 
-    "w": 350, 
-    "h": 270, 
-    "d": 700 
+  {
+    "code": "E7/FTG2BBRK",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7-ftg2bbrk/",
+    "image": "https://casta.com/wp-content/uploads/2025/11/E7-KTG2BBRK-317x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2025/11/E7-KTG2BBRK-793x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "84,0/95,0",
+      "volume": "0,1/0,4",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "696 x 530"
+    }
   },
-  "weight": 35
-},{
-  "sp": "9",
-  "id": "E7CUPG2BB1M1G",
-  "name": "Cucina a gas a due fuochi – E7/CUPG2BB.1M1G",
-  "label": "EASY 700 / CUCINA",
-  "image": "https://casta.com/wp-content/uploads/2013/10/E7-KUPG2BB.1M1G-800X700X270H-DX-1-e1568097871136.jpg",
-  "dimensions": { 
-    "w": 350, 
-    "h": 270, 
-    "d": 700 
+  {
+    "code": "E7/KTG2BBR",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ktg2bbr/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBR-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBR-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "86,0/97,0",
+      "volume": "0,2/0,4",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "796 x 530"
+    }
   },
-  "weight": 35
-},
-{
-  "sp": "10",
-  "id": "E7KUPG2BB2M",
-  "name": "Cucina a gas a due fuochi – E7/KUPG2BB.2M",
-  "label": "EASY 700 / CUCINA",
-  "image": "https://casta.com/wp-content/uploads/2013/10/E7-KUPG2BB.1M1G-800X700X270H-DX-1-e1568097871136.jpg",
-  "dimensions": { 
-    "w": 400, 
-    "h": 270, 
-    "d": 700 
+  {
+    "code": "E7/KTG2BBRK",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7-ktg2bbrk/",
+    "image": "https://casta.com/wp-content/uploads/2025/11/E7-KTG2BBRK-317x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2025/11/E7-KTG2BBRK-793x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "86,0/97,0",
+      "volume": "0,2/0,4",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "796 x 530"
+    }
   },
-  "weight": 40
-},
-{
-  "sp": "11",
-  "id": "E7KUPG2BB1M1G",
-  "name": "Cucina a gas a due fuochi – E7/KUPG2BB.1M1G",
-  "label": "EASY 700 / CUCINA",
-  "image": "https://casta.com/wp-content/uploads/2013/10/E7-KUPG2BB.1M1G-800X700X270H-DX-1-e1568097871136.jpg",
-  "dimensions": { 
-    "w": 400, 
-    "h": 270, 
-    "d": 700 
+  {
+    "code": "E7/FTG2BBM",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ftg2bbm-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBM-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBM-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "84,0/95,0",
+      "volume": "0,1/0,4",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "696 x 530"
+    }
   },
-  "weight": 40
-},
-{
-  "sp": "12",
-  "id": "E7CUPG4BB4M",
-  "name": "Cucina a gas a quattro fuochi – E7/CUPG4BB.4M",
-  "label": "EASY 700 / CUCINA",
-  "image": "https://casta.com/wp-content/uploads/2013/10/E7-KUPG4BB.2M2G-800X700X270H-DX-1-376x300.jpg",
-  "dimensions": { 
-    "w": 700, 
-    "h": 270, 
-    "d": 700 
+  {
+    "code": "E7/FTG2BBMK",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7-ftg2bbmk/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBM-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBM-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "84,0/95,0",
+      "volume": "0,1/0,4",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "696 x 530"
+    }
   },
-  "weight": 50
-}
-
-
-
-
-
-
-
-
+  {
+    "code": "E7/KTG2BBM",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ktg2bbm/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBM-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBM-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "85,5/96,0",
+      "volume": "0,2/0,4",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "796 x 530"
+    }
+  },
+  {
+    "code": "E7/KTG2BBMK",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7-ktg2bbmk/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBM-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BBM-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 275,
+      "profondeur": 700,
+      "poids": "85,5/96,0",
+      "volume": "0,2/0,4",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "796 x 530"
+    }
+  },
+  {
+    "code": "E7/KTG1BAL",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ktg1bal/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BAL-400X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BAL-400X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "59,5/68,5",
+      "volume": "0,2/0,4",
+      "puissance_du_gaz": 6,
+      "brûleurs": 1,
+      "combination_brûleurs": "1 x 6,0 kW",
+      "dimensions_de_la_plaque": "396 x 530"
+    }
+  },
+  {
+    "code": "E7/KTG1BALK",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7-ktg1balk/",
+    "image": "https://casta.com/wp-content/uploads/2025/11/E7-KTG1BALK-317x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2025/11/E7-KTG1BALK-793x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "59,5/68,5",
+      "volume": "0,2/0,4",
+      "puissance_du_gaz": 6,
+      "brûleurs": 1,
+      "combination_brûleurs": "1 x 6,0 kW",
+      "dimensions_de_la_plaque": "396 x 530"
+    }
+  },
+  {
+    "code": "E7/KTG1BAR",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ktg1bar/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BAR-400X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BAR-400X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "59,5/68,5",
+      "volume": "0,2/0,4",
+      "puissance_du_gaz": 6,
+      "brûleurs": 1,
+      "combination_brûleurs": "1 x 6,0 kW",
+      "dimensions_de_la_plaque": "396 x 530"
+    }
+  },
+  {
+    "code": "E7/KTG1BARK",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7-ktg1bark/",
+    "image": "https://casta.com/wp-content/uploads/2025/11/E7-KTG1BARK-317x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2025/11/E7-KTG1BARK-793x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "59,5/68,5",
+      "volume": "0,2/0,4",
+      "puissance_du_gaz": 6,
+      "brûleurs": 1,
+      "combination_brûleurs": "1 x 6,0 kW",
+      "dimensions_de_la_plaque": "396 x 530"
+    }
+  },
+  {
+    "code": "E7/FTG2BAL",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ftg2bal/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BAL-800X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BAL-800X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "97,5/112,0",
+      "volume": "0,4/0,9",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "696 x 530"
+    }
+  },
+  {
+    "code": "E7/FTG2BALK",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7-ftg2balk/",
+    "image": "https://casta.com/wp-content/uploads/2025/11/E7-KTG2BALK-317x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2025/11/E7-KTG2BALK-793x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "97,5/112,0",
+      "volume": "0,4/0,9",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "696 x 530"
+    }
+  },
+  {
+    "code": "E7/KTG2BAL",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ktg2bal/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BAL-800X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTG2BAL-800X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "100,5/115,0",
+      "volume": "0,5/0,9",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "796 x 530"
+    }
+  },
+  {
+    "code": "E7/KTG2BALK",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7-ktg2balk/",
+    "image": "https://casta.com/wp-content/uploads/2025/11/E7-KTG2BALK-317x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2025/11/E7-KTG2BALK-793x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "100,5/115,0",
+      "volume": "0,5/0,9",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "796 x 530"
+    }
+  },
+  {
+    "code": "E7/FTG2BAR",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ftg2bar-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BAR-800X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BAR-800X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "97,5/112,0",
+      "volume": "0,4/0,9",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "696 x 530"
+    }
+  },
+  {
+    "code": "E7/FTG2BARK",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7-ftg2bark/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BAR-800X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BAR-800X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "97,0/112,0",
+      "volume": "0,4/0,9",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "696 x 530"
+    }
+  },
+  {
+    "code": "E7/KTG2BAR",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ktg2bar/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BAR-800X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BAR-800X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "100,5/115,0",
+      "volume": "0,5/0,9",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "796 x 530"
+    }
+  },
+  {
+    "code": "E7/KTG2BARK",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7-ktg2bark/",
+    "image": "https://casta.com/wp-content/uploads/2025/11/E7-KTG2BALK-317x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2025/11/E7-KTG2BALK-793x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "100,5/115,0",
+      "volume": "0,5/0,9",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "796 x 530"
+    }
+  },
+  {
+    "code": "E7/FTG2BAM",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ftg2bam-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BAM-800X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BAM-800X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "97,5/112,0",
+      "volume": "0,4/0,9",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "696 x 530"
+    }
+  },
+  {
+    "code": "E7/FTG2BAMK",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7-ftg2bamk/",
+    "image": "https://casta.com/wp-content/uploads/2025/11/E7-KTG2BAMK-317x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2025/11/E7-KTG2BAMK-793x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "97,5/112,0",
+      "volume": "0,4/0,9",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "696 x 530"
+    }
+  },
+  {
+    "code": "E7/KTG2BAM",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ktg2bam/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BAM-800X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTG2BAM-800X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": "100,5/115,0",
+      "volume": "0,5/0,9",
+      "puissance_du_gaz": 12,
+      "brûleurs": 2,
+      "combination_brûleurs": "2 x 6,0 kW",
+      "dimensions_de_la_plaque": "796 x 530"
+    }
+  },
+  {
+    "code": "E7/FTG1BAL",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ftg1bal/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BAL-400X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BAL-400X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 350,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": 54,
+      "volume": 0.2,
+      "puissance_du_gaz": 6
+    }
+  },
+  {
+    "code": "E7/FTG1BAR",
+    "name": "Plancha fry top gaz.",
+    "url": "https://casta.com/fr/product/e7ftg1bar/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BAR-400X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTG1BAR-400X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 350,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": 54,
+      "volume": 0.2,
+      "puissance_du_gaz": 6
+    }
+  },
+  {
+    "code": "E7/FTE1BBL",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7fte1bbl/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BBL-400X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BBL-400X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 350,
+      "hauteur": 270,
+      "profondeur": 700,
+      "poids": 42,
+      "volume": 0.1,
+      "puissance_électrique": "5,4 400V3N~",
+      "intensité_du_courant": "50/60"
+    }
+  },
+  {
+    "code": "E7/KTE1BBL",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7kte1bbl/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BBL-400X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BBL-400X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 270,
+      "profondeur": 700,
+      "poids": 53,
+      "volume": 0.1,
+      "puissance_électrique": "5,4 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "1 x 5,4 400V3N~"
+    }
+  },
+  {
+    "code": "E7/FTE1BBR",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7fte1bbr/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BBR-400X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BBR-400X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 350,
+      "hauteur": 270,
+      "profondeur": 700,
+      "poids": 42,
+      "volume": 0.1,
+      "puissance_électrique": "5,4 400V3N~",
+      "intensité_du_courant": "50/60"
+    }
+  },
+  {
+    "code": "E7/KTE1BBR",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7kte1bbr/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BBR-400X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BBR-400X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 270,
+      "profondeur": 700,
+      "poids": 53,
+      "volume": 0.1,
+      "puissance_électrique": "5,4 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+    }
+  },
+  {
+    "code": "E7/FTE2BBL",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7fte2bbl-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTE2BBL-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTE2BBL-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 270,
+      "profondeur": 700,
+      "poids": 78,
+      "volume": 0.1,
+      "puissance_électrique": "10,8 400V3N~",
+      "intensité_du_courant": "50/60"
+    }
+  },
+  {
+    "code": "E7/KTE2BBL",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7kte2bbl/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTE2BBL-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTE2BBL-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 270,
+      "profondeur": 700,
+      "poids": 90,
+      "volume": 0.1,
+      "puissance_électrique": "10,8 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+    }
+  },
+  {
+    "code": "E7/FTE2BBR",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7fte2bbr-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTE2BBR-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTE2BBR-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 270,
+      "profondeur": 700,
+      "poids": 78,
+      "volume": 0.1,
+      "puissance_électrique": "10,8 400V3N~",
+      "intensité_du_courant": "50/60"
+    }
+  },
+  {
+    "code": "E7/KTE2BBR",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7kte2bbr/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTE2BBR-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTE2BBR-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 270,
+      "profondeur": 700,
+      "poids": 90,
+      "volume": 0.1,
+      "puissance_électrique": "10,8 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+    }
+  },
+  {
+    "code": "E7/FTE2BBM",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7fte2bbm-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTE2BBM-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTE2BBM-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 270,
+      "profondeur": 700,
+      "poids": 78,
+      "volume": 0.1,
+      "puissance_électrique": "10,8 400V3N~",
+      "intensité_du_courant": "50/60"
+    }
+  },
+  {
+    "code": "E7/KTE2BBM",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7kte2bbm/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KTE2BBM-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KTE2BBM-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 270,
+      "profondeur": 700,
+      "poids": 90,
+      "volume": 0.1,
+      "puissance_électrique": "10,8 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+    }
+  },
+  {
+    "code": "E7/FTE1BAL",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7fte1bal/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BAL-400X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BAL-400X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 350,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": 54,
+      "volume": 0.2,
+      "puissance_électrique": "5,4 400V3N~",
+      "intensité_du_courant": "50/60"
+    }
+  },
+  {
+    "code": "E7/KTE1BAL",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7kte1bal/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BAL-400X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BAL-400X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": 60,
+      "volume": 0.2,
+      "puissance_électrique": "5,4 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+    }
+  },
+  {
+    "code": "E7/FTE1BAR",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7fte1bar/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BAR-400X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BAR-400X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 350,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": 54,
+      "volume": 0.2,
+      "puissance_électrique": "5,4 400V3N~",
+      "intensité_du_courant": "50/60"
+    }
+  },
+  {
+    "code": "E7/KTE1BAR",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7kte1bar/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BAR-400X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTE1BAR-400X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": 60,
+      "volume": 0.2,
+      "puissance_électrique": "5,4 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "1 x 5,4 kW 400V3N~"
+    }
+  },
+  {
+    "code": "E7/FTE2BAL",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7fte2bal/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTE2BAL-800X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTE2BAL-800X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": 93,
+      "volume": 0.4,
+      "puissance_électrique": "10,8 400V3N~",
+      "intensité_du_courant": "50/60"
+    }
+  },
+  {
+    "code": "E7/KTE2BAL",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7kte2bal/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTE2BAL-800X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTE2BAL-800X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": 100,
+      "volume": 0.5,
+      "puissance_électrique": "10,8 400V3N~",
+      "intensité_du_courant": "50 /60",
+      "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+    }
+  },
+  {
+    "code": "E7/FTE2BAR",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7fte2bar/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTE2BAR-800X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTE2BAR-800X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": 93,
+      "volume": 0.4,
+      "puissance_électrique": "10,8 400V3N~",
+      "intensité_du_courant": "50/60"
+    }
+  },
+  {
+    "code": "E7/KTE2BAR",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7kte2bar/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTE2BAR-800X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTE2BAR-800X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": 100,
+      "volume": 0.5,
+      "puissance_électrique": "10,8 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+    }
+  },
+  {
+    "code": "E7/FTE2BAM",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7fte2bam/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTE2BAM-800X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTE2BAM-800X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": 93,
+      "volume": 0.4,
+      "puissance_électrique": "10,8 400V3N~",
+      "intensité_du_courant": "50/60"
+    }
+  },
+  {
+    "code": "E7/KTE2BAM",
+    "name": "Plancha fry top électrique.",
+    "url": "https://casta.com/fr/product/e7kte2bam/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KTE2BAM-800X700X850H-DX-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KTE2BAM-800X700X850H-DX-1000x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": 100,
+      "volume": 0.5,
+      "puissance_électrique": "10,8 400V3N~",
+      "intensité_du_courant": "50/60",
+      "zones_de_cuisson_électriques": "2 x 5,4 kW 400V3N~"
+    }
+  },
+  {
+    "code": "E7/ENN1BB",
+    "name": "Element neutre.",
+    "url": "https://casta.com/fr/product/e7enn1bb/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KNN1BB-400X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KNN1BB-400X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 350,
+      "hauteur": 270,
+      "profondeur": 700,
+      "poids": 12,
+      "volume": 0.1
+    }
+  },
+  {
+    "code": "E7/KNN1BB",
+    "name": "Element neutre.",
+    "url": "https://casta.com/fr/product/e7knn1bb/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KNN1BB-400X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KNN1BB-400X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 270,
+      "profondeur": 700,
+      "poids": 16,
+      "volume": 0.1
+    }
+  },
+  {
+    "code": "E7/ENN2BB",
+    "name": "Element neutre.",
+    "url": "https://casta.com/fr/product/e7enn2bb/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KNN2BB-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KNN2BB-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 270,
+      "profondeur": 700,
+      "poids": 22,
+      "volume": 0.1
+    }
+  },
+  {
+    "code": "E7/KNN2BB",
+    "name": "Element neutre.",
+    "url": "https://casta.com/fr/product/e7knn2bb/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KNN2BB-800X700X270H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KNN2BB-800X700X270H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 270,
+      "profondeur": 700,
+      "poids": 30,
+      "volume": 0.1
+    }
+  },
+  {
+    "code": "E7/ENN1BA",
+    "name": "Element neutre.",
+    "url": "https://casta.com/fr/product/e7enn1ba/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KNN1BA-400X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KNN1BA-400X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 350,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": 28,
+      "volume": 0.2
+    }
+  },
+  {
+    "code": "E7/KNN1BA",
+    "name": "Element neutre.",
+    "url": "https://casta.com/fr/product/e7knn1ba/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E7-KNN1BA-400X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E7-KNN1BA-400X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 400,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": 33,
+      "volume": 0.2
+    }
+  },
+  {
+    "code": "E7/ENN2BA",
+    "name": "Element neutre.",
+    "url": "https://casta.com/fr/product/e7enn2ba-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KNN2BA-800X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KNN2BA-800X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 700,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": 54,
+      "volume": 0.4
+    }
+  },
+  {
+    "code": "E7/KNN2BA",
+    "name": "Element neutre.",
+    "url": "https://casta.com/fr/product/e7knn2ba/",
+    "image": "https://casta.com/wp-content/uploads/2013/11/E7-KNN2BA-800X700X850H-DX-376x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/11/E7-KNN2BA-800X700X850H-DX-939x750.jpg",
+    "specs": {
+      "largeur": 800,
+      "hauteur": 850,
+      "profondeur": 700,
+      "poids": 64,
+      "volume": 0.5
+    }
+  }
 ]

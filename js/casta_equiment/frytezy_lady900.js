@@ -6,7 +6,7 @@
     const CATEGORY_SLOT = "#category-slot";
     const EXTRA_FILTER_SLOT = "#extra-filter-slot"; // filter loại thiết bị + nguồn nhiệt
 
-    const DATA_URL = "js/casta_equiment/data/casta_Etnica.json";
+    const DATA_URL = "js/casta_equiment/data/frytezy_lady900.json";
 
     const LABELS = {
         loadingAria: "loading",
@@ -535,13 +535,13 @@
           <a href="Fritezylady700.html" class="mf-filter-row d-flex justify-content-between">
             <span>LADY700</span>
           </a><hr/>
-          <a href="Fritezylady900.html" class="mf-filter-row d-flex justify-content-between">
+          <a href="Fritezylady900.html" class="mf-filter-row d-flex justify-content-between active1">
             <span>LADYQ900</span>
           </a><hr/>
           <a href="Fritezy_PastryFryers.html" class="mf-filter-row d-flex justify-content-between">
             <span>PASTRY FRYERS</span>
           </a><hr/>
-          <a href="casta_Etica.html" class="mf-filter-row d-flex justify-content-between active1">
+          <a href="casta_Etica.html" class="mf-filter-row d-flex justify-content-between">
              <span>ETNICA</span>
           </a>
          
