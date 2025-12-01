@@ -31,24 +31,6 @@
         }
     },
     {
-        "code": "LQ/KUG8FF.2P2M4G",
-        "name": "Cuisinière gaz à huit feux.",
-        "url": "https://casta.com/fr/product/lq-kug8ff-2p2m4g/",
-        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8FF-1600X900X850H-351x300.jpg",
-        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8FF-1600X900X850H-878x750.jpg",
-        "specs": {
-            "largeur": 1800,
-            "hauteur": 850,
-            "profondeur": 900,
-            "volume": 1.4,
-            "puissance_du_gaz": 63.4,
-            "brûleurs": 8,
-            "combination_brûleurs": "2 x 3,5 kW + 2 x 5,5 kW + 4 x 7,4 kW",
-            "four": "2 x 8,6 kW",
-            "dimensions_intérieurs_du_four": "540x745x340h"
-        }
-    },
-    {
         "code": "LQ/FTG4BBRC",
         "name": "Fry top gaz.",
         "url": "https://casta.com/fr/product/lq-ftg4bbrc/",
@@ -219,24 +201,6 @@
             "poids": 150,
             "volume": 0.6,
             "puissance_du_gaz": 13.8
-        }
-    },
-    {
-        "code": "LQ/KUG8FF.2P2M4G",
-        "name": "Cuisinière gaz à huit feux.",
-        "url": "https://casta.com/fr/product/lq-kug8ff-2p2m4g/",
-        "image": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8FF-1600X900X850H-351x300.jpg",
-        "image_large": "https://casta.com/wp-content/uploads/2022/07/LQ-CUG8FF-1600X900X850H-878x750.jpg",
-        "specs": {
-            "largeur": 1800,
-            "hauteur": 850,
-            "profondeur": 900,
-            "volume": 1.4,
-            "puissance_du_gaz": 63.4,
-            "brûleurs": 8,
-            "combination_brûleurs": "2 x 3,5 kW + 2 x 5,5 kW + 4 x 7,4 kW",
-            "four": "2 x 8,6 kW",
-            "dimensions_intérieurs_du_four": "540x745x340h"
         }
     },
     {
