@@ -96,6 +96,1955 @@
     "currency": "Kč"
   },
   {
+    "id": "d001",
+    "sku": "D001",
+    "name": "Electric Stone Sausage Grill D001",
+    "line1": "2kW power, electric heating, stainless steel body.",
+    "line2": "Pan diameter 425mm, total size 505×250mm, 12kg, made in China, 15-month warranty.",
+    "label": "",
+    "price": null,
+    "price_src": "Contact",
+    "currency": "VND",
+    "image": "img/bepnuongaisikao/D001.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "g001",
+    "sku": "G001",
+    "name": "Gas Stone Sausage Grill G001",
+    "line1": "Gas heating type, stainless steel construction.",
+    "line2": "Pan diameter 425mm, total size 505×250mm, 12kg, made in China, 15-month warranty.",
+    "label": "",
+    "price": null,
+    "price_src": "Contact",
+    "currency": "VND",
+    "image": "img/bepnuongaisikao/G001.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "d002",
+    "sku": "D002",
+    "name": "Electric Stone Sausage Grill D002",
+    "line1": "2kW power, electric heating, stainless steel frame.",
+    "line2": "Pan diameter 480mm, total size 560×250mm, 19kg, made in China, 15-month warranty.",
+    "label": "",
+    "price": null,
+    "price_src": "Contact",
+    "currency": "VND",
+    "image": "img/bepnuongaisikao/D002.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "g002",
+    "sku": "G002",
+    "name": "Gas Stone Sausage Grill G002",
+    "line1": "Gas heating model with 480mm pan diameter.",
+    "line2": "Total size 560×250mm, stainless steel, 19kg, made in China, 15-month warranty.",
+    "label": "",
+    "price": null,
+    "price_src": "Contact",
+    "currency": "VND",
+    "image": "img/bepnuongaisikao/G002.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "d003",
+    "sku": "D003",
+    "name": "Electric Stone Sausage Grill D003",
+    "line1": "2kW power, electric type, large pan 550mm.",
+    "line2": "Overall size 630×250mm, 23kg, stainless steel, made in China, 15-month warranty.",
+    "label": "",
+    "price": null,
+    "price_src": "Contact",
+    "currency": "VND",
+    "image": "img/bepnuongaisikao/D003.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "id": "g003",
+    "sku": "G003",
+    "name": "Gas Stone Sausage Grill G003",
+    "line1": "Gas type with 550mm pan diameter, stainless steel body.",
+    "line2": "Size 630×250mm, 23kg, made in China, 15-month warranty.",
+    "label": "",
+    "price": null,
+    "price_src": "Contact",
+    "currency": "VND",
+    "image": "img/bepnuongaisikao/G003.png",
+    "href": "",
+    "sp": 1
+  },
+  {
+    "sp": "248",
+    "id": "F7KUG4LE",
+    "name": "Cucina a gas a quattro fuochi – F7/KUG4LE",
+    "label": "FIRE 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2022/05/F7KUG4LE-317x300.jpg",
+    "dimensions": {
+      "w": 800,
+      "h": 850,
+      "d": 700
+    },
+    "weight": 92
+  },
+  {
+    "sp": "249",
+    "id": "F7KUG4BA",
+    "name": "Cucina a gas a quattro fuochi – F7/KUG4BA",
+    "label": "FIRE 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2016/01/F7_KUG4BA-319x300.jpeg",
+    "dimensions": {
+      "w": 800,
+      "h": 850,
+      "d": 700
+    },
+    "weight": 92
+  },
+  {
+    "sp": "250",
+    "id": "F7KUG6BA",
+    "name": "Cucina a gas a sei fuochi – F7/KUG6BA",
+    "label": "FIRE 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2016/01/F7_KUG6BA-400x266.jpeg",
+    "dimensions": {
+      "w": 1200,
+      "h": 850,
+      "d": 700
+    },
+    "weight": 117
+  },
+  {
+    "sp": "251",
+    "id": "F7KUG4LO",
+    "name": "Cucina a gas a quattro fuochi – F7/KUG4LO",
+    "label": "FIRE 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2016/01/F7_KUG4LO-1-285x300.jpg",
+    "dimensions": {
+      "w": 800,
+      "h": 850,
+      "d": 700
+    },
+    "weight": 92
+  },
+  {
+    "sp": "252",
+    "id": "F7KUG6LN",
+    "name": "Cucina a gas a sei fuochi – F7/KUG6LN",
+    "label": "FIRE 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2016/01/F7_KUG6LN-aperta-368x300.jpeg",
+    "dimensions": {
+      "w": 1200,
+      "h": 850,
+      "d": 700
+    },
+    "weight": 117
+  },
+  {
+    "sp": "253",
+    "id": "F7KUG6LE",
+    "name": "Cucina a gas a sei fuochi – F7/KUG6LE",
+    "label": "FIRE 700 / CUCINA",
+    "image": "https://casta.com/wp-content/uploads/2018/01/F7KUG6LE-376x300.jpg",
+    "dimensions": {
+      "w": 1200,
+      "h": 850,
+      "d": 700
+    },
+    "weight": 117
+  },
+  {
+    "code": "TEM3/150G",
+    "name": "Piastra Teppanyaki a gas con tre zone cottura.",
+    "url": "https://casta.com/product/tem3-150g/",
+    "image": "https://casta.com/wp-content/uploads/2014/06/TEM3.160GBA-371x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/06/TEM3.160GBA-928x750.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 850,
+      "profondità": 720,
+      "peso": 185,
+      "volume": 0.9,
+      "bruciatori": 3,
+      "combinazione_bruciatori": "3 x 5,8 kW"
+    }
+  },
+  {
+    "code": "CC/01",
+    "name": "Cucina cinese a un fuoco.",
+    "url": "https://casta.com/product/cc01/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_01_0607_1-225x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_01_0607_1.jpg",
+    "specs": {
+      "larghezza": 700,
+      "altezza": 315,
+      "profondità": 700,
+      "peso": 45,
+      "volume": 0.1,
+      "bruciatori": 1
+    }
+  },
+  {
+    "code": "CC/01",
+    "name": "Cucina cinese a un fuoco.",
+    "url": "https://casta.com/product/cc01-3/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC01-BBokmaxi-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC01-BBokmaxi.jpg",
+    "specs": {
+      "larghezza": 500,
+      "altezza": 275,
+      "profondità": 500,
+      "peso": 32,
+      "volume": 0.1,
+      "bruciatori": 1
+    }
+  },
+  {
+    "code": "CC/01",
+    "name": "Cucina cinese a un fuoco.",
+    "url": "https://casta.com/product/cc01-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_01_0607-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_01_0607-1000x750.jpg",
+    "specs": {
+      "larghezza": 600,
+      "altezza": 275,
+      "profondità": 600,
+      "peso": 38,
+      "volume": 0.1,
+      "bruciatori": 1
+    }
+  },
+  {
+    "code": "CC/01",
+    "name": "Cucina cinese a un fuoco.",
+    "url": "https://casta.com/product/cc01-4/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_01_0807_1-225x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_01_0807_1.jpg",
+    "specs": {
+      "larghezza": 700,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 64,
+      "volume": 0.4,
+      "bruciatori": 1
+    }
+  },
+  {
+    "code": "CC/01",
+    "name": "Cucina cinese gas a un fuoco.",
+    "url": "https://casta.com/product/cc01-5/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_01_0707-222x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_01_0707-554x750.jpg",
+    "specs": {
+      "larghezza": 600,
+      "altezza": 850,
+      "profondità": 600,
+      "peso": 57,
+      "volume": 0.3,
+      "bruciatori": 1,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/01",
+    "name": "Cucina cinese a un fuoco.",
+    "url": "https://casta.com/product/cc01-6/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_01_0707-222x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_01_0707-554x750.jpg",
+    "specs": {
+      "larghezza": 700,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 85,
+      "volume": 0.4
+    }
+  },
+  {
+    "code": "CC/02",
+    "name": "Cucina cinese a due fuochi.",
+    "url": "https://casta.com/product/cc02-7/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC02140X70okdabanco-maxi-400x223.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC02140X70okdabanco-maxi.jpg",
+    "specs": {
+      "larghezza": 1000,
+      "altezza": 275,
+      "profondità": 600,
+      "peso": 71,
+      "volume": 0.2,
+      "bruciatori": 2,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference)"
+    }
+  },
+  {
+    "code": "CC/02",
+    "name": "Cucina cinese a due fuochi.",
+    "url": "https://casta.com/product/cc02/",
+    "image": "https://casta.com/wp-content/uploads/2014/04/CC_02_1407-2-400x268.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/04/CC_02_1407-2-1120x750.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 700,
+      "profondità": 700,
+      "peso": 101,
+      "volume": 0.7,
+      "bruciatori": 2
+    }
+  },
+  {
+    "code": "CC/02",
+    "name": "Cucina cinese a due fuochi.",
+    "url": "https://casta.com/product/cc02f/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_02_1207-246x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_02_1207-616x750.jpg",
+    "specs": {
+      "larghezza": 1000,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 107,
+      "volume": 0.6,
+      "bruciatori": 2,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/02",
+    "name": "Cucina cinese a due fuochi.",
+    "url": "https://casta.com/product/cc02-8/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_02_1307-387x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_02_1307-968x750.jpg",
+    "specs": {
+      "larghezza": "1200/1500",
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 105,
+      "volume": "0,7/0,9",
+      "bruciatori": 2,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/02",
+    "name": "Cucina cinese a due fuochi.",
+    "url": "https://casta.com/product/cc02-6/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC02150X70maxi-306x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC02150X70maxi.jpg",
+    "specs": {
+      "larghezza": 1200,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 114,
+      "volume": 0.7,
+      "bruciatori": 2,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/02",
+    "name": "Cucina cinese a due fuochi.",
+    "url": "https://casta.com/product/cc02-5/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC02100X90okmaxi-245x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC02100X90okmaxi.jpg",
+    "specs": {
+      "larghezza": 1000,
+      "altezza": 850,
+      "profondità": 800,
+      "peso": 122,
+      "volume": 0.7,
+      "intensità_elettrica": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)",
+      "bruciatori": 2
+    }
+  },
+  {
+    "code": "CC/02",
+    "name": "Cucina cinese a due fuochi.",
+    "url": "https://casta.com/product/cc02-4/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC02140X70okmaxi-324x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC02140X70okmaxi.jpg",
+    "specs": {
+      "larghezza": 1200,
+      "altezza": 850,
+      "profondità": 600,
+      "peso": 95,
+      "volume": 0.6,
+      "bruciatori": 2,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference)"
+    }
+  },
+  {
+    "code": "CC/02",
+    "name": "Cucina cinese a due fuochi.",
+    "url": "https://casta.com/product/cc02-3/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC02140X703maxi-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC02140X703maxi.jpg",
+    "specs": {
+      "larghezza": 1000,
+      "altezza": 850,
+      "profondità": 500,
+      "peso": 85,
+      "volume": 0.4,
+      "bruciatori": 2
+    }
+  },
+  {
+    "code": "CC/02F",
+    "name": "Cucina cinese a due fuochi.",
+    "url": "https://casta.com/product/cc02-9/",
+    "image": "https://casta.com/wp-content/uploads/2014/03/DSC02663_tagliata-302x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/03/DSC02663_tagliata.jpg",
+    "specs": {
+      "larghezza": 1400,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 114,
+      "volume": 0.8,
+      "bruciatori": 2,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)",
+      "forno": 1,
+      "dimensioni_interne_forno": "790x665x505"
+    }
+  },
+  {
+    "code": "CC/03",
+    "name": "Cucina cinese a tre fuochi.",
+    "url": "https://casta.com/product/cc03-6/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC03100X100maxi-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC03100X100maxi.jpg",
+    "specs": {
+      "larghezza": 1000,
+      "altezza": 275,
+      "profondità": 1000,
+      "peso": 90,
+      "volume": 0.1,
+      "bruciatori": 3,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/03",
+    "name": "Cucina cinese a tre fuochi.",
+    "url": "https://casta.com/product/cc03/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC03180X70DABANCOmaxi-400x149.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC03180X70DABANCOmaxi.jpg",
+    "specs": {
+      "larghezza": 1800,
+      "altezza": 275,
+      "profondità": 700,
+      "peso": 117,
+      "volume": 0.3,
+      "bruciatori": 3,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/03",
+    "name": "Cucina cinese a tre fuochi.",
+    "url": "https://casta.com/product/cc03-15/",
+    "image": "https://casta.com/wp-content/uploads/2014/04/CC_03_1385-400x267.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/04/CC_03_1385-1125x750.jpg",
+    "specs": {
+      "larghezza": 1300,
+      "altezza": 760,
+      "profondità": 850,
+      "peso": 172,
+      "volume": 0.8,
+      "bruciatori": 3,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/03",
+    "name": "Cucina cinese a tre fuochi.",
+    "url": "https://casta.com/product/cc03-14/",
+    "image": "https://casta.com/wp-content/uploads/2014/04/CC_03_1507_tagliata-400x252.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/04/CC_03_1507_tagliata-1192x750.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 138,
+      "volume": 0.9,
+      "bruciatori": 3,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/03",
+    "name": "Cucina cinese a tre fuochi.",
+    "url": "https://casta.com/product/cc03-12/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC03180X70okmaxi-400x241.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC03180X70okmaxi.jpg",
+    "specs": {
+      "larghezza": 1800,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 119,
+      "volume": 1.1,
+      "bruciatori": 3,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/03",
+    "name": "Cucina cinese a tre fuochi.",
+    "url": "https://casta.com/product/cc03-11/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_03_1807_tagliata-400x277.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_03_1807_tagliata-1082x750.jpg",
+    "specs": {
+      "larghezza": 1900,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 160,
+      "volume": 1.1,
+      "bruciatori": 3,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/03",
+    "name": "Cucina cinese a tre fuochi.",
+    "url": "https://casta.com/product/cc03-10/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC03180X702okmaxi-336x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC03180X702okmaxi.jpg",
+    "specs": {
+      "larghezza": 1800,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 148,
+      "volume": 1.1,
+      "bruciatori": 3,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/03",
+    "name": "Cucina cinese a tre fuochi.",
+    "url": "https://casta.com/product/cc03-3/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC03150X70okmaxi-333x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC03150X70okmaxi.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 850,
+      "profondità": 600,
+      "peso": 126,
+      "volume": 0.8,
+      "bruciatori": 3,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference)"
+    }
+  },
+  {
+    "code": "CC/03",
+    "name": "Cucina cinese a tre fuochi.",
+    "url": "https://casta.com/product/cc03-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC03180X70okmaxi-400x241.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC03180X70okmaxi.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 850,
+      "profondità": 500,
+      "peso": 119,
+      "volume": 0.6,
+      "bruciatori": 3,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/04",
+    "name": "Cucina cinese a quattro fuochi.",
+    "url": "https://casta.com/product/cc04-8/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_04_1010_BB-400x240.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_04_1010_BB.jpg",
+    "specs": {
+      "larghezza": 1000,
+      "altezza": 275,
+      "profondità": 1000,
+      "peso": 147,
+      "volume": 0.3,
+      "bruciatori": 4,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/04",
+    "name": "Cucina cinese a quattro fuochi.",
+    "url": "https://casta.com/product/cc04-7/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_04_2407_BB-400x223.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_04_2407_BB.jpg",
+    "specs": {
+      "larghezza": 2400,
+      "altezza": 275,
+      "profondità": 700,
+      "peso": 149,
+      "volume": 0.5,
+      "bruciatori": 4,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/04",
+    "name": "Cucina cinese a quattro fuochi.",
+    "url": "https://casta.com/product/cc04-12/",
+    "image": "https://casta.com/wp-content/uploads/2014/04/CC_04_1010-2.J-Convertit-329x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/04/CC_04_1010-2.J-Convertit-823x750.jpg",
+    "specs": {
+      "larghezza": 1000,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 143,
+      "volume": 0.8,
+      "bruciatori": 4,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/04",
+    "name": "Cucina cinese a quattro fuochi.",
+    "url": "https://casta.com/product/cc04/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC04240X70okmaxi-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC04240X70okmaxi.jpg",
+    "specs": {
+      "larghezza": 2000,
+      "altezza": 850,
+      "profondità": 500,
+      "peso": 153,
+      "volume": 0.8,
+      "bruciatori": 4,
+      "combinazione_bruciatori": "9,5 kW"
+    }
+  },
+  {
+    "code": "CC/04",
+    "name": "Cucina cinese a quattro fuochi.",
+    "url": "https://casta.com/product/cc04-4/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_04_1210_GG.JP-Convertit-353x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_04_1210_GG.JP-Convertit-883x750.jpg",
+    "specs": {
+      "larghezza": 1000,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 147,
+      "volume": 0.8,
+      "bruciatori": 4,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/04",
+    "name": "Cucina cinese a quattro fuochi.",
+    "url": "https://casta.com/product/cc04-11/",
+    "image": "https://casta.com/wp-content/uploads/2014/04/CC_04_2407-400x219.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/04/CC_04_2407-1200x657.jpg",
+    "specs": {
+      "larghezza": 2400,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 194,
+      "volume": 1.4,
+      "bruciatori": 4,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/04",
+    "name": "Cucina cinese a quattro fuochi.",
+    "url": "https://casta.com/product/cc04-10/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_04_2207-400x289.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_04_2207-1040x750.jpg",
+    "specs": {
+      "larghezza": 2200,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 179,
+      "volume": 1.3,
+      "bruciatori": 4,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/04",
+    "name": "Cucina cinese a quattro fuochi.",
+    "url": "https://casta.com/product/cc04-9/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_04_1010_-303x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_04_1010_-758x750.jpg",
+    "specs": {
+      "larghezza": 1000,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 157,
+      "volume": 0.9,
+      "bruciatori": 4,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/04",
+    "name": "Cucina cinese a quattro fuochi.",
+    "url": "https://casta.com/product/cc04f/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_04_1010_M.JPG-Convertit-325x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_04_1010_M.JPG-Convertit-814x750.jpg",
+    "specs": {
+      "larghezza": 1000,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 146,
+      "volume": 0.8,
+      "bruciatori": 4,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/04",
+    "name": "Cucina cinese a quattro fuochi.",
+    "url": "https://casta.com/product/cc04-6/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC04KAL100X100-cemak-maxi-288x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC04KAL100X100-cemak-maxi.jpg",
+    "specs": {
+      "larghezza": 1000,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 144,
+      "volume": 0.8,
+      "bruciatori": 4,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/04",
+    "name": "Cucina cinese a quattro fuochi.",
+    "url": "https://casta.com/product/cc04-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC04200X90okmaxi-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC04200X90okmaxi.jpg",
+    "specs": {
+      "larghezza": 2000,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 174,
+      "volume": 1.2,
+      "bruciatori": 4,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/04",
+    "name": "Cucina cinese a quattro fuochi.",
+    "url": "https://casta.com/product/cc04-5/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_04_2006-400x215.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_04_2006.jpg",
+    "specs": {
+      "larghezza": 2000,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 176,
+      "volume": 1.2,
+      "bruciatori": 4,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/05",
+    "name": "Cucina cinese a cinque fuochi.",
+    "url": "https://casta.com/product/cc05-4/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC05150X901okmaxi-400x277.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC05150X901okmaxi.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 315,
+      "profondità": 1000,
+      "peso": 171,
+      "volume": 0.5,
+      "bruciatori": 5,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/05",
+    "name": "Cucina cinese a cinque fuochi.",
+    "url": "https://casta.com/product/cc05-6/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC05KC150X110okmaxi-400x245.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC05KC150X110okmaxi.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 315,
+      "profondità": 1100,
+      "peso": 181,
+      "volume": 0.5,
+      "bruciatori": 5,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/05",
+    "name": "Cucina cinese a cinque fuochi.",
+    "url": "https://casta.com/product/cc05-13/",
+    "image": "https://casta.com/wp-content/uploads/2014/04/CC_05_1509.JPG-Convertito-400x268.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/04/CC_05_1509.JPG-Convertito-1118x750.jpg",
+    "specs": {
+      "larghezza": 1600,
+      "altezza": 850,
+      "profondità": 900,
+      "peso": 165,
+      "volume": 0.9,
+      "bruciatori": 5,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/05",
+    "name": "Cucina cinese a cinque fuochi.",
+    "url": "https://casta.com/product/cc05-12/",
+    "image": "https://casta.com/wp-content/uploads/2014/04/CC_05_1614.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/04/CC_05_1614.jpg",
+    "specs": {
+      "larghezza": 1800,
+      "altezza": 850,
+      "profondità": 1400,
+      "peso": 284,
+      "volume": 2.1,
+      "bruciatori": 5,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/05",
+    "name": "Cucina cinese a cinque fuochi.",
+    "url": "https://casta.com/product/cc05-7/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC05K150X100okmaxi-370x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC05K150X100okmaxi.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 210,
+      "volume": 1.4,
+      "bruciatori": 5,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/05",
+    "name": "Cucina cinese a cinque fuochi.",
+    "url": "https://casta.com/product/cc05-11/",
+    "image": "https://casta.com/wp-content/uploads/2014/04/CC_05_3008-400x223.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/04/CC_05_3008.jpg",
+    "specs": {
+      "larghezza": 3000,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 245,
+      "volume": 1.8,
+      "bruciatori": 5,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/05",
+    "name": "Cucina cinese a cinque fuochi.",
+    "url": "https://casta.com/product/cc05-5/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC05V150X1001okmaxi-316x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC05V150X1001okmaxi.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 204,
+      "volume": 1.4,
+      "bruciatori": 5,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/05",
+    "name": "Cucina cinese a cinque fuochi.",
+    "url": "https://casta.com/product/cc05-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC05300X70okmaxi-400x207.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC05300X70okmaxi.jpg",
+    "specs": {
+      "larghezza": 2400,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 194,
+      "volume": 1.4,
+      "bruciatori": 5,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/05",
+    "name": "Cucina cinese a cinque fuochi.",
+    "url": "https://casta.com/product/cc05-3/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_05_2511-400x231.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_05_2511.jpg",
+    "specs": {
+      "larghezza": 2800,
+      "altezza": 850,
+      "profondità": 900,
+      "peso": 250,
+      "volume": 1.7,
+      "bruciatori": 5,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/05F",
+    "name": "Cucina cinese a cinque fuochi.",
+    "url": "https://casta.com/product/cc05f/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC05G300X901okmaxi-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC05G300X901okmaxi.jpg",
+    "specs": {
+      "larghezza": 2500,
+      "altezza": 850,
+      "profondità": 900,
+      "peso": 320,
+      "volume": 1.9,
+      "bruciatori": 5,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/06",
+    "name": "Cucina cinese a sei fuochi.",
+    "url": "https://casta.com/product/cc06-5/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC06SP2okmaxi-400x292.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC06SP2okmaxi.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 600,
+      "profondità": 1200,
+      "peso": 204,
+      "volume": 1.1,
+      "bruciatori": 6,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/06",
+    "name": "Cucina cinese a sei fuochi.",
+    "url": "https://casta.com/product/cc06/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC06185X1401okDABANCOmaxi-400x173.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC06185X1401okDABANCOmaxi.jpg",
+    "specs": {
+      "larghezza": 1800,
+      "altezza": 275,
+      "profondità": 1300,
+      "peso": 198,
+      "volume": 0.6,
+      "bruciatori": 6,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/06",
+    "name": "Cucina cinese a sei fuochi.",
+    "url": "https://casta.com/product/cc06-11/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_06_3011_1.JPG-Convertit-400x170.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_06_3011_1.JPG-Convertit-1200x510.jpg",
+    "specs": {
+      "larghezza": 3600,
+      "altezza": 760,
+      "profondità": 1100,
+      "peso": 420,
+      "volume": 3,
+      "bruciatori": 6,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/06",
+    "name": "Cucina cinese a sei fuochi.",
+    "url": "https://casta.com/product/cc06-9/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_06_1510-400x285.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_06_1510-1051x750.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 214,
+      "volume": 1.3,
+      "bruciatori": 6,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/06",
+    "name": "Cucina cinese a sei fuochi.",
+    "url": "https://casta.com/product/cc06-4/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC06185X1401okmaxi-400x276.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC06185X1401okmaxi.jpg",
+    "specs": {
+      "larghezza": 1850,
+      "altezza": 850,
+      "profondità": 1400,
+      "volume": 2.2,
+      "bruciatori": 6,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/06",
+    "name": "Cucina cinese a sei fuochi.",
+    "url": "https://casta.com/product/cc06-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/cinese6fuochimaxi-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/cinese6fuochimaxi.jpg",
+    "specs": {
+      "larghezza": 2000,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 262,
+      "volume": 1.9,
+      "bruciatori": 6,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/06",
+    "name": "Cucina cinese a sei fuochi.",
+    "url": "https://casta.com/product/cc06-3/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CINESEokmaxi-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CINESEokmaxi.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 850,
+      "profondità": 1200,
+      "peso": 229,
+      "volume": 1.5,
+      "bruciatori": 6,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/06",
+    "name": "Cucina cinese a sei fuochi.",
+    "url": "https://casta.com/product/cc06-7/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_06_18514-2-400x214.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_06_18514-2.jpg",
+    "specs": {
+      "larghezza": 1600,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 214,
+      "volume": 1.4,
+      "bruciatori": 6,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/06F",
+    "name": "Cucina cinese a sei fuochi.",
+    "url": "https://casta.com/product/cc06-13/",
+    "image": "https://casta.com/wp-content/uploads/2014/04/CC_06F_WAGAMAMA-Convertito-299x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/04/CC_06F_WAGAMAMA-Convertito-747x750.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 850,
+      "profondità": 1050,
+      "peso": 215,
+      "volume": 1.3,
+      "bruciatori": 6,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/07",
+    "name": "Cucina cinese a sette fuochi.",
+    "url": "https://casta.com/product/cc07-4/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_07_2415.jpg-Convertito-400x210.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_07_2415.jpg-Convertito.jpg",
+    "specs": {
+      "larghezza": 2400,
+      "altezza": 850,
+      "profondità": 1600,
+      "peso": 300,
+      "volume": 3.3,
+      "bruciatori": 7,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/07",
+    "name": "Cucina cinese a sette fuochi.",
+    "url": "https://casta.com/product/cc07-5/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/cinese7grande-400x159.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/cinese7grande.jpg",
+    "specs": {
+      "larghezza": 4200,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 335,
+      "volume": 2.5,
+      "bruciatori": 7,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/07",
+    "name": "Cucina cinese a sette fuochi.",
+    "url": "https://casta.com/product/cc07-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_07_2511.jpg-Convertito-400x259.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_07_2511.jpg-Convertito-1156x750.jpg",
+    "specs": {
+      "larghezza": 2500,
+      "altezza": 850,
+      "profondità": 1050,
+      "volume": 223,
+      "bruciatori": 7
+    }
+  },
+  {
+    "code": "CC/07F",
+    "name": "Cucina cinese a sette fuochi.",
+    "url": "https://casta.com/product/cc07f-3/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CUCINAcc-2-400x251.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CUCINAcc-2-1194x750.jpg",
+    "specs": {
+      "larghezza": 2000,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 296,
+      "volume": 1.7,
+      "bruciatori": 7,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/07F",
+    "name": "Cucina cinese a sette fuochi.",
+    "url": "https://casta.com/product/cc07f/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC07F200X1101okmaxi-400x230.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC07F200X1101okmaxi.jpg",
+    "specs": {
+      "larghezza": 2000,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 277,
+      "volume": 1.9,
+      "bruciatori": 7,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/08",
+    "name": "Cucina cinese a otto fuochi.",
+    "url": "https://casta.com/product/cc08/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC08230X120okDABANCOmaxi-400x139.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC08230X120okDABANCOmaxi.jpg",
+    "specs": {
+      "larghezza": 2200,
+      "altezza": 275,
+      "profondità": 1400,
+      "peso": 264,
+      "volume": 0.8,
+      "bruciatori": 8,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/08",
+    "name": "Cucina cinese a otto fuochi.",
+    "url": "https://casta.com/product/cc08-3/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC08V250X120okmaxi-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC08V250X120okmaxi.jpg",
+    "specs": {
+      "larghezza": 2600,
+      "altezza": 850,
+      "profondità": 1300,
+      "peso": 355,
+      "volume": 2.9,
+      "bruciatori": 8,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/08",
+    "name": "Cucina cinese a otto fuochi.",
+    "url": "https://casta.com/product/cc08-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC08230X120okmaxi-400x201.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC08230X120okmaxi.jpg",
+    "specs": {
+      "larghezza": 2300,
+      "altezza": 850,
+      "profondità": 1400,
+      "peso": 337,
+      "volume": 2.7,
+      "bruciatori": 8,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/08F",
+    "name": "Cucina cinese a otto fuochi.",
+    "url": "https://casta.com/product/cc08f/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC08F200X120okmini.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC08F200X120okmini.jpg",
+    "specs": {
+      "larghezza": 2000,
+      "altezza": 850,
+      "profondità": 1200,
+      "peso": 330,
+      "volume": 2,
+      "bruciatori": 8,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/09",
+    "name": "Cucina cinese a nove fuochi.",
+    "url": "https://casta.com/product/cc09-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_09_2511-339x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_09_2511-847x750.jpg",
+    "specs": {
+      "larghezza": 2500,
+      "altezza": 850,
+      "profondità": 1100,
+      "bruciatori": 9,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/09",
+    "name": "Cucina cinese a nove fuochi.",
+    "url": "https://casta.com/product/cc09/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC09250X100okmaxi-400x227.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC09250X100okmaxi.jpg",
+    "specs": {
+      "larghezza": 2600,
+      "altezza": 850,
+      "profondità": 1200,
+      "peso": 355,
+      "volume": 2.6,
+      "bruciatori": 9,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/09",
+    "name": "Cucina cinese a nove fuochi.",
+    "url": "https://casta.com/product/cc09-5/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC_09_SPEC.jpg-Convertito-400x226.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC_09_SPEC.jpg-Convertito-1200x678.jpg",
+    "specs": {
+      "larghezza": 3000,
+      "altezza": 850,
+      "profondità": 1300,
+      "peso": 452,
+      "volume": 3.3,
+      "bruciatori": 9,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/10",
+    "name": "Cucina cinese a dieci fuochi.",
+    "url": "https://casta.com/product/cc10-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC10KV290X110okmaxi-400x241.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC10KV290X110okmaxi.jpg",
+    "specs": {
+      "larghezza": 3000,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 407,
+      "volume": 2.8,
+      "bruciatori": 10,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/10",
+    "name": "Cucina cinese a dieci fuochi.",
+    "url": "https://casta.com/product/cc10/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC10300X1201okmaxi-400x253.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC10300X1201okmaxi.jpg",
+    "specs": {
+      "larghezza": 3300,
+      "altezza": 850,
+      "profondità": 1300,
+      "peso": 469,
+      "volume": 3.6,
+      "bruciatori": 10,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)",
+      "informazioni_aggiuntive": "Colonna acqua"
+    }
+  },
+  {
+    "code": "CC/11",
+    "name": "Cucina cinese a undici fuochi.",
+    "url": "https://casta.com/product/cc11-3/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/011fuochi-400x171.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/011fuochi.jpg",
+    "specs": {
+      "larghezza": 3000,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 407,
+      "volume": 2.8,
+      "bruciatori": 11,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/11",
+    "name": "Cucina cinese a undici fuochi.",
+    "url": "https://casta.com/product/cc11-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/undici-fuochi-400x183.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/undici-fuochi.jpg",
+    "specs": {
+      "larghezza": 3000,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 406,
+      "volume": 2.8,
+      "bruciatori": 11,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/11",
+    "name": "Cucina cinese a undici fuochi.",
+    "url": "https://casta.com/product/cc11/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC11-400x167.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC11.jpg",
+    "specs": {
+      "larghezza": 3000,
+      "altezza": 850,
+      "profondità": 1400,
+      "peso": 462,
+      "volume": 3.6,
+      "bruciatori": 11,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/11F",
+    "name": "Cucina cinese a undici fuochi.",
+    "url": "https://casta.com/product/cc11f/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/11fuochi-400x165.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/11fuochi.jpg",
+    "specs": {
+      "larghezza": 3000,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 409,
+      "volume": 2.8,
+      "bruciatori": 11,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/12",
+    "name": "Cucina cinese a dodici fuochi.",
+    "url": "https://casta.com/product/cc12-4/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/cc-12-fuochi-400x225.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/cc-12-fuochi-1200x675.jpg",
+    "specs": {
+      "larghezza": 3000,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 416,
+      "volume": 2.8,
+      "bruciatori": 12,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/12",
+    "name": "Cucina cinese a dodici fuochi.",
+    "url": "https://casta.com/product/cc12-3/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/CC12-CESA_BA-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/CC12-CESA_BA-1000x750.jpg",
+    "specs": {
+      "larghezza": 3000,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 415,
+      "volume": 2.5,
+      "bruciatori": 12,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "CC/12F",
+    "name": "Cucina cinese a dodici fuochi.",
+    "url": "https://casta.com/product/cc12f/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/012fuochi-400x165.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/012fuochi.jpg",
+    "specs": {
+      "larghezza": 3000,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 416,
+      "volume": 2.8,
+      "bruciatori": 12,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/01",
+    "name": "Cucina Eurasia ad un fuoco.",
+    "url": "https://casta.com/product/eur01-2/",
+    "image": "https://casta.com/wp-content/uploads/2014/05/EU-MUBA-1-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/05/EU-MUBA-1-1000x750.jpg",
+    "specs": {
+      "larghezza": 700,
+      "altezza": 850,
+      "profondità": 600,
+      "peso": 67,
+      "volume": 0.4,
+      "bruciatori": 1,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/01",
+    "name": "Cucina Eurasia ad un fuoco.",
+    "url": "https://casta.com/product/eur01/",
+    "image": "https://casta.com/wp-content/uploads/2014/05/EU-MUBA-1-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/05/EU-MUBA-1-1000x750.jpg",
+    "specs": {
+      "larghezza": 500,
+      "altezza": 850,
+      "profondità": 500,
+      "peso": 36,
+      "volume": 0.2,
+      "bruciatori": 1,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 kW (no price difference)"
+    }
+  },
+  {
+    "code": "EUR/02",
+    "name": "Cucina Eurasia a due fuochi.",
+    "url": "https://casta.com/product/eur02-5/",
+    "image": "https://casta.com/wp-content/uploads/2014/05/EU-MUBC-1+1-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/05/EU-MUBC-1+1-1000x750.jpg",
+    "specs": {
+      "larghezza": 1000,
+      "altezza": 850,
+      "profondità": 900,
+      "peso": 123,
+      "volume": 0.8,
+      "bruciatori": 2,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/02",
+    "name": "Cucina Eurasia a due fuochi.",
+    "url": "https://casta.com/product/eur02-4/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EU-CESABA-1+1-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EU-CESABA-1+1-1000x750.jpg",
+    "specs": {
+      "larghezza": 500,
+      "altezza": 850,
+      "profondità": 900,
+      "peso": 64,
+      "volume": 0.4,
+      "bruciatori": 2,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 kW (no price difference)"
+    }
+  },
+  {
+    "code": "EUR/02",
+    "name": "Cucina Eurasia a due fuochi.",
+    "url": "https://casta.com/product/eur02-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EU-MUBA-1+1-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EU-MUBA-1+1-1000x750.jpg",
+    "specs": {
+      "larghezza": 1000,
+      "altezza": 850,
+      "profondità": 600,
+      "peso": 82,
+      "volume": 0.5,
+      "bruciatori": 2,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/02F",
+    "name": "Cucina Eurasia a due fuochi.",
+    "url": "https://casta.com/product/eur02f/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EUR-02F-MU.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EUR-02F-MU.jpg",
+    "specs": {
+      "larghezza": 1000,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 123,
+      "volume": 0.8,
+      "bruciatori": 2,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)",
+      "forno": 1
+    }
+  },
+  {
+    "code": "EUR/03",
+    "name": "Cucina Eurasia a tre fuochi.",
+    "url": "https://casta.com/product/eur03/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/eurasia03mini.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/eurasia03mini.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 143,
+      "volume": 0.7,
+      "bruciatori": 3,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/03",
+    "name": "Cucina Eurasia a tre fuochi.",
+    "url": "https://casta.com/product/eur03-4/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/E3170EU-334x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/E3170EU-835x750.jpg",
+    "specs": {
+      "larghezza": 2100,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 173,
+      "volume": 1.3,
+      "bruciatori": 3,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/03",
+    "name": "Cucina Eurasia a tre fuochi.",
+    "url": "https://casta.com/product/eur03-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EUR_06_1206-344x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EUR_06_1206-860x750.jpg",
+    "specs": {
+      "larghezza": 1200,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 113,
+      "volume": 0.7,
+      "bruciatori": 3,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/03F",
+    "name": "Cucina Eurasia a tre fuochi.",
+    "url": "https://casta.com/product/eur03f/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EUR-03F-MU.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EUR-03F-MU.jpg",
+    "specs": {
+      "larghezza": 1000,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 160,
+      "volume": 0.9,
+      "bruciatori": 3,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)",
+      "forno": 1
+    }
+  },
+  {
+    "code": "EUR/04",
+    "name": "Cucina Eurasia a quattro fuochi.",
+    "url": "https://casta.com/product/eur04-4/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EU-CESABA-2+2-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EU-CESABA-2+2-1000x750.jpg",
+    "specs": {
+      "larghezza": 1000,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 151,
+      "volume": 0.9,
+      "bruciatori": 4,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/04",
+    "name": "Cucina Eurasia a quattro fuochi.",
+    "url": "https://casta.com/product/eur04-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EU-MUBA-2+2-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EU-MUBA-2+2-1000x750.jpg",
+    "specs": {
+      "larghezza": 2000,
+      "altezza": 850,
+      "profondità": 600,
+      "peso": 203,
+      "volume": 1.5,
+      "bruciatori": 4,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/04",
+    "name": "Cucina Eurasia a quattro fuochi.",
+    "url": "https://casta.com/product/eur04f/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EUR_04_2410-400x291.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EUR_04_2410-1030x750.jpg",
+    "specs": {
+      "larghezza": 2600,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 260,
+      "volume": 2.2,
+      "bruciatori": 4,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/04",
+    "name": "Cucina Eurasia a quattro fuochi.",
+    "url": "https://casta.com/product/eur03f-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EUR_04_1511-350x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EUR_04_1511-875x750.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 195,
+      "volume": 1.4,
+      "bruciatori": 3,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/04F",
+    "name": "Cucina Eurasia a quattro fuochi.",
+    "url": "https://casta.com/product/eur04f-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EUR-04F-CE.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EUR-04F-CE.jpg",
+    "specs": {
+      "larghezza": 1200,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 165,
+      "volume": 1,
+      "bruciatori": 4,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/05",
+    "name": "Cucina Eurasia a cinque fuochi.",
+    "url": "https://casta.com/product/eur05-6/",
+    "image": "https://casta.com/wp-content/uploads/2014/05/EU-MUBC-3+2-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/05/EU-MUBC-3+2-1000x750.jpg",
+    "specs": {
+      "larghezza": 2500,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 205,
+      "volume": 1.5,
+      "bruciatori": 5,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/05",
+    "name": "Cucina Eurasia a cinque fuochi.",
+    "url": "https://casta.com/product/eur05-5/",
+    "image": "https://casta.com/wp-content/uploads/2014/05/EU-MUBA-3+2-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/05/EU-MUBA-3+2-1000x750.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 850,
+      "profondità": 1300,
+      "peso": 215,
+      "volume": 1.7,
+      "bruciatori": 5,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/05",
+    "name": "Cucina Eurasia a cinque fuochi.",
+    "url": "https://casta.com/product/eur05-4/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EUR_05_2307-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EUR_05_2307-1000x750.jpg",
+    "specs": {
+      "larghezza": 2500,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 220,
+      "volume": 1.5,
+      "bruciatori": 5,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/05",
+    "name": "Cucina Eurasia a cinque fuochi.",
+    "url": "https://casta.com/product/eur05-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EU-CESABA-3+2-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EU-CESABA-3+2-1000x750.jpg",
+    "specs": {
+      "larghezza": 1600,
+      "altezza": 850,
+      "profondità": 1200,
+      "peso": 230,
+      "volume": 1.6,
+      "bruciatori": 5,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/05",
+    "name": "Cucina Eurasia a cinque fuochi.",
+    "url": "https://casta.com/product/eur03-3/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EUR_05_19007-400x174.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EUR_05_19007-1200x521.jpg",
+    "specs": {
+      "larghezza": 2200,
+      "altezza": 315,
+      "profondità": 900,
+      "peso": 230,
+      "volume": 0.6,
+      "bruciatori": 5,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/05F",
+    "name": "Cucina Eurasia a cinque fuochi.",
+    "url": "https://casta.com/product/eur05f-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EUR-05F-CE.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EUR-05F-CE.jpg",
+    "specs": {
+      "larghezza": 1800,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 210,
+      "volume": 1.5,
+      "bruciatori": 5,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)",
+      "forno": 1
+    }
+  },
+  {
+    "code": "EUR/06",
+    "name": "Cucina Eurasia a sei fuochi.",
+    "url": "https://casta.com/product/eur06-4/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EU-MUBC-3+3-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EU-MUBC-3+3-1000x750.jpg",
+    "specs": {
+      "larghezza": 3200,
+      "altezza": 850,
+      "profondità": 800,
+      "peso": 303,
+      "volume": 2.2,
+      "bruciatori": 6,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/06",
+    "name": "Cucina Eurasia a sei fuochi.",
+    "url": "https://casta.com/product/eur06-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EU-MUBA-3+3-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EU-MUBA-3+3-1000x750.jpg",
+    "specs": {
+      "larghezza": 3000,
+      "altezza": 850,
+      "profondità": 700,
+      "peso": 273,
+      "volume": 1.8,
+      "bruciatori": 6,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/06",
+    "name": "Cucina Eurasia a sei fuochi.",
+    "url": "https://casta.com/product/eur06/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EU-CESABA-3+3-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EU-CESABA-3+3-1000x750.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 850,
+      "profondità": 1200,
+      "peso": 113,
+      "volume": 1.5,
+      "bruciatori": 6,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/06F",
+    "name": "Cucina Eurasia a sei fuochi.",
+    "url": "https://casta.com/product/eur06f/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EUR-06F-MU.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EUR-06F-MU.jpg",
+    "specs": {
+      "larghezza": 1500,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 324,
+      "volume": 1.3,
+      "bruciatori": 6,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)",
+      "forno": 1
+    }
+  },
+  {
+    "code": "EUR/07",
+    "name": "Cucina Eurasia a sette fuochi.",
+    "url": "https://casta.com/product/eur07-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EU-CESABA-3+4-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EU-CESABA-3+4-1000x750.jpg",
+    "specs": {
+      "larghezza": 2000,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 320,
+      "volume": 1.7,
+      "bruciatori": 7,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/07F",
+    "name": "Cucina Eurasia a sette fuochi.",
+    "url": "https://casta.com/product/eur07f/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EUR-07F-CE.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EUR-07F-CE.jpg",
+    "specs": {
+      "larghezza": 2000,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 377,
+      "volume": 1.7,
+      "bruciatori": 7,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/08",
+    "name": "Cucina Eurasia a otto fuochi.",
+    "url": "https://casta.com/product/eur08-4/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EU-CESABA-4+4-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EU-CESABA-4+4-1000x750.jpg",
+    "specs": {
+      "larghezza": 2000,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 284,
+      "volume": 1.9,
+      "bruciatori": 8,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/08F",
+    "name": "Cucina Eurasia a otto fuochi.",
+    "url": "https://casta.com/product/eur08ff-2/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EUR-08F-CE.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EUR-08F-CE.jpg",
+    "specs": {
+      "larghezza": 2000,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 362,
+      "volume": 1.7,
+      "bruciatori": 8,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/09",
+    "name": "Cucina Eurasia a nove fuochi.",
+    "url": "https://casta.com/product/eur09-4/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EU-CESABA-5+4-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EU-CESABA-5+4-1000x750.jpg",
+    "specs": {
+      "larghezza": 2500,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 454,
+      "volume": 2.1,
+      "bruciatori": 9,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/09FF",
+    "name": "Cucina Eurasia a nove fuochi.",
+    "url": "https://casta.com/product/eur09ff/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EUR-09FF-MU.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EUR-09FF-MU.jpg",
+    "specs": {
+      "larghezza": 2500,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 462,
+      "volume": 2.3,
+      "bruciatori": 9,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/10",
+    "name": "Cucina Eurasia a dieci fuochi.",
+    "url": "https://casta.com/product/eur10-2/",
+    "image": "https://casta.com/wp-content/uploads/2014/05/EU-CESABA5+5-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2014/05/EU-CESABA5+5-1000x750.jpg",
+    "specs": {
+      "larghezza": 2500,
+      "altezza": 850,
+      "profondità": 1100,
+      "peso": 318,
+      "volume": 2.3,
+      "bruciatori": 10,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/10",
+    "name": "Cucina Eurasia a dieci fuochi.",
+    "url": "https://casta.com/product/eur10/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EUR_10_3914-400x210.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EUR_10_3914-1200x629.jpg",
+    "specs": {
+      "larghezza": 3500,
+      "altezza": 850,
+      "profondità": 1500,
+      "peso": 455,
+      "volume": 4.5,
+      "bruciatori": 10,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
+    "code": "EUR/10FF",
+    "name": "Cucina Eurasia a dieci fuochi.",
+    "url": "https://casta.com/product/eur10ff/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EUR_10F_2812-400x233.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EUR_10F_2812-1200x698.jpg",
+    "specs": {
+      "larghezza": 3000,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 405,
+      "volume": 2.5,
+      "bruciatori": 10,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)",
+      "forno": 2
+    }
+  },
+  {
+    "code": "EUR/11",
+    "name": "Cucina Eurasia a undici fuochi.",
+    "url": "https://casta.com/product/eur11/",
+    "image": "https://casta.com/wp-content/uploads/2013/10/EU-CESABA-5+6-400x300.jpg",
+    "image_large": "https://casta.com/wp-content/uploads/2013/10/EU-CESABA-5+6-1000x750.jpg",
+    "specs": {
+      "larghezza": 3000,
+      "altezza": 850,
+      "profondità": 1000,
+      "peso": 485,
+      "volume": 2.5,
+      "bruciatori": 11,
+      "combinazione_bruciatori": "A scelta tra / Choosing between / On peut choisir entre / Es posible elegir entre / 3,0 - 4,5 - 7,5 - 9,5 - 14,0 - 21,0 kW (no price difference) - 23,0 kW (extra cost)"
+    }
+  },
+  {
     "id": "plynovy-5",
     "name": "Sporák wok 1 hořák LS CC/01",
     "label": "Plynový sporáky",
@@ -524,90 +2473,6 @@
     "price_src": null,
     "currency": "",
     "image": "img/bepnuongaisikao/CHANDAI.png",
-    "href": "",
-    "sp": 1
-  },
-  {
-    "id": "d001",
-    "sku": "D001",
-    "name": "Electric Stone Sausage Grill D001",
-    "line1": "2kW power, electric heating, stainless steel body.",
-    "line2": "Pan diameter 425mm, total size 505×250mm, 12kg, made in China, 15-month warranty.",
-    "label": "",
-    "price": null,
-    "price_src": "Contact",
-    "currency": "VND",
-    "image": "img/bepnuongaisikao/D001.png",
-    "href": "",
-    "sp": 1
-  },
-  {
-    "id": "g001",
-    "sku": "G001",
-    "name": "Gas Stone Sausage Grill G001",
-    "line1": "Gas heating type, stainless steel construction.",
-    "line2": "Pan diameter 425mm, total size 505×250mm, 12kg, made in China, 15-month warranty.",
-    "label": "",
-    "price": null,
-    "price_src": "Contact",
-    "currency": "VND",
-    "image": "img/bepnuongaisikao/G001.png",
-    "href": "",
-    "sp": 1
-  },
-  {
-    "id": "d002",
-    "sku": "D002",
-    "name": "Electric Stone Sausage Grill D002",
-    "line1": "2kW power, electric heating, stainless steel frame.",
-    "line2": "Pan diameter 480mm, total size 560×250mm, 19kg, made in China, 15-month warranty.",
-    "label": "",
-    "price": null,
-    "price_src": "Contact",
-    "currency": "VND",
-    "image": "img/bepnuongaisikao/D002.png",
-    "href": "",
-    "sp": 1
-  },
-  {
-    "id": "g002",
-    "sku": "G002",
-    "name": "Gas Stone Sausage Grill G002",
-    "line1": "Gas heating model with 480mm pan diameter.",
-    "line2": "Total size 560×250mm, stainless steel, 19kg, made in China, 15-month warranty.",
-    "label": "",
-    "price": null,
-    "price_src": "Contact",
-    "currency": "VND",
-    "image": "img/bepnuongaisikao/G002.png",
-    "href": "",
-    "sp": 1
-  },
-  {
-    "id": "d003",
-    "sku": "D003",
-    "name": "Electric Stone Sausage Grill D003",
-    "line1": "2kW power, electric type, large pan 550mm.",
-    "line2": "Overall size 630×250mm, 23kg, stainless steel, made in China, 15-month warranty.",
-    "label": "",
-    "price": null,
-    "price_src": "Contact",
-    "currency": "VND",
-    "image": "img/bepnuongaisikao/D003.png",
-    "href": "",
-    "sp": 1
-  },
-  {
-    "id": "g003",
-    "sku": "G003",
-    "name": "Gas Stone Sausage Grill G003",
-    "line1": "Gas type with 550mm pan diameter, stainless steel body.",
-    "line2": "Size 630×250mm, 23kg, made in China, 15-month warranty.",
-    "label": "",
-    "price": null,
-    "price_src": "Contact",
-    "currency": "VND",
-    "image": "img/bepnuongaisikao/G003.png",
     "href": "",
     "sp": 1
   }

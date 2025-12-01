@@ -934,7 +934,13 @@
 
         document.documentElement.setAttribute("lang", lang);
 
-        // Ví dụ: nếu bạn có nút loadMore
+        // 👇 THÊM 2 DÒNG NÀY
+        window.minaLang = lang;                      // cho getLang() đọc
+        if (typeof window.minaSetLang === "function") {
+            window.minaSetLang(lang);               // re-render filter Combisteel
+        }
+
+        // Nút loadMore (nếu có)
         const loadBtn = document.getElementById("loadMore");
         if (loadBtn) {
             const isExpanded = loadBtn.getAttribute("data-expanded") === "true";
@@ -942,6 +948,7 @@
             const label = i18n[lang] && i18n[lang][labelKey];
             if (label) loadBtn.textContent = label;
         }
+
     }
 
     function init() {

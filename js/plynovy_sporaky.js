@@ -4,8 +4,9 @@
   const COUNT_EL = "#product-count";
   const PAGER_SLOT = "#pager-slot";
   const CATEGORY_SLOT = "#category-slot";
+  const EXTRA_FILTER_SLOT = "#extra-filter-slot"; // optional: filter số hořák
 
-  const DATA_URL = "js/data/plynovy_sporaky.json"; // ← đổi sang file JSON của bạn
+  const DATA_URL = "js/data/plynovy_sporaky.json";
 
   const LABELS = {
     loadingAria: "loading",
@@ -21,18 +22,158 @@
 
   const PAGE_SIZE = 30;
 
-  // ========= CATEGORY RULES =========
+  // ========= I18N đơn giản (EN / CS) =========
+  const LANGS = ["en", "cs"];
 
+  function getLang() {
+    const g = (window.minaLang || "").toLowerCase();
+    return LANGS.includes(g) ? g : "cs"; // default Czech
+  }
+
+  const I18N = {
+    categoryTitle: { en: "Category", cs: "Kategorie" },
+    all: { en: "All", cs: "Vše" },
+
+    catElectric: { en: "Electric stoves", cs: "Elektrické sporáky" },
+    catGas: { en: "Gas stoves", cs: "Plynové sporáky" },
+    catOther: { en: "Accessories / Others", cs: "Příslušenství / Ostatní" },
+
+    burnersTitle: { en: "Number of burners", cs: "Počet hořáků" },
+    burnersAll: { en: "All", cs: "Vše" },
+    burners1: { en: "1 burner", cs: "1 hořák" },
+    burners2: { en: "2 burners", cs: "2 hořáky" },
+    burners3: { en: "3 burners", cs: "3 hořáky" },
+    burners4plus: { en: "4+ burners", cs: "4+ hořáků" },
+
+    // 👇 THÊM MỚI Ở ĐÂY
+    typeTitle: { en: "Appliance type", cs: "Typ zařízení" },
+    typeAll: { en: "All", cs: "Vše" },
+    typeStove: { en: "Stoves / wok", cs: "Sporáky / wok" },
+    typeGrill: { en: "Grills / BBQ", cs: "Grilly / BBQ" },
+    typeChinese: { en: "Chinese cooker", cs: "Čínský sporák" },
+    typeSpare: { en: "Accessories", cs: "Příslušenství" },
+  };
+
+  function t(key) {
+    const lang = getLang();
+    const obj = I18N[key];
+    return obj ? obj[lang] || obj["cs"] || key : key;
+  }
+
+  // Cho phép nơi khác đổi ngôn ngữ:
+  window.minaSetLang = function (lang) {
+    if (!LANGS.includes(lang)) return;
+    window.minaLang = lang;
+    // re-render filter theo lang mới
+    renderCategorySidebar();
+    renderExtraFilters();
+    renderProducts();
+  };
+
+  // ========= CATEGORY RULES =========
+  // dùng key cố định, label i18n
+  const CATEGORY_RULES = [
+    {
+      key: "electric",
+      test: (t) => /(electric|elektrick|induction|indukční)/i.test(t),
+    },
+    {
+      key: "gas",
+      test: (t) =>
+        /(plynov|gas)/i.test(t) &&
+        !/(burner tile|burner head|shield plate)/i.test(t),
+    },
+    {
+      key: "other",
+      test: (_t) => true,
+    },
+  ];
+
+  function getCategoryLabel(key) {
+    switch (key) {
+      case "electric":
+        return t("catElectric");
+      case "gas":
+        return t("catGas");
+      case "other":
+      default:
+        return t("catOther");
+    }
+  }
+
+  const CAT_ALL_KEY = "all";
+
+  // ========= EXTRA FILTER: số hořák =========
+  const BURNER_KEYS = ["all", "1", "2", "3", "4+"];
+
+  function getBurnerLabel(key) {
+    switch (key) {
+      case "1":
+        return t("burners1");
+      case "2":
+        return t("burners2");
+      case "3":
+        return t("burners3");
+      case "4+":
+        return t("burners4plus");
+      case "all":
+      default:
+        return t("burnersAll");
+    }
+  }
+
+  // ========= FILTER: LOẠI THIẾT BỊ =========
+  const TYPE_KEYS = ["all", "stove", "grill", "chinese", "spare"];
+
+  function getTypeLabel(key) {
+    switch (key) {
+      case "stove":
+        return t("typeStove");
+      case "grill":
+        return t("typeGrill");
+      case "chinese":
+        return t("typeChinese");
+      case "spare":
+        return t("typeSpare");
+      case "all":
+      default:
+        return t("typeAll");
+    }
+  }
+
+  // đọc loại thiết bị từ name / line1 / line2 / label
+  function detectTypeGroup(p = {}) {
+    const text = [p.name, p.line1, p.line2, p.label]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+
+    // Chinese / Eurasia / wok
+    if (/(cucina cinese|eurasia|wok)/.test(text)) return "chinese";
+
+    // Grill / BBQ / skewer / teppanyaki
+    if (/(grill|bbq|skewer|teppanyaki|stone sausage)/.test(text)) return "grill";
+
+    // Phụ tùng / tile / burner head...
+    if (/(burner tile|burner head|shield plate|spare part|tile)/.test(text))
+      return "spare";
+
+    // còn lại coi như bếp / wok
+    return "stove";
+  }
 
   const SEE_ALL = LABELS.seeAll;
 
   // ========= STATE =========
   let allProducts = [];
   let filteredProducts = [];
-  let currentPage = 1; // 1-based
-  let currentCategory = SEE_ALL;
+  let currentPage = 1;
+  let currentCategory = CAT_ALL_KEY;
+  let currentBurners = "all";
+  let currentType = "all";          // NEW: filter theo loại thiết bị
 
-  // đọc ?cat & ?page
+
+  // đọc ?cat & ?page (cat = key)
   const qs = new URLSearchParams(location.search);
   const initCat = qs.get("cat");
   const initPage = parseInt(qs.get("page"), 10);
@@ -43,24 +184,89 @@
   if (!grid) return;
 
   // ========= UTIL =========
-  const normalize = (p) => ({
-    id: p?.id || p?.sku || p?.name || "",
-    sku: p?.sku || "",
-    name: p?.name || "",
-    line1: p?.line1 || "",
-    line2: p?.line2 || "",
-    label: p?.label || "",
-    // cố gắng chuyển giá thành number; nếu rỗng => null
-    price: p?.price === "" || p?.price == null ? null : Number(p.price),
-    currency: (p?.currency || "").trim(), // có thể rỗng
-    image: p?.image || "img/placeholder.webp",
-    href: p?.href || "#",
-    sp: p?.sp ?? null,
-  });
+  // ========= UTIL: chuẩn hoá data Casta =========
+  const normalize = (p) => {
+    const s = p?.specs || {};
 
-  // Format giá: cs-CZ, 2 số lẻ. Nếu không có currency → mặc định "Kč bez DPH"
+    // Map cả key tiếng Anh lẫn tiếng Ý
+    const width = s.width ?? s.larghezza ?? null;
+    const height = s.height ?? s.altezza ?? null;
+    const depth = s.depth ?? s["profondità"] ?? s.profondita ?? null;
+    const weight = s.weight ?? s.peso ?? p.weight ?? null;
+    const volume = s.volume ?? p.volume ?? null;
+
+    const burners = s.burners ?? s.bruciatori ?? null;
+    const burners_combination =
+      s.burners_combination ?? s.combinazione_bruciatori ?? "";
+
+    // Dòng 1: kích thước
+    const dimStr =
+      width || depth || height
+        ? `Dimensioni (L×P×H): ${[width, depth, height].filter(Boolean).join(" x ")} mm`
+        : "";
+
+    // Dòng 2: các thông số còn lại (dùng cho inquiry / fallback)
+    const detailParts = [];
+    if (weight != null) detailParts.push(`Peso: ${weight} kg`);
+    if (volume != null) detailParts.push(`Volume: ${volume} m³`);
+    if (burners != null) detailParts.push(`Bruciatori: ${burners}`);
+    if (burners_combination)
+      detailParts.push(`Combinazione bruciatori: ${burners_combination}`);
+    const detailStr = detailParts.join(" • ");
+
+    return {
+      id: p?.code || p?.id || p?.name || "",
+      sku: p?.code || p?.sku || "",
+      name: p?.name || "",
+      line1: dimStr,
+      line2: detailStr,
+      label: "",
+      price: p?.price === "" || p?.price == null ? null : Number(p.price),
+      currency: (p?.currency || "").trim(),
+      image: p?.image || p?.image_large || "img/placeholder.webp",
+      href: p?.url || p?.href || "#",
+      sp: p?.sp ?? null,
+      specs: {
+        width,
+        depth,
+        height,
+        weight,
+        volume,
+        burners,
+        burners_combination,
+      },
+    };
+  };
+
+
+  const specsHTML = (p) => {
+    const s = p.specs || {};
+    const rows = [];
+
+    if (s.width || s.depth || s.height) {
+      rows.push(
+        `Dimensioni (L×P×H): ${[s.width, s.depth, s.height]
+          .filter(Boolean)
+          .join(" x ")} mm`
+      );
+    }
+    if (s.weight != null) rows.push(`Peso: ${s.weight} kg`);
+    if (s.volume != null) rows.push(`Volume: ${s.volume} m³`);
+    if (s.burners != null) rows.push(`Bruciatori: ${s.burners}`);
+    if (s.burners_combination)
+      rows.push(`Combinazione bruciatori: ${s.burners_combination}`);
+
+    if (!rows.length) return "";
+
+    return `
+    <ul class="list-unstyled mb-2 small text-muted">
+      ${rows.map((r) => `<li>${r}</li>`).join("")}
+    </ul>
+  `;
+  };
+
+
   const fmtPrice = (price, currency) => {
-    // coi như “không có giá” nếu null/NaN/<=0
     if (price == null || price === "" || isNaN(price) || Number(price) <= 0)
       return "";
     const formatted = new Intl.NumberFormat("cs-CZ", {
@@ -71,28 +277,100 @@
     return `${formatted} ${tail}`.trim();
   };
 
-  // Tạo nội dung tin nhắn hỏi hàng (đi qua trang contact)
   const buildInquiryMessage = (p = {}) => {
     const lines = [
-      'Hello, I want to ask about this product:',
-      p.name ? `• Product name: ${p.name}` : '',
-      p.line1 ? `• Detail 1: ${p.line1}` : '',
-      p.line2 ? `• Detail 2: ${p.line2}` : '',
-      p.sku ? `• SKU: ${p.sku}` : '',
-      `• Source Page: ${location.href}`
+      "Hello, I want to ask about this product:",
+      p.name ? `• Product name: ${p.name}` : "",
+      p.line1 ? `• Detail 1: ${p.line1}` : "",
+      p.line2 ? `• Detail 2: ${p.line2}` : "",
+      p.sku ? `• SKU: ${p.sku}` : "",
+      `• Source Page: ${location.href}`,
     ].filter(Boolean);
-    return lines.join('\n');
+    return lines.join("\n");
   };
 
-
-  function detectCategoryByName(name = "") {
+  function detectCategory(p = {}) {
+    const text = [p.name, p.line1, p.line2, p.label]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
     for (const rule of CATEGORY_RULES) {
-      if (rule.patterns.some((re) => re.test(name))) return rule.name;
+      if (rule.test(text)) return rule.key;
     }
-    return SEE_ALL;
+    return "other";
   }
 
-  // ========= RENDER =========
+  // đọc số hořák từ text
+  function detectBurnerGroup(p = {}) {
+    const text = [p.name, p.line1, p.line2, p.label]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+
+    if (/(^|\s)1\s*(hoř|horak|burner)/.test(text)) return "1";
+    if (/(^|\s)2\s*(hoř|horak|burner)/.test(text)) return "2";
+    if (/(^|\s)3\s*(hoř|horak|burner)/.test(text)) return "3";
+    if (
+      /(4|5|6|7|8|9)\s*(hoř|horak|burner)/.test(text) ||
+      /(4\s*\+?\s*burners?)/.test(text)
+    )
+      return "4+";
+
+    return "all";
+  }
+
+  // ========= RENDER CARD =========
+  // ========= RENDER CARD (HIỂN THỊ NHIỀU THÔNG TIN HƠN) =========
+
+  // format kích thước
+  function getDimensionsText(p) {
+    if (p.dimensions && (p.dimensions.w || p.dimensions.d || p.dimensions.h)) {
+      const w = p.dimensions.w;
+      const d = p.dimensions.d;
+      const h = p.dimensions.h;
+      if (w && d && h) return `${w} x ${d} x ${h} mm`;
+    }
+
+    if (p.specs && (p.specs.larghezza || p.specs.profondità || p.specs.altezza)) {
+      const w = p.specs.larghezza;
+      const d = p.specs.profondità;
+      const h = p.specs.altezza;
+      if (w && d && h) return `${w} x ${d} x ${h} mm`;
+    }
+
+    return "";
+  }
+
+  // format cân nặng
+  function getWeightText(p) {
+    if (p.weight) return `${p.weight} kg`;
+    if (p.specs && p.specs.peso) return `${p.specs.peso} kg`;
+    return "";
+  }
+
+  // sku / code
+  function getCode(p) {
+    return p.sku || p.item_number || p.code || "";
+  }
+
+  // mô tả ngắn
+  function getShortDescription(p) {
+    if (p.line1) return p.line1;
+    if (p.specs && p.specs.combinazione_bruciatori) return p.specs.combinazione_bruciatori;
+    return "";
+  }
+
+  // giá
+  function getPriceText(p) {
+    if (typeof p.price === "number")
+      return `${p.price.toLocaleString("cs-CZ")} ${p.currency || ""}`;
+
+    if (p.price_src) return p.price_src;
+
+    return "";
+  }
+
+  // ========= RENDER CARD =========
   const cardHTML = (p) => {
     const priceText = fmtPrice(p.price, p.currency);
     const hasPrice = Number.isFinite(p.price) && Number(p.price) > 0;
@@ -104,13 +382,17 @@
         <div class="fruite-img">
           <img src="${p.image}" class="img-fluid w-100 rounded-top border border-secondary" alt="${p.name}">
         </div>
-        ${p.label ? `<div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top:10px;left:10px;font-size:12px">${p.label}</div>` : ''}
+
+        ${p.label ? `
+        <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
+             style="top:10px;left:10px;font-size:12px">${p.label}</div>` : ""}
 
         <div class="p-4 border border-secondary border-top-0 rounded-bottom d-flex flex-column">
-<h4 class="mb-2 line-clamp-2" title="${p.name}">${p.name}</h4>
-${p.line1 ? `<p class="mb-1 text-muted line-clamp-2" title="${p.line1}">${p.line1}</p>` : ''}
-${p.line2 ? `<p class="mb-2 text-muted line-clamp-2" title="${p.line2}">${p.line2}</p>` : ''}
-${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku}">SKU: ${p.sku}</p>` : ''}
+
+          <h4 class="mb-1 line-clamp-2" title="${p.name}">${p.name}</h4>
+          ${p.sku ? `<p class="mb-1 small text-secondary">Code: ${p.sku}</p>` : ""}
+
+          ${specsHTML(p)}
 
           ${priceText ? `<p class="mb-3 fw-semibold">${priceText}</p>` : `<p class="mb-3"></p>`}
 
@@ -145,7 +427,8 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
   };
 
 
-  // Popup (tận dụng markup sẵn)
+
+  // ========= POPUP =========
   const popup = document.getElementById("product-popup");
   const popupImg = document.getElementById("popup-img");
   const popupName = document.getElementById("popup-name");
@@ -153,20 +436,41 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
   const popupWeight = document.getElementById("popup-weight");
   const popupClose = document.querySelector(".product-popup-close");
 
+  // ========= POPUP =========
   function openPopup(p) {
+    if (!popup) return;
     popupImg.src = p.image || "img/placeholder.webp";
     popupImg.alt = p.name || "";
     popupName.textContent = p.name || "";
-    popupDim.textContent = [p.line1, p.line2].filter(Boolean).join(" • ");
-    popupWeight.textContent = [
-      p.sku ? `SKU: ${p.sku}` : "",
-      fmtPrice(p.price, p.currency),
-    ]
-      .filter(Boolean)
-      .join(" | ");
+
+    const s = p.specs || {};
+    const rows = [];
+
+    if (s.width || s.depth || s.height) {
+      rows.push(
+        `Dimensioni (L×P×H): ${[s.width, s.depth, s.height]
+          .filter(Boolean)
+          .join(" x ")} mm`
+      );
+    }
+    if (s.weight != null) rows.push(`Peso: ${s.weight} kg`);
+    if (s.volume != null) rows.push(`Volume: ${s.volume} m³`);
+    if (s.burners != null) rows.push(`Bruciatori: ${s.burners}`);
+    if (s.burners_combination)
+      rows.push(`Combinazione bruciatori: ${s.burners_combination}`);
+
+    const html = rows.length
+      ? rows.map((r) => `<div>${r}</div>`).join("")
+      : [p.line1, p.line2].filter(Boolean).join(" • ");
+
+    popupDim.innerHTML = html;
+    popupWeight.textContent = p.sku ? `Code: ${p.sku}` : "";
+
     popup.classList.remove("hidden");
   }
+
   function closePopup() {
+    if (!popup) return;
     popup.classList.add("hidden");
   }
   if (popupClose) popupClose.addEventListener("click", closePopup);
@@ -178,7 +482,6 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
   function attachCardHandlers() {
     grid.querySelectorAll(".fruite-item").forEach((item) => {
       item.addEventListener("click", (ev) => {
-        // tránh mở popup khi bấm nút
         if (ev.target.closest("a,button")) return;
         const id = item.dataset.id;
         const p = filteredProducts.find(
@@ -189,7 +492,7 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
     });
   }
 
-  // ===== Add to Cart (uỷ quyền trên grid để không mất sau re-render) =====
+  // ========= ADD TO CART =========
   grid.addEventListener("click", (e) => {
     const a = e.target.closest("a.add-to-cart");
     if (!a) return;
@@ -215,7 +518,7 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
     }, 1200);
   });
 
-  // ===== Dropdown category (Bootstrap) =====
+  // ========= URL helper =========
   function updateURL() {
     const url = new URL(location.href);
     url.searchParams.set("page", String(currentPage));
@@ -223,73 +526,165 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
     history.replaceState(null, "", url);
   }
 
-  function renderCategoryDropdown() {
+  // ========= CATEGORY SIDEBAR =========
+  function renderCategorySidebar() {
     const slot = document.querySelector(CATEGORY_SLOT);
     if (!slot) return;
 
-    const foundSet = new Set([SEE_ALL]);
-    for (const p of allProducts) foundSet.add(detectCategoryByName(p.name));
-    const ordered = [
-      SEE_ALL,
-      ...CATEGORY_RULES.map((r) => r.name).filter((n) => foundSet.has(n)),
-    ];
+    // Đếm số sản phẩm mỗi category
+    const counts = {};
+    for (const p of allProducts) {
+      const catKey = detectCategory(p);
+      counts[catKey] = (counts[catKey] || 0) + 1;
+    }
+    const totalAll = allProducts.length;
 
-    slot.innerHTML = `
-      <div class="dropdown">
-        <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          ${currentCategory}
-        </button>
-        <ul class="dropdown-menu">
-          ${ordered
-        .map(
-          (n) => `
-            <li><a class="dropdown-item ${n === currentCategory ? "active" : ""
-            }" href="#" data-cat="${n}">${n}</a></li>
-          `
-        )
-        .join("")}
-        </ul>
-      </div>
-    `;
+    const orderedKeys = [CAT_ALL_KEY, ...CATEGORY_RULES.map((r) => r.key)];
 
-    slot.querySelectorAll(".dropdown-item").forEach((a) => {
+    slot.innerHTML = orderedKeys
+      .map((key) => {
+        const isAll = key === CAT_ALL_KEY;
+        const label = isAll ? t("all") : getCategoryLabel(key);
+        const count = isAll ? totalAll : counts[key] || 0;
+        const active = key === currentCategory ? "" : "";
+        return `
+          <a href="#"
+             class="mf-filter-row d-flex justify-content-between ${active}"
+             data-cat="${key}">
+            <span>${label}</span>
+            <span class="count text-muted">(${count})</span>
+          </a>
+        `;
+      })
+      .join("");
+
+    slot.querySelectorAll(".mf-filter-row").forEach((a) => {
       a.addEventListener("click", (e) => {
         e.preventDefault();
-        const cat = a.getAttribute("data-cat") || SEE_ALL;
-        if (cat !== currentCategory) {
-          currentCategory = cat;
-          currentPage = 1;
-          applyFilter();
-          renderProducts();
-        }
+        const cat = a.getAttribute("data-cat") || CAT_ALL_KEY;
+        if (cat === currentCategory) return;
+        currentCategory = cat;
+        currentPage = 1;
+        applyFilter();
+        renderProducts();
       });
     });
   }
 
-  // ===== Phân trang Prev / Select / Next =====
+  // ========= EXTRA FILTER: Burners + Type =========
+  function renderExtraFilters() {
+    const slot = document.querySelector(EXTRA_FILTER_SLOT);
+    if (!slot) return;
+
+    const burnerCounts = {};
+    const typeCounts = {};
+
+    for (const p of allProducts) {
+      const b = detectBurnerGroup(p);
+      burnerCounts[b] = (burnerCounts[b] || 0) + 1;
+
+      const ty = detectTypeGroup(p);
+      typeCounts[ty] = (typeCounts[ty] || 0) + 1;
+    }
+
+    const totalAll = allProducts.length;
+
+    // phần filter số hořák
+    let html = `
+    <div class="mb-2 fw-semibold text-uppercase" style="font-size: 0.85rem;">
+      ${t("burnersTitle")}
+    </div>
+  `;
+
+    html += BURNER_KEYS.map((k) => {
+      const label = getBurnerLabel(k);
+      const count = k === "all" ? totalAll : burnerCounts[k] || 0;
+      const active = k === currentBurners ? "" : "";
+      return `
+      <a href="#"
+         class="mf-filter-row d-flex justify-content-between ${active}"
+         data-burners="${k}">
+        <span>${label}</span>
+        <span class="count text-muted">(${count})</span>
+      </a>
+    `;
+    }).join("");
+
+    // ngăn cách nhóm mới
+    html += `<hr class="my-3">`;
+
+    // phần filter loại thiết bị
+    html += `
+    <div class="mb-2 fw-semibold text-uppercase" style="font-size: 0.85rem;">
+      ${t("typeTitle")}
+    </div>
+  `;
+
+    html += TYPE_KEYS.map((k) => {
+      const label = getTypeLabel(k);
+      const count = k === "all" ? totalAll : typeCounts[k] || 0;
+      const active = k === currentType ? "" : "";
+      return `
+      <a href="#"
+         class="mf-filter-row d-flex justify-content-between ${active}"
+         data-type="${k}">
+        <span>${label}</span>
+        <span class="count text-muted">(${count})</span>
+      </a>
+    `;
+    }).join("");
+
+    slot.innerHTML = html;
+
+    // click – burners
+    slot.querySelectorAll("[data-burners]").forEach((a) => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        const key = a.getAttribute("data-burners") || "all";
+        if (key === currentBurners) return;
+        currentBurners = key;
+        currentPage = 1;
+        applyFilter();
+        renderProducts();
+      });
+    });
+
+    // click – type
+    slot.querySelectorAll("[data-type]").forEach((a) => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        const key = a.getAttribute("data-type") || "all";
+        if (key === currentType) return;
+        currentType = key;
+        currentPage = 1;
+        applyFilter();
+        renderProducts();
+      });
+    });
+  }
+
+
+  // ========= PAGINATION =========
   function renderPager(totalItems) {
     const slot = document.querySelector(PAGER_SLOT);
     if (!slot) return;
 
     const totalPages = Math.max(1, Math.ceil(totalItems / PAGE_SIZE));
-    // Nếu chỉ 1 trang thì xoá pager & thoát
     if (totalPages <= 1) {
       slot.innerHTML = "";
       updateURL();
       return;
     }
 
-    // Clamp currentPage
     currentPage = Math.min(Math.max(1, currentPage), totalPages);
 
-    // Tạo dải trang kiểu: ‹ 1 … c-2 c-1 c c+1 c+2 … last ›
     const pages = [];
     const push = (n) => pages.push(n);
     const addRange = (a, b) => {
       for (let i = a; i <= b; i++) pages.push(i);
     };
 
-    const centerSpan = 2; // số trang mỗi bên current
+    const centerSpan = 2;
     const first = 1;
     const last = totalPages;
 
@@ -298,8 +693,6 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
     let start = Math.max(first + 1, currentPage - centerSpan);
     let end = Math.min(last - 1, currentPage + centerSpan);
 
-    // nới để đủ 5 trang trung tâm khi sát biên
-    const desired = 1 + 1 + (centerSpan * 2 + 1) + 1; // 1 + mid(5) + 1 = 7 “điểm” (không tính …)
     const midCount = end >= start ? end - start + 1 : 0;
     let missing = centerSpan * 2 + 1 - midCount;
     while (missing > 0 && start > first + 1) {
@@ -335,7 +728,6 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
     </div>
   `;
 
-    // Gắn click (Prev/Next + số)
     slot.querySelectorAll(".mf-pg-btn").forEach((btn) => {
       const page = parseInt(btn.getAttribute("data-page"), 10);
       if (isNaN(page)) return;
@@ -343,22 +735,30 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
         e.preventDefault();
         if (page < 1 || page > totalPages || page === currentPage) return;
         currentPage = page;
-        renderProducts(); // gọi lại render
+        renderProducts();
       });
     });
 
-    updateURL(); // đồng bộ ?page
+    updateURL();
   }
 
   function applyFilter() {
-    if (currentCategory === SEE_ALL) {
-      filteredProducts = allProducts.slice();
-    } else {
-      filteredProducts = allProducts.filter(
-        (p) => detectCategoryByName(p.name) === currentCategory
-      );
-    }
+    filteredProducts = allProducts.filter((p) => {
+      const catKey = detectCategory(p);
+      const burnerKey = detectBurnerGroup(p);
+      const typeKey = detectTypeGroup(p);
+
+      const okCat =
+        currentCategory === CAT_ALL_KEY || catKey === currentCategory;
+      const okBurner =
+        currentBurners === "all" || burnerKey === currentBurners;
+      const okType =
+        currentType === "all" || typeKey === currentType;
+
+      return okCat && okBurner && okType;
+    });
   }
+
 
   function renderProducts() {
     const start = (currentPage - 1) * PAGE_SIZE;
@@ -381,7 +781,7 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
     } catch { }
   }
 
-  // ===== Loading & fetch =====
+  // ========= LOAD JSON & INIT =========
   grid.innerHTML = `
     <div class="col-12 text-center py-5">
       <div class="spinner-border" role="status" aria-label="${LABELS.loadingAria}"></div>
@@ -397,7 +797,8 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
       .map(normalize)
       .filter((p) => p && p.name);
 
-    renderCategoryDropdown();
+    renderCategorySidebar();
+    renderExtraFilters();
     applyFilter();
 
     const maxPage = Math.max(1, Math.ceil(filteredProducts.length / PAGE_SIZE));
@@ -413,11 +814,9 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
     `;
     const ps = document.querySelector(PAGER_SLOT);
     if (ps) ps.innerHTML = "";
-    const cs = document.querySelector(CATEGORY_SLOT);
-    if (cs) cs.innerHTML = "";
   }
 
-  // ========== INQUIRY MODAL + EMAILJS (giữ nguyên logic bạn đang dùng) ==========
+  // ========= INQUIRY MODAL + EMAILJS (giữ nguyên) =========
   document.addEventListener("click", (e) => {
     const btn = e.target.closest(".js-inquiry-btn");
     if (!btn) return;
@@ -526,5 +925,4 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
       });
     }
   });
-  // nhận search
 })();
