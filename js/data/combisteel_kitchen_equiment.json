@@ -98,49 +98,6 @@
         "accessories": []
     },
     {
-        "code": "7178.1215",
-        "name": "GAS WOK TABLE 4X17kW + 3X9kW",
-        "url": "https://www.combisteel.com/en/7178-1215-gas-wok-table-4x17kw-3x9kw.html",
-        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_1215_1.jpg",
-        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_1215_1.jpg",
-        "price": 305000,
-        "price_currency": " Kč bez DPH",
-        "price_text": "305 000 Kč",
-        "specs": {
-            "ean_code": 7422242994931,
-            "width": 2500,
-            "depth": 900,
-            "height": 750,
-            "material": "Stainless steel Aisi 304",
-            "parcel_ready": "No",
-            "gross_weight": 362,
-            "net_weight": 337,
-            "version": "Gas",
-            "model_tabletop/_freestanding/drop-in": "Freestanding",
-            "burner_capacity_/_division": "4x 17kW + 3x 9kW",
-            "number_of_burners": 7,
-            "brand": "COMBISTEEL",
-            "number_of_wok_/_soup_burners": "4 / 3",
-            "faucet": 185191,
-            "grease_collection_tray_/_drawer": "Yes"
-        },
-        "downloads": [
-            {
-                "label": "Manual 7178.1205-1210-1215",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216597/product/4801/"
-            },
-            {
-                "label": "Exploded view 7178.1215 (2024)",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216598/product/4801/"
-            },
-            {
-                "label": "7178.1215 Dimensions",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216599/product/4801/"
-            }
-        ],
-        "accessories": []
-    },
-    {
         "code": "7004.0045",
         "name": "VACUUM MACHINE GIANT 52",
         "url": "https://www.combisteel.com/en/7004-0045-vacuum-machine-giant-52.html",
@@ -185,77 +142,6 @@
             {
                 "label": "Mode d'emploi Giant et Prime séries",
                 "url": "https://www.combisteel.com/en/amfile/file/download/file/1211477/product/693/"
-            }
-        ],
-        "accessories": []
-    },
-    {
-        "code": "7178.1210",
-        "name": "GAS WOK TABLE 3X17KW + 2X9KW",
-        "url": "https://www.combisteel.com/en/7178-1210-gas-wok-table-3x17kw-2x9kw.html",
-        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_1210_1.jpg",
-        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_1210_1.jpg",
-        "price": 245000,
-        "price_currency": " Kč bez DPH",
-        "price_text": "245 000 Kč",
-        "specs": {
-            "ean_code": 7422242994924,
-            "width": 2000,
-            "depth": 900,
-            "height": 750,
-            "material": "Stainless steel Aisi 304",
-            "parcel_ready": "No",
-            "gross_weight": 248,
-            "net_weight": 233,
-            "version": "Gas",
-            "model_tabletop/_freestanding/drop-in": "Freestanding",
-            "burner_capacity_/_division": "3x 17kW + 2x 9kW",
-            "number_of_burners": 5,
-            "brand": "COMBISTEEL",
-            "number_of_wok_/_soup_burners": "3 / 2",
-            "faucet": 185191,
-            "grease_collection_tray_/_drawer": "Yes"
-        },
-        "downloads": [
-            {
-                "label": "Manual 7178.1205-1210-1215",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216594/product/4800/"
-            },
-            {
-                "label": "Exploded view 7178.1210 (2024)",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216595/product/4800/"
-            },
-            {
-                "label": "7178.1210 Dimensions",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216596/product/4800/"
-            }
-        ],
-        "accessories": []
-    },
-    {
-        "code": "7003.0920",
-        "name": "PANCAKE PREPARATION TABLE 5 BU.",
-        "url": "https://www.combisteel.com/en/7003-0920-pancake-preparation-table-5-bu.html",
-        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7003_0920-9888.jpg",
-        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7003_0920-9888.jpg",
-        "price": 162500,
-        "price_currency": " Kč bez DPH",
-        "price_text": "162 500 Kč",
-        "specs": {
-            "ean_code": 7435137830801,
-            "width": 2080,
-            "depth": 600,
-            "height": 800,
-            "total_gas_output": 32.5,
-            "version": "Gas",
-            "burner_capacity_/_division": "5x 6,5",
-            "cooking_grate": "400x400mm",
-            "brand": "COMBISTEEL"
-        },
-        "downloads": [
-            {
-                "label": "Handleiding 7003.09xx",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1211434/product/807/"
             }
         ],
         "accessories": []
@@ -391,34 +277,6 @@
         "accessories": []
     },
     {
-        "code": "7003.0915",
-        "name": "PANCAKE PREPARATION TABLE 4 BU.",
-        "url": "https://www.combisteel.com/en/7003-0915-pancake-preparation-table-4-bu.html",
-        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7003_0915-9887.jpg",
-        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7003_0915-9887.jpg",
-        "price": 140000,
-        "price_currency": " Kč bez DPH",
-        "price_text": "140 000 Kč",
-        "specs": {
-            "ean_code": 7435137829898,
-            "width": 1685,
-            "depth": 600,
-            "height": 800,
-            "total_gas_output": 26,
-            "version": "Gas",
-            "burner_capacity_/_division": "4x 6,5",
-            "cooking_grate": "400x400mm",
-            "brand": "COMBISTEEL"
-        },
-        "downloads": [
-            {
-                "label": "Handleiding 7003.09xx",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1211433/product/806/"
-            }
-        ],
-        "accessories": []
-    },
-    {
         "code": "7466.1500",
         "name": "GIORIK SALAMANDER 735 TOUCH",
         "url": "https://www.combisteel.com/en/7466-1500-giorik-salamander-735-touch.html",
@@ -449,34 +307,6 @@
             {
                 "label": "Exploded view 7466.1500",
                 "url": "https://www.combisteel.com/en/amfile/file/download/file/1213584/product/736/"
-            }
-        ],
-        "accessories": []
-    },
-    {
-        "code": "7003.0910",
-        "name": "PANCAKE PREPARATION TABLE 3 BU.",
-        "url": "https://www.combisteel.com/en/7003-0910-pancake-preparation-table-3-bu.html",
-        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7003_0910-9886.jpg",
-        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7003_0910-9886.jpg",
-        "price": 130000,
-        "price_currency": " Kč bez DPH",
-        "price_text": "130 000 Kč",
-        "specs": {
-            "ean_code": 7435137829881,
-            "width": 1290,
-            "depth": 600,
-            "height": 800,
-            "total_gas_output": 19.5,
-            "version": "Gas",
-            "burner_capacity_/_division": "3x 6,5",
-            "cooking_grate": "400x400mm",
-            "brand": "COMBISTEEL"
-        },
-        "downloads": [
-            {
-                "label": "Handleiding 7003.09xx",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1211432/product/805/"
             }
         ],
         "accessories": []
@@ -526,34 +356,6 @@
             {
                 "label": "Mode d'emploi Smooth series",
                 "url": "https://www.combisteel.com/en/amfile/file/download/file/1211465/product/690/"
-            }
-        ],
-        "accessories": []
-    },
-    {
-        "code": "7003.0905",
-        "name": "PANCAKE PREPARATION TABLE 2 BU.",
-        "url": "https://www.combisteel.com/en/7003-0905-pancake-preparation-table-2-bu.html",
-        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7003_0905-9885.jpg",
-        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7003_0905-9885.jpg",
-        "price": 118250,
-        "price_currency": " Kč bez DPH",
-        "price_text": "118 250 Kč",
-        "specs": {
-            "ean_code": 7435137829874,
-            "width": 895,
-            "depth": 600,
-            "height": 800,
-            "total_gas_output": 13,
-            "version": "Gas",
-            "burner_capacity_/_division": "2x 6,5",
-            "cooking_grate": "400x400mm",
-            "brand": "COMBISTEEL"
-        },
-        "downloads": [
-            {
-                "label": "Handleiding 7003.09xx",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1211431/product/804/"
             }
         ],
         "accessories": []
@@ -690,34 +492,6 @@
             {
                 "label": "Exploded view 7466.1490.",
                 "url": "https://www.combisteel.com/en/amfile/file/download/file/1213579/product/734/"
-            }
-        ],
-        "accessories": []
-    },
-    {
-        "code": "7003.0900",
-        "name": "PANCAKE PREPARATION TABLE 1 BU.",
-        "url": "https://www.combisteel.com/en/7003-0900-pancake-preparation-table-1-bu.html",
-        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7003_0900_1.png",
-        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7003_0900_1.png",
-        "price": 108750,
-        "price_currency": " Kč bez DPH",
-        "price_text": "108 750 Kč",
-        "specs": {
-            "ean_code": 7435137829867,
-            "width": 500,
-            "depth": 600,
-            "height": 500,
-            "total_gas_output": 6.5,
-            "version": "Gas",
-            "burner_capacity_/_division": "1x 6,5",
-            "cooking_grate": "400x400mm",
-            "brand": "COMBISTEEL"
-        },
-        "downloads": [
-            {
-                "label": "Handleiding 7003.09xx",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1211430/product/803/"
             }
         ],
         "accessories": []
@@ -2586,133 +2360,6 @@
         "accessories": []
     },
     {
-        "code": "7455.0915",
-        "name": "GAS GRILL 3 BURNERS",
-        "url": "https://www.combisteel.com/en/7455-0915-gas-grill-3-burners.html",
-        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0915-7250.jpg",
-        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0915-7250.jpg",
-        "price": 46625,
-        "price_currency": " Kč bez DPH",
-        "price_text": "46 625 Kč",
-        "specs": {
-            "ean_code": 7435137921943,
-            "width": 915,
-            "depth": 800,
-            "height": 590,
-            "parcel_ready": "No",
-            "net_weight": 70,
-            "total_gas_output": 27,
-            "version": "Gas",
-            "model_tabletop/_freestanding/drop-in": "Tabletop",
-            "piezo_ignition": "No",
-            "grease_collection_tray_/_drawer": "Yes",
-            "brand": "COMBISTEEL"
-        },
-        "downloads": [
-            {
-                "label": "Exploded view 7455.0915",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215098/product/790/"
-            },
-            {
-                "label": "Exploded view 7455.0915 (2024)",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215099/product/790/"
-            },
-            {
-                "label": "Manual 7455.0900-0905-0910-0915",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215100/product/790/"
-            },
-            {
-                "label": "7455.0905-0915 dimensions",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215101/product/790/"
-            }
-        ],
-        "accessories": []
-    },
-    {
-        "code": "7455.0905",
-        "name": "GAS LAVA STONE GRILL 3 BURNERS",
-        "url": "https://www.combisteel.com/en/7455-0905-gas-lava-stone-grill-3-burners.html",
-        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0905-7250.jpg",
-        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0905-7250.jpg",
-        "price": 43250,
-        "price_currency": " Kč bez DPH",
-        "price_text": "43 250 Kč",
-        "specs": {
-            "ean_code": 7435137921929,
-            "width": 915,
-            "depth": 800,
-            "height": 590,
-            "parcel_ready": "No",
-            "gross_weight": 148,
-            "net_weight": 124,
-            "total_gas_output": 27,
-            "version": "Gas",
-            "model_tabletop/_freestanding/drop-in": "Tabletop",
-            "piezo_ignition": "No",
-            "grease_collection_tray_/_drawer": "Yes",
-            "brand": "COMBISTEEL"
-        },
-        "downloads": [
-            {
-                "label": "Exploded view 7455.0905.",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215091/product/788/"
-            },
-            {
-                "label": "Exploded view 7455.0905 (2024)",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215092/product/788/"
-            },
-            {
-                "label": "Manual 7455.0900-0905-0910-0915",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215093/product/788/"
-            },
-            {
-                "label": "7455.0905-0915 dimensions",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215094/product/788/"
-            }
-        ],
-        "accessories": [
-            {
-                "code": "7455.0920",
-                "name": "LAVA STONES",
-                "url": "https://www.combisteel.com/en/7455-0920-lava-stones.html",
-                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0920-11031.jpg",
-                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0920-11031.jpg",
-                "price": 625,
-                "price_currency": " Kč bez DPH",
-                "price_text": "625 Kč"
-            }
-        ]
-    },
-    {
-        "code": "7333.2005",
-        "name": "BASE 700 GAS RANGE 4 BU.",
-        "url": "https://www.combisteel.com/en/7333-2005-base-700-gas-range-4-bu.html",
-        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7333_2005-14432.jpg",
-        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7333_2005-14432.jpg",
-        "price": 42250,
-        "price_currency": " Kč bez DPH",
-        "price_text": "42 250 Kč",
-        "specs": {
-            "width": 700,
-            "depth": 700,
-            "height": 900,
-            "material": "Stainless steel 430",
-            "parcel_ready": "No",
-            "gross_weight": 68,
-            "total_gas_output": "4x 6,5",
-            "version": "Gas",
-            "number_of_burners": 4,
-            "brand": "COMBISTEEL"
-        },
-        "downloads": [
-            {
-                "label": "Manual 7333.2000-2005-2010",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212820/product/3914/"
-            }
-        ],
-        "accessories": []
-    },
-    {
         "code": "7003.1200",
         "name": "VAPO GRILL 1 ELEMENT.",
         "url": "https://www.combisteel.com/en/7003-1200-vapo-grill-1-element.html",
@@ -3085,75 +2732,6 @@
             }
         ],
         "accessories": []
-    },
-    {
-        "code": "7455.0965",
-        "name": "ELECTRIC FRYER 2X12L 2X9KW",
-        "url": "https://www.combisteel.com/en/7455-0965-electric-fryer-2x12l-2x9kw.html",
-        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0960-0965_render_3.jpg",
-        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0960-0965_render_3.jpg",
-        "price": 33500,
-        "price_currency": " Kč bez DPH",
-        "price_text": "33 500 Kč",
-        "specs": {
-            "ean_code": 7435137870876,
-            "width": 800,
-            "depth": 700,
-            "height": 850,
-            "material": "Stainless steel",
-            "parcel_ready": "No",
-            "gross_weight": 645,
-            "net_weight": 49,
-            "voltage": "2x 400",
-            "electrical_power": "2x9",
-            "version": "Electric",
-            "model_tabletop/_freestanding/drop-in": "Freestanding",
-            "number_of_baskets": 2,
-            "contents_frypot": "2x12",
-            "brand": "COMBISTEEL",
-            "cord_length": 1500,
-            "plug_and_play": "No"
-        },
-        "downloads": [
-            {
-                "label": "Manual Fryers 7455.0930 - 0965",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1228807/product/764/"
-            },
-            {
-                "label": "Dimensions 7455.0960-0965",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1228808/product/764/"
-            },
-            {
-                "label": "Wiring diagram 7455.0930 - 0965",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1228809/product/764/"
-            },
-            {
-                "label": "Exploded view 7455.0965 (2024)",
-                "url": "https://www.combisteel.com/en/amfile/file/download/file/1228810/product/764/"
-            }
-        ],
-        "accessories": [
-            {
-                "code": "7545.9000",
-                "name": "ENTRY 700 DOOR\nNot suitable for 7545.0005 and 7545.0010",
-                "url": "https://www.combisteel.com/en/7545-9000-entry-700-door-not-suitable-for-7545-0005-and-7545-0010.html",
-                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
-                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7545_9000_1.jpg",
-                "price": 2375,
-                "price_currency": " Kč bez DPH",
-                "price_text": "2 375 Kč"
-            },
-            {
-                "code": "7455.0925",
-                "name": "BASKET FRYER FOR 7455.0930-0935-0940-0945-0950-0955-0960-0965",
-                "url": "https://www.combisteel.com/en/7455-0925-basket-fryer-for-7455-0930-0935-0940-0945-0950-0955-0960-0965.html",
-                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0925_1.jpg",
-                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0925_1.jpg",
-                "price": 2425,
-                "price_currency": " Kč bez DPH",
-                "price_text": "2 425 Kč"
-            }
-        ]
     },
     {
         "code": "7544.0005",
