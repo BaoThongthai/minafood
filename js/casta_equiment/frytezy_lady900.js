@@ -546,7 +546,7 @@
           </a>
          
 
-           <hr/><a href="Combisteel_Cooking_solid_top.html" class="mf-filter-row d-flex justify-content-between">
+           <hr/><a href="Combisteel_Lava_stone_grill.html" class="mf-filter-row d-flex justify-content-between">
              <span>COMBISTEEL</span>
           </a>
         `;

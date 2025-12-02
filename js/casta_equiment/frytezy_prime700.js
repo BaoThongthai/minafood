@@ -551,7 +551,7 @@
           </a>
          
 
-           <hr/><a href="Fritezyprime700.html" class="mf-filter-row d-flex justify-content-between">
+           <hr/><a href="Combisteel_Lava_stone_grill.html" class="mf-filter-row d-flex justify-content-between">
              <span>COMBISTEEL</span>
           </a>
          
