@@ -802,7 +802,7 @@
             "sections.categoriesTitle": "Product Categories"
             ,
             "title_combisteel_kitchen_equiment": "Our extensive collection of professional equipment, ranging from vacuum machines and pasta cookers to deep fryers and baking trays, offer a solution for every kitchen. Choose reliability and performance in your kitchen with our catering and catering equipment.",
-            "tabs.gasStoves": "sStoves",
+            "tabs.gasStoves": "Stoves",
             "tabs.fryers": "Fryers",
             "tabs.gastroContainers": "Gastro containers",
             "tabs.grillPlates": "Grill plates",

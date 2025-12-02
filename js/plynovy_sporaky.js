@@ -21,6 +21,7 @@
   };
 
   const PAGE_SIZE = 30;
+  const PAGE_BASE_MODE = "dropin";
 
   // ========= I18N đơn giản (EN / CS) =========
   const LANGS = ["en", "cs"];
@@ -194,8 +195,14 @@
     if (/(grill|bbq|skewer|teppanyaki|stone sausage)/.test(text)) return "grill";
 
     // Phụ tùng / tile / burner head...
-    if (/(burner tile|burner head|shield plate|spare part|tile)/.test(text))
+    // Phụ tùng / tile / burner head... + pizza shovel / oven brush
+    if (
+      /(burner tile|burner head|shield plate|spare part|tile|pizza shovel|pizza oven brush|oven brush)/.test(
+        text
+      )
+    )
       return "spare";
+
 
     // còn lại coi như bếp / wok
     return "stove";
@@ -252,17 +259,42 @@
   }
 
   function detectRangeKind(p = {}) {
+    const s = p.specs || {};
     const text = [p.name, p.line1, p.line2, p.label]
       .filter(Boolean)
       .join(" ")
       .toLowerCase();
 
-    if (/induction/.test(text)) return "induction";
-    if (/(range with oven|with oven)/.test(text)) return "range_oven";
+    const hasOvenBySpecs = s.oven_power != null;
+    const hasOvenByText = /oven/.test(text);
+    const isInduction = /induction|indukčn/.test(text);
+
+    // 1️⃣ Induction mà KHÔNG có lò → coi là induction hob
+    if (isInduction && !hasOvenBySpecs && !hasOvenByText) {
+      return "induction";
+    }
+
+    // 2️⃣ Range with oven:
+    //    - có oven_power trong specs
+    //    - HOẶC tên có chữ "oven"
+    //    - HOẶC match text cũ "range with oven|with oven"
+    if (
+      hasOvenBySpecs ||
+      hasOvenByText ||
+      /(range with oven|with oven)/.test(text)
+    ) {
+      return "range_oven";
+    }
+
+    // 3️⃣ Induction còn lại (vd: induction range không lò)
+    if (isInduction) return "induction";
+
+    // 4️⃣ Các range bình thường
     if (/range/.test(text)) return "range";
 
     return "all";
   }
+
 
   // ========= NEW: BASE TYPE (Base 700 / Base 900 / Drop-in...) =========
   const BASE_KEYS = ["all", "base700", "base700top", "base900", "dropin"];
@@ -289,13 +321,43 @@
       .join(" ")
       .toLowerCase();
 
-    if (/base 700 countertop/.test(text)) return "base700top";
-    if (/base 900/.test(text)) return "base900";
-    if (/drop[-\s]?in/.test(text)) return "dropin";
-    if (/base 700/.test(text)) return "base700";
+    const s = p.specs || {};
+
+    const depth = Number(s.depth ?? 0);
+    const modelType = (s.model_type || "").toString().toLowerCase();
+    const isTabletop = /table\s*top/.test(modelType);
+
+    // 1️⃣ Drop-in: có kích thước lỗ chờ → chắc chắn là drop-in
+    if (s.installation_width != null || s.installation_depth != null) {
+      return "dropin";
+    }
+
+    // 2️⃣ Base 700 Countertop
+    //    - tên có cụm "base 700 countertop"
+    //    - HOẶC JSON cho biết là 'Tabletop' + depth 700
+    if (/base 700 countertop/.test(text) || (isTabletop && depth === 700)) {
+      return "base700top";
+    }
+
+    // 3️⃣ Base 900 (theo text hoặc depth)
+    if (/base 900/.test(text) || depth === 900) {
+      return "base900";
+    }
+
+    // 4️⃣ Base 700 (theo text hoặc depth 700)
+    if (/base 700/.test(text) || depth === 700) {
+      return "base700";
+    }
+
+    // 5️⃣ Fallback Drop-in theo text (nếu sau này có)
+    if (/drop[-\s]?in/.test(text)) {
+      return "dropin";
+    }
 
     return "all";
   }
+
+
 
   const SEE_ALL = LABELS.seeAll;
 
@@ -327,13 +389,21 @@
     const width = s.width ?? s.larghezza ?? null;
     const height = s.height ?? s.altezza ?? null;
     const depth = s.depth ?? s["profondità"] ?? s.profondita ?? null;
-    const weight = s.weight ?? s.peso ?? p.weight ?? null;
+    const weight = s.weight ?? s.peso ?? p.weight ?? s.gross_weight ?? null;
     const volume = s.volume ?? p.volume ?? null;
 
-    const burners = s.burners ?? s.bruciatori ?? null;
+    const burners = s.burners ?? s.bruciatori ?? s.number_of_burners ?? null;
     const burners_combination =
       s.burners_combination ?? s.combinazione_bruciatori ?? "";
 
+    // 🔹 Drop-in lỗ chờ
+    const installation_width = s.installation_width ?? null;
+    const installation_depth = s.installation_depth ?? null;
+
+    // 🔹 Dòng “Tabletop / Freestanding / Drop-in”
+    const model_type = s["model_tabletop/_freestanding/drop-in"] ?? "";
+    // 🔹 NEW: công suất lò – đặc trưng của range with oven
+    const oven_power = s.oven_power ?? null;
     const dimStr =
       width || depth || height
         ? `Dimensioni (L×P×H): ${[width, depth, height]
@@ -357,7 +427,7 @@
       line2: p?.line2 || detailStr,
       label: p?.label || "",
       price: p?.price === "" || p?.price == null ? null : Number(p.price),
-      currency: (p?.currency || "").trim(),
+      currency: (p?.currency || p?.price_currency || "").trim(),
       image: p?.image || p?.image_large || "img/placeholder.webp",
       href: p?.url || p?.href || "#",
       sp: p?.sp ?? null,
@@ -368,10 +438,16 @@
         weight,
         volume,
         burners,
+        oven_power,
         burners_combination,
+        installation_width,
+        installation_depth,
+        model_type, // 👈 dùng cho Base 700 Countertop
       },
     };
   };
+
+
 
   const specsHTML = (p) => {
     const s = p.specs || {};
@@ -389,6 +465,14 @@
     if (s.burners != null) rows.push(`Bruciatori: ${s.burners}`);
     if (s.burners_combination)
       rows.push(`Combinazione bruciatori: ${s.burners_combination}`);
+    // 🔹 hiển thị kích thước lỗ chờ nếu có (đặc trưng drop-in)
+    if (s.installation_width || s.installation_depth) {
+      rows.push(
+        `Installation (W×D): ${[s.installation_width, s.installation_depth]
+          .filter(Boolean)
+          .join(" x ")} mm`
+      );
+    }
 
     if (!rows.length) return "";
 
