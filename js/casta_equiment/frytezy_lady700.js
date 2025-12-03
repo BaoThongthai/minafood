@@ -6,7 +6,7 @@
     const CATEGORY_SLOT = "#category-slot";
     const EXTRA_FILTER_SLOT = "#extra-filter-slot"; // filter loại thiết bị + nguồn nhiệt
 
-    const DATA_URL = "js/casta_equiment/data/frytezy_Easy700.json";
+    const DATA_URL = "js/casta_equiment/data/frytezy_lady700.json";
 
     const LABELS = {
         loadingAria: "loading",
