@@ -15,6 +15,21 @@
     "image": "https://icemakers.sk/files/cache/product/448/picture_compact-k-220-lg-2w-300x300.jpg"
   },
   {
+    "id": "barova-1",
+    "name": "65803 Vyrobnik ledu 50kg/den",
+    "label": "Barová technika",
+    "price": 25000.00,
+    "currency": "Kč bez DPH",
+    "status": "Skladem",
+    "availability": "In stock",
+    "dimensions": {
+      "w": "",
+      "d": "",
+      "h": ""
+    },
+    "image": "https://minafood.cz/wp-content/uploads/2024/03/ZB-50-1_756ab664-a14a-4a65-a2b2-7071a4af49413ZwmE33oDNu9b-300x300.jpg"
+  },
+  {
     "id": "compact-kg-220-lg-2w",
     "name": "Chladnička COMPACT KG 220 LG 2W",
     "label": "",
