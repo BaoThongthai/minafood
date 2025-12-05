@@ -29744,5 +29744,149 @@
       }
     ],
     "accessories": []
+  },
+  {
+    "id": "7178-1210",
+    "name": "GAS WOK TABLE 3X17KW + 2X9KW",
+    "label": "Gas Equipment",
+    "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_1210_1.jpg",
+    "item_number": "7178.1210",
+    "capacity": {
+      "gross": "69 kW",
+      "net": "233 kg"
+    },
+    "dimensions": {
+      "w": "2000",
+      "d": "900",
+      "h": "750"
+    },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "Available",
+      "delivery": ""
+    },
+    "price": 245000,
+    "currency": "Kč"
+  },
+  {
+    "id": "7178-0580",
+    "name": "BASE 700 INDUCTION WOK COOKER",
+    "label": "Electric Equipment",
+    "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_0580-13067.jpg",
+    "item_number": "7178.0580",
+    "capacity": {
+      "gross": "5 kW",
+      "net": ""
+    },
+    "dimensions": {
+      "w": "400",
+      "d": "700",
+      "h": "900"
+    },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "Available",
+      "delivery": ""
+    },
+    "price": 163375,
+    "currency": "Kč"
+  },
+  {
+    "id": "7178-1205",
+    "name": "GAS WOK TABLE 2X17KW + 1X9KW",
+    "label": "Gas Equipment",
+    "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_1205_1.jpg",
+    "item_number": "7178.1205",
+    "capacity": {
+      "gross": "43 kW",
+      "net": "97 kg"
+    },
+    "dimensions": {
+      "w": "1000",
+      "d": "900",
+      "h": "750"
+    },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "Available",
+      "delivery": ""
+    },
+    "price": 162500,
+    "currency": "Kč"
+  },
+  {
+    "id": "7178-0340",
+    "name": "BASE 700 INDUCTION WOK COOKER",
+    "label": "Electric Equipment",
+    "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_0340-13066.jpg",
+    "item_number": "7178.0340",
+    "capacity": {
+      "gross": "5 kW",
+      "net": ""
+    },
+    "dimensions": {
+      "w": "400",
+      "d": "700",
+      "h": "300"
+    },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "Available",
+      "delivery": ""
+    },
+    "price": 154375,
+    "currency": "Kč"
+  },
+  {
+    "id": "7178-0440",
+    "name": "BASE 700 GAS WOK COOKER",
+    "label": "Gas Equipment",
+    "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_0440-11004.jpg",
+    "item_number": "7178.0440",
+    "capacity": {
+      "gross": "15 kW",
+      "net": ""
+    },
+    "dimensions": {
+      "w": "400",
+      "d": "700",
+      "h": "900"
+    },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "Available",
+      "delivery": ""
+    },
+    "price": 33500,
+    "currency": "Kč"
+  },
+  {
+    "id": "7178-1220",
+    "name": "GAS WOK BURNER 15KW",
+    "label": "Gas Equipment",
+    "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/1/7178_1220_1.jpg",
+    "item_number": "7178.1220",
+    "capacity": {
+      "gross": "15 kW",
+      "net": "7 kg"
+    },
+    "dimensions": {
+      "w": "380",
+      "d": "550",
+      "h": "210"
+    },
+    "availability": {
+      "ostrava": "",
+      "dansko": "",
+      "status": "Available",
+      "delivery": ""
+    },
+    "price": 14975,
+    "currency": "Kč"
   }
 ]

@@ -5,7 +5,7 @@
     const PAGER_SLOT = "#pager-slot";
     const CATEGORY_SLOT = "#category-slot";
 
-    const DATA_URL = "js/data/maythucphamth_maythaithit.json"; // ← đổi sang file JSON của bạn
+    const DATA_URL = "js/data/maythucphamth_maythaithit.json";
 
     const LABELS = {
         loadingAria: "loading",
@@ -22,17 +22,16 @@
     const PAGE_SIZE = 30;
 
     // ========= CATEGORY RULES =========
-
+    // (Bạn giữ nguyên các rules cũ của bạn ở đây nếu có)
 
     const SEE_ALL = LABELS.seeAll;
 
     // ========= STATE =========
     let allProducts = [];
     let filteredProducts = [];
-    let currentPage = 1; // 1-based
+    let currentPage = 1;
     let currentCategory = SEE_ALL;
 
-    // đọc ?cat & ?page
     const qs = new URLSearchParams(location.search);
     const initCat = qs.get("cat");
     const initPage = parseInt(qs.get("page"), 10);
@@ -42,36 +41,105 @@
     const grid = document.querySelector(GRID_SELECTOR);
     if (!grid) return;
 
-    // ========= UTIL =========
-    const normalize = (p) => ({
-        id: p?.id || p?.sku || p?.name || "",
-        sku: p?.sku || "",
-        name: p?.name || "",
-        line1: p?.line1 || "",
-        line2: p?.line2 || "",
-        label: p?.label || "",
-        // cố gắng chuyển giá thành number; nếu rỗng => null
-        price: p?.price === "" || p?.price == null ? null : Number(p.price),
-        currency: (p?.currency || "").trim(), // có thể rỗng
-        image: p?.image || "img/placeholder.webp",
-        href: p?.href || "#",
-        sp: p?.sp ?? null,
-    });
+    // ========= UTIL (CORE UPDATE HERE) =========
 
-    // Format giá: cs-CZ, 2 số lẻ. Nếu không có currency → mặc định "Kč bez DPH"
+    /**
+     * Hàm chuẩn hóa dữ liệu: Biến cả JSON cũ và JSON mới thành 1 format chung
+     */
+    const normalize = (p) => {
+        if (!p) return null;
+
+        // 1. Xác định các trường cơ bản
+        // Cũ: id/sku - Mới: code
+        const rawId = p.id || p.sku || p.code || p.name || "";
+        const id = String(rawId).replace(/"/g, ""); // Clean ID
+
+        // Cũ: sku - Mới: code
+        const sku = p.sku || p.code || "";
+
+        const name = p.name || "";
+
+        // 2. Xử lý giá tiền
+        // Cũ: price - Mới: price (số nguyên)
+        let price = null;
+        if (p.price !== "" && p.price != null) {
+            price = Number(p.price);
+        }
+
+        // Cũ: currency - Mới: price_currency
+        const currency = (p.currency || p.price_currency || "").trim();
+
+        // 3. Xử lý hình ảnh
+        // Cũ & Mới đều dùng key "image". 
+        // Lưu ý: Nếu JSON mới dùng link tuyệt đối (https://...) thì vẫn hoạt động tốt.
+        const image = p.image || "img/placeholder.webp";
+
+        // 4. Xử lý đường dẫn chi tiết
+        // Cũ: href - Mới: url
+        const href = p.href || p.url || "#";
+
+        // 5. Xử lý thông tin hiển thị (Line 1 & Line 2)
+        // Đây là phần quan trọng nhất để hiển thị đẹp cho JSON mới
+        let line1 = p.line1 || "";
+        let line2 = p.line2 || "";
+
+        // Nếu là JSON mới (có trường specs), ta tự động tạo line1/line2 từ specs
+        if (p.specs) {
+            const s = p.specs;
+
+            // Line 1: Ưu tiên Kích thước (WxDxH) hoặc Thương hiệu
+            const dims = [s.width, s.depth, s.height].filter(x => x).join('x');
+            if (dims) {
+                line1 = `Dim: ${dims} mm`;
+            } else if (s.brand) {
+                line1 = `Brand: ${s.brand}`;
+            }
+
+            // Line 2: Ưu tiên Điện áp, Công suất hoặc Đặc điểm
+            const technical = [];
+            if (s.voltage) technical.push(`${s.voltage}V`);
+            if (s.electrical_power) technical.push(`${s.electrical_power}kW`);
+            if (s.capacity_in_units_per_hour) technical.push(s.capacity_in_units_per_hour);
+
+            if (technical.length > 0) {
+                line2 = technical.join(" | ");
+            } else {
+                line2 = s.particulars || s.color || "";
+            }
+        }
+
+        return {
+            id: id,
+            sku: sku,
+            name: name,
+            line1: line1,
+            line2: line2,
+            label: p.label || "", // JSON mới không có label, để trống
+            price: price,
+            currency: currency,
+            image: image,
+            href: href,
+            // Giữ lại specs gốc nếu cần dùng sau này (ví dụ popup)
+            specs: p.specs || null,
+            accessories: p.accessories || []
+        };
+    };
+
     const fmtPrice = (price, currency) => {
-        // coi như “không có giá” nếu null/NaN/<=0
         if (price == null || price === "" || isNaN(price) || Number(price) <= 0)
             return "";
         const formatted = new Intl.NumberFormat("cs-CZ", {
             minimumFractionDigits: 2,
             maximumFractionDigits: 2,
         }).format(Number(price));
+        // Mặc định CZK nếu không có currency
         const tail = (currency || "Kč bez DPH").trim();
-        return `${formatted} ${tail}`.trim();
+        // Nếu currency là "CZK" (từ json mới), ta có thể đổi hiển thị thành "Kč" cho đẹp nếu muốn
+        const displayTail = tail === "CZK" ? "Kč" : tail;
+
+        return `${formatted} ${displayTail}`.trim();
     };
 
-    // Tạo nội dung tin nhắn hỏi hàng (đi qua trang contact)
     const buildInquiryMessage = (p = {}) => {
         const lines = [
             'Hello, I want to ask about this product:',
@@ -84,8 +152,10 @@
         return lines.join('\n');
     };
 
-
     function detectCategoryByName(name = "") {
+        // Lưu ý: Đảm bảo biến CATEGORY_RULES đã được định nghĩa ở file khác hoặc phía trên
+        if (typeof CATEGORY_RULES === 'undefined') return SEE_ALL;
+
         for (const rule of CATEGORY_RULES) {
             if (rule.patterns.some((re) => re.test(name))) return rule.name;
         }
@@ -100,27 +170,28 @@
 
         return `
     <div class="col-md-6 col-lg-4 col-xl-3">
-      <div class="rounded position-relative fruite-item h-100" data-id="${String(p.id).replace(/"/g, "&quot;")}">
+      <div class="rounded position-relative fruite-item h-100" data-id="${p.id}">
         <div class="fruite-img">
-          <img src="${p.image}" class="img-fluid w-100 rounded-top border border-secondary" alt="${p.name}">
+          <img src="${p.image}" class="img-fluid w-100 rounded-top border border-secondary" alt="${p.name}" loading="lazy">
         </div>
         ${p.label ? `<div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top:10px;left:10px;font-size:12px">${p.label}</div>` : ''}
 
         <div class="p-4 border border-secondary border-top-0 rounded-bottom d-flex flex-column">
-<h4 class="mb-2 line-clamp-2" title="${p.name}">${p.name}</h4>
-${p.line1 ? `<p class="mb-1 text-muted line-clamp-2" title="${p.line1}">${p.line1}</p>` : ''}
-${p.line2 ? `<p class="mb-2 text-muted line-clamp-2" title="${p.line2}">${p.line2}</p>` : ''}
-${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku}">SKU: ${p.sku}</p>` : ''}
+            <h4 class="mb-2 line-clamp-2" title="${p.name}">${p.name}</h4>
+            
+            ${p.line1 ? `<p class="mb-1 text-muted line-clamp-2" title="${p.line1}">${p.line1}</p>` : ''}
+            ${p.line2 ? `<p class="mb-2 text-muted line-clamp-2" title="${p.line2}">${p.line2}</p>` : ''}
+            ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku}">SKU: ${p.sku}</p>` : ''}
 
-          ${priceText ? `<p class="mb-3 fw-semibold">${priceText}</p>` : `<p class="mb-3"></p>`}
+            ${priceText ? `<p class="mb-3 fw-semibold">${priceText}</p>` : `<p class="mb-3"></p>`}
 
-          <div class="mt-auto d-flex justify-content-between gap-2">
+            <div class="mt-auto d-flex justify-content-between gap-2">
             ${hasPrice
                 ? `
                   <a href="#"
                      class="btn border border-secondary rounded-pill px-3 text-primary add-to-cart"
-                     data-id="${String(p.id).replace(/"/g, "&quot;")}"
-                     data-name="${String(p.name).replace(/"/g, "&quot;")}"
+                     data-id="${p.id}"
+                     data-name="${p.name}"
                      data-price="${p.price ?? ""}"
                      data-currency="${p.currency || "Kč"}"
                      data-image="${p.image}">
@@ -130,7 +201,8 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
                 `
                 : `
                   <a href="/contact.html?msg=${msg}"
-                     class="btn border border-secondary rounded-pill px-3 text-primary"
+                     class="btn border border-secondary rounded-pill px-3 text-primary js-inquiry-btn"
+                     data-id="${p.id}"
                      aria-label="${LABELS.contact}">
                      <i class="fa fa-envelope me-2 text-primary"></i>
                      <span>${LABELS.contact}</span>
@@ -144,8 +216,7 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
   `;
     };
 
-
-    // Popup (tận dụng markup sẵn)
+    // Popup Logic
     const popup = document.getElementById("product-popup");
     const popupImg = document.getElementById("popup-img");
     const popupName = document.getElementById("popup-name");
@@ -154,42 +225,43 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
     const popupClose = document.querySelector(".product-popup-close");
 
     function openPopup(p) {
+        if (!popup) return;
         popupImg.src = p.image || "img/placeholder.webp";
         popupImg.alt = p.name || "";
         popupName.textContent = p.name || "";
+
+        // Popup hiển thị line1 và line2 (đã được normalize từ specs nếu là json mới)
         popupDim.textContent = [p.line1, p.line2].filter(Boolean).join(" • ");
+
         popupWeight.textContent = [
             p.sku ? `SKU: ${p.sku}` : "",
             fmtPrice(p.price, p.currency),
-        ]
-            .filter(Boolean)
-            .join(" | ");
+        ].filter(Boolean).join(" | ");
+
         popup.classList.remove("hidden");
     }
+
     function closePopup() {
-        popup.classList.add("hidden");
+        if (popup) popup.classList.add("hidden");
     }
+
     if (popupClose) popupClose.addEventListener("click", closePopup);
-    if (popup)
-        popup.addEventListener("click", (e) => {
-            if (e.target === popup) closePopup();
-        });
+    if (popup) popup.addEventListener("click", (e) => {
+        if (e.target === popup) closePopup();
+    });
 
     function attachCardHandlers() {
         grid.querySelectorAll(".fruite-item").forEach((item) => {
             item.addEventListener("click", (ev) => {
-                // tránh mở popup khi bấm nút
                 if (ev.target.closest("a,button")) return;
                 const id = item.dataset.id;
-                const p = filteredProducts.find(
-                    (prod) => String(prod.id) === String(id)
-                );
+                const p = filteredProducts.find((prod) => String(prod.id) === String(id));
                 if (p) openPopup(p);
             });
         });
     }
 
-    // ===== Add to Cart (uỷ quyền trên grid để không mất sau re-render) =====
+    // ===== Add to Cart =====
     grid.addEventListener("click", (e) => {
         const a = e.target.closest("a.add-to-cart");
         if (!a) return;
@@ -215,7 +287,7 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
         }, 1200);
     });
 
-    // ===== Dropdown category (Bootstrap) =====
+    // ===== Dropdown category =====
     function updateURL() {
         const url = new URL(location.href);
         url.searchParams.set("page", String(currentPage));
@@ -226,6 +298,9 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
     function renderCategoryDropdown() {
         const slot = document.querySelector(CATEGORY_SLOT);
         if (!slot) return;
+
+        // Nếu CATEGORY_RULES chưa define thì bỏ qua hoặc handle lỗi
+        if (typeof CATEGORY_RULES === 'undefined') return;
 
         const foundSet = new Set([SEE_ALL]);
         for (const p of allProducts) foundSet.add(detectCategoryByName(p.name));
@@ -240,17 +315,11 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
           ${currentCategory}
         </button>
         <ul class="dropdown-menu">
-          ${ordered
-                .map(
-                    (n) => `
-            <li><a class="dropdown-item ${n === currentCategory ? "active" : ""
-                        }" href="#" data-cat="${n}">${n}</a></li>
-          `
-                )
-                .join("")}
+          ${ordered.map((n) => `
+            <li><a class="dropdown-item ${n === currentCategory ? "active" : ""}" href="#" data-cat="${n}">${n}</a></li>
+          `).join("")}
         </ul>
-      </div>
-    `;
+      </div>`;
 
         slot.querySelectorAll(".dropdown-item").forEach((a) => {
             a.addEventListener("click", (e) => {
@@ -266,50 +335,36 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
         });
     }
 
-    // ===== Phân trang Prev / Select / Next =====
+    // ===== Pager =====
     function renderPager(totalItems) {
         const slot = document.querySelector(PAGER_SLOT);
         if (!slot) return;
 
         const totalPages = Math.max(1, Math.ceil(totalItems / PAGE_SIZE));
-        // Nếu chỉ 1 trang thì xoá pager & thoát
         if (totalPages <= 1) {
             slot.innerHTML = "";
             updateURL();
             return;
         }
 
-        // Clamp currentPage
         currentPage = Math.min(Math.max(1, currentPage), totalPages);
 
-        // Tạo dải trang kiểu: ‹ 1 … c-2 c-1 c c+1 c+2 … last ›
         const pages = [];
         const push = (n) => pages.push(n);
-        const addRange = (a, b) => {
-            for (let i = a; i <= b; i++) pages.push(i);
-        };
+        const addRange = (a, b) => { for (let i = a; i <= b; i++) pages.push(i); };
 
-        const centerSpan = 2; // số trang mỗi bên current
+        const centerSpan = 2;
         const first = 1;
         const last = totalPages;
 
         push(first);
-
         let start = Math.max(first + 1, currentPage - centerSpan);
         let end = Math.min(last - 1, currentPage + centerSpan);
 
-        // nới để đủ 5 trang trung tâm khi sát biên
-        const desired = 1 + 1 + (centerSpan * 2 + 1) + 1; // 1 + mid(5) + 1 = 7 “điểm” (không tính …)
         const midCount = end >= start ? end - start + 1 : 0;
         let missing = centerSpan * 2 + 1 - midCount;
-        while (missing > 0 && start > first + 1) {
-            start--;
-            missing--;
-        }
-        while (missing > 0 && end < last - 1) {
-            end++;
-            missing--;
-        }
+        while (missing > 0 && start > first + 1) { start--; missing--; }
+        while (missing > 0 && end < last - 1) { end++; missing--; }
 
         if (start > first + 1) pages.push("...");
         if (end >= start) addRange(start, end);
@@ -317,25 +372,18 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
         if (last > first) push(last);
 
         slot.innerHTML = `
-    <div class="mf-pager-wrap">
-      <nav class="mf-pager" aria-label="Pagination">
-        <a href="#" class="mf-pg-btn ${currentPage === 1 ? "is-disabled" : ""
-            }" data-page="${currentPage - 1}" aria-label="Previous">‹</a>
-        ${pages
-                .map((p) =>
-                    p === "..."
-                        ? '<span class="mf-pg-ellipsis" aria-hidden="true">…</span>'
-                        : `<a href="#" class="mf-pg-btn ${p === currentPage ? "is-active" : ""
-                        }" data-page="${p}" aria-label="Page ${p}">${p}</a>`
-                )
-                .join("")}
-        <a href="#" class="mf-pg-btn ${currentPage === totalPages ? "is-disabled" : ""
-            }" data-page="${currentPage + 1}" aria-label="Next">›</a>
-      </nav>
-    </div>
-  `;
+        <div class="mf-pager-wrap">
+          <nav class="mf-pager" aria-label="Pagination">
+            <a href="#" class="mf-pg-btn ${currentPage === 1 ? "is-disabled" : ""}" data-page="${currentPage - 1}" aria-label="Previous">‹</a>
+            ${pages.map((p) =>
+            p === "..."
+                ? '<span class="mf-pg-ellipsis" aria-hidden="true">…</span>'
+                : `<a href="#" class="mf-pg-btn ${p === currentPage ? "is-active" : ""}" data-page="${p}" aria-label="Page ${p}">${p}</a>`
+        ).join("")}
+            <a href="#" class="mf-pg-btn ${currentPage === totalPages ? "is-disabled" : ""}" data-page="${currentPage + 1}" aria-label="Next">›</a>
+          </nav>
+        </div>`;
 
-        // Gắn click (Prev/Next + số)
         slot.querySelectorAll(".mf-pg-btn").forEach((btn) => {
             const page = parseInt(btn.getAttribute("data-page"), 10);
             if (isNaN(page)) return;
@@ -343,11 +391,10 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
                 e.preventDefault();
                 if (page < 1 || page > totalPages || page === currentPage) return;
                 currentPage = page;
-                renderProducts(); // gọi lại render
+                renderProducts();
             });
         });
-
-        updateURL(); // đồng bộ ?page
+        updateURL();
     }
 
     function applyFilter() {
@@ -381,20 +428,20 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
         } catch { }
     }
 
-    // ===== Loading & fetch =====
+    // ===== Loading & Fetch =====
     grid.innerHTML = `
     <div class="col-12 text-center py-5">
       <div class="spinner-border" role="status" aria-label="${LABELS.loadingAria}"></div>
-    </div>
-  `;
+    </div>`;
 
     try {
         const res = await fetch(DATA_URL, { cache: "no-store" });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const raw = await res.json();
 
+        // Chuẩn hóa dữ liệu ngay khi tải về
         allProducts = (Array.isArray(raw) ? raw : [])
-            .map(normalize)
+            .map(normalize) // <--- Điểm mấu chốt: Map qua hàm normalize mới
             .filter((p) => p && p.name);
 
         renderCategoryDropdown();
@@ -409,38 +456,33 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
         grid.innerHTML = `
       <div class="col-12">
         <div class="alert alert-danger" role="alert">${LABELS.error}</div>
-      </div>
-    `;
+      </div>`;
         const ps = document.querySelector(PAGER_SLOT);
         if (ps) ps.innerHTML = "";
         const cs = document.querySelector(CATEGORY_SLOT);
         if (cs) cs.innerHTML = "";
     }
 
-    // ========== INQUIRY MODAL + EMAILJS (giữ nguyên logic bạn đang dùng) ==========
+    // ========== INQUIRY MODAL ==========
     document.addEventListener("click", (e) => {
         const btn = e.target.closest(".js-inquiry-btn");
         if (!btn) return;
 
         e.preventDefault();
         const id = btn.getAttribute("data-id");
-        const product =
-            filteredProducts.find((x) => String(x.id) === String(id)) ||
+        // Tìm sản phẩm theo ID (đã được clean dấu ngoặc kép ở hàm normalize)
+        const product = filteredProducts.find((x) => String(x.id) === String(id)) ||
             allProducts.find((x) => String(x.id) === String(id));
+
         if (!product) {
             console.warn("[Inquiry] Không tìm thấy sản phẩm id=", id);
             return;
         }
 
         const modalEl = document.getElementById("inquiryModal");
-        if (!modalEl) {
-            console.warn("[Inquiry] #inquiryModal not found");
-            return;
-        }
-        const modal =
-            (bootstrap?.Modal?.getInstance
-                ? bootstrap.Modal.getInstance(modalEl)
-                : null) || new bootstrap.Modal(modalEl);
+        if (!modalEl) return;
+
+        const modal = (bootstrap?.Modal?.getInstance ? bootstrap.Modal.getInstance(modalEl) : null) || new bootstrap.Modal(modalEl);
 
         const inqImg = document.getElementById("inq-img");
         const inqName = document.getElementById("inq-name");
@@ -457,14 +499,14 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
 
         modalEl._currentProduct = product;
 
-        inqImg.src = product.image || "img/placeholder.webp";
-        inqImg.alt = product.name || "";
-        inqName.textContent = product.name || "";
-        inqLine.textContent = [product.line1, product.line2]
-            .filter(Boolean)
-            .join(" • ");
-        inqSku.textContent = product.sku ? `SKU: ${product.sku}` : "";
-        inqPrice.textContent = fmtPrice(product.price, product.currency);
+        if (inqImg) {
+            inqImg.src = product.image || "img/placeholder.webp";
+            inqImg.alt = product.name || "";
+        }
+        if (inqName) inqName.textContent = product.name || "";
+        if (inqLine) inqLine.textContent = [product.line1, product.line2].filter(Boolean).join(" • ");
+        if (inqSku) inqSku.textContent = product.sku ? `SKU: ${product.sku}` : "";
+        if (inqPrice) inqPrice.textContent = fmtPrice(product.price, product.currency);
 
         inqForm?.classList.remove("was-validated");
         if (inqEmail) inqEmail.value = "";
@@ -480,9 +522,7 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
                 if (!inqForm) return;
                 inqForm.classList.add("was-validated");
                 if (!inqEmail?.checkValidity?.() || !inqPhone?.checkValidity?.()) {
-                    if (inqStatus)
-                        inqStatus.textContent =
-                            "Please fill in your full Email and Phone Number.";
+                    if (inqStatus) inqStatus.textContent = "Please fill in your full Email and Phone Number.";
                     return;
                 }
                 const p = modalEl._currentProduct;
@@ -511,11 +551,10 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
                 try {
                     const EMAILJS_SERVICE_ID = "service_d7r5mo7";
                     const EMAILJS_TEMPLATE_ID = "template_nnbndsu";
-                    if (typeof emailjs === "undefined")
-                        throw new Error("EmailJS SDK chưa được nạp hoặc chưa init");
+                    if (typeof emailjs === "undefined") throw new Error("EmailJS SDK missing");
+
                     await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, params);
-                    if (inqStatus)
-                        inqStatus.textContent = "Done ! We will contact you soon.";
+                    if (inqStatus) inqStatus.textContent = "Done ! We will contact you soon.";
                     setTimeout(() => bootstrap.Modal.getInstance(modalEl)?.hide(), 1200);
                 } catch (err) {
                     console.error(err);
@@ -526,5 +565,5 @@ ${p.sku ? `<p class="mb-2 small text-secondary line-clamp-1" title="SKU: ${p.sku
             });
         }
     });
-    // nhận search
+
 })();

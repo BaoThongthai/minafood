@@ -404,5 +404,1244 @@
         "image": "img/maythit/dichvusuachua.png",
         "href": "",
         "sp": 1
+    },
+    {
+        "code": "7073.0100",
+        "name": "MEATGRINDER 32 - 750KG/H 230V - WITH FIXED COOLED HEAD",
+        "url": "https://www.combisteel.com/en/7073-0100-meatgrinder-32-750kg-h-230v-with-fixed-cooled-head.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0070-0075_5.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0070-0075_5.jpg",
+        "price": 90125,
+        "price_currency": "CZK",
+        "price_text": "90 125 Kč",
+        "specs": {
+            "ean_code": 7422242988954,
+            "width": 390,
+            "depth": 870,
+            "height": 570,
+            "color": "Stainless steel",
+            "accessories_included": "6mm grinder plate",
+            "parcel_ready": "No",
+            "gross_weight": 92,
+            "particulars": "Refrigerated, fixed stainless steel head",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 3,
+            "capacity_in_units_per_hour": "750KG",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7073.0045 till 0105",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216271/product/4720/"
+            },
+            {
+                "label": "Dimensions 7073.0100-0105",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216272/product/4720/"
+            },
+            {
+                "label": "7073.0100 Exploded View",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216273/product/4720/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7073.9022",
+                "name": "3MM GRINDER PLATE FOR MEATGRINDER 32 - 750KG/H",
+                "url": "https://www.combisteel.com/en/7073-9022-3mm-grinder-plate-for-meatgrinder-32-750kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9022_1-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9022_1-min_1.png",
+                "price": 2500,
+                "price_currency": "CZK",
+                "price_text": "2 500 Kč"
+            },
+            {
+                "code": "7073.9020",
+                "name": "5MM GRINDER PLATE FOR MEATGRINDER 32 - 750KG/H",
+                "url": "https://www.combisteel.com/en/7073-9020-5mm-grinder-plate-for-meatgrinder-32-750kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9020-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9020-min_1.png",
+                "price": 2625,
+                "price_currency": "CZK",
+                "price_text": "2 625 Kč"
+            },
+            {
+                "code": "7073.9025",
+                "name": "8MM GRINDER PLATE FOR MEATGRINDER 32 - 750KG/H",
+                "url": "https://www.combisteel.com/en/7073-9025-8mm-grinder-plate-for-meatgrinder-32-750kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9025-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9025-min_1.png",
+                "price": 2625,
+                "price_currency": "CZK",
+                "price_text": "2 625 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7073.0105",
+        "name": "MEATGRINDER 32 - 750KG/H 400V - WITH FIXED COOLED HEAD",
+        "url": "https://www.combisteel.com/en/7073-0105-meatgrinder-32-750kg-h-400v-with-fixed-cooled-head.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0070-0075_7.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0070-0075_7.jpg",
+        "price": 90125,
+        "price_currency": "CZK",
+        "price_text": "90 125 Kč",
+        "specs": {
+            "ean_code": 7422242988961,
+            "width": 390,
+            "depth": 870,
+            "height": 570,
+            "color": "Stainless steel",
+            "accessories_included": "6mm grinder plate",
+            "parcel_ready": "No",
+            "gross_weight": 92,
+            "particulars": "Refrigerated, fixed stainless steel head",
+            "voltage": 400,
+            "frequency": 50,
+            "electrical_power": 3,
+            "capacity_in_units_per_hour": "750KG",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "No"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7073.0045 till 0105",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216252/product/4721/"
+            },
+            {
+                "label": "Dimensions 7073.0100-0105 1",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216253/product/4721/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7073.9022",
+                "name": "3MM GRINDER PLATE FOR MEATGRINDER 32 - 750KG/H",
+                "url": "https://www.combisteel.com/en/7073-9022-3mm-grinder-plate-for-meatgrinder-32-750kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9022_1-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9022_1-min_1.png",
+                "price": 2500,
+                "price_currency": "CZK",
+                "price_text": "2 500 Kč"
+            },
+            {
+                "code": "7073.9020",
+                "name": "5MM GRINDER PLATE FOR MEATGRINDER 32 - 750KG/H",
+                "url": "https://www.combisteel.com/en/7073-9020-5mm-grinder-plate-for-meatgrinder-32-750kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9020-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9020-min_1.png",
+                "price": 2625,
+                "price_currency": "CZK",
+                "price_text": "2 625 Kč"
+            },
+            {
+                "code": "7073.9025",
+                "name": "8MM GRINDER PLATE FOR MEATGRINDER 32 - 750KG/H",
+                "url": "https://www.combisteel.com/en/7073-9025-8mm-grinder-plate-for-meatgrinder-32-750kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9025-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9025-min_1.png",
+                "price": 2625,
+                "price_currency": "CZK",
+                "price_text": "2 625 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7090.0210",
+        "name": "COLD DISPLAY THOMAS 2.0",
+        "url": "https://www.combisteel.com/en/7090-0210-cold-display-thomas-2-0.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7090_0200-0205-0210_5.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7090_0200-0205-0210_5.jpg",
+        "price": 84750,
+        "price_currency": "CZK",
+        "price_text": "84 750 Kč",
+        "specs": {
+            "ean_code": 7422242991978,
+            "width": 1955,
+            "depth": 940,
+            "height": 1200,
+            "color": "Black",
+            "gross_weight": 260,
+            "net_weight": 190,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 33,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "0/+5",
+            "gross_capacity": 460,
+            "showcase_area": 0.95,
+            "temperature_display": "Yes, digital",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "mobile": "Yes",
+            "noise_level": 60,
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "insulation_thickness": 40,
+            "energy_label": "No energy label required",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 150,
+            "cord_length": 3200,
+            "climate_class": "M1",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7090.0005 and 02xx Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216454/product/4733/"
+            },
+            {
+                "label": "Exploded view 7090.0210 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216455/product/4733/"
+            },
+            {
+                "label": "Dimensions 7090.0200-0205-0210",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216456/product/4733/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7090.9030",
+                "name": "PINK LIGHTING FOR 7090.0210",
+                "url": "https://www.combisteel.com/en/7090-9030-pink-lighting-for-7090-0210.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/L/a/Lamp_7.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/L/a/Lamp_7.jpg",
+                "price": 750,
+                "price_currency": "CZK",
+                "price_text": "750 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7541.0020",
+        "name": "MEAT GRINDER 32 - 500KG/H 400V - MOBILE",
+        "url": "https://www.combisteel.com/en/7541-0020-meat-grinder-32-500kg-h-400v-mobile.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7541_0020_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7541_0020_1.jpg",
+        "price": 84375,
+        "price_currency": "CZK",
+        "price_text": "84 375 Kč",
+        "specs": {
+            "ean_code": 7422242993989,
+            "width": 566,
+            "depth": 520,
+            "height": 927,
+            "color": "Stainless steel",
+            "accessories_included": "Platen van 0, 3, 5, 9 en 16 mm",
+            "parcel_ready": "No",
+            "gross_weight": 88,
+            "net_weight": 70,
+            "voltage": 400,
+            "frequency": 50,
+            "electrical_power": 1.5,
+            "capacity_in_units_per_hour": "500KG",
+            "blade_diameter": 320,
+            "brand": "COMBISTEEL",
+            "plug_and_play": "No"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7541.0015-0020",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216422/product/4791/"
+            },
+            {
+                "label": "Exploded View 7541.0020 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216423/product/4791/"
+            },
+            {
+                "label": "7541.0015-0020 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216424/product/4791/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7541.0015",
+        "name": "MEAT GRINDER 32 - 500KG/H 400V",
+        "url": "https://www.combisteel.com/en/7541-0015-meat-grinder-32-500kg-h-400v.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7541_0015_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7541_0015_1.jpg",
+        "price": 79625,
+        "price_currency": "CZK",
+        "price_text": "79 625 Kč",
+        "specs": {
+            "ean_code": 7422242993972,
+            "width": 566,
+            "depth": 520,
+            "height": 636,
+            "color": "Stainless steel",
+            "accessories_included": "Platen van 0, 3, 5, 9 en 16 mm",
+            "parcel_ready": "No",
+            "gross_weight": 83,
+            "net_weight": 65,
+            "voltage": 400,
+            "frequency": 50,
+            "electrical_power": 1.5,
+            "capacity_in_units_per_hour": "500KG",
+            "blade_diameter": 320,
+            "brand": "COMBISTEEL",
+            "plug_and_play": "No"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7541.0015-0020",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1225543/product/4790/"
+            },
+            {
+                "label": "Exploded View 7541.0015 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1225544/product/4790/"
+            },
+            {
+                "label": "7541.0015-0020 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1225545/product/4790/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7073.0085",
+        "name": "MEATGRINDER 32 - 750KG/H 400V - WITH FIXED HEAD",
+        "url": "https://www.combisteel.com/en/7073-0085-meatgrinder-32-750kg-h-400v-with-fixed-head.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0060-0065_7.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0060-0065_7.jpg",
+        "price": 77250,
+        "price_currency": "CZK",
+        "price_text": "77 250 Kč",
+        "specs": {
+            "ean_code": 7422242988947,
+            "width": 390,
+            "depth": 870,
+            "height": 530,
+            "color": "Stainless steel",
+            "accessories_included": "6mm grinder plate",
+            "parcel_ready": "No",
+            "gross_weight": 80,
+            "particulars": "Fixed head",
+            "voltage": 400,
+            "frequency": 50,
+            "electrical_power": 3,
+            "capacity_in_units_per_hour": "750KG",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "No"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7073.0045 till 0105",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1217232/product/4717/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7073.9022",
+                "name": "3MM GRINDER PLATE FOR MEATGRINDER 32 - 750KG/H",
+                "url": "https://www.combisteel.com/en/7073-9022-3mm-grinder-plate-for-meatgrinder-32-750kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9022_1-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9022_1-min_1.png",
+                "price": 2500,
+                "price_currency": "CZK",
+                "price_text": "2 500 Kč"
+            },
+            {
+                "code": "7073.9020",
+                "name": "5MM GRINDER PLATE FOR MEATGRINDER 32 - 750KG/H",
+                "url": "https://www.combisteel.com/en/7073-9020-5mm-grinder-plate-for-meatgrinder-32-750kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9020-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9020-min_1.png",
+                "price": 2625,
+                "price_currency": "CZK",
+                "price_text": "2 625 Kč"
+            },
+            {
+                "code": "7073.9025",
+                "name": "8MM GRINDER PLATE FOR MEATGRINDER 32 - 750KG/H",
+                "url": "https://www.combisteel.com/en/7073-9025-8mm-grinder-plate-for-meatgrinder-32-750kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9025-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9025-min_1.png",
+                "price": 2625,
+                "price_currency": "CZK",
+                "price_text": "2 625 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7090.0205",
+        "name": "COLD DISPLAY THOMAS 1.5",
+        "url": "https://www.combisteel.com/en/7090-0205-cold-display-thomas-1-5.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7090_0200-0205-0210_3.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7090_0200-0205-0210_3.jpg",
+        "price": 77125,
+        "price_currency": "CZK",
+        "price_text": "77 125 Kč",
+        "specs": {
+            "ean_code": 7422242991961,
+            "width": 1580,
+            "depth": 940,
+            "height": 1200,
+            "color": "Black",
+            "gross_weight": 220,
+            "net_weight": 160,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 33,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "0/+5",
+            "gross_capacity": 370,
+            "showcase_area": 0.73,
+            "temperature_display": "Yes, digital",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "mobile": "Yes",
+            "noise_level": 60,
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "insulation_thickness": 40,
+            "energy_label": "No energy label required",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 150,
+            "cord_length": 3200,
+            "climate_class": "M1",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7090.0005 and 02xx Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216457/product/4732/"
+            },
+            {
+                "label": "Exploded view 7090.0205 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216458/product/4732/"
+            },
+            {
+                "label": "Dimensions 7090.0200-0205-0210",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216459/product/4732/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7090.9025",
+                "name": "PINK LIGHTING FOR 7090.0205",
+                "url": "https://www.combisteel.com/en/7090-9025-pink-lighting-for-7090-0205.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/L/a/Lamp_9.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/L/a/Lamp_9.jpg",
+                "price": 750,
+                "price_currency": "CZK",
+                "price_text": "750 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7073.0075",
+        "name": "MEATGRINDER 22 - 450KG/H 400V - WITH FIXED COOLED HEAD",
+        "url": "https://www.combisteel.com/en/7073-0075-meatgrinder-22-450kg-h-400v-with-fixed-cooled-head.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0070-0075_3.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0070-0075_3.jpg",
+        "price": 72125,
+        "price_currency": "CZK",
+        "price_text": "72 125 Kč",
+        "specs": {
+            "ean_code": 7422242988923,
+            "width": 390,
+            "depth": 870,
+            "height": 570,
+            "color": "Stainless steel",
+            "accessories_included": "6mm grinder plate",
+            "parcel_ready": "No",
+            "gross_weight": 80,
+            "particulars": "Refrigerated, fixed stainless steel head",
+            "voltage": 400,
+            "frequency": 50,
+            "electrical_power": 1.5,
+            "capacity_in_units_per_hour": "450KG",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "No"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7073.0045 till 0105",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216268/product/4715/"
+            },
+            {
+                "label": "7073.0075 Exploded view",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216269/product/4715/"
+            },
+            {
+                "label": "Dimensions 7073.0070-0075 1",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216270/product/4715/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7073.9012",
+                "name": "3MM GRINDER PLATE FOR MEATGRINDER 22 - 450KG/H",
+                "url": "https://www.combisteel.com/en/7073-9012-3mm-grinder-plate-for-meatgrinder-22-450kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9012_1-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9012_1-min_1.png",
+                "price": 3000,
+                "price_currency": "CZK",
+                "price_text": "3 000 Kč"
+            },
+            {
+                "code": "7073.9010",
+                "name": "5MM GRINDER PLATE FOR MEATGRINDER 22 - 450KG/H",
+                "url": "https://www.combisteel.com/en/7073-9010-5mm-grinder-plate-for-meatgrinder-22-450kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9010-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9010-min_1.png",
+                "price": 1750,
+                "price_currency": "CZK",
+                "price_text": "1 750 Kč"
+            },
+            {
+                "code": "7073.9015",
+                "name": "8MM GRINDER PLATE FOR MEATGRINDER 22 - 450KG/H",
+                "url": "https://www.combisteel.com/en/7073-9015-8mm-grinder-plate-for-meatgrinder-22-450kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9015-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9015-min_1.png",
+                "price": 1750,
+                "price_currency": "CZK",
+                "price_text": "1 750 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7073.0070",
+        "name": "MEATGRINDER 22 - 450KG/H 230V - WITH FIXED COOLED HEAD",
+        "url": "https://www.combisteel.com/en/7073-0070-meatgrinder-22-450kg-h-230v-with-fixed-cooled-head.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0070-0075_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0070-0075_1.jpg",
+        "price": 72125,
+        "price_currency": "CZK",
+        "price_text": "72 125 Kč",
+        "specs": {
+            "ean_code": 7422242988916,
+            "width": 390,
+            "depth": 870,
+            "height": 570,
+            "color": "Stainless steel",
+            "accessories_included": "6mm grinder plate",
+            "parcel_ready": "No",
+            "gross_weight": 80,
+            "particulars": "Refrigerated, fixed stainless steel head",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.5,
+            "capacity_in_units_per_hour": "450KG",
+            "blade_diameter": 220,
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7073.0045 till 0105",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232451/product/4714/"
+            },
+            {
+                "label": "Dimensions 7073.0070-0075",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232452/product/4714/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7073.9012",
+                "name": "3MM GRINDER PLATE FOR MEATGRINDER 22 - 450KG/H",
+                "url": "https://www.combisteel.com/en/7073-9012-3mm-grinder-plate-for-meatgrinder-22-450kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9012_1-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9012_1-min_1.png",
+                "price": 3000,
+                "price_currency": "CZK",
+                "price_text": "3 000 Kč"
+            },
+            {
+                "code": "7073.9010",
+                "name": "5MM GRINDER PLATE FOR MEATGRINDER 22 - 450KG/H",
+                "url": "https://www.combisteel.com/en/7073-9010-5mm-grinder-plate-for-meatgrinder-22-450kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9010-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9010-min_1.png",
+                "price": 1750,
+                "price_currency": "CZK",
+                "price_text": "1 750 Kč"
+            },
+            {
+                "code": "7073.9015",
+                "name": "8MM GRINDER PLATE FOR MEATGRINDER 22 - 450KG/H",
+                "url": "https://www.combisteel.com/en/7073-9015-8mm-grinder-plate-for-meatgrinder-22-450kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9015-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9015-min_1.png",
+                "price": 1750,
+                "price_currency": "CZK",
+                "price_text": "1 750 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7090.0200",
+        "name": "COLD DISPLAY THOMAS 1.3",
+        "url": "https://www.combisteel.com/en/7090-0200-cold-display-thomas-1-3.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7090_0200-0205-0210_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7090_0200-0205-0210_1.jpg",
+        "price": 71625,
+        "price_currency": "CZK",
+        "price_text": "71 625 Kč",
+        "specs": {
+            "ean_code": 7422242991954,
+            "width": 1330,
+            "depth": 940,
+            "height": 1200,
+            "color": "Black",
+            "gross_weight": 200,
+            "net_weight": 140,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 18,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "0/+5",
+            "gross_capacity": 310,
+            "showcase_area": 0.65,
+            "temperature_display": "Yes, digital",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "mobile": "Yes",
+            "noise_level": 60,
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "insulation_thickness": 40,
+            "energy_label": "No energy label required",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 120,
+            "cord_length": 3200,
+            "climate_class": "M1",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7090.0005 and 02xx Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234147/product/4731/"
+            },
+            {
+                "label": "Exploded view 7090.0200 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234148/product/4731/"
+            },
+            {
+                "label": "Dimensions 7090.0200-0205-0210",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234149/product/4731/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7090.9020",
+                "name": "PINK LIGHTING FOR 7090.0200",
+                "url": "https://www.combisteel.com/en/7090-9020-pink-lighting-for-7090-0200.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/L/a/Lamp_11.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/L/a/Lamp_11.jpg",
+                "price": 750,
+                "price_currency": "CZK",
+                "price_text": "750 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7073.0060",
+        "name": "MEATGRINDER 22 - 450KG/H 230V - WITH FIXED HEAD",
+        "url": "https://www.combisteel.com/en/7073-0060-meatgrinder-22-450kg-h-230v-with-fixed-head.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0060-0065_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0060-0065_1.jpg",
+        "price": 53375,
+        "price_currency": "CZK",
+        "price_text": "53 375 Kč",
+        "specs": {
+            "ean_code": 7422242987995,
+            "width": 390,
+            "depth": 870,
+            "height": 530,
+            "color": "Stainless steel",
+            "accessories_included": "6mm grinder plate",
+            "parcel_ready": "No",
+            "gross_weight": 64,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.5,
+            "capacity_in_units_per_hour": "450KG",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7073.0045 till 0105",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216260/product/4712/"
+            },
+            {
+                "label": "Dimensions 7073.0060-0065",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216261/product/4712/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7073.9012",
+                "name": "3MM GRINDER PLATE FOR MEATGRINDER 22 - 450KG/H",
+                "url": "https://www.combisteel.com/en/7073-9012-3mm-grinder-plate-for-meatgrinder-22-450kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9012_1-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9012_1-min_1.png",
+                "price": 3000,
+                "price_currency": "CZK",
+                "price_text": "3 000 Kč"
+            },
+            {
+                "code": "7073.9010",
+                "name": "5MM GRINDER PLATE FOR MEATGRINDER 22 - 450KG/H",
+                "url": "https://www.combisteel.com/en/7073-9010-5mm-grinder-plate-for-meatgrinder-22-450kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9010-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9010-min_1.png",
+                "price": 1750,
+                "price_currency": "CZK",
+                "price_text": "1 750 Kč"
+            },
+            {
+                "code": "7073.9015",
+                "name": "8MM GRINDER PLATE FOR MEATGRINDER 22 - 450KG/H",
+                "url": "https://www.combisteel.com/en/7073-9015-8mm-grinder-plate-for-meatgrinder-22-450kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9015-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9015-min_1.png",
+                "price": 1750,
+                "price_currency": "CZK",
+                "price_text": "1 750 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7073.0065",
+        "name": "MEATGRINDER 22 - 450KG/H 400V - WITH FIXED HEAD",
+        "url": "https://www.combisteel.com/en/7073-0065-meatgrinder-22-450kg-h-400v-with-fixed-head.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0060-0065_3.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0060-0065_3.jpg",
+        "price": 53375,
+        "price_currency": "CZK",
+        "price_text": "53 375 Kč",
+        "specs": {
+            "ean_code": 7422242988909,
+            "width": 390,
+            "depth": 870,
+            "height": 530,
+            "color": "Stainless steel",
+            "accessories_included": "6mm grinder plate",
+            "parcel_ready": "No",
+            "gross_weight": 64,
+            "voltage": 400,
+            "frequency": 50,
+            "electrical_power": 1.5,
+            "capacity_in_units_per_hour": "450KG",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "No"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7073.0045 till 0105",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216250/product/4713/"
+            },
+            {
+                "label": "Dimensions 7073.0060-0065 1",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216251/product/4713/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7073.9012",
+                "name": "3MM GRINDER PLATE FOR MEATGRINDER 22 - 450KG/H",
+                "url": "https://www.combisteel.com/en/7073-9012-3mm-grinder-plate-for-meatgrinder-22-450kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9012_1-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9012_1-min_1.png",
+                "price": 3000,
+                "price_currency": "CZK",
+                "price_text": "3 000 Kč"
+            },
+            {
+                "code": "7073.9010",
+                "name": "5MM GRINDER PLATE FOR MEATGRINDER 22 - 450KG/H",
+                "url": "https://www.combisteel.com/en/7073-9010-5mm-grinder-plate-for-meatgrinder-22-450kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9010-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9010-min_1.png",
+                "price": 1750,
+                "price_currency": "CZK",
+                "price_text": "1 750 Kč"
+            },
+            {
+                "code": "7073.9015",
+                "name": "8MM GRINDER PLATE FOR MEATGRINDER 22 - 450KG/H",
+                "url": "https://www.combisteel.com/en/7073-9015-8mm-grinder-plate-for-meatgrinder-22-450kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9015-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9015-min_1.png",
+                "price": 1750,
+                "price_currency": "CZK",
+                "price_text": "1 750 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7541.0030",
+        "name": "MEAT SLICER 250KG/H 230V",
+        "url": "https://www.combisteel.com/en/7541-0030-meat-slicer-250kg-h-230v.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7541_0030_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7541_0030_1.jpg",
+        "price": 46875,
+        "price_currency": "CZK",
+        "price_text": "46 875 Kč",
+        "specs": {
+            "ean_code": 7422242994900,
+            "width": 320,
+            "depth": 470,
+            "height": 490,
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 42,
+            "net_weight": 40,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.55,
+            "capacity_in_units_per_hour": 250,
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes",
+            "cutting_thickness": 3
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7541.0025",
+        "name": "MEAT MIXER 20KG",
+        "url": "https://www.combisteel.com/en/7541-0025-meat-mixer-20kg.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7541_0025_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7541_0025_1.jpg",
+        "price": 39375,
+        "price_currency": "CZK",
+        "price_text": "39 375 Kč",
+        "specs": {
+            "ean_code": 7422242993996,
+            "width": 528,
+            "depth": 319,
+            "height": 575,
+            "material": "Stainless steel Aisi 304",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 42,
+            "net_weight": 40,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.55,
+            "model_tabletop/_freestanding/drop-in": "Tabletop",
+            "capacity_in_units_per_time": "20kg",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7541.0025",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1224200/product/4792/"
+            },
+            {
+                "label": "Exploded View 7541.0025 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1224201/product/4792/"
+            },
+            {
+                "label": "7541.0025 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1224202/product/4792/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7541.0012",
+        "name": "MEAT GRINDER 22 - 250KG/H 400V",
+        "url": "https://www.combisteel.com/en/7541-0012-meat-grinder-22-250kg-h-400v.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7541_0005-0010-0012_3.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7541_0005-0010-0012_3.jpg",
+        "price": 33500,
+        "price_currency": "CZK",
+        "price_text": "33 500 Kč",
+        "specs": {
+            "ean_code": 7422242993965,
+            "width": 479,
+            "depth": 420,
+            "height": 416,
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 33,
+            "net_weight": 31,
+            "voltage": 400,
+            "frequency": 50,
+            "electrical_power": 1.1,
+            "capacity_in_units_per_hour": 250,
+            "blade_diameter": 220,
+            "brand": "COMBISTEEL",
+            "plug_and_play": "No"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7541.0005-0010-0012",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216513/product/4789/"
+            },
+            {
+                "label": "Exploded View 7541.0012 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216514/product/4789/"
+            },
+            {
+                "label": "7541.0005-0010-0012 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216515/product/4789/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7541.0010",
+        "name": "MEAT GRINDER 22 - 250KG/H 230V",
+        "url": "https://www.combisteel.com/en/7541-0010-meat-grinder-22-250kg-h-230v.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7541_0005-0010-0012_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7541_0005-0010-0012_1.jpg",
+        "price": 31875,
+        "price_currency": "CZK",
+        "price_text": "31 875 Kč",
+        "specs": {
+            "ean_code": 7422242993958,
+            "width": 479,
+            "depth": 420,
+            "height": 416,
+            "color": "Stainless steel",
+            "accessories_included": "3 verschillende platen van 3, 6 en 8 mm",
+            "parcel_ready": "No",
+            "gross_weight": 33,
+            "net_weight": 31,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 75,
+            "capacity_in_units_per_hour": "250KG",
+            "blade_diameter": 220,
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7541.0005-0010-0012",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216413/product/4788/"
+            },
+            {
+                "label": "Exploded View 7541.0010 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216414/product/4788/"
+            },
+            {
+                "label": "7541.0005-0010-0012 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216415/product/4788/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7073.0055",
+        "name": "MEATGRINDER 12 - 90KG/H 230V - WITH REMOVABLE HEAD",
+        "url": "https://www.combisteel.com/en/7073-0055-meatgrinder-12-90kg-h-230v-with-removable-head.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0050-0055_2-min_3.png",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0050-0055_2-min_3.png",
+        "price": 28250,
+        "price_currency": "CZK",
+        "price_text": "28 250 Kč",
+        "specs": {
+            "ean_code": 7422242987988,
+            "width": 310,
+            "depth": 650,
+            "height": 400,
+            "color": "Stainless steel",
+            "accessories_included": "6mm grinder plate",
+            "parcel_ready": "No",
+            "gross_weight": 30,
+            "particulars": "Removable head",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.55,
+            "capacity_in_units_per_hour": "90KG",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7073.0045 till 0105",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1224048/product/4711/"
+            },
+            {
+                "label": "Dimensions 7073.0055",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1224049/product/4711/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7073.9002",
+                "name": "3MM GRINDER PLATE FOR MEATGRINDER 12 - 90KG/H",
+                "url": "https://www.combisteel.com/en/7073-9002-3mm-grinder-plate-for-meatgrinder-12-90kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9002_1-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9002_1-min_1.png",
+                "price": 2125,
+                "price_currency": "CZK",
+                "price_text": "2 125 Kč"
+            },
+            {
+                "code": "7073.9000",
+                "name": "5MM GRINDER PLATE FOR MEATGRINDER 12 - 90KG/H",
+                "url": "https://www.combisteel.com/en/7073-9000-5mm-grinder-plate-for-meatgrinder-12-90kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9000_1-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9000_1-min_1.png",
+                "price": 2125,
+                "price_currency": "CZK",
+                "price_text": "2 125 Kč"
+            },
+            {
+                "code": "7073.9005",
+                "name": "8MM GRINDER PLATE FOR MEATGRINDER 12 - 90KG/H",
+                "url": "https://www.combisteel.com/en/7073-9005-8mm-grinder-plate-for-meatgrinder-12-90kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9005_1-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9005_1-min_1.png",
+                "price": 2125,
+                "price_currency": "CZK",
+                "price_text": "2 125 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7541.0005",
+        "name": "MEAT GRINDER 12 - 150KG/H 230V",
+        "url": "https://www.combisteel.com/en/7541-0005-meat-grinder-12-150kg-h-230v.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7541_0005-0010-0012_5.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/5/7541_0005-0010-0012_5.jpg",
+        "price": 27250,
+        "price_currency": "CZK",
+        "price_text": "27 250 Kč",
+        "specs": {
+            "ean_code": 7422242993941,
+            "width": 429,
+            "depth": 382,
+            "height": 405,
+            "color": "Stainless steel",
+            "accessories_included": "3 verschillende platen van 3, 6 en 8 mm",
+            "parcel_ready": "No",
+            "gross_weight": 27,
+            "net_weight": 25,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 55,
+            "capacity_in_units_per_hour": "150KG",
+            "blade_diameter": 120,
+            "brand": "C0MBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7541.0005-0010-0012",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216419/product/4787/"
+            },
+            {
+                "label": "Exploded View 7541.0005 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216420/product/4787/"
+            },
+            {
+                "label": "7541.0005-0010-0012 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216421/product/4787/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7073.0050",
+        "name": "MEATGRINDER 12 - 90KG/H 230V - WITH FIXED HEAD",
+        "url": "https://www.combisteel.com/en/7073-0050-meatgrinder-12-90kg-h-230v-with-fixed-head.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0050-0055_2-min_1.png",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0050-0055_2-min_1.png",
+        "price": 26750,
+        "price_currency": "CZK",
+        "price_text": "26 750 Kč",
+        "specs": {
+            "ean_code": 7422242987971,
+            "width": 310,
+            "depth": 650,
+            "height": 400,
+            "color": "Stainless steel",
+            "accessories_included": "6mm grinder plate",
+            "parcel_ready": "No",
+            "gross_weight": 30,
+            "particulars": "Fixed head",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.55,
+            "capacity_in_units_per_hour": "90KG",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7073.0045 till 0105",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216248/product/4710/"
+            },
+            {
+                "label": "Dimensions 7073.0050",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216249/product/4710/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7073.9002",
+                "name": "3MM GRINDER PLATE FOR MEATGRINDER 12 - 90KG/H",
+                "url": "https://www.combisteel.com/en/7073-9002-3mm-grinder-plate-for-meatgrinder-12-90kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9002_1-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9002_1-min_1.png",
+                "price": 2125,
+                "price_currency": "CZK",
+                "price_text": "2 125 Kč"
+            },
+            {
+                "code": "7073.9000",
+                "name": "5MM GRINDER PLATE FOR MEATGRINDER 12 - 90KG/H",
+                "url": "https://www.combisteel.com/en/7073-9000-5mm-grinder-plate-for-meatgrinder-12-90kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9000_1-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9000_1-min_1.png",
+                "price": 2125,
+                "price_currency": "CZK",
+                "price_text": "2 125 Kč"
+            },
+            {
+                "code": "7073.9005",
+                "name": "8MM GRINDER PLATE FOR MEATGRINDER 12 - 90KG/H",
+                "url": "https://www.combisteel.com/en/7073-9005-8mm-grinder-plate-for-meatgrinder-12-90kg-h.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9005_1-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_9005_1-min_1.png",
+                "price": 2125,
+                "price_currency": "CZK",
+                "price_text": "2 125 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7073.0045",
+        "name": "MEATGRINDER 12 - 75KG/H 230V - WITH FIXED HEAD",
+        "url": "https://www.combisteel.com/en/7073-0045-meatgrinder-12-75kg-h-230v-with-fixed-head.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0045_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7073_0045_1.jpg",
+        "price": 22000,
+        "price_currency": "CZK",
+        "price_text": "22 000 Kč",
+        "specs": {
+            "ean_code": 7422242987964,
+            "width": 180,
+            "depth": 520,
+            "height": 270,
+            "color": "Stainless steel",
+            "accessories_included": "6mm grinder plate",
+            "parcel_ready": "Yes",
+            "gross_weight": 16,
+            "particulars": "Blade thickness is 6mm",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.37,
+            "capacity_in_units_per_hour": "75KG",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7073.0045 till 0105",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216235/product/4709/"
+            },
+            {
+                "label": "Dimensions 7073.0045",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216236/product/4709/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7455.0155",
+        "name": "MEAT CUTTER 300",
+        "url": "https://www.combisteel.com/en/7455-0155-meat-cutter-300.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0155-6999.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0155-6999.jpg",
+        "price": 21500,
+        "price_currency": "CZK",
+        "price_text": "21 500 Kč",
+        "specs": {
+            "ean_code": 7422242913949,
+            "width": 615,
+            "depth": 494,
+            "height": 477,
+            "material": "Stainless steel",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 26,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.25,
+            "model_tabletop/_freestanding/drop-in": "Tabletop",
+            "blade_diameter": 300,
+            "adjustable_to": "13 mm",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7455.0145-0155",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215052/product/3522/"
+            },
+            {
+                "label": "Exploded view 7455.0140-0145-0155",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215053/product/3522/"
+            },
+            {
+                "label": "Exploded view 7455.0140-0145-0155 (2020)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215054/product/3522/"
+            },
+            {
+                "label": "7455.0155 cutting dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215055/product/3522/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7455.0145",
+        "name": "MEAT CUTTER 250",
+        "url": "https://www.combisteel.com/en/7455-0145-meat-cutter-250.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0145-10385.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_0145-10385.jpg",
+        "price": 14000,
+        "price_currency": "CZK",
+        "price_text": "14 000 Kč",
+        "specs": {
+            "ean_code": 7422242913932,
+            "width": 494,
+            "depth": 402,
+            "height": 398,
+            "material": "Stainless steel",
+            "color": "Stainless steel",
+            "parcel_ready": "Yes",
+            "gross_weight": 16,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.15,
+            "model_tabletop/_freestanding/drop-in": "Tabletop",
+            "blade_diameter": 250,
+            "adjustable_to": "10 mm",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7455.0145-0155",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215049/product/3521/"
+            },
+            {
+                "label": "Exploded view 7455.0140-0145-0155",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215050/product/3521/"
+            },
+            {
+                "label": "Exploded view 7455.0140-0145-0155 (2020)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215051/product/3521/"
+            }
+        ],
+        "accessories": []
     }
 ]
