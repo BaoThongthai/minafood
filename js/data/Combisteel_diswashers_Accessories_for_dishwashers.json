@@ -1,5 +1,28 @@
 [
     {
+        "code": "B002",
+        "name": "Industrial Dishwasher B002",
+        "url": "",
+        "image": "img/maykhac/B002.png",
+        "image_large": "img/maykhac/B002.png",
+        "price": null,
+        "price_currency": "",
+        "price_text": "Liên hệ",
+        "specs": {
+            "electrical_power": "7kW",
+            "voltage": "220V",
+            "washing_cycle": "60s (single-rack)",
+            "gross_weight": "110kg",
+            "width": "680mm",
+            "depth": "800mm",
+            "height": "1350mm",
+            "material": "stainless steel body",
+            "particulars": "Ideal for restaurants, 15-month warranty"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
         "code": "7280.0145",
         "name": "REVERSE OSMOSIS EQUIPMENT",
         "url": "https://www.combisteel.com/en/7280-0145-reverse-osmosis-equipment.html",

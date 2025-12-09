@@ -96,5 +96,47 @@
         "image": "img/mayhutchankhong/DZ4002S.png",
         "href": "",
         "sp": 1
+    },
+    {
+        "id": "yd3015",
+        "sku": "YD3015",
+        "name": "Shrink Wrapping Machine YD-3015",
+        "line1": "8.0kW, 220V/50Hz, suitable for PVC, POF, PP shrink films, 15–20 pcs/min.",
+        "line2": "Adjustable temperature 0–300°C, 1100×573×720mm, 50kg, 15-month warranty.",
+        "label": "",
+        "price": null,
+        "price_src": "Contact",
+        "currency": "",
+        "image": "img/maykhac/YD3015.png",
+        "href": "",
+        "sp": 1
+    },
+    {
+        "id": "fr900yz",
+        "sku": "FR900YZ",
+        "name": "Vertical Bag Sealer FR900YZ",
+        "line1": "500W, 220V/50Hz, speed 0–12m/min, temperature range 0–300°C.",
+        "line2": "Max film thickness 0.08mm, sealing width 12mm, coated steel frame, 15-month warranty.",
+        "label": "",
+        "price": null,
+        "price_src": "Contact",
+        "currency": "",
+        "image": "img/maykhac/FR900YZ.png",
+        "href": "",
+        "sp": 1
+    },
+    {
+        "id": "fr900",
+        "sku": "FR900",
+        "name": "Horizontal Bag Sealer FR900",
+        "line1": "500W, 220V/50Hz, sealing width 6–15mm, conveyor width 140mm.",
+        "line2": "Speed 1–12m/min, 19kg, 810×350×320mm, powder-coated steel body, 15-month warranty.",
+        "label": "",
+        "price": null,
+        "price_src": "Contact",
+        "currency": "",
+        "image": "img/maykhac/FR900.png",
+        "href": "",
+        "sp": 1
     }
 ]

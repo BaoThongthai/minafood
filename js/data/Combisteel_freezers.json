@@ -1,5 +1,57 @@
 [
     {
+        "code": "",
+        "name": "Prosklená Chladící Lednice dvoudveřová",
+        "url": "",
+        "image": "img/Chlazeni/Chla18.png",
+        "image_large": "img/Chlazeni/Chla18.png",
+        "price": 29000,
+        "price_currency": "Kč bez DPH",
+        "price_text": "29000 Kč",
+        "specs": {},
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "",
+        "name": "Tủ đá nằm 650l / Pultovy mrazak",
+        "url": "",
+        "image": "img/Chlazeni/Chla19.png",
+        "image_large": "img/Chlazeni/Chla19.png",
+        "price": 21000,
+        "price_currency": "Kč bez DPH",
+        "price_text": "21000 Kč",
+        "specs": {},
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "",
+        "name": "Tủ mát 3 cửa kính / Prosklená lednice 3 dverova",
+        "url": "",
+        "image": "img/Chlazeni/Chla20.png",
+        "image_large": "img/Chlazeni/Chla20.png",
+        "price": 119000,
+        "price_currency": "Kč bez DPH",
+        "price_text": "119000 Kč",
+        "specs": {},
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "",
+        "name": "Tủ mát 4 cửa / Prosklená lednice",
+        "url": "",
+        "image": "img/Chlazeni/Chla21.png",
+        "image_large": "img/Chlazeni/Chla21.png",
+        "price": 139000,
+        "price_currency": "Kč bez DPH",
+        "price_text": "139000 Kč",
+        "specs": {},
+        "downloads": [],
+        "accessories": []
+    },
+    {
         "code": "7489.5445",
         "name": "ROLL-IN FREEZER SS MONO BLOCK 1400 LTR",
         "url": "https://www.combisteel.com/en/7489-5445-roll-in-freezer-ss-mono-block-1400-ltr.html",

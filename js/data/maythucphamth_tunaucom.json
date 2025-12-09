@@ -1,5 +1,33 @@
 [
     {
+        "id": "rc02",
+        "sku": "RC02",
+        "name": "Fried Rice and Stir-Fry Machine RC02",
+        "line1": "220V/60Hz, frying motor 120W, stirring motor 40W, capacity 1–3kg/batch.",
+        "line2": "Gas heating, 32kg, non-stick coating drum, stainless steel frame, 15-month warranty.",
+        "label": "",
+        "price": null,
+        "price_src": "Contact",
+        "currency": "",
+        "image": "img/maykhac/RC02.png",
+        "href": "",
+        "sp": 1
+    },
+    {
+        "id": "rc01",
+        "sku": "RC01",
+        "name": "Fried Rice Machine RC01",
+        "line1": "220V/60Hz, 120W frying motor, 40W stirring motor, capacity 9–11 portions/batch.",
+        "line2": "Gas powered, 40kg, 55cm pan diameter, stainless steel body, 15-month warranty.",
+        "label": "",
+        "price": null,
+        "price_src": "Contact",
+        "currency": "",
+        "image": "img/maykhac/RC01.png",
+        "href": "",
+        "sp": 1
+    },
+    {
         "id": "tc10",
         "sku": "TC10",
         "name": "10-Tray Electric Rice Steamer",

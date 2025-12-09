@@ -3,6 +3,7 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+            "icemaker_other": "Další stroje na výrobu ledu",
             "title.Energy_line": "Energetická linka",
             "title_combisteel_energyline_ref": "Objevte naši řadu energeticky úsporného chlazení. Nízká spotřeba energie s plným výkonem, ideální pro udržitelný a efektivní provoz. Na této stránce najdete výběr různých chladicích jednotek vhodných pro udržitelný a efektivní provoz firmy.",
             "title.industries": "průmyslová odvětví",
@@ -460,6 +461,7 @@
         },
 
         en: {
+            "icemaker_other": "Combisteel - ice maker machines",
             "title.Energy_line": "Energy line",
             "title_combisteel_energyline_ref": "Discover our range of energy-efficient refrigeration. Low energy use with full performance, ideal for sustainable and efficient operations. On this page, you’ll find a selection of various refrigeration units suitable for sustainable and efficient business operations.",
             "title.industries": "industries",

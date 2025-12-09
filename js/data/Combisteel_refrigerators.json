@@ -1,5 +1,175 @@
 [
     {
+        "code": "compact-k-220-lg-2w",
+        "name": "Chladnička COMPACT K 220 LG 2W",
+        "url": "",
+        "image": "https://icemakers.sk/files/cache/product/448/picture_compact-k-220-lg-2w-300x300.jpg",
+        "image_large": "https://icemakers.sk/files/cache/product/448/picture_compact-k-220-lg-2w-300x300.jpg",
+        "price": 13659,
+        "price_currency": "Kč bez DPH",
+        "price_text": "13659 Kč",
+        "specs": {
+            "width": 595,
+            "depth": 642,
+            "height": 830
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "barova-1",
+        "name": "65803 Vyrobnik ledu 50kg/den",
+        "url": "",
+        "image": "https://minafood.cz/wp-content/uploads/2024/03/ZB-50-1_756ab664-a14a-4a65-a2b2-7071a4af49413ZwmE33oDNu9b-300x300.jpg",
+        "image_large": "https://minafood.cz/wp-content/uploads/2024/03/ZB-50-1_756ab664-a14a-4a65-a2b2-7071a4af49413ZwmE33oDNu9b-300x300.jpg",
+        "price": 25000,
+        "price_currency": "Kč bez DPH",
+        "price_text": "25000 Kč",
+        "specs": {
+            "width": null,
+            "depth": null,
+            "height": null
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "compact-kg-220-lg-2w",
+        "name": "Chladnička COMPACT KG 220 LG 2W",
+        "url": "",
+        "image": "https://icemakers.sk/files/cache/product/450/picture_compact_kg_220_lg_2w-300x300.jpg",
+        "image_large": "https://icemakers.sk/files/cache/product/450/picture_compact_kg_220_lg_2w-300x300.jpg",
+        "price": 13659,
+        "price_currency": "Kč bez DPH",
+        "price_text": "13659 Kč",
+        "specs": {
+            "width": 595,
+            "depth": 667,
+            "height": 830
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "compact-k-220-rg-2w",
+        "name": "Chladnička COMPACT K 220 RG 2W",
+        "url": "",
+        "image": "https://icemakers.sk/files/cache/product/464/6a54a5103734a55b6af8956df41d3057f3ee3478_962200441_compact_k_220_rg_2w-300x300.jpg",
+        "image_large": "https://icemakers.sk/files/cache/product/464/6a54a5103734a55b6af8956df41d3057f3ee3478_962200441_compact_k_220_rg_2w-300x300.jpg",
+        "price": 13659,
+        "price_currency": "Kč bez DPH",
+        "price_text": "13659 Kč",
+        "specs": {
+            "width": 595,
+            "depth": 642,
+            "height": 830
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "compact-k-420-rg-c2-5w",
+        "name": "Chladnička COMPACT K 420 RG C2 5W",
+        "url": "",
+        "image": "https://icemakers.sk/files/cache/product/447/gram-k420-rg-c2-5w_img77258-300x300.jpg",
+        "image_large": "https://icemakers.sk/files/cache/product/447/gram-k420-rg-c2-5w_img77258-300x300.jpg",
+        "price": 19512,
+        "price_currency": "Kč bez DPH",
+        "price_text": "19512 Kč",
+        "specs": {
+            "width": 595,
+            "depth": 642,
+            "height": 1900
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "mraznicka-gram-suf-65dg-c-l",
+        "name": "Mraznička Gram SUF-65DG-C-L",
+        "url": "",
+        "image": "https://icemakers.sk/files/cache/product/151/hc_600_ntv_leg-300x300.jpg",
+        "image_large": "https://icemakers.sk/files/cache/product/151/hc_600_ntv_leg-300x300.jpg",
+        "price": 67920,
+        "price_currency": "Kč bez DPH",
+        "price_text": "67920 Kč",
+        "specs": {
+            "width": 654,
+            "depth": 840,
+            "height": 1996
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "mraznicka-compact-f-220-rg-2w",
+        "name": "Mraznička COMPACT F 220 RG 2W",
+        "url": "",
+        "image": "https://icemakers.sk/files/cache/product/431/d46753740cf05cf0f6017128e2c3b8640d5ee4ec_f220_closed_door_white-1024x768-300x300.jpg",
+        "image_large": "https://icemakers.sk/files/cache/product/431/d46753740cf05cf0f6017128e2c3b8640d5ee4ec_f220_closed_door_white-1024x768-300x300.jpg",
+        "price": 13659,
+        "price_currency": "Kč bez DPH",
+        "price_text": "13659 Kč",
+        "specs": {
+            "width": 595,
+            "depth": 642,
+            "height": 830
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "Mraznička COMPACT F 420 RG L1 5W",
+        "name": "Mraznička COMPACT F 420 RG L1 5W",
+        "url": "",
+        "image": "https://icemakers.sk/files/cache/product/446/picture_compact_f_420_rg_l1_5w-300x300.jpg",
+        "image_large": "https://icemakers.sk/files/cache/product/446/picture_compact_f_420_rg_l1_5w-300x300.jpg",
+        "price": 19512,
+        "price_currency": "Kč bez DPH",
+        "price_text": "19512 Kč",
+        "specs": {
+            "width": 594,
+            "depth": 642,
+            "height": 1875
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "mraznicka-compact-f-420-rg-c2-5w",
+        "name": "Mraznička COMPACT F 420 RG C2 5W",
+        "url": "",
+        "image": "https://icemakers.sk/files/cache/product/408/307aa8921dba6eb9a409f608971437c7e0b1f1c5_hoshizaki_compact_kg_fg_420_wh_r_l_hero_transparent_cropped_(1)-300x300.png",
+        "image_large": "https://icemakers.sk/files/cache/product/408/307aa8921dba6eb9a409f608971437c7e0b1f1c5_hoshizaki_compact_kg_fg_420_wh_r_l_hero_transparent_cropped_(1)-300x300.png",
+        "price": 19512,
+        "price_currency": "Kč bez DPH",
+        "price_text": "19512 Kč",
+        "specs": {
+            "width": 594,
+            "depth": 642,
+            "height": 1875
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "mraznicka-gram-suf-65dg-c-l-2",
+        "name": "Mraznička Gram SUF-65DG-C-L",
+        "url": "",
+        "image": "https://icemakers.sk/files/cache/product/151/hc_600_ntv_leg-300x300.jpg",
+        "image_large": "https://icemakers.sk/files/cache/product/151/hc_600_ntv_leg-300x300.jpg",
+        "price": 67920,
+        "price_currency": "Kč bez DPH",
+        "price_text": "67920 Kč",
+        "specs": {
+            "width": 654,
+            "depth": 840,
+            "height": 1996
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
         "code": "7489.5435",
         "name": "ROLL-IN REFRIGERATOR SS MONO BLOCK 1400 LTR",
         "url": "https://www.combisteel.com/en/7489-5435-roll-in-refrigerator-ss-mono-block-1400-ltr.html",

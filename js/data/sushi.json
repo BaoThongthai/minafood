@@ -1,257 +1,291 @@
 [
   {
-    "id": "Sushi cabinet-HNC-120be-r-b",
+    "code": "Sushi cabinet-HNC-120be-r-b",
     "name": "Sushi cabinet-HNC-120BE-R-B",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/427/c5ab940a90f764cbb24dcfc1d770623ec98455f0_hnc_120be_r_b_rev00-300x300.png",
+    "image_large": "https://icemakers.sk/files/cache/product/427/c5ab940a90f764cbb24dcfc1d770623ec98455f0_hnc_120be_r_b_rev00-300x300.png",
     "price": 79200,
-    "currency": "Kč bez DPH",
-    "status": "Na sklade",
-    "availability": "In stock",
-    "dimensions": {
-      "w": "1200",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "79200 Kč",
+    "specs": {
+      "width": 1200,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/427/c5ab940a90f764cbb24dcfc1d770623ec98455f0_hnc_120be_r_b_rev00-300x300.png"
+    "downloads": [],
+    "accessories": []
   },
   {
-    "id": "Sushi cabinet-HNC-120be-l-bh",
+    "code": "Sushi cabinet-HNC-120be-l-bh",
     "name": "Sushi cabinet-HNC-120BE-L-BH",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/246/3a7c36d241a9844123042f27e30514eb206e1233_hnc_120be_l_blh_rev00__1_-300x300.jpg",
+    "image_large": "https://icemakers.sk/files/cache/product/246/3a7c36d241a9844123042f27e30514eb206e1233_hnc_120be_l_blh_rev00__1_-300x300.jpg",
     "price": 91200,
-    "currency": "Kč bez DPH",
-    "status": "Na objednávku",
-    "availability": "On order",
-    "dimensions": {
-      "w": "1200",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "91200 Kč",
+    "specs": {
+      "width": 1200,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/246/3a7c36d241a9844123042f27e30514eb206e1233_hnc_120be_l_blh_rev00__1_-300x300.jpg"
+    "downloads": [],
+    "accessories": []
   },
   {
-    "id": "Sushi cabinet-HNC-120be-r-bh",
+    "code": "Sushi cabinet-HNC-120be-r-bh",
     "name": "Sushi cabinet-HNC-120BE-R-BH",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/250/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg",
+    "image_large": "https://icemakers.sk/files/cache/product/250/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg",
     "price": 91200,
-    "currency": "Kč bez DPH",
-    "status": "Na objednávku",
-    "availability": "On order",
-    "dimensions": {
-      "w": "1200",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "91200 Kč",
+    "specs": {
+      "width": 1200,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/250/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg"
+    "downloads": [],
+    "accessories": []
   },
   {
-    "id": "Sushi cabinet-HNC-120be-l-blh",
+    "code": "Sushi cabinet-HNC-120be-l-blh",
     "name": "Sushi cabinet-HNC-120BE-L-BLH",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/245/3a7c36d241a9844123042f27e30514eb206e1233_hnc_120be_l_blh_rev00__1_-300x300.jpg",
+    "image_large": "https://icemakers.sk/files/cache/product/245/3a7c36d241a9844123042f27e30514eb206e1233_hnc_120be_l_blh_rev00__1_-300x300.jpg",
     "price": 94272,
-    "currency": "Kč bez DPH",
-    "status": "Na objednávku",
-    "availability": "On order",
-    "dimensions": {
-      "w": "1200",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "94272 Kč",
+    "specs": {
+      "width": 1200,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/245/3a7c36d241a9844123042f27e30514eb206e1233_hnc_120be_l_blh_rev00__1_-300x300.jpg"
+    "downloads": [],
+    "accessories": []
   },
   {
-    "id": "Sushi cabinet-HNC-120be-r-blh",
+    "code": "Sushi cabinet-HNC-120be-r-blh",
     "name": "Sushi cabinet-HNC-120BE-R-BLH",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/249/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg",
+    "image_large": "https://icemakers.sk/files/cache/product/249/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg",
     "price": 94272,
-    "currency": "Kč bez DPH",
-    "status": "Na objednávku",
-    "availability": "On order",
-    "dimensions": {
-      "w": "1200",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "94272 Kč",
+    "specs": {
+      "width": 1200,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/249/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg"
+    "downloads": [],
+    "accessories": []
   },
   {
-    "id": "Sushi cabinet-HNC-150be-l-bh",
+    "code": "Sushi cabinet-HNC-150be-l-bh",
     "name": "Sushi cabinet-HNC-150BE-L-BH",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/254/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg",
+    "image_large": "https://icemakers.sk/files/cache/product/254/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg",
     "price": 97400,
-    "currency": "Kč bez DPH",
-    "status": "Na objednávku",
-    "availability": "On order",
-    "dimensions": {
-      "w": "1200",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "97400 Kč",
+    "specs": {
+      "width": 1200,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/254/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg"
+    "downloads": [],
+    "accessories": []
   },
   {
-    "id": "Sushi cabinet-HNC-150be-r-bh",
+    "code": "Sushi cabinet-HNC-150be-r-bh",
     "name": "Sushi cabinet-HNC-150BE-R-BH",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/256/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg",
+    "image_large": "https://icemakers.sk/files/cache/product/256/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg",
     "price": 97400,
-    "currency": "Kč bez DPH",
-    "status": "Na objednávku",
-    "availability": "On order",
-    "dimensions": {
-      "w": "1500",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "97400 Kč",
+    "specs": {
+      "width": 1500,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/256/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg"
+    "downloads": [],
+    "accessories": []
   },
   {
-    "id": "Sushi cabinet-HNC-150be-l-blh",
+    "code": "Sushi cabinet-HNC-150be-l-blh",
     "name": "Sushi cabinet-HNC-150BE-L-BLH",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/253/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg",
+    "image_large": "https://icemakers.sk/files/cache/product/253/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg",
     "price": 100512,
-    "currency": "Kč bez DPH",
-    "status": "Na sklade",
-    "availability": "In stock",
-    "dimensions": {
-      "w": "1500",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "100512 Kč",
+    "specs": {
+      "width": 1500,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/253/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg"
+    "downloads": [],
+    "accessories": []
   },
   {
-    "id": "Sushi cabinet-HNC-150be-r-blh",
+    "code": "Sushi cabinet-HNC-150be-r-blh",
     "name": "Sushi cabinet-HNC-150BE-R-BLH",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/255/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg",
+    "image_large": "https://icemakers.sk/files/cache/product/255/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg",
     "price": 100512,
-    "currency": "Kč bez DPH",
-    "status": "Na objednávku",
-    "availability": "On order",
-    "dimensions": {
-      "w": "1500",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "100512 Kč",
+    "specs": {
+      "width": 1500,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/255/12284877671c4b57975c9dd27f299fed4772a76e_hnc_120be_r_blh_rev00-300x300.jpg"
+    "downloads": [],
+    "accessories": []
   },
   {
-    "id": "Sushi cabinet-HNC-180be-r-bh",
+    "code": "Sushi cabinet-HNC-180be-r-bh",
     "name": "Sushi cabinet-HNC-180BE-R-BH",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/263/right-300x300.jpg",
+    "image_large": "https://icemakers.sk/files/cache/product/263/right-300x300.jpg",
     "price": 108120,
-    "currency": "Kč bez DPH",
-    "status": "Na objednávku",
-    "availability": "On order",
-    "dimensions": {
-      "w": "1800",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "108120 Kč",
+    "specs": {
+      "width": 1800,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/263/right-300x300.jpg"
+    "downloads": [],
+    "accessories": []
   },
   {
-    "id": "Sushi cabinet-HNC-180be-l-bh",
+    "code": "Sushi cabinet-HNC-180be-l-bh",
     "name": "Sushi cabinet-HNC-180BE-L-BH",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/264/left-300x300.jpg",
+    "image_large": "https://icemakers.sk/files/cache/product/264/left-300x300.jpg",
     "price": 108120,
-    "currency": "Kč bez DPH",
-    "status": "Na objednávku",
-    "availability": "On order",
-    "dimensions": {
-      "w": "1800",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "108120 Kč",
+    "specs": {
+      "width": 1800,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/264/left-300x300.jpg"
+    "downloads": [],
+    "accessories": []
   },
   {
-    "id": "Sushi cabinet-HNC-180be-l-blh",
+    "code": "Sushi cabinet-HNC-180be-l-blh",
     "name": "Sushi cabinet-HNC-180BE-L-BLH",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/261/left-300x300.jpg",
+    "image_large": "https://icemakers.sk/files/cache/product/261/left-300x300.jpg",
     "price": 111192,
-    "currency": "Kč bez DPH",
-    "status": "Na objednávku",
-    "availability": "On order",
-    "dimensions": {
-      "w": "1800",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "111192 Kč",
+    "specs": {
+      "width": 1800,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/261/left-300x300.jpg"
+    "downloads": [],
+    "accessories": []
   },
   {
-    "id": "Sushi cabinet-HNC-180be-r-blh",
+    "code": "Sushi cabinet-HNC-180be-r-blh",
     "name": "Sushi cabinet-HNC-180BE-R-BLH",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/262/right-300x300.jpg",
+    "image_large": "https://icemakers.sk/files/cache/product/262/right-300x300.jpg",
     "price": 111192,
-    "currency": "Kč bez DPH",
-    "status": "Na objednávku",
-    "availability": "On order",
-    "dimensions": {
-      "w": "1800",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "111192 Kč",
+    "specs": {
+      "width": 1800,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/262/right-300x300.jpg"
+    "downloads": [],
+    "accessories": []
   },
   {
-    "id": "Sushi cabinet-HNC-210be-r-bh",
+    "code": "Sushi cabinet-HNC-210be-r-bh",
     "name": "Sushi cabinet-HNC-210BE-R-BH",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/271/right-300x300.jpg",
+    "image_large": "https://icemakers.sk/files/cache/product/271/right-300x300.jpg",
     "price": 118680,
-    "currency": "Kč bez DPH",
-    "status": "Na objednávku",
-    "availability": "On order",
-    "dimensions": {
-      "w": "2100",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "118680 Kč",
+    "specs": {
+      "width": 2100,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/271/right-300x300.jpg"
+    "downloads": [],
+    "accessories": []
   },
   {
-    "id": "Sushi cabinet-HNC-210be-l-bh",
+    "code": "Sushi cabinet-HNC-210be-l-bh",
     "name": "Sushi cabinet-HNC-210BE-L-BH",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/272/left-300x300.jpg",
+    "image_large": "https://icemakers.sk/files/cache/product/272/left-300x300.jpg",
     "price": 118680,
-    "currency": "Kč bez DPH",
-    "status": "Na objednávku",
-    "availability": "On order",
-    "dimensions": {
-      "w": "2100",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "118680 Kč",
+    "specs": {
+      "width": 2100,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/272/left-300x300.jpg"
+    "downloads": [],
+    "accessories": []
   },
   {
-    "id": "Sushi cabinet-HNC-210be-l-blh",
+    "code": "Sushi cabinet-HNC-210be-l-blh",
     "name": "Sushi cabinet-HNC-210BE-L-BLH",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/269/left-300x300.jpg",
+    "image_large": "https://icemakers.sk/files/cache/product/269/left-300x300.jpg",
     "price": 121752,
-    "currency": "Kč bez DPH",
-    "status": "Na objednávku",
-    "availability": "On order",
-    "dimensions": {
-      "w": "2100",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "121752 Kč",
+    "specs": {
+      "width": 2100,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/269/left-300x300.jpg"
+    "downloads": [],
+    "accessories": []
   },
   {
-    "id": "Sushi cabinet-HNC-210be-r-blh",
+    "code": "Sushi cabinet-HNC-210be-r-blh",
     "name": "Sushi cabinet-HNC-210BE-R-BLH",
-    "label": "",
+    "url": "",
+    "image": "https://icemakers.sk/files/cache/product/270/right-300x300.jpg",
+    "image_large": "https://icemakers.sk/files/cache/product/270/right-300x300.jpg",
     "price": 121752,
-    "currency": "Kč bez DPH",
-    "status": "Na objednávku",
-    "availability": "On order",
-    "dimensions": {
-      "w": "2100",
-      "d": "345",
-      "h": "270"
+    "price_currency": "Kč bez DPH",
+    "price_text": "121752 Kč",
+    "specs": {
+      "width": 2100,
+      "depth": 345,
+      "height": 270
     },
-    "image": "https://icemakers.sk/files/cache/product/270/right-300x300.jpg"
+    "downloads": [],
+    "accessories": []
   }
 ]

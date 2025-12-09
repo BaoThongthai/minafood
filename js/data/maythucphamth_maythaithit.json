@@ -1643,5 +1643,19 @@
             }
         ],
         "accessories": []
+    },
+    {
+        "id": "fatcutter",
+        "sku": "FATCUTTER",
+        "name": "Frozen Fat Cutter Machine",
+        "line1": "3.5–4kW power (220V/380V), cutting capacity 100–300kg/h.",
+        "line2": "Stainless steel construction, 78–80kg, designed for slicing frozen fat blocks into smaller pieces for processing.",
+        "label": "",
+        "price": null,
+        "price_src": "Contact",
+        "currency": "",
+        "image": "img/maykhac/CM01.png",
+        "href": "",
+        "sp": 1
     }
 ]

@@ -250,5 +250,19 @@
         "image": "img/lovitquay/bepthanmiengrong.png",
         "href": "",
         "sp": 1
+    },
+    {
+        "id": "dryer9",
+        "sku": "DRYER9",
+        "name": "Multi-Purpose Food Dryer 9 Trays",
+        "line1": "220V/50Hz, stainless steel with powder coating, productivity 15–26kg/h.",
+        "line2": "Size 670×560×1400mm, 80kg, 9 trays, 12-month warranty, made in China.",
+        "label": "",
+        "price": null,
+        "price_src": "Contact",
+        "currency": "",
+        "image": "img/maykhac/tusay9khay.png",
+        "href": "",
+        "sp": 1
     }
 ]
