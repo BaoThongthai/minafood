@@ -189,7 +189,7 @@
 
     <!-- Single Page Header start -->
     <div class="page-header d-flex align-items-center justify-content-center text-center" style="
-        background: url('https://www.combisteel.com/media/wysiwyg/11_-_bakery_-_bakery-1868396_612x407px.jpg')
+        background: url('https://www.combisteel.com/media/wysiwyg/5_-_refrigeration_-_pexels-gustavo-fring-4971956_612x408px.jpg')
           center center/cover no-repeat;
         height: 320px;
         position: relative;
@@ -205,13 +205,12 @@
 
         <div class="container position-relative z-1 text-white">
             <h1 class="fw-bold display-5 mb-3 text-uppercase" style="color: white">
-                Industries Hotel
+                Cleaning & Hygiene
             </h1>
-            <small data-i18n="title_combisteel_industries_bar"> Na stránce „Odvětví“ naleznete přehled různých
-                kategorií, z
-                nichž každá je zaměřena na specifická odvětví, jako jsou supermarkety, hotely, bary a snack bary.
-                Kliknutím na odvětví zobrazíte produkty speciálně vybrané pro váš typ podnikání.
-            </small>
+            <small data-i18n="title_combisteel_ Refrigeration">Explore our wide selection of refrigerators, designed to
+                maintain food freshness and quality. Choose from refrigerated display cases, freezers, and glass door
+                refrigerators to store products at the ideal temperature while enhancing visibility for
+                customers.</small>
             <a href="index.html#Kategorie">
                 <p class="mb-0 mt-3" style="color: antiquewhite">
                     <i class="fa-solid fa-backward" style="color: white"></i>&nbsp; Back
@@ -236,76 +235,80 @@
         <div class="container-fluid py-5">
             <div class="row g-4">
 
-                <!-- SIDEBAR FILTER -->
                 <aside class="col-lg-3 mb-4">
 
 
                     <!-- CATEGORY – cố định, không dính JS -->
                     <div class="filter-content bg-light border rounded p-3" x-data="{ catOpen: true }">
                         <!-- tiêu đề -->
-                        <div class="filter-options-title d-flex justify-content-between align-items-center cursor-pointer "
+                        <div class="filter-options-title d-flex justify-content-between align-items-center cursor-pointer"
                             @click="catOpen = !catOpen">
-                            <span class="title text-uppercase">Category</span>
-                            <span>
-                                <i class="fa-solid fa-chevron-down" :class="{ 'rotate-180': catOpen }"
-                                    style="transition: transform .3s"></i>
-                            </span>
+                            <span class="title text-uppercase">CATEGORY</span>
+                            <i class="fa-solid fa-chevron-down" :class="{ 'rotate-180': catOpen }"
+                                style="transition: transform .3s"></i>
                         </div>
 
-                        <!-- danh sách category fix cứng -->
+                        <!-- danh sách category -->
                         <div class="filter-options-content pt-2" x-show="catOpen">
 
-                            <a href="Combisteel_Industries_bar.html"
+                            <a href="Combisteel_cold_and_freezer_rooms.html"
                                 class="mf-filter-row d-flex justify-content-between ">
-                                <span>Bar</span>
-                                <span class="count text-muted">(52)</span>
+                                <span>Cold and freezer rooms</span>
+                                <span class="count text-muted">(164)</span>
                             </a>
 
+                            <a href="Combisteel_refrigerators.html"
+                                class="mf-filter-row d-flex justify-content-between">
+                                <span>Refrigerators</span>
+                                <span class="count text-muted">(167)</span>
+                            </a>
 
+                            <a href="Combisteel_freezers.html" class="mf-filter-row d-flex justify-content-between ">
+                                <span>Freezers</span>
+                                <span class="count text-muted">(102)</span>
+                            </a>
 
-                            <a href="Combisteel_Industries_hotel.html"
+                            <a href="Combisteel_chest_freezers.html"
+                                class="mf-filter-row d-flex justify-content-between ">
+                                <span>Chest freezers</span>
+                                <span class="count text-muted">(118)</span>
+                            </a>
+
+                            <a href="Combisteel_dry_age_cabinets.html"
+                                class="mf-filter-row d-flex justify-content-between ">
+                                <span>Dry age cabinets</span>
+                                <span class="count text-muted">(5)</span>
+                            </a>
+
+                            <a href="Combisteel_counters.html" class="mf-filter-row d-flex justify-content-between ">
+                                <span>Counters</span>
+                                <span class="count text-muted">(151)</span>
+                            </a>
+
+                            <a href="Combisteel_display_cases.html"
+                                class="mf-filter-row d-flex justify-content-between">
+                                <span>Display cases</span>
+                                <span class="count text-muted">(230)</span>
+                            </a>
+
+                            <a href="Combisteel_beverage_coolers.html"
+                                class="mf-filter-row d-flex justify-content-between">
+                                <span>Beverage coolers</span>
+                                <span class="count text-muted">(101)</span>
+                            </a>
+
+                            <a href="Combisteel_Cleaning.html"
                                 class="mf-filter-row d-flex justify-content-between active">
-                                <span>Hotel</span>
-                                <span class="count text-muted">(14)</span>
-                            </a>
-
-                            <a href="Combisteel_Industries_ice_cream.html"
-                                class="mf-filter-row d-flex justify-content-between">
-                                <span>Ice cream</span>
-                                <span class="count text-muted">(48)</span>
-                            </a>
-
-                            <a href="Combisteel_Industries_kebab_shop.html"
-                                class="mf-filter-row d-flex justify-content-between">
-                                <span>Kebab shop</span>
-                                <span class="count text-muted">(20)</span>
-                            </a>
-
-                            <a href="Combisteel_Industries_retail.html"
-                                class="mf-filter-row d-flex justify-content-between">
-                                <span>Retail</span>
-                                <span class="count text-muted">(35)</span>
+                                <span>Cleaning & Hygiene</span>
+                                <span class="count text-muted">(4)</span>
                             </a>
 
 
-
-                            <a href="Combisteel_Industries_snack_bar.html"
-                                class="mf-filter-row d-flex justify-content-between">
-                                <span>Snack bar</span>
-                                <span class="count text-muted">(33)</span>
-                            </a>
-
-                            <a href="Combisteel_Industries_supermarket.html"
-                                class="mf-filter-row d-flex justify-content-between">
-                                <span>Supermarket</span>
-                                <span class="count text-muted">(58)</span>
-                            </a>
 
 
 
                         </div>
                     </div>
-
 
                     <!-- FILTER động: JS combisteel_cooking_range.js sẽ vẽ vào đây -->
                     <div id="filter-panel" class="filter-content bg-light border rounded p-3 mt-4">

@@ -18,7 +18,7 @@
         shoppingOptions: "Shopping options",
     };
 
-    const PAGE_SIZE = 24;
+    const PAGE_SIZE = 30;
 
     let allProducts = [];
     let filteredProducts = [];

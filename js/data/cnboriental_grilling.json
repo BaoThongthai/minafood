@@ -1,5 +1,5 @@
 [
-   {
+  {
     "id": "BRE7001",
     "sku": "BRE7001",
     "name": "BroilyGrill elettrico – BRE7001-ELECTRIC GRILLS",
@@ -1174,6 +1174,75 @@
     "image": "https://www.cnboriental-shop.nl/web/image/product.template/100899/image_512/%5B16251%5D%20Konro%20Grill%20Net%2019cm%2039-29-17-SL%20For%2034-29-01-SL%20Made%20in%20Japan%201-1?unique=fb2b9aa",
     "href": "https://www.cnboriental-shop.nl/en_GB/shop/16251-konro-grill-net-19cm-39-29-17-sl-for-34-29-01-sl-made-in-japan-1-1-100899?category=187",
     "sp": 77
+  },
+  {
+    "id": "7049.0025",
+    "sku": "7049.0025",
+    "name": "GYROS GRILL ELECTRIC MOTOR ON TOP 6 HEATING ZONES – 7049.0025",
+    "line1": "9.6 kW, 400V, Electric version",
+    "line2": "440×550×1100 mm, weight 42 kg",
+    "label": "",
+    "price": 40250,
+    "price_src": "40 250 Kč",
+    "currency": "Kč",
+    "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7049_0025-10826.jpg",
+    "href": "https://www.combisteel.com/en/7049-0025-gyros-grill-electric-motor-on-top-6-heating-zones.html",
+    "sp": 1
+  },
+  {
+    "id": "7049.0020",
+    "sku": "7049.0020",
+    "name": "GYROS GRILL ELECTRIC MOTOR ON TOP 4 HEATING ZONES – 7049.0020",
+    "line1": "6.4 kW, 400V, Electric version",
+    "line2": "440×550×870 mm, weight 30 kg",
+    "label": "",
+    "price": 36625,
+    "price_src": "36 625 Kč",
+    "currency": "Kč",
+    "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7049_0020-10825.jpg",
+    "href": "https://www.combisteel.com/en/7049-0020-gyros-grill-electric-motor-on-top-4-heating-zones.html",
+    "sp": 1
+  },
+  {
+    "id": "7049.0015",
+    "sku": "7049.0015",
+    "name": "GYROS GRILL GAS MOTOR ON TOP 5 HEATING ZONES – 7049.0015",
+    "line1": "16.1 kW (Gas Output), Gas version",
+    "line2": "565×600×1280 mm, weight 42 kg",
+    "label": "",
+    "price": 35875,
+    "price_src": "35 875 Kč",
+    "currency": "Kč",
+    "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7049_0015-10824.jpg",
+    "href": "https://www.combisteel.com/en/7049-0015-gyros-grill-gas-motor-on-top-5-heating-zones.html",
+    "sp": 1
+  },
+  {
+    "id": "7049.0010",
+    "sku": "7049.0010",
+    "name": "GYROS GRILL GAS MOTOR ON TOP 4 HEATING ZONES – 7049.0010",
+    "line1": "12.9 kW (Gas Output), Gas version",
+    "line2": "515×550×1120 mm, weight 34 kg",
+    "label": "",
+    "price": 30000,
+    "price_src": "30 000 Kč",
+    "currency": "Kč",
+    "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7049_0010-10823.jpg",
+    "href": "https://www.combisteel.com/en/7049-0010-gyros-grill-gas-motor-on-top-4-heating-zones.html",
+    "sp": 1
+  },
+  {
+    "id": "7049.0005",
+    "sku": "7049.0005",
+    "name": "GYROS GRILL GAS MOTOR ON TOP 3 HEATING ZONES – 7049.0005",
+    "line1": "9.7 kW (Gas Output), Gas version",
+    "line2": "515×550×960 mm, weight 31 kg",
+    "label": "",
+    "price": 29000,
+    "price_src": "29 000 Kč",
+    "currency": "Kč",
+    "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7049_0005-10830.jpg",
+    "href": "https://www.combisteel.com/en/7049-0005-gyros-grill-gas-motor-on-top-3-heating-zones.html",
+    "sp": 1
   }
- 
 ]

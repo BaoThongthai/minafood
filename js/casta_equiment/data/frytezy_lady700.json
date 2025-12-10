@@ -10751,5 +10751,604 @@
             }
         ],
         "accessories": []
+    },
+    {
+        "code": "7481.0045",
+        "name": "DONER SLICER ELECTRIC 60 KG 24H",
+        "url": "https://www.combisteel.com/en/7481-0045-doner-slicer-electric-60-kg-24h.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7481_0045_1.png",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7481_0045_1.png",
+        "price": 27125,
+        "price_currency": " Kč bez DPH",
+        "price_text": "27 125 Kč",
+        "specs": {
+            "ean_code": 7435137833895,
+            "width": 110,
+            "depth": 110,
+            "height": 230,
+            "parcel_ready": "Yes",
+            "gross_weight": 2,
+            "net_weight": 1,
+            "particulars": "The knife includes 2 round blades (smooth). Daily cutting capacity: 60kg.",
+            "voltage": 230,
+            "electrical_power": 0.12,
+            "cutting_thickness": "1-10",
+            "brand": "COMBISTEEL",
+            "speed": "7000 U/min"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7455.1055",
+        "name": "ELECTRIC FRY TOP CHROME",
+        "url": "https://www.combisteel.com/en/7455-1055-electric-fry-top-chrome.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1055-4235.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1055-4235.jpg",
+        "price": 13375,
+        "price_currency": " Kč bez DPH",
+        "price_text": "13 375 Kč",
+        "specs": {
+            "ean_code": 7435137846826,
+            "width": 500,
+            "depth": 520,
+            "height": 310,
+            "material": "Stainless steel Aisi 201",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 315,
+            "net_weight": 295,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 3,
+            "version": "Electric",
+            "griddle_surface": "Chromed smooth",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Exploded view 7455.1050-1055-1060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213444/product/792/"
+            },
+            {
+                "label": "Exploded view 7455.1055",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213445/product/792/"
+            },
+            {
+                "label": "Manual 7455.1050-1055-1060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213446/product/792/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7455.1060",
+        "name": "ELECTRIC FRY TOP",
+        "url": "https://www.combisteel.com/en/7455-1060-electric-fry-top.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1060-4236.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1060-4236.jpg",
+        "price": 11375,
+        "price_currency": " Kč bez DPH",
+        "price_text": "11 375 Kč",
+        "specs": {
+            "ean_code": 7435137846833,
+            "width": 600,
+            "depth": 520,
+            "height": 310,
+            "material": "Stainless steel Aisi 201",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 38,
+            "net_weight": 36,
+            "voltage": 400,
+            "electrical_power": 5,
+            "version": "Electric",
+            "griddle_surface": "Smooth",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "No"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7455.1050-1055-1060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231693/product/793/"
+            },
+            {
+                "label": "Exploded view 7455.1060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231694/product/793/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7455.1050",
+        "name": "ELECTRIC FRY TOP",
+        "url": "https://www.combisteel.com/en/7455-1050-electric-fry-top.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1050-4235.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1050-4235.jpg",
+        "price": 9375,
+        "price_currency": " Kč bez DPH",
+        "price_text": "9 375 Kč",
+        "specs": {
+            "ean_code": 7435137846819,
+            "width": 500,
+            "depth": 520,
+            "height": 310,
+            "material": "Stainless steel Aisi 201",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 315,
+            "net_weight": 295,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 3,
+            "version": "Electric",
+            "griddle_surface": "Smooth",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Exploded view 7455.1050-1055-1060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1230944/product/791/"
+            },
+            {
+                "label": "Exploded view 7455.1050",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1230945/product/791/"
+            },
+            {
+                "label": "Manual 7455.1050-1055-1060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1230946/product/791/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7455.1080",
+        "name": "ELECTRIC FRY TOP",
+        "url": "https://www.combisteel.com/en/7455-1080-electric-fry-top.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1080_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1080_1.jpg",
+        "price": 6750,
+        "price_currency": " Kč bez DPH",
+        "price_text": "6 750 Kč",
+        "specs": {
+            "ean_code": 7435137846857,
+            "width": 730,
+            "depth": 510,
+            "height": 230,
+            "material": "Stainless steel 430",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 31,
+            "net_weight": 285,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 35,
+            "version": "Electric",
+            "griddle_surface": "Smooth",
+            "grease_collection_tray_/_drawer": "Yes",
+            "brand": "COMBISTEEL",
+            "cord_length": 1700,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Dimensions 7455.1080",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235097/product/795/"
+            },
+            {
+                "label": "Exploded view 7455.1080",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235098/product/795/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7455.1075-1080",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235099/product/795/"
+            },
+            {
+                "label": "Manual 7455.1075-1080",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235100/product/795/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7455.1075",
+        "name": "ELECTRIC FRY TOP",
+        "url": "https://www.combisteel.com/en/7455-1075-electric-fry-top.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1075-5570.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1075-5570.jpg",
+        "price": 5000,
+        "price_currency": " Kč bez DPH",
+        "price_text": "5 000 Kč",
+        "specs": {
+            "ean_code": 7435137846840,
+            "width": 550,
+            "depth": 470,
+            "height": 230,
+            "material": "Stainless steel 430",
+            "color": "Stainless steel",
+            "parcel_ready": "Yes",
+            "gross_weight": 21,
+            "net_weight": 20,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 3,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Tabletop",
+            "griddle_surface": "Smooth",
+            "operation": "Knob",
+            "grease_collection_tray_/_drawer": "Yes",
+            "brand": "COMBISTEEL",
+            "cord_length": 1750,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Exploded view 7455.1075",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232856/product/794/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7455.1075-1080",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232857/product/794/"
+            },
+            {
+                "label": "Manual 7455.1075-1080",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232858/product/794/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7455.1055",
+        "name": "ELECTRIC FRY TOP CHROME",
+        "url": "https://www.combisteel.com/en/7455-1055-electric-fry-top-chrome.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1055-4235.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1055-4235.jpg",
+        "price": 13375,
+        "price_currency": "CZK",
+        "price_text": "13 375 Kč",
+        "specs": {
+            "ean_code": 7435137846826,
+            "width": 500,
+            "depth": 520,
+            "height": 310,
+            "material": "Stainless steel Aisi 201",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 315,
+            "net_weight": 295,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 3,
+            "version": "Electric",
+            "griddle_surface": "Chromed smooth",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Exploded view 7455.1050-1055-1060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213444/product/792/"
+            },
+            {
+                "label": "Exploded view 7455.1055",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213445/product/792/"
+            },
+            {
+                "label": "Manual 7455.1050-1055-1060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213446/product/792/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7455.1060",
+        "name": "ELECTRIC FRY TOP",
+        "url": "https://www.combisteel.com/en/7455-1060-electric-fry-top.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1060-4236.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1060-4236.jpg",
+        "price": 11375,
+        "price_currency": "CZK",
+        "price_text": "11 375 Kč",
+        "specs": {
+            "ean_code": 7435137846833,
+            "width": 600,
+            "depth": 520,
+            "height": 310,
+            "material": "Stainless steel Aisi 201",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 38,
+            "net_weight": 36,
+            "voltage": 400,
+            "electrical_power": 5,
+            "version": "Electric",
+            "griddle_surface": "Smooth",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "No"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7455.1050-1055-1060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231693/product/793/"
+            },
+            {
+                "label": "Exploded view 7455.1060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231694/product/793/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7455.1050",
+        "name": "ELECTRIC FRY TOP",
+        "url": "https://www.combisteel.com/en/7455-1050-electric-fry-top.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1050-4235.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1050-4235.jpg",
+        "price": 9375,
+        "price_currency": "CZK",
+        "price_text": "9 375 Kč",
+        "specs": {
+            "ean_code": 7435137846819,
+            "width": 500,
+            "depth": 520,
+            "height": 310,
+            "material": "Stainless steel Aisi 201",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 315,
+            "net_weight": 295,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 3,
+            "version": "Electric",
+            "griddle_surface": "Smooth",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Exploded view 7455.1050-1055-1060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1230944/product/791/"
+            },
+            {
+                "label": "Exploded view 7455.1050",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1230945/product/791/"
+            },
+            {
+                "label": "Manual 7455.1050-1055-1060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1230946/product/791/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7455.1080",
+        "name": "ELECTRIC FRY TOP",
+        "url": "https://www.combisteel.com/en/7455-1080-electric-fry-top.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1080_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1080_1.jpg",
+        "price": 6750,
+        "price_currency": "CZK",
+        "price_text": "6 750 Kč",
+        "specs": {
+            "ean_code": 7435137846857,
+            "width": 730,
+            "depth": 510,
+            "height": 230,
+            "material": "Stainless steel 430",
+            "color": "Stainless steel",
+            "parcel_ready": "No",
+            "gross_weight": 31,
+            "net_weight": 285,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 35,
+            "version": "Electric",
+            "griddle_surface": "Smooth",
+            "grease_collection_tray_/_drawer": "Yes",
+            "brand": "COMBISTEEL",
+            "cord_length": 1700,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Dimensions 7455.1080",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235097/product/795/"
+            },
+            {
+                "label": "Exploded view 7455.1080",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235098/product/795/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7455.1075-1080",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235099/product/795/"
+            },
+            {
+                "label": "Manual 7455.1075-1080",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235100/product/795/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7455.1075",
+        "name": "ELECTRIC FRY TOP",
+        "url": "https://www.combisteel.com/en/7455-1075-electric-fry-top.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1075-5570.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_1075-5570.jpg",
+        "price": 5000,
+        "price_currency": "CZK",
+        "price_text": "5 000 Kč",
+        "specs": {
+            "ean_code": 7435137846840,
+            "width": 550,
+            "depth": 470,
+            "height": 230,
+            "material": "Stainless steel 430",
+            "color": "Stainless steel",
+            "parcel_ready": "Yes",
+            "gross_weight": 21,
+            "net_weight": 20,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 3,
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Tabletop",
+            "griddle_surface": "Smooth",
+            "operation": "Knob",
+            "grease_collection_tray_/_drawer": "Yes",
+            "brand": "COMBISTEEL",
+            "cord_length": 1750,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Exploded view 7455.1075",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232856/product/794/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7455.1075-1080",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232857/product/794/"
+            },
+            {
+                "label": "Manual 7455.1075-1080",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232858/product/794/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7333.1225",
+        "name": "SS CHIPS SCUTTLE 1200",
+        "url": "https://www.combisteel.com/en/7333-1225-ss-chips-scuttle-1200.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7333_1225-2162.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7333_1225-2162.jpg",
+        "price": 3875,
+        "price_currency": "CZK",
+        "price_text": "3 875 Kč",
+        "specs": {
+            "width": 1200,
+            "depth": 300,
+            "height": 200,
+            "material": "Stainless steel 430",
+            "accessories_included": "including mounting bracket",
+            "parcel_ready": "Yes",
+            "gross_weight": 9,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7333.1220",
+        "name": "SS CHIPS SCUTTLE 1000",
+        "url": "https://www.combisteel.com/en/7333-1220-ss-chips-scuttle-1000.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7333_1220-2162.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7333_1220-2162.jpg",
+        "price": 3625,
+        "price_currency": "CZK",
+        "price_text": "3 625 Kč",
+        "specs": {
+            "width": 1000,
+            "depth": 300,
+            "height": 200,
+            "material": "Stainless steel 430",
+            "accessories_included": "including mounting bracket",
+            "parcel_ready": "Yes",
+            "gross_weight": 7,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7333.1215",
+        "name": "SS CHIPS SCUTTLE 900",
+        "url": "https://www.combisteel.com/en/7333-1215-ss-chips-scuttle-900.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7333_1215-2162.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7333_1215-2162.jpg",
+        "price": 3375,
+        "price_currency": "CZK",
+        "price_text": "3 375 Kč",
+        "specs": {
+            "width": 900,
+            "depth": 300,
+            "height": 200,
+            "material": "Stainless steel 430",
+            "accessories_included": "including mounting bracket",
+            "parcel_ready": "Yes",
+            "gross_weight": 5,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7333.1210",
+        "name": "SS CHIPS SCUTTLE 800",
+        "url": "https://www.combisteel.com/en/7333-1210-ss-chips-scuttle-800.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7333_1210-2162.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7333_1210-2162.jpg",
+        "price": 2875,
+        "price_currency": "CZK",
+        "price_text": "2 875 Kč",
+        "specs": {
+            "width": 800,
+            "depth": 300,
+            "height": 200,
+            "material": "Stainless steel 430",
+            "accessories_included": "including mounting bracket",
+            "parcel_ready": "Yes",
+            "gross_weight": 5,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7333.1205",
+        "name": "SS CHIPS SCUTTLE 700",
+        "url": "https://www.combisteel.com/en/7333-1205-ss-chips-scuttle-700.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7333_1205-2162.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7333_1205-2162.jpg",
+        "price": 2625,
+        "price_currency": "CZK",
+        "price_text": "2 625 Kč",
+        "specs": {
+            "width": 700,
+            "depth": 300,
+            "height": 200,
+            "material": "Stainless steel 430",
+            "accessories_included": "including mounting bracket",
+            "parcel_ready": "Yes",
+            "gross_weight": 3,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7333.1200",
+        "name": "SS CHIPS SCUTTLE 600",
+        "url": "https://www.combisteel.com/en/7333-1200-ss-chips-scuttle-600.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7333_1200-2162.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7333_1200-2162.jpg",
+        "price": 2375,
+        "price_currency": "CZK",
+        "price_text": "2 375 Kč",
+        "specs": {
+            "width": 600,
+            "depth": 300,
+            "height": 200,
+            "material": "Stainless steel 430",
+            "accessories_included": "including mounting bracket",
+            "parcel_ready": "Yes",
+            "gross_weight": 3,
+            "brand": "COMBISTEEL"
+        },
+        "downloads": [],
+        "accessories": []
     }
 ]

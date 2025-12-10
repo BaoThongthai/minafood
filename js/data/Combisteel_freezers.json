@@ -1,57 +1,5 @@
 [
     {
-        "code": "",
-        "name": "Prosklená Chladící Lednice dvoudveřová",
-        "url": "",
-        "image": "img/Chlazeni/Chla18.png",
-        "image_large": "img/Chlazeni/Chla18.png",
-        "price": 29000,
-        "price_currency": "Kč bez DPH",
-        "price_text": "29000 Kč",
-        "specs": {},
-        "downloads": [],
-        "accessories": []
-    },
-    {
-        "code": "",
-        "name": "Tủ đá nằm 650l / Pultovy mrazak",
-        "url": "",
-        "image": "img/Chlazeni/Chla19.png",
-        "image_large": "img/Chlazeni/Chla19.png",
-        "price": 21000,
-        "price_currency": "Kč bez DPH",
-        "price_text": "21000 Kč",
-        "specs": {},
-        "downloads": [],
-        "accessories": []
-    },
-    {
-        "code": "",
-        "name": "Tủ mát 3 cửa kính / Prosklená lednice 3 dverova",
-        "url": "",
-        "image": "img/Chlazeni/Chla20.png",
-        "image_large": "img/Chlazeni/Chla20.png",
-        "price": 119000,
-        "price_currency": "Kč bez DPH",
-        "price_text": "119000 Kč",
-        "specs": {},
-        "downloads": [],
-        "accessories": []
-    },
-    {
-        "code": "",
-        "name": "Tủ mát 4 cửa / Prosklená lednice",
-        "url": "",
-        "image": "img/Chlazeni/Chla21.png",
-        "image_large": "img/Chlazeni/Chla21.png",
-        "price": 139000,
-        "price_currency": "Kč bez DPH",
-        "price_text": "139000 Kč",
-        "specs": {},
-        "downloads": [],
-        "accessories": []
-    },
-    {
         "code": "7489.5445",
         "name": "ROLL-IN FREEZER SS MONO BLOCK 1400 LTR",
         "url": "https://www.combisteel.com/en/7489-5445-roll-in-freezer-ss-mono-block-1400-ltr.html",
@@ -2683,5 +2631,1091 @@
                 "price_text": "525 Kč"
             }
         ]
+    },
+    {
+        "code": "7295.0090",
+        "name": "COOLING / FREEZING ISLAND ACTION 100 - SWITCHABLE",
+        "url": "https://www.combisteel.com/en/7295-0090-cooling-freezing-island-action-100-switchable.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7295_0090-13694.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7295_0090-13694.jpg",
+        "price": 138250,
+        "price_currency": "CZK",
+        "price_text": "138 250 Kč",
+        "specs": {
+            "width": 1060,
+            "depth": 820,
+            "height": 870,
+            "gross_weight": 140,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1,
+            "cooling_agent": "R 290",
+            "temperature_range": "+1/+5 / -16/-18",
+            "gross_capacity": 238,
+            "type_of_cooling": "Ventilated",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 30,
+            "brand": "ISA",
+            "energy_label": "No energy label required"
+        },
+        "downloads": [
+            {
+                "label": "ENG - Manual Action",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212542/product/3796/"
+            },
+            {
+                "label": "DE - Bedienungsanleitung Action",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212543/product/3796/"
+            },
+            {
+                "label": "FR - Manuel Action",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212544/product/3796/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7295.0085",
+        "name": "COOLING / FREEZING ISLAND ACTION 70 - SWITCHABLE",
+        "url": "https://www.combisteel.com/en/7295-0085-cooling-freezing-island-action-70-switchable.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7295_0085-13694.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7295_0085-13694.jpg",
+        "price": 126875,
+        "price_currency": "CZK",
+        "price_text": "126 875 Kč",
+        "specs": {
+            "width": 760,
+            "depth": 820,
+            "height": 870,
+            "gross_weight": 110,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.62,
+            "cooling_agent": "R 290",
+            "temperature_range": "+1/+5 / -16/-18",
+            "gross_capacity": 160,
+            "type_of_cooling": "Ventilated",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 30,
+            "brand": "ISA",
+            "energy_label": "No energy label required"
+        },
+        "downloads": [
+            {
+                "label": "ENG - Manual Action",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212539/product/3798/"
+            },
+            {
+                "label": "DE - Bedienungsanleitung Action",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212540/product/3798/"
+            },
+            {
+                "label": "FR - Manuel Action",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212541/product/3798/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7080.0025",
+        "name": "COOLING / FREEZING ISLAND SWITCHABLE 2.0",
+        "url": "https://www.combisteel.com/en/7080-0025-cooling-freezing-island-switchable-2-0.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0020-0025_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0020-0025_1.jpg",
+        "price": 126625,
+        "price_currency": "CZK",
+        "price_text": "126 625 Kč",
+        "specs": {
+            "ean_code": 7422242914953,
+            "width": 2126,
+            "depth": 1036,
+            "height": 936,
+            "color": "Black",
+            "gross_weight": 250,
+            "particulars": "Uitwisselbaar tussen vriezer en koeler door schakelaar",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.62,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "0/+6 / -16/-22",
+            "gross_capacity": 320,
+            "showcase_area": 1.4,
+            "lights": "No",
+            "type_of_cooling": "Ventilated",
+            "execution_window": "Right",
+            "night_cover": "Nee",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "F",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "190x2",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7080.0025",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236871/product/3654/"
+            },
+            {
+                "label": "Manual 7080.0020-0025",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236872/product/3654/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7090.0025",
+        "name": "COOLING ISLAND WITH GLASS COVER 1.3",
+        "url": "https://www.combisteel.com/en/7090-0025-cooling-island-with-glass-cover-1-3.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7090_0025-13527.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7090_0025-13527.jpg",
+        "price": 124250,
+        "price_currency": "CZK",
+        "price_text": "124 250 Kč",
+        "specs": {
+            "width": 1370,
+            "depth": 1080,
+            "height": 935,
+            "color": "Black",
+            "gross_weight": 185,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.55,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+6",
+            "net_capacity": 190,
+            "showcase_area": 212,
+            "lights": "Yes",
+            "type_of_cooling": "Ventilated",
+            "mobile": "No",
+            "noise_level": 50,
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 33,
+            "energy_label": "D",
+            "brand": "COMBISTEEL",
+            "climate_class": "M2",
+            "eprel_id": 1472493,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7090.0020-0025",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1226059/product/4158/"
+            },
+            {
+                "label": "7090.0025 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1226060/product/4158/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7080.0020",
+        "name": "COOLING / FREEZING ISLAND SWITCHABLE 1.5",
+        "url": "https://www.combisteel.com/en/7080-0020-cooling-freezing-island-switchable-1-5.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0020-0025.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0020-0025.jpg",
+        "price": 108500,
+        "price_currency": "CZK",
+        "price_text": "108 500 Kč",
+        "specs": {
+            "ean_code": 7422242914946,
+            "width": 1476,
+            "depth": 1036,
+            "height": 936,
+            "color": "Black",
+            "gross_weight": 220,
+            "particulars": "Uitwisselbaar tussen vriezer en koeler door schakelaar",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.2,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "0/+6 / -16/-22",
+            "gross_capacity": 240,
+            "showcase_area": 1.03,
+            "lights": "No",
+            "type_of_cooling": "Ventilated",
+            "execution_window": "Right",
+            "night_cover": "Nee",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "F",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "150x2",
+            "eprel_id": 1204939,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7080.0020",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236667/product/3653/"
+            },
+            {
+                "label": "Exploded view 7080.0020",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236668/product/3653/"
+            },
+            {
+                "label": "Manual 7080.0020-0025",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236669/product/3653/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7090.0055",
+        "name": "COOLING/FREEZING ISLAND SWITCHABLE 1.5",
+        "url": "https://www.combisteel.com/en/7090-0055-cooling-freezing-island-switchable-1-5.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7090_0055_x_1.png",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7090_0055_x_1.png",
+        "price": 105625,
+        "price_currency": "CZK",
+        "price_text": "105 625 Kč",
+        "specs": {
+            "width": 1530,
+            "depth": 995,
+            "height": 950,
+            "color": "Black",
+            "gross_weight": 194,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.2,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+6 / -15/-18",
+            "net_capacity": 260,
+            "dim._interior_wxdxh": "1395x795x200",
+            "showcase_area": 103,
+            "lights": "No",
+            "type_of_cooling": "Ventilated",
+            "mobile": "Yes",
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 50,
+            "energy_label": "No energy label required",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "130x2",
+            "climate_class": "L1",
+            "eprel_id": 1473375,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7090.0055",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1217159/product/4159/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7080.0015",
+        "name": "COLD DISPLAY 1.5",
+        "url": "https://www.combisteel.com/en/7080-0015-cold-display-1-5.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0005-0010-0015_3.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0005-0010-0015_3.jpg",
+        "price": 95875,
+        "price_currency": "CZK",
+        "price_text": "95 875 Kč",
+        "specs": {
+            "ean_code": 7422242914939,
+            "width": 1500,
+            "depth": 660,
+            "height": 1500,
+            "color": "Black",
+            "gross_weight": 150,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.52,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "gross_capacity": 440,
+            "showcase_area": 1.87,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "number_of_levels": 3,
+            "execution_window": "curved",
+            "night_cover": "Ja",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "E",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 345,
+            "eprel_id": 2063808,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7080.0005-0010-0015",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231879/product/3567/"
+            },
+            {
+                "label": "Exploded view 7080.0015 (2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231880/product/3567/"
+            },
+            {
+                "label": "7080.0015 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231881/product/3567/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7080.0010",
+        "name": "COLD DISPLAY 1.3",
+        "url": "https://www.combisteel.com/en/7080-0010-cold-display-1-3.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0005-0010-0015_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0005-0010-0015_1.jpg",
+        "price": 88625,
+        "price_currency": "CZK",
+        "price_text": "88 625 Kč",
+        "specs": {
+            "ean_code": 7422242914922,
+            "width": 1300,
+            "depth": 660,
+            "height": 1500,
+            "color": "Black",
+            "gross_weight": 130,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.29,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "gross_capacity": 380,
+            "showcase_area": 1.69,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "number_of_levels": 3,
+            "execution_window": "curved",
+            "night_cover": "Ja",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "E",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 300,
+            "eprel_id": 2063797,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Exploded view 7080.0010 (2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236868/product/3565/"
+            },
+            {
+                "label": "Manual 7080.0005-0010-0015",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236869/product/3565/"
+            },
+            {
+                "label": "7080.0010 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236870/product/3565/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7080.0005",
+        "name": "COLD DISPLAY 1.0",
+        "url": "https://www.combisteel.com/en/7080-0005-cold-display-1-0.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0005-0010-0015_5.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0005-0010-0015_5.jpg",
+        "price": 79625,
+        "price_currency": "CZK",
+        "price_text": "79 625 Kč",
+        "specs": {
+            "ean_code": 7422242914915,
+            "width": 1000,
+            "depth": 660,
+            "height": 1500,
+            "color": "Black",
+            "gross_weight": 120,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.2,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "gross_capacity": 290,
+            "showcase_area": 1.43,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "number_of_levels": 3,
+            "execution_window": "curved",
+            "night_cover": "Ja",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "E",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 275,
+            "eprel_id": 2063772,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7080.0005-0010-0015",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234711/product/3561/"
+            },
+            {
+                "label": "Exploded view 7080.0005 (2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234712/product/3561/"
+            },
+            {
+                "label": "7080.0005 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234713/product/3561/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7090.0005",
+        "name": "IMPULSE COOLER BLACK 165L",
+        "url": "https://www.combisteel.com/en/7090-0005-impulse-cooler-black-165l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/g/e/get-image-thumbnail_4.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/g/e/get-image-thumbnail_4.jpg",
+        "price": 62250,
+        "price_currency": "CZK",
+        "price_text": "62 250 Kč",
+        "specs": {
+            "ean_code": 7422242991947,
+            "width": 660,
+            "depth": 710,
+            "height": 1470,
+            "color": "Black",
+            "accessories_included": "2 adjustable shelves",
+            "gross_weight": 150,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.5,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+1/+7",
+            "net_capacity": 165,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "Yes",
+            "noise_level": 60,
+            "night_cover": "Yes",
+            "defrost": "Automatic",
+            "insulation_thickness": 40,
+            "energy_label": "No energy label required",
+            "brand": "COMBISTEEL",
+            "cord_length": 2000,
+            "climate_class": "M2",
+            "eprel_id": 2519033,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7090.0005 and 02xx Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1229860/product/4730/"
+            },
+            {
+                "label": "7090.0005 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1229861/product/4730/"
+            },
+            {
+                "label": "Exploded view 7090.0005 (2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1229862/product/4730/"
+            },
+            {
+                "label": "7090.0005 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1229863/product/4730/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7090.0030",
+        "name": "COOLING ISLAND 0.7",
+        "url": "https://www.combisteel.com/en/7090-0030-cooling-island-0-7.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7090_0030-13528.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7090_0030-13528.jpg",
+        "price": 59375,
+        "price_currency": "CZK",
+        "price_text": "59 375 Kč",
+        "specs": {
+            "width": 772,
+            "depth": 833,
+            "height": 930,
+            "color": "Black",
+            "gross_weight": 115,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.55,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "net_capacity": 87,
+            "dim._interior_wxdxh": "554x610x270",
+            "showcase_area": 121,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "mobile": "Yes",
+            "noise_level": 50,
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 65,
+            "energy_label": "No energy label required",
+            "brand": "COMBISTEEL",
+            "climate_class": "L1",
+            "eprel_id": 1472546,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7090.0030",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1224288/product/4157/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7464.0060",
+        "name": "FREEZER 1 GLASS DOOR BLACK 382L",
+        "url": "https://www.combisteel.com/en/7464-0060-freezer-1-glass-door-black-382l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0060-15016.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0060-15016.jpg",
+        "price": 51625,
+        "price_currency": "CZK",
+        "price_text": "51 625 Kč",
+        "specs": {
+            "ean_code": 7422242945995,
+            "width": 640,
+            "depth": 670,
+            "height": 2058,
+            "color": "Black",
+            "parcel_ready": "No",
+            "gross_weight": 106,
+            "particulars": "Deur heeft ruitverwarming, lichtschakelaar aanwezig",
+            "voltage": 230,
+            "electrical_power": 0.67,
+            "cooling_agent": "R 290",
+            "temperature_range": "-18/-24",
+            "number_of_grids": "5x 402x482,5",
+            "net_capacity": 382,
+            "dimensions_light_box_wxh": "572x153",
+            "dim._interior_wxdxh": "490x469x1570",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Static",
+            "lockable": "Yes",
+            "number_of_doors": 1,
+            "door_left_/_right_hinging": "Right",
+            "door_reversible": "No",
+            "noise_level": 53,
+            "defrost": "Manual",
+            "max._ambient_temperature": 32,
+            "insulation_thickness": 60,
+            "energy_label": "C",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 110,
+            "eprel_id": 1189693,
+            "plug_and_play": "Yes",
+            "self-closing_door": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7464.0060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213485/product/4038/"
+            },
+            {
+                "label": "7464.0060 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213486/product/4038/"
+            },
+            {
+                "label": "7464.0055-0060 dimensions shelves",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213487/product/4038/"
+            },
+            {
+                "label": "Manual 7464.0050-0052-0055-0060-0062-0064",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213488/product/4038/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7464.0055-0060-0062-0064 - 0200-0205-0210",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213489/product/4038/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7464.0055",
+        "name": "FREEZER 1 GLASS DOOR 382L",
+        "url": "https://www.combisteel.com/en/7464-0055-freezer-1-glass-door-382l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0055-6889_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0055-6889_1.jpg",
+        "price": 49975,
+        "price_currency": "CZK",
+        "price_text": "49 975 Kč",
+        "specs": {
+            "ean_code": 7435137793762,
+            "width": 640,
+            "depth": 670,
+            "height": 2058,
+            "color": "White",
+            "parcel_ready": "No",
+            "gross_weight": 106,
+            "particulars": "Deur heeft ruitverwarming",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.25,
+            "cooling_agent": "R 290",
+            "temperature_range": "-18/-24",
+            "number_of_grids": "5x 402x482,5",
+            "net_capacity": 382,
+            "dimensions_light_box_wxh": "572x153",
+            "dim._interior_wxdxh": "490x469x1570",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Static",
+            "lockable": "Yes",
+            "number_of_doors": 1,
+            "door_left_/_right_hinging": "Right",
+            "door_reversible": "No",
+            "noise_level": 53,
+            "defrost": "Manual",
+            "max._ambient_temperature": 32,
+            "insulation_thickness": 60,
+            "energy_label": "C",
+            "brand": "COMBISTEEL",
+            "eprel_id": 597795,
+            "plug_and_play": "Yes",
+            "self-closing_door": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7464.0055",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213479/product/1280/"
+            },
+            {
+                "label": "Manual 7464.0050-0052-0055-0060-0062-0064",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213480/product/1280/"
+            },
+            {
+                "label": "Exploded view 7464.0055 (2021)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213481/product/1280/"
+            },
+            {
+                "label": "7464.0055 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213482/product/1280/"
+            },
+            {
+                "label": "7464.0055-0060 dimensions shelves",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213483/product/1280/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7464.0055-0060-0062-0064 - 0200-0205-0210",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213484/product/1280/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7464.0062",
+        "name": "FREEZER 1 GLASS DOOR 382L",
+        "url": "https://www.combisteel.com/en/7464-0062-freezer-1-glass-door-382l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0062-15017.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0062-15017.jpg",
+        "price": 48000,
+        "price_currency": "CZK",
+        "price_text": "48 000 Kč",
+        "specs": {
+            "ean_code": 7422242946909,
+            "width": 640,
+            "depth": 670,
+            "height": 1875,
+            "color": "White",
+            "parcel_ready": "No",
+            "gross_weight": 96,
+            "particulars": "Deur heeft ruitverwarming",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.67,
+            "cooling_agent": "R 290",
+            "temperature_range": "-18/-24",
+            "number_of_grids": "5x 402x482,5",
+            "net_capacity": 382,
+            "dim._interior_wxdxh": "490x469x1570",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Static",
+            "lockable": "Yes",
+            "number_of_doors": 1,
+            "door_left_/_right_hinging": "Right",
+            "door_reversible": "No",
+            "noise_level": 53,
+            "defrost": "Manual",
+            "max._ambient_temperature": 32,
+            "insulation_thickness": 60,
+            "energy_label": "C",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 110,
+            "eprel_id": 1189705,
+            "plug_and_play": "Yes",
+            "self-closing_door": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7464.0062",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1226460/product/4053/"
+            },
+            {
+                "label": "Manual 7464.0050-0052-0055-0060-0062-0064",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1226461/product/4053/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7464.0055-0060-0062-0064 - 0200-0205-0210",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1226462/product/4053/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7464.0064",
+        "name": "FREEZER 1 GLASS DOOR BLACK 382L",
+        "url": "https://www.combisteel.com/en/7464-0064-freezer-1-glass-door-black-382l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0064-15018.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0064-15018.jpg",
+        "price": 48000,
+        "price_currency": "CZK",
+        "price_text": "48 000 Kč",
+        "specs": {
+            "ean_code": 7422242946916,
+            "width": 640,
+            "depth": 670,
+            "height": 1875,
+            "color": "Black",
+            "parcel_ready": "No",
+            "gross_weight": 96,
+            "particulars": "Deur heeft ruitverwarming",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.67,
+            "cooling_agent": "R 290",
+            "temperature_range": "-18/-24",
+            "number_of_grids": "5x 402x482,5",
+            "net_capacity": 382,
+            "dim._interior_wxdxh": "490x469x1570",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Static",
+            "lockable": "No",
+            "number_of_doors": 1,
+            "door_left_/_right_hinging": "Right",
+            "door_reversible": "No",
+            "noise_level": 53,
+            "defrost": "Manual",
+            "max._ambient_temperature": 32,
+            "insulation_thickness": 60,
+            "energy_label": "C",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 110,
+            "climate_class": "L1",
+            "eprel_id": 1189726,
+            "plug_and_play": "Yes",
+            "self-closing_door": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7464.0064 (till 2023)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232095/product/4042/"
+            },
+            {
+                "label": "7464.0064 energy label (from 2024)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232096/product/4042/"
+            },
+            {
+                "label": "Manual 7464.0050-0052-0055-0060-0062-0064",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232097/product/4042/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7464.0055-0060-0062-0064 - 0200-0205-0210",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232098/product/4042/"
+            },
+            {
+                "label": "exploded view 7464.0064-x 1",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232099/product/4042/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7464.0052",
+        "name": "FREEZER 1 GLASS DOOR BLACK 221L",
+        "url": "https://www.combisteel.com/en/7464-0052-freezer-1-glass-door-black-221l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0052-14677.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0052-14677.jpg",
+        "price": 43875,
+        "price_currency": "CZK",
+        "price_text": "43 875 Kč",
+        "specs": {
+            "ean_code": 7422242945988,
+            "width": 494,
+            "depth": 521,
+            "height": 1915,
+            "color": "Black",
+            "parcel_ready": "No",
+            "gross_weight": 88,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.33,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "-18/-24",
+            "number_of_grids": 6,
+            "guides_distance": 185,
+            "gross_capacity": 221,
+            "dim._interior_wxdxh": "374x388x1441",
+            "gridsize_wxd": "344x312",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Static",
+            "lockable": "Yes",
+            "mobile": "No",
+            "number_of_doors": 1,
+            "door_left_/_right_hinging": "Right",
+            "door_reversible": "No",
+            "noise_level": 53,
+            "defrost": "Manual",
+            "max._ambient_temperature": 35,
+            "insulation_thickness": 60,
+            "energy_label": "A",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 75,
+            "eprel_id": 1189678,
+            "plug_and_play": "Yes",
+            "self-closing_door": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7464.0052",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213476/product/4039/"
+            },
+            {
+                "label": "Manual controller 7464.0052",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213477/product/4039/"
+            },
+            {
+                "label": "Manual 7464.0050-0052-0055-0060-0062-0064",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213478/product/4039/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7464.0050",
+        "name": "FREEZER 1 GLASS DOOR 221L",
+        "url": "https://www.combisteel.com/en/7464-0050-freezer-1-glass-door-221l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0050-15015.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0050-15015.jpg",
+        "price": 43875,
+        "price_currency": "CZK",
+        "price_text": "43 875 Kč",
+        "specs": {
+            "ean_code": 7422242945971,
+            "width": 494,
+            "depth": 521,
+            "height": 1915,
+            "color": "White",
+            "parcel_ready": "No",
+            "gross_weight": 88,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.33,
+            "cooling_agent": "R 290",
+            "temperature_range": "-18/-24",
+            "number_of_grids": 6,
+            "gross_capacity": 221,
+            "dim._interior_wxdxh": "374x388x1441",
+            "gridsize_wxd": "344x312",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Static",
+            "lockable": "Yes",
+            "number_of_doors": 1,
+            "door_left_/_right_hinging": "Right",
+            "door_reversible": "No",
+            "noise_level": 53,
+            "defrost": "Manual",
+            "max._ambient_temperature": 35,
+            "insulation_thickness": 60,
+            "energy_label": "A",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 75,
+            "eprel_id": 1177947,
+            "plug_and_play": "Yes",
+            "self-closing_door": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7464.0050",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213474/product/4049/"
+            },
+            {
+                "label": "Manual 7464.0050-0052-0055-0060-0062-0064",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213475/product/4049/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7464.0305",
+        "name": "IMPULSE COOLER BLACK 274L",
+        "url": "https://www.combisteel.com/en/7464-0305-impulse-cooler-black-274l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0305-15036.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0305-15036.jpg",
+        "price": 37475,
+        "price_currency": "CZK",
+        "price_text": "37 475 Kč",
+        "specs": {
+            "ean_code": 7422242970928,
+            "width": 655,
+            "depth": 575,
+            "height": 1498,
+            "color": "Black",
+            "accessories_included": "3 roosters met prijskaarthouders en geleidersets",
+            "gross_weight": 100,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.6,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2 / +15",
+            "max._grid_load": 11,
+            "number_of_bottles": "125 (500ml)",
+            "number_of_cans": "245 (330ml)",
+            "gross_capacity": 274,
+            "dim._interior_wxdxh": "601x495x907",
+            "gridsize_wxd": "567 x 298 x 33",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "Yes",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 20,
+            "energy_label": "F",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 110,
+            "eprel_id": 1418144,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7464.0305",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216039/product/4162/"
+            },
+            {
+                "label": "Manual 7464.03 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216040/product/4162/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7464.0300",
+        "name": "IMPULSE COOLER BLACK 210L",
+        "url": "https://www.combisteel.com/en/7464-0300-impulse-cooler-black-210l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0300-15035.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0300-15035.jpg",
+        "price": 31250,
+        "price_currency": "CZK",
+        "price_text": "31 250 Kč",
+        "specs": {
+            "ean_code": 7422242970911,
+            "width": 655,
+            "depth": 570,
+            "height": 1132,
+            "color": "Black",
+            "accessories_included": "3 roosters met prijskaarthouders en geleidersets",
+            "gross_weight": 84,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.42,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2 / +15",
+            "max._grid_load": 11,
+            "number_of_bottles": "77 (500ml)",
+            "number_of_cans": "141 (330ml)",
+            "gross_capacity": 210,
+            "gridsize_wxd": "567 x 298 x 33",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "Yes",
+            "defrost": "Manual",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 20,
+            "energy_label": "F",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 105,
+            "eprel_id": 1417912,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7464.0300",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215990/product/4161/"
+            },
+            {
+                "label": "Manual 7464.03 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1215991/product/4161/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7464.0310",
+        "name": "IMPULSE COOLER BLACK 110L",
+        "url": "https://www.combisteel.com/en/7464-0310-impulse-cooler-black-110l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0310-15037.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7464_0310-15037.jpg",
+        "price": 29975,
+        "price_currency": "CZK",
+        "price_text": "29 975 Kč",
+        "specs": {
+            "ean_code": 7422242970935,
+            "width": 655,
+            "depth": 424,
+            "height": 986,
+            "color": "Black",
+            "gross_weight": 59,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.35,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2 / +15",
+            "max._grid_load": 47,
+            "number_of_bottles": "36 (500ml)",
+            "number_of_cans": "144 (330ml)",
+            "gross_capacity": 110,
+            "dim._interior_wxdxh": "599x286x428",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "Yes",
+            "noise_level": 62,
+            "defrost": "Manual",
+            "max._ambient_temperature": 32,
+            "insulation_thickness": 20,
+            "energy_label": "E",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 70,
+            "eprel_id": 1418222,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7464.0310",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216041/product/4163/"
+            },
+            {
+                "label": "Manual 7464.03 Series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1216042/product/4163/"
+            }
+        ],
+        "accessories": []
     }
 ]

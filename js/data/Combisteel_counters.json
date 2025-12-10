@@ -1,5 +1,523 @@
 [
     {
+        "code": "7489.5325",
+        "name": "BEER COUNTER 2 DOORS 2L",
+        "url": "https://www.combisteel.com/en/7489-5325-beer-counter-2-doors-2l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_5325_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_5325_1.jpg",
+        "price": 100375,
+        "price_currency": "Kč bez DPH",
+        "price_text": "100 375 Kč",
+        "specs": {
+            "ean_code": 7435137842804,
+            "width": 1950,
+            "depth": 700,
+            "height": 950,
+            "material": "Stainless steel 430",
+            "gross_weight": 225,
+            "particulars": "Ruimte voor 1 biervat per deur als je de roosters eruit haalt",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 36,
+            "cooling_agent": "R 290",
+            "temperature_range": "-2/+8",
+            "number_of_grids": 2,
+            "dim._interior_wxdxh": "990x565x795",
+            "gridsize_wxd": "540x405",
+            "sink_dimensions_wxdxh": "300x500",
+            "number_of_doors": 2,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 43,
+            "insulation_thickness": 60,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 100,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7489 Series Cabinets and Counters",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214231/product/1584/"
+            },
+            {
+                "label": "Exploded view 7489.5325 (R134a)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214232/product/1584/"
+            },
+            {
+                "label": "Exploded view 7489.5325 (R290)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214233/product/1584/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7489.5300 - 5380 - 5400-5405-5410 - 5615-5620",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214234/product/1584/"
+            },
+            {
+                "label": "7489.5325 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214235/product/1584/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7489.0555",
+                "name": "DRAWERSET BEER COOLER 1/2\nCombisteel doesn’t give any warranty on the installation of the drawerset",
+                "url": "https://www.combisteel.com/en/7489-0555-drawerset-beer-cooler-1-2-combisteel-doesn-t-give-any-warranty-on-the-installation-of-the-drawerset.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0555_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0555_1.jpg",
+                "price": 13125,
+                "price_currency": "Kč bez DPH",
+                "price_text": "13 125 Kč"
+            },
+            {
+                "code": "7489.0560",
+                "name": "GRID BEER COOLERS",
+                "url": "https://www.combisteel.com/en/7489-0560-grid-beer-coolers.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0560_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0560_1.jpg",
+                "price": 1000,
+                "price_currency": "Kč bez DPH",
+                "price_text": "1 000 Kč"
+            },
+            {
+                "code": "7489.0565",
+                "name": "SET GUIDES COUNTER / BEER COOLER",
+                "url": "https://www.combisteel.com/en/7489-0565-set-guides-counter-beer-cooler.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0565_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0565_1.jpg",
+                "price": 500,
+                "price_currency": "Kč bez DPH",
+                "price_text": "500 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7489.5310",
+        "name": "BEER COUNTER 2 DOORS 1R",
+        "url": "https://www.combisteel.com/en/7489-5310-beer-counter-2-doors-1r.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_5310_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_5310_1.jpg",
+        "price": 88375,
+        "price_currency": "Kč bez DPH",
+        "price_text": "88 375 Kč",
+        "specs": {
+            "ean_code": 7435137841876,
+            "width": 1550,
+            "depth": 700,
+            "height": 950,
+            "material": "Stainless steel 430",
+            "gross_weight": 200,
+            "particulars": "Ruimte voor 1 biervat per deur als je de roosters eruit haalt",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 36,
+            "cooling_agent": "R 290",
+            "temperature_range": "-2/+8",
+            "number_of_grids": 2,
+            "dim._interior_wxdxh": "990x565x795",
+            "gridsize_wxd": "540x405",
+            "sink_dimensions_wxdxh": "300x500",
+            "number_of_doors": 2,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 43,
+            "insulation_thickness": 60,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 100,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7489 Series Cabinets and Counters",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214219/product/1578/"
+            },
+            {
+                "label": "Exploded view 7489.5310 (R134a)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214220/product/1578/"
+            },
+            {
+                "label": "Exploded view 7489.5310 (R290)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214221/product/1578/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7489.5300 - 5380 - 5400-5405-5410 - 5615-5620",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214222/product/1578/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7489.0555",
+                "name": "DRAWERSET BEER COOLER 1/2\nCombisteel doesn’t give any warranty on the installation of the drawerset",
+                "url": "https://www.combisteel.com/en/7489-0555-drawerset-beer-cooler-1-2-combisteel-doesn-t-give-any-warranty-on-the-installation-of-the-drawerset.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0555_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0555_1.jpg",
+                "price": 13125,
+                "price_currency": "Kč bez DPH",
+                "price_text": "13 125 Kč"
+            },
+            {
+                "code": "7489.0560",
+                "name": "GRID BEER COOLERS",
+                "url": "https://www.combisteel.com/en/7489-0560-grid-beer-coolers.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0560_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0560_1.jpg",
+                "price": 1000,
+                "price_currency": "Kč bez DPH",
+                "price_text": "1 000 Kč"
+            },
+            {
+                "code": "7489.0565",
+                "name": "SET GUIDES COUNTER / BEER COOLER",
+                "url": "https://www.combisteel.com/en/7489-0565-set-guides-counter-beer-cooler.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0565_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0565_1.jpg",
+                "price": 500,
+                "price_currency": "Kč bez DPH",
+                "price_text": "500 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7489.5315",
+        "name": "BEER COUNTER 2 DOORS 1L",
+        "url": "https://www.combisteel.com/en/7489-5315-beer-counter-2-doors-1l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_5315_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_5315_1.jpg",
+        "price": 88375,
+        "price_currency": "Kč bez DPH",
+        "price_text": "88 375 Kč",
+        "specs": {
+            "ean_code": 7435137841883,
+            "width": 1550,
+            "depth": 700,
+            "height": 950,
+            "material": "Stainless steel 430",
+            "gross_weight": 200,
+            "particulars": "Ruimte voor 1 biervat per deur als je de roosters eruit haalt",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 36,
+            "cooling_agent": "R 290",
+            "temperature_range": "-2/+8",
+            "number_of_grids": 2,
+            "dim._interior_wxdxh": "990x565x795",
+            "gridsize_wxd": "540x405",
+            "sink_dimensions_wxdxh": "300x500",
+            "number_of_doors": 2,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 43,
+            "insulation_thickness": 60,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 100,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7489 Series Cabinets and Counters",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214223/product/1582/"
+            },
+            {
+                "label": "Exploded view 7489.5315 (2018)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214224/product/1582/"
+            },
+            {
+                "label": "Exploded view 7489.5315 (R290)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214225/product/1582/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7489.5300 - 5380 - 5400-5405-5410 - 5615-5620",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214226/product/1582/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7489.0555",
+                "name": "DRAWERSET BEER COOLER 1/2\nCombisteel doesn’t give any warranty on the installation of the drawerset",
+                "url": "https://www.combisteel.com/en/7489-0555-drawerset-beer-cooler-1-2-combisteel-doesn-t-give-any-warranty-on-the-installation-of-the-drawerset.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0555_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0555_1.jpg",
+                "price": 13125,
+                "price_currency": "Kč bez DPH",
+                "price_text": "13 125 Kč"
+            },
+            {
+                "code": "7489.0560",
+                "name": "GRID BEER COOLERS",
+                "url": "https://www.combisteel.com/en/7489-0560-grid-beer-coolers.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0560_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0560_1.jpg",
+                "price": 1000,
+                "price_currency": "Kč bez DPH",
+                "price_text": "1 000 Kč"
+            },
+            {
+                "code": "7489.0565",
+                "name": "SET GUIDES COUNTER / BEER COOLER",
+                "url": "https://www.combisteel.com/en/7489-0565-set-guides-counter-beer-cooler.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0565_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0565_1.jpg",
+                "price": 500,
+                "price_currency": "Kč bez DPH",
+                "price_text": "500 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7489.5325",
+        "name": "BEER COUNTER 2 DOORS 2L",
+        "url": "https://www.combisteel.com/en/7489-5325-beer-counter-2-doors-2l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_5325_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_5325_1.jpg",
+        "price": 100375,
+        "price_currency": " Kč bez DPH",
+        "price_text": "100 375 Kč",
+        "specs": {
+            "ean_code": 7435137842804,
+            "width": 1950,
+            "depth": 700,
+            "height": 950,
+            "material": "Stainless steel 430",
+            "gross_weight": 225,
+            "particulars": "Ruimte voor 1 biervat per deur als je de roosters eruit haalt",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 36,
+            "cooling_agent": "R 290",
+            "temperature_range": "-2/+8",
+            "number_of_grids": 2,
+            "dim._interior_wxdxh": "990x565x795",
+            "gridsize_wxd": "540x405",
+            "sink_dimensions_wxdxh": "300x500",
+            "number_of_doors": 2,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 43,
+            "insulation_thickness": 60,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 100,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7489 Series Cabinets and Counters",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214231/product/1584/"
+            },
+            {
+                "label": "Exploded view 7489.5325 (R134a)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214232/product/1584/"
+            },
+            {
+                "label": "Exploded view 7489.5325 (R290)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214233/product/1584/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7489.5300 - 5380 - 5400-5405-5410 - 5615-5620",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214234/product/1584/"
+            },
+            {
+                "label": "7489.5325 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214235/product/1584/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7489.0555",
+                "name": "DRAWERSET BEER COOLER 1/2\nCombisteel doesn’t give any warranty on the installation of the drawerset",
+                "url": "https://www.combisteel.com/en/7489-0555-drawerset-beer-cooler-1-2-combisteel-doesn-t-give-any-warranty-on-the-installation-of-the-drawerset.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0555_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0555_1.jpg",
+                "price": 13125,
+                "price_currency": " Kč bez DPH",
+                "price_text": "13 125 Kč"
+            },
+            {
+                "code": "7489.0560",
+                "name": "GRID BEER COOLERS",
+                "url": "https://www.combisteel.com/en/7489-0560-grid-beer-coolers.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0560_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0560_1.jpg",
+                "price": 1000,
+                "price_currency": " Kč bez DPH",
+                "price_text": "1 000 Kč"
+            },
+            {
+                "code": "7489.0565",
+                "name": "SET GUIDES COUNTER / BEER COOLER",
+                "url": "https://www.combisteel.com/en/7489-0565-set-guides-counter-beer-cooler.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0565_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0565_1.jpg",
+                "price": 500,
+                "price_currency": " Kč bez DPH",
+                "price_text": "500 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7489.5310",
+        "name": "BEER COUNTER 2 DOORS 1R",
+        "url": "https://www.combisteel.com/en/7489-5310-beer-counter-2-doors-1r.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_5310_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_5310_1.jpg",
+        "price": 88375,
+        "price_currency": " Kč bez DPH",
+        "price_text": "88 375 Kč",
+        "specs": {
+            "ean_code": 7435137841876,
+            "width": 1550,
+            "depth": 700,
+            "height": 950,
+            "material": "Stainless steel 430",
+            "gross_weight": 200,
+            "particulars": "Ruimte voor 1 biervat per deur als je de roosters eruit haalt",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 36,
+            "cooling_agent": "R 290",
+            "temperature_range": "-2/+8",
+            "number_of_grids": 2,
+            "dim._interior_wxdxh": "990x565x795",
+            "gridsize_wxd": "540x405",
+            "sink_dimensions_wxdxh": "300x500",
+            "number_of_doors": 2,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 43,
+            "insulation_thickness": 60,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 100,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7489 Series Cabinets and Counters",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214219/product/1578/"
+            },
+            {
+                "label": "Exploded view 7489.5310 (R134a)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214220/product/1578/"
+            },
+            {
+                "label": "Exploded view 7489.5310 (R290)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214221/product/1578/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7489.5300 - 5380 - 5400-5405-5410 - 5615-5620",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214222/product/1578/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7489.0555",
+                "name": "DRAWERSET BEER COOLER 1/2\nCombisteel doesn’t give any warranty on the installation of the drawerset",
+                "url": "https://www.combisteel.com/en/7489-0555-drawerset-beer-cooler-1-2-combisteel-doesn-t-give-any-warranty-on-the-installation-of-the-drawerset.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0555_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0555_1.jpg",
+                "price": 13125,
+                "price_currency": " Kč bez DPH",
+                "price_text": "13 125 Kč"
+            },
+            {
+                "code": "7489.0560",
+                "name": "GRID BEER COOLERS",
+                "url": "https://www.combisteel.com/en/7489-0560-grid-beer-coolers.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0560_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0560_1.jpg",
+                "price": 1000,
+                "price_currency": " Kč bez DPH",
+                "price_text": "1 000 Kč"
+            },
+            {
+                "code": "7489.0565",
+                "name": "SET GUIDES COUNTER / BEER COOLER",
+                "url": "https://www.combisteel.com/en/7489-0565-set-guides-counter-beer-cooler.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0565_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0565_1.jpg",
+                "price": 500,
+                "price_currency": " Kč bez DPH",
+                "price_text": "500 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7489.5315",
+        "name": "BEER COUNTER 2 DOORS 1L",
+        "url": "https://www.combisteel.com/en/7489-5315-beer-counter-2-doors-1l.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_5315_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_5315_1.jpg",
+        "price": 88375,
+        "price_currency": " Kč bez DPH",
+        "price_text": "88 375 Kč",
+        "specs": {
+            "ean_code": 7435137841883,
+            "width": 1550,
+            "depth": 700,
+            "height": 950,
+            "material": "Stainless steel 430",
+            "gross_weight": 200,
+            "particulars": "Ruimte voor 1 biervat per deur als je de roosters eruit haalt",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 36,
+            "cooling_agent": "R 290",
+            "temperature_range": "-2/+8",
+            "number_of_grids": 2,
+            "dim._interior_wxdxh": "990x565x795",
+            "gridsize_wxd": "540x405",
+            "sink_dimensions_wxdxh": "300x500",
+            "number_of_doors": 2,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 43,
+            "insulation_thickness": 60,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 100,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7489 Series Cabinets and Counters",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214223/product/1582/"
+            },
+            {
+                "label": "Exploded view 7489.5315 (2018)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214224/product/1582/"
+            },
+            {
+                "label": "Exploded view 7489.5315 (R290)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214225/product/1582/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7489.5300 - 5380 - 5400-5405-5410 - 5615-5620",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214226/product/1582/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7489.0555",
+                "name": "DRAWERSET BEER COOLER 1/2\nCombisteel doesn’t give any warranty on the installation of the drawerset",
+                "url": "https://www.combisteel.com/en/7489-0555-drawerset-beer-cooler-1-2-combisteel-doesn-t-give-any-warranty-on-the-installation-of-the-drawerset.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0555_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0555_1.jpg",
+                "price": 13125,
+                "price_currency": " Kč bez DPH",
+                "price_text": "13 125 Kč"
+            },
+            {
+                "code": "7489.0560",
+                "name": "GRID BEER COOLERS",
+                "url": "https://www.combisteel.com/en/7489-0560-grid-beer-coolers.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0560_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0560_1.jpg",
+                "price": 1000,
+                "price_currency": " Kč bez DPH",
+                "price_text": "1 000 Kč"
+            },
+            {
+                "code": "7489.0565",
+                "name": "SET GUIDES COUNTER / BEER COOLER",
+                "url": "https://www.combisteel.com/en/7489-0565-set-guides-counter-beer-cooler.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0565_1.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7489_0565_1.jpg",
+                "price": 500,
+                "price_currency": " Kč bez DPH",
+                "price_text": "500 Kč"
+            }
+        ]
+    },
+    {
         "code": "",
         "name": "65792 Chladící saladeta dvoudveřová se sklem",
         "url": "",

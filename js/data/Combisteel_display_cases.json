@@ -8574,5 +8574,3749 @@
             }
         ],
         "accessories": []
+    },
+    {
+        "code": "",
+        "name": "Prosklená Chladící Lednice dvoudveřová",
+        "url": "",
+        "image": "img/Chlazeni/Chla18.png",
+        "image_large": "img/Chlazeni/Chla18.png",
+        "price": 29000,
+        "price_currency": "Kč bez DPH",
+        "price_text": "29000 Kč",
+        "specs": {},
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "",
+        "name": "Tủ đá nằm 650l / Pultovy mrazak",
+        "url": "",
+        "image": "img/Chlazeni/Chla19.png",
+        "image_large": "img/Chlazeni/Chla19.png",
+        "price": 21000,
+        "price_currency": "Kč bez DPH",
+        "price_text": "21000 Kč",
+        "specs": {},
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "",
+        "name": "Tủ mát 3 cửa kính / Prosklená lednice 3 dverova",
+        "url": "",
+        "image": "img/Chlazeni/Chla20.png",
+        "image_large": "img/Chlazeni/Chla20.png",
+        "price": 119000,
+        "price_currency": "Kč bez DPH",
+        "price_text": "119000 Kč",
+        "specs": {},
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "",
+        "name": "Tủ mát 4 cửa / Prosklená lednice",
+        "url": "",
+        "image": "img/Chlazeni/Chla21.png",
+        "image_large": "img/Chlazeni/Chla21.png",
+        "price": 139000,
+        "price_currency": "Kč bez DPH",
+        "price_text": "139000 Kč",
+        "specs": {},
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "7350.0080",
+        "name": "WALL MOUNTED UNIT MIKE 3.8\n*TRANSPORT ON REQUEST*",
+        "url": "https://www.combisteel.com/en/7350-0080-wall-mounted-unit-mike-3-8-transport-on-request.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0080-13418.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0080-13418.jpg",
+        "price": 440500,
+        "price_currency": "CZK",
+        "price_text": "440 500 Kč",
+        "specs": {
+            "ean_code": 7422242934982,
+            "width": 3810,
+            "depth": 865,
+            "height": 2000,
+            "color": "Black",
+            "gross_weight": 960,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.74,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+4",
+            "showcase_area": 5.94,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 6,
+            "number_of_levels": 5,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "C",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "3x 149",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7350.0080",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212860/product/3590/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7350.0095",
+        "name": "WALL MOUNTED UNIT JAX 3.9 - REMOTE\n*TRANSPORT ON REQUEST*",
+        "url": "https://www.combisteel.com/en/7350-0095-wall-mounted-unit-jax-3-9-remote-transport-on-request.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0095-13417.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0095-13417.jpg",
+        "price": 332750,
+        "price_currency": "CZK",
+        "price_text": "332 750 Kč",
+        "specs": {
+            "ean_code": 7422242935910,
+            "width": 3910,
+            "depth": 850,
+            "height": 2050,
+            "color": "Black",
+            "gross_weight": 685,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.185,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "+2/+4",
+            "showcase_area": 5.8,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 6,
+            "number_of_levels": 4,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "brand": "COMBISTEEL",
+            "climate_class": "M1",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [],
+        "accessories": [
+            {
+                "code": "7492.0220",
+                "name": "CONDENSING UNIT FOR 7350.0095",
+                "url": "https://www.combisteel.com/en/7492-0220-condensing-unit-for-7350-0095.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7492_0220-13120.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7492_0220-13120.jpg",
+                "price": 114750,
+                "price_currency": "CZK",
+                "price_text": "114 750 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7350.0075",
+        "name": "WALL MOUNTED UNIT MIKE 2.5\n*TRANSPORT ON REQUEST*",
+        "url": "https://www.combisteel.com/en/7350-0075-wall-mounted-unit-mike-2-5-transport-on-request.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0075-13418.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0075-13418.jpg",
+        "price": 325875,
+        "price_currency": "CZK",
+        "price_text": "325 875 Kč",
+        "specs": {
+            "ean_code": 7422242934975,
+            "width": 2560,
+            "depth": 865,
+            "height": 2000,
+            "color": "Black",
+            "gross_weight": 630,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.71,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+4",
+            "showcase_area": 3.96,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 4,
+            "number_of_levels": 5,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "C",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "2x 149",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7350.0075",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212859/product/3589/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7350.0070",
+        "name": "WALL MOUNTED UNIT MIKE 1.9",
+        "url": "https://www.combisteel.com/en/7350-0070-wall-mounted-unit-mike-1-9.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0070-13418.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0070-13418.jpg",
+        "price": 287250,
+        "price_currency": "CZK",
+        "price_text": "287 250 Kč",
+        "specs": {
+            "ean_code": 7422242934968,
+            "width": 1935,
+            "depth": 865,
+            "height": 2000,
+            "color": "Black",
+            "gross_weight": 490,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.44,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+4",
+            "showcase_area": 2.97,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 3,
+            "number_of_levels": 5,
+            "noise_level": 62,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "C",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "2x 149",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7350.0070",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212858/product/3588/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7350.0090",
+        "name": "WALL MOUNTED UNIT JAX 2.6 - REMOTE\n*TRANSPORT ON REQUEST*",
+        "url": "https://www.combisteel.com/en/7350-0090-wall-mounted-unit-jax-2-6-remote-transport-on-request.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0090-13417.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0090-13417.jpg",
+        "price": 245125,
+        "price_currency": "CZK",
+        "price_text": "245 125 Kč",
+        "specs": {
+            "ean_code": 7422242935903,
+            "width": 2660,
+            "depth": 850,
+            "height": 2050,
+            "color": "Black",
+            "gross_weight": 455,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.13,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "+2/+4",
+            "showcase_area": 3.87,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 4,
+            "number_of_levels": 4,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "brand": "COMBISTEEL",
+            "climate_class": "M1",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [],
+        "accessories": [
+            {
+                "code": "7492.0215",
+                "name": "CONDENSING UNIT FOR 7350.0090",
+                "url": "https://www.combisteel.com/en/7492-0215-condensing-unit-for-7350-0090.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7492_0215-13120.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7492_0215-13120.jpg",
+                "price": 107250,
+                "price_currency": "CZK",
+                "price_text": "107 250 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7350.0085",
+        "name": "WALL MOUNTED UNIT JAX 2.0 - REMOTE",
+        "url": "https://www.combisteel.com/en/7350-0085-wall-mounted-unit-jax-2-0-remote.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0085-13417.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0085-13417.jpg",
+        "price": 211625,
+        "price_currency": "CZK",
+        "price_text": "211 625 Kč",
+        "specs": {
+            "ean_code": 7422242934999,
+            "width": 2035,
+            "depth": 850,
+            "height": 2050,
+            "color": "Black",
+            "gross_weight": 345,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.11,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "temperature_range": "+2/+4",
+            "showcase_area": 2.9,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 3,
+            "number_of_levels": 4,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "brand": "COMBISTEEL",
+            "climate_class": "M1",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Datasheet 7350.0085-0090-0095",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212861/product/3592/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7492.0210",
+                "name": "CONDENSING UNIT FOR 7350.0085",
+                "url": "https://www.combisteel.com/en/7492-0210-condensing-unit-for-7350-0085.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7492_0210-13120.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7492_0210-13120.jpg",
+                "price": 115000,
+                "price_currency": "CZK",
+                "price_text": "115 000 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7350.0065",
+        "name": "WALL MOUNTED UNIT MIKE 1.3",
+        "url": "https://www.combisteel.com/en/7350-0065-wall-mounted-unit-mike-1-3.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0065-13418.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0065-13418.jpg",
+        "price": 198000,
+        "price_currency": "CZK",
+        "price_text": "198 000 Kč",
+        "specs": {
+            "ean_code": 7422242934951,
+            "width": 1350,
+            "depth": 865,
+            "height": 2000,
+            "color": "Black",
+            "gross_weight": 370,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.37,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+4",
+            "max._grid_load": 100,
+            "net_capacity": 780,
+            "showcase_area": 1.98,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 2,
+            "number_of_levels": 5,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "C",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 149,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7350.0065",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212857/product/3586/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7350.0060",
+        "name": "WALL MOUNTED UNIT JAMIE 3 DOORS 1.9",
+        "url": "https://www.combisteel.com/en/7350-0060-wall-mounted-unit-jamie-3-doors-1-9.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0060-13939.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0060-13939.jpg",
+        "price": 185250,
+        "price_currency": "CZK",
+        "price_text": "185 250 Kč",
+        "specs": {
+            "ean_code": 7422242934944,
+            "width": 1935,
+            "depth": 665,
+            "height": 1920,
+            "color": "Black",
+            "gross_weight": 380,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 2.3,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "showcase_area": 2.4,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 3,
+            "number_of_levels": 4,
+            "noise_level": 55,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "D",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7350.0060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213801/product/3584/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7350.0050-0055-0060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213802/product/3584/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7350.0045",
+        "name": "WALL MOUNTED UNIT JAMIE 1.9",
+        "url": "https://www.combisteel.com/en/7350-0045-wall-mounted-unit-jamie-1-9.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0045-13395.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0045-13395.jpg",
+        "price": 182750,
+        "price_currency": "CZK",
+        "price_text": "182 750 Kč",
+        "specs": {
+            "ean_code": 7422242934913,
+            "width": 1935,
+            "depth": 665,
+            "height": 1920,
+            "color": "Black",
+            "gross_weight": 380,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 2.3,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "max._grid_load": "100kg/m2 on the shelves and 150kg/m2 on the tray",
+            "gross_capacity": 613,
+            "showcase_area": 2.4,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_levels": 4,
+            "night_cover": "Ja",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "E",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7350.0045",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234714/product/3580/"
+            },
+            {
+                "label": "Manual 7350.0035-0040-0045",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234715/product/3580/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7350.0030",
+        "name": "COLD DISPLAY NOAH WITH SLIDING DOORS 1.9",
+        "url": "https://www.combisteel.com/en/7350-0030-cold-display-noah-with-sliding-doors-1-9.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0030-13430.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0030-13430.jpg",
+        "price": 180250,
+        "price_currency": "CZK",
+        "price_text": "180 250 Kč",
+        "specs": {
+            "ean_code": 7422242933985,
+            "width": 1935,
+            "depth": 665,
+            "height": 1500,
+            "color": "Black",
+            "gross_weight": 340,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 20,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "showcase_area": 1.69,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 3,
+            "number_of_levels": 3,
+            "noise_level": 61,
+            "execution_window": "curved",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "D",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7350.0030",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212843/product/3577/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7350.0005-0010-0015-0020-0025-0030",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212844/product/3577/"
+            },
+            {
+                "label": "Dixell controller XW60L (ENG) - 7350.0005 till 0030",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212845/product/3577/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7350.9005",
+                "name": "CASTOR SET 6X FOR COLD DISPLAY NOAH 1.9",
+                "url": "https://www.combisteel.com/en/7350-9005-castor-set-6x-for-cold-display-noah-1-9.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_9005-6176.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_9005-6176.jpg",
+                "price": 6250,
+                "price_currency": "CZK",
+                "price_text": "6 250 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7350.0015",
+        "name": "COLD DISPLAY NOAH 1.9",
+        "url": "https://www.combisteel.com/en/7350-0015-cold-display-noah-1-9.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0015-13383.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0015-13383.jpg",
+        "price": 180250,
+        "price_currency": "CZK",
+        "price_text": "180 250 Kč",
+        "specs": {
+            "ean_code": 7422242933954,
+            "width": 1935,
+            "depth": 665,
+            "height": 1500,
+            "color": "Black",
+            "gross_weight": 340,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 20,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "showcase_area": 1.69,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_levels": 3,
+            "noise_level": 61,
+            "execution_window": "curved",
+            "night_cover": "Ja",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "E",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7350.0015",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1226952/product/3573/"
+            },
+            {
+                "label": "Dimensions 7350.0005-0010-0015",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1226953/product/3573/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7350.0005-0010-0015-0020-0025-0030",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1226954/product/3573/"
+            },
+            {
+                "label": "Dixell controller XW60L (ENG) - 7350.0005 till 0030",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1226955/product/3573/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7350.9005",
+                "name": "CASTOR SET 6X FOR COLD DISPLAY NOAH 1.9",
+                "url": "https://www.combisteel.com/en/7350-9005-castor-set-6x-for-cold-display-noah-1-9.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_9005-6176.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_9005-6176.jpg",
+                "price": 6250,
+                "price_currency": "CZK",
+                "price_text": "6 250 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7455.3110",
+        "name": "WALL MOUNTED UNIT MARCO 2.5\n*TRANSPORT ON REQUEST*",
+        "url": "https://www.combisteel.com/en/7455-3110-wall-mounted-unit-marco-2-5-transport-on-request.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_3110-15465_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_3110-15465_1.jpg",
+        "price": 172000,
+        "price_currency": "CZK",
+        "price_text": "172 000 Kč",
+        "specs": {
+            "ean_code": 7422242997918,
+            "width": 2560,
+            "depth": 740,
+            "height": 2010,
+            "color": "Black",
+            "gross_weight": 500,
+            "net_weight": 440,
+            "particulars": "RAL 9005",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.06,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "max._grid_load": 80,
+            "gross_capacity": 2585,
+            "net_capacity": 1529,
+            "showcase_area": 5,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 4,
+            "number_of_levels": 5,
+            "noise_level": 65,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 40,
+            "energy_label": "A",
+            "brand": "COMBISTEEL",
+            "eprel_id": 2412537,
+            "plug_and_play": "Yes",
+            "self-closing_door": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7455.3100-3105-3110",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1227058/product/4361/"
+            },
+            {
+                "label": "Exploded view 7455.3110 (2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1227059/product/4361/"
+            },
+            {
+                "label": "7455.3110 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1227060/product/4361/"
+            },
+            {
+                "label": "OT7455.3110 2025 Update",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1227061/product/4361/"
+            },
+            {
+                "label": "7455.3110 Energy Label (From 11-2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1227062/product/4361/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.3230",
+                "name": "SHELF WITH HOLDERS FOR 7455.3100 - 3110",
+                "url": "https://www.combisteel.com/en/7455-3230-shelf-with-holders-for-7455-3100-3110.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_3235_1-min_1_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_3235_1-min_1_1.png",
+                "price": 3125,
+                "price_currency": "CZK",
+                "price_text": "3 125 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7350.0010",
+        "name": "COLD DISPLAY NOAH 1.5",
+        "url": "https://www.combisteel.com/en/7350-0010-cold-display-noah-1-5.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0010-13383.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0010-13383.jpg",
+        "price": 158750,
+        "price_currency": "CZK",
+        "price_text": "158 750 Kč",
+        "specs": {
+            "ean_code": 7422242933947,
+            "width": 1510,
+            "depth": 665,
+            "height": 1500,
+            "color": "Black",
+            "gross_weight": 270,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 18,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "showcase_area": 1.31,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_levels": 3,
+            "noise_level": 59,
+            "execution_window": "curved",
+            "night_cover": "Ja",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "D",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7350.0010",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212828/product/3570/"
+            },
+            {
+                "label": "Dimensions 7350.0005-0010-0015",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212829/product/3570/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7350.0005-0010-0015-0020-0025-0030",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212830/product/3570/"
+            },
+            {
+                "label": "Dixell controller XW60L (ENG) - 7350.0005 till 0030",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212831/product/3570/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7350.9000",
+                "name": "CASTOR SET 4X FOR COLD DISPLAY NOAH 1.3/1.5",
+                "url": "https://www.combisteel.com/en/7350-9000-castor-set-4x-for-cold-display-noah-1-3-1-5.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_9000-6176.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_9000-6176.jpg",
+                "price": 4875,
+                "price_currency": "CZK",
+                "price_text": "4 875 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7350.0025",
+        "name": "COLD DISPLAY NOAH WITH SLIDING DOORS 1.5",
+        "url": "https://www.combisteel.com/en/7350-0025-cold-display-noah-with-sliding-doors-1-5.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0025-13430.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0025-13430.jpg",
+        "price": 158750,
+        "price_currency": "CZK",
+        "price_text": "158 750 Kč",
+        "specs": {
+            "ean_code": 7422242933978,
+            "width": 1510,
+            "depth": 665,
+            "height": 1500,
+            "color": "Black",
+            "gross_weight": 270,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 18,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "showcase_area": 1.31,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 2,
+            "number_of_levels": 3,
+            "noise_level": 59,
+            "execution_window": "curved",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "D",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7350.0025",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212840/product/3576/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7350.0005-0010-0015-0020-0025-0030",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212841/product/3576/"
+            },
+            {
+                "label": "Dixell controller XW60L (ENG) - 7350.0005 till 0030",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212842/product/3576/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7350.9000",
+                "name": "CASTOR SET 4X FOR COLD DISPLAY NOAH 1.3/1.5",
+                "url": "https://www.combisteel.com/en/7350-9000-castor-set-4x-for-cold-display-noah-1-3-1-5.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_9000-6176.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_9000-6176.jpg",
+                "price": 4875,
+                "price_currency": "CZK",
+                "price_text": "4 875 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7350.0055",
+        "name": "WALL MOUNTED UNIT JAMIE 2 DOORS 1.5",
+        "url": "https://www.combisteel.com/en/7350-0055-wall-mounted-unit-jamie-2-doors-1-5.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0055-13413.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0055-13413.jpg",
+        "price": 158750,
+        "price_currency": "CZK",
+        "price_text": "158 750 Kč",
+        "specs": {
+            "ean_code": 7422242934937,
+            "width": 1510,
+            "depth": 665,
+            "height": 1920,
+            "color": "Black",
+            "gross_weight": 305,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.52,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "showcase_area": 1.85,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 2,
+            "number_of_levels": 4,
+            "noise_level": 53,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "C",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7350.0055",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212855/product/3583/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7350.0050-0055-0060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212856/product/3583/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7350.0040",
+        "name": "WALL MOUNTED UNIT JAMIE 1.5",
+        "url": "https://www.combisteel.com/en/7350-0040-wall-mounted-unit-jamie-1-5.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0040-13395.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0040-13395.jpg",
+        "price": 156250,
+        "price_currency": "CZK",
+        "price_text": "156 250 Kč",
+        "specs": {
+            "ean_code": 7422242934906,
+            "width": 1510,
+            "depth": 665,
+            "height": 1920,
+            "color": "Black",
+            "gross_weight": 305,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 152,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "max._grid_load": "100kg/m2 on the shelves and 150kg/m2 on the tray",
+            "gross_capacity": 474,
+            "showcase_area": 1.85,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_levels": 4,
+            "night_cover": "Ja",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "F",
+            "brand": "COMBISTEEL",
+            "eprel_id": 1540979,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7350.0040",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212848/product/3579/"
+            },
+            {
+                "label": "Manual 7350.0035-0040-0045",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212849/product/3579/"
+            },
+            {
+                "label": "Exploded view 7350.0035-0040-0045",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212850/product/3579/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7350.0050",
+        "name": "WALL MOUNTED UNIT JAMIE 2 DOORS 1.3",
+        "url": "https://www.combisteel.com/en/7350-0050-wall-mounted-unit-jamie-2-doors-1-3.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0050-13413.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0050-13413.jpg",
+        "price": 152750,
+        "price_currency": "CZK",
+        "price_text": "152 750 Kč",
+        "specs": {
+            "ean_code": 7422242934920,
+            "width": 1310,
+            "depth": 665,
+            "height": 1920,
+            "color": "Black",
+            "gross_weight": 280,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.52,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "showcase_area": 1.55,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 2,
+            "number_of_levels": 4,
+            "noise_level": 53,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "C",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7350.0050",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212853/product/3581/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7350.0050-0055-0060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212854/product/3581/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7350.0035",
+        "name": "WALL MOUNTED UNIT JAMIE 1.3",
+        "url": "https://www.combisteel.com/en/7350-0035-wall-mounted-unit-jamie-1-3.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0035-13395.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0035-13395.jpg",
+        "price": 150250,
+        "price_currency": "CZK",
+        "price_text": "150 250 Kč",
+        "specs": {
+            "ean_code": 7422242933992,
+            "width": 1310,
+            "depth": 665,
+            "height": 1920,
+            "color": "Black",
+            "gross_weight": 280,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 152,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "max._grid_load": "100kg/m2 on the shelves and 150kg/m2 on the tray",
+            "gross_capacity": 409,
+            "showcase_area": 1.6,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_levels": 4,
+            "night_cover": "Ja",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "D",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7350.0035",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232819/product/3578/"
+            },
+            {
+                "label": "Manual 7350.0035-0040-0045",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232820/product/3578/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7455.3105",
+        "name": "WALL MOUNTED UNIT MARCO 1.9",
+        "url": "https://www.combisteel.com/en/7455-3105-wall-mounted-unit-marco-1-9.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_3105_updated_photo.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_3105_updated_photo.jpg",
+        "price": 149125,
+        "price_currency": "CZK",
+        "price_text": "149 125 Kč",
+        "specs": {
+            "ean_code": 7422242997901,
+            "width": 1935,
+            "depth": 740,
+            "height": 2010,
+            "color": "Black",
+            "gross_weight": 420,
+            "net_weight": 370,
+            "particulars": "RAL 9005",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.98,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "max._grid_load": 80,
+            "gross_capacity": 1939,
+            "net_capacity": 1147,
+            "showcase_area": 4.05,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 3,
+            "number_of_levels": 5,
+            "noise_level": 65,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 40,
+            "energy_label": "A",
+            "brand": "COMBISTEEL",
+            "eprel_id": 2412523,
+            "plug_and_play": "Yes",
+            "self-closing_door": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7455.3100-3105-3110",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1227330/product/4340/"
+            },
+            {
+                "label": "7455.3105 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1227331/product/4340/"
+            },
+            {
+                "label": "Exploded view 7455.3105 (2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1227332/product/4340/"
+            },
+            {
+                "label": "Energy label 7455.3105 (till 11-2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1227333/product/4340/"
+            },
+            {
+                "label": "7455.3105 Energy Label (from 11-2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1227334/product/4340/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.3235",
+                "name": "SHELF WITH HOLDERS FOR 7455.3105",
+                "url": "https://www.combisteel.com/en/7455-3235-shelf-with-holders-for-7455-3105.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_3235_1-min_2.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_3235_1-min_2.png",
+                "price": 2375,
+                "price_currency": "CZK",
+                "price_text": "2 375 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7350.0020",
+        "name": "COLD DISPLAY NOAH WITH SLIDING DOORS 1.3",
+        "url": "https://www.combisteel.com/en/7350-0020-cold-display-noah-with-sliding-doors-1-3.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0020-13430.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0020-13430.jpg",
+        "price": 145750,
+        "price_currency": "CZK",
+        "price_text": "145 750 Kč",
+        "specs": {
+            "ean_code": 7422242933961,
+            "width": 1310,
+            "depth": 665,
+            "height": 1500,
+            "color": "Black",
+            "gross_weight": 210,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 18,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "showcase_area": 1.13,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 2,
+            "number_of_levels": 3,
+            "noise_level": 59,
+            "execution_window": "curved",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "C",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7350.0020",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1227834/product/3575/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7350.0005-0010-0015-0020-0025-0030",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1227835/product/3575/"
+            },
+            {
+                "label": "Dixell controller XW60L (ENG) - 7350.0005 till 0030",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1227836/product/3575/"
+            },
+            {
+                "label": "Datasheet 7350.0020-0025-0030",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1227837/product/3575/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7350.9000",
+                "name": "CASTOR SET 4X FOR COLD DISPLAY NOAH 1.3/1.5",
+                "url": "https://www.combisteel.com/en/7350-9000-castor-set-4x-for-cold-display-noah-1-3-1-5.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_9000-6176.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_9000-6176.jpg",
+                "price": 4875,
+                "price_currency": "CZK",
+                "price_text": "4 875 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7350.0005",
+        "name": "COLD DISLPAY NOAH 1.3",
+        "url": "https://www.combisteel.com/en/7350-0005-cold-dislpay-noah-1-3.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0005-13383.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_0005-13383.jpg",
+        "price": 145750,
+        "price_currency": "CZK",
+        "price_text": "145 750 Kč",
+        "specs": {
+            "ean_code": 7422242933923,
+            "width": 1310,
+            "depth": 665,
+            "height": 1500,
+            "color": "Black",
+            "gross_weight": 210,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 18,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "showcase_area": 1.13,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_levels": 3,
+            "noise_level": 59,
+            "execution_window": "curved",
+            "night_cover": "Ja",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "E",
+            "brand": "COMBISTEEL",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7350.0005",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1229879/product/3569/"
+            },
+            {
+                "label": "Dimensions 7350.0005-0010-0015",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1229880/product/3569/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7350.0005-0010-0015-0020-0025-0030",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1229881/product/3569/"
+            },
+            {
+                "label": "Dixell controller XW60L (ENG) - 7350.0005 till 0030",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1229882/product/3569/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7350.9000",
+                "name": "CASTOR SET 4X FOR COLD DISPLAY NOAH 1.3/1.5",
+                "url": "https://www.combisteel.com/en/7350-9000-castor-set-4x-for-cold-display-noah-1-3-1-5.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_9000-6176.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/3/7350_9000-6176.jpg",
+                "price": 4875,
+                "price_currency": "CZK",
+                "price_text": "4 875 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7455.2525",
+        "name": "WALL MOUNTED FREEZER UNIT WHITE 3 GLASS DOORS",
+        "url": "https://www.combisteel.com/en/7455-2525-wall-mounted-freezer-unit-white-3-glass-doors.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2525-13931.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2525-13931.jpg",
+        "price": 144000,
+        "price_currency": "CZK",
+        "price_text": "144 000 Kč",
+        "specs": {
+            "ean_code": 7435137869825,
+            "width": 2104,
+            "depth": 890,
+            "height": 2110,
+            "color": "White",
+            "accessories_included": "Pricecard Holder",
+            "parcel_ready": "No",
+            "gross_weight": 391,
+            "particulars": "Top ventilated cooling, bottom static cooling",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.29,
+            "cooling_agent": "R 290",
+            "temperature_range": "<-18",
+            "number_of_dividers": 4,
+            "number_of_grids": 6,
+            "guides_distance": 90,
+            "max._grid_load": 18,
+            "gross_capacity": "top 546 / bottom 900",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 3,
+            "noise_level": "61 top / 61 bottom",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 60,
+            "energy_label": "E",
+            "power_consumption": "16 top / 10,3 bottom",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "135+110",
+            "eprel_id": 625565,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7455.2525 TOP",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236357/product/1319/"
+            },
+            {
+                "label": "Energielabel 7455.2525 BOTTOM",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236358/product/1319/"
+            },
+            {
+                "label": "Manual 7455.25xx series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236359/product/1319/"
+            },
+            {
+                "label": "Manual controller 7455.25xx TOP",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236360/product/1319/"
+            },
+            {
+                "label": "Exploded view 7455.2525 (2020)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236361/product/1319/"
+            },
+            {
+                "label": "7455.2525 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236362/product/1319/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.2224",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29/315 **NEW**",
+                "url": "https://www.combisteel.com/en/7455-2224-set-4-clips-for-grid-7455-21-22-24-25-29-315-new.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2225",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29",
+                "url": "https://www.combisteel.com/en/7455-2225-set-4-clips-for-grid-7455-21-22-24-25-29.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2586",
+                "name": "GRID L/R WHITE FOR 7455.2525-2535",
+                "url": "https://www.combisteel.com/en/7455-2586-grid-l-r-white-for-7455-2525-2535.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_33.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_33.jpg",
+                "price": 500,
+                "price_currency": "CZK",
+                "price_text": "500 Kč"
+            },
+            {
+                "code": "7455.2588",
+                "name": "GRID MIDDLE WHITE FOR 7455.2525-2535",
+                "url": "https://www.combisteel.com/en/7455-2588-grid-middle-white-for-7455-2525-2535.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_77.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_77.jpg",
+                "price": 500,
+                "price_currency": "CZK",
+                "price_text": "500 Kč"
+            },
+            {
+                "code": "7455.2288",
+                "name": "PRICECARD HOLDER WHITE 7455.2212 + L/R 7455.25",
+                "url": "https://www.combisteel.com/en/7455-2288-pricecard-holder-white-7455-2212-l-r-7455-25.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_5.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_5.png",
+                "price": 275,
+                "price_currency": "CZK",
+                "price_text": "275 Kč"
+            },
+            {
+                "code": "7455.2289",
+                "name": "PRICECARD HOLDER WHITE 7455.2214 + MIDDLE 7455.25",
+                "url": "https://www.combisteel.com/en/7455-2289-pricecard-holder-white-7455-2214-middle-7455-25.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_10.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_10.png",
+                "price": 275,
+                "price_currency": "CZK",
+                "price_text": "275 Kč"
+            },
+            {
+                "code": "7455.2540",
+                "name": "DIVIDER FOR CHEST FREEZER 7455.25/26",
+                "url": "https://www.combisteel.com/en/7455-2540-divider-for-chest-freezer-7455-25-26.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2540-12917.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2540-12917.jpg",
+                "price": 500,
+                "price_currency": "CZK",
+                "price_text": "500 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7295.0090",
+        "name": "COOLING / FREEZING ISLAND ACTION 100 - SWITCHABLE",
+        "url": "https://www.combisteel.com/en/7295-0090-cooling-freezing-island-action-100-switchable.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7295_0090-13694.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7295_0090-13694.jpg",
+        "price": 138250,
+        "price_currency": "CZK",
+        "price_text": "138 250 Kč",
+        "specs": {
+            "width": 1060,
+            "depth": 820,
+            "height": 870,
+            "gross_weight": 140,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1,
+            "cooling_agent": "R 290",
+            "temperature_range": "+1/+5 / -16/-18",
+            "gross_capacity": 238,
+            "type_of_cooling": "Ventilated",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 30,
+            "brand": "ISA",
+            "energy_label": "No energy label required"
+        },
+        "downloads": [
+            {
+                "label": "ENG - Manual Action",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212542/product/3796/"
+            },
+            {
+                "label": "DE - Bedienungsanleitung Action",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212543/product/3796/"
+            },
+            {
+                "label": "FR - Manuel Action",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212544/product/3796/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7455.2535",
+        "name": "WALL MOUNTED FREEZER UNIT BLACK 3 GLASS DOORS",
+        "url": "https://www.combisteel.com/en/7455-2535-wall-mounted-freezer-unit-black-3-glass-doors.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2535-13933.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2535-13933.jpg",
+        "price": 133625,
+        "price_currency": "CZK",
+        "price_text": "133 625 Kč",
+        "specs": {
+            "ean_code": 7435137869849,
+            "width": 2104,
+            "depth": 890,
+            "height": 2110,
+            "color": "Black",
+            "accessories_included": "Pricecard Holder",
+            "parcel_ready": "No",
+            "gross_weight": 391,
+            "net_weight": 346,
+            "particulars": "Top ventilated cooling, bottom static cooling",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.29,
+            "cooling_agent": "R 290",
+            "temperature_range": "<-18",
+            "number_of_dividers": 4,
+            "number_of_grids": 6,
+            "guides_distance": 90,
+            "max._grid_load": 18,
+            "gross_capacity": "top 546 / bottom 900",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 3,
+            "noise_level": "61 top / 61 bottom",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 60,
+            "energy_label": "E",
+            "power_consumption": "16 top / 10,3 bottom",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "135+110",
+            "eprel_id": 625572,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7455.2535 TOP",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232493/product/1321/"
+            },
+            {
+                "label": "Energielabel 7455.2535 BOTTOM",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232494/product/1321/"
+            },
+            {
+                "label": "Manual 7455.25xx series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232495/product/1321/"
+            },
+            {
+                "label": "Manual controller 7455.25xx TOP",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232496/product/1321/"
+            },
+            {
+                "label": "Exploded view 7455.2535 (2020)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232497/product/1321/"
+            },
+            {
+                "label": "7455.2535 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232498/product/1321/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.2224",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29/315 **NEW**",
+                "url": "https://www.combisteel.com/en/7455-2224-set-4-clips-for-grid-7455-21-22-24-25-29-315-new.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2225",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29",
+                "url": "https://www.combisteel.com/en/7455-2225-set-4-clips-for-grid-7455-21-22-24-25-29.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2586",
+                "name": "GRID L/R WHITE FOR 7455.2525-2535",
+                "url": "https://www.combisteel.com/en/7455-2586-grid-l-r-white-for-7455-2525-2535.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_33.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_33.jpg",
+                "price": 500,
+                "price_currency": "CZK",
+                "price_text": "500 Kč"
+            },
+            {
+                "code": "7455.2588",
+                "name": "GRID MIDDLE WHITE FOR 7455.2525-2535",
+                "url": "https://www.combisteel.com/en/7455-2588-grid-middle-white-for-7455-2525-2535.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_77.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_77.jpg",
+                "price": 500,
+                "price_currency": "CZK",
+                "price_text": "500 Kč"
+            },
+            {
+                "code": "7455.2288",
+                "name": "PRICECARD HOLDER WHITE 7455.2212 + L/R 7455.25",
+                "url": "https://www.combisteel.com/en/7455-2288-pricecard-holder-white-7455-2212-l-r-7455-25.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_5.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_5.png",
+                "price": 275,
+                "price_currency": "CZK",
+                "price_text": "275 Kč"
+            },
+            {
+                "code": "7455.2289",
+                "name": "PRICECARD HOLDER WHITE 7455.2214 + MIDDLE 7455.25",
+                "url": "https://www.combisteel.com/en/7455-2289-pricecard-holder-white-7455-2214-middle-7455-25.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_10.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_10.png",
+                "price": 275,
+                "price_currency": "CZK",
+                "price_text": "275 Kč"
+            },
+            {
+                "code": "7455.2540",
+                "name": "DIVIDER FOR CHEST FREEZER 7455.25/26",
+                "url": "https://www.combisteel.com/en/7455-2540-divider-for-chest-freezer-7455-25-26.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2540-12917.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2540-12917.jpg",
+                "price": 500,
+                "price_currency": "CZK",
+                "price_text": "500 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7455.2220",
+        "name": "FREEZER 3 GLASS DOORS JDE-1530F\n**Note: there is a higher inrush current, which makes a circuit breaker with type C characteristic necessary.**",
+        "url": "https://www.combisteel.com/en/7455-2220-freezer-3-glass-doors-jde-1530f-note-there-is-a-higher-inrush-current-which-makes-a-circuit-breaker-with-type-c-characteristic-necessary.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2220_new_front_panel.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2220_new_front_panel.jpg",
+        "price": 130625,
+        "price_currency": "CZK",
+        "price_text": "130 625 Kč",
+        "specs": {
+            "ean_code": 7435137863878,
+            "width": 1880,
+            "depth": 710,
+            "height": 2003,
+            "material": "Powder coated steel",
+            "material_interior": "Aluminium",
+            "color": "White",
+            "accessories_included": "8 castors and 15 grids with clips and price card holders",
+            "parcel_ready": "No",
+            "gross_weight": 340,
+            "net_weight": 305,
+            "particulars": "With door heating which can be operated via a switch",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.05,
+            "cooling_agent": "R 290",
+            "temperature_range": "-18/-22",
+            "number_of_guide_pairs": 165,
+            "number_of_grids": 15,
+            "guides_distance": 90,
+            "max._grid_load": 30,
+            "net_capacity": 1450,
+            "dim._interior_wxdxh": "1760x530x1554",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "Yes",
+            "number_of_doors": 3,
+            "door_left_/_right_hinging": "Left and right hinged",
+            "noise_level": 68,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 32,
+            "insulation_thickness": 60,
+            "energy_label": "D",
+            "power_consumption": 23.84,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "150x2",
+            "eprel_id": 1435841,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7455.2220 (new)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234960/product/1268/"
+            },
+            {
+                "label": "Manual 7455.22 and 7455.24 Series (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234961/product/1268/"
+            },
+            {
+                "label": "Manual controller 7455.22-24-29 series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234962/product/1268/"
+            },
+            {
+                "label": "Exploded view 7455.2220 (2018-R290)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234963/product/1268/"
+            },
+            {
+                "label": "Exploded view 7455.2220 (2020)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234964/product/1268/"
+            },
+            {
+                "label": "Exploded view 7455.2220 (2021)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234965/product/1268/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7455.2215-2220 - 2245-2250 - 2915-2920",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234966/product/1268/"
+            },
+            {
+                "label": "JDE Circuit diagram 5",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234967/product/1268/"
+            },
+            {
+                "label": "Instruction about how to adjust the doors for JDE.SVO",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234968/product/1268/"
+            },
+            {
+                "label": "7455.22xx series dimension drawing",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234969/product/1268/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.2224",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29/315 **NEW**",
+                "url": "https://www.combisteel.com/en/7455-2224-set-4-clips-for-grid-7455-21-22-24-25-29-315-new.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2225",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29",
+                "url": "https://www.combisteel.com/en/7455-2225-set-4-clips-for-grid-7455-21-22-24-25-29.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2228",
+                "name": "GRID L/R WHITE FOR 7455.2215-2220-2420-2430-2440-2915-2920",
+                "url": "https://www.combisteel.com/en/7455-2228-grid-l-r-white-for-7455-2215-2220-2420-2430-2440-2915-2920.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_11.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_11.jpg",
+                "price": 625,
+                "price_currency": "CZK",
+                "price_text": "625 Kč"
+            },
+            {
+                "code": "7455.2229",
+                "name": "GRID MIDDLE WHITE FOR 7455.2220-2430-2440-2920",
+                "url": "https://www.combisteel.com/en/7455-2229-grid-middle-white-for-7455-2220-2430-2440-2920.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_13.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_13.jpg",
+                "price": 750,
+                "price_currency": "CZK",
+                "price_text": "750 Kč"
+            },
+            {
+                "code": "7455.2260",
+                "name": "PRICECARD HOLDER WHITE LEFT/RIGHT\n7455.2200-2205-2210-2215-2220\n7455.2400-2410-2416-2420-2430-2440\n7455.2900-2905-2915-2920",
+                "url": "https://www.combisteel.com/en/7455-2260-pricecard-holder-white-left-right-7455-2200-2205-2210-2215-2220-7455-2400-2410-2416-2420-2430-2440-7455-2900-2905-2915-2920.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_16.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_16.png",
+                "price": 300,
+                "price_currency": "CZK",
+                "price_text": "300 Kč"
+            },
+            {
+                "code": "7455.2261",
+                "name": "PRICECARD HOLDER MIDDLE SHELVES WHITE\n7455.2205-2210-2220\n7455.2410-2416-2430-2440\n7455.2905-2920",
+                "url": "https://www.combisteel.com/en/7455-2261-pricecard-holder-middle-shelves-white-7455-2205-2210-2220-7455-2410-2416-2430-2440-7455-2905-2920.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_14.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_14.png",
+                "price": 375,
+                "price_currency": "CZK",
+                "price_text": "375 Kč"
+            },
+            {
+                "code": "7455.2267",
+                "name": "CASTOR SET FOR 7455.22/29 8X",
+                "url": "https://www.combisteel.com/en/7455-2267-castor-set-for-7455-22-29-8x.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2265-2266-2267-2268_7.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2265-2266-2267-2268_7.png",
+                "price": 2000,
+                "price_currency": "CZK",
+                "price_text": "2 000 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7455.2250",
+        "name": "FREEZER 3 GLASS DOORS BLACK JDE-1530F BL\n**Note: there is a higher inrush current, which makes a circuit breaker with type C characteristic necessary.**",
+        "url": "https://www.combisteel.com/en/7455-2250-freezer-3-glass-doors-black-jde-1530f-bl-note-there-is-a-higher-inrush-current-which-makes-a-circuit-breaker-with-type-c-characteristic-necessary.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2250_new_front_panel.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2250_new_front_panel.jpg",
+        "price": 130625,
+        "price_currency": "CZK",
+        "price_text": "130 625 Kč",
+        "specs": {
+            "ean_code": 7435137864820,
+            "width": 1880,
+            "depth": 710,
+            "height": 2003,
+            "material": "Powder coated steel",
+            "material_interior": "Aluminium",
+            "color": "Black",
+            "accessories_included": "8 castors and 15 grids with clips and price card holders",
+            "parcel_ready": "No",
+            "gross_weight": 340,
+            "net_weight": 305,
+            "particulars": "With door heating which can be operated via a switch",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.05,
+            "cooling_agent": "R 290",
+            "temperature_range": "-18/-22",
+            "number_of_guide_pairs": 165,
+            "number_of_grids": 15,
+            "guides_distance": 90,
+            "max._grid_load": 30,
+            "net_capacity": 1450,
+            "dim._interior_wxdxh": "1760x530x1554",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "Yes",
+            "number_of_doors": 3,
+            "door_left_/_right_hinging": "Left and right hinged",
+            "noise_level": 68,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 32,
+            "insulation_thickness": 60,
+            "energy_label": "D",
+            "power_consumption": 23.84,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "150x2",
+            "eprel_id": 1435842,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7455.2250 (new)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234924/product/1271/"
+            },
+            {
+                "label": "Manual 7455.22 and 7455.24 Series (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234925/product/1271/"
+            },
+            {
+                "label": "Manual controller 7455.22-24-29 series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234926/product/1271/"
+            },
+            {
+                "label": "Exploded view 7455.2250 (2021)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234927/product/1271/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7455.2215-2220 - 2245-2250 - 2915-2920",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234928/product/1271/"
+            },
+            {
+                "label": "JDE Circuit diagram 12",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234929/product/1271/"
+            },
+            {
+                "label": "Instruction about how to adjust the doors for JDE.SVO",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234930/product/1271/"
+            },
+            {
+                "label": "7455.22xx series dimension drawing",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234931/product/1271/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.2224",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29/315 **NEW**",
+                "url": "https://www.combisteel.com/en/7455-2224-set-4-clips-for-grid-7455-21-22-24-25-29-315-new.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2225",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29",
+                "url": "https://www.combisteel.com/en/7455-2225-set-4-clips-for-grid-7455-21-22-24-25-29.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2257",
+                "name": "GRID L/R BLACK FOR 7455.2245-2250-2425-2435-2445",
+                "url": "https://www.combisteel.com/en/7455-2257-grid-l-r-black-for-7455-2245-2250-2425-2435-2445.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_zwart_9.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_zwart_9.jpg",
+                "price": 625,
+                "price_currency": "CZK",
+                "price_text": "625 Kč"
+            },
+            {
+                "code": "7455.2258",
+                "name": "GRID MIDDLE BLACK FOR 7455.2250-2435-2445",
+                "url": "https://www.combisteel.com/en/7455-2258-grid-middle-black-for-7455-2250-2435-2445.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_zwart_35.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_zwart_35.jpg",
+                "price": 750,
+                "price_currency": "CZK",
+                "price_text": "750 Kč"
+            },
+            {
+                "code": "7455.2263",
+                "name": "PRICECARD HOLDER LEFT/RIGHT BLACK\n7455.2230-2235-2240-2245-2250 \n7455.2405-2415-2417-2425-2435-2445",
+                "url": "https://www.combisteel.com/en/7455-2263-pricecard-holder-left-right-black-7455-2230-2235-2240-2245-2250-7455-2405-2415-2417-2425-2435-2445.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_zwart_IRL_19.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_zwart_IRL_19.png",
+                "price": 275,
+                "price_currency": "CZK",
+                "price_text": "275 Kč"
+            },
+            {
+                "code": "7455.2264",
+                "name": "PRICECARD HOLDER MIDDLE SHELVES BLACK\n7455.2235-2240-2250 / 7455.2415-2417-2435-2445",
+                "url": "https://www.combisteel.com/en/7455-2264-pricecard-holder-middle-shelves-black-7455-2235-2240-2250-7455-2415-2417-2435-2445.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_zwart_IRL_27.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_zwart_IRL_27.png",
+                "price": 325,
+                "price_currency": "CZK",
+                "price_text": "325 Kč"
+            },
+            {
+                "code": "7455.2267",
+                "name": "CASTOR SET FOR 7455.22/29 8X",
+                "url": "https://www.combisteel.com/en/7455-2267-castor-set-for-7455-22-29-8x.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2265-2266-2267-2268_7.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2265-2266-2267-2268_7.png",
+                "price": 2000,
+                "price_currency": "CZK",
+                "price_text": "2 000 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7295.0085",
+        "name": "COOLING / FREEZING ISLAND ACTION 70 - SWITCHABLE",
+        "url": "https://www.combisteel.com/en/7295-0085-cooling-freezing-island-action-70-switchable.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7295_0085-13694.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/2/7295_0085-13694.jpg",
+        "price": 126875,
+        "price_currency": "CZK",
+        "price_text": "126 875 Kč",
+        "specs": {
+            "width": 760,
+            "depth": 820,
+            "height": 870,
+            "gross_weight": 110,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.62,
+            "cooling_agent": "R 290",
+            "temperature_range": "+1/+5 / -16/-18",
+            "gross_capacity": 160,
+            "type_of_cooling": "Ventilated",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 30,
+            "brand": "ISA",
+            "energy_label": "No energy label required"
+        },
+        "downloads": [
+            {
+                "label": "ENG - Manual Action",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212539/product/3798/"
+            },
+            {
+                "label": "DE - Bedienungsanleitung Action",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212540/product/3798/"
+            },
+            {
+                "label": "FR - Manuel Action",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1212541/product/3798/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7080.0025",
+        "name": "COOLING / FREEZING ISLAND SWITCHABLE 2.0",
+        "url": "https://www.combisteel.com/en/7080-0025-cooling-freezing-island-switchable-2-0.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0020-0025_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0020-0025_1.jpg",
+        "price": 126625,
+        "price_currency": "CZK",
+        "price_text": "126 625 Kč",
+        "specs": {
+            "ean_code": 7422242914953,
+            "width": 2126,
+            "depth": 1036,
+            "height": 936,
+            "color": "Black",
+            "gross_weight": 250,
+            "particulars": "Uitwisselbaar tussen vriezer en koeler door schakelaar",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.62,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "0/+6 / -16/-22",
+            "gross_capacity": 320,
+            "showcase_area": 1.4,
+            "lights": "No",
+            "type_of_cooling": "Ventilated",
+            "execution_window": "Right",
+            "night_cover": "Nee",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "F",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "190x2",
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7080.0025",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236871/product/3654/"
+            },
+            {
+                "label": "Manual 7080.0020-0025",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236872/product/3654/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7455.2520",
+        "name": "WALL MOUNTED FREEZER UNIT WHITE 2 GLASS DOORS",
+        "url": "https://www.combisteel.com/en/7455-2520-wall-mounted-freezer-unit-white-2-glass-doors.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2520-15355.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2520-15355.jpg",
+        "price": 118750,
+        "price_currency": "CZK",
+        "price_text": "118 750 Kč",
+        "specs": {
+            "ean_code": 7435137869818,
+            "width": 1454,
+            "depth": 890,
+            "height": 2110,
+            "color": "White",
+            "parcel_ready": "No",
+            "gross_weight": 298,
+            "particulars": "Top ventilated cooling, bottom static cooling",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.15,
+            "cooling_agent": "R 290",
+            "temperature_range": "<-18",
+            "number_of_dividers": 2,
+            "number_of_grids": 4,
+            "guides_distance": 90,
+            "max._grid_load": 18,
+            "gross_capacity": "373 top / 575 bottom",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 2,
+            "noise_level": "58 top / 61 bottom",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 60,
+            "energy_label": "E",
+            "power_consumption": "13,78 top / 6,93 bottom",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "100+70",
+            "eprel_id": 635214,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7455.2520 TOP",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214926/product/1318/"
+            },
+            {
+                "label": "Energielabel 7455.2520 BOTTOM",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214927/product/1318/"
+            },
+            {
+                "label": "Manual 7455.25xx series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214928/product/1318/"
+            },
+            {
+                "label": "Manual controller 7455.25xx TOP",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214929/product/1318/"
+            },
+            {
+                "label": "Exploded view 7455.2520 (2020)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214930/product/1318/"
+            },
+            {
+                "label": "7455.2520 - circuit diagram top",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214931/product/1318/"
+            },
+            {
+                "label": "7455.2520 - circuit diagram bottom",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214932/product/1318/"
+            },
+            {
+                "label": "7455.2520 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1214933/product/1318/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.2224",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29/315 **NEW**",
+                "url": "https://www.combisteel.com/en/7455-2224-set-4-clips-for-grid-7455-21-22-24-25-29-315-new.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2225",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29",
+                "url": "https://www.combisteel.com/en/7455-2225-set-4-clips-for-grid-7455-21-22-24-25-29.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2582",
+                "name": "GRID L/R WHITE FOR 7455.2520",
+                "url": "https://www.combisteel.com/en/7455-2582-grid-l-r-white-for-7455-2520.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_75.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_75.jpg",
+                "price": 500,
+                "price_currency": "CZK",
+                "price_text": "500 Kč"
+            },
+            {
+                "code": "7455.2288",
+                "name": "PRICECARD HOLDER WHITE 7455.2212 + L/R 7455.25",
+                "url": "https://www.combisteel.com/en/7455-2288-pricecard-holder-white-7455-2212-l-r-7455-25.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_5.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_5.png",
+                "price": 275,
+                "price_currency": "CZK",
+                "price_text": "275 Kč"
+            },
+            {
+                "code": "7455.2540",
+                "name": "DIVIDER FOR CHEST FREEZER 7455.25/26",
+                "url": "https://www.combisteel.com/en/7455-2540-divider-for-chest-freezer-7455-25-26.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2540-12917.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2540-12917.jpg",
+                "price": 500,
+                "price_currency": "CZK",
+                "price_text": "500 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7455.2530",
+        "name": "WALL MOUNTED FREEZER UNIT BLACK 2 GLASS DOORS",
+        "url": "https://www.combisteel.com/en/7455-2530-wall-mounted-freezer-unit-black-2-glass-doors.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2530-14367.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2530-14367.jpg",
+        "price": 118750,
+        "price_currency": "CZK",
+        "price_text": "118 750 Kč",
+        "specs": {
+            "ean_code": 7435137869832,
+            "width": 1454,
+            "depth": 890,
+            "height": 2110,
+            "color": "Black",
+            "parcel_ready": "No",
+            "gross_weight": 298,
+            "particulars": "Top ventilated cooling, bottom static cooling",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.15,
+            "cooling_agent": "R 290",
+            "temperature_range": "<-18",
+            "number_of_dividers": 2,
+            "number_of_grids": 4,
+            "guides_distance": 90,
+            "max._grid_load": 18,
+            "gross_capacity": "373 top / 575 bottom",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 2,
+            "noise_level": "58 top / 61 bottom",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 60,
+            "energy_label": "E",
+            "power_consumption": "13,8 top / 6,9 bottom",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "100+70",
+            "eprel_id": 635235,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7455.2530 TOP",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236819/product/1320/"
+            },
+            {
+                "label": "Energielabel 7455.2530 BOTTOM",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236820/product/1320/"
+            },
+            {
+                "label": "Manual 7455.25xx series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236821/product/1320/"
+            },
+            {
+                "label": "Manual controller 7455.25xx TOP",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236822/product/1320/"
+            },
+            {
+                "label": "Exploded view 7455.2530 (2020)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236823/product/1320/"
+            },
+            {
+                "label": "7455.2530 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236824/product/1320/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.2224",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29/315 **NEW**",
+                "url": "https://www.combisteel.com/en/7455-2224-set-4-clips-for-grid-7455-21-22-24-25-29-315-new.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2225",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29",
+                "url": "https://www.combisteel.com/en/7455-2225-set-4-clips-for-grid-7455-21-22-24-25-29.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2584",
+                "name": "GRID L/R WHITE FOR 7455.2530",
+                "url": "https://www.combisteel.com/en/7455-2584-grid-l-r-white-for-7455-2530.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_69.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_69.jpg",
+                "price": 500,
+                "price_currency": "CZK",
+                "price_text": "500 Kč"
+            },
+            {
+                "code": "7455.2288",
+                "name": "PRICECARD HOLDER WHITE 7455.2212 + L/R 7455.25",
+                "url": "https://www.combisteel.com/en/7455-2288-pricecard-holder-white-7455-2212-l-r-7455-25.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_5.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_5.png",
+                "price": 275,
+                "price_currency": "CZK",
+                "price_text": "275 Kč"
+            },
+            {
+                "code": "7455.2540",
+                "name": "DIVIDER FOR CHEST FREEZER 7455.25/26",
+                "url": "https://www.combisteel.com/en/7455-2540-divider-for-chest-freezer-7455-25-26.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2540-12917.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2540-12917.jpg",
+                "price": 500,
+                "price_currency": "CZK",
+                "price_text": "500 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7080.0020",
+        "name": "COOLING / FREEZING ISLAND SWITCHABLE 1.5",
+        "url": "https://www.combisteel.com/en/7080-0020-cooling-freezing-island-switchable-1-5.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0020-0025.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0020-0025.jpg",
+        "price": 108500,
+        "price_currency": "CZK",
+        "price_text": "108 500 Kč",
+        "specs": {
+            "ean_code": 7422242914946,
+            "width": 1476,
+            "depth": 1036,
+            "height": 936,
+            "color": "Black",
+            "gross_weight": 220,
+            "particulars": "Uitwisselbaar tussen vriezer en koeler door schakelaar",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.2,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "0/+6 / -16/-22",
+            "gross_capacity": 240,
+            "showcase_area": 1.03,
+            "lights": "No",
+            "type_of_cooling": "Ventilated",
+            "execution_window": "Right",
+            "night_cover": "Nee",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "F",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "150x2",
+            "eprel_id": 1204939,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7080.0020",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236667/product/3653/"
+            },
+            {
+                "label": "Exploded view 7080.0020",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236668/product/3653/"
+            },
+            {
+                "label": "Manual 7080.0020-0025",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236669/product/3653/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7090.0055",
+        "name": "COOLING/FREEZING ISLAND SWITCHABLE 1.5",
+        "url": "https://www.combisteel.com/en/7090-0055-cooling-freezing-island-switchable-1-5.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7090_0055_x_1.png",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7090_0055_x_1.png",
+        "price": 105625,
+        "price_currency": "CZK",
+        "price_text": "105 625 Kč",
+        "specs": {
+            "width": 1530,
+            "depth": 995,
+            "height": 950,
+            "color": "Black",
+            "gross_weight": 194,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.2,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+6 / -15/-18",
+            "net_capacity": 260,
+            "dim._interior_wxdxh": "1395x795x200",
+            "showcase_area": 103,
+            "lights": "No",
+            "type_of_cooling": "Ventilated",
+            "mobile": "Yes",
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 50,
+            "energy_label": "No energy label required",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "130x2",
+            "climate_class": "L1",
+            "eprel_id": 1473375,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7090.0055",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1217159/product/4159/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7455.2245",
+        "name": "FREEZER 2 GLASS DOORS BLACK JDE-1000F BL\n**Note: there is a higher inrush current, which makes a circuit breaker with type C characteristic necessary.**",
+        "url": "https://www.combisteel.com/en/7455-2245-freezer-2-glass-doors-black-jde-1000f-bl-note-there-is-a-higher-inrush-current-which-makes-a-circuit-breaker-with-type-c-characteristic-necessary.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2245_new_front_panel.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2245_new_front_panel.jpg",
+        "price": 102750,
+        "price_currency": "CZK",
+        "price_text": "102 750 Kč",
+        "specs": {
+            "ean_code": 7435137864813,
+            "width": 1253,
+            "depth": 710,
+            "height": 2003,
+            "material": "Powder coated steel",
+            "material_interior": "Aluminium",
+            "color": "Black",
+            "accessories_included": "4 castors and 10 grids with clips and price card holders",
+            "parcel_ready": "No",
+            "gross_weight": 265,
+            "net_weight": 240,
+            "particulars": "With door heating which can be operated via a switch",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.87,
+            "cooling_agent": "R 290",
+            "temperature_range": "-18/-22",
+            "number_of_guide_pairs": 110,
+            "number_of_grids": 10,
+            "guides_distance": 90,
+            "max._grid_load": 30,
+            "net_capacity": 1000,
+            "dim._interior_wxdxh": "1133x530x1554",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "Yes",
+            "number_of_doors": 2,
+            "door_left_/_right_hinging": "Left and right hinged",
+            "noise_level": 65,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 32,
+            "insulation_thickness": 60,
+            "energy_label": "D",
+            "power_consumption": 17.47,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "120x2",
+            "eprel_id": 1435808,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7455.2245 (new)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234932/product/1270/"
+            },
+            {
+                "label": "Manual 7455.22 and 7455.24 Series (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234933/product/1270/"
+            },
+            {
+                "label": "Manual controller 7455.22-24-29 series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234934/product/1270/"
+            },
+            {
+                "label": "Exploded view 7455.2245 (2021)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234935/product/1270/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7455.2215-2220 - 2245-2250 - 2915-2920",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234936/product/1270/"
+            },
+            {
+                "label": "JDE Circuit diagram 11",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234937/product/1270/"
+            },
+            {
+                "label": "Instruction about how to adjust the doors for JDE.SVO",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234938/product/1270/"
+            },
+            {
+                "label": "7455.22xx series dimension drawing",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234939/product/1270/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.2224",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29/315 **NEW**",
+                "url": "https://www.combisteel.com/en/7455-2224-set-4-clips-for-grid-7455-21-22-24-25-29-315-new.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2225",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29",
+                "url": "https://www.combisteel.com/en/7455-2225-set-4-clips-for-grid-7455-21-22-24-25-29.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2257",
+                "name": "GRID L/R BLACK FOR 7455.2245-2250-2425-2435-2445",
+                "url": "https://www.combisteel.com/en/7455-2257-grid-l-r-black-for-7455-2245-2250-2425-2435-2445.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_zwart_9.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_zwart_9.jpg",
+                "price": 625,
+                "price_currency": "CZK",
+                "price_text": "625 Kč"
+            },
+            {
+                "code": "7455.2263",
+                "name": "PRICECARD HOLDER LEFT/RIGHT BLACK\n7455.2230-2235-2240-2245-2250 \n7455.2405-2415-2417-2425-2435-2445",
+                "url": "https://www.combisteel.com/en/7455-2263-pricecard-holder-left-right-black-7455-2230-2235-2240-2245-2250-7455-2405-2415-2417-2425-2435-2445.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_zwart_IRL_19.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_zwart_IRL_19.png",
+                "price": 275,
+                "price_currency": "CZK",
+                "price_text": "275 Kč"
+            },
+            {
+                "code": "7455.2266",
+                "name": "CASTOR SET FOR 7455.22/29 4X",
+                "url": "https://www.combisteel.com/en/7455-2266-castor-set-for-7455-22-29-4x.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2265-2266-2267-2268_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2265-2266-2267-2268_1.png",
+                "price": 1000,
+                "price_currency": "CZK",
+                "price_text": "1 000 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7455.2215",
+        "name": "FREEZER 2 GLASS DOORS JDE-1000F\n**Note: there is a higher inrush current, which makes a circuit breaker with type C characteristic necessary.**",
+        "url": "https://www.combisteel.com/en/7455-2215-freezer-2-glass-doors-jde-1000f-note-there-is-a-higher-inrush-current-which-makes-a-circuit-breaker-with-type-c-characteristic-necessary.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2215_new_front_panel_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2215_new_front_panel_1.jpg",
+        "price": 102750,
+        "price_currency": "CZK",
+        "price_text": "102 750 Kč",
+        "specs": {
+            "ean_code": 7435137863861,
+            "width": 1253,
+            "depth": 710,
+            "height": 2003,
+            "material": "Powder coated steel",
+            "material_interior": "Aluminium",
+            "color": "White",
+            "accessories_included": "4 castors and 10 grids with clips and price card holders",
+            "parcel_ready": "No",
+            "gross_weight": 265,
+            "particulars": "With door heating which can be operated via a switch",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.874,
+            "cooling_agent": "R 290",
+            "temperature_range": "-18/-22",
+            "number_of_guide_pairs": 110,
+            "number_of_grids": 10,
+            "guides_distance": 90,
+            "max._grid_load": 30,
+            "net_capacity": 1000,
+            "dim._interior_wxdxh": "1133x530x1554",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "Yes",
+            "number_of_doors": 2,
+            "door_left_/_right_hinging": "Left and right hinged",
+            "noise_level": 65,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 32,
+            "insulation_thickness": 60,
+            "energy_label": "D",
+            "power_consumption": 17.47,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": "80x2",
+            "eprel_id": 1435794,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7455.22 and 7455.24 Series (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234976/product/1266/"
+            },
+            {
+                "label": "Manual controller 7455.22-24-29 series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234977/product/1266/"
+            },
+            {
+                "label": "Exploded view 7455.2215 (2018)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234978/product/1266/"
+            },
+            {
+                "label": "Exploded view 7455.2215 (2020)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234979/product/1266/"
+            },
+            {
+                "label": "Exploded view 7455.2215 (2021)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234980/product/1266/"
+            },
+            {
+                "label": "EU DECLARATION OF CONFORMITY 7455.2215-2220 - 2245-2250 - 2915-2920",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234981/product/1266/"
+            },
+            {
+                "label": "JDE Circuit diagram 4",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234982/product/1266/"
+            },
+            {
+                "label": "Instruction about how to adjust the doors for JDE.SVO",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234983/product/1266/"
+            },
+            {
+                "label": "7455.22xx series dimension drawing",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234984/product/1266/"
+            },
+            {
+                "label": "7455.2215 Label New",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234985/product/1266/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.2224",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29/315 **NEW**",
+                "url": "https://www.combisteel.com/en/7455-2224-set-4-clips-for-grid-7455-21-22-24-25-29-315-new.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2225",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29",
+                "url": "https://www.combisteel.com/en/7455-2225-set-4-clips-for-grid-7455-21-22-24-25-29.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2228",
+                "name": "GRID L/R WHITE FOR 7455.2215-2220-2420-2430-2440-2915-2920",
+                "url": "https://www.combisteel.com/en/7455-2228-grid-l-r-white-for-7455-2215-2220-2420-2430-2440-2915-2920.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_11.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_11.jpg",
+                "price": 625,
+                "price_currency": "CZK",
+                "price_text": "625 Kč"
+            },
+            {
+                "code": "7455.2260",
+                "name": "PRICECARD HOLDER WHITE LEFT/RIGHT\n7455.2200-2205-2210-2215-2220\n7455.2400-2410-2416-2420-2430-2440\n7455.2900-2905-2915-2920",
+                "url": "https://www.combisteel.com/en/7455-2260-pricecard-holder-white-left-right-7455-2200-2205-2210-2215-2220-7455-2400-2410-2416-2420-2430-2440-7455-2900-2905-2915-2920.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_16.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_16.png",
+                "price": 300,
+                "price_currency": "CZK",
+                "price_text": "300 Kč"
+            },
+            {
+                "code": "7455.2266",
+                "name": "CASTOR SET FOR 7455.22/29 4X",
+                "url": "https://www.combisteel.com/en/7455-2266-castor-set-for-7455-22-29-4x.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2265-2266-2267-2268_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2265-2266-2267-2268_1.png",
+                "price": 1000,
+                "price_currency": "CZK",
+                "price_text": "1 000 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7455.3100",
+        "name": "WALL MOUNTED UNIT MARCO 1.3",
+        "url": "https://www.combisteel.com/en/7455-3100-wall-mounted-unit-marco-1-3.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_3100_updated_photo.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_3100_updated_photo.jpg",
+        "price": 101500,
+        "price_currency": "CZK",
+        "price_text": "101 500 Kč",
+        "specs": {
+            "ean_code": 7422242996997,
+            "width": 1310,
+            "depth": 740,
+            "height": 2010,
+            "color": "Black",
+            "gross_weight": 300,
+            "net_weight": 260,
+            "particulars": "RAL 9005",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.55,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "max._grid_load": 80,
+            "gross_capacity": 1292,
+            "net_capacity": 764,
+            "showcase_area": 3.14,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "No",
+            "number_of_doors": 2,
+            "number_of_levels": 5,
+            "noise_level": 62,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "insulation_thickness": 40,
+            "energy_label": "A",
+            "brand": "COMBISTEEL",
+            "eprel_id": 1523915,
+            "plug_and_play": "Yes",
+            "self-closing_door": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7455.3100-3105-3110",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231841/product/4362/"
+            },
+            {
+                "label": "7455.3100 dimensions",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231842/product/4362/"
+            },
+            {
+                "label": "Exploded view 7455.3100 (2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231843/product/4362/"
+            },
+            {
+                "label": "Energy label 7455.3100 (till 11-2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231844/product/4362/"
+            },
+            {
+                "label": "7455.3100 Energy Label (from 11-2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231845/product/4362/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.3230",
+                "name": "SHELF WITH HOLDERS FOR 7455.3100 - 3110",
+                "url": "https://www.combisteel.com/en/7455-3230-shelf-with-holders-for-7455-3100-3110.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_3235_1-min_1_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_3235_1-min_1_1.png",
+                "price": 3125,
+                "price_currency": "CZK",
+                "price_text": "3 125 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7080.0015",
+        "name": "COLD DISPLAY 1.5",
+        "url": "https://www.combisteel.com/en/7080-0015-cold-display-1-5.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0005-0010-0015_3.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0005-0010-0015_3.jpg",
+        "price": 95875,
+        "price_currency": "CZK",
+        "price_text": "95 875 Kč",
+        "specs": {
+            "ean_code": 7422242914939,
+            "width": 1500,
+            "depth": 660,
+            "height": 1500,
+            "color": "Black",
+            "gross_weight": 150,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.52,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "gross_capacity": 440,
+            "showcase_area": 1.87,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "number_of_levels": 3,
+            "execution_window": "curved",
+            "night_cover": "Ja",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "E",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 345,
+            "eprel_id": 2063808,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7080.0005-0010-0015",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231879/product/3567/"
+            },
+            {
+                "label": "Exploded view 7080.0015 (2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231880/product/3567/"
+            },
+            {
+                "label": "7080.0015 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1231881/product/3567/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7080.0010",
+        "name": "COLD DISPLAY 1.3",
+        "url": "https://www.combisteel.com/en/7080-0010-cold-display-1-3.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0005-0010-0015_1.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0005-0010-0015_1.jpg",
+        "price": 88625,
+        "price_currency": "CZK",
+        "price_text": "88 625 Kč",
+        "specs": {
+            "ean_code": 7422242914922,
+            "width": 1300,
+            "depth": 660,
+            "height": 1500,
+            "color": "Black",
+            "gross_weight": 130,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.29,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "gross_capacity": 380,
+            "showcase_area": 1.69,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "number_of_levels": 3,
+            "execution_window": "curved",
+            "night_cover": "Ja",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "E",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 300,
+            "eprel_id": 2063797,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Exploded view 7080.0010 (2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236868/product/3565/"
+            },
+            {
+                "label": "Manual 7080.0005-0010-0015",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236869/product/3565/"
+            },
+            {
+                "label": "7080.0010 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1236870/product/3565/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7080.0005",
+        "name": "COLD DISPLAY 1.0",
+        "url": "https://www.combisteel.com/en/7080-0005-cold-display-1-0.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0005-0010-0015_5.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/0/7080_0005-0010-0015_5.jpg",
+        "price": 79625,
+        "price_currency": "CZK",
+        "price_text": "79 625 Kč",
+        "specs": {
+            "ean_code": 7422242914915,
+            "width": 1000,
+            "depth": 660,
+            "height": 1500,
+            "color": "Black",
+            "gross_weight": 120,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.2,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/+8",
+            "gross_capacity": 290,
+            "showcase_area": 1.43,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "number_of_levels": 3,
+            "execution_window": "curved",
+            "night_cover": "Ja",
+            "defrost": "Automatic",
+            "max._ambient_temperature": 25,
+            "energy_label": "E",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 275,
+            "eprel_id": 2063772,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual 7080.0005-0010-0015",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234711/product/3561/"
+            },
+            {
+                "label": "Exploded view 7080.0005 (2025)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234712/product/3561/"
+            },
+            {
+                "label": "7080.0005 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234713/product/3561/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7455.2244",
+        "name": "FREEZER 1 GLASS DOOR BLACK JDE-600F BL",
+        "url": "https://www.combisteel.com/en/7455-2244-freezer-1-glass-door-black-jde-600f-bl.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2244_new_front_panel.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2244_new_front_panel.jpg",
+        "price": 62750,
+        "price_currency": "CZK",
+        "price_text": "62 750 Kč",
+        "specs": {
+            "ean_code": 7422242910924,
+            "width": 750,
+            "depth": 710,
+            "height": 2003,
+            "material": "Powder coated steel",
+            "material_interior": "Aluminium",
+            "color": "Black",
+            "accessories_included": "4 castors and 5 grids with clips and price card holders",
+            "parcel_ready": "No",
+            "gross_weight": 159,
+            "net_weight": 150,
+            "particulars": "With door heating which can be operated via a switch",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.437,
+            "cooling_agent": "R 290",
+            "temperature_range": "-18/-22",
+            "number_of_guide_pairs": 55,
+            "number_of_grids": 5,
+            "guides_distance": 90,
+            "max._grid_load": 30,
+            "net_capacity": 600,
+            "dim._interior_wxdxh": "630x580x1538",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "Yes",
+            "number_of_doors": 1,
+            "door_left_/_right_hinging": "Right",
+            "door_reversible": "No",
+            "noise_level": 61,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 32,
+            "insulation_thickness": 60,
+            "energy_label": "C",
+            "power_consumption": 9.07,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 100,
+            "eprel_id": 1435790,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energy label 7455.2244 (new)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235034/product/3737/"
+            },
+            {
+                "label": "Manual 7455.22 and 7455.24 Series (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235035/product/3737/"
+            },
+            {
+                "label": "Dimensions JDE 600",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235036/product/3737/"
+            },
+            {
+                "label": "Manual controller 7455.22-24-29 series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235037/product/3737/"
+            },
+            {
+                "label": "Exploded view 7455.2244 (2021)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235038/product/3737/"
+            },
+            {
+                "label": "JDE Circuit diagram 10",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235039/product/3737/"
+            },
+            {
+                "label": "Instruction about how to adjust the doors for JDE.SVO",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235040/product/3737/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.2224",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29/315 **NEW**",
+                "url": "https://www.combisteel.com/en/7455-2224-set-4-clips-for-grid-7455-21-22-24-25-29-315-new.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2225",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29",
+                "url": "https://www.combisteel.com/en/7455-2225-set-4-clips-for-grid-7455-21-22-24-25-29.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2287",
+                "name": "GRID BLACK FOR 7455.2244",
+                "url": "https://www.combisteel.com/en/7455-2287-grid-black-for-7455-2244.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_zwart_13.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_zwart_13.jpg",
+                "price": 525,
+                "price_currency": "CZK",
+                "price_text": "525 Kč"
+            },
+            {
+                "code": "7455.2291",
+                "name": "PRICECARD HOLDER BLACK 7455.2244",
+                "url": "https://www.combisteel.com/en/7455-2291-pricecard-holder-black-7455-2244.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_zwart_IRL_25.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_zwart_IRL_25.png",
+                "price": 275,
+                "price_currency": "CZK",
+                "price_text": "275 Kč"
+            },
+            {
+                "code": "7455.2266",
+                "name": "CASTOR SET FOR 7455.22/29 4X",
+                "url": "https://www.combisteel.com/en/7455-2266-castor-set-for-7455-22-29-4x.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2265-2266-2267-2268_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2265-2266-2267-2268_1.png",
+                "price": 1000,
+                "price_currency": "CZK",
+                "price_text": "1 000 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7455.2214",
+        "name": "FREEZER 1 GLASS DOOR JDE-600F",
+        "url": "https://www.combisteel.com/en/7455-2214-freezer-1-glass-door-jde-600f.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2214_new_front_panel.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2214_new_front_panel.jpg",
+        "price": 62750,
+        "price_currency": "CZK",
+        "price_text": "62 750 Kč",
+        "specs": {
+            "ean_code": 7422242910900,
+            "width": 750,
+            "depth": 710,
+            "height": 2003,
+            "material": "Powder coated steel",
+            "material_interior": "Aluminium",
+            "color": "White",
+            "accessories_included": "4 castors and 5 grids with clips and price card holders",
+            "parcel_ready": "No",
+            "gross_weight": 159,
+            "net_weight": 150,
+            "particulars": "With door heating which can be operated via a switch",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.437,
+            "cooling_agent": "R 290",
+            "temperature_range": "-18/-22",
+            "number_of_guide_pairs": 55,
+            "number_of_grids": 5,
+            "guides_distance": 90,
+            "max._grid_load": 30,
+            "net_capacity": 600,
+            "dim._interior_wxdxh": "630x580x1538",
+            "lights": "Yes, LED",
+            "type_of_cooling": "Ventilated",
+            "lockable": "No",
+            "mobile": "Yes",
+            "number_of_doors": 1,
+            "door_left_/_right_hinging": "Right",
+            "door_reversible": "No",
+            "noise_level": 61,
+            "defrost": "Automatic",
+            "max._ambient_temperature": 32,
+            "insulation_thickness": 60,
+            "energy_label": "C",
+            "power_consumption": 9.07,
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 100,
+            "eprel_id": 1435739,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Energielabel 7455.2214 new",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235007/product/3288/"
+            },
+            {
+                "label": "Manual 7455.22 and 7455.24 Series (ENG-NL-DE-FR)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235008/product/3288/"
+            },
+            {
+                "label": "Dimensions JDE 600 2",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235009/product/3288/"
+            },
+            {
+                "label": "Manual controller 7455.22-24-29 series",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235010/product/3288/"
+            },
+            {
+                "label": "Exploded view 7455.2214 (2021)",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235011/product/3288/"
+            },
+            {
+                "label": "JDE Circuit diagram 3",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235012/product/3288/"
+            },
+            {
+                "label": "Instruction about how to adjust the doors for JDE.SVO",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1235013/product/3288/"
+            }
+        ],
+        "accessories": [
+            {
+                "code": "7455.2224",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29/315 **NEW**",
+                "url": "https://www.combisteel.com/en/7455-2224-set-4-clips-for-grid-7455-21-22-24-25-29-315-new.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clip_new-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2225",
+                "name": "SET 4 CLIPS FOR GRID 7455.21/22/24/25/29",
+                "url": "https://www.combisteel.com/en/7455-2225-set-4-clips-for-grid-7455-21-22-24-25-29.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/c/l/clips_flip2-min_1.png",
+                "price": 125,
+                "price_currency": "CZK",
+                "price_text": "125 Kč"
+            },
+            {
+                "code": "7455.2266",
+                "name": "CASTOR SET FOR 7455.22/29 4X",
+                "url": "https://www.combisteel.com/en/7455-2266-castor-set-for-7455-22-29-4x.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2265-2266-2267-2268_1.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7455_2265-2266-2267-2268_1.png",
+                "price": 1000,
+                "price_currency": "CZK",
+                "price_text": "1 000 Kč"
+            },
+            {
+                "code": "7455.2285",
+                "name": "GRID WHITE FOR 7455.2214",
+                "url": "https://www.combisteel.com/en/7455-2285-grid-white-for-7455-2214.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_17.jpg",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/r/o/rooster_white_bg_17.jpg",
+                "price": 525,
+                "price_currency": "CZK",
+                "price_text": "525 Kč"
+            },
+            {
+                "code": "7455.2289",
+                "name": "PRICECARD HOLDER WHITE 7455.2214 + MIDDLE 7455.25",
+                "url": "https://www.combisteel.com/en/7455-2289-pricecard-holder-white-7455-2214-middle-7455-25.html",
+                "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_10.png",
+                "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/P/r/Prijskaarthouder_wit_IRL_10.png",
+                "price": 275,
+                "price_currency": "CZK",
+                "price_text": "275 Kč"
+            }
+        ]
+    },
+    {
+        "code": "7486.0085",
+        "name": "COLD DISPLAY MORRIS 3.0\n*TRANSPORT ON REQUEST*",
+        "url": "https://www.combisteel.com/en/7486-0085-cold-display-morris-3-0-transport-on-request.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0085-9556.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0085-9556.jpg",
+        "price": 149500,
+        "price_currency": "CZK",
+        "price_text": "149 500 Kč",
+        "specs": {
+            "ean_code": 7435137837817,
+            "width": 3084,
+            "depth": 1095,
+            "height": 1280,
+            "color": "Black",
+            "gross_weight": 300,
+            "particulars": "Has 4 pcs of back doors for storage (500x240mm)",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1.3,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/ +10",
+            "showcase_area": 20,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Static",
+            "under_cooling": "Yes",
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "energy_label": "F",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 120,
+            "eprel_id": 2501119,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual Oscar and Morris unit",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213698/product/1525/"
+            },
+            {
+                "label": "7486.0085 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213699/product/1525/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7486.0080",
+        "name": "COLD DISPLAY MORRIS 2.5\n*TRANSPORT ON REQUEST*",
+        "url": "https://www.combisteel.com/en/7486-0080-cold-display-morris-2-5-transport-on-request.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0080-9556.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0080-9556.jpg",
+        "price": 124000,
+        "price_currency": "CZK",
+        "price_text": "124 000 Kč",
+        "specs": {
+            "ean_code": 7435137837800,
+            "width": 2584,
+            "depth": 1095,
+            "height": 1280,
+            "color": "Black",
+            "gross_weight": 250,
+            "particulars": "Has 3 pcs of back doors for storage (500x240mm)",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/ +10",
+            "showcase_area": 17,
+            "lights": "Yes, LED",
+            "type_of_cooling": "Static",
+            "number_of_doors": "3x 500x240",
+            "under_cooling": "Yes",
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "energy_label": "E",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 110,
+            "eprel_id": 2501113,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual Oscar and Morris unit",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1227838/product/1524/"
+            },
+            {
+                "label": "7486.0080 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1227839/product/1524/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7486.0065",
+        "name": "COLD DISPLAY OSCAR 2.5\n*TRANSPORT ON REQUEST*",
+        "url": "https://www.combisteel.com/en/7486-0065-cold-display-oscar-2-5-transport-on-request.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0065-9556.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0065-9556.jpg",
+        "price": 118750,
+        "price_currency": "CZK",
+        "price_text": "118 750 Kč",
+        "specs": {
+            "ean_code": 7435137836872,
+            "width": 2584,
+            "depth": 815,
+            "height": 1280,
+            "color": "Black",
+            "gross_weight": 190,
+            "particulars": "Has 3 pcs of back doors for storage (500x240mm)",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.835,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/ +10",
+            "size_plateau_wxd": "2490x480",
+            "showcase_area": 11,
+            "lights": "Yes",
+            "type_of_cooling": "Static",
+            "under_cooling": "Yes",
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "energy_label": "G",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 100,
+            "eprel_id": 2517996,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual Oscar and Morris unit",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213690/product/1521/"
+            },
+            {
+                "label": "7486.0065 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213691/product/1521/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7486.0030",
+        "name": "COLD DISPLAY OWEN 2.5\n*TRANSPORT ON REQUEST*",
+        "url": "https://www.combisteel.com/en/7486-0030-cold-display-owen-2-5-transport-on-request.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0030-6875.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0030-6875.jpg",
+        "price": 112750,
+        "price_currency": "CZK",
+        "price_text": "112 750 Kč",
+        "specs": {
+            "ean_code": 6017431995984,
+            "width": 2490,
+            "depth": 1060,
+            "height": 1310,
+            "color": "White",
+            "gross_weight": 350,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 1,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/ +10",
+            "showcase_area": 17,
+            "type_of_cooling": "Static",
+            "number_of_doors": 3,
+            "under_cooling": "Yes",
+            "defrost": "Automatic",
+            "energy_label": "C",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 110,
+            "eprel_id": 2497300,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual Cold Display Vinnie & Owen",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213683/product/1516/"
+            },
+            {
+                "label": "7486.0030 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213684/product/1516/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7486.0075",
+        "name": "COLD DISPLAY MORRIS 2.0",
+        "url": "https://www.combisteel.com/en/7486-0075-cold-display-morris-2-0.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0075-9556.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0075-9556.jpg",
+        "price": 106250,
+        "price_currency": "CZK",
+        "price_text": "106 250 Kč",
+        "specs": {
+            "ean_code": 7435137836896,
+            "width": 1959,
+            "depth": 1095,
+            "height": 1280,
+            "color": "Black",
+            "gross_weight": 192,
+            "particulars": "Has 2 pcs of back doors for storage (580x240mm)",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.84,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/ +10",
+            "showcase_area": 13,
+            "lights": "Yes",
+            "type_of_cooling": "Static",
+            "number_of_doors": "2x 580x240",
+            "under_cooling": "Yes",
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "energy_label": "F",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 100,
+            "eprel_id": 2501103,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual Oscar and Morris unit",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234662/product/1523/"
+            },
+            {
+                "label": "7486.0075 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234663/product/1523/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7486.0060",
+        "name": "COLD DISPLAY OSCAR 2.0",
+        "url": "https://www.combisteel.com/en/7486-0060-cold-display-oscar-2-0.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0060-9556.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0060-9556.jpg",
+        "price": 105000,
+        "price_currency": "CZK",
+        "price_text": "105 000 Kč",
+        "specs": {
+            "ean_code": 7435137836865,
+            "width": 1959,
+            "depth": 815,
+            "height": 1280,
+            "color": "Black",
+            "gross_weight": 166,
+            "particulars": "Has 2 pcs of back doors for storage (580x240mm)",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.835,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/ +10",
+            "showcase_area": 9,
+            "lights": "Yes",
+            "type_of_cooling": "Static",
+            "under_cooling": "Yes",
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "energy_label": "F",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 90,
+            "eprel_id": 2517989,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Electrical diagram 7486.0060",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213687/product/1520/"
+            },
+            {
+                "label": "Manual Oscar and Morris unit",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213688/product/1520/"
+            },
+            {
+                "label": "7486.0060 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213689/product/1520/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7486.0070",
+        "name": "COLD DISPLAY MORRIS 1.5",
+        "url": "https://www.combisteel.com/en/7486-0070-cold-display-morris-1-5.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0070-10194.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0070-10194.jpg",
+        "price": 94000,
+        "price_currency": "CZK",
+        "price_text": "94 000 Kč",
+        "specs": {
+            "ean_code": 7435137836889,
+            "width": 1584,
+            "depth": 1095,
+            "height": 1280,
+            "color": "Black",
+            "gross_weight": 155,
+            "particulars": "Has 2 pcs of back doors for storage (500x240mm)",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.63,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/ +10",
+            "showcase_area": 10,
+            "lights": "Yes",
+            "type_of_cooling": "Static",
+            "under_cooling": "Yes",
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "energy_label": "F",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 90,
+            "eprel_id": 2497477,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual Oscar and Morris unit",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232442/product/1522/"
+            },
+            {
+                "label": "7486.0070 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1232443/product/1522/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7486.0025",
+        "name": "COLD DISPLAY OWEN 2.0",
+        "url": "https://www.combisteel.com/en/7486-0025-cold-display-owen-2-0.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0025-6875.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0025-6875.jpg",
+        "price": 93000,
+        "price_currency": "CZK",
+        "price_text": "93 000 Kč",
+        "specs": {
+            "ean_code": 6017455566535,
+            "width": 2000,
+            "depth": 1060,
+            "height": 1310,
+            "color": "White",
+            "gross_weight": 250,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.84,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/ +10",
+            "showcase_area": 13,
+            "lights": "Yes",
+            "type_of_cooling": "Static",
+            "number_of_doors": 2,
+            "under_cooling": "Yes",
+            "defrost": "Automatic",
+            "energy_label": "D",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 100,
+            "eprel_id": 2497425,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual Cold Display Vinnie & Owen",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234128/product/1515/"
+            },
+            {
+                "label": "7486.0025 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234129/product/1515/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7486.0055",
+        "name": "COLD DISPLAY OSCAR 1.5",
+        "url": "https://www.combisteel.com/en/7486-0055-cold-display-oscar-1-5.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0055-10194.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0055-10194.jpg",
+        "price": 89875,
+        "price_currency": "CZK",
+        "price_text": "89 875 Kč",
+        "specs": {
+            "ean_code": 7435137836858,
+            "width": 1584,
+            "depth": 815,
+            "height": 1280,
+            "color": "Black",
+            "gross_weight": 135,
+            "particulars": "Has 2 pcs of back doors for storage (500x240mm)",
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.634,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/ +10",
+            "showcase_area": 7,
+            "lights": "Yes",
+            "type_of_cooling": "Static",
+            "under_cooling": "Yes",
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "energy_label": "E",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 80,
+            "eprel_id": 2517960,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual Oscar and Morris unit",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213685/product/1519/"
+            },
+            {
+                "label": "7486.0055 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213686/product/1519/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7486.0015",
+        "name": "COLD DISPLAY VINNIE 2.5\n*TRANSPORT ON REQUEST*",
+        "url": "https://www.combisteel.com/en/7486-0015-cold-display-vinnie-2-5-transport-on-request.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0015-6874.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0015-6874.jpg",
+        "price": 86250,
+        "price_currency": "CZK",
+        "price_text": "86 250 Kč",
+        "specs": {
+            "ean_code": 6017438695603,
+            "width": 2490,
+            "depth": 825,
+            "height": 1230,
+            "color": "White",
+            "gross_weight": 275,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 835,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/ +10",
+            "showcase_area": 11,
+            "lights": "Yes",
+            "type_of_cooling": "Static",
+            "number_of_doors": 3,
+            "under_cooling": "Yes",
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "energy_label": "E",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 100,
+            "eprel_id": 2496353,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Dimension drawing Vinnie",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213676/product/1513/"
+            },
+            {
+                "label": "Manual Cold Display Vinnie & Owen",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213677/product/1513/"
+            },
+            {
+                "label": "7486.0015 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213678/product/1513/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7486.0020",
+        "name": "COLD DISPLAY OWEN 1.5",
+        "url": "https://www.combisteel.com/en/7486-0020-cold-display-owen-1-5.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0020-6875.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0020-6875.jpg",
+        "price": 83750,
+        "price_currency": "CZK",
+        "price_text": "83 750 Kč",
+        "specs": {
+            "ean_code": 6017433114147,
+            "width": 1500,
+            "depth": 1060,
+            "height": 1310,
+            "color": "White",
+            "gross_weight": 225,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 0.63,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/ +10",
+            "showcase_area": 10,
+            "lights": "Yes",
+            "type_of_cooling": "Static",
+            "number_of_doors": 2,
+            "noise_level": 50,
+            "under_cooling": "Yes",
+            "defrost": "Automatic",
+            "energy_label": "F",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 90,
+            "eprel_id": 2496478,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Manual Cold Display Vinnie & Owen",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234766/product/1514/"
+            },
+            {
+                "label": "7486.0020 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1234767/product/1514/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7486.0010",
+        "name": "COLD DISPLAY VINNIE 2.0",
+        "url": "https://www.combisteel.com/en/7486-0010-cold-display-vinnie-2-0.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0010-6874.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0010-6874.jpg",
+        "price": 77500,
+        "price_currency": "CZK",
+        "price_text": "77 500 Kč",
+        "specs": {
+            "ean_code": 6017429063015,
+            "width": 2000,
+            "depth": 825,
+            "height": 1230,
+            "color": "White",
+            "gross_weight": 225,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 835,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/ +10",
+            "showcase_area": 9,
+            "lights": "Yes",
+            "type_of_cooling": "Static",
+            "number_of_doors": 2,
+            "under_cooling": "Yes",
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "energy_label": "F",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 90,
+            "eprel_id": 2496277,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Dimension drawing Vinnie",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213673/product/1512/"
+            },
+            {
+                "label": "Manual Cold Display Vinnie & Owen",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213674/product/1512/"
+            },
+            {
+                "label": "7486.0010 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213675/product/1512/"
+            }
+        ],
+        "accessories": []
+    },
+    {
+        "code": "7486.0005",
+        "name": "COLD DISPLAY VINNIE 1.5",
+        "url": "https://www.combisteel.com/en/7486-0005-cold-display-vinnie-1-5.html",
+        "image": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0005-6874.jpg",
+        "image_large": "https://www.combisteel.com/media/catalog/product/cache/885770f149f21cca5edd4b51c2ad35e1/7/4/7486_0005-6874.jpg",
+        "price": 66750,
+        "price_currency": "CZK",
+        "price_text": "66 750 Kč",
+        "specs": {
+            "ean_code": 6017450918919,
+            "width": 1500,
+            "depth": 825,
+            "height": 1230,
+            "color": "White",
+            "gross_weight": 175,
+            "voltage": 230,
+            "frequency": 50,
+            "electrical_power": 634,
+            "model_tabletop/_freestanding/drop-in": "Freestanding",
+            "cooling_agent": "R 290",
+            "temperature_range": "+2/ +10",
+            "showcase_area": 7,
+            "lights": "Yes",
+            "type_of_cooling": "Static",
+            "number_of_doors": 2,
+            "under_cooling": "Yes",
+            "execution_window": "Right",
+            "defrost": "Automatic",
+            "energy_label": "F",
+            "brand": "COMBISTEEL",
+            "refrigerant_quantity": 80,
+            "eprel_id": 2496277,
+            "plug_and_play": "Yes"
+        },
+        "downloads": [
+            {
+                "label": "Dimension drawing Vinnie",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213670/product/1511/"
+            },
+            {
+                "label": "Manual Cold Display Vinnie & Owen",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213671/product/1511/"
+            },
+            {
+                "label": "7486.0005 Energy Label",
+                "url": "https://www.combisteel.com/en/amfile/file/download/file/1213672/product/1511/"
+            }
+        ],
+        "accessories": []
     }
 ]
