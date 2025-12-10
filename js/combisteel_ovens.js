@@ -545,78 +545,102 @@
         return true;
     }
 
-    // ===== BUILD FILTER UI =====
+    // ===== BUILD FILTER UI (ĐÃ CHỈNH SỬA TÁCH CATEGORY) =====
     function buildFilterPanel() {
-        const groupsHtml = Object.entries(FILTER_CONFIG)
-            .map(([groupId, conf]) => {
-                const bucketHtml = conf.buckets
-                    .map((b) => {
-                        const count = allProducts.filter((p) =>
-                            matchBucket(p, conf, b)
-                        ).length;
+        let categoryHtml = "";
+        let otherFiltersHtml = "";
 
-                        // không hiển thị bucket nào không có sản phẩm
-                        if (!count) return "";
+        // Duyệt qua config để tạo HTML
+        Object.entries(FILTER_CONFIG).forEach(([groupId, conf]) => {
+            // 1. Tạo danh sách các mục con (buckets)
+            const bucketHtml = conf.buckets
+                .map((b) => {
+                    const count = allProducts.filter((p) =>
+                        matchBucket(p, conf, b)
+                    ).length;
 
-                        return `
-              <a href="#"
-                 class="d-flex justify-content-between py-1 mf-filter-link"
-                 data-group="${groupId}"
-                 data-bucket-id="${b.id}">
-                <span>${b.label}</span>
-                <span class="count text-muted">(${count})</span>
-              </a>
+                    if (!count) return ""; // Không có sản phẩm thì ẩn
+
+                    // Kiểm tra xem mục này đang active không
+                    const isActive = FILTERS_STATE[groupId] === b.id ? "active" : "";
+                    const activeStyle = isActive ? "font-weight:bold; color:#000;" : "";
+
+                    return `
+                      <a href="#" 
+                         class="d-flex justify-content-between py-1 mf-filter-link ${isActive}"
+                         style="${activeStyle}"
+                         data-group="${groupId}" 
+                         data-bucket-id="${b.id}">
+                        <span>${b.label}</span>
+                        <span class="count text-muted">(${count})</span>
+                      </a>
+                    `;
+                })
+                .join("");
+
+            if (!bucketHtml) return; // Nếu nhóm này rỗng thì bỏ qua
+
+            // 2. Tạo khung HTML cho từng nhóm (Accordion)
+            // Lưu ý: Category mặc định mở (block), các cái khác đóng (none)
+            const isCategory = (groupId === "category");
+            const displayStyle = isCategory ? "block" : "none";
+            const iconTransform = isCategory ? "rotate(0deg)" : "rotate(180deg)";
+
+            const groupHtml = `
+              <div class="filter-option mb-2 pb-2 ${isCategory ? '' : 'border-bottom'}" data-group="${groupId}">
+                <div class="filter-options-title d-flex justify-content-between align-items-center cursor-pointer text-normal py-2"
+                     data-toggle="collapse">
+                  <span class="title text-normal text-uppercase fw-bold">${conf.label}</span>
+                  <span class="text-normal">
+                    <i class="fa-solid fa-chevron-down" style="transition: transform .3s; transform: ${iconTransform}"></i>
+                  </span>
+                </div>
+                <div class="filter-options-content pt-1" style="display: ${displayStyle};">
+                  ${bucketHtml}
+                </div>
+              </div>
             `;
-                    })
-                    .join("");
 
-                if (!bucketHtml) return "";
+            // 3. Phân loại: Nếu là Category thì để riêng, còn lại gộp vào nhóm khác
+            if (isCategory) {
+                categoryHtml = groupHtml;
+            } else {
+                otherFiltersHtml += groupHtml;
+            }
+        });
 
-                return `
-          <div class="filter-option mb-3 pb-3 border-bottom" data-group="${groupId}">
-            <div class="filter-options-title d-flex justify-content-between align-items-center cursor-pointer text-normal"
-                 data-toggle="collapse">
-              <span class="title text-normal text-uppercase">${conf.label}</span>
-              <span class="text-normal">
-                <i class="fa-solid fa-chevron-down" style="transition: transform .3s"></i>
-              </span>
-            </div>
-            <div class="filter-options-content pt-2">
-              ${bucketHtml}
-            </div>
-          </div>
-        `;
-            })
-            .join("");
-
+        // ===== KẾT HỢP HTML CUỐI CÙNG =====
         filterPanel.innerHTML = `
-      <div class="mb-3">
-        <strong>${LABELS.shoppingOptions}</strong>
-      </div>
-      ${groupsHtml}
-    `;
+            <div class="mb-2">
+                ${categoryHtml}
+            </div>
 
-        // toggle open/close (accordion style)
+            <div style="margin-top: 50px; margin-bottom: 20px; border-top: 1px solid #dee2e6;"></div> 
+            
+            <div class="mb-3">
+                <strong class="text-uppercase">${LABELS.shoppingOptions}</strong>
+            </div>
+
+            <div class="other-filters">
+                ${otherFiltersHtml}
+            </div>
+        `;
+
+        // --- Gán sự kiện Click đóng/mở (Accordion) ---
         filterPanel.querySelectorAll(".filter-option").forEach((opt) => {
             const header = opt.querySelector(".filter-options-title");
             const content = opt.querySelector(".filter-options-content");
             const icon = opt.querySelector("i.fa-chevron-down");
 
-            // ✅ mặc định ĐÓNG khi load trang
-            content.style.display = "none";
-            if (icon) icon.style.transform = "rotate(180deg)"; // thích thì để, không cần cũng được
-
             header.addEventListener("click", () => {
                 const isOpen = content.style.display !== "none";
                 content.style.display = isOpen ? "none" : "block";
-                if (icon) icon.style.transform = isOpen ? "rotate(180deg)" : "rotate(180deg)";
-                // hoặc nếu muốn mở ra thì mũi tên quay xuống:
-                // if (icon) icon.style.transform = isOpen ? "rotate(180deg)" : "rotate(0deg)";
+                if (icon) icon.style.transform = isOpen ? "rotate(180deg)" : "rotate(0deg)";
             });
         });
 
-
-        // click filter
+        // --- Gán sự kiện Click chọn filter ---
+        // (Giữ nguyên logic cũ của bạn)
         filterPanel.addEventListener("click", (e) => {
             const link = e.target.closest(".mf-filter-link");
             if (!link) return;
@@ -626,26 +650,19 @@
             const bucketId = link.dataset.bucketId;
             if (!group || !bucketId) return;
 
-            // toggle: click lại lần nữa thì bỏ filter
             if (FILTERS_STATE[group] === bucketId) {
-                FILTERS_STATE[group] = null;
-                link.classList.remove("active");
+                FILTERS_STATE[group] = null; // Bỏ chọn
             } else {
-                FILTERS_STATE[group] = bucketId;
-
-                // set active trong group
-                filterPanel
-                    .querySelectorAll(`.mf-filter-link[data-group="${group}"]`)
-                    .forEach((a) => a.classList.remove("active"));
-                link.classList.add("active");
+                FILTERS_STATE[group] = bucketId; // Chọn mới
             }
 
-            // reset page về 1
+            // Reset page & Render lại
             const url = new URL(location.href);
             url.searchParams.set("page", "1");
             history.replaceState(null, "", url);
 
             applyFilters();
+            buildFilterPanel(); // Re-build để cập nhật UI active
             renderProducts();
         });
     }
