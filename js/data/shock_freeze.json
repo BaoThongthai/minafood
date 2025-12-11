@@ -1,0 +1,92 @@
+[
+    {
+        "code": "BLCA3X1",
+        "name": "BLCA3X1 - Zmrazovač",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/700/ce/L3BlcmZpb24vMzk2N2QzNmUtOTYwNy00OTZiLTkyNDMtY2JiOGI1OGFiNWExLnBuZw==.webp",
+        "image_large": "https://headlessapi.tefcold.com/images/auto/0/700/ce/L3BlcmZpb24vMzk2N2QzNmUtOTYwNy00OTZiLTkyNDMtY2JiOGI1OGFiNWExLnBuZw==.webp",
+        "price": 65310,
+        "price_currency": "Kč bez DPH",
+        "price_text": "65.310,00 Kč",
+        "specs": {
+            "width": 804,
+            "depth": 826,
+            "height": 995,
+            "category": "Zmrazovač"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "BLC 5",
+        "name": "BLC 5 - Zmrazovač",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/700/ce/L3BlcmZpb24vMzk2N2QzNmUtOTYwNy00OTZiLTkyNDMtY2JiOGI1OGFiNWExLnBuZw==.webp",
+        "image_large": "https://headlessapi.tefcold.com/images/auto/0/700/ce/L3BlcmZpb24vMzk2N2QzNmUtOTYwNy00OTZiLTkyNDMtY2JiOGI1OGFiNWExLnBuZw==.webp",
+        "price": 71360,
+        "price_currency": "Kč bez DPH",
+        "price_text": "71.360,00 Kč",
+        "specs": {
+            "width": 800,
+            "depth": 815,
+            "height": 1005,
+            "category": "Zmrazovač"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "BLCA5X1",
+        "name": "BLCA5X1 - Zmrazovač",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/700/ce/L3BlcmZpb24vMzk2N2QzNmUtOTYwNy00OTZiLTkyNDMtY2JiOGI1OGFiNWExLnBuZw==.webp",
+        "image_large": "https://headlessapi.tefcold.com/images/auto/0/700/ce/L3BlcmZpb24vMzk2N2QzNmUtOTYwNy00OTZiLTkyNDMtY2JiOGI1OGFiNWExLnBuZw==.webp",
+        "price": 77400,
+        "price_currency": "Kč bez DPH",
+        "price_text": "77.400,00 Kč",
+        "specs": {
+            "width": 804,
+            "depth": 826,
+            "height": 1045,
+            "category": "Zmrazovač"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "BLCA10X1",
+        "name": "BLCA10X1 - Zmrazovač",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMjVhYThmNDktMzM2My00MTljLWE4MjQtZDU3ZDI2ZGYzYjc1LnBuZw==.webp",
+        "image_large": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMjVhYThmNDktMzM2My00MTljLWE4MjQtZDU3ZDI2ZGYzYjc1LnBuZw==.webp",
+        "price": 77500,
+        "price_currency": "Kč bez DPH",
+        "price_text": "77.500,00 Kč",
+        "specs": {
+            "width": 804,
+            "depth": 815,
+            "height": 1885,
+            "category": "Zmrazovač"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "BLCA14X1",
+        "name": "BLCA14X1 - Zmrazovač",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMjVhYThmNDktMzM2My00MTljLWE4MjQtZDU3ZDI2ZGYzYjc1LnBuZw==.webp",
+        "image_large": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMjVhYThmNDktMzM2My00MTljLWE4MjQtZDU3ZDI2ZGYzYjc1LnBuZw==.webp",
+        "price": 127860,
+        "price_currency": "Kč bez DPH",
+        "price_text": "127.860 Kč",
+        "specs": {
+            "width": 800,
+            "depth": 815,
+            "height": 2110,
+            "category": "Zmrazovač"
+        },
+        "downloads": [],
+        "accessories": []
+    }
+]

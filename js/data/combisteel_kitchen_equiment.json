@@ -1,5 +1,49 @@
 [
     {
+        "code": "PC-04L-20",
+        "name": "Electric Pasta Cooker 4L - 2 Baskets",
+        "url": "#",
+        "image": "https://minafood.cz/wp-content/uploads/2024/03/Frame-3619-600x600.webp",
+        "image_large": "https://minafood.cz/wp-content/uploads/2024/03/Frame-3619-600x600.webp",
+        "price": 5000,
+        "price_currency": "Kč bez DPH",
+        "price_text": "5 000 Kč",
+        "specs": {
+            "capacity": "4 Liters",
+            "power": "2.0 kW",
+            "number_of_baskets": 2,
+            "voltage": "230 V",
+            "frequency": "50 Hz",
+            "material": "Stainless Steel",
+            "type": "Tabletop",
+            "control": "Manual Knob"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
+        "code": "PC-08L-25",
+        "name": "Electric Pasta Cooker 8L - 4 Baskets",
+        "url": "#",
+        "image": "https://minafood.cz/wp-content/uploads/2024/03/Frame-3621-600x600.webp",
+        "image_large": "https://minafood.cz/wp-content/uploads/2024/03/Frame-3621-600x600.webp",
+        "price": 7000,
+        "price_currency": "Kč bez DPH",
+        "price_text": "7 000 Kč",
+        "specs": {
+            "capacity": "8 Liters",
+            "power": "2.5 kW",
+            "number_of_baskets": 4,
+            "voltage": "230 V",
+            "frequency": "50 Hz",
+            "material": "Stainless Steel",
+            "type": "Tabletop",
+            "control": "Manual Knob"
+        },
+        "downloads": [],
+        "accessories": []
+    },
+    {
         "code": "7004.0055",
         "name": "VACUUM MACHINE PRIME 285",
         "url": "https://www.combisteel.com/en/7004-0055-vacuum-machine-prime-285.html",

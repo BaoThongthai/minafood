@@ -1,12 +1,11 @@
 // js/speed_oven_filter.js
-// Load JSON Combisteel Ovens + render product grid + filter như hình screenshot
+// FIXED VERSION: Combisteel Ovens Logic optimized based on standard JS
 
 (async function () {
     const GRID_SELECTOR = "#product-grid";
     const FILTER_PANEL_SELECTOR = "#filter-panel";
     const PAGER_SLOT = "#pager-slot";
 
-    // 🔁 ĐỔI SANG FILE OVEN
     const DATA_URL = "js/data/combisteel_ovens_equipment.json";
 
     const LABELS = {
@@ -38,67 +37,45 @@
 
     const txt = (v) => (v ?? "").toString().trim();
 
-    // ====== CATEGORY MAPPING THEO TÊN SẢN PHẨM (OVENS) ======
-    // Kết quả:
-    //  - Combisteamers
-    //  - Convection ovens
-    //  - Microwaves
-    //  - Oven supports and accessories
-    //  - Generic (fallback)
+    // ====== CATEGORY MAPPING (OVENS SPECIFIC) ======
     function getCategoryLabel(raw) {
         const name = txt(raw.name).toUpperCase();
 
-        if (name.includes("COMBISTEAMER")) {
-            return "Combisteamers";
-        }
+        if (name.includes("COMBISTEAMER")) return "Combisteamers";
 
         if (
             name.includes("CONVECTION OVEN") ||
             name.includes("CONVECTION-/ STEAMOVEN") ||
             name.includes("CONVECTION-/ STEAM OVEN") ||
-            name.includes("CONVECTION-/ STEAM OVEN") ||
-            name.includes("CONVECTION-/ STEAMOVEN") ||
             name.includes("CONVECTION OVEN HUMIDIFIER")
         ) {
             return "Convection ovens";
         }
 
-        if (name.includes("MICROWAVE")) {
-            return "Microwaves";
-        }
+        if (name.includes("MICROWAVE")) return "Microwaves";
 
-        // giá đỡ, khay, grid, water filter, v.v.
         if (
             name.includes("STAND FOR OVEN") ||
             name.includes("STAND WITH RUNNERS") ||
             name.includes("OVEN SHELF") ||
             name.includes("WIRE GRIDS") ||
             name.includes("WATER FILTER") ||
-            name.includes("WATER FILTER STARTER SET") ||
-            name.includes("WATER FILTER HOSE SET") ||
             name.includes("GRID SS") ||
             name.includes("SS GRID") ||
             name.includes("BAKING TRAY") ||
-            name.includes("ALUMINIUM BAKING TRAY") ||
             name.includes("GN CONTAINER") ||
             name.includes("CORE PROBE KIT")
         ) {
             return "Oven supports and accessories";
         }
 
-        // fallback
         return "Generic";
     }
 
-    // Giả định JSON Combisteel dạng:
-    // { code, name, url, image, price, price_currency, price_text,
-    //   specs:{ width, depth, height, material, version, parcel_ready, model_tabletop/_freestanding/drop-in, voltage, ... } }
+    // ====== NORMALIZE DATA ======
     function normalize(raw) {
         const s = raw.specs || {};
-
-        const price = Number.isFinite(Number(raw.price))
-            ? Number(raw.price)
-            : null;
+        const price = Number.isFinite(Number(raw.price)) ? Number(raw.price) : null;
 
         return {
             id: raw.code || raw.id || raw.name || "",
@@ -115,17 +92,16 @@
             height_mm: s.height != null ? Number(s.height) : null,
 
             material: txt(s.material),
-            version: txt(s.version), // Electric / Gas
+            version: txt(s.version),
             parcel_ready: txt(s.parcel_ready),
-            model_type: txt(s["model_tabletop/_freestanding/drop-in"]), // Freestanding / Tabletop
+            model_type: txt(s["model_tabletop/_freestanding/drop-in"]),
             voltage: s.voltage != null ? txt(s.voltage) : "",
 
-            door_hinging: txt(s["door_left_/_right_hinging"]), // Left / Right
-            lights: txt(s.lights), // No / Yes / Yes, LED
-            operation: txt(s.operation), // Knob / Manual / Touch screen
+            door_hinging: txt(s["door_left_/_right_hinging"]),
+            lights: txt(s.lights),
+            operation: txt(s.operation),
             color: txt(s.color),
 
-            // === CATEGORY OVEN ===
             category: getCategoryLabel(raw),
         };
     }
@@ -156,66 +132,41 @@
         const hasPrice = Number.isFinite(p.price) && Number(p.price) > 0;
         const msg = encodeURIComponent(buildInquiryMessage(p));
 
-        const dimText =
-            p.width_mm || p.depth_mm || p.height_mm
-                ? [
-                    p.width_mm ? `${p.width_mm} mm` : "",
-                    p.depth_mm ? `x ${p.depth_mm} mm` : "",
-                    p.height_mm ? `x ${p.height_mm} mm` : "",
-                ]
-                    .join(" ")
-                    .trim()
-                : "";
+        const dimText = [
+            p.width_mm ? `${p.width_mm} mm` : "",
+            p.depth_mm ? `x ${p.depth_mm} mm` : "",
+            p.height_mm ? `x ${p.height_mm} mm` : "",
+        ].join(" ").trim();
 
         return `
       <div class="col-md-6 col-lg-4">
-        <div class="rounded position-relative fruite-item h-100"
-             data-id="${String(p.id).replace(/"/g, "&quot;")}">
+        <div class="rounded position-relative fruite-item h-100" data-id="${String(p.id).replace(/"/g, "&quot;")}">
           <div class="fruite-img">
-            <img src="${p.image}"
-                 class="img-fluid w-100 rounded-top border border-secondary"
-                 alt="${p.name}">
+            <img src="${p.image}" class="img-fluid w-100 rounded-top border border-secondary" alt="${p.name}">
           </div>
           <div class="p-4 border border-secondary border-top-0 rounded-bottom d-flex flex-column">
             <h4 class="mb-2 line-clamp-2 product-name" title="${p.name}">${p.name}</h4>
-            ${p.sku
-                ? `<p class="mb-1 small text-secondary" title="Code: ${p.sku}">Code: ${p.sku}</p>`
-                : ""
-            }
+            ${p.sku ? `<p class="mb-1 small text-secondary">Code: ${p.sku}</p>` : ""}
             ${dimText ? `<p class="mb-1 small text-secondary">${dimText}</p>` : ""}
-            ${p.version
-                ? `<p class="mb-1 small text-secondary">Version: ${p.version}</p>`
-                : ""
-            }
-            ${p.voltage
-                ? `<p class="mb-1 small text-secondary">Voltage: ${p.voltage}</p>`
-                : ""
-            }
-
-            ${priceText
-                ? `<p class="mb-3 fw-semibold">${priceText}</p>`
-                : `<p class="mb-3"></p>`}
+            ${p.version ? `<p class="mb-1 small text-secondary">Version: ${p.version}</p>` : ""}
+            ${p.voltage ? `<p class="mb-1 small text-secondary">Voltage: ${p.voltage}</p>` : ""}
+            
+            ${priceText ? `<p class="mb-3 fw-semibold">${priceText}</p>` : `<p class="mb-3"></p>`}
 
             <div class="mt-auto d-flex justify-content-between gap-2">
               ${hasPrice
-                ? `
-                    <a href="#"
-                       class="btn border border-secondary rounded-pill px-3 text-primary add-to-cart"
+                ? `<a href="#" class="btn border border-secondary rounded-pill px-3 text-primary add-to-cart"
                        data-id="${String(p.id).replace(/"/g, "&quot;")}"
                        data-name="${String(p.name).replace(/"/g, "&quot;")}"
                        data-price="${p.price ?? ""}"
                        data-currency="${p.currency || "CZK"}"
                        data-image="${p.image}">
-                       <i class="fa fa-shopping-bag me-2 text-primary"></i>
-                       <span>${LABELS.addToCart}</span>
+                       <i class="fa fa-shopping-bag me-2 text-primary"></i><span>${LABELS.addToCart}</span>
                     </a>`
-                : `
-                    <a href="/contact.html?msg=${msg}"
-                       class="btn border border-secondary rounded-pill px-3 text-primary"
-                       aria-label="${LABELS.contact}">
-                       <i class="fa fa-envelope me-2 text-primary"></i>
-                       <span>${LABELS.contact}</span>
-                    </a>`}
+                : `<a href="/contact.html?msg=${msg}" class="btn border border-secondary rounded-pill px-3 text-primary" aria-label="${LABELS.contact}">
+                       <i class="fa fa-envelope me-2 text-primary"></i><span>${LABELS.contact}</span>
+                    </a>`
+            }
             </div>
           </div>
         </div>
@@ -223,7 +174,7 @@
     `;
     }
 
-    // ===== POPUP =====
+    // ===== POPUP LOGIC =====
     function openPopup(p) {
         if (!popup) return;
         popupImg.src = p.image || "img/placeholder.webp";
@@ -236,18 +187,10 @@
         if (p.height_mm != null) dimLines.push(`Height: ${p.height_mm} mm`);
 
         popupDim.innerHTML = `
-      ${p.sku
-                ? `<div class="mb-1 small text-muted"><strong>${p.sku}</strong></div>`
-                : ""
-            }
-      ${dimLines.length
-                ? `<div class="mt-2 small">${dimLines.join("<br>")}</div>`
-                : ""
-            }
-    `;
-
-        const priceText = fmtPrice(p.price, p.currency);
-        popupWeight.textContent = priceText || p.price_text_raw || "";
+            ${p.sku ? `<div class="mb-1 small text-muted"><strong>${p.sku}</strong></div>` : ""}
+            ${dimLines.length ? `<div class="mt-2 small">${dimLines.join("<br>")}</div>` : ""}
+        `;
+        popupWeight.textContent = fmtPrice(p.price, p.currency) || p.price_text_raw || "";
         popup.classList.remove("hidden");
     }
 
@@ -257,19 +200,14 @@
     }
 
     if (popupClose) popupClose.addEventListener("click", closePopup);
-    if (popup) {
-        popup.addEventListener("click", (e) => {
-            if (e.target === popup) closePopup();
-        });
-    }
+    if (popup) popup.addEventListener("click", (e) => { if (e.target === popup) closePopup(); });
 
     function attachCardHandlers() {
         grid.querySelectorAll(".fruite-item").forEach((item) => {
             item.addEventListener("click", (ev) => {
                 if (ev.target.closest("a,button")) return;
                 const id = item.dataset.id;
-                const p =
-                    filteredProducts.find((prod) => String(prod.id) === String(id)) ||
+                const p = filteredProducts.find((prod) => String(prod.id) === String(id)) ||
                     allProducts.find((prod) => String(prod.id) === String(id));
                 if (p) openPopup(p);
             });
@@ -286,7 +224,6 @@
     function renderPager(totalItems) {
         const slot = document.querySelector(PAGER_SLOT);
         if (!slot) return;
-
         const totalPages = Math.max(1, Math.ceil(totalItems / PAGE_SIZE));
         if (totalPages <= 1) {
             slot.innerHTML = "";
@@ -298,28 +235,12 @@
 
         const pages = [];
         const push = (n) => pages.push(n);
-        const addRange = (a, b) => {
-            for (let i = a; i <= b; i++) pages.push(i);
-        };
+        const addRange = (a, b) => { for (let i = a; i <= b; i++) pages.push(i); };
 
-        const first = 1;
-        const last = totalPages;
-        const centerSpan = 2;
-
+        const first = 1, last = totalPages, centerSpan = 2;
         push(first);
         let start = Math.max(first + 1, currentPage - centerSpan);
         let end = Math.min(last - 1, currentPage + centerSpan);
-
-        const midCount = end >= start ? end - start + 1 : 0;
-        let missing = centerSpan * 2 + 1 - midCount;
-        while (missing > 0 && start > first + 1) {
-            start--;
-            missing--;
-        }
-        while (missing > 0 && end < last - 1) {
-            end++;
-            missing--;
-        }
 
         if (start > first + 1) pages.push("...");
         if (end >= start) addRange(start, end);
@@ -329,18 +250,11 @@
         slot.innerHTML = `
       <div class="mf-pager-wrap">
         <nav class="mf-pager" aria-label="Pagination">
-          <a href="#" class="mf-pg-btn ${currentPage === 1 ? "is-disabled" : ""}" data-page="${currentPage - 1}" aria-label="Previous">‹</a>
-          ${pages
-                .map((p) =>
-                    p === "..."
-                        ? `<span class="mf-pg-ellipsis">…</span>`
-                        : `<a href="#" class="mf-pg-btn ${p === currentPage ? "is-active" : ""}" data-page="${p}">${p}</a>`
-                )
-                .join("")}
-          <a href="#" class="mf-pg-btn ${currentPage === totalPages ? "is-disabled" : ""}" data-page="${currentPage + 1}" aria-label="Next">›</a>
+          <a href="#" class="mf-pg-btn ${currentPage === 1 ? "is-disabled" : ""}" data-page="${currentPage - 1}">‹</a>
+          ${pages.map(p => p === "..." ? `<span class="mf-pg-ellipsis">…</span>` : `<a href="#" class="mf-pg-btn ${p === currentPage ? "is-active" : ""}" data-page="${p}">${p}</a>`).join("")}
+          <a href="#" class="mf-pg-btn ${currentPage === totalPages ? "is-disabled" : ""}" data-page="${currentPage + 1}">›</a>
         </nav>
-      </div>
-    `;
+      </div>`;
 
         slot.querySelectorAll(".mf-pg-btn").forEach((btn) => {
             const page = parseInt(btn.getAttribute("data-page"), 10);
@@ -356,8 +270,7 @@
         });
     }
 
-    // ===== FILTER CONFIG =====
-    // Chỉ 1 lựa chọn mỗi nhóm – giống Magento
+    // ===== FILTER CONFIG & STATE =====
     const FILTERS_STATE = {
         category: null,
         depth: null,
@@ -384,152 +297,98 @@
     ];
 
     const FILTER_CONFIG = {
-        category: {
-            label: "CATEGORY",
-            key: "category",
-            type: "value",
-            buckets: [], // sẽ fill sau khi load JSON
-        },
+        category: { label: "CATEGORY", key: "category", type: "value", buckets: [] },
         depth: {
-            label: "DEPTH",
-            key: "depth_mm",
-            type: "range",
-            buckets: [
+            label: "DEPTH", key: "depth_mm", type: "range", buckets: [
                 { id: "d-0-199", label: "0 – 199", min: 0, max: 199 },
                 { id: "d-200-399", label: "200 – 399", min: 200, max: 399 },
                 { id: "d-400-599", label: "400 – 599", min: 400, max: 599 },
                 { id: "d-600-799", label: "600 – 799", min: 600, max: 799 },
                 { id: "d-800-999", label: "800 – 999", min: 800, max: 999 },
-            ],
+            ]
         },
         height: {
-            label: "HEIGHT",
-            key: "height_mm",
-            type: "range",
-            buckets: [
+            label: "HEIGHT", key: "height_mm", type: "range", buckets: [
                 { id: "h-0-199", label: "0 – 199", min: 0, max: 199 },
                 { id: "h-200-399", label: "200 – 399", min: 200, max: 399 },
                 { id: "h-400-599", label: "400 – 599", min: 400, max: 599 },
                 { id: "h-600-799", label: "600 – 799", min: 600, max: 799 },
                 { id: "h-800-999", label: "800 – 999", min: 800, max: 999 },
                 { id: "h-1000-1199", label: "1000 – 1199", min: 1000, max: 1199 },
-            ],
+            ]
         },
         width: {
-            label: "WIDTH",
-            key: "width_mm",
-            type: "range",
-            buckets: [
+            label: "WIDTH", key: "width_mm", type: "range", buckets: [
                 { id: "w-0-199", label: "0 – 199", min: 0, max: 199 },
                 { id: "w-200-399", label: "200 – 399", min: 200, max: 399 },
                 { id: "w-400-599", label: "400 – 599", min: 400, max: 599 },
                 { id: "w-600-799", label: "600 – 799", min: 600, max: 799 },
                 { id: "w-800-999", label: "800 – 999", min: 800, max: 999 },
-            ],
+            ]
         },
         price: {
-            label: "PRICE",
-            key: "price",
-            type: "range",
-            buckets: [
-                {
-                    id: "p-0-9999",
-                    label: "Kč 0.00 – 9,999.99",
-                    min: 0,
-                    max: 9999.99,
-                },
-                {
-                    id: "p-10000-plus",
-                    label: "10,000.00 and above",
-                    min: 10000,
-                    max: Infinity,
-                },
-            ],
+            label: "PRICE", key: "price", type: "range", buckets: [
+                { id: "p-0-9999", label: "Kč 0.00 – 9,999.99", min: 0, max: 9999.99 },
+                { id: "p-10000-plus", label: "10,000.00 and above", min: 10000, max: Infinity },
+            ]
         },
         material: {
-            label: "MATERIAL",
-            key: "material",
-            type: "value",
-            buckets: [
+            label: "MATERIAL", key: "material", type: "value", buckets: [
                 { id: "m-aluminium", label: "Aluminium", value: "Aluminium" },
                 { id: "m-enameled", label: "Enameled steel", value: "Enameled steel" },
                 { id: "m-ss", label: "Stainless steel", value: "Stainless steel" },
                 { id: "m-ss-18-8", label: "Stainless steel 18/8", value: "Stainless steel 18/8" },
                 { id: "m-ss-430", label: "Stainless steel 430", value: "Stainless steel 430" },
-            ],
+            ]
         },
         version: {
-            label: "VERSION",
-            key: "version",
-            type: "value",
-            buckets: [
+            label: "VERSION", key: "version", type: "value", buckets: [
                 { id: "v-electric", label: "Electric", value: "Electric" },
                 { id: "v-gas", label: "Gas", value: "Gas" },
-            ],
+            ]
         },
         door_hinging: {
-            label: "DOOR LEFT / RIGHT HINGING",
-            key: "door_hinging",
-            type: "value",
-            buckets: [
+            label: "DOOR LEFT / RIGHT HINGING", key: "door_hinging", type: "value", buckets: [
                 { id: "door-left", label: "Left", value: "Left" },
                 { id: "door-right", label: "Right", value: "Right" },
-            ],
+            ]
         },
         lights: {
-            label: "LIGHTS",
-            key: "lights",
-            type: "value",
-            buckets: [
+            label: "LIGHTS", key: "lights", type: "value", buckets: [
                 { id: "light-no", label: "No", value: "No" },
                 { id: "light-yes", label: "Yes", value: "Yes" },
                 { id: "light-led", label: "Yes, LED", value: "Yes, LED" },
-            ],
+            ]
         },
         parcel_ready: {
-            label: "PARCEL READY",
-            key: "parcel_ready",
-            type: "value",
-            buckets: [
+            label: "PARCEL READY", key: "parcel_ready", type: "value", buckets: [
                 { id: "parcel-yes", label: "Yes", value: "Yes" },
                 { id: "parcel-no", label: "No", value: "No" },
-            ],
+            ]
         },
         operation: {
-            label: "OPERATION",
-            key: "operation",
-            type: "value",
-            buckets: [
+            label: "OPERATION", key: "operation", type: "value", buckets: [
                 { id: "op-knob", label: "Knob", value: "Knob" },
                 { id: "op-manual", label: "Manual", value: "Manual" },
                 { id: "op-touch", label: "Touch screen", value: "Touch screen" },
-            ],
+            ]
         },
         model_type: {
-            label: "MODEL TABLETOP/FREESTANDING/DROP-IN",
-            key: "model_type",
-            type: "value",
-            buckets: [
+            label: "MODEL TABLETOP/FREESTANDING/DROP-IN", key: "model_type", type: "value", buckets: [
                 { id: "model-freestanding", label: "Freestanding", value: "Freestanding" },
                 { id: "model-tabletop", label: "Tabletop", value: "Tabletop" },
-            ],
+            ]
         },
         voltage: {
-            label: "VOLTAGE (VOLT)",
-            key: "voltage",
-            type: "value",
-            buckets: [
+            label: "VOLTAGE (VOLT)", key: "voltage", type: "value", buckets: [
                 { id: "vol-230", label: "230", value: "230" },
                 { id: "vol-400", label: "400", value: "400" },
-            ],
+            ]
         },
         color: {
-            label: "COLOR",
-            key: "color",
-            type: "value",
-            buckets: [
+            label: "COLOR", key: "color", type: "value", buckets: [
                 { id: "c-ss", label: "Stainless steel", value: "Stainless steel" },
-            ],
+            ]
         },
     };
 
@@ -545,30 +404,25 @@
         return true;
     }
 
-    // ===== BUILD FILTER UI (ĐÃ CHỈNH SỬA TÁCH CATEGORY) =====
+    // ===== BUILD FILTER UI =====
+    // FIX: Render HTML 1 lần, không gọi lại hàm này khi click
     function buildFilterPanel() {
         let categoryHtml = "";
         let otherFiltersHtml = "";
 
-        // Duyệt qua config để tạo HTML
         Object.entries(FILTER_CONFIG).forEach(([groupId, conf]) => {
-            // 1. Tạo danh sách các mục con (buckets)
             const bucketHtml = conf.buckets
                 .map((b) => {
-                    const count = allProducts.filter((p) =>
-                        matchBucket(p, conf, b)
-                    ).length;
+                    const count = allProducts.filter((p) => matchBucket(p, conf, b)).length;
+                    if (!count) return "";
 
-                    if (!count) return ""; // Không có sản phẩm thì ẩn
-
-                    // Kiểm tra xem mục này đang active không
-                    const isActive = FILTERS_STATE[groupId] === b.id ? "active" : "";
-                    const activeStyle = isActive ? "font-weight:bold; color:#000;" : "";
+                    // Không thêm class active ở đây một cách cứng nhắc, ta sẽ toggle nó qua JS khi click
+                    // nhưng khi render lần đầu, cần check state để set active nếu có (ví dụ reload trang)
+                    const isActive = FILTERS_STATE[groupId] === b.id;
 
                     return `
                       <a href="#" 
-                         class="d-flex justify-content-between py-1 mf-filter-link ${isActive}"
-                         style="${activeStyle}"
+                         class="d-flex justify-content-between py-1 mf-filter-link ${isActive ? 'active' : ''}"
                          data-group="${groupId}" 
                          data-bucket-id="${b.id}">
                         <span>${b.label}</span>
@@ -578,13 +432,12 @@
                 })
                 .join("");
 
-            if (!bucketHtml) return; // Nếu nhóm này rỗng thì bỏ qua
+            if (!bucketHtml) return;
 
-            // 2. Tạo khung HTML cho từng nhóm (Accordion)
-            // Lưu ý: Category mặc định mở (block), các cái khác đóng (none)
+            // Mặc định: Category mở (display: block), các cái khác đóng (display: none)
             const isCategory = (groupId === "category");
             const displayStyle = isCategory ? "block" : "none";
-            const iconTransform = isCategory ? "rotate(0deg)" : "rotate(180deg)";
+            const iconTransform = isCategory ? "rotate(180deg)" : "rotate(0deg)"; // Icon mũi tên
 
             const groupHtml = `
               <div class="filter-option mb-2 pb-2 ${isCategory ? '' : 'border-bottom'}" data-group="${groupId}">
@@ -601,7 +454,6 @@
               </div>
             `;
 
-            // 3. Phân loại: Nếu là Category thì để riêng, còn lại gộp vào nhóm khác
             if (isCategory) {
                 categoryHtml = groupHtml;
             } else {
@@ -609,38 +461,28 @@
             }
         });
 
-        // ===== KẾT HỢP HTML CUỐI CÙNG =====
         filterPanel.innerHTML = `
-            <div class="mb-2">
-                ${categoryHtml}
-            </div>
-
+            <div class="mb-2">${categoryHtml}</div>
             <div style="margin-top: 50px; margin-bottom: 20px; border-top: 1px solid #dee2e6;"></div> 
-            
-            <div class="mb-3">
-                <strong class="text-uppercase">${LABELS.shoppingOptions}</strong>
-            </div>
-
-            <div class="other-filters">
-                ${otherFiltersHtml}
-            </div>
+            <div class="mb-3"><strong class="text-uppercase">${LABELS.shoppingOptions}</strong></div>
+            <div class="other-filters">${otherFiltersHtml}</div>
         `;
 
-        // --- Gán sự kiện Click đóng/mở (Accordion) ---
+        // --- Event Listener: Accordion (Đóng/Mở) ---
         filterPanel.querySelectorAll(".filter-option").forEach((opt) => {
             const header = opt.querySelector(".filter-options-title");
             const content = opt.querySelector(".filter-options-content");
             const icon = opt.querySelector("i.fa-chevron-down");
 
             header.addEventListener("click", () => {
-                const isOpen = content.style.display !== "none";
-                content.style.display = isOpen ? "none" : "block";
-                if (icon) icon.style.transform = isOpen ? "rotate(180deg)" : "rotate(0deg)";
+                const isClosed = content.style.display === "none";
+                content.style.display = isClosed ? "block" : "none";
+                if (icon) icon.style.transform = isClosed ? "rotate(180deg)" : "rotate(0deg)";
             });
         });
 
-        // --- Gán sự kiện Click chọn filter ---
-        // (Giữ nguyên logic cũ của bạn)
+        // --- Event Listener: Chọn Filter (Logic chuẩn từ file buffet) ---
+        // FIX: Chỉ toggle class active, không gọi lại buildFilterPanel()
         filterPanel.addEventListener("click", (e) => {
             const link = e.target.closest(".mf-filter-link");
             if (!link) return;
@@ -650,19 +492,28 @@
             const bucketId = link.dataset.bucketId;
             if (!group || !bucketId) return;
 
+            // Logic toggle filter
             if (FILTERS_STATE[group] === bucketId) {
-                FILTERS_STATE[group] = null; // Bỏ chọn
+                // Bỏ chọn
+                FILTERS_STATE[group] = null;
+                link.classList.remove("active");
             } else {
-                FILTERS_STATE[group] = bucketId; // Chọn mới
+                // Chọn mới
+                FILTERS_STATE[group] = bucketId;
+                // Xóa active cũ trong cùng group
+                filterPanel
+                    .querySelectorAll(`.mf-filter-link[data-group="${group}"]`)
+                    .forEach((a) => a.classList.remove("active"));
+                // Active cái mới
+                link.classList.add("active");
             }
 
-            // Reset page & Render lại
+            // Reset page về 1
             const url = new URL(location.href);
             url.searchParams.set("page", "1");
             history.replaceState(null, "", url);
 
             applyFilters();
-            buildFilterPanel(); // Re-build để cập nhật UI active
             renderProducts();
         });
     }
@@ -670,17 +521,14 @@
     // ===== APPLY FILTERS =====
     function applyFilters() {
         let list = allProducts.slice();
-
         Object.entries(FILTERS_STATE).forEach(([groupId, bucketId]) => {
             if (!bucketId) return;
             const conf = FILTER_CONFIG[groupId];
             if (!conf) return;
             const bucket = conf.buckets.find((b) => b.id === bucketId);
             if (!bucket) return;
-
             list = list.filter((p) => matchBucket(p, conf, bucket));
         });
-
         filteredProducts = list;
     }
 
@@ -709,9 +557,7 @@
             image: a.dataset.image,
             qty: 1,
         };
-
         document.dispatchEvent(new CustomEvent("cart:add", { detail: item }));
-
         a.classList.add("disabled");
         const span = a.querySelector("span");
         if (span) span.textContent = LABELS.added;
@@ -721,38 +567,28 @@
         }, 1200);
     });
 
-    // ===== LOAD JSON & INIT =====
-    grid.innerHTML = `
-    <div class="col-12 text-center py-5">
-      <div class="spinner-border" role="status" aria-label="${LABELS.loadingAria}"></div>
-    </div>
-  `;
+    // ===== INIT =====
+    grid.innerHTML = `<div class="col-12 text-center py-5"><div class="spinner-border" role="status" aria-label="${LABELS.loadingAria}"></div></div>`;
 
     try {
         const res = await fetch(DATA_URL, { cache: "no-store" });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const raw = await res.json();
-        allProducts = (Array.isArray(raw) ? raw : [])
-            .map(normalize)
-            .filter((p) => p && p.name);
+        allProducts = (Array.isArray(raw) ? raw : []).map(normalize).filter((p) => p && p.name);
 
-        // Build bucket cho CATEGORY theo thứ tự cố định
+        // Build bucket cho CATEGORY
         FILTER_CONFIG.category.buckets = CATEGORY_ORDER.map((label) => ({
             id: "cat-" + label.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
             label,
             value: label,
         }));
 
-        buildFilterPanel();
+        buildFilterPanel(); // Gọi 1 lần duy nhất
         applyFilters();
         renderProducts();
     } catch (err) {
         console.error("Load ovens equipment failed:", err);
-        grid.innerHTML = `
-      <div class="col-12">
-        <div class="alert alert-danger" role="alert">${LABELS.error}</div>
-      </div>
-    `;
+        grid.innerHTML = `<div class="col-12"><div class="alert alert-danger" role="alert">${LABELS.error}</div></div>`;
         const ps = document.querySelector(PAGER_SLOT);
         if (ps) ps.innerHTML = "";
     }

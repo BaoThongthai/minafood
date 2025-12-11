@@ -2084,5 +2084,152 @@
         },
         "downloads": [],
         "accessories": []
+    },
+    {
+        "code": "38055",
+        "name": "Nerone MID 04 GN 1/1 H2O - Convection Oven",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZGE5YjQzMDgtMTU5Mi00MDBjLWIxMjQtNGJkYTg0ZDZhNDAxLnRpZg==.webp",
+        "image_large": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZGE5YjQzMDgtMTU5Mi00MDBjLWIxMjQtNGJkYTg0ZDZhNDAxLnRpZg==.webp",
+        "price": 65590,
+        "price_currency": "Kč bez DPH",
+        "price_text": "65 590 Kč",
+        "specs": {
+            "width": 840,
+            "height": 910,
+            "depth": 670,
+            "material": "Stainless steel",
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Tabletop",
+            "voltage": "400 V",
+            "door_left_/_right_hinging": "Left",
+            "control": "Digital"
+        }
+    },
+    {
+        "code": "38038",
+        "name": "Nerone MID 05 GN 1/1 H2O - Convection Oven",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMmRmNzJiMGItNjQ3My00YTllLWFkMmMtMzY0ZDhkZTI1MTYxLnRpZg==.webp",
+        "image_large": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMmRmNzJiMGItNjQ3My00YTllLWFkMmMtMzY0ZDhkZTI1MTYxLnRpZg==.webp",
+        "price": 68910,
+        "price_currency": "Kč bez DPH",
+        "price_text": "68 910 Kč",
+        "specs": {
+            "width": 840,
+            "height": 910,
+            "depth": 750,
+            "material": "Stainless steel",
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Tabletop",
+            "voltage": "400 V",
+            "door_left_/_right_hinging": "Left",
+            "control": "Digital"
+        }
+    },
+    {
+        "code": "37985",
+        "name": "Nerone MID 06 GN 1/1 H2O - Convection Oven",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNjljYjExNmMtYzY3Ni00ZjJlLWExMWQtMTg5OTY3MjhmZDkwLnRpZg==.webp",
+        "image_large": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNjljYjExNmMtYzY3Ni00ZjJlLWExMWQtMTg5OTY3MjhmZDkwLnRpZg==.webp",
+        "price": 71350,
+        "price_currency": "Kč bez DPH",
+        "price_text": "71 350 Kč",
+        "specs": {
+            "width": 840,
+            "height": 910,
+            "depth": 830,
+            "material": "Stainless steel",
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Tabletop",
+            "voltage": "400 V",
+            "door_left_/_right_hinging": "Left",
+            "control": "Digital"
+        }
+    },
+    {
+        "code": "35859",
+        "name": "Nerone MID 07 GN 1/1 H2O - Convection Oven",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZjA3MmU2MWUtZmVhNC00ZGJkLWI0YjQtZWZiZmZjN2M2ZTJlLnRpZg==.webp",
+        "image_large": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZjA3MmU2MWUtZmVhNC00ZGJkLWI0YjQtZWZiZmZjN2M2ZTJlLnRpZg==.webp",
+        "price": 82900,
+        "price_currency": "Kč bez DPH",
+        "price_text": "82 900 Kč",
+        "specs": {
+            "width": 840,
+            "height": 910,
+            "depth": 930,
+            "material": "Stainless steel",
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Tabletop",
+            "voltage": "400 V",
+            "door_left_/_right_hinging": "Left",
+            "control": "Digital"
+        }
+    },
+    {
+        "code": "38588",
+        "name": "Nerone MID 10 GN 1/1 H2O - Convection Oven",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vOTViMTYyODItMGRjMi00NjIwLTkyOWUtN2U4ZTIzZTczYWNkLnRpZg==.webp",
+        "image_large": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vOTViMTYyODItMGRjMi00NjIwLTkyOWUtN2U4ZTIzZTczYWNkLnRpZg==.webp",
+        "price": 90220,
+        "price_currency": "Kč bez DPH",
+        "price_text": "90 220 Kč",
+        "specs": {
+            "width": 840,
+            "height": 910,
+            "depth": 1150,
+            "material": "Stainless steel",
+            "version": "Electric",
+            "model_tabletop/_freestanding/drop-in": "Tabletop",
+            "voltage": "400 V",
+            "door_left_/_right_hinging": "Left",
+            "control": "Digital"
+        }
+    },
+    {
+        "code": "41419",
+        "name": "NEFOM Stand for Oven Nerone MID",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vM2UxOGQxMGYtOTk3Ny00YWMxLWI2OTItYjYzZTM3NDI3NGUwLnBuZw==.webp",
+        "image_large": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vM2UxOGQxMGYtOTk3Ny00YWMxLWI2OTItYjYzZTM3NDI3NGUwLnBuZw==.webp",
+        "price": 13680,
+        "price_currency": "Kč bez DPH",
+        "price_text": "13 680 Kč",
+        "specs": {
+            "material": "Stainless steel",
+            "model_tabletop/_freestanding/drop-in": "Freestanding"
+        }
+    },
+    {
+        "code": "37894",
+        "name": "NEFON Stand for Oven Nerone FEM04NEGNV",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vM2UxOGQxMGYtOTk3Ny00YWMxLWI2OTItYjYzZTM3NDI3NGUwLnBuZw==.webp",
+        "image_large": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vM2UxOGQxMGYtOTk3Ny00YWMxLWI2OTItYjYzZTM3NDI3NGUwLnBuZw==.webp",
+        "price": 11530,
+        "price_currency": "Kč bez DPH",
+        "price_text": "11 530 Kč",
+        "specs": {
+            "material": "Stainless steel",
+            "model_tabletop/_freestanding/drop-in": "Freestanding"
+        }
+    },
+    {
+        "code": "37895",
+        "name": "NEFOP Stand for Oven Nerone FEM03NEPSV",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vM2UxOGQxMGYtOTk3Ny00YWMxLWI2OTItYjYzZTM3NDI3NGUwLnBuZw==.webp",
+        "image_large": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vM2UxOGQxMGYtOTk3Ny00YWMxLWI2OTItYjYzZTM3NDI3NGUwLnBuZw==.webp",
+        "price": 11920,
+        "price_currency": "Kč bez DPH",
+        "price_text": "11 920 Kč",
+        "specs": {
+            "material": "Stainless steel",
+            "model_tabletop/_freestanding/drop-in": "Freestanding"
+        }
     }
 ]
