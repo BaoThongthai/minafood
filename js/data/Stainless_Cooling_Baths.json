@@ -1,0 +1,154 @@
+[
+    {
+        "code": "CW2/V",
+        "name": "CW2/V Ventilated Drop-In Cooling Bath (GN 2/1)",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNjI3ZmE0NDUtOTM4YS00MGZiLWI4MjMtZDdjMDkyMTk1MDc2LnBuZw==.webp",
+        "price": 20650,
+        "price_currency": "Kč bez DPH",
+        "price_text": "20 650 Kč",
+        "specs": {
+            "width": 788,
+            "depth": 688,
+            "height": 636,
+            "type": "Drop-In Well",
+            "cooling_system": "Ventilated",
+            "material": "Stainless Steel",
+            "capacity": "2 GN 1/1"
+        },
+        "description": "Professional ventilated drop-in refrigerated well. Features dynamic air cooling for even temperature distribution, ideal for high-end buffet lines."
+    },
+    {
+        "code": "CW3/V",
+        "name": "CW3/V Ventilated Drop-In Cooling Bath (GN 3/1)",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vY2ZkN2JlNTEtNWY1My00MDY4LWFhYjAtMjUyMWI1NTVlNmM1LnBuZw==.webp",
+        "price": 22820,
+        "price_currency": "Kč bez DPH",
+        "price_text": "22 820 Kč",
+        "specs": {
+            "width": 1122,
+            "depth": 688,
+            "height": 636,
+            "type": "Drop-In Well",
+            "cooling_system": "Ventilated",
+            "material": "Stainless Steel",
+            "capacity": "3 GN 1/1"
+        },
+        "description": "Three-pan capacity ventilated cooling bath. Stainless steel construction ensures durability and hygiene for self-service food display."
+    },
+    {
+        "code": "CW4/V",
+        "name": "CW4/V Ventilated Drop-In Cooling Bath (GN 4/1)",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMDVhYjdiNjktMzYxMS00YzQ2LTk5NDUtYzU3MGE3ZDFlN2Y4LnBuZw==.webp",
+        "price": 25540,
+        "price_currency": "Kč bez DPH",
+        "price_text": "25 540 Kč",
+        "specs": {
+            "width": 1456,
+            "depth": 688,
+            "height": 636,
+            "type": "Drop-In Well",
+            "cooling_system": "Ventilated",
+            "material": "Stainless Steel",
+            "capacity": "4 GN 1/1"
+        },
+        "description": "Large ventilated refrigerated well fitting 4 GN 1/1 pans. Perfect for maintaining salad bars and cold dishes at optimal serving temperatures."
+    },
+    {
+        "code": "CW5/V",
+        "name": "CW5/V Ventilated Drop-In Cooling Bath (GN 5/1)",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vODZlZjE1NzAtMTFmMi00MWU2LTg1ZDctNjBiNTZiZDIxMmY5LnBuZw==.webp",
+        "price": 29530,
+        "price_currency": "Kč bez DPH",
+        "price_text": "29 530 Kč",
+        "specs": {
+            "width": 1790,
+            "depth": 688,
+            "height": 636,
+            "type": "Drop-In Well",
+            "cooling_system": "Ventilated",
+            "material": "Stainless Steel",
+            "capacity": "5 GN 1/1"
+        },
+        "description": "Extra-large ventilated drop-in bath for extensive buffet setups. Robust stainless steel design with efficient air circulation technology."
+    },
+    {
+        "code": "CW2",
+        "name": "CW2 Static Drop-In Cooling Bath (GN 2/1)",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vYjk4ODhjODktYzQ3NC00ZDc3LTk0M2YtOGMyNmQzZDA0ZTAzLnBuZw==.webp",
+        "price": 19170,
+        "price_currency": "Kč bez DPH",
+        "price_text": "19 170 Kč",
+        "specs": {
+            "width": 768,
+            "depth": 678,
+            "height": 536,
+            "type": "Drop-In Well",
+            "cooling_system": "Static",
+            "material": "Stainless Steel",
+            "capacity": "2 GN 1/1"
+        },
+        "description": "Compact static refrigerated well. Ideal for smaller counters, providing reliable static cooling for keeping ingredients fresh."
+    },
+    {
+        "code": "CW3",
+        "name": "CW3 Static Drop-In Cooling Bath (GN 3/1)",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vODEyNjBiYzAtMDU1MC00MDQ4LWI3MzktNzI5ZTBiZGQxNjZkLnBuZw==.webp",
+        "price": 20870,
+        "price_currency": "Kč bez DPH",
+        "price_text": "20 870 Kč",
+        "specs": {
+            "width": 1102,
+            "depth": 678,
+            "height": 536,
+            "type": "Drop-In Well",
+            "cooling_system": "Static",
+            "material": "Stainless Steel",
+            "capacity": "3 GN 1/1"
+        },
+        "description": "Standard static cooling bath for 3 GN pans. A cost-effective solution for built-in food presentation."
+    },
+    {
+        "code": "CW4",
+        "name": "CW4 Static Drop-In Cooling Bath (GN 4/1)",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vMjA2MDY5YzgtM2MxZS00OTdlLWFmYjItM2MzMDcyOGVhMWM1LnBuZw==.webp",
+        "price": 23550,
+        "price_currency": "Kč bez DPH",
+        "price_text": "23 550 Kč",
+        "specs": {
+            "width": 1436,
+            "depth": 678,
+            "height": 536,
+            "type": "Drop-In Well",
+            "cooling_system": "Static",
+            "material": "Stainless Steel",
+            "capacity": "4 GN 1/1"
+        },
+        "description": "Four-pan static refrigerated well. Features high-quality insulation and stainless steel finish for easy cleaning."
+    },
+    {
+        "code": "CW5",
+        "name": "CW5 Static Drop-In Cooling Bath (GN 5/1)",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vNDc4M2JiZDMtMTYyMS00NzE2LTkwMjQtZDdlZDQyMzJiN2QwLnBuZw==.webp",
+        "price": 26100,
+        "price_currency": "Kč bez DPH",
+        "price_text": "26 100 Kč",
+        "specs": {
+            "width": 1770,
+            "depth": 678,
+            "height": 536,
+            "type": "Drop-In Well",
+            "cooling_system": "Static",
+            "material": "Stainless Steel",
+            "capacity": "5 GN 1/1"
+        },
+        "description": "Wide static cooling bath designed for 5 GN 1/1 pans. Ensures consistent cooling performance for larger food displays."
+    }
+]

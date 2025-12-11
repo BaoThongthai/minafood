@@ -1,207 +1,207 @@
 [
- {
-    "id": "set-zasuvek-gn11",
-    "name": "Set zásuvek GN1/1 (2 x 1/2)",
-    "label": "GC-DRAWERS/SK COUNTER",
+  {
+    "code": "12546",
+    "name": "GN 1/1 Drawer Set (2 x 1/2 Drawers)",
+    "url": "#",
     "image": "https://headlessapi.tefcold.com/images/auto/0/624/ce/L3BlcmZpb24vZGNjMGFjNDQtYjcxYy00Yjk1LTllMzctNzY4ZGIzOTM3M2E4LmpwZw==.webp",
-    "item_number": "12546",
-    "capacity": { "gross": null, "net": null },
-    "dimensions": { "w": null, "d": null, "h": null },
-    "availability": {
-      "ostrava": "11-20",
-      "dansko": "21-50",
-      "status": "Skladem",
-      "delivery": ""
-    },
     "price": 9950,
-    "currency": "Kč"
+    "price_currency": "Kč bez DPH",
+    "price_text": "9 950 Kč",
+    "specs": {
+      "compatibility": "GC/SK Counters",
+      "configuration": "2 Drawers (1/2 + 1/2)",
+      "material": "Stainless Steel",
+      "type": "Drawer Kit"
+    },
+    "description": "Replacement drawer kit for GC/SK series counters. Converts a door section into two 1/2 size drawers, optimizing storage for smaller GN pans."
   },
   {
-    "id": "pracovni-deska-lem",
-    "name": "Pracovní deska se zadním lemem",
-    "label": "GC/GF 72",
+    "code": "37584",
+    "name": "Worktop for GC/GF 72 (With Splashback)",
+    "url": "#",
     "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vZTViMjhmMmEtZWU4NC00N2FkLTk4YWMtZmNkYzJlMTA4MTBlLnBuZw==.webp",
-    "item_number": "37584",
-    "capacity": { "gross": null, "net": null },
-    "dimensions": { "w": null, "d": null, "h": null },
-    "availability": {
-      "ostrava": 8,
-      "dansko": 0,
-      "status": "Skladem",
-      "delivery": ""
-    },
     "price": 7820,
-    "currency": "Kč"
+    "price_currency": "Kč bez DPH",
+    "price_text": "7 820 Kč",
+    "specs": {
+      "width": 1360,
+      "compatibility": "GC72 / GF72",
+      "material": "Stainless Steel",
+      "type": "Worktop",
+      "feature": "Rear Upstand"
+    },
+    "description": "Stainless steel worktop designed for GC72/GF72 bases (1360mm). Features a rear upstand to protect walls and prevent spills."
   },
   {
-    "id": "pracovni-deska-bez-lemu",
-    "name": "Pracovní deska bez zadního lemu",
-    "label": "GC/GF 72",
+    "code": "37585",
+    "name": "Worktop for GC/GF 72 (Flat Top)",
+    "url": "#",
     "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vYmU0NzdiMjAtNTY1OC00MTJiLTgwZjctNjE2NjcxYTI3ODJhLnBuZw==.webp",
-    "item_number": "37585",
-    "capacity": { "gross": null, "net": null },
-    "dimensions": { "w": null, "d": null, "h": null },
-    "availability": {
-      "ostrava": 4,
-      "dansko": 0,
-      "status": "Skladem",
-      "delivery": ""
-    },
     "price": 7820,
-    "currency": "Kč"
+    "price_currency": "Kč bez DPH",
+    "price_text": "7 820 Kč",
+    "specs": {
+      "width": 1360,
+      "compatibility": "GC72 / GF72",
+      "material": "Stainless Steel",
+      "type": "Worktop",
+      "feature": "Flat Edge"
+    },
+    "description": "Flat stainless steel worktop for GC72/GF72 bases (1360mm). Ideal for island installations or central kitchen positioning."
   },
   {
-    "id": "pracovni-deska-drez-lem",
-    "name": "Pracovní deska s dřezem a zadním lemem",
-    "label": "GC72",
+    "code": "37586",
+    "name": "Worktop with Sink for GC72 (With Splashback)",
+    "url": "#",
     "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vYjMzMmIzMmQtYzA0MC00MGY0LWE5ZTYtNDc0MzcwNmIwZTQ1LnBuZw==.webp",
-    "item_number": "37586",
-    "capacity": { "gross": null, "net": null },
-    "dimensions": { "w": null, "d": null, "h": null },
-    "availability": {
-      "ostrava": 0,
-      "dansko": 0,
-      "status": "Není skladem",
-      "delivery": ""
-    },
     "price": 13850,
-    "currency": "Kč"
-  }
-  ,
-  {
-    "id": "pracovni-deska-s-drezem-vpravo-a-bez-lemu_37597",
-    "name": "Pracovní deska s dřezem vpravo a bez lemu",
-    "label": "GC72",
-    "image": "https://headlessapi.tefcold.com/images/auto/0/857/ce/L3BlcmZpb24vYzAyNDQ3YjItMzJmNy00M2MzLWFmNGUtZWRiOWMyMDRjMWNlLnBuZw==.webp",
-    "item_number": "37597",
-    "capacity": { "gross": null, "net": null },
-    "dimensions": { "w": null, "d": null, "h": null },
-    "availability": {
-      "ostrava": 1,
-      "dansko": 0,
-      "status": "Skladem",
-      "delivery": ""
+    "price_currency": "Kč bez DPH",
+    "price_text": "13 850 Kč",
+    "specs": {
+      "width": 1360,
+      "compatibility": "GC72",
+      "material": "Stainless Steel",
+      "type": "Worktop with Sink",
+      "feature": "Rear Upstand"
     },
-    "price": 13850,
-    "currency": "Kč"
+    "description": "Integrated sink worktop for GC72 refrigerated bases. Includes a rear splashback for hygiene and wall protection."
   },
   {
-    "id": "pracovni-deska-s-drezem-vlevo-a-zadnim-lemem_41402",
-    "name": "Pracovní deska s dřezem vlevo a zadním lemem",
-    "label": "GC72",
+    "code": "37597",
+    "name": "Worktop with Right Sink for GC72 (Flat Top)",
+    "url": "#",
+    "image": "https://headlessapi.tefcold.com/images/auto/0/857/ce/L3BlcmZpb24vYzAyNDQ3YjItMzJmNy00M2MzLWFmNGUtZWRiOWMyMDRjMWNlLnBuZw==.webp",
+    "price": 13850,
+    "price_currency": "Kč bez DPH",
+    "price_text": "13 850 Kč",
+    "specs": {
+      "width": 1360,
+      "compatibility": "GC72",
+      "material": "Stainless Steel",
+      "type": "Worktop with Sink",
+      "sink_position": "Right",
+      "feature": "Flat Edge"
+    },
+    "description": "Flat worktop with a right-positioned sink for GC72 bases. Suitable for island setups requiring a washing station."
+  },
+  {
+    "code": "41402",
+    "name": "Worktop with Left Sink for GC72 (With Splashback)",
+    "url": "#",
     "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vZmMyMjk5MTYtY2VmYi00YzVhLWIwNzMtMDY2ZWQzY2VhYzhiLnBuZw==.webp",
-    "item_number": "41402",
-    "capacity": { "gross": null, "net": null },
-    "dimensions": { "w": null, "d": null, "h": null },
-    "availability": {
-      "ostrava": 1,
-      "dansko": 0,
-      "status": "Skladem",
-      "delivery": ""
-    },
     "price": 13850,
-    "currency": "Kč"
+    "price_currency": "Kč bez DPH",
+    "price_text": "13 850 Kč",
+    "specs": {
+      "width": 1360,
+      "compatibility": "GC72",
+      "material": "Stainless Steel",
+      "type": "Worktop with Sink",
+      "sink_position": "Left",
+      "feature": "Rear Upstand"
+    },
+    "description": "Worktop featuring a left-side sink and rear upstand. Designed for GC72 bases to create a complete prep and wash station."
   },
   {
-    "id": "pracovni-deska-se-zadnim-lemem_37587",
-    "name": "Pracovní deska se zadním lemem",
-    "label": "GC/GF 73",
+    "code": "37587",
+    "name": "Worktop for GC/GF 73 (With Splashback)",
+    "url": "#",
     "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vZTViMjhmMmEtZWU4NC00N2FkLTk4YWMtZmNkYzJlMTA4MTBlLnBuZw==.webp",
-    "item_number": "37587",
-    "capacity": { "gross": null, "net": null },
-    "dimensions": { "w": null, "d": null, "h": null },
-    "availability": {
-      "ostrava": 6,
-      "dansko": 0,
-      "status": "Skladem",
-      "delivery": ""
-    },
     "price": 8620,
-    "currency": "Kč"
+    "price_currency": "Kč bez DPH",
+    "price_text": "8 620 Kč",
+    "specs": {
+      "width": 1795,
+      "compatibility": "GC73 / GF73",
+      "material": "Stainless Steel",
+      "type": "Worktop",
+      "feature": "Rear Upstand"
+    },
+    "description": "Stainless steel worktop for 3-door GC73/GF73 bases (1795mm). Includes a rear upstand for sanitary wall protection."
   },
   {
-    "id": "pracovni-deska-bez-zadniho-lemu_37588",
-    "name": "Pracovní deska bez zadního lemu",
-    "label": "GC/GF 73",
+    "code": "37588",
+    "name": "Worktop for GC/GF 73 (Flat Top)",
+    "url": "#",
     "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vYmU0NzdiMjAtNTY1OC00MTJiLTgwZjctNjE2NjcxYTI3ODJhLnBuZw==.webp",
-    "item_number": "37588",
-    "capacity": { "gross": null, "net": null },
-    "dimensions": { "w": null, "d": null, "h": null },
-    "availability": {
-      "ostrava": 3,
-      "dansko": 0,
-      "status": "Skladem",
-      "delivery": ""
-    },
     "price": 8620,
-    "currency": "Kč"
+    "price_currency": "Kč bez DPH",
+    "price_text": "8 620 Kč",
+    "specs": {
+      "width": 1795,
+      "compatibility": "GC73 / GF73",
+      "material": "Stainless Steel",
+      "type": "Worktop",
+      "feature": "Flat Edge"
+    },
+    "description": "Flat stainless steel worktop designed for 3-door GC73/GF73 bases. Provides a seamless workspace for central kitchen islands."
   },
-   {
-    "id": "pracovni-deska-s-drezem-a-zadnim-lemem_37589",
-    "name": "Pracovní deska s dřezem a zadním lemem",
-    "label": "GC73",
+  {
+    "code": "37589",
+    "name": "Worktop with Sink for GC73 (With Splashback)",
+    "url": "#",
     "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vYjMzMmIzMmQtYzA0MC00MGY0LWE5ZTYtNDc0MzcwNmIwZTQ1LnBuZw==.webp",
-    "item_number": "37589",
-    "capacity": { "gross": null, "net": null },
-    "dimensions": { "w": null, "d": null, "h": null },
-    "availability": {
-      "ostrava": 3,
-      "dansko": 0,
-      "status": "Skladem",
-      "delivery": ""
-    },
     "price": 13960,
-    "currency": "Kč"
+    "price_currency": "Kč bez DPH",
+    "price_text": "13 960 Kč",
+    "specs": {
+      "width": 1795,
+      "compatibility": "GC73",
+      "material": "Stainless Steel",
+      "type": "Worktop with Sink",
+      "feature": "Rear Upstand"
+    },
+    "description": "Wide worktop (1795mm) with integrated sink and rear splashback. Fits GC73 bases, adding washing capability to the prep area."
   },
   {
-    "id": "pracovni-deska-s-drezem-bez-zadniho-lemu_37590",
-    "name": "Pracovní deska s dřezem bez zadního lemu",
-    "label": "GC73",
+    "code": "37590",
+    "name": "Worktop with Sink for GC73 (Flat Top)",
+    "url": "#",
     "image": "https://headlessapi.tefcold.com/images/auto/0/857/ce/L3BlcmZpb24vYzAyNDQ3YjItMzJmNy00M2MzLWFmNGUtZWRiOWMyMDRjMWNlLnBuZw==.webp",
-    "item_number": "37590",
-    "capacity": { "gross": null, "net": null },
-    "dimensions": { "w": null, "d": null, "h": null },
-    "availability": {
-      "ostrava": 1,
-      "dansko": 0,
-      "status": "Na objednávku",
-      "delivery": ""
-    },
     "price": 13960,
-    "currency": "Kč"
+    "price_currency": "Kč bez DPH",
+    "price_text": "13 960 Kč",
+    "specs": {
+      "width": 1795,
+      "compatibility": "GC73",
+      "material": "Stainless Steel",
+      "type": "Worktop with Sink",
+      "feature": "Flat Edge"
+    },
+    "description": "Flat worktop with integrated sink for GC73 bases. Ideal for flexible installation without wall constraints."
   },
   {
-    "id": "pracovni-deska-se-zadnim-lemem_37591",
-    "name": "Pracovní deska se zadním lemem",
-    "label": "GC/GF 74",
+    "code": "37591",
+    "name": "Worktop for GC/GF 74 (With Splashback)",
+    "url": "#",
     "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vZTViMjhmMmEtZWU4NC00N2FkLTk4YWMtZmNkYzJlMTA4MTBlLnBuZw==.webp",
-    "item_number": "37591",
-    "capacity": { "gross": null, "net": null },
-    "dimensions": { "w": null, "d": null, "h": null },
-    "availability": {
-      "ostrava": 1,
-      "dansko": 0,
-      "status": "Na objednávku",
-      "delivery": ""
-    },
     "price": 9450,
-    "currency": "Kč"
+    "price_currency": "Kč bez DPH",
+    "price_text": "9 450 Kč",
+    "specs": {
+      "width": 2230,
+      "compatibility": "GC74 / GF74",
+      "material": "Stainless Steel",
+      "type": "Worktop",
+      "feature": "Rear Upstand"
+    },
+    "description": "Extra-large stainless steel worktop for 4-door GC74/GF74 bases (2230mm). Features a rear upstand for wall protection."
   },
   {
-    "id": "pracovni-deska-bez-zadniho-lemu_37592",
-    "name": "Pracovní deska bez zadního lemu",
-    "label": "GC/GF 74",
+    "code": "37592",
+    "name": "Worktop for GC/GF 74 (Flat Top)",
+    "url": "#",
     "image": "https://headlessapi.tefcold.com/images/auto/0/1250/ce/L3BlcmZpb24vYmU0NzdiMjAtNTY1OC00MTJiLTgwZjctNjE2NjcxYTI3ODJhLnBuZw==.webp",
-    "item_number": "37592",
-    "capacity": { "gross": null, "net": null },
-    "dimensions": { "w": null, "d": null, "h": null },
-    "availability": {
-      "ostrava": 2,
-      "dansko": 0,
-      "status": "Na objednávku",
-      "delivery": ""
-    },
     "price": 9450,
-    "currency": "Kč"
+    "price_currency": "Kč bez DPH",
+    "price_text": "9 450 Kč",
+    "specs": {
+      "width": 2230,
+      "compatibility": "GC74 / GF74",
+      "material": "Stainless Steel",
+      "type": "Worktop",
+      "feature": "Flat Edge"
+    },
+    "description": "Massive flat worktop for 4-door GC74/GF74 bases. Provides an expansive 2230mm preparation surface for high-volume kitchens."
   }
 ]
