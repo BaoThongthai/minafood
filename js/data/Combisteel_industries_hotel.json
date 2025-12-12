@@ -124,5 +124,49 @@
                 "price_text": "1 875 Kč"
             }
         ]
+    },
+    {
+        "code": "35793",
+        "name": "JK 79-017 Waste Cooler (1 Bin)",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZTEyZGRhOWQtNDdkZS00OGFhLWEwMjItMTNmZThlNTljYmE3LnRpZg==.webp",
+        "image_large": "https://headlessapi.tefcold.com/images/auto/0/2500/ce/L3BlcmZpb24vZTEyZGRhOWQtNDdkZS00OGFhLWEwMjItMTNmZThlNTljYmE3LnRpZg==.webp",
+        "price": 53460,
+        "price_currency": "Kč bez DPH",
+        "price_text": "53 460 Kč",
+        "specs": {
+            "width": 990,
+            "depth": 850,
+            "height": 1115,
+            "capacity_gross": 450,
+            "capacity_net": 240,
+            "material": "Stainless Steel",
+            "type": "Waste Cooler",
+            "configuration": "For 1 x 120/240L Bin",
+            "voltage": "230 V"
+        },
+        "description": "Professional refrigerated waste storage cabinet designed to hold 1 standard wheelie bin (120L or 240L). Stainless steel construction prevents odors and bacteria growth, essential for commercial kitchen hygiene."
+    },
+    {
+        "code": "35792",
+        "name": "JK 79-027 Waste Cooler (2 Bins)",
+        "url": "#",
+        "image": "https://headlessapi.tefcold.com/images/auto/0/1823/ce/L3BlcmZpb24vNDBhODE4YzEtNTgzOC00YzllLThlNWYtMjQ1NDBhYTYzMmIwLnRpZg==.webp",
+        "image_large": "https://headlessapi.tefcold.com/images/auto/0/1823/ce/L3BlcmZpb24vNDBhODE4YzEtNTgzOC00YzllLThlNWYtMjQ1NDBhYTYzMmIwLnRpZg==.webp",
+        "price": 59360,
+        "price_currency": "Kč bez DPH",
+        "price_text": "59 360 Kč",
+        "specs": {
+            "width": 1660,
+            "depth": 850,
+            "height": 1115,
+            "capacity_gross": 950,
+            "capacity_net": 480,
+            "material": "Stainless Steel",
+            "type": "Waste Cooler",
+            "configuration": "For 2 x 120/240L Bins",
+            "voltage": "230 V"
+        },
+        "description": "Large capacity waste cooling chamber capable of housing 2 standard wheelie bins. Ensures strict hygiene compliance by maintaining low temperatures to inhibit decomposition and smell."
     }
 ]

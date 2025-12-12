@@ -164,7 +164,7 @@
             "rangcomvabocbat.title": "rýžovaru a vařiče na nudle",
             "tunaucom.title": "rýžovaru",
             "maythairau.title": "kráječ zeleniny",
-            "mayhutchankhong.title": "vakuový stroj",
+            "mayhutchankhong.title": "stroj na balení potravin",
             "Search_results": "Výsledky vyhledávání",
             "qx260.title": "Kráječ čerstvého masa QX-260",
             "qx260.summary": "QX-260 je ideální stroj pro provozy a restaurace: motor 1,5 kW, výkon cca 250 kg/h a vyměnitelné nožové sady 2–20 mm. Řeže rovnoměrné plátky i silnější kůži (telecí, kozí), šetří práci – obsluha zvládne jedním tlačítkem. Konstrukce z nerezové oceli pro snadné čištění a vysokou hygienu, skvělá volba pro phở, stir-fry i další pokrmy.",
@@ -620,7 +620,7 @@
             "Search_results": "Search results",
             // máy xay thịt
             "maythairau.title": "vegetable slicer",
-            "mayhutchankhong.title": "vacuum machine",
+            "mayhutchankhong.title": "Packaging machine",
             "roast.duck.oven.title": "Roast Duck Ovens",
             "meat.grinder.title": "Meat Grinders",
             "pho_cooker": "Pho Cookers",
