@@ -3,6 +3,25 @@
     // Từ điển (đúng chuẩn: cs = Czech, en = English)
     const i18n = {
         cs: {
+            "unox_event.title": "Prezentace produktů UNOX",
+            "buncha.title": "Tradiční Bún chả",
+            "phobo.title": "Tradiční Phở Bò",
+            "phobo.text1": "Phở Bò je víc než jen polévka – je to národní klenot a podstata vietnamské kuchyně. Kombinace jemných rýžových nudlí a tenkých plátků hovězího masa zalitá horkým vývarem si získala srdce gurmánů po celém světě.",
+            "phobo.text2": "Srdcem Phở je silný, pomalu tažený vývar z morkových kostí, ovoněný pečeným badyánem, skořicí a zázvorem. Tento proces vyžaduje hodiny trpělivosti, aby vznikla tekutina, která je dokonale čirá, ale zároveň plná hluboké a bohaté chuti.",
+            "phobo.text3": "Důraz klademe na absolutní čerstvost – od kvalitního masa až po doprovodné bylinky, limetku a chilli, které si do polévky přidáte podle své chuti. Každá miska je připravena tak, aby nabídla dokonalou rovnováhu vůní, teploty a textur.",
+            "phobo.text4": "Phở Bò není jen o zahnání hladu, je to kulinářský rituál. Ať už jako vydatná snídaně nebo hřejivá večeře, tato polévka přináší pocit domova a pohody. Zveme vás, abyste ochutnali tu nejautentičtější verzi, kterou pro vás s láskou připravujeme."
+            ,
+            "unox_event.text1": "Dnes se paní Huong – naše zástupkyně – zúčastnila exkluzivní prezentace produktů pořádané naším strategickým partnerem, společností UNOX. Byla to skvělá příležitost seznámit se s nejnovějšími trendy v gastronomii a prozkoumat špičkové technologie pro profesionální kuchyně.",
+            "unox_event.text2": "Během ukázky paní Huong osobně otestovala výkon chytrých konvektomatů UNOX. Od přesné regulace teploty až po automatizované procesy vaření – tato technologie nejen optimalizuje provoz, ale také zaručuje, že pokrmy dosáhnou té nejvyšší kvality a dokonalé chuti.",
+            "unox_event.text3": "Spolupráce a výměna odborných znalostí s lídry na trhu, jako je UNOX, nám pomáhá neustále zlepšovat naše služby. Naším cílem je přinášet klientům ta nejoptimálnější, nejmodernější a nejspolehlivější řešení pro jejich kuchyňské provozy.",
+            "unox_event.text4": "Upřímně děkujeme týmu UNOX za vřelé přivítání a cenné poznatky. A především děkujeme vám, našim divákům, že sledujete naši cestu a podporujete nás. Těšíme se na další společné projekty!"
+            ,
+
+            "buncha.text1": "Bún chả je kulinářský klenot z Hanoje, proslulý dokonalou kombinací voňavého vepřového masa grilovaného na dřevěném uhlí, jemných rýžových nudlí a čerstvých bylinek. S hrdostí představujeme tuto charakteristickou chuť, která je symbolem vietnamské pouliční gastronomie a nabízí harmonii mezi tradicí a moderními chutěmi.",
+            "buncha.text2": "Duší Bún chả je pečlivě připravená omáčka — absolutní rovnováha mezi slanou, sladkou, kyselou a pikantní chutí. Naše maso je marinováno v přírodním koření a grilováno na žhavém uhlí, aby si zachovalo svou šťavnatost a typické kouřové aroma, přičemž dbáme na nejpřísnější hygienické standardy a nejvyšší kvalitu pro naše hosty.",
+            "buncha.text3": "Náš tým zkušených kuchařů věnuje pozornost každému detailu, od každodenního výběru čerstvých surovin až po estetickou a lákavou prezentaci pokrmu. Ať už se jedná o rychlý oběd nebo útulnou večeři s rodinou, Bún chả vždy přináší pocit pohodlí, skvělé chuti a nové energie.",
+            "buncha.text4": "S dlouhou historií a uznáním od mezinárodních přátel není Bún chả pouhým jídlem, ale kulturním mostem, který spojuje lidi. Nejsme jen dodavateli jídla, ale chceme být vaším partnerem, který přibližuje autentické chutě a identitu Vietnamu místní komunitě i turistům z celého světa."
+            ,
             "icemaker_other": "Další stroje na výrobu ledu",
             "title.Energy_line": "Energetická linka",
             "title_combisteel_energyline_ref": "Objevte naši řadu energeticky úsporného chlazení. Nízká spotřeba energie s plným výkonem, ideální pro udržitelný a efektivní provoz. Na této stránce najdete výběr různých chladicích jednotek vhodných pro udržitelný a efektivní provoz firmy.",
@@ -461,6 +480,23 @@
         },
 
         en: {
+            "unox_event.title": "UNOX Product Showcase Event",
+            "buncha.title": "Bun Cha Hanoi",
+            "phobo.title": "Traditional Beef Pho",
+            "phobo.text1": "Phở Bò is more than just a soup – it is a national treasure and the essence of Vietnamese cuisine. The combination of soft rice noodles and thin slices of beef, poured over with hot broth, has captured the hearts of gourmets worldwide.",
+            "phobo.text2": "The heart of Pho is a strong, slow-cooked broth made from marrow bones, scented with roasted star anise, cinnamon, and ginger. This process requires hours of patience to create a liquid that is perfectly clear yet full of deep and rich flavor.",
+            "phobo.text3": "We emphasize absolute freshness – from high-quality meat to the accompanying herbs, lime, and chili, which you can add to the soup according to your taste. Each bowl is prepared to offer the perfect balance of aromas, temperature, and textures.",
+            "phobo.text4": "Beef Pho is not just about satisfying hunger; it is a culinary ritual. Whether as a hearty breakfast or a warming dinner, this soup brings a sense of home and comfort. We invite you to taste the most authentic version, which we prepare for you with love."
+            ,
+            "unox_event.text1": "Today, Mrs. Huong – our representative – attended an exclusive product showcase hosted by our strategic partner, UNOX. This was a fantastic opportunity to catch up on the latest F&B trends and get hands-on access to the world's leading commercial kitchen equipment.",
+            "unox_event.text2": "During the demonstration, Mrs. Huong personally experienced the power of UNOX's smart combi ovens. From precise temperature control to automated cooking processes, this technology truly optimizes operations while ensuring that food quality reaches perfection.",
+            "unox_event.text3": "Collaborating and exchanging expertise with major brands like UNOX helps us continuously enhance our service quality. Our goal is to provide the most optimal, modern, and durable kitchen design solutions and equipment for our clients' projects.",
+            "unox_event.text4": "We would like to send our sincere thanks to the UNOX team for the warm welcome and valuable insights. And especially, thank you to all of you for watching and supporting our journey. See you in our upcoming projects!"
+            ,
+            "buncha.text1": " Bun Cha is a culinary gem from Hanoi, famous for the perfect combination of fragrant charcoal-grilled pork, soft rice noodles, and fresh herbs. We proudly present this signature flavor, a symbol of Vietnamese street gastronomy, offering a harmony between tradition and modern tastes.",
+            "buncha.text2": "The soul of Bun cha is the carefully prepared dipping sauce — an absolute balance between salty, sweet, sour, and spicy flavors. Our meat is marinated in natural spices and grilled over hot coals to retain its juiciness and typical smoky aroma, ensuring the strictest hygiene standards and highest quality for our guests.",
+            "buncha.text3": "Our team of experienced chefs pays attention to every detail, from the daily selection of fresh ingredients to the aesthetic and inviting presentation of the dish. Whether for a quick lunch or a cozy family dinner, Bun cha always brings a sense of comfort, great taste, and renewed energy.",
+            "buncha.text4": "With a long history and recognition from international friends, Bun cha is not just a dish, but a cultural bridge connecting people. We are not just food providers; we aim to be your partner in bringing the authentic flavors and identity of Vietnam closer to the local community and tourists from around the world.",
             "icemaker_other": "Combisteel - ice maker machines",
             "title.Energy_line": "Energy line",
             "title_combisteel_energyline_ref": "Discover our range of energy-efficient refrigeration. Low energy use with full performance, ideal for sustainable and efficient operations. On this page, you’ll find a selection of various refrigeration units suitable for sustainable and efficient business operations.",
