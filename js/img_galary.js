@@ -27,6 +27,33 @@ const imageList = [
   "galary-24.jpg",
   "galary-25.jpg",
   "galary-26.jpg",
+
+  // === Phần mới thêm từ 28 đến 52 ===
+  "galary-28.png",
+  "galary-29.png",
+  "galary-30.png",
+  "galary-31.png",
+  "galary-32.png",
+  "galary-33.png",
+  "galary-34.png",
+  "galary-35.png",
+  "galary-36.png",
+  "galary-37.png",
+  "galary-38.png",
+  "galary-39.png",
+  "galary-40.png",
+  "galary-41.png",
+  "galary-42.png",
+  "galary-43.png",
+  "galary-44.png",
+  "galary-45.png",
+  "galary-46.png",
+  "galary-47.png",
+  "galary-48.png",
+  "galary-49.png",
+  "galary-50.png",
+  "galary-51.png",
+  "galary-52.png"
 ];
 
 const container = document.getElementById("product-grid");
