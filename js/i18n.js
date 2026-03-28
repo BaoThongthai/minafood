@@ -262,7 +262,7 @@
             "buttons.showLess": "Skrýt",
 
             // ví dụ topbar (nếu sau này bạn gắn data-i18n)
-            "topbar.address": "Libušská 3/163, Praha - 142 00",
+            "topbar.address": "Na Okruhu 487, Praha 4 – naproti obchodnímu centru Sapa",
             "topbar.email": "info@minafood.cz",
             "topbar.phone": "+420 608 188 896",
 
