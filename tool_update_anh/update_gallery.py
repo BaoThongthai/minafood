@@ -72,7 +72,7 @@ def update_image_list_in_js(js_path: Path, new_entries: list[str]) -> None:
     text = js_path.read_text(encoding="utf-8")
 
     max_num = parse_max_gallery_number(text)
-    log(f"Ảnh lớn nhất hiện tại trong imageList: galary_{max_num}.png")
+    log(f"Số gallery lớn nhất hiện tại: {max_num}")
 
     array_match = re.search(
         r"(const\s+imageList\s*=\s*\[)(.*?)(\]\s*;)",
@@ -80,7 +80,7 @@ def update_image_list_in_js(js_path: Path, new_entries: list[str]) -> None:
         flags=re.DOTALL
     )
     if not array_match:
-        raise ValueError("Không tìm thấy biến `const imageList = [...]` trong file JS")
+        raise ValueError("Không tìm thấy biến imageList")
 
     prefix = array_match.group(1)
     body = array_match.group(2)
@@ -88,18 +88,23 @@ def update_image_list_in_js(js_path: Path, new_entries: list[str]) -> None:
 
     existing_body = body.rstrip()
 
+    today = datetime.now().strftime("%d-%m-%Y")
+
+    # 🔥 block thêm mới
+    new_block = "\n"
+    new_block += f"    // thêm ảnh ngày {today}\n"
+    new_block += "\n".join([f'    "{item}",' for item in new_entries])
+    new_block += "\n"
+
     if existing_body.strip():
         if not existing_body.strip().endswith(","):
             existing_body += ","
-        formatted_new_items = "\n" + "\n".join([f'    "{item}",' for item in new_entries]) + "\n"
-    else:
-        formatted_new_items = "\n" + "\n".join([f'    "{item}",' for item in new_entries]) + "\n"
 
-    new_array = f"{prefix}{existing_body}{formatted_new_items}{suffix}"
+    new_array = f"{prefix}{existing_body}{new_block}{suffix}"
     new_text = text[:array_match.start()] + new_array + text[array_match.end():]
 
     js_path.write_text(new_text, encoding="utf-8")
-    log(f"Đã cập nhật file JS: thêm {len(new_entries)} ảnh mới vào imageList")
+    log(f"Đã thêm {len(new_entries)} ảnh vào JS (có comment ngày)")
 
 
 def copy_and_rename_images(source_files: list[Path], dest_dir: Path, start_num: int) -> list[str]:
