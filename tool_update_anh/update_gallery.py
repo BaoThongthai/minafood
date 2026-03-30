@@ -55,7 +55,7 @@ def get_source_images(source_dir: Path):
 
 
 def parse_max_gallery_number(js_text: str) -> int:
-    matches = re.findall(r'galary_(\d+)\.png', js_text, flags=re.IGNORECASE)
+    matches = re.findall(r'galary_(\d+)', js_text, flags=re.IGNORECASE)
     if not matches:
         return 0
     return max(int(x) for x in matches)
