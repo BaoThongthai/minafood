@@ -54,7 +54,6 @@ const imageList = [
   "galary-50.png",
   "galary-51.png",
   "galary-52.png",
-  ,
 ];
 
 const container = document.getElementById("product-grid");
