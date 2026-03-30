@@ -54,6 +54,8 @@ const imageList = [
   "galary-50.png",
   "galary-51.png",
   "galary-52.png",
+    // thêm ảnh ngày 30-03-2026
+    "galary-53.png",
 ];
 
 const container = document.getElementById("product-grid");

@@ -12,12 +12,6 @@ except ImportError:
     PIL_AVAILABLE = False
 
 
-# =========================
-# CONFIG
-# =========================
-# File này nằm ở: D:\minafood\minafood\tool_update_anh\update_gallery.py
-# => parent      = tool_update_anh
-# => parent.parent = minafood
 BASE_DIR = Path(__file__).resolve().parent.parent
 TOOL_DIR = Path(__file__).resolve().parent
 
@@ -55,14 +49,14 @@ def get_source_images(source_dir: Path):
 
 
 def parse_max_gallery_number(js_text: str) -> int:
-    matches = re.findall(r'galary_(\d+)', js_text, flags=re.IGNORECASE)
+    matches = re.findall(r'galary[-_](\d+)', js_text, flags=re.IGNORECASE)
     if not matches:
         return 0
     return max(int(x) for x in matches)
 
 
 def build_new_entries(start_num: int, count: int):
-    return [f"img/customer_galary/galary_{i}.png" for i in range(start_num, start_num + count)]
+    return [f"galary-{i}.png" for i in range(start_num, start_num + count)]
 
 
 def update_image_list_in_js(js_path: Path, new_entries: list[str]) -> None:
@@ -70,7 +64,6 @@ def update_image_list_in_js(js_path: Path, new_entries: list[str]) -> None:
         raise FileNotFoundError(f"Không tìm thấy file JS: {js_path}")
 
     text = js_path.read_text(encoding="utf-8")
-
     max_num = parse_max_gallery_number(text)
     log(f"Số gallery lớn nhất hiện tại: {max_num}")
 
@@ -80,31 +73,30 @@ def update_image_list_in_js(js_path: Path, new_entries: list[str]) -> None:
         flags=re.DOTALL
     )
     if not array_match:
-        raise ValueError("Không tìm thấy biến imageList")
+        raise ValueError("Không tìm thấy biến const imageList = [...]")
 
     prefix = array_match.group(1)
     body = array_match.group(2)
     suffix = array_match.group(3)
 
     existing_body = body.rstrip()
-
     today = datetime.now().strftime("%d-%m-%Y")
 
-    # 🔥 block thêm mới
-    new_block = "\n"
-    new_block += f"    // thêm ảnh ngày {today}\n"
-    new_block += "\n".join([f'    "{item}",' for item in new_entries])
-    new_block += "\n"
+    insert_block = (
+        f'\n    // thêm ảnh ngày {today}\n'
+        + "\n".join([f'    "{item}",' for item in new_entries])
+        + "\n"
+    )
 
     if existing_body.strip():
         if not existing_body.strip().endswith(","):
             existing_body += ","
 
-    new_array = f"{prefix}{existing_body}{new_block}{suffix}"
+    new_array = f"{prefix}{existing_body}{insert_block}{suffix}"
     new_text = text[:array_match.start()] + new_array + text[array_match.end():]
 
     js_path.write_text(new_text, encoding="utf-8")
-    log(f"Đã thêm {len(new_entries)} ảnh vào JS (có comment ngày)")
+    log(f"Đã cập nhật file JS: thêm {len(new_entries)} ảnh mới")
 
 
 def copy_and_rename_images(source_files: list[Path], dest_dir: Path, start_num: int) -> list[str]:
@@ -113,7 +105,7 @@ def copy_and_rename_images(source_files: list[Path], dest_dir: Path, start_num: 
     new_names = []
 
     for idx, src in enumerate(source_files, start=start_num):
-        new_name = f"galary_{idx}.png"
+        new_name = f"galary-{idx}.png"
         final_path = dest_dir / new_name
 
         if final_path.exists():
@@ -143,6 +135,15 @@ def copy_and_rename_images(source_files: list[Path], dest_dir: Path, start_num: 
         log(f"Đã thêm ảnh: {src.name} -> {new_name}")
 
     return new_names
+
+
+def cleanup_source_images(source_files: list[Path]) -> None:
+    for src in source_files:
+        try:
+            src.unlink()
+            log(f"Đã xóa ảnh nguồn: {src.name}")
+        except Exception as e:
+            raise RuntimeError(f"Không xóa được ảnh nguồn {src.name}: {e}")
 
 
 def git_commit_and_push(base_dir: Path, image_count: int) -> None:
@@ -187,14 +188,12 @@ def main():
     max_num = parse_max_gallery_number(js_text)
     start_num = max_num + 1
 
-    planned_names = [f"galary_{i}.png" for i in range(start_num, start_num + new_count)]
+    planned_names = [f"galary-{i}.png" for i in range(start_num, start_num + new_count)]
     log(f"Tên ảnh mới sẽ là: {', '.join(planned_names)}")
 
-    copy_and_rename_images(source_files, DEST_DIR, start_num)
-
-    new_entries = build_new_entries(start_num, new_count)
-    update_image_list_in_js(JS_FILE, new_entries)
-
+    new_names = copy_and_rename_images(source_files, DEST_DIR, start_num)
+    update_image_list_in_js(JS_FILE, new_names)
+    cleanup_source_images(source_files)
     git_commit_and_push(BASE_DIR, new_count)
 
     log("=== HOÀN TẤT UPDATE ẢNH GALLERY ===")
